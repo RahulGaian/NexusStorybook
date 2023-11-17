@@ -2,69 +2,74 @@ import React from "react";
 import "./landing.css";
 // import AppSwiper from "../../components/appSwiper";
 // import AndroidApps from "../../components/AndroidAppsSwiper";
-import Nexus from "./map_component/components/comp";
+// import Nexus from "./map_component/components/comp";
+import videofile from "./video/people-connect-digital-wave-2022-08-05-01-43-14-utc.mp4";
+
 
 const Landingpagenew = () => {
   return (
     <>
       <div className="Landing_page_Container">
-        <div className="Landing_top_bg">
-
-        <div class="video-background">
-       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-         {/* <source src="../../../public/videos/people-connect-digital-wave-2022-08-05-01-43-14-utc.mp4" type="video/mp4"/> */}
-       </video>
-     </div>
-
-          <div className="bannerContentContainer">
-            <h1>Nexus Connect</h1>
-            <div className="bannerContentWrapper">
-              <div className="bannerContent">
-                <div>
-                  <h1>Shaping the Future of Television Experiences</h1>
-                </div>
-                <div>
-                  <p>
-                    Nexus Connect marketplace is a dynamic ecosystem that brings
-                    together industry players to create, share, and monetize
-                    innovative applications and services for NextGenTV. It
-                    serves as a hub for broadcasters, content creators,
-                    advertisers, and technology providers to collaborate and
-                    deliver immersive, interactive, and personalized experiences
-                    to viewers.
-                  </p>
-                </div>
-                <div className="bannerContentBtn">
-                  <div>
-                    <button
-                      id="getStartedBtn"
-                      onClick={() => {
-                        window.location.href = "/comingsoon";
-                      }}
-                    >
-                      Get Started
-                    </button>
-                  </div>
-                  <div
-                    id="learnMoreBtn"
-                    onClick={() => {
-                      window.location.href = "/NextGenTV_Webinar";
-                    }}
-                  >
-                    <div>Learn More</div>{" "}
-                    <div className="nexus_rightarrow">
-                      <img
-                        src={
-                          process.env.PUBLIC_URL +
-                          "/images/icons/arrow-right.svg"
-                        }
-                        alt="rightarrow"
-                      />
+      <div className="Landing_top_bg">
+          <div class="video-background">
+            <div className="overlaydiv"></div>
+              <video
+                playsinline="playsinline"
+                autoplay="autoplay"
+                muted="muted"
+                loop="loop"
+              >
+                <source src={videofile} type="video/mp4" />
+              </video>
+              <div className="bannerContentContainer">
+                <h1>Nexus Connect</h1>
+                <div className="bannerContentWrapper">
+                  <div className="bannerContent">
+                    <div>
+                      <h1>Shaping the Future of Television Experiences</h1>
+                    </div>
+                    <div>
+                      <p>
+                        Nexus Connect marketplace is a dynamic ecosystem that
+                        brings together industry players to create, share, and
+                        monetize innovative applications and services for
+                        NextGenTV. It serves as a hub for broadcasters, content
+                        creators, advertisers, and technology providers to
+                        collaborate and deliver immersive, interactive, and
+                        personalized experiences to viewers.
+                      </p>
+                    </div>
+                    <div className="bannerContentBtn">
+                      <div>
+                        <button
+                          id="getStartedBtn"
+                          onClick={() => {
+                            window.location.href = "/comingsoon";
+                          }}
+                        >
+                          Get Started
+                        </button>
+                      </div>
+                      <div
+                        id="learnMoreBtn"
+                        onClick={() => {
+                          window.location.href = "/NextGenTV_Webinar";
+                        }}
+                      >
+                        <div>Learn More</div>{" "}
+                        <div className="nexus_rightarrow">
+                          <img
+                            src={
+                              process.env.PUBLIC_URL + "/images/icons/Arrow.png"
+                            }
+                            alt="rightarrow"
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
 
@@ -91,8 +96,11 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-        <div className="mobile_view_img" style={{display:"none"}}>
-            <img src="images/imagesnew/Nexus_connect/landingpage/side-view-woman.png" alt="" />
+        <div className="mobile_view_img" style={{ display: "none" }}>
+          <img
+            src="images/imagesnew/Nexus_connect/landingpage/side-view-woman.png"
+            alt=""
+          />
         </div>
 
         <div className="third_bg_contaniner">
@@ -157,11 +165,7 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-
-
-        <div>
-          {/* <AppSwiper /> */}
-        </div>
+        {/* <div><AppSwiper /></div> */}
 
         <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
@@ -188,7 +192,10 @@ const Landingpagenew = () => {
         <div className="productContentCardWrapper">
           <div className="productContentCard ">
             <div className="productContentCardImage">
-              <img src="/images/imagesnew/Nexus_connect/landingpage/comp-wifi.png" alt="comp-wifi img" />
+              <img
+                src="/images/imagesnew/Nexus_connect/landingpage/comp-wifi.png"
+                alt="comp-wifi img"
+              />
             </div>
             <div className="productContentCardDesc">
               <h1>Discover a World of NextGenTV Experiences</h1>
@@ -204,7 +211,10 @@ const Landingpagenew = () => {
 
           <div className="productContentCard ">
             <div className="productContentCardImage">
-              <img src="/images/imagesnew/Nexus_connect/landingpage/comp-tower.png" alt="comp-tower img" />
+              <img
+                src="/images/imagesnew/Nexus_connect/landingpage/comp-tower.png"
+                alt="comp-tower img"
+              />
             </div>
             <div className="productContentCardDesc">
               <h1>Monetize Your NextGenTV Offerings</h1>
@@ -223,7 +233,10 @@ const Landingpagenew = () => {
 
           <div className="productContentCard ">
             <div className="productContentCardImage">
-              <img src="images/imagesnew/Nexus_connect/landingpage/computer-img.png" alt="computer-img" />
+              <img
+                src="images/imagesnew/Nexus_connect/landingpage/computer-img.png"
+                alt="computer-img"
+              />
             </div>
             <div className="productContentCardDesc">
               <h1>Drive User Engagement and Optimize Performance</h1>
@@ -242,9 +255,7 @@ const Landingpagenew = () => {
           <div className="android_swiper_heading" style={{ margin: "5%" }}>
             <h1>Our Partners</h1>
           </div>
-          <div style={{ margin: "5%" }}>
-            {/* <AndroidApps /> */}
-          </div>
+          <div style={{ margin: "5%" }}>{/* <AndroidApps /> */}</div>
         </div>
       </div>
     </>
