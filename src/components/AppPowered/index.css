@@ -1,0 +1,27 @@
+.heading-card {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    line-height: 1.375;
+  }
+
+  .AppsPowered{
+
+/* font-family: 'DM Sans'; */
+margin-left: auto;
+margin-right: auto;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+/* identical to box height */
+
+color: #2B2B2B;
+  }
+
+
+  /* .appsPowered1{
+    width: 370px;
+height: 529px;
+  } */

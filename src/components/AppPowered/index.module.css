@@ -1,0 +1,39 @@
+.Image{
+    /* background: linear-gradient(5.11deg, #AD00A2 -11.19%, rgba(130, 50, 237, 0.723958) 43.8%, rgba(114, 32, 224, 0) 95.72%); */
+    /* background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 50%); */
+    position: relative;
+    height: 280px;
+    z-index: 9;
+  
+}
+.Image:hover{
+    background: linear-gradient(5.11deg, #AD00A2 -11.19%, rgba(130, 50, 237, 0.723958) 43.8%, rgba(114, 32, 224, 0) 95.72%);
+}
+.card{
+    position: relative;
+    height: 530px;
+}
+.imagefolder{
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+@media only screen and (max-width:768px) and (min-width:520px){
+    .card{
+        width: 20rem !important;
+        position: relative;
+        height: fit-content !important;
+    }
+
+}
+@media only screen and (max-width:520px) {
+/* @media only screen and (max-width:420px) and (min-width:360px){ */
+    .card{
+        position: relative;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        height: 530px;
+    }
+    .imagefolder{
+        width: 100%;
+    }
+}
