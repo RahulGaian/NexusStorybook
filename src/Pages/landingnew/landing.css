@@ -26,7 +26,7 @@
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
   z-index: -100;
 }
 
-.overlaydiv{
+.overlaydiv {
   position: absolute;
   top: 10;
   right: 0;
@@ -69,7 +69,7 @@
   padding-top: 130px;
   min-height: 1000px;
   max-height: fit-content;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .bannerContentContainer > h1 {
@@ -167,15 +167,14 @@
   fill: white;
 }
 
-/* second_bg_img-contaniner----------------------------------- */
+/* ---------------second_bg_img-contaniner--------------------------- */
 .second_bg_img-contaniner {
   background: url("../../../public/images/imagesnew/Nexus_connect/landingpage/side-view-woman.png");
   background-size: 100% 100%;
   width: 100%;
-  min-height: 600px;
+  min-height: 500px;
   max-height: fit-content;
   object-fit: cover;
-
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -186,7 +185,7 @@
   /* width: 55%; */
   width: 1700px;
   min-height: fit-content;
-  margin: 10% 0;
+  margin: 6% 0;
   /* padding-top: 6%;
     padding-bottom: 6%;
     row-gap: 1%; */
@@ -197,12 +196,13 @@
 .second_bg_heading h1 {
   color: #f6f6f6;
   font-family: ITC Avant Garde Gothic;
-  font-size: 50px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 600;
   line-height: 43.191px;
 
   padding: 1% 0%;
+  text-align: left;
 }
 
 .second_bg_para1 p {
@@ -215,6 +215,7 @@
   font-weight: 500;
   line-height: 43.191px;
   padding: 1% 0%;
+  text-align: left;
 }
 
 .second_bg_para2 p {
@@ -226,12 +227,13 @@
   font-weight: 400;
   line-height: 24px;
   /* padding: 1%; */
+  text-align: left;
 }
 
 /* third_bg_contaniner--------------------------------------------------- */
 
 .third_bg_contaniner {
-  min-height: 800px;
+  min-height: 700px;
   max-height: fit-content;
   background: #000;
   width: 100%;
@@ -251,7 +253,6 @@
   min-height: 300px;
   max-height: fit-content;
   width: 50%;
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -281,7 +282,7 @@
   font-family: ITC Avant Garde Gothic;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 166.667% */
+  line-height: 30px; 
   letter-spacing: -0.132px;
 }
 
@@ -337,7 +338,7 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 180%;
+  line-height: 30px; 
   letter-spacing: -0.132px;
 }
 
@@ -361,7 +362,7 @@
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 180%;
+  line-height: 30px; 
   letter-spacing: -0.132px;
 }
 
@@ -394,7 +395,7 @@
   padding-left: 2%;
 }
 
-.content_nab-show{
+.content_nab-show {
   width: 300px;
 }
 
@@ -420,7 +421,7 @@
 
 .winner_img {
   width: 400px;
-  height:120px;
+  height: 120px;
 }
 
 .winner_img img {
@@ -469,6 +470,7 @@
 } */
 
 @media only screen and (max-width: 1800px) and (min-width: 1440px) {
+  /* //DONT DELETE THE COMMENTED CODE IN THIS MEDIA QUERY RANGE---------will used to improve responsiveness in future for other ranges */
   .Landing_top_bg {
     min-height: 900px;
     max-height: fit-content;
@@ -514,10 +516,11 @@
     margin-bottom: 5%;
     /* margin: 0 auto; */
   }
-  /* 
+  /*   
     .bg_subheading {
       height: fit-content;
     } */
+
   /* .bannerContentBtn {
       display: flex;
       justify-content: center;
@@ -567,11 +570,10 @@
   }
 
   .second_bg_content {
-    /* width: 55%; */
     width: 1420px !important;
     min-height: fit-content;
-    margin: 5% 0;
-    padding-left: 4%;
+    /* margin: 5% 0; */
+    /* padding-left: 4%; */
   }
 
   .second_bg_heading h1 {
@@ -583,7 +585,7 @@
 
   .second_bg_para1 p {
     /* width: 55%; */
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 43.191px;
     /* padding: 1% 0%; */
@@ -643,7 +645,7 @@
     margin: 0 auto;
     text-align: center;
     font-weight: 400; */
-    line-height: 24px;
+    line-height: 30px;
     letter-spacing: -0.132px;
   }
 
@@ -722,19 +724,10 @@
   } */
 
   /* -------------mobius_won_wrapper--------- */
-  /* .mobius_won_wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
   .mobius_won_content {
     width: 1420px;
     max-height: fit-content;
-    /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
   }
 
   /* .content_nab-show img {
@@ -744,9 +737,6 @@
 
   .content_text p {
     width: 95%;
-    color: #404040;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: ITC Avant Garde Gothic;
     font-size: 3rem;
     font-style: normal;
     font-weight: 500;
@@ -810,55 +800,10 @@
     margin-bottom: 5%;
     /* margin: 0 auto; */
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
-  /* .bannerContentBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
-      color: white;
-    } */
-
-  /* #getStartedBtn {
-      width: fit-content;
-      box-sizing: border-box;
-      padding: 10px 30px 10px 30px;
-  
-      background: #ffa200;
-      border: 1px solid #ffa200;
-      border-radius: 10px;
-      text-align: center;
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 2.3rem;
-    } */
-
-  /* #learnMoreBtn {
-      color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px;
-    } */
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 500px;
+    min-height: 320px;
     max-height: fit-content;
   }
 
@@ -866,20 +811,19 @@
     /* width: 55%; */
     width: 1200px !important;
     min-height: fit-content;
-    margin: 3% 0;
+    margin: 1% 0;
     padding-left: 4%;
   }
 
   .second_bg_heading h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    line-height: 43.191px;
+    line-height: 35px;
     /* padding: 1% 0%; */
   }
-
   .second_bg_para1 p {
     /* width: 55%; */
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 43.191px;
     /* padding: 1% 0%; */
@@ -887,7 +831,7 @@
 
   .second_bg_para2 p {
     width: 55%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     /* padding: 1% 0%; */
@@ -895,36 +839,13 @@
 
   /* third_bg_contaniner--------------------------------------------------- */
 
-  /* .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-    background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
   /* width resolution ------------ */
   .third_bg_content {
     width: 1200px !important;
     max-height: fit-content;
   }
 
-  /* .third_bg_upper {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
   .third_bg_upper div h1 {
-    color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic;
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 500;
@@ -944,12 +865,10 @@
 
   .Ark_logo {
     width: 150px;
-    /* height: fit-content; */
     padding: 1%;
   }
   .Ark_logo img {
     width: 100%;
-    /* height: 100%; */
   }
 
   .mobius_logo_ {
@@ -962,87 +881,22 @@
     margin: 5px;
   }
 
-  /* .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-  } */
-
-  /* .third_bg_left_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
-  /* .third_bg_lower_para1 p {
-    color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
-    letter-spacing: -0.132px;
-  } */
-
-  /* .third_bg_right_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
-  /* .third_bg_lower_para2 p {
-    color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
-    letter-spacing: -0.132px;
-  } */
-
   /* -------------mobius_won_wrapper--------- */
-  /* .mobius_won_wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
   .mobius_won_content {
     width: 1200px !important;
     max-height: fit-content;
-    /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
   }
 
-  /* .content_nab-show img {
-    width: 400px;
-    height: 300px;
+
+  .content_nab-show img {
+    width: 250px;
+    height: 250px;
   }
 
   .content_text p {
-    width: 95%;
-    color: #404040;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 3rem;
+    width: 90%;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
     line-height: 50px;
@@ -1050,13 +904,13 @@
   }
 
   .winner_img {
-    width: 400px;
+    width: 300px;
     height: 70px;
   }
 
   .winner_img img {
     width: 80%;
-  } */
+  }
 }
 
 @media screen and (max-width: 1250px) and (min-width: 980px) {
@@ -1105,55 +959,10 @@
     margin-bottom: 5%;
     /* margin: 0 auto; */
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
-  /* .bannerContentBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
-      color: white;
-    } */
-
-  /* #getStartedBtn {
-      width: fit-content;
-      box-sizing: border-box;
-      padding: 10px 30px 10px 30px;
-  
-      background: #ffa200;
-      border: 1px solid #ffa200;
-      border-radius: 10px;
-      text-align: center;
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 2.3rem;
-    } */
-
-  /* #learnMoreBtn {
-      color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px;
-    } */
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 400px;
+    min-height: 320px;
     max-height: fit-content;
   }
 
@@ -1189,36 +998,13 @@
 
   /* third_bg_contaniner--------------------------------------------------- */
 
-  /* .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-    background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
   /* width resolution ------------ */
   .third_bg_content {
     width: 950px !important;
     max-height: fit-content;
   }
 
-  /* .third_bg_upper {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
   .third_bg_upper div h1 {
-    color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic;
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 500;
@@ -1238,7 +1024,6 @@
 
   .Ark_logo {
     width: 130px;
-    /* height: fit-content; */
     padding: 1%;
   }
   .Ark_logo img {
@@ -1256,31 +1041,7 @@
     margin: 5px;
   }
 
-  /* .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-  } */
-
-  /* .third_bg_left_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
   .third_bg_lower_para1 p {
-    color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -1314,37 +1075,42 @@
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
-    width: 950px !important;
-    max-height: fit-content;
-    /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
+    width: 90%;
+    min-height: 160px;
+    /* padding-left: 2%; */
+    margin: 8% auto;
   }
 
+  /* .content_nab-show {
+    width: 300px;
+    height: 160px;
+  } */
+
   .content_nab-show img {
-    width: 400px;
-    height: 250px;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 180px;
+    height: 220px;
   }
 
   .content_text p {
-    width: 95%;
-    color: #404040;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 2.5rem;
+    width: 90%;
+    font-size: 1.8rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
+    font-weight: 800;
+    line-height: 30px;
     text-align: center;
+    padding-left: 2%;
   }
 
   .winner_img {
-    width: 400px;
+    width: 220px;
     height: 70px;
   }
 
   .winner_img img {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -1394,52 +1160,6 @@
     margin-bottom: 5%;
     /* margin: 0 auto; */
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
-
-  /* .bannerContentBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
-      color: white;
-    } */
-
-  /* #getStartedBtn {
-      width: fit-content;
-      box-sizing: border-box;
-      padding: 10px 30px 10px 30px;
-  
-      background: #ffa200;
-      border: 1px solid #ffa200;
-      border-radius: 10px;
-      text-align: center;
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 2.3rem;
-    } */
-
-  /* #learnMoreBtn {
-      color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px;
-    } */
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
@@ -1479,15 +1199,6 @@
 
   /* third_bg_contaniner--------------------------------------------------- */
 
-  /* .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-    background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
   /* width resolution ------------ */
   .third_bg_content {
     width: 90% !important;
@@ -1506,9 +1217,6 @@
   } */
 
   .third_bg_upper div h1 {
-    /* color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 2.2rem;
     font-style: normal;
     font-weight: 500;
@@ -1528,7 +1236,6 @@
 
   .Ark_logo {
     width: 130px;
-    /* height: fit-content; */
     padding: 1%;
   }
   .Ark_logo img {
@@ -1545,27 +1252,6 @@
     width: 130px;
     margin: 2px;
   }
-
-  /* .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-  } */
-
-  /* .third_bg_left_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
 
   .third_bg_lower_para1 p {
     font-size: 20px;
@@ -1597,31 +1283,42 @@
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
-    width: 90% !important;
-    max-height: fit-content;
+    width: 90%;
+    min-height: 160px;
+    /* padding-left: 2%; */
+    margin: 8% auto;
   }
 
+  /* .content_nab-show {
+    width: 300px;
+    height: 160px;
+  } */
+
   .content_nab-show img {
-    width: 400px;
-    height: 200px;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 180px;
+    height: 220px;
   }
 
   .content_text p {
-    width: 95%;
-    font-size: 1.5rem;
+    width: 90%;
+    font-size: 1.8rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 30px;
     text-align: center;
+    padding-left: 2%;
   }
 
   .winner_img {
-    width: 400px;
+    width: 220px;
     height: 70px;
   }
 
   .winner_img img {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -1639,7 +1336,7 @@
   }
 
   .bannerContentContainer > h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 600;
     line-height: 150px;
@@ -1671,52 +1368,6 @@
     margin-bottom: 5%;
     /* margin: 0 auto; */
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
-
-  /* .bannerContentBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
-      color: white;
-    } */
-
-  /* #getStartedBtn {
-      width: fit-content;
-      box-sizing: border-box;
-      padding: 10px 30px 10px 30px;
-  
-      background: #ffa200;
-      border: 1px solid #ffa200;
-      border-radius: 10px;
-      text-align: center;
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 2.3rem;
-    } */
-
-  /* #learnMoreBtn {
-      color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px;
-    } */
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
@@ -1756,36 +1407,13 @@
 
   /* third_bg_contaniner--------------------------------------------------- */
 
-  /* .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-    background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
   /* width resolution ------------ */
   .third_bg_content {
     width: 90% !important;
     max-height: fit-content;
   }
 
-  /* .third_bg_upper {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
   .third_bg_upper div h1 {
-    /* color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 500;
@@ -1823,27 +1451,6 @@
     margin: 2px;
   }
 
-  /* .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-  } */
-
-  /* .third_bg_left_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
   .third_bg_lower_para1 p {
     font-size: 20px;
     font-style: normal;
@@ -1874,36 +1481,22 @@
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
-    /* position: relative; */
     width: 90%;
     min-height: 160px;
-    max-height: fit-content;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* padding-left: 2%; */
     margin: 8% auto;
-    border-radius: 8px;
-    border: 1px solid #ffcc47;
-    background: linear-gradient(
-      91deg,
-      rgba(5, 151, 255, 0.1) -1.56%,
-      rgba(255, 205, 130, 0.1) 71.36%,
-      rgba(255, 162, 0, 0.1) 101.57%
-    );
-    backdrop-filter: blur(2px);
-    padding-left: 2%; */
   }
-  
-  .content_nab-show{
+
+  .content_nab-show {
     width: 300px;
   }
-  
+
   .content_nab-show img {
     position: absolute;
-    top: -50px;
+    top: -30px;
     left: 20px;
     width: 180px;
-    height: 250px;
+    height: 200px;
   }
 
   .content_text p {
@@ -1914,7 +1507,6 @@
     line-height: 30px;
     text-align: center;
     padding-left: 2%;
-
   }
 
   .winner_img {
@@ -1941,10 +1533,10 @@
   }
 
   .bannerContentContainer > h1 {
-    font-size: 7rem;
+    font-size: 6.5rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 150px;
+    line-height: 100px;
   }
 
   .bannerContentWrapper {
@@ -1973,10 +1565,6 @@
     margin-bottom: 5%;
     /* margin: 0 auto; */
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
 
   /* .bannerContentBtn {
       display: flex;
@@ -2061,12 +1649,6 @@
   .third_bg_contaniner {
     min-height: 800px;
     max-height: fit-content;
-    /* background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
   }
 
   /* width resolution ------------ */
@@ -2087,9 +1669,6 @@
   }
 
   .third_bg_upper div h1 {
-    /* color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 4rem;
     font-style: normal;
     font-weight: 500;
@@ -2109,7 +1688,6 @@
 
   .Ark_logo {
     width: 180px;
-    /* height: fit-content; */
     padding: 1%;
   }
   .Ark_logo img {
@@ -2142,18 +1720,10 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
     text-align: center;
   }
 
   .third_bg_lower_para1 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2165,53 +1735,58 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
   }
 
   .third_bg_lower_para2 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     /* line-height: 120%; */
     line-height: 30px;
     letter-spacing: -0.132px;
+  
   }
-  /* -------------mobius_won_wrapper--------- */
+    /* -------------mobius_won_wrapper--------- */
 
-  .mobius_won_content {
-    width: 90% !important;
-    max-height: fit-content;
-  }
-
-  .content_nab-show img {
-    width: 400px;
-    height: 200px;
-  }
-
-  .content_text p {
-    width: 95%;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: center;
-  }
-
-  .winner_img {
-    width: 400px;
-    height: 70px;
-  }
-
-  .winner_img img {
-    width: 80%;
-  }
+    .mobius_won_content {
+      width: 90%;
+      min-height: 160px !important;
+      /* padding-left: 2%; */
+      /* margin: 8% auto; */
+    }
+  
+    .content_nab-show {
+      /* border: 2px solid red; */
+      width: 400px;
+      height: 160px;
+    }
+  
+    .content_nab-show img {
+      position: absolute;
+      top: -35px;
+      left: 20px;
+      width: 180px;
+      height: 210px;
+    }
+  
+    .content_text p {
+      width: 95%;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 30px;
+      text-align: center;
+      padding-left: 2%;
+    }
+  
+    .winner_img {
+      width: 220px;
+      height: 70px;
+    }
+  
+    .winner_img img {
+      width: 90%;
+    }
 }
 
 @media screen and (max-width: 580px) and (min-width: 480px) {
@@ -2230,7 +1805,7 @@
   .bannerContentContainer > h1 {
     font-size: 6rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 100px;
     text-align: left;
   }
 
@@ -2295,16 +1870,7 @@
   }
 
   #learnMoreBtn {
-    /*
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px; */
-    margin: 0 auto !important;
+    margin: 5% auto !important;
     width: 210%;
   }
 
@@ -2331,7 +1897,7 @@
 
   .mobile_view_img img {
     width: 100%;
-    height: 300px;
+    height: 250px;
   }
 
   .second_bg_content {
@@ -2370,12 +1936,6 @@
   .third_bg_contaniner {
     min-height: 800px;
     max-height: fit-content;
-    /* background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
   }
 
   /* width resolution ------------ */
@@ -2396,9 +1956,6 @@
   }
 
   .third_bg_upper div h1 {
-    /* color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 4rem;
     font-style: normal;
     font-weight: 500;
@@ -2451,18 +2008,10 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
     text-align: center;
   }
 
   .third_bg_lower_para1 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2474,17 +2023,9 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
   }
 
   .third_bg_lower_para2 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2494,18 +2035,18 @@
   }
 
   /* -------------mobius_won_wrapper--------- */
-  
+
   .mobius_won_content {
     width: 90%;
     min-height: 160px;
     max-height: fit-content;
     margin-top: 30%;
   }
-  
-  .content_nab-show{
+
+  .content_nab-show {
     width: 300px;
   }
-  
+
   .content_nab-show img {
     position: absolute;
     top: -100px;
@@ -2524,19 +2065,16 @@
     text-align: center;
     /* margin-top: 2%; */
     padding-top: 30px;
-
   }
 
   .winner_img {
     width: 350px;
-    height:120px !important;
+    height: 120px !important;
   }
 
   .winner_img img {
     width: 90% !important;
   }
-
-
 }
 
 @media screen and (max-width: 480px) and (min-width: 380px) {
@@ -2620,17 +2158,7 @@
   }
 
   #learnMoreBtn {
-    /* color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px; */
-    margin: 0 auto !important;
+    margin: 5% auto !important;
     width: 210%;
   }
 
@@ -2696,12 +2224,6 @@
   .third_bg_contaniner {
     min-height: 800px;
     max-height: fit-content;
-    /* background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
   }
 
   /* width resolution ------------ */
@@ -2722,9 +2244,6 @@
   }
 
   .third_bg_upper div h1 {
-    /* color: #f6f6f6;
-    text-align: center;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 3rem;
     font-style: normal;
     font-weight: 500;
@@ -2744,12 +2263,10 @@
 
   .Ark_logo {
     width: 150px;
-    /* height: fit-content; */
     padding: 1%;
   }
   .Ark_logo img {
     width: 100%;
-    /* height: 100%; */
   }
 
   .mobius_logo_ {
@@ -2777,18 +2294,10 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
     text-align: center;
   }
 
   .third_bg_lower_para1 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2800,17 +2309,9 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
   }
 
   .third_bg_lower_para2 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -2826,11 +2327,11 @@
     max-height: fit-content;
     margin-top: 30%;
   }
-  
-  .content_nab-show{
+
+  .content_nab-show {
     width: 300px;
   }
-  
+
   .content_nab-show img {
     position: absolute;
     top: -100px;
@@ -2849,18 +2350,16 @@
     text-align: center;
     /* margin-top: 2%; */
     padding-top: 30px;
-
   }
 
   .winner_img {
     width: 500px;
-    height:120px !important;
+    height: 120px !important;
   }
 
   .winner_img img {
     width: 90% !important;
   }
-
 }
 
 @media screen and (max-width: 380px) and (min-width: 300px) {
@@ -2950,17 +2449,7 @@
   }
 
   #learnMoreBtn {
-    /* color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px; */
-    margin: 0 auto !important;
+    margin: 5% auto !important;
   }
 
   /* .nexus_rightarrow img {
@@ -3025,12 +2514,6 @@
   .third_bg_contaniner {
     min-height: 800px;
     max-height: fit-content;
-    /* background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
   }
 
   /* width resolution ------------ */
@@ -3070,12 +2553,10 @@
 
   .Ark_logo {
     width: 150px;
-    /* height: fit-content; */
     padding: 1%;
   }
   .Ark_logo img {
     width: 100%;
-    /* height: 100%; */
   }
 
   .mobius_logo_ {
@@ -3103,18 +2584,10 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
     text-align: center;
   }
 
   .third_bg_lower_para1 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -3126,17 +2599,9 @@
     min-height: 300px;
     max-height: fit-content;
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto; */
   }
 
   .third_bg_lower_para2 p {
-    /* color: #f6f6f6;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic; */
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -3152,11 +2617,11 @@
     max-height: fit-content;
     margin-top: 30%;
   }
-  
-  .content_nab-show{
+
+  .content_nab-show {
     width: 300px;
   }
-  
+
   .content_nab-show img {
     position: absolute;
     top: -100px;
@@ -3175,12 +2640,11 @@
     text-align: center;
     /* margin-top: 2%; */
     padding-top: 30px;
-
   }
 
   .winner_img {
     width: 500px;
-    height:120px !important;
+    height: 120px !important;
   }
 
   .winner_img img {

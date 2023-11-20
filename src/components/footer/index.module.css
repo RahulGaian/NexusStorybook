@@ -14,6 +14,7 @@
 .cards1 {
   height: auto;
   margin-top: 5px;
+  list-style: none;
 }
 .bottomfolder {
   width: 100%;
@@ -64,7 +65,10 @@
 }
 ul {
   padding-left: 0rem !important;
+  list-style: none;
 }
+
+
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
   .footermain {
     border-top: 2px solid #d9d9d9;
