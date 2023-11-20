@@ -2,7 +2,7 @@ import React from "react";
 import "./landing.css";
 // import AppSwiper from "../../components/appSwiper";
 // import AndroidApps from "../../components/AndroidAppsSwiper";
-import Nexus from "./map_component/components/comp";
+// import Nexus from "./map_component/components/comp";
 import videofile from "./video/people-connect-digital-wave-2022-08-05-01-43-14-utc.mp4";
 import Features from "./features/Features";
 
@@ -165,7 +165,7 @@ const Landingpagenew = () => {
             </section>
           </div>
         </div>
-        <div><Nexus/></div>
+
         {/* <div><AppSwiper /></div> */}
 
         <div className="mobius_won_wrapper">
