@@ -169,6 +169,7 @@ const Landingpagenew = () => {
           <Nexus />
         </div>
 
+
         {/* <div><AppSwiper /></div> */}
 
         <div className="mobius_won_wrapper">
