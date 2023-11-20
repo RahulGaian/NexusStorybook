@@ -4,6 +4,7 @@ import "./landing.css";
 // import AndroidApps from "../../components/AndroidAppsSwiper";
 // import Nexus from "./map_component/components/comp";
 import videofile from "./video/people-connect-digital-wave-2022-08-05-01-43-14-utc.mp4";
+import Features from "./features/Features";
 
 
 const Landingpagenew = () => {
@@ -144,11 +145,11 @@ const Landingpagenew = () => {
                 <div className="mobius_logo_">
                   <img
                     src="images/imagesnew/Nexus_connect/landingpage/Mobius-white-logo.png"
-                    alt=""
+                    alt="Mobius-white-logo"
                   />
                   <img
                     src="images/imagesnew/Nexus_connect/landingpage/Mobius-written.png"
-                    alt=""
+                    alt="Mobius-written"
                   />
                 </div>
 
@@ -189,67 +190,8 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-        <div className="productContentCardWrapper">
-          <div className="productContentCard ">
-            <div className="productContentCardImage">
-              <img
-                src="/images/imagesnew/Nexus_connect/landingpage/comp-wifi.png"
-                alt="comp-wifi img"
-              />
-            </div>
-            <div className="productContentCardDesc">
-              <h1>Discover a World of NextGenTV Experiences</h1>
-              <p>
-                With NextGenTV Marketplace, viewers can explore a vast array of
-                innovative applications tailored for the NextGenTV platform.
-                From interactive content and enhanced viewing experiences to
-                personalized recommendations and immersive storytelling, our
-                marketplace brings cutting-edge applications at your fingertips.{" "}
-              </p>
-            </div>
-          </div>
 
-          <div className="productContentCard ">
-            <div className="productContentCardImage">
-              <img
-                src="/images/imagesnew/Nexus_connect/landingpage/comp-tower.png"
-                alt="comp-tower img"
-              />
-            </div>
-            <div className="productContentCardDesc">
-              <h1>Monetize Your NextGenTV Offerings</h1>
-              <p>
-                At NextGenTV Marketplace, we believe in empowering content
-                creators and application developers to monetize their offerings.
-                Our platform offers a variety of monetization models, including
-                advertising, subscriptions, and in-app purchases, giving you the
-                flexibility to choose the approach that aligns with your
-                business goals. Benefit from our revenue-sharing mechanism and
-                tap into the growing market of NextGenTV viewers to generate
-                revenue from your innovative applications.
-              </p>
-            </div>
-          </div>
-
-          <div className="productContentCard ">
-            <div className="productContentCardImage">
-              <img
-                src="images/imagesnew/Nexus_connect/landingpage/computer-img.png"
-                alt="computer-img"
-              />
-            </div>
-            <div className="productContentCardDesc">
-              <h1>Drive User Engagement and Optimize Performance</h1>
-              <p>
-                With NextGenTV Marketplace, viewers can explore a vast array of
-                innovative applications tailored for the NextGenTV platform.
-                From interactive content and enhanced viewing experiences to
-                personalized recommendations and immersive storytelling, our
-                marketplace brings cutting-edge applications at your fingertips.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
+        <Features/>
 
         <div>
           <div className="android_swiper_heading" style={{ margin: "5%" }}>
