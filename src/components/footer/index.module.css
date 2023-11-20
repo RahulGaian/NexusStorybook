@@ -1,3 +1,7 @@
+*{
+  /* text-align: left; */
+}
+
 .navlink {
   cursor: pointer;
   font-size: 18px;
@@ -5,6 +9,8 @@
   font-weight: 400;
   text-decoration: none;
   color: black;
+  text-align: left;
+
 }
 
 .navlink:hover {
@@ -107,6 +113,7 @@ ul {
     gap: 0rem;
     height: fit-content;
     width: 90vw;
+    text-align: left;
   }
   .header {
     margin-left: 0rem !important;

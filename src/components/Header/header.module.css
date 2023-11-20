@@ -28,6 +28,8 @@
     height: 80px;
     width: 100%;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+
 }
 .headercomponents{
     display: flex;
@@ -71,7 +73,7 @@
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.01em;
-    color:  #333333;
+    color: #FFF;
     cursor: pointer;
     text-align: center;
     justify-content: center;

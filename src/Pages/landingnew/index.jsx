@@ -2,75 +2,74 @@ import React from "react";
 import "./landing.css";
 // import AppSwiper from "../../components/appSwiper";
 // import AndroidApps from "../../components/AndroidAppsSwiper";
-// import Nexus from "./map_component/components/comp";
+import Nexus from "./map_component/components/comp";
 import videofile from "./video/people-connect-digital-wave-2022-08-05-01-43-14-utc.mp4";
 import Features from "./features/Features";
-
 
 const Landingpagenew = () => {
   return (
     <>
       <div className="Landing_page_Container">
-      <div className="Landing_top_bg">
+        <div className="Landing_top_bg">
           <div class="video-background">
             <div className="overlaydiv"></div>
-              <video
-                playsinline="playsinline"
-                autoplay="autoplay"
-                muted="muted"
-                loop="loop"
-              >
-                <source src={videofile} type="video/mp4" />
-              </video>
-              <div className="bannerContentContainer">
-                <h1>Nexus Connect</h1>
-                <div className="bannerContentWrapper">
-                  <div className="bannerContent">
+            <video
+              playsinline="playsinline"
+              autoplay="autoplay"
+              muted="muted"
+              loop="loop"
+            >
+              <source src={videofile} type="video/mp4" />
+            </video>
+            <div className="bannerContentContainer">
+              <h1>Nexus Connect</h1>
+              <div className="bannerContentWrapper">
+                <div className="bannerContent">
+                  <div>
+                    <h1>Shaping the Future of Television Experiences</h1>
+                  </div>
+                  <div>
+                    <p>
+                      Nexus Connect marketplace is a dynamic ecosystem that
+                      brings together industry players to create, share, and
+                      monetize innovative applications and services for
+                      NextGenTV. It serves as a hub for broadcasters, content
+                      creators, advertisers, and technology providers to
+                      collaborate and deliver immersive, interactive, and
+                      personalized experiences to viewers.
+                    </p>
+                  </div>
+                  <div className="bannerContentBtn">
                     <div>
-                      <h1>Shaping the Future of Television Experiences</h1>
-                    </div>
-                    <div>
-                      <p>
-                        Nexus Connect marketplace is a dynamic ecosystem that
-                        brings together industry players to create, share, and
-                        monetize innovative applications and services for
-                        NextGenTV. It serves as a hub for broadcasters, content
-                        creators, advertisers, and technology providers to
-                        collaborate and deliver immersive, interactive, and
-                        personalized experiences to viewers.
-                      </p>
-                    </div>
-                    <div className="bannerContentBtn">
-                      <div>
-                        <button
-                          id="getStartedBtn"
-                          onClick={() => {
-                            window.location.href = "/comingsoon";
-                          }}
-                        >
-                          Get Started
-                        </button>
-                      </div>
-                      <div
-                        id="learnMoreBtn"
+                      <button
+                        id="getStartedBtn"
                         onClick={() => {
-                          window.location.href = "/NextGenTV_Webinar";
+                          window.location.href = "/comingsoon";
                         }}
                       >
-                        <div>Learn More</div>{" "}
-                        <div className="nexus_rightarrow">
-                          <img
-                            src={
-                              process.env.PUBLIC_URL + "/images/icons/Arrow.png"
-                            }
-                            alt="rightarrow"
-                          />
-                        </div>
+                        Get Started
+                      </button>
+                    </div>
+                    <div
+                      id="learnMoreBtn"
+                      onClick={() => {
+                        window.location.href = "/NextGenTV_Webinar";
+                      }}
+                    >
+                      <div>Learn More</div>{" "}
+                      <div className="nexus_rightarrow">
+                        <img
+                          src={
+                            process.env.PUBLIC_URL + "/images/icons/Arrow.png"
+                          }
+                          alt="rightarrow"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
@@ -166,6 +165,10 @@ const Landingpagenew = () => {
           </div>
         </div>
 
+        <div>
+          <Nexus />
+        </div>
+
         {/* <div><AppSwiper /></div> */}
 
         <div className="mobius_won_wrapper">
@@ -190,8 +193,7 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-
-        <Features/>
+        <Features />
 
         <div>
           <div className="android_swiper_heading" style={{ margin: "5%" }}>
