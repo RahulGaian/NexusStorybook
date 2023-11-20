@@ -1,3 +1,4 @@
+
 .map__container {
   width: 100%;
   display: flex;
@@ -71,7 +72,6 @@
 .barctn1 ul,
 .barctn2 ul {
   list-style: none;
-  font-size: 12px;
 }
 
 .barctn1 ul li::before,
@@ -81,7 +81,7 @@
   width: 0.5em;
   margin-left: -0.5em;
   line-height: 1;
-  vertical-align: -8px;
+  vertical-align: middle;
 }
 
 .barctn1 ul li::before {
@@ -103,12 +103,7 @@
   gap: 122px;
 }
 
-.bottomcont > .mbdiv1 {
-  display: flex;
-  gap: 122px;
-}
-
-.bottomcont > .mbdiv1 > .item {
+.bottomcont > .item {
   width: 262px;
   height: 124px;
   display: flex;
@@ -118,17 +113,7 @@
   /* border: 1px solid black; */
 }
 
-.bottomcont > .mbdiv2 > .item {
-  width: 262px;
-  height: 124px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background: url(./Container.png);
-  /* border: 1px solid black; */
-}
-
-.bottomcont > .mbdiv1 > .item > h1 {
+.bottomcont > .item > h1 {
   color: #474747;
   font-family: ITC Avant Garde Gothic;
   font-size: 62px;
@@ -140,19 +125,7 @@
   margin-left: 31px;
 }
 
-.bottomcont > .mbdiv2 > .item > h1 {
-  color: #474747;
-  font-family: ITC Avant Garde Gothic;
-  font-size: 62px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 80px;
-  margin: 0;
-  text-align: left;
-  margin-left: 31px;
-}
-
-.bottomcont > .mbdiv1 > .item > h5 {
+.bottomcont > .item > h5 {
   color: #474747;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: ITC Avant Garde Gothic;
@@ -163,100 +136,4 @@
   margin: 0;
   text-align: left;
   margin-left: 31px;
-}
-
-.bottomcont > .mbdiv2 > .item > h5 {
-  color: #474747;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: ITC Avant Garde Gothic;
-  font-size: 20.1px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26.8px;
-  margin: 0;
-  text-align: left;
-  margin-left: 31px;
-}
-
-@media screen and (max-width: 600px) {
-  .contentContainer {
-    width: 90%;
-  }
-
-  .contentContainer > .topcont {
-    width: 100%;
-    /* border: 1px solid black; */
-  }
-
-  .contentContainer > .topcont > img {
-    width: 100%;
-    height: 60%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .bottomcont {
-    flex-direction: column;
-    gap: 50px;
-  }
-  .bottomcont > .mbdiv1 {
-    gap: 40px;
-  }
-  .bottomcont > .mbdiv1 > .item {
-    width: 155px;
-    height: 77px;
-    background: url(./Container.png);
-    background-size: 100% 100%;
-  }
-  .bottomcont > .mbdiv2 > .item {
-    width: 155px;
-    height: 77px;
-    background: url(./Container.png);
-    background-size: 100% 100%;
-  }
-  .bottomcont > .mbdiv1 > .item > h1 {
-    font-size: 40px;
-    line-height: normal;
-  }
-  .bottomcont > .mbdiv2 > .item > h1 {
-    font-size: 40px;
-    line-height: normal;
-  }
-  .bottomcont > .mbdiv1 > .item > h5 {
-    font-size: 14px;
-    line-height: normal;
-  }
-  .bottomcont > .mbdiv2 > .item > h5 {
-    font-size: 14px;
-    line-height: normal;
-  }
-  .contentContainer > .topcont > .btmbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
-  .barctn1 ul,
-  .barctn2 ul {
-    list-style: none;
-    font-size: 8px;
-  }
-  .barctn1 ul li::before {
-    color: #007ad1;
-    font-size: 30px;
-  }
-
-  .barctn2 ul li::before {
-    color: #f38e37;
-    font-size: 30px;
-  }
-  .barctn1 ul li::before,
-  .barctn2 ul li::before {
-    content: "•";
-    display: inline-block;
-    width: 0.5em;
-    margin-left: -0.5em;
-    line-height: 1;
-    vertical-align: -6px;
-  }
 }

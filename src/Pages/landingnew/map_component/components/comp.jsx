@@ -22,21 +22,17 @@ const Nexus = () => {
               </div>
             </div>
             <div className="bottomcont">
-              <div className="mbdiv1">
-                <div className="item">
-                  <h1>300</h1>
-                  <h5>Stations</h5>
-                </div>
-                <div className="item">
-                  <h1>39+</h1>
-                  <h5>States</h5>
-                </div>
+              <div className="item">
+                <h1>300</h1>
+                <h5>Stations</h5>
               </div>
-              <div className="mbdiv2">
-                <div className="item">
-                  <h1>100M</h1>
-                  <h5>People</h5>
-                </div>
+              <div className="item">
+                <h1>39+</h1>
+                <h5>States</h5>
+              </div>
+              <div className="item">
+                <h1>100M</h1>
+                <h5>People</h5>
               </div>
             </div>
           </div>
