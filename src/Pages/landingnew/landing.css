@@ -80,6 +80,10 @@
   font-style: normal;
   font-weight: 600;
   line-height: 150px;
+  /* background: -webkit-linear-gradient(white, black);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .bannerContentWrapper {
@@ -1892,6 +1896,7 @@
 
   .mobile_view_img {
     display: block !important;
+    padding-top: 100px;
     /* width: 100%; */
   }
 
@@ -2181,6 +2186,7 @@
   .mobile_view_img {
     display: block !important;
     /* width: 100%; */
+    padding-top: 70px;
   }
 
   .mobile_view_img img {
@@ -2470,6 +2476,7 @@
 
   .mobile_view_img {
     display: block !important;
+    padding-top: 70px;
     /* width: 100%; */
   }
 
