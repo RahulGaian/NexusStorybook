@@ -1,0 +1,216 @@
+.container{
+    min-height: 235px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estimateEarningContainer {
+  display: flex;
+  padding: 40px 40.39px 40px 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: var(
+    --Gradient,
+    linear-gradient(
+      118deg,
+      rgba(64, 175, 255, 0.2) -8.52%,
+      rgba(41, 177, 253, 0.2) 27.6%,
+      rgba(255, 168, 0, 0.2) 63.71%,
+      rgba(251, 180, 42, 0.2) 99.82%
+    )
+  );
+  height: 60px !important;
+  width: 80%;
+
+  /* padding: 60px 130px; */
+
+  /* border: 2px solid red; */
+}
+
+.descPara{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+p {
+  color: #4c4c4c;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-bottom: 10px;
+  /* width: 100%; */
+}
+
+/* .estimateButton {
+  border: 2px solid red;
+  width: 184px;
+  display: inline-block;
+
+  width: 138px;
+  height: 19px;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--Blue, #007cd7);
+} */
+
+button {
+  width: 184px;
+  height: 35px;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px !important;
+  background: var(--Blue, #007cd7);
+  color: var(--Color, #fff);
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: none;
+  cursor: pointer;
+}
+
+
+/*-------- for mobile view---------------- */
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    .container{
+        min-height: 235px;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    .estimateEarningContainer {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+   
+      height: 120px !important;
+      width: 80%;
+    
+      /* border: 2px solid red; */
+    }
+
+    .descPara{
+        width: 90%;
+        /* border: 2px solid red; */
+    }
+
+    p {
+        /* border: 2px solid red; */
+        color: #4C4C4C;
+        text-align: center;
+        font-family: ITC Avant Garde Gothic;
+        font-size: 13.25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      
+        margin-bottom: 10px;
+      }
+    
+      
+      button {
+        width: 184px;
+        height: 35px;
+        /* display: flex; */
+        padding: 8px 24px;
+        /* justify-content: center;
+        align-items: center; */
+        border-radius: 20px !important;
+        /* background: var(--Blue, #007cd7);
+        color: var(--Color, #fff);
+        text-align: center;
+        font-family: ITC Avant Garde Gothic; */
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+/*       
+        border: none;
+        cursor: pointer; */
+      }
+}
+
+/* ----for tablet view---- */
+@media only screen and (max-width: 601px) and (min-width: 980px) {
+    .descPara{
+        width: 80% !important;
+        border: 2px solid red !important;
+    }
+
+    p {
+        /* border: 2px solid red; */
+        color: #4C4C4C;
+        font-family: ITC Avant Garde Gothic;
+        font-size: 14.906px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.7px;
+      
+        margin-bottom: 10px;
+      }
+    
+}
+
+
+
+
+/* @media only screen and (max-width: 2500px) and (min-width: 2000px) {
+}
+@media only screen and (max-width: 2000px) and (min-width: 1800px) {
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1400px) {
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1080px) {
+}
+
+@media screen and (max-width: 1080px) and (min-width: 980px) {
+}
+
+@media screen and (max-width: 980px) and (min-width: 768px) {
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+}
+
+@media screen and (max-width: 600px) and (min-width: 520px) {
+}
+
+@media screen and (max-width: 520px) and (min-width: 420px) {
+}
+
+@media screen and (max-width: 420px) and (min-width: 320px) {
+}
+
+@media screen and (max-width: 320px) and (min-width: 300px) {
+} */
+
+/* ------only use those media query where component is breaking--- */
+

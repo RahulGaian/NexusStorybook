@@ -1,0 +1,40 @@
+.secondHeading {
+    text-align: center;
+    /* height: 200px;
+    width: 600px; */
+    /* background-color:  skyblue; */
+  }
+  
+  .headingText {
+    color: var(--Blue, #007CD7);
+    font-family: 'ITC Avant Garde Gothic', sans-serif;
+    font-size: 41.063px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55.2px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .headingText {
+        color: #4C4C4C;
+        text-align: center;
+        font-family: ITC Avant Garde Gothic;
+        font-size: 41.063px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 55.2px; 
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .headingText {
+        color: #4C4C4C;
+        text-align: center;
+        font-family: ITC Avant Garde Gothic;
+        font-size: 21.548px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28.704px; /* 133.213% */
+    }
+  }
+  
