@@ -1,6 +1,7 @@
 import "./App.css";
-import Landingpagenew from "./Pages/landingnew";
-import HeadFoot from "./components/HeaderFooterHelper";
+// import Landingpagenew from "./Pages/landingnew";
+// import HeadFoot from "./components/HeaderFooterHelper";
+import GetStarted from "./components/getStarted";
 // import MapChart from "./Pages/samplepage/map";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,9 +14,7 @@ function App() {
           <Route
             path="/"
             element={
-              <HeadFoot>
-                <Landingpagenew />
-              </HeadFoot>
+                <GetStarted/>
             }
           ></Route>
           {/* <Route
