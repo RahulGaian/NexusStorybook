@@ -173,7 +173,7 @@
 
 /* ---------------second_bg_img-contaniner--------------------------- */
 .second_bg_img-contaniner {
-  background: url("../../../public/images/imagesnew/Nexus_connect/landingpage/side-view-woman.png");
+  background: url("./side-view-woman.png");
   background-size: 100% 100%;
   width: 100%;
   min-height: 500px;
@@ -733,6 +733,7 @@
     width: 1420px;
     max-height: fit-content;
   }
+
 
   /* .content_nab-show img {
     width: 400px;
@@ -1521,6 +1522,9 @@
   .winner_img img {
     width: 90%;
   }
+  .android_swiper_heading h1{
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 680px) and (min-width: 580px) {
@@ -1790,6 +1794,10 @@
   
     .winner_img img {
       width: 90%;
+    }
+
+    .android_swiper_heading h1{
+      font-size: 32px;
     }
 }
 
@@ -2080,6 +2088,9 @@
   .winner_img img {
     width: 90% !important;
   }
+  .android_swiper_heading h1{
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 480px) and (min-width: 380px) {
@@ -2365,6 +2376,10 @@
 
   .winner_img img {
     width: 90% !important;
+  }
+
+  .android_swiper_heading h1{
+    font-size: 32px;
   }
 }
 
@@ -2656,5 +2671,9 @@
 
   .winner_img img {
     width: 90% !important;
+  }
+
+  .android_swiper_heading h1{
+    font-size: 32px;
   }
 }
