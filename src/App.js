@@ -1,9 +1,9 @@
-import './App.css';
-import Landingpagenew from './Pages/landingnew';
+import "./App.css";
+import Landingpagenew from "./Pages/landingnew";
 import HeadFoot from "./components/HeaderFooterHelper";
+// import MapChart from "./Pages/samplepage/map";
 
-
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -18,8 +18,16 @@ function App() {
               </HeadFoot>
             }
           ></Route>
-          </Routes>
-        </BrowserRouter>
+          {/* <Route
+            path="/map"
+            element={
+              <HeadFoot>
+                <MapChart/>
+              </HeadFoot>
+            }
+          ></Route> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

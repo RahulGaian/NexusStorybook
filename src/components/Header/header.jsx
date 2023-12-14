@@ -8,7 +8,7 @@ import Platform from "./menudropdown/platform";
 import Company from "./menudropdown/company";
 import Solutions from "./menudropdown/solutions";
 // import Products from './menudropdown/products';
-import Firstview from "./mobiledropdown/firstview";
+// import Firstview from "./mobiledropdown/firstview";
 import images from "../../constants/images";
 import Resources from "./menudropdown/resources";
 // import Services from './menudropdown/service';
@@ -2197,17 +2197,14 @@ function Header() {
                   window.location.href = "/";
                 }}
               >
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/images/Nexus_connect/landingpage/logo1.svg"
-                  }
-                  alt="nexuslogo"
-                ></img>
+                <img src={require("./logo1.png")} alt="nexuslogo"></img>
               </div>
               {!isplatform ? (
                 <div>
-                  <div className={isScrolled?Style.textBlack:Style.textWhite} onClick={handlePlatform}>
+                  <div
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
+                    onClick={handlePlatform}
+                  >
                     MARKETPLACES
                   </div>
                   <div className={Style.bottombar}></div>
@@ -2215,7 +2212,7 @@ function Header() {
               ) : (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handlePlatform();
                     }}
@@ -2223,7 +2220,10 @@ function Header() {
                     MARKETPLACES
                   </div>
                   <div className={Style.bottombar2}>
-                    <img src={images.DownArrow} alt="downarrow" />
+                    <img
+                      src={require("./Vectordownarrow.png")}
+                      alt="downarrow"
+                    />
                   </div>
                 </div>
               )}
@@ -2231,7 +2231,7 @@ function Header() {
               {!isOpen ? (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleClick();
                     }}
@@ -2243,7 +2243,7 @@ function Header() {
               ) : (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleClick();
                     }}
@@ -2251,7 +2251,10 @@ function Header() {
                     PLATFORM
                   </div>
                   <div className={Style.bottombar2}>
-                    <img src={images.DownArrow} alt="downarrow" />
+                    <img
+                      src={require("./Vectordownarrow.png")}
+                      alt="downarrow"
+                    />
                   </div>
                 </div>
               )}
@@ -2259,7 +2262,7 @@ function Header() {
               {!isresource ? (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleresource();
                     }}
@@ -2271,7 +2274,7 @@ function Header() {
               ) : (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleresource();
                     }}
@@ -2280,7 +2283,7 @@ function Header() {
                   </div>
                   <div className={Style.bottombar2}>
                     <img
-                      src={process.env.PUBLIC_URL + "images/icons/Vector.svg"}
+                      src={require("./Vectordownarrow.png")}
                       alt="downarrow"
                     />
                   </div>
@@ -2290,7 +2293,7 @@ function Header() {
               {!iscompany ? (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleCompany();
                     }}
@@ -2302,7 +2305,7 @@ function Header() {
               ) : (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleCompany();
                     }}
@@ -2310,7 +2313,10 @@ function Header() {
                     NETWORK
                   </div>
                   <div className={Style.bottombar2}>
-                    <img src={images.DownArrow} alt="downarrow" />
+                    <img
+                      src={require("./Vectordownarrow.png")}
+                      alt="downarrow"
+                    />
                   </div>
                 </div>
               )}
@@ -2318,7 +2324,7 @@ function Header() {
               {!iscompany ? (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleCompany();
                     }}
@@ -2330,7 +2336,7 @@ function Header() {
               ) : (
                 <div>
                   <div
-                    className={isScrolled?Style.textBlack:Style.textWhite}
+                    className={isScrolled ? Style.textBlack : Style.textWhite}
                     onClick={() => {
                       handleCompany();
                     }}
@@ -2338,19 +2344,22 @@ function Header() {
                     COMPANY
                   </div>
                   <div className={Style.bottombar2}>
-                    <img src={images.DownArrow} alt="downarrow" />
+                    <img
+                      src={require("./Vectordownarrow.png")}
+                      alt="downarrow"
+                    />
                   </div>
                 </div>
               )}
             </div>
-            
+
             <div id={Style.btns}>
               {/* <div ><button id={Style.book} onClick={()=>{window.open("https://calendly.com/d/2sn-wnj-xnc/sales-discovery-call?primary_color=a513a7","");}}>Book a Demo</button></div> */}
               <div id={Style.login} onClick={handlelogin}>
                 <span>Login</span>
                 <span>
                   <img
-                    src={images.DownArrow}
+                    src={require("./Vectordownarrow.png")}
                     alt="vector"
                     style={{
                       transform: `rotate(${rotation}deg)`,
@@ -2369,13 +2378,7 @@ function Header() {
                   window.location.href = "/";
                 }}
               >
-                <img
-                  src={
-                    process.env.PUBLIC_URL +
-                    "/images/Nexus_connect/landingpage/logo1.svg"
-                  }
-                  alt="nexuslogo"
-                ></img>
+                <img src={require("./logo1.png")} alt="nexuslogo"></img>
               </div>
             </div>
             <div className={Style.hambermenu}>
@@ -2401,10 +2404,10 @@ function Header() {
             </div>
           </div>
         </div>
-        {isdropped && (
+        {/* {isdropped && (
           // <div className={Style.mobileview}></div>   {if(isclicked){setclicked(true);setIsOpen(true)}else{setIsOpen(false)};}
           <Firstview data={data} />
-        )}
+        )} */}
 
         {/* <div id={Style.megadropdown}>
       <div> */}

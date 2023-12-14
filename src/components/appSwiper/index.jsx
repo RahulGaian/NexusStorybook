@@ -6,6 +6,14 @@ import { EffectCoverflow, Pagination } from "swiper";
 import SwiperCore, { Autoplay } from 'swiper';
 import { useRef,useEffect,useState} from "react";
 import SingleApp2 from "../singlecard";
+import img311 from "./images/1.png";
+import liveZoom from "./images/2.png";
+import fr from "./images/3.png";
+import digsign from "./images/dig.png";
+import suh from "./images/suh.png";
+import liveNews from "./images/live_news_swiper.jpg";
+import gving from "./images/giving_swiper.jpg";
+import hdwani from "./images/hd_radio_swiper.jpg";
 
 let AppSwiper = ({data}) => {
     SwiperCore.use([Autoplay]);
@@ -64,9 +72,9 @@ let AppSwiper = ({data}) => {
         <>
         <section >   
             <div className="appswiperheader">
-              <div  className="AppsPowered">
+              {/* <div  className="AppsPowered">
               <h1 >Apps Powered by Mobius </h1>
-              </div>
+              </div> */}
                     
             </div>
            <div className="appswipermain">
@@ -102,7 +110,7 @@ let AppSwiper = ({data}) => {
         >
         <SwiperSlide>
             <SingleApp2 
-             image={"1.png"}
+             image={img311}
              heading={"311"}
              content={`311 citizen engagement app is a mobile application that
              allows citizens to report non-emergency issues to their
@@ -116,7 +124,7 @@ let AppSwiper = ({data}) => {
               
         <SwiperSlide>
             <SingleApp2 
-             image={"2.png"}
+             image={liveZoom}
              heading={"Live Maps"}
              content={`A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Live Maps enriches the user experience by offering dynamic and visually appealing map features.`}
              Route={'/solutions/live-maps'}
@@ -126,7 +134,7 @@ let AppSwiper = ({data}) => {
               
         <SwiperSlide>
             <SingleApp2 
-             image={"3.png"}
+             image={fr}
              heading={"First Responder"}
              content={`First Responder Alerting MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.`}
              Route={'/products/fra'}
@@ -137,7 +145,7 @@ let AppSwiper = ({data}) => {
               
         <SwiperSlide>
             <SingleApp2 
-             image={"dig.png"}
+             image={digsign}
              heading={"Digital Signage"}
              content={`Digital Signage, powered by Mobius DTaaS, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.`}
              Route={'/products/DSaaS'}
@@ -148,7 +156,7 @@ let AppSwiper = ({data}) => {
 
         <SwiperSlide>
             <SingleApp2 
-             image={"suh.png"}
+             image={suh}
              heading={"SUHAaaS"}
              content={`SUHAaaS is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.`}
              Route={'/products/SUHAaas'}
@@ -159,7 +167,7 @@ let AppSwiper = ({data}) => {
 
         <SwiperSlide>
             <SingleApp2 
-             image={"live_news_swiper.jpg"}
+             image={liveNews}
              heading={"Live News"}
              content={`The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.`}
              Route={'/products/live-news'}
@@ -169,7 +177,7 @@ let AppSwiper = ({data}) => {
         </SwiperSlide>
           <SwiperSlide>
             <SingleApp2 
-             image={"2.png"}
+             image={liveZoom}
              heading={"Live Traffic"}
              content={`Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. `}
              Route={'/products/live-traffic'}
@@ -179,7 +187,7 @@ let AppSwiper = ({data}) => {
         </SwiperSlide>
         <SwiperSlide>
             <SingleApp2 
-             image={"giving_swiper.jpg"}
+             image={gving}
              heading={"Giving App"}
              content={`Simplify and optimize fund raising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.`}
              Route={'/products/giving-app'}
@@ -189,7 +197,7 @@ let AppSwiper = ({data}) => {
         </SwiperSlide>
          <SwiperSlide>
             <SingleApp2 
-             image={"2.png"}
+             image={liveZoom}
              heading={"ZoomBot Pro"}
              content={`ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.`}
              Route={'/products/zoombot-pro'}
@@ -199,7 +207,7 @@ let AppSwiper = ({data}) => {
         </SwiperSlide>
          <SwiperSlide>
             <SingleApp2 
-             image={"hd_radio_swiper.jpg"}
+             image={hdwani}
              heading={"Vani HD Radio"}
              content={`Enhance the radio listening experience with our Vani HD Radio MIA, delivering high-quality audio and interactive features for immersive content.`}
              Route={'/products/vani-hd-radio'}

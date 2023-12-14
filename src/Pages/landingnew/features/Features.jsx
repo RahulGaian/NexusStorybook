@@ -9,7 +9,7 @@ const Features = () => {
           <div className="productContentCard ">
             <div className="productContentCardImage">
               <img
-                src="/images/imagesnew/Nexus_connect/landingpage/comp-wifi.png"
+                src={require("../comp-wifi.png")}
                 alt="comp-wifi img"
               />
             </div>
@@ -28,7 +28,7 @@ const Features = () => {
           <div className="productContentCard ">
             <div className="productContentCardImage">
               <img
-                src="/images/imagesnew/Nexus_connect/landingpage/comp-tower.png"
+                src={require("../comp-tower.png")}
                 alt="comp-tower img"
               />
             </div>
@@ -50,7 +50,7 @@ const Features = () => {
           <div className="productContentCard ">
             <div className="productContentCardImage">
               <img
-                src="images/imagesnew/Nexus_connect/landingpage/computer-img.png"
+                src={require("../computer-img.png")}
                 alt="computer-img"
               />
             </div>

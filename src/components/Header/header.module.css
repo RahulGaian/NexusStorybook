@@ -57,9 +57,9 @@
   min-width: 130px;
   height: 54px;
 }
-.logo {
+/* .logo {
   padding-left: 2rem;
-}
+} */
 
 #contents div {
   display: flex;
