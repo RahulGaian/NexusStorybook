@@ -1,0 +1,128 @@
+.thematics {
+  display: flex;
+}
+.thematicsContainer {
+  width: 100%;
+}
+
+.thematicsHeader {
+}
+
+.thematicsHeader h1 {
+  max-width: 1180px;
+  max-height: 55.2px;
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55.2px; /* 131.429% */
+}
+
+.thematicsHeader p {
+  max-width: 1180px;
+  max-height: 20.7px;
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px; /* 129.375% */
+}
+
+.thematicsFooterContainer {
+}
+
+.thematicsFooter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.thematicsBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.thematicsBg img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  border-radius: 10px;
+  /* background: lightgray 0px 0px / 106.745% 100% no-repeat,
+    linear-gradient(136deg, #daa241 100%, #b8731d 100%); */
+}
+
+.thematicsLogo {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.thematicsName {
+  max-width: 245px;
+  max-height: 32.2px;
+  color: var(--swissborg-com-nero, var(--Color, #fff));
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 24.609px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.2px; /* 130.844% */
+}
+
+.thematicsDesc {
+  max-width: 245px;
+  color: var(--swissborg-com-nero, var(--Color, #fff));
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px; /* 140.19% */
+}
+
+.thematicsIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.thematicsIcon {
+    width: 34.25px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.thematicsCoins {
+  display: flex;
+  padding: 3px 4px 2px 4px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+  background: var(--Color, #fff);
+  color: var(--swissborg-com-golden-grass, #daa421);
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 12.141px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.thematicsBtn{
+    display: inline-flex;
+padding: 9px 17px 5px 17px;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+border: 1px solid var(--swissborg-com-nero, #FFF);
+
+}

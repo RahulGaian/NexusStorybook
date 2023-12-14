@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 1700px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px; 
+}
+
+.imgContainer {
+  width: 150px;
+  height: 150px;
+}
+
+.imgContainer > img {
+  width: 100%;
+}
+
+.txtContainer {
+  width: 637px;
+  height: auto;
+}
+
+.txtContainer > span {
+  font-family: ITC, DM Sans;
+  font-size: 23.844px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.2px;
+}
+
+.gtstartedBtn {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid var(--Color, #fff);
+  text-align: center;
+  font-family: ITC;
+  font-size: 15.609px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentContainer{
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentContainer{
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentContainer{
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contentContainer{
+    width: 90%;
+    padding: 0 20px;
+  }
+  .txtContainer{
+    padding: 0;
+    width: 286px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer{
+    width: 90%;
+    padding: 0 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .txtContainer{
+    padding: 0;
+    width: 266px;
+    text-align: center;
+  }
+  .txtContainer > span {
+    font-size: 22.242px;
+    line-height: 29.9px;
+  }
+  .gtstartedBtn {
+    text-align: center;
+    font-size: 12.141px;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+}
