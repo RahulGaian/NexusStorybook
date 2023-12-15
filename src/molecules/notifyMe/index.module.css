@@ -1,10 +1,17 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .notifyContainer {
     text-align: center;
     /* padding: 20px; */
     /* border: 1px solid #ccc; */
   }
   
-  h1 {
+  .mainText > h1 {
     color: #4C4C4C;
     text-align: center;
     font-family: ITC Avant Garde Gothic;
@@ -14,7 +21,7 @@
     line-height: 55px; /* 137.5% */
   }
   
-  p {
+  .secondryText > p {
     color: #4C4C4C;
     font-family: ITC Avant Garde Gothic;
     font-size: 14.766px;
@@ -25,7 +32,7 @@
     margin-bottom: 10px;
   }
   
-  button {
+  .notifyBtn {
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -43,5 +50,31 @@
     border: none;
     cursor: pointer;
   }
+
+  /* ----for desktop view---------- */
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .notifyContainer {
+    margin: 0 auto;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .notifyContainer {
+    margin: 0 auto;
+
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center; */
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .notifyContainer {
+    margin: 0 auto;
+    width: 950px;
+  }
+}
   
   

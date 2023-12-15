@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "ITC";
-  src: url("../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
-    format("truetype");
+
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+
 }
 
 body {
@@ -9,9 +10,14 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
+
   font-family: ITC;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+ 
+
 }
 
 code {
