@@ -2,7 +2,7 @@ import React from "react";
 import Cookies from "./index";
 
 export default {
-  title: "Cookies",
+  title: "components/Cookies",
   component: Cookies,
 };
 
