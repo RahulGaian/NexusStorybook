@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 1700px;
+  height: 867px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftCont {
+  width: 700px;
+  padding-right: 131px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.leftCont > h1 {
+  font-family: ITC;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 74px;
+  margin: 0;
+}
+
+.leftCont > span {
+  font-family: ITC;
+  font-size: 17.875px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.3px;
+  margin-top: 21px;
+  margin-bottom: 38px;
+}
+
+.leftCont > button {
+  font-family: ITC;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  width: fit-content;
+  height: auto;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rightCont {
+  width: 849px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.rightCont > img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentContainer {
+    width: 1420px;
+    height: 724px;
+  }
+  .leftCont {
+    width: 837px;
+  }
+  .rightCont {
+    width: 710px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentContainer {
+    width: 1200px;
+    height: 550px;
+  }
+  .leftCont {
+    width: 600px;
+    padding-right: 30px;
+  }
+  .rightCont {
+    width: 707px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentContainer {
+    width: 950px;
+    height: 484px;
+  }
+  .leftCont {
+    width: 600px;
+    padding-right: 30px;
+  }
+  .rightCont {
+    width: 475px;
+  }
+  .rightCont>img{
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contentContainer {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftCont {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .leftCont > h1 {
+    text-align: center;
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+  .leftCont > span {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .rightCont {
+    width: 100%;
+  }
+
+  .rightCont > img {
+    width: 400px;
+    height: 400px;
+  }
+  .leftCont > button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .leftCont > h1 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .leftCont > span {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .rightCont {
+    width: 100%;
+  }
+
+  .rightCont > img {
+    width: 310px;
+    height: 310px;
+  }
+}
