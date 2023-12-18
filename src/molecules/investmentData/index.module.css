@@ -1,0 +1,18 @@
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.invest {
+  display: flex;
+  padding: 47.705px 51px 45.705px 51px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background: var(--Surface-Secondary, #fff7ea);
+}
+
+.investContainer {
+  display: flex;
+}

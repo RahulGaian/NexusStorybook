@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./index.module.css";
+import { exploreThematicsData } from "./exploreData";
 
 function Thematics() {
   return (
@@ -13,31 +14,43 @@ function Thematics() {
           </p>
         </div>
         <div className={style.thematicsFooterContainer}>
-          <div className={style.thematicsFooter}>
-            <div className={style.thematicsBg}>
-              <img src="./Images/exploreThematics/bg1.png" alt="" />
+          {Object.entries(exploreThematicsData).map(([key, thematic]) => (
+            <div
+              key={key}
+              className={style.thematicsFooter}
+              style={{ background: thematic.backgroundColor }}
+            >
+              <div className={style.thematicsBg}>
+                {thematic.backgroundImage && (
+                  <img
+                    src={thematic.backgroundImage}
+                    alt="thematicbackgroundimage"
+                    className={style.thematicsImg}
+                  />
+                )}
+              </div>
+              <div className={style.thematicsLogo}>
+                <img src={thematic.logo} alt="thematiclogo" />
+              </div>
+              <h3 className={style.thematicsName}>{thematic.name}</h3>
+              <p className={style.thematicsDesc}>{thematic.desc}</p>
+              {thematic.icons ? (
+                <div className={style.thematicsIconContainer}>
+                  <img
+                    src={thematic.icons}
+                    alt="thematicicon"
+                    className={style.thematicsIcon}
+                  />
+                  <p className={style.thematicsCoins}>{thematic.coins}</p>
+                </div>
+              ) : (
+                ""
+              )}
+              <div className={style.thematicsBtnCont}>
+                <p className={style.thematicsBtn}>{thematic.btns}</p>
+              </div>
             </div>
-            <div className={style.thematicsLogo}>
-              <img
-                src="./Images/exploreThematics/thematics-logo-1.png"
-                alt=""
-              />
-            </div>
-            <h3 className={style.thematicsName}>Golden</h3>
-            <p className={style.thematicsDesc}>
-              Discover how to navigate the market cycles confidently with our
-              algorithm-driven blend of Bitcoin & Gold.
-            </p>
-            <div className={style.thematicsIconContainer}>
-              <img
-                src="./Images/exploreThematics/small-icons-1.png"
-                alt=""
-                className={style.thematicsIcon}
-              />
-              <p className={style.thematicsCoins}>2 coins</p>
-            </div>
-            <button className={style.thematicsBtn}>Learn More</button>
-          </div>
+          ))}
         </div>
       </div>
     </div>
