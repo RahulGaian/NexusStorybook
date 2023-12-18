@@ -14,7 +14,7 @@ export const moreFeatures = () => <MoreFeatures data={moreFeaturesData.moreFeatu
 export const Argstest = {
   args: {
     data:{
-        mainText: 'Explore more features in the SwissBorg app'
+        title: 'Explore more features in the SwissBorg app'
 
     }
   }

@@ -6,12 +6,15 @@ const MoreFeatures = ({ data }) => {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.wrapper}>
-        <div className={styles.mainText}>
+        <div className={styles.titleWrapper}>
+        <div className={styles.title}>
           <h1>{data.title}</h1>
+        </div>
         </div>
 
         <div className={styles.cardContainerMain}>
           <div className={styles.cardContainer}>
+
             <div className={styles.card}>
               <div>
                 <Img src={"./Images/moreFeatures/moreFeaturesA.svg"}></Img>
@@ -47,6 +50,7 @@ const MoreFeatures = ({ data }) => {
                 <p>Rewards Program</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>

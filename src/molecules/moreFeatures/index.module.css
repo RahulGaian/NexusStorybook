@@ -1,4 +1,9 @@
-.mainContainer {
+@font-face {
+    font-family: "ITC";
+    src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+      format("truetype");
+  }
+  .mainContainer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10,10 +15,17 @@
   text-align: center;
   min-height: 90px;
   max-height: fit-content;
-
   /* border: 2px solid red; */
-
 }
+
+.titleWrapper {
+      /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* padding: 0 !important; */
+  }
+
 .title {
   /* border: 2px solid blue; */
 
@@ -37,7 +49,7 @@
 } */
 
 .cardContainer {
-  /* border: 2px solid green; */
+  /* border: 1px solid green; */
 
   display: flex;
   justify-content: center;
@@ -46,11 +58,11 @@
   width: 100%;
 
   padding: 10px 0px 30px 0px;
+  /* flex-wrap: wrap; */
 }
 
 .card {
-    width: 24%;
-  /* border: 2px solid green; */
+  width: 24%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,8 +73,6 @@
 
   border-radius: 10px;
   background: var(--swissborg-com-nero-02, rgba(255, 255, 255, 0));
-
-  /* Drop shadow card */
   box-shadow: 0px 3px 8px 0px rgba(25, 30, 41, 0.1);
 }
 
@@ -89,5 +99,82 @@
   .wrapper {
     margin: 0 auto;
     width: 950px;
+  }
+}
+
+/* ------for tablet  view------------- */
+@media only screen and (max-width: 980px) and (min-width: 601px) {
+    .title {
+        padding: 0px 50px 0px 50px !important;
+      }
+}
+
+
+
+/* ------for mobile view------------- */
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .wrapper {
+    width: 90%;
+    text-align: center;
+    min-height: 90px;
+    max-height: fit-content;
+  }
+
+  .titleWrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+  }
+
+  .title {
+    padding: 0px 10px 0px 10px !important;
+  }
+
+  .title > h1 {
+    width: 100%;
+    /* margin: 0 auto; */
+
+    /* border: 1px solid blue; */
+
+    color: #4c4c4c;
+    text-align: center;
+    font-family: ITC;
+    font-size: 23.713px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.589px;
+  }
+
+  /* .cardContainerMain{
+          width: 100%;
+      } */
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+    padding: 10px 0px 30px 0px;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+
+  .card {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 200px; */
+
+    padding: 20px 0px;
+
+    /* border-radius: 10px;
+        background: var(--swissborg-com-nero-02, rgba(255, 255, 255, 0));
+        box-shadow: 0px 3px 8px 0px rgba(25, 30, 41, 0.1); */
   }
 }

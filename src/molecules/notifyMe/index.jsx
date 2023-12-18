@@ -18,7 +18,7 @@ const NotifyMe = ({ data }) => {
   );
 };
 
-NotifyMe.propTypes = {
+NotifyMe.propTypes = { 
   title: PropTypes.string.isRequired,
   message: PropTypes.string.isRequired,
   buttonText: PropTypes.string.isRequired,
