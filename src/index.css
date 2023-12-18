@@ -1,16 +1,32 @@
-@font-face {
+/* @font-face {
 
-  font-family: ITC;
-  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+  font-family: 'ITC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ITC Avant Garde Gothic Medium') url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
 
+} */
+@font-face {
+  font-family: 'ITC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ITC Avant Garde Gothic Medium') url("./fonts/ITC Avant Garde Gothic Medium.otf") format("truetype");
 }
+
+/* @font-face {
+  font-family: 'Lorin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lorin-ExtraBold'), url('./fonts/Lorin-ExtraBold.otf') format('truetype');
+} */
+
 
 body {
   margin: 0;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",'ITC',
     sans-serif;
 
   -webkit-font-smoothing: antialiased;
@@ -24,6 +40,7 @@ code {
 
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
-  font-family: ITC;
+  font-family: 'ITC' ;
 
 }
+
