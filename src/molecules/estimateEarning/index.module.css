@@ -8,6 +8,8 @@
 }
 
 .estimateEarningContainer {
+    width: 1700px;
+
   display: flex;
   padding: 40px 40.39px 40px 40px;
   justify-content: space-between;
