@@ -1,5 +1,5 @@
 @font-face {
-  font-family: ITC;
+  font-family: "ITC";
   src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
 }
@@ -59,7 +59,7 @@
 
 
 /* -------for tablet view------- */
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) and (min-width:601px){
   .headingContainer {
     text-align: center;
     /* height: 200px;
@@ -69,21 +69,21 @@
   
   }
 
-  .headingText {
-    color: #4c4c4c;
+  .headingText > p{
+    color: #4C4C4C;
     text-align: center;
-    font-family: ITC Avant Garde Gothic;
+    font-family: ITC;
     font-size: 41.063px;
     font-style: normal;
     font-weight: 500;
-    line-height: 55.2px;
+    line-height: 55.2px; /* 134.429% */
     /* width: 80%; */
   }
 }
 
 
 /* ---for mobile view--------- */
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width:300px){
 
   .headingContainer {
     text-align: center;
@@ -94,14 +94,14 @@
   
   }
 
-  .headingText {
+  .headingText > p{
     color: #4c4c4c;
     text-align: center;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 21.548px;
+    font-family: ITC;
+    font-size: 21.548px !important;
     font-style: normal;
     font-weight: 500;
-    line-height: 28.704px;
+    line-height: 28.704px !important;
   }
 }
 

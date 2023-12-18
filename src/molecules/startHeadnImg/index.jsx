@@ -3,8 +3,8 @@ import Img from "../../components/Image";
 
 const HeadnImg = ({ data }) => {
   return (
-    <div className={st.container}>
-      <div className={st.contentContainer} style={{background: data.bgColor}}>
+    <div className={st.container} style={{background: data.bgColor}}>
+      <div className={st.contentContainer}>
         <div className={st.leftCont}>
           <h1 style={{color: data.headParaTxtColor}}>{data.heading}</h1>
           <span style={{color: data.headParaTxtColor}}>{data.para}</span>
