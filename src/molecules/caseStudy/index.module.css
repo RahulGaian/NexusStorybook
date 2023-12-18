@@ -11,7 +11,7 @@
   align-items: center;
 }
 .wrapper {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 1700px;
   /* width: 410px; */
   /* height: 410px; */
@@ -22,7 +22,7 @@
 }
 
 .leftCont {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: inherit;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@
 }
 
 .rightContent {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   width: 50%;
   flex-direction: column;
