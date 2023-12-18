@@ -2,7 +2,7 @@ import React from "react";
 import Thematics from "./index";
 
 export default {
-  title: "Thematics",
+  title: "components/Thematics",
   component: Thematics,
 };
 

@@ -1,0 +1,93 @@
+.mainContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1700px;
+  text-align: center;
+  min-height: 90px;
+  max-height: fit-content;
+
+  /* border: 2px solid red; */
+
+}
+.title {
+  /* border: 2px solid blue; */
+
+  display: flex;
+  padding: 0px 122.405px 0px 122.595px;
+  align-items: center;
+}
+
+.title > h1 {
+  color: #4c4c4c;
+  /* text-align: center; */
+  font-family: ITC;
+  font-size: 41.063px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55.2px;
+}
+
+/* .cardContainerMain{
+    width: 100%;
+} */
+
+.cardContainer {
+  /* border: 2px solid green; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+
+  padding: 10px 0px 30px 0px;
+}
+
+.card {
+    width: 24%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 200px; */
+
+  padding: 20px 0px;
+
+  border-radius: 10px;
+  background: var(--swissborg-com-nero-02, rgba(255, 255, 255, 0));
+
+  /* Drop shadow card */
+  box-shadow: 0px 3px 8px 0px rgba(25, 30, 41, 0.1);
+}
+
+/* ----for desktop view---------- */
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .wrapper {
+    margin: 0 auto;
+
+    /* text-align: center; */
+    /* display: flex;
+      justify-content: center; */
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 950px;
+  }
+}

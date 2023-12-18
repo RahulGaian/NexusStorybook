@@ -1,40 +1,107 @@
-.secondHeading {
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.headingContainer {
+  width: 1700px;
+  text-align: center;
+  min-height: 150px;
+  max-height: fit-content;
+    /* width: 600px; */
+
+    /* border: 2px solid red; */
+}
+
+.headingText > p{
+  color: var(--Blue, #007cd7);
+  font-size: 41.063px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55.2px;
+  font-family: ITC;
+}
+
+/* ----for desktop view---------- */
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .headingContainer {
+    margin: 0 auto;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .headingContainer {
+    margin: 0 auto;
+
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center; */
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .headingContainer {
+    margin: 0 auto;
+    width: 950px;
+  }
+}
+
+
+/* -------for tablet view------- */
+@media screen and (max-width: 980px) {
+  .headingContainer {
     text-align: center;
     /* height: 200px;
-    width: 600px; */
-    /* background-color:  skyblue; */
-  }
+      width: 600px; */
+    width: 100%;
+    margin: 0 auto;
   
+  }
+
   .headingText {
-    color: var(--Blue, #007CD7);
-    font-family: 'ITC Avant Garde Gothic', sans-serif;
+    color: #4c4c4c;
+    text-align: center;
+    font-family: ITC Avant Garde Gothic;
     font-size: 41.063px;
     font-style: normal;
     font-weight: 500;
     line-height: 55.2px;
+    /* width: 80%; */
   }
+}
+
+
+/* ---for mobile view--------- */
+@media screen and (max-width: 600px) {
+
+  .headingContainer {
+    text-align: center;
+    /* height: 200px;
+      width: 600px; */
+    width: 100%;
+    margin: 0 auto;
   
-  @media screen and (max-width: 900px) {
-    .headingText {
-        color: #4C4C4C;
-        text-align: center;
-        font-family: ITC Avant Garde Gothic;
-        font-size: 41.063px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 55.2px; 
-    }
   }
-  
-  @media screen and (max-width: 600px) {
-    .headingText {
-        color: #4C4C4C;
-        text-align: center;
-        font-family: ITC Avant Garde Gothic;
-        font-size: 21.548px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 28.704px; /* 133.213% */
-    }
+
+  .headingText {
+    color: #4c4c4c;
+    text-align: center;
+    font-family: ITC Avant Garde Gothic;
+    font-size: 21.548px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.704px;
   }
-  
+}
+

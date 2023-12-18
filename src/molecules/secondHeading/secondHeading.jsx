@@ -1,13 +1,15 @@
 // components/secondHeading/secondHeading.jsx
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './index.module.css';
+import React from "react";
+import PropTypes from "prop-types";
+import styles from "./index.module.css";
 
-const SecondHeading = ({ text }) => {
+const SecondHeading = ({ data }) => {
   return (
-    <div className={styles.secondHeading}>
-      <div>
-        <p className={styles.headingText}>{text}</p>
+    <div className={styles.container}>
+      <div className={styles.headingContainer}>
+        <div className={styles.headingText}>
+          <p>{data.text}</p>
+        </div>
       </div>
     </div>
   );

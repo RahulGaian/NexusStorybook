@@ -1,7 +1,9 @@
 @font-face {
-  font-family: "ITC";
-  src: url("../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
+
 }
 
 body {
@@ -13,10 +15,15 @@ body {
   font-family: ITC;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+ 
+
 }
 
 code {
+
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
   font-family: ITC;
+
 }
