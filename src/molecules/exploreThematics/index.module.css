@@ -8,19 +8,21 @@
   display: flex;
   justify-content: center;
   display: flex;
-  padding: 80px;
   flex-direction: column;
   align-items: center;
   align-self: stretch;
   background: var(--Surface-Primary, #d8efff);
   width: 100%;
+  padding: 80px 0;
 }
 .thematicsContainer {
+  /* width: 100%; */
   width: 1700px;
 }
 
 .thematicsHeader {
-  width: 1700px;
+  /* width: 1700px; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,9 +175,9 @@
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
-  .thematicsContainer {
+  /* .thematicsContainer {
     width: 1420px;
-  }
+  } */
   .thematicsHeader {
     width: 1420px;
   }
@@ -408,12 +410,8 @@
 @media screen and (max-width: 600px) and (min-width: 320px) {
   .thematics {
     display: flex;
-    /* justify-content: center; */
     display: flex;
     padding: 80px;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* align-self: stretch; */
     background: var(--Surface-Primary, #d8efff);
     width: 100%;
   }

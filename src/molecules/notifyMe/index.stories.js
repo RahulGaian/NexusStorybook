@@ -1,30 +1,70 @@
+// import React from "react";
+// import NotifyMe from "./index";
+// import { notifyMeData } from "./data";
+
+// export default {
+//   title: "Components/NotifyMe",
+//   component: NotifyMe,
+// };
+
+// export const notifyMe = () => <NotifyMe data={notifyMeData.notifyMe} />;
+// export const notifyMe2 = () => <NotifyMe data={notifyMeData.notifyMe2}/>;
+// export const notifyMe3 = ()=> <NotifyMe data={notifyMeData.notifyMe3}/>;
+
+// export const Argstest = {
+//   args: {
+//     data: {
+//       title: 'Download the SwissBorg app and kickstart your crypto wealth today',
+//       message: 'App is not available in US',
+//       buttonText: 'Notify Me',
+//       imgURL1:"",
+//       imgURL2:"",
+//       imgURL3:""
+//     }
+//   }
+// };
+
+
 import React from "react";
 import NotifyMe from "./index";
-import { notifyMeData } from "./data.js";
+import { notifyMeData } from "./data";
 
 export default {
   title: "Components/NotifyMe",
   component: NotifyMe,
+  argTypes: {
+    showMainText: { control: "boolean" },
+    showSecondaryText: { control: "boolean" },
+    showButton: { control: "boolean" },
+    showImageContainer: { control: "boolean" },
+  },
 };
 
-// const Template = (args) => <NotifyMe {...args} />;
+const Template = (args) => <NotifyMe data={args.data} {...args} />;
 
-// export const Default = Template.bind({});
-// Default.args = {
-//   title: 'Download the SwissBorg app and kickstart your crypto wealth today',
-//   message: 'App is not available in US',
-//   buttonText: 'Notify Me',
-// };
+export const notifyMe = Template.bind({});
+notifyMe.args = {
+  data: notifyMeData.notifyMe,
+  showMainText: true,
+  showSecondaryText: true,
+  showButton: true,
+  showImageContainer: false,
+};
 
-export const notifyMe = () => <NotifyMe data={notifyMeData.notifyMe} />;
-export const notifyMe2 = () => <NotifyMe data={notifyMeData.notifyMe2}/>;
+export const notifyMe2 = Template.bind({});
+notifyMe2.args = {
+  data: notifyMeData.notifyMe2,
+  showMainText: true,
+  showSecondaryText: true,
+  showButton: true,
+  showImageContainer: false,
+};
 
-export const Argstest = {
-  args: {
-    data: {
-      title: "Download the SwissBorg app and kickstart your crypto wealth today",
-      message: "App is not available in US",
-      buttonText: "Notify Me"
-    }
-  }
+export const notifyMe3 = Template.bind({});
+notifyMe3.args = {
+  data: notifyMeData.notifyMe3,
+  showMainText: true,
+  showSecondaryText: false,
+  showButton: false,
+  showImageContainer: true,
 };
