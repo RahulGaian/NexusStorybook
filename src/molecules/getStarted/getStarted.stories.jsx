@@ -3,7 +3,7 @@ import { getStartedData } from "./data";
 
 export default {
   title: "Components / Getstarted",
-  component: GetStarted,
+  component: GetStarted
 };
 
 export const Started = () => <GetStarted data={getStartedData.getStarted} />;
