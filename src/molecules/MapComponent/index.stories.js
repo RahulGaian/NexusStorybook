@@ -5,6 +5,6 @@ export default {
   component: Map3dComponent,
 };
 
-export const Table = () => (
+export const Map = () => (
   <Map3dComponent  />
 );

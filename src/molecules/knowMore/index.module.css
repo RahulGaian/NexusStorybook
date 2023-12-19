@@ -1,0 +1,94 @@
+.mainDiv{
+    width: 550px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px; 
+    padding-left: 20px;
+    transition: 0.2s all ease-in-out;
+
+}
+@font-face {
+
+    font-family: 'ITC';
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+      format("truetype");
+  
+  }
+  
+.firstText{
+    color: #4C4C4C;
+font-family: ITC;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.secondText{
+    color: #4C4C4C;
+font-family: ITC;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 150% */
+}
+
+.thirdText{
+    color: #4C4C4C;
+font-family: ITC;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 14.655px; /* 146.552% */
+}
+
+.fourthText{
+    color: #4C4C4C;
+font-family: ITC;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.subDiv{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    height: 100px;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding-right: 10px;
+}
+h1{
+    margin: 0px;
+}
+
+.down{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+
+.mainDiv:hover{
+    scale: 1.1;
+    transition: 0.2s all ease-in-out;
+
+
+}
+.mainDiv  .down img{
+    transition: 0.4s all ease-in;
+
+}
+
+
+.mainDiv:hover  .down img{
+        transform: rotate(90deg) !important;
+        transition: 0.4s all ease-in;
+    
+}

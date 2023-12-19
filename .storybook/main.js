@@ -14,6 +14,7 @@ const config = {
       builder: {
         useSWC: true,
       },
+  
     },
   },
   docs: {

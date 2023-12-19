@@ -1,28 +1,20 @@
 import React from 'react'
 import style from "./index.module.css"
-
+import test from "./test.spline"
 import { useRef } from 'react';
 import { useState } from 'react';
 import Spline from '@splinetool/react-spline';
 import { func } from 'prop-types';
+import KnowMore from '../knowMore';
+
+import RotatingStars from '../rotatingStars';
 
 
 export function Map({setClick,clicked}) {
     let arr = []
     
+    let counter = 0; 
 
-    function move(){
-        for(let i =0;i<arr.length;i++){
-            console.log(arr[i])
-            try{
-                arr[i].position.x += 100
-                console.log("moved")
-            }
-            catch(e){
-                console.log("something went wrong",e)
-            }
-        }
-    }
   function onLoad(spline) {
     const obj = spline.findObjectByName('Clink');
     const part = spline.findObjectByName('Moving particles')
@@ -44,34 +36,38 @@ export function Map({setClick,clicked}) {
     }
 
     console.log(arr)
+    spline.setZoom(26)
 
-    // console.log(spline.getObjects())
-    spline.setZoom(17)
-    // console.log(Object.keys(spline), spline._camera);
   }
 
   function onMouseDown(e) {
       console.log('Clicked an object: ', e.target.name);
       let name = e.target.name;
-      if(name == "Clink"){
-        move();
-        setClick(true);
+      console.log(name)
+      if(name == "Clink" || name =="Group 3"){
+        counter++;
+        if(counter == 1){
+          setClick(true);
+          counter = 0
+
+        }
+        
+        
         console.log("clicked clink")
         console.log(clicked)
       }
   }
 
-  function onMouseMove(e) {
-    // console.log("Mouse is moving over", e.target.name);
-  }
+
 
   return (
     <div className={clicked?style.map2 : style.map}>
       <Spline 
         onLoad={onLoad}
         onMouseDown={onMouseDown}
+        onMouseUp={onMouseDown}
         className={style.mapInternal}
-        scene="https://prod.spline.design/sO9tS9c4paV1HRId/scene.splinecode"
+        scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
       />
     </div>
   );
@@ -82,15 +78,46 @@ const Map3dComponent = () => {
     
 
   return (
+    <>
     <div className={style.mainDiv}>
-        <div className={style.headDiv}>
+        <div className={Click?style.mainDiv2:style.headDiv}>
             <h1 className={style.heading}>Impact Prediction Dashboard</h1>
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
-        
-            <Map setClick={setClick} clicked={Click}></Map>
-    
+        <Map setClick={setClick} clicked={Click}></Map>
+        <div className={Click?style.bottom:style.bottombt}>
+          <div className={style.bottomtop}>
+                <div>
+                    <h1 className={style.how}>How</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Who</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Why</h1>
+                  </div>
+          </div>
+          <div className={style.bottomb}>
+
+          <KnowMore bgColor='lightgrey'/>
+          </div>
+
+        </div>
+        <div className={Click?style.right:style.rightr}>
+          <div>
+            <h1 className={style.how}>How</h1>
+          </div>
+          <KnowMore bgColor='lightgrey'/>
+          <KnowMore bgColor='lightgrey'/>
+
+          <KnowMore bgColor='lightgrey'/>
+
+        </div>
+
+        <RotatingStars></RotatingStars>
+
     </div>
+
+
+    </>
   )
 }
 

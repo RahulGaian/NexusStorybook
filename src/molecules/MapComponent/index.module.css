@@ -1,0 +1,155 @@
+.heading{
+    text-align: center;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'ITC';
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 97.222% */
+background: linear-gradient(270deg, #FF9B00 6.66%, #F29D0C 22.64%, #FF9F00 38.62%, #D09A2E 48.6%, #0085FF 60.59%, #0085FF 86.57%, #0085FF 90.55%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.subHeading{
+    color: #4C4C4C;
+text-align: center;
+font-family: 'ITC';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: -0.48px;
+}
+
+@font-face {
+
+  font-family: 'ITC';
+  font-style: normal;
+  font-weight: normal;
+  src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+
+}
+
+.map{
+    /* width: 1280px !important;
+    height: 720px; */
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100vw !important;
+    height: 100vh !important;
+    transition: 1s all ease-in-out;
+
+
+
+}
+.mainDiv{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* padding-top: 20px; */
+    overflow: hidden;
+    /* background-color: black; */
+}
+.headDiv{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    height: 150px;
+    transition:  1s all ease-in;
+}
+canvas{
+    width: inherit !important ;height: inherit !important;
+    object-fit: contain !important;
+    aspect-ratio: auto 1920 / 1080 !important;
+    z-index: 5;
+    transition: 1s all ease-in;
+    /* scale: 0.8; */
+
+}
+.mainDiv2{
+    position: absolute;
+    left: 17% !important; 
+    top: 10px;
+    transition: 1s all ease-in;
+}
+.map2{
+    width:  45% !important;
+    height: 50% !important;
+    /* margin-left: auto; */
+    transition: 1s all ease-in-out;
+    position: absolute;
+    left: 9.5%;
+
+    top: 13%;
+}   
+
+.bottom{
+    width: 45%;
+    height: 30%;
+    /* background-color: red; */
+    position: absolute;
+    left: 9.5%;
+    bottom: 3%;
+    transition: 1s all ease-in;
+    transition-delay: 500ms;
+
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 35%;
+    height: 94%;
+    /* background-color: red; */
+    position: absolute;
+    right: 100px;
+    top: 8%;
+    /* justify-content: center; */
+    transition: 1s all ease-in;
+    transition-delay: 500ms;
+
+}
+.how{
+    color: #4C4C4C;
+text-align: center;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'ITC';
+font-size: 25.725px;
+font-style: normal;
+font-weight: 500;
+line-height: 30.012px; /* 116.667% */
+/* margin-top: 30px; */
+}
+
+.bottomtop{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.bottomb{
+    margin-left: 45%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+   
+}
+
+.rightr{
+    position: absolute;
+    right: -800px;
+}
+
+.bottombt{
+    position: absolute;
+    bottom: -400px;
+}
