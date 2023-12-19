@@ -1,0 +1,144 @@
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.yield {
+  display: flex;
+  padding: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+.yieldContainer {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  width: 100%;
+}
+
+.yieldContentCont {
+  width: 1700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yieldImageCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.yieldImage {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.yieldNameCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.yieldName {
+  max-height: 32.2px;
+  color: #4c4c4c;
+  text-align: center;
+  font-family: ITC;
+  font-size: 23.844px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32.2px;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .yieldContentCont {
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .yieldContentCont {
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .yieldContentCont {
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 601px) {
+  .yield {
+    display: flex;
+    width: 767px;
+    padding: 60px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .yieldContentCont {
+    width: 90%;
+  }
+  .yieldName {
+    width: 140px;
+    color: #191e29;
+    text-align: center;
+    font-family: ITC;
+    font-size: 23.844px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.2px; /* 135.046% */
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .yield {
+    display: flex;
+    padding: 60px 24px 36px 24px;
+    flex-direction: column;
+    /* align-items: flex-start; */
+  }
+  .yieldContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+  .yieldContentCont {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+  }
+  .yieldImageCont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+  .yieldImage {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+  }
+  .yieldNameCont {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+  .yieldName {
+    max-height: 25.3px;
+    color: #191e29;
+    font-family: ITC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.3px; /* 135.046% */
+  }
+}
