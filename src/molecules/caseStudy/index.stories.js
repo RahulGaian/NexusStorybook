@@ -8,6 +8,8 @@ export default {
 };
 
 export const caseStudy = () => <CaseStudy data={caseStudyData.caseStudy}/>;
+export const caseStudy2 = () => <CaseStudy data={caseStudyData.caseStudy2}/>;
+
 
 
 export const Argstest = {
