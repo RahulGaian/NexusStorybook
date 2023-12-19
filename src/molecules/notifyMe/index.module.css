@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -10,15 +16,9 @@
   width: 1700px;
   text-align: center;
   padding: 0px 132px;
-  /* padding: 0px 162px; */
-  /* border: 1px solid red; */
+
 }
 
-@font-face {
-  font-family: "ITC";
-  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
-    format("truetype");
-}
 .mainText > h1 {
   color: #4c4c4c;
   text-align: center;
@@ -37,18 +37,15 @@
   font-weight: 400;
   line-height: 20.7px;
 
-  /* margin-bottom: 10px; */
   margin-bottom: 3%;
 
 }
 
 .notifyBtn {
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
   border-radius: 4px;
   background: var(--Blue, #007cd7);
-  color: var(--swissborg-com-nero, var(--Color, #fff));
+  color:#fff;
   text-align: center;
   font-family: ITC;
   font-size: 17.188px;
@@ -60,6 +57,17 @@
   border: none;
   cursor: pointer;
   margin-bottom: 3%;
+
+}
+
+.imageContainer{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.imageWrapper img{
 
 }
 
@@ -76,9 +84,6 @@
     width: 1200px;
     margin: 0 auto;
 
-    /* text-align: center; */
-    /* display: flex;
-    justify-content: center; */
   }
 }
 
@@ -111,12 +116,11 @@
 
 
 @media only screen and (max-width: 601px) and (min-width: 300px) {
-  /* .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
+
+  .imageWrapper img{
+    width: 90%;
+
+  }
   
   .notifyContainer {
     width: 90%;
@@ -148,12 +152,10 @@
   }
   
   .notifyBtn {
-    /* display: flex;
-      justify-content: center;
-      align-items: center; */
+ 
     border-radius: 4px;
     background: var(--Blue, #007cd7);
-    color: var(--swissborg-com-nero, var(--Color, #fff));
+    color:#fff;
     text-align: center;
     font-family: ITC;
     font-size: 15.469px !important;
@@ -164,6 +166,5 @@
   
     border: none;
     cursor: pointer;
-    /* padding-bottom: 10px !important; */
   }
 }
