@@ -3,23 +3,24 @@ import "./landing.css";
 import AppSwiper from "../../components/appSwiper";
 import AndroidApps from "../../components/AndroidAppsSwiper";
 import MapComponent from "../../components/map_component/components/comp";
-import videofile from "./video/people-connect-digital-wave-2022-08-05-01-43-14-utc.mp4";
 import Features from "./features/Features";
+import Img from "../../components/Image";
+import Map3dComponent from "../../molecules/MapComponent";
 
 const Landingpagenew = () => {
   return (
     <>
       <div className="Landing_page_Container">
-        <div className="Landing_top_bg">
-          <div class="video-background">
-            <div className="overlaydiv"></div>
+        <section className="Landing_top_bg">
+          <div className="video-background">
+          
             <video
-              playsinline="playsinline"
-              autoplay="autoplay"
+              playsInline="playsinline"
+              autoPlay="autoplay"
               muted="muted"
               loop="loop"
             >
-              <source src={videofile} type="video/mp4" />
+              <source src={ process.env.PUBLIC_URL+ "/video/nexus-vid.mp4"} type="video/mp4" />
             </video>
             <div className="bannerContentContainer">
               <h1>Nexus Connect</h1>
@@ -58,20 +59,32 @@ const Landingpagenew = () => {
                     >
                       <div>Learn More</div>{" "}
                       <div className="nexus_rightarrow">
-                        <img
-                          src={require("./Arrow.png")}
+                        <Img
+                          src={"./Images/landing/Arrow.png"}
                           alt="rightarrow"
                         />
                       </div>
                     </div>
                   </div>
+                      <div>
+                              <a href="#mapcomp" className={"mapbutton"}>
+
+                              <Img style={{width:"40px",textAlign:"center",marginTop:"20px"}} src={"/Images/landing/down.svg"}></Img>
+                              </a>
+                      </div>
+                  
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="second_bg_img-contaniner">
+
+        <section  id="mapcomp">
+          <Map3dComponent />
+        </section>
+
+        {/* <div className="second_bg_Img-contaniner">
           <div className="second_bg_content">
             <div className="second_bg_heading">
               <h1>NextGenTV</h1>
@@ -91,11 +104,11 @@ const Landingpagenew = () => {
                 worldwide.
               </p>
             </div>
-            <div className="mobile_view_img" style={{ display: "none" }}>
-              <img src={require("./side-view-woman.png")} alt="sideimage"/>
+            <div className="mobile_view_Img" style={{ display: "none" }}>
+              <Img src={"/Images/landing/side-view-woman.png"} alt="sideimage"/>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="third_bg_contaniner">
           <div className="third_bg_content">
@@ -118,8 +131,8 @@ const Landingpagenew = () => {
             <section className="third_bg_lower_horizontal">
               <div className="third_bg_left_content">
                 <div className="Ark_logo">
-                  <img
-                    src={require("./ARK-multicasting.png")}
+                  <Img
+                    src={"./Images/landing/ARK-multicasting.png"}
                     alt="Ark_logo"
                   />
                 </div>
@@ -136,12 +149,12 @@ const Landingpagenew = () => {
 
               <div className="third_bg_right_content">
                 <div className="mobius_logo_">
-                  <img
-                    src={require("./Mobius-white-logo.png")}
+                  <Img
+                    src={"./Images/landing/Mobius-white-logo.png"}
                     alt="Mobius-white-logo"
                   />
-                  <img
-                    src={require("./Mobius-written.png")}
+                  <Img
+                    src={"./Images/landing/Mobius-written.png"}
                     alt="Mobius-written"
                   />
                 </div>
@@ -159,17 +172,14 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-        <div>
-          <MapComponent />
-        </div>
-
+     
         <div><AppSwiper /></div>
 
         <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
             <section className="content_nab-show">
-              <img
-                src={require("./NAB-show.png")}
+              <Img
+                src={"./Images/landing/NAB-show.png"}
                 alt="NAB"
               />
             </section>
@@ -178,23 +188,23 @@ const Landingpagenew = () => {
               <p>Mobius Won 5 Product of the Year award at NAB Show 2023</p>
             </section>
 
-            <section className="winner_img">
-              <img
-                src={require("./2023-winner.png")}
+            <section className="winner_Img">
+              <Img
+                src={"./Images/landing/2023-winner.png"}
                 alt="winner"
               />
             </section>
           </div>
         </div>
 
-        <Features />
+        {/* <Features /> */}
 
-        <div>
+        {/* <div>
           <div className="android_swiper_heading" style={{ margin: "5%" }}>
             <h1>Our Partners</h1>
           </div>
           <div style={{ margin: "5%" }}>{<AndroidApps />}</div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 .mainDiv{
-    width: 550px;
-    height: 170px;
+    width: 440px;
+    height: 146px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -91,4 +91,11 @@ h1{
         transform: rotate(90deg) !important;
         transition: 0.4s all ease-in;
     
+}
+
+
+@media screen and (max-width:1280px) {
+    .mainDiv{
+        width: 360px;
+    }
 }

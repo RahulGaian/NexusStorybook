@@ -6,16 +6,18 @@ import { useState } from 'react';
 import Spline from '@splinetool/react-spline';
 import { func } from 'prop-types';
 import KnowMore from '../knowMore';
+import HowWhoWhy from '../howWhoWhy';
 
 import RotatingStars from '../rotatingStars';
 
 
 export function Map({setClick,clicked}) {
     let arr = []
-    
+    let counterZoom = 0
     let counter = 0; 
-
+    let splineRef ;
   function onLoad(spline) {
+    splineRef = spline;
     const obj = spline.findObjectByName('Clink');
     const part = spline.findObjectByName('Moving particles')
     console.log(part,"hellooo")
@@ -36,7 +38,7 @@ export function Map({setClick,clicked}) {
     }
 
     console.log(arr)
-    spline.setZoom(26)
+    spline.setZoom(27)
 
   }
 
@@ -44,11 +46,16 @@ export function Map({setClick,clicked}) {
       console.log('Clicked an object: ', e.target.name);
       let name = e.target.name;
       console.log(name)
-      if(name == "Clink" || name =="Group 3"){
+      if(name == "Group 6" || name =="Group 3" || name=="Group 4"){
         counter++;
         if(counter == 1){
           setClick(true);
-          counter = 0
+          counter = 0;
+          if(counterZoom == 0){
+
+            splineRef.setZoom(1.3)
+            counterZoom++;
+          }
 
         }
         
@@ -67,11 +74,14 @@ export function Map({setClick,clicked}) {
         onMouseDown={onMouseDown}
         onMouseUp={onMouseDown}
         className={style.mapInternal}
-        scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
+        // scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
+        scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
       />
     </div>
   );
 }
+
+  // create a function to write blow fish algorithm
 
 const Map3dComponent = () => {
     const [Click,setClick] = useState(false)
@@ -85,7 +95,7 @@ const Map3dComponent = () => {
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
         <Map setClick={setClick} clicked={Click}></Map>
-        <div className={Click?style.bottom:style.bottombt}>
+        {/* <div className={Click?style.bottom:style.bottombt}>
           <div className={style.bottomtop}>
                 <div>
                     <h1 className={style.how}>How</h1>
@@ -100,11 +110,22 @@ const Map3dComponent = () => {
           <KnowMore bgColor='lightgrey'/>
           </div>
 
-        </div>
+        </div> */}
         <div className={Click?style.right:style.rightr}>
-          <div>
+          {/* <div>
             <h1 className={style.how}>How</h1>
-          </div>
+          </div> */}
+          {/* <div className={style.bottomtop}>
+                <div>
+                    <h1 className={style.how}>How</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Who</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Why</h1>
+                  </div>
+          </div> */}
+          <HowWhoWhy></HowWhoWhy> 
+
           <KnowMore bgColor='lightgrey'/>
           <KnowMore bgColor='lightgrey'/>
 

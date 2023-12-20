@@ -2,13 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth
+
 }
 .Landing_page_Container {
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  scrollbar-width: thin;
+  overflow-x: hidden;
 }
 
+
+.Landing_page_Container::-webkit-scrollbar {
+  width: 5px !important;
+}
+/* #mapcomp{
+  width: 100vw;
+  height: 100vh;
+} */
 .Landing_top_bg {
   width: 100%;
   min-height: 1000px;
@@ -17,6 +29,9 @@
   justify-content: center;
   align-items: center;
   background: none;
+  /* opacity: 0.9; */
+background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 31.9%, rgba(0, 0, 0, 0.80) 91.59%);
+/* mix-blend-mode: lighten; */
 }
 
 .video-background {
@@ -31,6 +46,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  /* background-color: red; */
 }
 
 .video-background video {
@@ -55,7 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(./video/x.png);
+  /* background: url(./video/x.png); */
   z-index: 10;
   /* border: 3px solid red; */
 }
@@ -72,20 +88,32 @@
   z-index: 1;
 }
 
+.mapbutton{
+  z-index: 10;
+}
+
 .bannerContentContainer > h1 {
   color: #f6f6f6;
   text-align: center;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 11rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 150px;
   /* background: -webkit-linear-gradient(white, black);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
+@font-face {
 
+  font-family: 'ITC';
+  font-style: normal;
+  font-weight: normal;
+  src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+
+}
 .bannerContentWrapper {
   width: 100%;
   margin-top: 2rem;
@@ -100,12 +128,13 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  align-items: center;
 }
 
 .bannerContent > div > h1 {
   color: #f6f6f6;
   text-align: center;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -116,7 +145,7 @@
 .bannerContent > div > p {
   color: #f6f6f6;
   text-align: center;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -155,7 +184,7 @@
 
 #learnMoreBtn {
   color: #fff !important;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -173,7 +202,7 @@
 
 /* ---------------second_bg_img-contaniner--------------------------- */
 .second_bg_img-contaniner {
-  background: url("./side-view-woman.png");
+  /* background: url("./side-view-woman.png"); */
   background-size: 100% 100%;
   width: 100%;
   min-height: 500px;
@@ -199,7 +228,7 @@
 
 .second_bg_heading h1 {
   color: #f6f6f6;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 4rem;
   font-style: normal;
   font-weight: 600;
@@ -213,7 +242,7 @@
   width: 55%;
 
   color: #f6f6f6;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 500;
@@ -225,7 +254,7 @@
 .second_bg_para2 p {
   width: 55%;
   color: #f6f6f6;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-style: normal;
   font-size: 1.5rem;
   font-weight: 400;
@@ -268,7 +297,7 @@
   /* font-size: 50px; */
   color: #f6f6f6;
   text-align: center;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 40.687px;
   font-style: normal;
   font-weight: 500;
@@ -283,7 +312,7 @@
   text-align: center;
   color: #f6f6f6;
   text-align: center;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-style: normal;
   font-weight: 400;
   line-height: 30px; 
@@ -338,7 +367,7 @@
 .third_bg_lower_para1 p {
   color: #f6f6f6;
   text-align: justify;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -362,7 +391,7 @@
 .third_bg_lower_para2 p {
   color: #f6f6f6;
   text-align: justify;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -415,7 +444,7 @@
   width: 95%;
   color: #404040;
   font-variant-numeric: lining-nums proportional-nums;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 3rem;
   font-style: normal;
   font-weight: 500;
@@ -435,7 +464,7 @@
 /* ------------------------.android_swiper_heading-------- */
 .android_swiper_heading {
   color: #cdcdcd;
-  font-family: ITC Avant Garde Gothic;
+  font-family: 'ITC';
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -551,7 +580,7 @@
 
   /* #learnMoreBtn {
       color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
+      font-family: 'ITC';
       font-size: 25px;
       font-style: normal;
       font-weight: 500;
@@ -635,7 +664,7 @@
   .third_bg_upper div h1 {
     color: #f6f6f6;
     text-align: center;
-    font-family: ITC Avant Garde Gothic;
+    font-family: 'ITC';
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 500;
@@ -697,7 +726,7 @@
   /* .third_bg_lower_para1 p {
     color: #f6f6f6;
     text-align: justify;
-    font-family: ITC Avant Garde Gothic;
+    font-family: 'ITC';
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -719,7 +748,7 @@
   /* .third_bg_lower_para2 p {
     color: #f6f6f6;
     text-align: justify;
-    font-family: ITC Avant Garde Gothic;
+    font-family: 'ITC';
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -1068,7 +1097,7 @@
   .third_bg_lower_para2 p {
     color: #f6f6f6;
     text-align: justify;
-    font-family: ITC Avant Garde Gothic;
+    font-family: 'ITC';
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -1600,7 +1629,7 @@
 
   /* #learnMoreBtn {
       color: #fff !important;
-      font-family: ITC Avant Garde Gothic;
+      font-family: 'ITC';
       font-size: 25px;
       font-style: normal;
       font-weight: 500;

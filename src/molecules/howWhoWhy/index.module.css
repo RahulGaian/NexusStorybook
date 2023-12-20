@@ -1,0 +1,31 @@
+.activeTab {
+    border-bottom: 2px solid #ffa200; /* Adjust the styling as needed */
+    color: #ffa200 !important;
+
+  }
+
+.activeTab + .how{
+    color: #ffa200;
+}   
+  
+  .how{
+    color: white;
+text-align: center;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: 'ITC';
+font-size: 25.725px;
+font-style: normal;
+font-weight: 500;
+line-height: 30.012px; /* 116.667% */
+/* margin-top: 30px; */
+}
+
+.how:hover{
+    cursor: pointer;
+}
+.bottomtop{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+
+}

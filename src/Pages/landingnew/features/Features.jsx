@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "../../../components/Image";
 import "./Features.css";
 
 const Features = () => {
@@ -8,8 +9,8 @@ const Features = () => {
         <div className="productContentCardWrapper">
           <div className="productContentCard ">
             <div className="productContentCardImage">
-              <img
-                src={require("../comp-wifi.png")}
+              <Img
+                src={"/Images/landing/comp-wifi.png"}
                 alt="comp-wifi img"
               />
             </div>
@@ -27,8 +28,8 @@ const Features = () => {
 
           <div className="productContentCard ">
             <div className="productContentCardImage">
-              <img
-                src={require("../comp-tower.png")}
+              <Img
+                src={"/Images/landing/comp-tower.png"}
                 alt="comp-tower img"
               />
             </div>
@@ -49,8 +50,8 @@ const Features = () => {
 
           <div className="productContentCard ">
             <div className="productContentCardImage">
-              <img
-                src={require("../computer-img.png")}
+              <Img
+                src={"/Images/landing/computer-img.png"}
                 alt="computer-img"
               />
             </div>
