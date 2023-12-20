@@ -1,30 +1,3 @@
-// import React from "react";
-// import NotifyMe from "./index";
-// import { notifyMeData } from "./data";
-
-// export default {
-//   title: "Components/NotifyMe",
-//   component: NotifyMe,
-// };
-
-// export const notifyMe = () => <NotifyMe data={notifyMeData.notifyMe} />;
-// export const notifyMe2 = () => <NotifyMe data={notifyMeData.notifyMe2}/>;
-// export const notifyMe3 = ()=> <NotifyMe data={notifyMeData.notifyMe3}/>;
-
-// export const Argstest = {
-//   args: {
-//     data: {
-//       title: 'Download the SwissBorg app and kickstart your crypto wealth today',
-//       message: 'App is not available in US',
-//       buttonText: 'Notify Me',
-//       imgURL1:"",
-//       imgURL2:"",
-//       imgURL3:""
-//     }
-//   }
-// };
-
-
 import React from "react";
 import NotifyMe from "./index";
 import { notifyMeData } from "./data";
@@ -68,3 +41,29 @@ notifyMe3.args = {
   showButton: false,
   showImageContainer: true,
 };
+
+// import React from "react";
+// import NotifyMe from "./index";
+// import { notifyMeData } from "./data";
+
+// export default {
+//   title: "Components/NotifyMe",
+//   component: NotifyMe,
+// };
+
+// export const notifyMe = () => <NotifyMe data={notifyMeData.notifyMe} />;
+// export const notifyMe2 = () => <NotifyMe data={notifyMeData.notifyMe2}/>;
+// export const notifyMe3 = ()=> <NotifyMe data={notifyMeData.notifyMe3}/>;
+
+// export const Argstest = {
+//   args: {
+//     data: {
+//       title: 'Download the SwissBorg app and kickstart your crypto wealth today',
+//       message: 'App is not available in US',
+//       buttonText: 'Notify Me',
+//       imgURL1:"",
+//       imgURL2:"",
+//       imgURL3:""
+//     }
+//   }
+// };

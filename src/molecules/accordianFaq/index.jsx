@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import style from "./index.module.css";
 import { accordianData } from "./accordianData";
@@ -205,4 +206,4 @@ function AccordianFaq() {
   );
 }
 
-export default AccordianFaq;
+export default AccordianFaq
