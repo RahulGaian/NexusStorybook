@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features {
+  width: 561px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.btncontainer {
+  display: flex;
+}
+
+.btncontainer > button:focus {
+  outline: none;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: #4c4c4c;
+  background-color: transparent;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0px;
+  width: max-content;
+  height: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  font-family: ITC;
+  font-size: 14.906px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px;
+  letter-spacing: 0px;
+  transition: all 0.3s ease 0s;
+}
+
+#btnclick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: #ff9b00;
+  background-color: #ff99003f;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0px;
+  width: max-content;
+  height: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  font-family: ITC;
+  font-size: 14.906px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20.7px;
+  letter-spacing: 0px;
+  transition: all 0.3s ease 0s;
+}
+
+.slidingContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 780px;
+  height: auto;
+  padding: 25px 0;
+  transition: all 0.6s ease 0s;
+}
+
+.leftCont {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftCont > img {
+  width: inherit;
+  height: inherit;
+}
+
+.rightCont {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#head {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+#para {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
