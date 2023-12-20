@@ -1,44 +1,3 @@
-// import React from "react";
-// import PropTypes from "prop-types";
-// import styles from "./index.module.css";
-// import Img from "../../components/Image";
-
-// const NotifyMe = ({ data }) => {
-//   return (
-//     <div className={styles.container}>
-//       <div className={styles.notifyContainer}>
-//         <div className={styles.mainText}>
-//           <h1>{data.title}</h1>
-//         </div>
-//         <div className={styles.secondryText}>
-//           <p>{data.message}</p>
-//         </div>
-//         <button className={styles.notifyBtn}>{data.buttonText}</button>
-
-//         <div className={styles.imageContainer}>
-//           <div className={styles.imageWrapper}>
-//             <Img src={data.imgURL1} />
-//           </div>
-//           <div className={styles.imageWrapper}>
-//             <Img src={data.imgURL2} />
-//           </div>
-//           <div className={styles.imageWrapper}>
-//             <Img src={data.imgURL3} />
-//           </div>
-//         </div>
-
-//       </div>
-//     </div>
-//   );
-// };
-
-// NotifyMe.propTypes = {
-//   title: PropTypes.string.isRequired,
-//   message: PropTypes.string.isRequired,
-//   buttonText: PropTypes.string.isRequired,
-// };
-// export default NotifyMe;
-
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./index.module.css";
@@ -94,3 +53,44 @@ NotifyMe.propTypes = {
 };
 
 export default NotifyMe;
+
+// import React from "react";
+// import PropTypes from "prop-types";
+// import styles from "./index.module.css";
+// import Img from "../../components/Image";
+
+// const NotifyMe = ({ data }) => {
+//   return (
+//     <div className={styles.container}>
+//       <div className={styles.notifyContainer}>
+//         <div className={styles.mainText}>
+//           <h1>{data.title}</h1>
+//         </div>
+//         <div className={styles.secondryText}>
+//           <p>{data.message}</p>
+//         </div>
+//         <button className={styles.notifyBtn}>{data.buttonText}</button>
+
+//         <div className={styles.imageContainer}>
+//           <div className={styles.imageWrapper}>
+//             <Img src={data.imgURL1} />
+//           </div>
+//           <div className={styles.imageWrapper}>
+//             <Img src={data.imgURL2} />
+//           </div>
+//           <div className={styles.imageWrapper}>
+//             <Img src={data.imgURL3} />
+//           </div>
+//         </div>
+
+//       </div>
+//     </div>
+//   );
+// };
+
+// NotifyMe.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   message: PropTypes.string.isRequired,
+//   buttonText: PropTypes.string.isRequired,
+// };
+// export default NotifyMe;
