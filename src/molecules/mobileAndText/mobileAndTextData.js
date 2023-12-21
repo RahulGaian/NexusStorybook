@@ -54,4 +54,22 @@ export const mobileAndTextData = {
       mobImg: "./Images/mobileAndText/mobileimage2.png",
     },
   },
+  mobileData4: {
+    mobileText4: {
+      heading: "Automate your crypto investments with SwissBorg ",
+      description: {
+        desc1: "Choose the asset you want to invest in",
+        desc2: "Select the frequency of your investments",
+        desc3: "Choose the source of funds account",
+        desc4: "Input the recurrent amount",
+        desc5: "Confirm. Done!",
+      },
+      images: {
+        img1: "./Images/mobileAndText/appstore.png",
+        img2: "./Images/mobileAndText/googlestore.png",
+        img3: "./Images/mobileAndText/scanner.png",
+      },
+      mobImg: "./Images/mobileAndText/mobileimage3.png",
+    },
+  },
 };

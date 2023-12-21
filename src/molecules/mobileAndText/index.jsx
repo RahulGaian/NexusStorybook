@@ -18,13 +18,13 @@ function MobileAndText({ data }) {
           </div>
           <div className={style.mobileLeftImage}>
             {Object.values(images).map((image, index) => (
-              <img key={index} src={image} alt="" />
+              <img key={index} src={image} alt="storeimage" />
             ))}
           </div>
         </div>
         {/* Assuming mobImg is directly in the data object */}
         <div className={style.mobileContentRight}>
-          <img src={data.mobImg} alt="" />
+          <img src={data.mobImg} alt="mobileimage" />
         </div>
       </div>
     </div>

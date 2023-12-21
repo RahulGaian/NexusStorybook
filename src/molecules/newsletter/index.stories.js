@@ -6,4 +6,4 @@ export default {
   component: Newsletter,
 };
 
-export const Default = () => <Newsletter />;
+export const NewsletterComponent = () => <Newsletter />;

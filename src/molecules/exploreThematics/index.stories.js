@@ -6,4 +6,4 @@ export default {
   component: Thematics,
 };
 
-export const Default = () => <Thematics />;
+export const ThematicComponent = () => <Thematics />;
