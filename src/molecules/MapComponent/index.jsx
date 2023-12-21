@@ -41,12 +41,13 @@ export function Map({setClick,clicked}) {
     spline.setZoom(27)
 
   }
+  let app_names = ["Revee","GoFEMA","C-Link","HearHere","Museo","VoteIQ"]
 
   function onMouseDown(e) {
       console.log('Clicked an object: ', e.target.name);
       let name = e.target.name;
       console.log(name)
-      if(name == "C-Link" || name =="Museo" || name=="Hear Here"){
+      if(app_names.includes(name)){
         counter++;
         if(counter == 1){
           setClick(true);
