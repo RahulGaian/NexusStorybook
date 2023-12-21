@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./index.module.css";
 
 const AccordionItem = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
+
 
   return (
     <div className={styles.accordionItem}>
@@ -23,7 +25,11 @@ const AccordionItem = ({ title, content }) => {
             }`}
           />
         </div>
-        {isOpen && <div className={styles.accordionAnswer}>{content}</div>}
+
+        {/* {isOpen && <div className={styles.accordionAnswer}>{content}</div>} */}
+        {isOpen && <div className={`${styles.accordionAnswer} ${isOpen ? 'rotate' : ''}`}>{content}</div>}
+
+
       </div>
     </div>
   );

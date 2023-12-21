@@ -18,7 +18,6 @@ function AccordianFaq() {
   });
 
 
-
   return (
     <div className={style.container}>
  
@@ -47,7 +46,6 @@ function AccordianFaq() {
                 className={style.dropdownImage}
               />
               
-     
             </div>
             <div
               className={`${style.dropdownCondition} ${
