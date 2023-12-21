@@ -70,31 +70,35 @@
 
 .AccordianHeader {
   /* border: 3px solid blue; */
-  width: 95%;
+  width: 100%;
   display: flex;
   justify-content: space-between !important;
   flex-direction: column;
+  cursor: pointer;
+
 }
 
 .accordianHeaderTitle {
   /* border: 3px solid green; */
   color: #4c4c4c;
   font-family: ITC;
-  font-size: 15.328px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20.7px;
+  line-height: 22px;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 
 }
 
 .toggleIcon {
-  height: 34px;
-  min-height: 34px;
+  height: 20px;
+  min-height: 20px;
   transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+
 }
 
 /* .AccordionItem  */
@@ -111,13 +115,14 @@
   font-weight: 400;
   line-height: 22px;
   font-family: "ITC";
+
+  /* max-height: 1000px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out; */
 }
 
 .rotateIcon {
   transform: rotate(180deg);
-  max-height: 0;
-  overflow: hidden;
-  transition: transform 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
@@ -236,7 +241,7 @@
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 200px) {
+@media screen and (max-width: 600px) and (min-width: 50px) {
   .container {
     width: 98%;
     display: flex;
@@ -292,7 +297,7 @@
   }
 
   .AccordianHeader {
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -304,7 +309,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 18.4px;
-    width: 90%;
+    width: 100%;
+    align-items: flex-start;
   }
 
   .dropdownImage {
