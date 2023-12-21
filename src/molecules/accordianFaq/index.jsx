@@ -10,11 +10,15 @@ function AccordianFaq() {
     setActiveIndex(activeIndex === index ? 0 : index);
   };
 
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((activeIndex) => activeIndex);
     });
   });
+
+
+
   return (
     <div className={style.container}>
  
@@ -42,6 +46,8 @@ function AccordianFaq() {
                 alt="dropdown"
                 className={style.dropdownImage}
               />
+              
+     
             </div>
             <div
               className={`${style.dropdownCondition} ${
@@ -205,5 +211,4 @@ function AccordianFaq() {
     </div>
   );
 }
-
-export default AccordianFaq
+export default AccordianFaq 

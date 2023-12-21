@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "ITC";
-    src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
-      format("truetype");
-  }
-  .mainContainer {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+.mainContainer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,12 +20,11 @@
 }
 
 .titleWrapper {
-      /* border: 2px solid red; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* padding: 0 !important; */
-  }
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .title {
   /* border: 2px solid blue; */
@@ -37,7 +36,6 @@
 
 .title > h1 {
   color: #4c4c4c;
-  /* text-align: center; */
   font-family: ITC;
   font-size: 41.063px;
   font-style: normal;
@@ -94,15 +92,13 @@
 
 /* ------for tablet  view------------- */
 @media only screen and (max-width: 980px) and (min-width: 601px) {
-    .title {
-        padding: 0px 50px 0px 50px !important;
-      }
+  .title {
+    padding: 0px 50px 0px 50px !important;
+  }
 }
 
-
-
 /* ------for mobile view------------- */
-@media only screen and (max-width: 600px) and (min-width: 300px) {
+@media only screen and (max-width: 600px) and (min-width: 50px) {
   .wrapper {
     width: 90%;
     text-align: center;
