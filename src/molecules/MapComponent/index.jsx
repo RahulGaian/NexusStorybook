@@ -46,14 +46,15 @@ export function Map({setClick,clicked}) {
       console.log('Clicked an object: ', e.target.name);
       let name = e.target.name;
       console.log(name)
-      if(name == "Group 6" || name =="Group 3" || name=="Group 4"){
+      if(name == "C-Link" || name =="Museo" || name=="Hear Here"){
         counter++;
         if(counter == 1){
           setClick(true);
           counter = 0;
           if(counterZoom == 0){
 
-            splineRef.setZoom(1.3)
+            // splineRef.setZoom(1.3)
+
             counterZoom++;
           }
 
@@ -126,10 +127,9 @@ const Map3dComponent = () => {
           </div> */}
           <HowWhoWhy></HowWhoWhy> 
 
-          <KnowMore bgColor='lightgrey'/>
-          <KnowMore bgColor='lightgrey'/>
-
-          <KnowMore bgColor='lightgrey'/>
+          <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/>
+          <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/>
+          <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/>
 
         </div>
 
@@ -141,5 +141,7 @@ const Map3dComponent = () => {
     </>
   )
 }
+
+
 
 export default Map3dComponent

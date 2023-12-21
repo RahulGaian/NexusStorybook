@@ -9,6 +9,7 @@
     border-radius: 10px; 
     padding-left: 20px;
     transition: 0.2s all ease-in-out;
+    backdrop-filter: blur(102px); 
 
 }
 @font-face {
@@ -22,7 +23,7 @@
   }
   
 .firstText{
-    color: #4C4C4C;
+    color: #F4F4F4;
 font-family: ITC;
 font-size: 20px;
 font-style: normal;
@@ -30,7 +31,7 @@ font-weight: 500;
 line-height: normal;
 }
 .secondText{
-    color: #4C4C4C;
+    color: #F4F4F4;
 font-family: ITC;
 font-size: 12px;
 font-style: normal;
@@ -39,7 +40,7 @@ line-height: 18px; /* 150% */
 }
 
 .thirdText{
-    color: #4C4C4C;
+    color: #F4F4F4;
 font-family: ITC;
 font-size: 10px;
 font-style: normal;
@@ -48,7 +49,7 @@ line-height: 14.655px; /* 146.552% */
 }
 
 .fourthText{
-    color: #4C4C4C;
+    color: #F4F4F4;
 font-family: ITC;
 font-size: 12px;
 font-style: normal;
@@ -78,7 +79,7 @@ h1{
 .mainDiv:hover{
     scale: 1.1;
     transition: 0.2s all ease-in-out;
-
+    border: 4px solid #0C90DE; 
 
 }
 .mainDiv  .down img{
