@@ -5,7 +5,7 @@
 }
 
 .container {
-  /* background-color: red; */
+  /* border: 2px solid green; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,8 @@
   padding-left: 8%;
 }
 
-.singleAccordion {
+/* .singleAccordion  */
+.accordionItem {
   /* background-color: yellow; */
   /* border: 2px solid blue; */
 
@@ -69,10 +70,10 @@
 
 .AccordianHeader {
   /* border: 3px solid blue; */
-
   width: 95%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
+  flex-direction: column;
 }
 
 .accordianHeaderTitle {
@@ -83,17 +84,21 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20.7px;
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
 }
 
-.dropdownImage {
+.toggleIcon {
   height: 34px;
   min-height: 34px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.AccordionItem {
+/* .AccordionItem  */
+.accordionAnswer {
   /* border: 5px solid green; */
   display: flex;
   flex-direction: column;
@@ -108,14 +113,11 @@
   font-family: "ITC";
 }
 
-.dropdownCondition {
+.rotateIcon {
+  transform: rotate(180deg);
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.8s ease-in-out;
-}
-
-.dropdownCondition.active {
-  max-height: 220px;
+  transition: transform 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
@@ -147,8 +149,10 @@
   }
 
   .accordionContent {
+    /* height: 410px; */
     height: fit-content;
     width: 72%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,6 +215,7 @@
     padding-left: 5%;
   }
 }
+
 @media screen and (max-width: 720px) and (min-width: 601px) {
   .titleHeader {
     width: 35%;
