@@ -175,9 +175,9 @@
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
-  /* .thematicsContainer {
+  .thematicsContainer {
     width: 1420px;
-  } */
+  }
   .thematicsHeader {
     width: 1420px;
   }

@@ -11,7 +11,9 @@ export const secondHeadingData ={
     },
     advancedCrypto: {
         text: "Advanced crypto asset analysis tools at your fingertips"
+    },
+    infographicTitle: {
+        text: "How Thematics work for you"
     }
-
 
 }
