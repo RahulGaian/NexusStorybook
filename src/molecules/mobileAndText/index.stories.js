@@ -7,12 +7,15 @@ export default {
   component: MobileAndText,
 };
 
-export const Default = () => (
+export const MobileTextComponent1 = () => (
   <MobileAndText data={mobileAndTextData.mobileData1.mobileText1} />
 );
-export const Default1 = () => (
+export const MobileTextComponent2 = () => (
   <MobileAndText data={mobileAndTextData.mobileData2.mobileText2} />
 );
-export const Default2 = () => (
+export const MobileTextComponent3 = () => (
   <MobileAndText data={mobileAndTextData.mobileData3.mobileText3} />
+);
+export const MobileTextComponent4 = () => (
+  <MobileAndText data={mobileAndTextData.mobileData4.mobileText4} />
 );

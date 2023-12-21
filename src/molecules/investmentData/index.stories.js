@@ -7,7 +7,9 @@ export default {
   component: Investment,
 };
 
-export const Default = () => <Investment data={InvestmentData.investmentOne} />;
-export const Default1 = () => (
+export const Investment1 = () => (
+  <Investment data={InvestmentData.investmentOne} />
+);
+export const Investment2 = () => (
   <Investment data={InvestmentData.investmentTwo} />
 );

@@ -6,4 +6,4 @@ export default {
   component: Cookies,
 };
 
-export const Default = () => <Cookies />;
+export const CookiesComponent = () => <Cookies />;
