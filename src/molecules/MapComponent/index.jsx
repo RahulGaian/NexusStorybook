@@ -7,63 +7,82 @@ import Spline from '@splinetool/react-spline';
 import { func } from 'prop-types';
 import KnowMore from '../knowMore';
 import HowWhoWhy from '../howWhoWhy';
-
+import { Suspense } from 'react';
+import { Loader } from '@react-three/drei';
 import RotatingStars from '../rotatingStars';
 
 
 export function Map({setClick,clicked}) {
-    let arr = []
+    let initialLocation ={}
+    let initialScales = {}
     let counterZoom = 0
-    let counter = 0; 
+    let prevApp =""
+    let app_names = ["Revee","GoFEMA","C-Link","HearHere","Museo","VoteIQ"]
+
     let splineRef ;
   function onLoad(spline) {
     splineRef = spline;
-    const obj = spline.findObjectByName('Clink');
-    const part = spline.findObjectByName('Moving particles')
-    console.log(part,"hellooo")
 
-    for (let i =2;i<=25;i++){
-        try{
-            let name = 'Rectangle '+i
-            let rect = spline.findObjectByName(name);
-            const handler1 = {}
-            let proxy1 = new Proxy(rect, handler1);
 
-            arr.push(proxy1)
+      // setTimeout(location_finder, 4000);
+   
+    // console.log(arr)
+    spline.setZoom(27)
+    // let rect = splineRef.findObjectByName("Revee");
+    // rect.emitEvent("mouseDown","Revee")
+    // spline.emitEvent("mouseDown","Revee")
+  }
+  const location_finder = () =>{
+
+      
+    for (let i of app_names){
+      try{
+        let name = i;
+        let rect = splineRef.findObjectByName(name);
+          // const handler1 = {}
+          // let proxy1 = new Proxy(rect, handler1);
+          initialLocation[rect.name] = [rect.position.x,rect.position.y,rect.position.z]
+          initialScales[rect.name] = [rect.scale.x,rect.scale.y,rect.scale.z]
+          console.log(rect.rotation.x,rect.rotation.y,rect.rotation.z)
+          console.log(rect.scale)
+          // arr.push(proxy1)
 
         }
         catch{
-            console.log("not found")
+          console.log("not found")
         }
+      }
+      
+      console.log(initialLocation)
     }
 
-    console.log(arr)
-    spline.setZoom(27)
-
-  }
-  let app_names = ["Revee","GoFEMA","C-Link","HearHere","Museo","VoteIQ"]
-
   function onMouseDown(e) {
-      console.log('Clicked an object: ', e.target.name);
-      let name = e.target.name;
-      console.log(name)
-      if(app_names.includes(name)){
-        counter++;
-        if(counter == 1){
-          setClick(true);
-          counter = 0;
-          if(counterZoom == 0){
+    console.log('Clicked an object: ', e.target.name);
+    let name = e.target.name;
+    console.log(name)
+    if(name != prevApp && prevApp != ""){
+      let app = splineRef.findObjectByName(prevApp);
+      console.log(initialLocation[prevApp],prevApp)
+      app.emitEventReverse("mouseDown")
 
+      console.log(app.position)
+    }
+      if(app_names.includes(name)){
+          setClick(true);
+
+          if(counterZoom == 0){
+            location_finder();
             // splineRef.setZoom(1.3)
 
             counterZoom++;
-          }
+          
 
         }
         
         
-        console.log("clicked clink")
-        console.log(clicked)
+ 
+        prevApp = name
+        console.log(prevApp,"previous app")
       }
   }
 
@@ -71,6 +90,7 @@ export function Map({setClick,clicked}) {
 
   return (
     <div className={clicked?style.map2 : style.map}>
+      <Suspense fallback={<Loader/>}>
       <Spline 
         onLoad={onLoad}
         onMouseDown={onMouseDown}
@@ -78,7 +98,8 @@ export function Map({setClick,clicked}) {
         className={style.mapInternal}
         // scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
         scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
-      />
+        />
+        </Suspense>
     </div>
   );
 }
