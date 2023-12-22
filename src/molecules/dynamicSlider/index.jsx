@@ -61,11 +61,20 @@ const DynamicSlider = () => {
         </div>
         <div className={st.slidingContent}>
           <div className={st.leftCont}>
-            <Img src={buttonContent[clickedButton - 1].imgSrc} />
+            <Img
+              src={buttonContent[clickedButton - 1].imgSrc}
+              alt=""
+              key={buttonContent[clickedButton - 1].imgSrc}
+              className={st.fade}
+            />
           </div>
           <div className={st.rightCont}>
-            <span id={st.head}>{buttonContent[clickedButton - 1].heading}</span>
-            <span id={st.para}>{buttonContent[clickedButton - 1].para}</span>
+            <div className={st.rightContentCont}>
+              <span id={st.head}>
+                {buttonContent[clickedButton - 1].heading}
+              </span>
+              <span id={st.para}>{buttonContent[clickedButton - 1].para}</span>
+            </div>
           </div>
         </div>
       </div>

@@ -8,7 +8,11 @@ function Yield({ data }) {
         {data.map((item, index) => (
           <div key={index} className={style.yieldContentCont}>
             <div className={style.yieldImageCont}>
-              <img src={item.logo} alt="" className={style.yieldImage} />
+              <img
+                src={item.logo}
+                alt="logoimage"
+                className={style.yieldImage}
+              />
             </div>
             <div className={style.yieldNameCont}>
               <p className={style.yieldName}>{item.name}</p>

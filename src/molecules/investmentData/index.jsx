@@ -7,12 +7,8 @@ function Investment({ data }) {
       <div className={style.investContainer}>
         {data.map((investment, index) => (
           <div key={index} className={style.investContentCont}>
-            <p className={style.investNumber}>
-              {investment[`investors${index + 1}`]}
-            </p>
-            <p className={style.investName}>
-              {investment[`investorsName${index + 1}`]}
-            </p>
+            <p className={style.investNumber}>{investment.investors}</p>
+            <p className={style.investName}>{investment.investorsName}</p>
           </div>
         ))}
       </div>

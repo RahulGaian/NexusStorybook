@@ -15,7 +15,8 @@ const MoreFeatures = ({ data }) => {
         <div className={styles.cardContainerMain}>
           <div className={styles.cardContainer}>
 
-            {data.cards.map((card, index) => (
+            {
+            data.cards.map((card, index) => (
               <div className={styles.card} key={index}>
                 <div>
                   <Img src={card.imgSrc}></Img>
@@ -24,7 +25,8 @@ const MoreFeatures = ({ data }) => {
                   <p>{card.text}</p>
                 </div>
               </div>
-            ))}
+            ))
+            }
 
           </div>
         </div>

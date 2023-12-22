@@ -55,17 +55,26 @@
   .yieldContentCont {
     width: 1420px;
   }
+  .yieldName {
+    max-width: 400px;
+  }
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .yieldContentCont {
     width: 1200px;
   }
+  .yieldName {
+    max-width: 320px;
+  }
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .yieldContentCont {
     width: 950px;
+  }
+  .yieldName {
+    max-width: 280px;
   }
 }
 
@@ -81,7 +90,7 @@
     width: 90%;
   }
   .yieldName {
-    width: 140px;
+    max-width: 220px;
     color: #191e29;
     text-align: center;
     font-family: ITC;
@@ -102,24 +111,25 @@
   .yieldContainer {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
+    justify-content: center;
     width: 100%;
-    gap: 20px;
+    /* gap: 60px; */
   }
   .yieldContentCont {
     width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: space-around; */
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
+    height: 150px;
   }
   .yieldImageCont {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
   }
   .yieldImage {
     width: 60px;
@@ -129,10 +139,11 @@
   .yieldNameCont {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
   }
   .yieldName {
+    max-width: 200px;
     max-height: 25.3px;
     color: #191e29;
     font-family: ITC;
