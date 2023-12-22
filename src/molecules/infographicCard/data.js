@@ -33,5 +33,12 @@ export const ifgData = {
     content:
       "Every strategy for every crypto asset has a Cyborg mood (Core, Adventurous, Brave) that grades its risks so you can make smart investing decisions.",
     flexDirection: "row",
+  },
+  c6: {
+    imgURL: "./Images/infographicCards/ifgC6.png",
+    head: "See your potential earnings at a glance",
+    content:
+      "Investing isn’t just about managing risk, though - it’s about balancing risk and returns. SwissBorg Earn makes this simple with estimated annual yields visible at a glance.",
+    flexDirection: "row",
   }
 };

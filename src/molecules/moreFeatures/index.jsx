@@ -23,7 +23,7 @@ const MoreFeatures = ({ data }) => {
                 </div>
                 <div>
                   <p>{card.text}</p>
-                </div>
+                </div> 
               </div>
             ))
             }

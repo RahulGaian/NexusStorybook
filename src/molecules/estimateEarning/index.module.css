@@ -26,7 +26,8 @@
       rgba(251, 180, 42, 0.2) 99.82%
     )
   );
-  height: 60px !important;
+  /* height: 60px !important; */
+  height: fit-content !important;
   width: 80%;
 
   /* padding: 60px 130px; */
