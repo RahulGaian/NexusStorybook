@@ -182,7 +182,7 @@
   .mobileLeftDesc p {
     width: 100%;
     /* line-height: 40px; */
-    text-align: center;
+    text-align: justify;
   }
   .mobileLeftImage {
     width: 100%;
@@ -193,6 +193,6 @@
     align-items: center;
   }
   .mobileContentRight {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 }
