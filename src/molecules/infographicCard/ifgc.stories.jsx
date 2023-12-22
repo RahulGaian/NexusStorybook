@@ -11,6 +11,8 @@ export const Card2 = () => <InfographicCard data={ifgData.c2} />;
 export const Card3 = () => <InfographicCard data={ifgData.c3} />;
 export const Card4 = () => <InfographicCard data={ifgData.c4} />;
 export const Card5 = () => <InfographicCard data={ifgData.c5} />;
+export const Card6 = () => <InfographicCard data={ifgData.c6} />;
+
 export const Argstest2 = {
     args: {
       data: {

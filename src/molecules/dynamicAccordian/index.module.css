@@ -16,7 +16,7 @@
 .contentContainer {
   margin: 5% 0 !important;
   /* border: 5px solid green; */
-  width: 1700px;
+  width: 1200px;
   display: flex !important;
 }
 
@@ -134,14 +134,18 @@
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .contentContainer {
-    width: 1200px;
+    /* width: 1200px; */
+    /* width: 1100px; */
+    width: 75% !important;
+
     display: flex !important;
   }
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .contentContainer {
-    width: 950px;
+    /* width: 950px; */
+    width: 85%;
     display: flex !important;
   }
 
