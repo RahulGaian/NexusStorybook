@@ -1,0 +1,37 @@
+
+.topcont{
+    position:relative; 
+   min-height: 35vh ;
+   max-height: fit-content;
+   /* max-height: fit-content; */
+   padding: 0px 0px 0px 0px;
+   /* background-color: #6B6B6B; */
+   width: 100vw;
+   
+}
+#firstprinciples{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.rightarrow{
+    position: relative;
+    width: 15vw;
+    
+    opacity: 2;
+    /* padding-top: 2vh; */
+    /* margin-left: 3vw; */
+}
+.head{
+
+    padding-top: 1vh;
+    min-height: 4vh;
+    max-height: fit-content;
+    width:85vw;
+    padding-left:8vw;
+    text-transform: uppercase;
+    color: #6B6B6B;
+    /* background-color: aqua; */
+}
