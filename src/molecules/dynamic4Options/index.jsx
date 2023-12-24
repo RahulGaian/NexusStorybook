@@ -5,11 +5,23 @@ import { useState } from "react";
 const Dynamic4Option = ({ data }) => {
   const [clickedButton, setClickedButton] = useState(1);
 
+  const calculateMarginLeft = () => {
+    const buttonCount = data.length;
+    console.log(buttonCount);
+    if (buttonCount === 3) {
+      return "80px";
+    } else if (buttonCount === 4) {
+      return "250px";
+    } else {
+      return "0px";
+    }
+  };
+
   return (
     <div className={st.container}>
       <div className={st.contentContainer}>
         <div className={st.features}>
-          <div className={st.btncontainer}>
+          <div className={st.btncontainer}  style={{ marginLeft: window.innerWidth <= 600 ? calculateMarginLeft() : "0px" }}>
             {data.map((content, index) => (
               <button
                 key={index}
