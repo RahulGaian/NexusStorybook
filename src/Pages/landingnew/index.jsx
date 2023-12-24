@@ -7,6 +7,7 @@ import Features from "./features/Features";
 import Header from "../../molecules/Header/header";
 import Img from "../../components/Image";
 import Map3dComponent from "../../molecules/MapComponent";
+import Footer from "../../molecules/footer";
 
 const Landingpagenew = () => {
   return (
@@ -208,6 +209,11 @@ const Landingpagenew = () => {
           <div style={{ margin: "5%" }}>{<AndroidApps />}</div>
         </div> */}
       </div>
+
+      <section>
+        <Footer />
+      </section>
+      
     </>
   );
 };
