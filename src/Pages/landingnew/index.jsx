@@ -175,7 +175,7 @@ const Landingpagenew = () => {
      
         <div><AppSwiper /></div>
 
-        <div className="mobius_won_wrapper">
+        {/* <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
             <section className="content_nab-show">
               <Img
@@ -195,7 +195,7 @@ const Landingpagenew = () => {
               />
             </section>
           </div>
-        </div>
+        </div> */}
 
         {/* <Features /> */}
 

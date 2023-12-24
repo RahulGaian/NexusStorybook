@@ -432,7 +432,7 @@
   .thematics {
     display: flex;
     display: flex;
-    padding: 80px;
+    padding: 80px 0px;
     background: var(--Surface-Primary, #d8efff);
     width: 100%;
   }
