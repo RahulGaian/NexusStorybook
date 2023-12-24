@@ -10,7 +10,7 @@ import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer";
 import { notifyMeData } from "../../../molecules/notifyMe/data";
 import NotifyMe from "../../../molecules/notifyMe";
-import DynamicSlider from "../../../molecules/dynamicSlider/index";
+// import Dynamic4Option from "../../../molecules/dynamic4Options";
 import style from "./index.module.css";
 import MoreFeatures from "../../../molecules/moreFeatures";
 import { moreFeaturesData } from "../../../molecules/moreFeatures/data";
@@ -25,7 +25,7 @@ function Page1() {
         <SecondHeading data={secondHeadingData.secondHeading} />
       </section>
       <section>
-        <DynamicSlider />
+        {/* <Dynamic4Option/> */}
       </section>
       <section>
         <NotifyMe
