@@ -73,11 +73,15 @@
 @media screen and (max-width: 980px) and (min-width: 601px) {
   .invest {
     display: flex;
-    width: 790px;
+    /* width: 790px; */
+    /* width: 90%; */
     padding: 45px 32px;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+  }
+  .investContainer {
+    width: 100%;
   }
   .investContentCont {
     width: 90%;
