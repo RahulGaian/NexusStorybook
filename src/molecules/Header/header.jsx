@@ -2284,7 +2284,8 @@ const [isScrolled, setIsScrolled] = useState(false);
     {
       isdropped && (
         // <div className={Style.mobileview}></div>   {if(isclicked){setclicked(true);setIsOpen(true)}else{setIsOpen(false)};}
-      <Firstview  data={data}/>
+      // <Firstview  data={data}/>
+      <></>
       )
     }
 
