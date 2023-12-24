@@ -2224,7 +2224,7 @@ const [isScrolled, setIsScrolled] = useState(false);
     <div className={Style.header}>
           <div className={isScrolled? Style.navbar2:Style.navbar1} onMouseEnter={()=>{setIsOpen(false)}} >
             <div className={Style.headercomponents}>
-              <div id={Style.contents}>
+              <div id={isScrolled ? Style.contents:Style.contents1}>
               <div className={Style.logo} onClick={()=>{ window.location.href="/"}}><Img  src="./Images/header/logo1.svg" alt='nexuslogo' /></div>   
               {!isplatform?
               <div><div className={Style.text} onClick={handlePlatform}>PRODUCT</div>
