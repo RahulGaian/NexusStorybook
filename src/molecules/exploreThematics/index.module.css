@@ -21,8 +21,8 @@
 }
 
 .thematicsHeader {
-  /* width: 1700px; */
-  width: 100%;
+  width: 1700px;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -298,7 +298,7 @@
     width: 100%;
   }
   .thematicsContainer {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,7 +411,7 @@
     width: 90%;
   }
   .thematicsFooterContainer {
-    width: 100%;
+    width: 90%;
     display: flex;
     gap: 3%;
   }
@@ -432,12 +432,12 @@
   .thematics {
     display: flex;
     display: flex;
-    padding: 80px;
+    padding: 80px 0px;
     background: var(--Surface-Primary, #d8efff);
     width: 100%;
   }
   .thematicsContainer {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -445,7 +445,7 @@
   }
 
   .thematicsHeader {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,7 +476,7 @@
     line-height: normal;
   }
   .thematicsFooterContainer {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -485,7 +485,8 @@
   }
 
   .thematicsFooter {
-    width: 342px;
+    /* width: 342px; */
+    width: 300px;
     height: 300px;
     gap: 10px;
     margin-top: 1% !important;
