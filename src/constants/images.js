@@ -173,7 +173,7 @@ let DGaas9 = "/images/imagesnew/DGaas/DGCasestudy.png";
 //Header Images
 let MobiusLogo = '/images/imagesnew/brand-logo.svg'
 let Arrow = '/images/imagesnew/icons/loginarrow.png'
-let Menu = "/images/imagesnew/icons/menu.svg"
+let Menu = "/Images/header/menu.svg"
 let CloseOutline = "/images/imagesnew/icons/close-outline.svg"
 let RightArrow = "/images/imagesnew/icons/Vectorrightarrow.png"
 let DownArrow = "/images/imagesnew/icons/Vector.svg"

@@ -4,6 +4,7 @@ import AppSwiper from "../../components/appSwiper";
 import AndroidApps from "../../components/AndroidAppsSwiper";
 import MapComponent from "../../components/map_component/components/comp";
 import Features from "./features/Features";
+import Header from "../../molecules/Header/header";
 import Img from "../../components/Image";
 import Map3dComponent from "../../molecules/MapComponent";
 
@@ -11,6 +12,7 @@ const Landingpagenew = () => {
   return (
     <>
       <div className="Landing_page_Container">
+        <Header/>
         <section className="Landing_top_bg">
           <div className="video-background">
           
