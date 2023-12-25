@@ -3,27 +3,37 @@ import HeadnImg from "../../../molecules/startHeadnImg";
 import { headnImgData } from "../../../molecules/startHeadnImg/data";
 import SecondHeading from "../../../molecules/secondHeading/secondHeading";
 import { secondHeadingData } from "../../../molecules/secondHeading/data";
-import GetStarted from "../../../molecules/getStarted";
-import { getStartedData } from "../../../molecules/getStarted/data";
+import Dynamic4Option from "../../../molecules/dynamic4Options";
+import { dynamic4OptionData } from "../../../molecules/dynamic4Options/data";
 import Cookies from "../../../molecules/cookies";
 import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer";
 import { notifyMeData } from "../../../molecules/notifyMe/data";
 import NotifyMe from "../../../molecules/notifyMe";
-import Dynamic4Option from "../../../molecules/dynamic4Options";
-import { dynamic4OptionData } from "../../../molecules/dynamic4Options/data";
 import style from "./index.module.css";
 import MoreFeatures from "../../../molecules/moreFeatures";
 import { moreFeaturesData } from "../../../molecules/moreFeatures/data";
+import InfographicCard from "../../../molecules/infographicCard";
+import { ifgData } from "../../../molecules/infographicCard/data";
+import CaseStudy from "../../../molecules/caseStudy";
+import { caseStudyData } from "../../../molecules/caseStudy/data";
+import Thematics from "../../../molecules/exploreThematics";
+import Investment from "../../../molecules/investmentData";
+import { InvestmentData } from "../../../molecules/investmentData/investmentData";
+import DynamicAccordion from "../../../molecules/dynamicAccordian";
+import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
+import MobileAndText from "../../../molecules/mobileAndText";
+import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
+import EstimateEarning from "../../../molecules/estimateEarning";
 
-function Page1() {
+function Page2() {
   return (
     <section>
       <section>
-        <HeadnImg data={headnImgData.fiatCrypto} />
+        <HeadnImg data={headnImgData.accountAnalysis} />
       </section>
       <section>
-        <SecondHeading data={secondHeadingData.secondHeading} />
+        <SecondHeading data={secondHeadingData.investmentStatistics} />
       </section>
       <section>
         {/* <Dynamic4Option/> */}
@@ -31,16 +41,16 @@ function Page1() {
       </section>
       <section>
         <NotifyMe
-          data={notifyMeData.notifyMe2}
+          data={notifyMeData.notifyMe3}
           showMainText={true}
-          showSecondaryText={true}
-          showButton={true}
-          showImageContainer={false}
+          showSecondaryText={false}
+          showButton={false}
+          showImageContainer={true}
         />
       </section>
-      <section>
-        <GetStarted data={getStartedData.getStarted} />
-      </section>
+      {/* <section>
+        <EstimateEarning {...args}/>
+      </section> */}
       <section>
         <MoreFeatures data={moreFeaturesData.moreFeatures} />
       </section>
@@ -57,4 +67,4 @@ function Page1() {
   );
 }
 
-export default Page1;
+export default Page2;
