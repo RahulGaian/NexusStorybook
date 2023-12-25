@@ -22,6 +22,8 @@ import Investment from "../../../molecules/investmentData";
 import { InvestmentData } from "../../../molecules/investmentData/investmentData";
 import DynamicAccordion from "../../../molecules/dynamicAccordian";
 import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
+import MobileAndText from "../../../molecules/mobileAndText";
+import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
 
 function Page2() {
   return (
@@ -57,6 +59,9 @@ function Page2() {
       </section>
       <section>
         <DynamicAccordion data={dynamicAccordianData.dynamicAccordian1} />
+      </section>
+      <section className={style.mobileAndText}>
+        <MobileAndText data={mobileAndTextData.mobileData1.mobileText1} />
       </section>
       <section className={style.cookies}>
         <Cookies />
