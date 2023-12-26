@@ -43,6 +43,16 @@
   line-height: 55.2px;
 }
 
+.card_para > p {
+  font-family: ITC;
+  color: #4c4c4c;
+  text-align: center;
+  font-size: 17.875px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.3px;
+}
+
 .cardContainer {
   /* border: 1px solid green; */
 
