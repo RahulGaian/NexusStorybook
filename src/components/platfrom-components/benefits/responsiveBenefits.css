@@ -1,0 +1,255 @@
+
+@media screen and (min-width:1024px) {
+    /* .benefitsBanner {
+        margin: 2rem;
+    } */
+    .bannerImageContainer {
+        height:450px;
+        margin:1rem;
+       
+    }
+   
+
+}
+@media only screen and (min-width:800px) and (max-width:1480px){
+    .benfitsDetails>h1 {
+        width: 100%;
+        min-height: 50px;
+        max-height:fit-content !important ;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+        padding-bottom: 20px;
+        color: #434343;
+    }
+}
+@media screen and (max-width:800px) {
+    /* .benefitsContainer{
+        padding: 0rem 2rem;
+    } */
+    .benefitsBoxHeading{
+        left:0rem;
+        top:0;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .benefitsBoxHeading>h1{
+        font-size: 55px;
+        margin-bottom: 2rem !important;
+    }
+
+    .adBannerWrapper>p{
+        width: 100%;
+    }
+
+    .benefitsBanner{
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+    .benefitsBannerDetails>h1{
+        font-size: 36px;
+    }
+    .benfitsDetails>h1 {
+        width: 100%;
+        font-size: 2rem;
+        line-height:  2.4rem;
+       
+    }
+    
+    .benfitsDetails>p {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: .3rem;
+      
+    }
+    .benefitsBannerDetails{
+        width: 100%;
+       padding-left: 0rem;
+    }
+    .benefitsCardsContainer{
+        row-gap: 2rem;
+    }
+    .benefitsCardWrapper {
+        width: 44%;
+       
+    }
+    .benefitsBannerDetails>h1 {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        margin-top: 7%;
+    }
+    
+    .benefitsBannerDetails>p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 0.8rem 0rem;
+    }
+    .benefitsBannerDetails>button{
+        margin-bottom: 2rem;
+    }
+
+    .bannerImageContainer {
+        height: 350px;
+        margin:1rem;
+        width: 100%;
+        border-radius: 3rem;
+    }
+
+  }
+  @media screen and (max-width:480px) {
+    /* .benefitsContainer{
+        padding: 0rem 2rem;
+    } */
+    .benefitsBoxHeading{
+      
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .benefitsBoxHeading>h1{
+        font-size: 45px;
+    }
+
+    .benefitsCardsContainer{
+        padding: 0rem 2rem;
+    }
+
+    .benefitsBanner{
+        flex-direction: column;
+    }
+
+    /* .bannerImageContainer{
+        display: none;
+    } */
+
+    .benefitsBannerDetails{
+        width: 100%;
+       padding-left: 0rem;
+       padding: 0rem 0rem;
+       margin-top: 3rem;
+       /* background-color: aqua; */
+    }
+
+    .benefitsBannerDetails{
+        margin-bottom: 2rem;
+    }
+    .benefitsBannerDetails>h1 {
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+    }
+    
+    .benefitsBannerDetails>p {
+        font-size: .8rem;
+        line-height: 1.1rem;
+    }
+    
+
+    
+    .adBannerWrapper>h1{
+        font-size: 28px;
+        margin-top: 2rem;
+    }
+
+    .adBannerWrapper>p{
+        width: 100%;
+    }
+    .benfitsDetails>h1 {
+        width: 100%;
+        min-height: 50px;
+        max-height:130px ;
+        
+    }
+    
+    .benfitsDetails>p {
+        width: 100%;
+        min-height: 50px;
+        max-height:150px ;
+      
+    }
+    
+  
+}
+@media screen and (max-width:500px) {
+    /* .benefitsContainer{
+        padding: 0rem 2rem;
+    } */
+   
+
+    .benefitsBoxHeading>h1{
+        font-size: 45px;
+    }
+
+    .adBannerWrapper>p{
+        width: 100%;
+    }
+    .benefitsBanner{
+        padding: 0.4rem;
+    }
+   
+    .benefitsBannerDetails>h1{
+        font-size: 36px;
+    }
+    .benfitsDetails>h1 {
+        width: 100%;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        /* line-height:  1.8rem; */
+       
+    }
+    
+    .benfitsDetails>p {
+        width: 100%;
+        font-size: .9rem;
+        line-height: 1.2rem;
+        margin-top: .3rem;
+      
+    }
+    .benefitsBannerDetails{
+        width: 100%;
+       padding-left: 0rem;
+    }
+    .benefitsCardsContainer{
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .benefitsCardWrapper {
+        width: 100%;
+        gap:0;
+    }
+    .benefitsBannerDetails>h1 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    
+    .benefitsBannerDetails>p {
+        font-size: .8rem;
+        line-height: 1.1rem;
+    }
+    .benefitsBannerDetails>button{
+        margin-bottom: 2rem;
+    }
+
+    .bannerImageContainer {
+        height: 300px;
+        margin:1rem;
+        width: 100%;
+        border-radius: 3rem;
+    }
+
+  }
+
+ @media screen and (max-width:360px) {
+    #casestudy_button{
+        text-align: center;
+        /* font-size: 10px; */
+        line-height: 16px ;
+        height: fit-content ;
+        /* background-color: blue !important; */
+    }
+    
+ } 

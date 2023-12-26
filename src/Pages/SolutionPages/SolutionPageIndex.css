@@ -1,0 +1,21 @@
+.solutionContainer{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 100px;
+}
+#products{
+    /* padding-bottom: 87px; */
+}
+
+@media only screen and (max-width: 900px) {
+    #products{
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #products{
+        padding-bottom: 20px;
+    }
+}

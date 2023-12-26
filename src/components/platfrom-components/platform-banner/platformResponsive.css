@@ -1,0 +1,501 @@
+
+@media only screen and (max-width: 360px) {
+    #bg_heading {
+      height: fit-content;
+    }
+  
+    #getStartedBtn {
+      flex: 1;
+      width: 80vw;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 1rem 2rem;
+      gap: 10px;
+      background: #ad00a2;
+      border: 1px solid #ad00a2;
+      border-radius: 10px;
+      text-align: center;
+      color: #ffffff;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    #learnMoreBtn {
+      flex: 1;
+      width: 80vw;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: 2rem;
+      margin-left: 0rem !important;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .bannerContainer {
+      height: max-content;
+      padding: 5rem 2rem 2rem 1rem;
+    }
+  
+    .pathDescriptionContainer {
+      padding-left: 19px;
+      padding-top: 2rem;
+      font-size: 1rem;
+    }
+  
+    .bannerContentContainer > h1 {
+      font-size: 70px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 80px;
+      line-height: 5rem;
+      padding-left: 5% !important;
+    }
+  
+    .bannerContentWrapper {
+      margin-left: 10px;
+      margin-top: 1rem;
+      flex-direction: column-reverse;
+      align-content: flex-start;
+    }
+  
+    .bannerContent {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-top: 15px;
+    }
+  
+    .bannerContent > h1 {
+      font-size: 40px;
+      width: 100%;
+      line-height: 3rem;
+  
+    }
+  
+    .bannerContent > p {
+      font-size: 23px;
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    #learnMoreBtn {
+      width: 100%;
+      margin-top: 3rem;
+      margin-left: 0;
+    }
+  
+    .bannerContentImage {
+      display: none;
+      justify-content: none;
+      align-items: none;
+    }
+  
+    .bannerContentWrapper {
+      flex-direction: column !;
+    }
+  }
+
+  @media only screen and (max-width: 480px) and (min-width:300px) {
+    .bannerContent {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 2560px) and (min-width:769px) {
+    .bannerContent {
+      width: 60% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .bannerContentImage {
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* background-color: brown; */
+      /* display: none; */
+      height: 30%;
+    }
+  
+    .bannerContentWrapper {
+      flex-direction: row;
+    }
+  
+    .bannerContentContainer > h1 {
+      font-size: 90px;
+      line-height: 80px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1900px) {
+    .bannerContentContainer > h1 {
+      font-size: 9.5rem;
+      line-height: 12rem;
+    }
+  
+    .bannerContent > h1 {
+      margin-bottom: 1.3rem;
+      font-size: 3.7rem;
+      /* line-height: 4rem; */
+    }
+  
+    .bannerContent > p {
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+    }
+  
+    /* #getStartedBtn {
+      width: 21%;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    } */
+  }
+  @media only screen and (max-width: 1500px) and (min-width: 1250px) {
+    .bannerContentContainer > h1 {
+      font-size: 8rem;
+      line-height: 12rem;
+    }
+  }
+  @media only screen and (max-width: 1442px) {
+    .bannerContentContainer > h1 {
+      font-size: 8rem;
+      line-height: 10.1rem;
+    }
+    .bannerContent > h1 {
+      font-size: 2.6rem;
+      /* line-height: 3rem; */
+    }
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+    .bannerContentImage {
+      width: 50%;
+    }
+    .bannerContentImage > img {
+      height: 600px;
+      margin-right: 10%;
+    }
+  }
+  @media screen and (max-width: 1366px) {
+    .bannerContentContainer > h1 {
+      font-size: 7.5rem;
+      line-height: 9.4rem;
+    }
+  
+    .bannerContent > h1 {
+      font-size: 2.7rem;
+      /* line-height: 3rem; */
+    }
+  
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  
+    /* #getStartedBtn {
+      width: 21%;
+      padding: 0.2rem 1rem;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    } */
+    #learnMoreBtn {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      margin-left: 0rem;
+    }
+    .bannerContentImage {
+      width: 50%;
+    }
+    .bannerContentImage > img {
+      height: 600px;
+      margin-right: 10%;
+    }
+    .bannerContentWrapper {
+      width: 100%;
+      justify-content: space-around;
+      align-items: flex-start;
+      /* margin: 3.5rem 5rem; */
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .bannerContentContainer > h1 {
+      font-size: 8rem;
+      line-height: 10rem;
+    }
+  
+    .bannerContent > h1 {
+      font-size: 2.2rem;
+      line-height: 2.8rem;
+    }
+  
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+    }
+  
+    #learnMoreBtn {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      margin-left: 0rem;
+    }
+    .bannerContentImage {
+      width: 50%;
+    }
+    .bannerContentImage > img {
+      height: 400px;
+      margin-right: 10%;
+    }
+    .bannerContentWrapper {
+      width: 100%;
+      justify-content: space-around;
+      align-items: flex-start;
+      /* margin: 3.5rem 5rem; */
+    }
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .bannerContentContainer > h1 {
+      font-size: 6.3rem;
+      line-height: 7.3rem;
+      padding-bottom: 2rem;
+    }
+    .bannerContentWrapper {
+      width: 100%;
+    }
+  
+    .bannerContent > h1 {
+      font-size: 2rem;
+      line-height: 2.8rem;
+    }
+  
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+      margin-bottom: 3rem;
+    }
+
+    #learnMoreBtn {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      margin-left: 0rem;
+    }
+  
+    .bannerContentWrapper {
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-start;
+      /* margin: 3.5rem 5rem; */
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .bannerContentContainer > h1 {
+      font-size: 6.3rem;
+      line-height: 7.3rem;
+    }
+    .bannerContentWrapper {
+      width: 100%;
+    }
+  
+    .bannerContent > h1 {
+      font-size: 2rem;
+      line-height: 2.8rem;
+    }
+  
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+    }
+  
+    #learnMoreBtn {
+      font-size: 1.3rem !important;
+      line-height: 1.8rem;
+      margin-left: 0rem;
+      width: 26%;
+      margin: 0;
+      padding-left: 5px;
+    }
+  
+    .bannerContentWrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin: 3.5rem 5rem; */
+      padding-left: 3%;
+    }
+  }
+  @media screen and (max-width: 999px) {
+    .bannerContentContainer > h1 {
+      font-size: 6.3rem;
+      line-height: 7rem;
+      padding-left: 3%;
+    }
+    .bannerContent > h1 {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+    /* .bannerContentWrapper{
+          margin-left: 3rem;
+      } */
+  }
+  @media screen and (max-width: 960px) and (min-width: 820px) {
+    .bannerContentContainer > h1 {
+      font-size: 72px !important;
+      line-height: normal;
+    }
+    .bannerContent > h1 {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+    /* .pathDescriptionContainer,.bannerContentContainer>h1 {
+          padding-left: 3rem;
+      } */
+    .bannerContent > p {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+    /* .bannerContentWrapper{
+          margin-left: 3rem;
+      } */
+  }
+  @media screen and (max-width: 820px) and (min-width: 700px) {
+    .bannerContentContainer > h1 {
+      /* font-size: 4rem !important; */
+      line-height: 6rem !important;
+      padding-bottom: 0.1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 780px) and (min-width: 600px) {
+    .bannerContentContainer > h1 {
+      font-size: 4.8rem;
+      line-height: 5.4rem;
+    }
+    .bannerContent > h1 {
+      font-size: 1.6rem;
+      line-height: 1.8rem;
+    }
+    /* .pathDescriptionContainer,.bannerContentContainer>h1 {
+          padding-left: 1.5rem;
+      } */
+    .bannerContent > p {
+      width: 89%;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+    /* .bannerContentWrapper{
+          margin-left: 1.5rem;
+      } */
+    .bannerContentBtn {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width: 540px) {
+    .bannerContentContainer > h1 {
+      font-size: 3rem;
+      line-height: 5rem;
+      padding-bottom: 0rem;
+      line-height: 20px !important
+    }
+    .bannerContent > h1 {
+      width: 89%;
+      font-size: 1.6rem;
+      line-height: 1.8rem;
+      margin-right: 1rem;
+    }
+
+    .bannerContent > p {
+      width: 89%;
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+
+    }
+  
+    .bannerContentBtn {
+      display: flex;
+      margin-top: 0.7rem;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 200%;
+      padding: 0;
+
+    }
+  
+    #learnMoreBtn {
+      flex: 1 1;
+      /* width: 50%; */
+      text-align: start;
+      padding-left: 0px;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      margin-left: 0px;
+      font-size: 18px;
+      padding-right: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .bannerContentContainer > h1 {
+      font-size: 2.8rem;
+      /* line-height: 5rem; */
+      padding-bottom: 0rem;
+      line-height: 0px !important
+
+    }
+  }
+  
+  @media screen and (max-width: 510px) {
+    .bannerContentContainer > h1 {
+      font-size: 2.6rem;
+      /* line-height: 5rem; */
+      padding-bottom: 0rem;
+      line-height: 45px !important
+
+    }
+  }
+  
+  @media screen and (max-width: 410px) {
+    .bannerContentContainer > h1 {
+      font-size: 2.3rem;
+      line-height: 5rem;
+      padding-bottom: 0rem;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .bannerContentContainer > h1 {
+      font-size: 2rem !important;
+      line-height: 5rem;
+      padding-bottom: 0rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .bannerContentContainer > h1 {
+      font-size: 2rem !important;
+      line-height: 5rem;
+      padding-bottom: 0rem;
+    }
+  }
+
+  
+

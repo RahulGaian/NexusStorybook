@@ -1,0 +1,1631 @@
+.productContentContainer {
+  /* border: 5px solid red; */
+  position: relative;
+  /* background: linear-gradient(108.56deg, #d2f3ff 0%, #ffe3e3 100%) !important; */
+  /* overflow: hidden; */
+}
+
+.productContentBanner {
+  /* border: 5px solid green; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  top: -8rem;
+  width: 70%;
+  background: #d9d9d9;
+  border-radius: 32px;
+  z-index: 2;
+  transform: translateX(-50%);
+}
+
+.productContentBanner > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+}
+/* --------------- quick jump horizontal bar */
+.productContentSubBanner {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 10px;
+  /* width: 54rem; */
+  height: 4rem;
+  bottom: -4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+.productContentSubBanner > span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 18px; */
+  /* line-height: 23px; */
+  padding: 3rem;
+  color: #1a1a1a;
+}
+
+.cardWrapper_benefits_descBanner {
+  /* border: 10px solid aqua; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ------------------------- features cmp */
+.productContentCardWrapper {
+  /* padding: 0 5rem; */
+  width: 1700px;
+  /* border: 2px solid blue; */
+}
+
+.productContentCard {
+  /* border: 2px solid red; */
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 2rem; */
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+#bg_pink_color_1 {
+  height: fit-content;
+  /* background: radial-gradient(
+    300px 300px at 78% 17%,
+    rgba(234, 169, 229, 0.5) 10%,
+    rgba(217, 217, 217, 0) 90%
+  ); */
+}
+
+#bg_blue_color_1 {
+  height: fit-content;
+  /* background: radial-gradient(
+    300px 300px at 95% 2%,
+    rgba(67, 136, 240, 0.4) 10%,
+    rgba(217, 217, 217, 0) 90%
+  ); */
+}
+
+#bg_blue_color_2 {
+  height: fit-content;
+  /* background: radial-gradient(
+    220px 220px at 18% 40%,
+    rgba(67, 136, 240, 0.3),
+    rgba(217, 217, 217, 0)
+  ); */
+}
+
+#bg_pink_color_2 {
+  height: fit-content;
+  /* background: radial-gradient(
+    300px 300px at 10% 15%,
+    rgba(234, 169, 229, 0.3) 10%,
+    rgba(217, 217, 217, 0) 90%
+  ); */
+}
+
+.featureBoxHeading {
+  /* border: 2px solid red; */
+  /* box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15); */
+  border-radius: 10px;
+  padding-top: 2rem;
+  margin: 3% 0%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.featureBoxHeading > h1 {
+  font-family: "DM Sans";
+  font-size: 40px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+  /* background: linear-gradient(
+    90deg,
+    #9919ae -1.56%,
+    #513dd0 51.65%,
+    #cb5efe 104.86%
+  ); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.productContentCard:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.productContentCard:nth-child(odd) > .productContentCardImage {
+  justify-content: center;
+}
+
+.productContentCardImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.productContentCardImage > img {
+  /* width: 549px; */
+  width: 60%;
+  display: flex;
+  min-height: 400px;
+  padding: 36px 2.838px 36.001px 2px;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.productContentCardDesc {
+  width: 50% !important;
+  padding-left: 2rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.productContentCardDesc > h1 {
+  color: #1a1a1a;
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+.productContentCardDesc > p {
+  color: #1a1a1a;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px !important;
+  /* width: 80%; */
+  padding-top: 0.5rem;
+  text-align: left;
+}
+
+/* BENEFITS CMP CSS STARTS-------------------- */
+
+.benefitsContainer-pro {
+  /* border: 2px solid red; */
+  height: fit-content;
+  /* background: linear-gradient(277.48deg, #2D22AA 0%, rgba(45, 34, 170, 0.76) 100%); */
+  width: 1700px;
+}
+
+.benefitCard {
+  /* border: 2px solid blue; */
+  width: 30%;
+  min-height: 320px;
+  max-height: fit-content;
+}
+
+.benefitsContainer-pro > h1 {
+  color: #000;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+  text-align: center;
+  /* color: #FFFFFF; */
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.benefitsCardContainer-p {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.benefitCard > img {
+  /* border: 2px solid red; */
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.benfitCardContent {
+  /* border: 2px solid green; */
+  padding-top: 1rem;
+}
+
+.benfitCardContent > h1 {
+  /* border: 2px solid black; */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  /* padding-bottom: 0.5rem; */
+  min-height: 4rem;
+  max-height: fit-content;
+  margin-bottom: 0;
+}
+
+.benfitCardContent > p {
+  /* border: 2px solid black; */
+  color: #434343;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 0.5rem;
+  width: 100%;
+  min-height: 4.7rem;
+  max-height: fit-content;
+}
+
+.divison {
+  /* border: 2px solid red; */
+  height: 2rem;
+}
+
+/* desc banner CMP CSS STARTS------------CASE STUDY COMPONENT-------- */
+
+.descBanner {
+  /* border: 2px solid red; */
+  min-height: 524px;
+  max-height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  border-radius: 40px;
+  background: linear-gradient(276deg, #fff 46.71%, #f6dbff 109.6%);
+  padding: 0%;
+}
+
+.descBanner > .descImage {
+  width: 48%;
+  min-height: 524px;
+}
+
+.descBanner > .descImage > img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 40px;
+  min-height: inherit;
+  border-radius: 40px;
+  background: #d9d9d9;
+}
+
+.descBannerContent {
+  /* border: 2px solid black; */
+  width: 48%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.descBannerContent > h1 {
+  color: #1a1a1a;
+  font-family: DM Sans;
+  font-size: 32px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px;
+  width: 80%;
+  padding-bottom: 0.5rem;
+}
+
+.descBannerContent > p {
+  color: #1a1a1a;
+  font-family: DM Sans;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px !important;
+  /* letter-spacing: -0.54px; */
+
+  width: 95%;
+  padding-top: 0.5rem;
+}
+
+.descBannerContent > button {
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 22px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  border: 2px solid #ad00a2;
+  width: 273.866px;
+  height: 64.108px;
+  margin-top: 3%;
+  /* padding: 1rem; */
+}
+
+/* -------------------------------------------------- */
+/* For blobs----- */
+@media only screen and (max-width: 800) and (min-width: 300px) {
+  #bg_pink_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      200px 200px at 10% 25%,
+      rgba(234, 169, 229, 0) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ) !important; */
+  }
+  /* OR #bg_pink_color_2 {
+    background-color: none;
+  } */
+
+  #bg_pink_color_1 {
+    height: fit-content;
+    /* background: radial-gradient(
+      200px 200px at 80% 80%,
+      rgba(234, 169, 229, 0) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ) !important; */
+  }
+
+  #bg_blue_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      200px 200px at 18% 75%,
+      rgba(67, 136, 240, 0),
+      rgba(217, 217, 217, 0)
+    ) !important; */
+  }
+}
+
+/* ------fixing font for mobile range----------- */
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .featureBoxHeading > h1 {
+    font-family: DM Sans;
+    font-size: 32px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px !important;
+  }
+
+  .productContentCardDesc > h1 {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    text-align: center;
+  }
+
+  .productContentCardDesc > p {
+    color: #1a1a1a;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .benefitsContainer-pro > h1 {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px !important;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .benfitCardContent > h1 {
+    color: #434343;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0.5rem;
+    min-height: 3.5rem;
+    max-height: fit-content;
+  }
+
+  .benfitCardContent > p {
+    color: #434343;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.927px !important;
+    padding-top: 0.5rem;
+    width: 100%;
+    min-height: 4.7rem;
+    max-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    letter-spacing: -0.54px;
+
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+  .benefitCard > img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .benefitCard{
+    min-height: 250px !important;
+  }
+}
+
+/* ------fixing font for tablet range----------- */
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  .featureBoxHeading > h1 {
+    font-family: DM Sans;
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px !important;
+  }
+
+  .productContentCardDesc > h1 {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .productContentCardDesc > p {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px !important; /* 142.857% */
+    text-align: left !important;
+  }
+
+  .benefitsContainer-pro > h1 {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px !important;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .benfitCardContent > h1 {
+    color: #434343;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0.5rem;
+    min-height: 3.5rem;
+    max-height: fit-content;
+  }
+
+  .benfitCardContent > p {
+    color: #434343;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.927px !important;
+    padding-top: 0.5rem;
+    width: 100%;
+    min-height: 4.7rem;
+    max-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    letter-spacing: -0.54px;
+
+    width: 90% !important;
+    /* margin: 0 auto; */
+    /* margin-top: 5%;
+    margin-bottom: 2%; */
+    text-align: left !important;
+  }
+
+  .benefitsContainer-pro > h1 {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px !important;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .benfitCardContent > h1 {
+    color: #434343;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0.5rem;
+    min-height: 3.5rem;
+    max-height: fit-content;
+  }
+
+  .benfitCardContent > p {
+    color: #434343;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.927px !important;
+    padding-top: 0.5rem;
+    width: 100%;
+    min-height: 4.7rem;
+    max-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    color: #1a1a1a;
+    font-family: DM Sans;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    letter-spacing: -0.54px;
+
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1900px) {
+  .descBanner {
+    margin: 2%;
+  }
+  .benfitCardContent > h1 {
+    min-height: 1rem !important;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1800px) {
+  .benfitCardContent > p {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    min-height: 4.7rem;
+    max-height: fit-content;
+  }
+  .benfitCardContent > h1 {
+    min-height: 3rem;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .benfitCardContent > p {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px !important;
+    min-height: 4.7rem;
+    max-height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1300px) {
+  .benfitCardContent > p {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    min-height: 4.7rem;
+    max-height: fit-content;
+    padding-top: 10px;
+  }
+  #bg_pink_color_2 {
+    height: fit-content;
+    background: radial-gradient(
+      300px 300px at 10% 25%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    );
+  }
+
+  #bg_pink_color_1 {
+    height: fit-content;
+    background: radial-gradient(
+      200px 200px at 80% 80%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    );
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1200px) {
+  .benfitCardContent > h1 {
+    height: 2rem !important;
+  }
+
+  .benfitCardContent > p {
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    /* min-height: 4.7rem; */
+    max-height: fit-content;
+  }
+  #bg_pink_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      300px 300px at 10% 25%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ); */
+  }
+
+  #bg_pink_color_1 {
+    height: fit-content;
+    /* background: radial-gradient(
+      200px 200px at 80% 80%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ); */
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+  #bg_pink_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      300px 300px at 10% 25%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ); */
+  }
+
+  #bg_pink_color_1 {
+    height: fit-content;
+    /* background: radial-gradient(
+      200px 200px at 80% 80%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ); */
+  }
+
+  #bg_blue_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      220px 220px at 18% 75%,
+      rgba(67, 136, 240, 0),
+      rgba(217, 217, 217, 0)
+    ) !important; */
+  }
+
+  .benfitCardContent > h1 {
+    min-height: 4rem !important;
+  }
+
+  .benfitCardContent > p {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px !important;
+    min-height: 4.7rem;
+    max-height: fit-content;
+  }
+
+  .descBanner {
+    min-height: 524px;
+    max-height: fit-content;
+    /* margin: 2rem; */
+    border-radius: 20px;
+    padding: 0%;
+  }
+
+  .descBanner > .descImage {
+    width: 48%;
+    min-height: 524px;
+  }
+
+  .descBanner > .descImage > img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+    min-height: inherit;
+  }
+
+  .descBannerContent {
+    width: 48%;
+    /* padding: 5%; */
+  }
+
+  .descBannerContent > h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .descBannerContent > p {
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 20px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 250.866px;
+    height: 55.108px;
+    /* margin-top: 1%; */
+    /* padding: 1rem; */
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+  #bg_pink_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      300px 300px at 10% 7%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ); */
+  }
+
+  #bg_pink_color_1 {
+    height: fit-content;
+    /* background: radial-gradient(
+      250px 250px at 73% 20%,
+      rgba(234, 169, 229, 0.5) 10%,
+      rgba(217, 217, 217, 0) 90%
+    ); */
+  }
+
+  #bg_blue_color_2 {
+    height: fit-content;
+    /* background: radial-gradient(
+      220px 220px at 18% 75%,
+      rgba(67, 136, 240, 0),
+      rgba(217, 217, 217, 0)
+    ) !important; */
+  }
+
+  .benfitCardContent > h1 {
+    min-height: 3.5rem !important;
+  }
+
+  .benfitCardContent > p {
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px !important;
+    /* min-height: 4.7rem; */
+    max-height: fit-content;
+  }
+
+  .descBanner {
+    min-height: 524px;
+    max-height: fit-content;
+    /* margin: 2rem; */
+    border-radius: 20px;
+    padding: 0%;
+  }
+
+  .descBanner > .descImage {
+    width: 48%;
+    min-height: 524px;
+  }
+
+  .descBanner > .descImage > img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+    min-height: inherit;
+  }
+
+  .descBannerContent {
+    width: 48%;
+    /* padding: 5%; */
+  }
+
+  .descBannerContent > h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .descBannerContent > p {
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 20px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 240.866px;
+    height: 52.108px;
+    /* margin-top: 1%; */
+    /* padding: 1rem; */
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+
+  .productContentCardWrapper {
+    width: 90% !important;
+  }
+
+  .productContentCardImage > img {
+    width: 75%;
+  }
+
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+
+  .descBanner > .descImage {
+    width: 100%;
+    border-radius: 20px !important;
+    min-height: fit-content;
+  }
+
+  .descBanner > .descImage > img {
+    /* object-fit: contain;*/
+    min-height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .descBannerContent {
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 20px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 240.866px;
+    height: 52.108px;
+    margin-bottom: 5%;
+    margin: 5% auto;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 601px) {
+  .productContentCardWrapper {
+    width: 90% !important;
+  }
+
+  /* .productContentCardImage > img {
+    width: 45%;
+  } */
+  .productContentCardImage > img {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 620px) {
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+
+  .descBanner > .descImage {
+    width: 100%;
+    border-radius: 20px !important;
+    min-height: fit-content;
+  }
+
+  .descBanner > .descImage > img {
+    /* object-fit: contain;*/
+    min-height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 24px;
+  }
+
+  .descBannerContent {
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 20px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 240.866px;
+    height: 52.108px;
+    margin-bottom: 5%;
+    margin: 5% auto;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 520px) {
+  .productContentCard {
+    flex-direction: column;
+  }
+
+  .productContentCard:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .productContentCardDesc {
+    width: 25% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 520px) {
+  .productContentCard:nth-child(odd) {
+    flex-direction: column
+}
+
+  .productContentCardDesc {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 420px) and (min-width: 300px) {
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+}
+
+@media only screen and (max-width: 620px) and (min-width: 520px) {
+
+
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+}
+
+@media only screen and (max-width: 620px) and (min-width: 520px) {
+
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+
+  .descBanner > .descImage {
+    width: 100%;
+    border-radius: 20px !important;
+    min-height: fit-content;
+  }
+
+  .descBanner > .descImage > img {
+    /* object-fit: contain;*/
+    min-height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 24px;
+  }
+
+  .descBannerContent {
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .descBannerContent > button {
+    font-size: 20px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 240.866px;
+    height: 52.108px;
+    margin-bottom: 5%;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 520px) and (min-width: 420px) {
+  .productContentCard {
+    flex-direction: column !important;
+  }
+
+  .productContentCardDesc {
+    width: 22% !important;
+    /* padding-left: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+  }
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+
+  .descBanner > .descImage {
+    width: 100%;
+    border-radius: 20px !important;
+    min-height: fit-content;
+  }
+
+  .descBanner > .descImage > img {
+    /* object-fit: contain;*/
+    min-height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 24px;
+  }
+
+  .descBannerContent {
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 20px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 240.866px;
+    height: 52.108px;
+    margin-bottom: 5%;
+    margin: 5%;
+  }
+}
+@media screen and (max-width: 420px) and (min-width: 350px) {
+  .productContentCard {
+    flex-direction: column !important;
+  }
+
+  .productContentCardDesc {
+    width: 18% !important;
+    /* padding-left: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+  }
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+
+  .descBanner > .descImage {
+    width: 100%;
+    border-radius: 20px !important;
+    min-height: fit-content;
+  }
+
+  .descBanner > .descImage > img {
+    /* object-fit: contain;*/
+    min-height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 24px;
+  }
+
+  .descBannerContent {
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 18px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 220.866px;
+    height: 45.108px;
+    margin-bottom: 5%;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 350px) and (min-width: 300px) {
+  .productContentCard {
+    flex-direction: column !important;
+  }
+
+  .productContentCardDesc {
+    width: 16% !important;
+    /* padding-left: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+  }
+  .descBanner {
+    flex-direction: column;
+    max-height: fit-content;
+    background: none;
+  }
+
+  .descBanner > .descImage {
+    width: 100%;
+    border-radius: 20px !important;
+    min-height: fit-content;
+  }
+
+  .descBanner > .descImage > img {
+    /* object-fit: contain;*/
+    min-height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 24px;
+  }
+
+  .descBannerContent {
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .descBannerContent > h1 {
+    width: 90% !important;
+    padding-bottom: 0.5rem;
+    margin: 5% auto 2% auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > p {
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: left !important;
+  }
+
+  .descBannerContent > button {
+    font-size: 18px !important;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 220.866px;
+    height: 45.108px;
+    margin-bottom: 5%;
+    margin: 5%;
+  }
+}
+
+/* -------------for product and benefit container---------- */
+
+@media only screen and (max-width: 600px) and (min-width: 579px) {
+
+  .productContentCardImage > img {
+    width: 45%;
+  }
+  
+  .benefitsContainer-pro > h1 {
+    padding-top: 2rem;
+    /* text-align: center; */
+  }
+
+  .benefitsCardContainer-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .benefitCard {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .benefitCard > img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .benfitCardContent {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benfitCardContent > h1 {
+    min-height: 1rem !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .benfitCardContent > p {
+    padding-top: 0.5rem;
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 580px) and (min-width: 480px) {
+  .productContentCard {
+    flex-direction: column !important;
+  }
+  .productContentCardImage > img {
+    width: 45%;
+  }
+
+  .benefitsContainer-pro > h1 {
+    padding-top: 2rem;
+    /* text-align: center; */
+  }
+
+  .benefitsCardContainer-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .benefitCard {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .benefitCard > img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .benfitCardContent {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benfitCardContent > h1 {
+    min-height: 1rem !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .benfitCardContent > p {
+    padding-top: 0.5rem;
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 380px) {
+  .productContentCardImage > img {
+    width: 45%;
+  }
+
+  .benefitsContainer-pro > h1 {
+    padding-top: 2rem;
+  }
+
+  .benefitsCardContainer-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .benefitCard {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .benefitCard > img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .benfitCardContent {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benfitCardContent > h1 {
+    min-height: 1rem !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .benfitCardContent > p {
+    /* text-align: center;*/
+    padding-top: 0.5rem;
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 380px) and (min-width: 300px) {
+  .productContentCardImage > img {
+    width: 45%;
+  }
+
+  .benefitsContainer-pro > h1 {
+    padding-top: 2rem;
+  }
+
+  .benefitsCardContainer-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .benefitCard {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .benefitCard > img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .benfitCardContent {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benfitCardContent > h1 {
+    min-height: 1rem !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .benfitCardContent > p {
+    padding-top: 0.5rem;
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 1445px) {
+  .productContentBanner {
+    width: 80%;
+  }
+  .productContentSubBanner {
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .productContentCardWrapper > .productContentCard > .productContentCardImage {
+    justify-content: center;
+  }
+
+  .productContentCardWrapper
+    > .productContentCard:nth-child(even)
+    > .productContentCardImage {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1285px) {
+  .productContentSubBanner {
+    padding: 2rem;
+  }
+
+  .productContentSubBanner > span {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .productContentSubBanner {
+    padding: 2rem;
+  }
+
+  .productContentSubBanner > span {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .productContentBanner {
+    position: relative;
+    left: 0rem !important;
+    margin-left: 50% !important;
+    transform: translateX(-50%);
+    top: -10rem;
+    width: 95vw;
+    height: 15rem;
+    background: #d9d9d9;
+    border-radius: 32px;
+    z-index: 2;
+  }
+
+  .productContentSubBanner {
+    display: none !important;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 95vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 5rem;
+    top: 15.5rem;
+    left: 0rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+
+  .productContentSubBanner > span {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 1rem;
+    line-height: 1rem;
+    width: 4rem !important;
+    color: #1a1a1a;
+  }
+
+  .productContentCard:nth-child(even) {
+    flex-direction: column !important;
+  }
+
+  .productContentCardDesc > h1 {
+    padding-bottom: 0.5rem;
+  }
+
+  .productContentCardDesc > p { 
+    padding-top: 0.5rem;
+    text-align: justify;
+  }
+
+  .divison {
+    display: none;
+  }
+}
