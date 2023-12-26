@@ -3,7 +3,13 @@ import PropTypes from "prop-types";
 import styles from "./index.module.css";
 import Img from "../../components/Image";
 
-const NotifyMe = ({ data, showMainText, showSecondaryText, showButton, showImageContainer }) => {
+const NotifyMe = ({
+  data,
+  showMainText,
+  showSecondaryText,
+  showButton,
+  showImageContainer,
+}) => {
   return (
     <div className={styles.container}>
       <div className={styles.notifyContainer}>
@@ -17,7 +23,9 @@ const NotifyMe = ({ data, showMainText, showSecondaryText, showButton, showImage
             <p>{data.message}</p>
           </div>
         )}
-        {showButton && <button className={styles.notifyBtn}>{data.buttonText}</button>}
+        {showButton && (
+          <button className={styles.notifyBtn}>{data.buttonText}</button>
+        )}
 
         {showImageContainer && (
           <div className={styles.imageContainer}>
