@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 import styles from "./index.module.css";
 import Img from "../../components/Image";
 
+
 const NotifyMe = ({ data, showMainPara, showMainText, showSecondaryText, showButton, showImageContainer }) => {
+
   return (
     <div className={styles.container}
     style={{backgroundColor: data.bg_color}}>
@@ -30,8 +32,10 @@ const NotifyMe = ({ data, showMainPara, showMainText, showSecondaryText, showBut
           </div>
         )}
 
+
         {showButton && <button className={styles.notifyBtn}
         style={{backgroundColor: data.btn_bg_color, color: data.btn_text_color}}>{data.buttonText}</button>}
+
 
         {showImageContainer && (
           <div className={styles.imageContainer}>

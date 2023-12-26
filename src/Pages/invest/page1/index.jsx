@@ -31,7 +31,7 @@ function Page1() {
       </section>
       <section>
         <NotifyMe
-          data={notifyMeData.notifyMe2}
+          data={notifyMeData.notifyMe}
           showMainText={true}
           showSecondaryText={true}
           showButton={true}
