@@ -1,0 +1,450 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4% 0;
+}
+.wrapper {
+  /* border: 2px solid red; */
+  width: 1700px;
+  /* height: 410px; */
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-radius: 80px 10px; */
+  background: var(
+    --Gradient,
+    linear-gradient(
+      118deg,
+      rgba(64, 175, 255, 0.2) -8.52%,
+      rgba(41, 177, 253, 0.2) 27.6%,
+      rgba(255, 168, 0, 0.2) 63.71%,
+      rgba(251, 180, 42, 0.2) 99.82%
+    )
+  );
+}
+
+.leftCont {
+  /* border: 1px solid black; */
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.leftContent > img {
+  /* width: 100%; */
+  width: 300px;
+  height: 300px;
+}
+
+.rightContent {
+  /* border: 1px solid black; */
+
+  width: 67%;
+  height: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  padding-right: 3%;
+}
+.rightContent > h1 {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 31.359px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41.4px;
+  margin: 0;
+  width: 90%;
+}
+
+.rightContent > p {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 18.047px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.3px;
+  margin-bottom: 32px;
+  width: 90%;
+
+}
+
+.rightContent > button {
+  display: flex;
+  padding: 8px 24px;
+  /* padding: 13px 33px 9px 33px; */
+  justify-content: center;
+  align-items: center;
+
+  /* width: fit-content; */
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 20px;
+  border: 1px solid var(--Blue, #007cd7);
+}
+
+/* ---for 4K---- */
+@media only screen and (max-width: 2560px) and (min-width: 2000px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 1500px;
+  }
+}
+
+/* ----for desktop view---------- */
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .wrapper {
+    width: 950px;
+    margin: 0 auto;
+  }
+
+  .leftCont {
+    width: 30%;
+  }
+
+  .leftContent > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .rightContent {
+    width: 67%;
+    height: 300px;
+    padding-left: 5%;
+    padding-right: 0% !important;
+  }
+}
+
+/* ------for tablet view-------- */
+@media only screen and (max-width: 980px) and (min-width: 601px) {
+  .rightContent > h1 {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 31.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41.4px;
+    margin: 0;
+  }
+
+  .rightContent > p {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 16.766px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.7px;
+
+    margin-bottom: 32px;
+  }
+
+  .rightContent > button {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+
+    /* width: fit-content; */
+    color: var(--Blue, #007cd7);
+    text-align: center;
+    font-family: ITC;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 20px;
+    border: 1px solid var(--Blue, #007cd7);
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 880px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .leftCont {
+    width: 30%;
+  }
+
+  .leftContent > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .rightContent {
+    width: 67%;
+    height: 300px;
+    padding-left: 5%;
+    padding-right: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 880px) and (min-width: 780px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .leftCont {
+    width: 30%;
+  }
+
+  .leftContent > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .rightContent {
+    width: 67%;
+    height: 300px;
+    padding-left: 5%;
+    padding-right: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 680px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .leftCont {
+    width: 30% !important;
+  }
+
+  .leftContent > img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .rightContent {
+    width: 67%;
+    height: 300px;
+    padding-left: 2%;
+    padding-right: 0% !important;
+  }
+  .rightContent > h1 {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 28.938px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.4px;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 680px) and (min-width: 600px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .leftCont {
+    width: 30% !important;
+  }
+
+  .leftContent > img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .rightContent {
+    width: 67%;
+    height: 300px;
+    padding-left: 2%;
+    padding-right: 0% !important;
+  }
+  .rightContent > h1 {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 24.938px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.4px;
+    margin: 0;
+  }
+
+  .rightContent > p {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.7px;
+
+    margin-bottom: 20px;
+  }
+}
+
+/* ---for mobile views---- */
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+
+
+  .rightContent{
+    padding: 0 10%;
+  }
+
+  .rightContent > h1 {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 22.242px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.9px;
+    margin: 0;
+    width: 100%;
+    text-align: center !important;
+
+  }
+
+  .rightContent > p {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 28px;
+    width: 100%;
+    text-align: center !important;
+
+  }
+
+  .rightContent > button {
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+
+    /* width: fit-content; */
+    width: inherit;
+    color: var(--Blue, #007cd7);
+    text-align: center;
+    font-family: ITC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 20px;
+    border: 1px solid var(--Blue, #007cd7);
+    width: 100%;
+
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 480px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .leftCont {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+
+    width: 90% !important;
+    height: 300px;
+  }
+
+  .leftContent > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .rightContent {
+    text-align: center !important;
+ 
+    width: 96% !important;
+    height: 300px;
+   
+  }
+}
+@media only screen and (max-width: 480px) and (min-width: 380px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .leftCont {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+
+    width: 90% !important;
+    height: 300px;
+  }
+
+  .leftContent > img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .rightContent {
+    width: 96% !important;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 380px) and (min-width: 100px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .leftCont {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+
+    width: 90% !important;
+    height: 342px;
+  }
+
+  .leftContent > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .rightContent {
+    width: 96% !important;
+    height: 280px;
+  }
+}

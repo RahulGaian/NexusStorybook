@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.mainCont{
+  display: flex;
+}
+
 .leftCont {
   /* border: 1px solid black; */
   height: inherit;
@@ -306,7 +310,12 @@
 
 /* ---for mobile views---- */
 
-@media only screen and (max-width: 600px) and (min-width: 300px) {
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+  .mainCont{
+    display: flex;
+    flex-direction: column !important;
+  }
+
   .rightContent > h1 {
     color: #4c4c4c;
     font-family: ITC;
@@ -422,7 +431,7 @@
   }
 }
 
-@media only screen and (max-width: 380px) and (min-width: 300px) {
+@media only screen and (max-width: 380px) and (min-width: 100px) {
   .wrapper {
     margin: 0 auto;
     width: 90%;

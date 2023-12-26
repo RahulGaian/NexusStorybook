@@ -1,0 +1,280 @@
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.infographicContainer {
+  display: flex;
+  padding: 50px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.infographicContentContainer {
+  display: flex;
+  justify-content: center;
+  width: 1700px;
+  gap: 100px;
+}
+
+.infographicLeft Img {
+  width: 550px;
+  height: 530.29px;
+  padding-top: 120px;
+}
+
+.infographicRight {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.infographicRightHeader {
+  max-height: 41.4px;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 30.375px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41.4px; /* 136.296% */
+  margin: 0;
+}
+
+.infographicRightSubheader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.infographicRightSubheader p {
+  color: rgba(0, 124, 215, 1);
+  border: 1px solid rgba(0, 124, 215, 1);
+  border-radius: 50%;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0; */
+}
+
+.infographicRightSubheader h6 {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 18.906px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 158.678% */
+  margin: 0;
+}
+
+.infographicRightDesc {
+  padding-left: 60px;
+}
+
+.infographicRightDesc p {
+  max-width: 320px;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px; /* 140.19% */
+  margin: 0;
+}
+
+.infographicFooter {
+  max-width: 500px;
+}
+
+.infographicFooter p {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px; /* 140.19% */
+}
+
+.infographicFooter span {
+  color: var(--Blue, #007cd7);
+  font-family: ITC;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .infographicContentContainer {
+    display: flex;
+    justify-content: center;
+    width: 1420px;
+    gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .infographicContentContainer {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .infographicContentContainer {
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 601px) {
+  .infographicContentContainer {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 0px;
+  }
+  .infographicLeft Img {
+    width: 350px;
+    height: 530.29px;
+    padding-top: 120px;
+    object-fit: cover;
+  }
+  .infographicRightDesc {
+    padding-left: 55px;
+  }
+  .infographicFooter p {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 14.766px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.7px; /* 140.19% */
+  }
+
+  .infographicFooter span {
+    color: #01c38d;
+    font-family: ITC;
+    font-size: 14.766px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.7px;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 601px) {
+  .infographicRightDesc {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 601px) and (min-width: 320px) {
+  .infographicContainer {
+    padding: 0px;
+  }
+  .infographicContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    gap: 0px;
+  }
+  .infographicLeft Img {
+    width: 400px;
+    height: 530.29px;
+    padding-top: 120px;
+    object-fit: cover;
+  }
+  .infographicRightHeader {
+    max-height: 27.6px;
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 20.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.6px; /* 136.296% */
+    margin: 0;
+  }
+
+  .infographicRightSubheader h6 {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 15.469px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 161.616% */
+    margin: 0;
+  }
+
+  .infographicRightDesc {
+    padding-left: 55px;
+  }
+
+  .infographicRightDesc p {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 13.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .infographicFooter p {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 13.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .infographicFooter span {
+    color: #01c38d;
+    font-family: ITC;
+    font-size: 13.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 601px) and (min-width: 550px) {
+  .infographicLeft Img {
+    width: 575px;
+  }
+}
+@media only screen and (max-width: 549px) and (min-width: 500px) {
+  .infographicLeft Img {
+    width: 525px;
+  }
+}
+@media only screen and (max-width: 499px) and (min-width: 450px) {
+  .infographicLeft Img {
+    width: 475px;
+  }
+}
+@media only screen and (max-width: 449px) and (min-width: 400px) {
+  .infographicLeft Img {
+    width: 425px;
+  }
+}
+@media only screen and (max-width: 399px) and (min-width: 350px) {
+  .infographicLeft Img {
+    width: 375px;
+  }
+}
+@media only screen and (max-width: 349px) and (min-width: 320px) {
+  .infographicLeft Img {
+    width: 320px;
+  }
+}
