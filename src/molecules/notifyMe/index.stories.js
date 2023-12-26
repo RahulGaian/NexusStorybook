@@ -7,6 +7,7 @@ export default {
   component: NotifyMe,
   argTypes: {
     showMainText: { control: "boolean" },
+    showMainPara: {control: "boolean"},
     showSecondaryText: { control: "boolean" },
     showButton: { control: "boolean" },
     showImageContainer: { control: "boolean" },
@@ -19,6 +20,7 @@ export const notifyMe = Template.bind({});
 notifyMe.args = {
   data: notifyMeData.notifyMe,
   showMainText: true,
+  showMainPara: false,
   showSecondaryText: true,
   showButton: true,
   showImageContainer: false,
@@ -28,6 +30,7 @@ export const notifyMe2 = Template.bind({});
 notifyMe2.args = {
   data: notifyMeData.notifyMe2,
   showMainText: true,
+  showMainPara: false,
   showSecondaryText: true,
   showButton: true,
   showImageContainer: false,
@@ -37,9 +40,20 @@ export const notifyMe3 = Template.bind({});
 notifyMe3.args = {
   data: notifyMeData.notifyMe3,
   showMainText: true,
+  showMainPara: false,
   showSecondaryText: false,
   showButton: false,
   showImageContainer: true,
+};
+
+export const notifyMe4 = Template.bind({});
+notifyMe4.args = {
+  data: notifyMeData.notifyMe4,
+  showMainText: true,
+  showMainPara: true,
+  showSecondaryText: true,
+  showButton: true,
+  showImageContainer: false,
 };
 
 // import React from "react";
