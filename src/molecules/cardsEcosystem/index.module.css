@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.contentContainer {
+  width: 1700px;
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#mainHead {
+  width: 100%;
+  color: #191e29;
+  text-align: center;
+  font-family: ITC;
+  font-size: 40.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55.2px;
+}
+
+#para {
+  width: 100%;
+  color: #191e29;
+  text-align: center;
+  font-family: ITC;
+  font-size: 17.875px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.3px;
+}
+
+.cardsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.singleCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 354px;
+  border-radius: 10px;
+  background: var(--Color, #fff);
+  box-shadow: 0px 3px 16px 0px rgba(25, 30, 41, 0.1);
+  padding: 16px;
+}
+
+.singleCardContainer > img {
+  width: 72px;
+  height: 72px;
+}
+
+#numbers {
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC;
+  font-size: 29.953px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41.4px;
+}
+
+#moreInfo {
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC Avant Garde Gothic;
+  font-size: 17.188px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.3px;
+}
+
+#name {
+  color: #4c4c4c;
+  text-align: center;
+  font-family: ITC;
+  font-size: 17.703px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.3px;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentContainer{
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentContainer{
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentContainer{
+    width: 950px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contentContainer{
+    width: 90%;
+  }
+  .singleCardContainer {
+    width: 165px;
+    height: 354px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer{
+    width: 90%;
+  }
+  .cardsContainer {
+    flex-direction: column;
+  }
+  .singleCardContainer{
+    width: 100%;
+    height: 150px;
+    padding: 16px 0px;
+  }
+}

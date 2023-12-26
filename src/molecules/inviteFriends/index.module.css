@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.contentContainer {
+  width: 760px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 40px;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#mainHead {
+  color: #4c4c4c;
+  text-align: center;
+  font-family: ITC;
+  font-size: 68.594px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92px;
+  text-align: center;
+}
+
+#para {
+  color: #4c4c4c;
+  text-align: center;
+  font-family: ITC;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .contentContainer{
+      width: 90%;
+      height: auto;
+      padding: 0; 
+      margin-top: 30px;  
+    }
+    #mainHead {
+        font-size: 34px;
+        line-height: 46px;
+        text-align: left;
+    }
+    #para{
+        font-size: 13px;
+        line-height: normal;
+        text-align: left;
+    }
+}

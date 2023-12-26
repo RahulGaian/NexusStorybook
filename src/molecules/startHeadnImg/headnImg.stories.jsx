@@ -10,7 +10,7 @@ export const FiatCrypto = () => <HeadnImg data={headnImgData.fiatCrypto} />;
 export const Basket = () => <HeadnImg data={headnImgData.Basket} />;
 export const AppAssets = () => <HeadnImg data={headnImgData.appAssets} />;
 export const AccountAnalysis = () => (
-  <HeadnImg data={headnImgData.accountAnalysis} />
+<HeadnImg data={headnImgData.accountAnalysis} />
 );
 export const SwissBorgEarn = () => (
   <HeadnImg data={headnImgData.swissBorgEarn} />

@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d8efff;
+}
+
+.contentContainer {
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0px;
+}
+
+.mainContainer {
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainhead {
+  width: 85%;
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC;
+  font-size: 40.688px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55.2px;
+}
+
+.middleContainer {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.fdiv {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.fdiv > img {
+  width: 64px;
+  height: 64px;
+}
+
+#cardHead {
+  width: 100%;
+  text-align: left;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 17.031px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+#para {
+  width: 100%;
+  text-align: left;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px;
+}
+
+.sdiv {
+  width: 100%;
+  margin: 30px 0px;
+  height: 1px;
+  display: flex;
+  align-self: stretch;
+  background: rgba(143, 150, 161, 0.5);
+}
+
+.tdiv {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ftdiv,
+.ttdiv {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.ttdivd1 {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.ttdivd2 {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+#tspan1 {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 17.188px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.ftdiv img,
+.ttdiv img {
+  width: 32px;
+  height: 32px;
+}
+
+#arrdiv1 {
+  color: var(--Color, #fff);
+  text-align: center;
+  font-family: ITC;
+  font-size: 12.141px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.1px;
+  border-radius: 2px;
+  background: #01c38d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: 37px;
+  padding: 0px 4px;
+}
+
+#arrdiv2 {
+  color: var(--Color, #fff);
+  text-align: center;
+  font-family: ITC;
+  font-size: 12.141px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.1px;
+  border-radius: 2px;
+  background: #ff3427;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: 37px;
+  padding: 0px 4px;
+}
+
+.stdiv {
+  width: 1px;
+  height: inherit;
+  background: rgba(143, 150, 161, 0.5);
+  display: flex;
+  align-self: stretch;
+}
+
+.btmContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#btmspan1 {
+  color: #8f96a1;
+  text-align: center;
+  font-family: ITC;
+  font-size: 11.484px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.1px;
+}
+
+#btmspan2 {
+  color: #4c4c4c;
+  text-align: center;
+  font-family: ITC;
+  font-size: 11.375px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.1px;
+}
+
+@media screen and (max-width: 980px) {
+  .contentContainer {
+    width: 90%;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer {
+    width: 90%;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  #mainhead {
+    width: 100%;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: left;
+  }
+  .middleContainer {
+    padding: 24px 24px;
+  }
+  .fdiv > img {
+    width: 48px;
+    height: 48px;
+  }
+  #cardHead {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #para {
+    font-size: 13px;
+  }
+  .ftdiv,
+  .ttdiv {
+    display: flex;
+    width: 45%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+  }
+  #tspan1,
+  #tspan2 {
+    font-size: 12px;
+  }
+  .ttdivd1 {
+    gap: 0px;
+  }
+  #arrdiv2,
+  #arrdiv1 {
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #tspan1,
+  #tspan2 {
+    font-size: 11px;
+  }
+  #btmspan1, #btmspan2 {
+    font-size: 10px;
+  }
+}

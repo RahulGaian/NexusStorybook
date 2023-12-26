@@ -8,6 +8,7 @@ export default {
 
 export const Started = () => <GetStarted data={getStartedData.getStarted} />;
 export const SwissBorg = () => <GetStarted data={getStartedData.swissBorg} />;
+export const InviteFriends = () => <GetStarted data={getStartedData.inviteFriends} />;
 export const Argstest = {
   args: {
     data: {
