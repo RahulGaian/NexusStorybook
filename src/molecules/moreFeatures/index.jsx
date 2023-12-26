@@ -21,7 +21,7 @@ const MoreFeatures = ({ data }) => {
                 <div>
                   <Img src={card.imgSrc}></Img>
                 </div>
-                <div>
+                <div className={styles.card_para}>
                   <p>{card.text}</p>
                 </div> 
               </div>
