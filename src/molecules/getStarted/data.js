@@ -16,5 +16,14 @@ export const getStartedData = {
         contenttxtcolor: "#191E29",
         btntextcolor: "#FFF",
         btnbgcolor: "#007CD7"
-    }
+    },
+    inviteFriends:{
+        imgURL: "./Images/getStarted/inviteFriends.png",
+        contenttxt: "Invite your friends and earn up to €100 in BORG",
+        btntext: "Learn More",
+        bgcolor: "linear-gradient(270deg, #41aeff 5%, #2e7dcd 100%)",
+        contenttxtcolor: "#FFF",
+        btntextcolor: "#007CD7",
+        btnbgcolor: "#FFF"
+    },
 }
