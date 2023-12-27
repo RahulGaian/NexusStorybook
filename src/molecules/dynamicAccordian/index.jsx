@@ -4,17 +4,13 @@ import styles from "./index.module.css";
 const AccordionItem = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
 
-
   return (
     <div className={styles.accordionItem}>
-
       <div className={styles.AccordianHeader}>
-
         <div className={styles.accordianHeaderTitle} onClick={toggleAccordion}>
           {title}
           <img
@@ -27,9 +23,13 @@ const AccordionItem = ({ title, content }) => {
         </div>
 
         {/* {isOpen && <div className={styles.accordionAnswer}>{content}</div>} */}
-        {isOpen && <div className={`${styles.accordionAnswer} ${isOpen ? 'rotate' : ''}`}>{content}</div>}
-
-
+        {isOpen && (
+          <div
+            className={`${styles.accordionAnswer} ${isOpen ? "rotate" : ""}`}
+          >
+            {content}
+          </div>
+        )}
       </div>
     </div>
   );

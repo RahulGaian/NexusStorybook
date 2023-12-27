@@ -120,7 +120,7 @@
   .rightCont {
     width: 475px;
   }
-  .rightCont>img{
+  .rightCont > img {
     width: 100%;
     object-fit: cover;
     /* height: 100%; */

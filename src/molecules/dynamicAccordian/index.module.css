@@ -75,7 +75,6 @@
   justify-content: space-between !important;
   flex-direction: column;
   cursor: pointer;
-
 }
 
 .accordianHeaderTitle {
@@ -90,7 +89,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
 }
 
 .toggleIcon {
@@ -98,7 +96,6 @@
   min-height: 20px;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
-
 }
 
 /* .AccordionItem  */

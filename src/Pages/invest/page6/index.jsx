@@ -42,7 +42,6 @@ function Page6() {
       <section>
         <CurveContainer data={curveContainerData.curveContainer1} />
       </section>
-      {/* PENDING */}
       <section>
         <MoreFeatures data={moreFeaturesData.moreFeatures} />
       </section>
