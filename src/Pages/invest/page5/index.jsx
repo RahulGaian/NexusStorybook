@@ -13,10 +13,14 @@ import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
 import Cookies from "../../../molecules/cookies";
 import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer"
-
+import Blobs from "../../../molecules/blobs";
 const Page5 = () => {
   return (
-    <div>
+    <section>
+      <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"150%"} zIndex={1} left={"-200px"}></Blobs>
+      <Blobs top={"200%"}  zIndex={1} color="yellow" left={"85%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.swissBorgEarn} />
       </section>
@@ -52,7 +56,7 @@ const Page5 = () => {
       <section>
         <Footer />
       </section>
-    </div>
+    </section>
   );
 };
 

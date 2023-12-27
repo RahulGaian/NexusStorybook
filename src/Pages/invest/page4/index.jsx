@@ -25,10 +25,17 @@ import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
 import MobileAndText from "../../../molecules/mobileAndText";
 import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
 import EstimateEarning from "../../../molecules/estimateEarning";
+import Blobs from "../../../molecules/blobs";
 
 function Page2() {
   return (
     <section>
+          <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"150%"} zIndex={1} left={"-200px"}></Blobs>
+      <Blobs top={"200%"}  zIndex={1} color="yellow" left={"85%"}></Blobs>
+      {/* <Blobs top={"450%"} left={"-200px"}></Blobs> */}
+      {/* <Blobs top={"480%"}  color="yellow" left={"85%"}></Blobs> */}
       <section>
         <HeadnImg data={headnImgData.accountAnalysis} />
       </section>

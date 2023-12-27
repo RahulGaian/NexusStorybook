@@ -1,8 +1,10 @@
 .solutionContainer{
     position: relative;
-    overflow: hidden;
+    width: 100vw !important;
+    overflow: hidden !important;
     height: auto;
     margin-bottom: 100px;
+
 }
 #products{
     /* padding-bottom: 87px; */

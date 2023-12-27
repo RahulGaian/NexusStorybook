@@ -1,74 +1,84 @@
-.swipermenu {
-  width: 90%;
-  position: relative;
+.appswipermainlandingpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.swipermenu::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 40%;
-  width: 20%;
-  height: 200% !important;
-  background: linear-gradient(
-    to right,
-    rgba(0, 93, 164, 0.1),
-    rgba(0, 93, 164, 0.1)
-  );
-  pointer-events: none;
+.swipermenu{
+    width: 1700px;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.content{
+    padding: 20px;
+}
+.content > img{
+    max-width: 80%;
+    height: 70px;
 }
 
-#content img{
-    width: 80px;
-    height: 80px;
+.swiper-wrapper{
+    align-items: center !important;
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 800px) {
-    #content img{
-        width: 65px;
+@media only screen and (max-width:1800px) and (min-width:1500px){
+    .swipermenu{
+        width: 1420px;   
+    
+    }
+    .content > img{
+        max-width: 75%;
         height: 70px;
     }
-}
 
-@media only screen and (max-width: 800px) and (min-width: 600px) {
-    #content img{
-        width: 60px;
-        height: 60px;
+}
+@media only screen and (max-width:1500px) and (min-width:1250px){
+    .swipermenu{
+        width: 1200px;   
+    }
+    .content > img{
+        max-width: 70%;
+        height: 50px;
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 300px) {
-    #content img{
-        width: 30px;
-        height: 30px;
+@media only screen and (max-width:1250px) and (min-width:980px){
+    .swipermenu{
+        width: 950px;   
+      
+    
     }
-    .swipermenu {
-        width: 100%;
+    .content > img{
+        max-width: 65%;
+        height: 50px;
+    }
+}
+@media  screen and (max-width:980px){
+    .swipermenu{
+        width: 90%;   
+    
+    }
+    .content > img{
+        max-width: 65%;
+        height: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .content1 > img{
+        max-width: 80px;
+        height: 50px;
+        object-fit: contain ;
+
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 540px) {
-  .swipermenu {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 100% !important ;
-  }
-  #content {
-    /* margin-left: 1rem !important; */
-    width: 10rem !important;
-    /* background-color: blueviolet; */
-  }
-}
-
-@media only screen and (max-width: 540px) and (min-width: 400px) {
-  .swipermenu {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 100% !important ;
-  }
-  #content {
-    /* margin-left: 1rem !important; */
-    width: 6rem !important;
-    /* background-color: blueviolet; */
-  }
+@media screen and (max-width:320px){
+    .content1 > img{
+        max-width: 50px;
+        height: 50px;
+        object-fit: cover ;
+    }
 }

@@ -1,0 +1,33 @@
+body{
+width: 100vw !important;
+overflow-x:hidden !important;
+font-family: 'ITC' !important;;
+
+}
+
+.sb-show-main.sb-main-fullscreen{
+    width: 100vw !important;
+    overflow-x:hidden !important ;
+}
+
+#storybook-root{
+    width: 100vw !important;
+    overflow-x:hidden !important ;
+}
+
+.sb-wrapper{
+    width: 100vw !important;
+    overflow-x:hidden !important ;
+}
+
+@font-face {
+    font-family: 'ITC' !important;
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Medium') url("../src/fonts/ITC Avant Garde Gothic Medium.otf") format("truetype");
+  }
+  
+  
+  *{
+    font-family: 'ITC' !important;;
+  }

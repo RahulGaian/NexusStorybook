@@ -6,28 +6,15 @@
     padding-bottom: 20px;
 }
 .AppsPowered > h1{
-    font-weight: 700;
+    font-weight: 500;
     font-size:55px;
     line-height: 75px;
     height: fit-content;
     color: #2B2B2B;
+    font-family: "DM Sans";
 }
 
-@font-face {
 
-    font-family: 'ITC';
-    font-style: normal;
-    font-weight: normal;
-    src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
-      format("truetype");
-  
-  }
-
-  *{
-    font-family: 'ITC';
-  
-  }
-  
 .appswipermain{
     /* margin-top: 24px; */
     width: 100%;
@@ -44,7 +31,7 @@
 }
 
 .mySwiper2landingpage{
-    width:1700px
+    width:100%;
 }
 
 @media only screen and (max-width:1800px) and (min-width:1500px){
@@ -69,10 +56,10 @@
     }
 
     .mySwiper2landingpage{
-        width:1200px
+        width:90%;
     }
     .AppsPowered > h1{
-        font-weight: 700;
+        font-weight: 500;
         font-size:50px;
         line-height: 75px;
         height: fit-content;
@@ -85,25 +72,30 @@
     }
 
     .mySwiper2landingpage{
-        width:950px
+        width:90%;
     }
     .AppsPowered > h1{
-        font-weight: 700;
+        font-weight: 500;
         font-size:45px;
         line-height: 70px;
         height: fit-content;
         color: #2B2B2B;
     }
 }
-@media only screen and (max-width:980px){
+@media  screen and (max-width:980px){
     .AppsPowered{
         width: 90%;
     }
     .mySwiper2landingpage{
-        width:90%
+        width: 90%;
+    }
+    .mySwiper2landingpage > .swiper-slide{
+        width:100%;
+        /* margin-left: 5%;
+        margin-left: 5%; */
     }
     .AppsPowered > h1{
-        font-weight: 700;
+        font-weight: 500;
         font-size:45px;
         line-height: 70px;
         height: fit-content;
@@ -112,14 +104,29 @@
 
 }
 @media screen and (max-width:600px){
+    .AppsPowered{
+        width: 90%;
+    }
+    .mySwiper2landingpage{
+        width: 90%;
+    }
     .mySwiper2landingpage > .swiper-slide{
         margin-left: 0px ;
     }
     .AppsPowered > h1{
-        font-weight: 700;
-        font-size:40px;
-        line-height: 60px;
-        height: fit-content;
-        color: #2B2B2B;
+        /* display: none; */
+        font-size: 28px;
+    }
+    .swipercs{
+        /* width: 350px !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important; */
+        height: fit-content !important;
+    }
+}
+
+@media  screen and (max-width:350px) {
+    .AppsPowered > h1{
+        font-size: 20px;
     }
 }

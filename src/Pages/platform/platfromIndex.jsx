@@ -3,6 +3,7 @@ import PlatformBanner from  "../../components/platfrom-components/platform-banne
 import Features from '../../components/platfrom-components/features/Features'
 import Benefits from '../../components/platfrom-components/benefits/Benefits'
 import SeeAlso from '../../components/platfrom-components/seeAlso/SeeAlso'
+import Blobs from '../../molecules/blobs'
 import ProductExp from '../../components/ProductEndExplaner'
 import SolutionPageCaseStudy from '../../components/solutionPageComponents/SolutionPageCaseStudy/SolutionPageCaseStudy'
 import "./platfrom.css"
@@ -15,6 +16,12 @@ const PlatfromIndex = ({platform}) => {
       }
   return (
     <section className='platformContainer' >
+       <Blobs top={"-200px"} left={"85%"}></Blobs>
+      <Blobs top={"20%"} color="yellow" left={"-200px"}></Blobs>
+      <Blobs top={"38%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"50%"} color="yellow" left={"-200px"}></Blobs>
+      <Blobs top={"63%"}   left={"85%"}></Blobs>
+
       <PlatformBanner bannerData={platform.banner}/>
       <Features featureData={platform.features}/>
       <Benefits benefitsData={platform.benefits}/>

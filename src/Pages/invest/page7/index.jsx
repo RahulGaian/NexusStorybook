@@ -11,10 +11,14 @@ import Newsletter from "../../../molecules/newsletter";
 import MoreFeatures from "../../../molecules/moreFeatures";
 import { moreFeaturesData } from "../../../molecules/moreFeatures/data";
 import Footer from "../../../molecules/footer";
-
+import Blobs from "../../../molecules/blobs";
 const Page7 = () => {
   return (
-    <div>
+    <section>
+           <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"150%"} zIndex={1} left={"-200px"}></Blobs>
+      <Blobs top={"200%"}  zIndex={-1} color="yellow" left={"85%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.smartInvestment} />
       </section>
@@ -48,7 +52,7 @@ const Page7 = () => {
       <section>
         <Footer />
       </section>
-    </div>
+    </section>
   );
 };
 

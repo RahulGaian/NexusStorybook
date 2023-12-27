@@ -287,7 +287,7 @@
   flex-wrap: wrap;
   margin: 2rem;
   border-radius: 40px;
-  background: linear-gradient(276deg, #fff 46.71%, #f6dbff 109.6%);
+  /* background: linear-gradient(276deg, #fff 46.71%, #f6dbff 109.6%); */
   padding: 0%;
 }
 
@@ -708,20 +708,20 @@
   }
   #bg_pink_color_2 {
     height: fit-content;
-    background: radial-gradient(
+    /* background: radial-gradient(
       300px 300px at 10% 25%,
       rgba(234, 169, 229, 0.5) 10%,
       rgba(217, 217, 217, 0) 90%
-    );
+    ); */
   }
 
   #bg_pink_color_1 {
     height: fit-content;
-    background: radial-gradient(
+    /* background: radial-gradient(
       200px 200px at 80% 80%,
       rgba(234, 169, 229, 0.5) 10%,
       rgba(217, 217, 217, 0) 90%
-    );
+    ); */
   }
 }
 

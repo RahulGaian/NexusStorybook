@@ -9,10 +9,12 @@ import Cookies from "../../../molecules/cookies";
 import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer";
 import style from "./index.module.css";
-
+import Blobs from "../../../molecules/blobs";
 function Page3() {
   return (
     <section>
+       <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.appAssets} />
       </section>

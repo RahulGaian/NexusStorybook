@@ -24,10 +24,17 @@ import DynamicAccordion from "../../../molecules/dynamicAccordian";
 import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
 import MobileAndText from "../../../molecules/mobileAndText";
 import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
+import Blobs from "../../../molecules/blobs";
 
 function Page2() {
   return (
     <section>
+      <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"150%"} left={"-200px"}></Blobs>
+      <Blobs top={"220%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"450%"} left={"-200px"}></Blobs>
+      <Blobs top={"520%"}  color="yellow" left={"85%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.Basket} />
       </section>

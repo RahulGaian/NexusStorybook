@@ -4,7 +4,6 @@ import "./index.css"
 const changeRoute=(Route)=>{
   window.location.href=Route
 }
-// import zIndex from "@mui/material/styles/zIndex";
 let SingleApp = ({image,heading,content,Route}) => {
     return(
         // <a>

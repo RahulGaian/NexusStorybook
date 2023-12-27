@@ -7,6 +7,7 @@ import SolutionPageCaseStudy from "../../components/solutionPageComponents/Solut
 import AppSwiper from "../../components/appSwiper";
 import SolutionPageLike from "../../components/solutionPageComponents/SolutionPageLike/SolutionPageLike";
 import SolutionPageSecurity from "../../components/solutionPageComponents/SolutionPageSecurity/SolutionPageSecurity";
+import Blobs from "../../molecules/blobs";
 const SolutionPageIndex = ({ solution }) => {
   // console.log(solution);
   return (
@@ -14,6 +15,15 @@ const SolutionPageIndex = ({ solution }) => {
       className="solutionContainer"
  
     >
+      <Blobs top={"-200px"} left={"85%"}></Blobs>
+      <Blobs top={"20%"} color="yellow" left={"-200px"}></Blobs>
+      <Blobs top={"38%"}  color="yellow" left={"85%"}></Blobs>
+      <Blobs top={"50%"} color="yellow" left={"-200px"}></Blobs>
+      <Blobs top={"63%"}   left={"85%"}></Blobs>
+
+
+
+
       <SolutionPageBanner bannerData={solution.banner} />
       <SolutionPageMenu />
       <SolutionPagePS problemData={solution.problemStatement} />

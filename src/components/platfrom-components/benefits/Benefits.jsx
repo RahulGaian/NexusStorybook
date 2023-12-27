@@ -12,8 +12,8 @@ const Benefits = ({ benefitsData }) => {
   return (
     <div>
       <section className='benefitsContainer '>
-        <div className='decoratorb-1'></div>
-        <div className='decoratorb-2'></div>
+        {/* <div className='decoratorb-1'></div>
+        <div className='decoratorb-2'></div> */}
 
         <div className='benefitsBoxHeading'>
 

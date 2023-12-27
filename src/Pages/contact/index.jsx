@@ -6,11 +6,14 @@ import ProductExp from "../../components/ProductEndExplaner";
 import MapComponent from "./mapcomponent";
 import Img from "../../components/Image";
 import Carousel from "./CarouselComponent/Carousel";
-
+import Blobs from "../../molecules/blobs";
 
 let Contact = () => {
   return (
     <div className={Style.maindivcontactspage}>
+      <Blobs left={"85%"} top={"-20%"} color="yellow"></Blobs>
+      <Blobs left={"-10%"} top={"30%"} ></Blobs>
+
 
       <section className={Style.topcont1}>
         <div id={Style.contacthead}>

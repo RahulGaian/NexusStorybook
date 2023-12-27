@@ -1,61 +1,130 @@
 import "swiper/css";
 // import SingleApp from "../AppPowered";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import { EffectCoverflow, Pagination } from "swiper";
-import "./index.css"
+import { EffectCoverflow} from "swiper";
+import Img from "../Image";
+import "./index.css";
+import SwiperCore, { Autoplay } from 'swiper';
+import { useRef,useEffect,useState} from "react";
+
 let AndroidApps = () => {
-    return(
-        <Swiper 
+
+    SwiperCore.use([Autoplay])
+    const swiperRef2 = useRef(null);
+    useEffect(() => {
+        const swiperInstance2 = swiperRef2.current.swiper;
+    
+        let direction = 'ltr';
+    
+        const autoplayHandler = () => {
+          if (swiperInstance2.isEnd && direction === 'ltr') {
+            direction = 'rtl';
+            swiperInstance2.params.autoplay.reverseDirection = true;
+            swiperInstance2.autoplay.stop();
+            swiperInstance2.autoplay.start();
+          } else if (swiperInstance2.isBeginning && direction === 'rtl') {
+            direction = 'ltr';
+            swiperInstance2.params.autoplay.reverseDirection = false;
+            swiperInstance2.autoplay.stop();
+            swiperInstance2.autoplay.start();
+          }
+        };
+    
+        swiperInstance2.on('autoplay', autoplayHandler);
+    
+        return () => {
+          swiperInstance2.off('autoplay', autoplayHandler);
+        };
+      }, []);
+      const [slidesPerView, setSlidesPerView] = useState(6);
+      useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth<480){
+                setSlidesPerView(3);
+              }
+            else if (window.innerWidth < 980) {
+                setSlidesPerView(4);
+            } 
+            else {
+            setSlidesPerView(6);
+          }
+        };
+    
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, []);
         
+    return(
+
+
+
+
+         <div className="appswipermainlandingpage">
+                <Swiper 
+        ref={swiperRef2}
         centeredSlides={false}
         // loop={true}
         grabCursor={true}
         autoplay=
         {{
-          delay: 1000,
+          delay: 2000,
         }}
         initialSlide={3}
 
-        slidesPerView={"7"}
+        slidesPerView={slidesPerView}
         freeMode={true}
-
-        pagination={{
-            clickable: true,
-        }}
-        
+        coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: false,
+            direction: 'ltr',
+          }}
+        modules={[EffectCoverflow]}
         className="swipermenu"
         >
-            <SwiperSlide id='content'>
-                <img src={require("./images/12.png")} alt="" />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/Alpaco.svg" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/13.png")} alt="" />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/13.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/14.png")} alt="" />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/14.png"></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/appstore.png")} alt=""  />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/appstore.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/drive.png")} alt=""  />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/drive.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/playstore.png")} alt="" />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/playstore.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/slack.png")} alt="" />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/slack.png"></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/zoom.png")} alt="" style={{height:"50px"}} />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/zoom.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/12.png")} alt="" style={{height:"50px"}} />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/twillonew.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide id='content'>
-            <img src={require("./images/13.png")} alt="" style={{height:"50px"}} />
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/Alpaco.svg" ></Img>
             </SwiperSlide>
+            <SwiperSlide className='content1'>
+                <Img src="/aidtaasImages/images/images/apps/13.png" ></Img>
+            </SwiperSlide>
+           
         </Swiper>
+         </div>
+        
     )
 }
 

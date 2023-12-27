@@ -15,10 +15,13 @@ import { dynamic4OptionData } from "../../../molecules/dynamic4Options/data";
 import style from "./index.module.css";
 import MoreFeatures from "../../../molecules/moreFeatures";
 import { moreFeaturesData } from "../../../molecules/moreFeatures/data";
+import Blobs from "../../../molecules/blobs";
 
 function Page1() {
   return (
     <section>
+      <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.fiatCrypto} />
       </section>
