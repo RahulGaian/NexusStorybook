@@ -1,18 +1,20 @@
-import React from 'react';
-import MoreFeatures from './index';
-import { moreFeaturesData } from './data';
+import React from "react";
+import MoreFeatures from "./index";
+import { moreFeaturesData } from "./data";
 
 export default {
-  title: 'components/MoreFeatures',
+  title: "components/MoreFeatures",
   component: MoreFeatures,
 };
 
-export const moreFeatures = () => <MoreFeatures data={moreFeaturesData.moreFeatures} />;
+export const moreFeatures = () => (
+  <MoreFeatures data={moreFeaturesData.moreFeatures} />
+);
 
 export const Argstest = {
   args: {
     data: {
-      title: 'Explore more features in the SwissBorg app',
+      title: "Explore more features in the SwissBorg app",
       cards: [
         {
           imgSrc: "./Images/moreFeatures/moreFeaturesA.svg",
@@ -34,4 +36,3 @@ export const Argstest = {
     },
   },
 };
-

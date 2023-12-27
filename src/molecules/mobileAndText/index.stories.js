@@ -19,3 +19,6 @@ export const MobileTextComponent3 = () => (
 export const MobileTextComponent4 = () => (
   <MobileAndText data={mobileAndTextData.mobileData4.mobileText4} />
 );
+export const MobileTextComponent5 = () => (
+  <MobileAndText data={mobileAndTextData.mobileData4.mobileText4} />
+);

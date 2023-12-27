@@ -54,5 +54,13 @@ export const ifgData = {
       "Smaller investments mostly out-perform lump-sum investments in the long-term. <br/> <br/> With Auto-Invest you gain a better average buying price that reduces your risk & potentially increases the return on Investment. <br/> <br/> *For example, investing in Ethereum weekly for the past 3 years would result in a 132.25% return*",
     flexDirection: "row",
     bgColor: "var(--Surface-Primary, #D8EFFF)",
-  }
+  },
+  c8: {
+    imgURL: "./Images/infographicCards/autoinvest.png",
+    head: "What is Auto-Invest?",
+    content:
+      "Auto-Invest uses Dollar Cost Averaging (DCA), a popular strategy among savvy investors, to reduce volatility by investinga fixed amount at regular intervals.",
+    flexDirection: "row",
+    bgColor: "",
+  },
 };
