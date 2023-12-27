@@ -63,4 +63,12 @@ export const ifgData = {
     flexDirection: "row",
     bgColor: "",
   },
+  c9: {
+    imgURL: "./Images/infographicCards/maximisePotential.png",
+    head: "Maximise your potential with SwissBorg",
+    content:
+      "The Hero Score program is all about incentivising positive  actions that help you manage your crypto portfolio with SwissBorg’s flagship products.",
+    flexDirection: "row",
+    bgColor: "",
+  },
 };

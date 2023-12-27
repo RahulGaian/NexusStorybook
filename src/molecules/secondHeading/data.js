@@ -18,4 +18,7 @@ export const secondHeadingData = {
   autoInvest: {
     text: "Why is Auto-Invest good for you?",
   },
+  navigate: {
+    text: "Navigate the market like a SwissBorg Hero",
+  },
 };

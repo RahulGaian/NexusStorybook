@@ -26,35 +26,28 @@ import DynamicAccordion from "../../../molecules/dynamicAccordian";
 import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
 import MobileAndText from "../../../molecules/mobileAndText";
 import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
-import CurveContainer from "../../../molecules/curveBgContainer";
-import { curveContainerData } from "../../../molecules/curveBgContainer/data";
+import RulesAndHelpcenter from "../../../molecules/rulesAndHelpcenter";
 
 function Page9() {
   return (
     <section>
       <section>
-        <HeadnImg data={headnImgData.autoInvest} />
+        <HeadnImg data={headnImgData.heroes} />
       </section>
       <section>
-        <Yield data={yieldData.yield3} />
+        <Investment data={InvestmentData.investmentThree} />
       </section>
       <section>
-        <InfographicCard data={ifgData.c8} />
+        <InfographicCard data={ifgData.c9} />
       </section>
       <section>
-        <SecondHeading data={secondHeadingData.autoInvest} />
+        <SecondHeading data={secondHeadingData.navigate} />
       </section>
       <section>
-        <Dynamic4Option data={dynamic4OptionData.d4Cmp5} />
+        <Dynamic4Option data={dynamic4OptionData.d4Cmp4} />
       </section>
       <section>
-        <InfographicCard data={ifgData.c7} />
-      </section>
-      <section>
-        <DynamicAccordion data={dynamicAccordianData.dynamicAccordian1} />
-      </section>
-      <section className={style.mobileAndText}>
-        <MobileAndText data={mobileAndTextData.mobileData4.mobileText4} />
+        <RulesAndHelpcenter />
       </section>
       <section className={style.cookies}>
         <Cookies />
