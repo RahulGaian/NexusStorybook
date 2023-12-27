@@ -16,7 +16,8 @@
 .contentContainer {
   margin: 5% 0 !important;
   /* border: 5px solid green; */
-  width: 1200px;
+  /* width: 1200px; */
+  width: 85%;
   display: flex !important;
 }
 
@@ -122,9 +123,19 @@
   transform: rotate(180deg);
 }
 
+
+@media only screen and (max-width: 2600px) and (min-width: 1801px) {
+  .contentContainer {
+    width: 1700px;
+    /* width: 85%; */
+    display: flex !important;
+  }
+}
+
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
   .contentContainer {
-    width: 1420px;
+    /* width: 1420px; */
+    width: 85%;
     display: flex !important;
   }
 }
@@ -132,9 +143,7 @@
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .contentContainer {
     /* width: 1200px; */
-    /* width: 1100px; */
-    width: 75% !important;
-
+    width: 85% !important;
     display: flex !important;
   }
 }
@@ -142,7 +151,7 @@
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .contentContainer {
     /* width: 950px; */
-    width: 85%;
+    width: 90%;
     display: flex !important;
   }
 
@@ -331,7 +340,7 @@
     line-height: 18.4px;
     width: 90%;
   }
-  .dropdownCondition {
+  /* .dropdownCondition {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.7s ease-in-out;
@@ -339,7 +348,7 @@
 
   .dropdownCondition.active {
     max-height: 220px;
-  }
+  } */
 }
 
 @media screen and (max-width: 460px) and (min-width: 370px) {
@@ -349,7 +358,7 @@
   }
 }
 
-@media screen and (max-width: 370px) and (min-width: 300px) {
+@media screen and (max-width: 370px) and (min-width: 100px) {
   .titleHeader {
     width: 75%;
     height: 110px;

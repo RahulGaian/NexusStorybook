@@ -6,6 +6,8 @@ import Yield from "../../../molecules/yield";
 import { yieldData } from "../../../molecules/yield/yieldData";
 import InfographicCard from "../../../molecules/infographicCard";
 import { ifgData } from "../../../molecules/infographicCard/data";
+import Investment from "../../../molecules/investmentData";
+import { InvestmentData } from "../../../molecules/investmentData/investmentData";
 import MobileAndText from "../../../molecules/mobileAndText";
 import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
 import DynamicAccordion from "../../../molecules/dynamicAccordian";
@@ -35,6 +37,10 @@ const Page5 = () => {
 
       <section>
         <InfographicCard data={ifgData.c6} />
+      </section>
+
+      <section>
+        <Investment data={InvestmentData.investmentTwo} />
       </section>
 
       <section>

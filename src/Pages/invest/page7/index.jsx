@@ -4,6 +4,9 @@ import HeadnImg from "../../../molecules/startHeadnImg";
 import { headnImgData } from "../../../molecules/startHeadnImg/data";
 import SecondHeading from "../../../molecules/secondHeading/secondHeading";
 import { secondHeadingData } from "../../../molecules/secondHeading/data";
+import Dynamic4Option from "../../../molecules/dynamic4Options";
+import { dynamic4OptionData } from "../../../molecules/dynamic4Options/data";
+import AnalysisExcerpt from "../../../molecules/analysisExcerpt";
 import { notifyMeData } from "../../../molecules/notifyMe/data";
 import NotifyMe from "../../../molecules/notifyMe";
 import Cookies from "../../../molecules/cookies";
@@ -25,6 +28,14 @@ const Page7 = () => {
 
       <section>
         <SecondHeading data={secondHeadingData.advancedCrypto} />
+      </section>
+
+      <section>
+      <Dynamic4Option data={dynamic4OptionData.d4Cmp3} />
+      </section>
+
+      <section>
+        <AnalysisExcerpt/>
       </section>
 
       <section>

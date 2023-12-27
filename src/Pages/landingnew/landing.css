@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth
-
+  scroll-behavior: smooth;
 }
 .Landing_page_Container {
   width: 100%;
@@ -12,7 +11,6 @@
   scrollbar-width: thin;
   overflow-x: hidden;
 }
-
 
 .Landing_page_Container::-webkit-scrollbar {
   width: 5px !important;
@@ -30,8 +28,13 @@
   align-items: center;
   background: none;
   /* opacity: 0.9; */
-background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 31.9%, rgba(0, 0, 0, 0.80) 91.59%);
-/* mix-blend-mode: lighten; */
+  background: radial-gradient(
+    80.96% 80.37% at 55.66% 23.99%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 31.9%,
+    rgba(0, 0, 0, 0.8) 91.59%
+  );
+  /* mix-blend-mode: lighten; */
 }
 
 .video-background {
@@ -88,14 +91,14 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   z-index: 1;
 }
 
-.mapbutton{
+.mapbutton {
   z-index: 10;
 }
 
 .bannerContentContainer > h1 {
   color: #f6f6f6;
   text-align: center;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-size: 11rem;
   font-style: normal;
   font-weight: 500;
@@ -106,13 +109,11 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   -webkit-text-fill-color: transparent; */
 }
 @font-face {
-
-  font-family: 'ITC';
+  font-family: "ITC";
   font-style: normal;
   font-weight: normal;
-  src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
-
 }
 .bannerContentWrapper {
   width: 100%;
@@ -134,7 +135,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 .bannerContent > div > h1 {
   color: #f6f6f6;
   text-align: center;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -145,7 +146,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 .bannerContent > div > p {
   color: #f6f6f6;
   text-align: center;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -184,7 +185,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 
 #learnMoreBtn {
   color: #fff !important;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -202,7 +203,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 
 /* ---------------second_bg_img-contaniner--------------------------- */
 .second_bg_img-contaniner {
-  /* background: url("./side-view-woman.png"); */
+  background: url("../../../public/Images/landing/side-view-woman.png");
   background-size: 100% 100%;
   width: 100%;
   min-height: 500px;
@@ -228,7 +229,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 
 .second_bg_heading h1 {
   color: #f6f6f6;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-size: 4rem;
   font-style: normal;
   font-weight: 600;
@@ -242,7 +243,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   width: 55%;
 
   color: #f6f6f6;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 500;
@@ -254,7 +255,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 .second_bg_para2 p {
   width: 55%;
   color: #f6f6f6;
-  font-family: 'ITC';
+  font-family: "ITC";
   font-style: normal;
   font-size: 1.5rem;
   font-weight: 400;
@@ -268,7 +269,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 .third_bg_contaniner {
   min-height: 700px;
   max-height: fit-content;
-  background: #000;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -294,49 +294,50 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 }
 
 .third_bg_upper div h1 {
-  /* font-size: 50px; */
-  color: #f6f6f6;
+  color: #434343;
   text-align: center;
-  font-family: 'ITC';
+  font-family: ITC;
   font-size: 40.687px;
   font-style: normal;
   font-weight: 500;
   line-height: 122.061px;
   text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .third_bg_upper div p {
-  font-size: 22px;
   width: 80%;
   margin: 0 auto;
+
+  color: #434343;
   text-align: center;
-  color: #f6f6f6;
-  text-align: center;
-  font-family: 'ITC';
+  font-family: ITC !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 20px; /* 166.667% */
   letter-spacing: -0.132px;
 }
 
 .Ark_logo {
-  width: 180px;
-  /* height: fit-content; */
+  width: 142px;
+  height: 71px;
   padding: 1%;
+  margin-bottom: 2%;
 }
 .Ark_logo img {
   width: 100%;
-  /* height: 100%; */
 }
 
 .mobius_logo_ {
-  width: 180px;
+  width: 128px;
+  height: 68.741px;
   padding: 1%;
+  margin-bottom: 2%;
 }
 
 .mobius_logo_ img {
-  width: 180px;
-  margin: 5px;
+  width: 100%;
 }
 
 .third_bg_lower_horizontal {
@@ -365,13 +366,13 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 }
 
 .third_bg_lower_para1 p {
-  color: #f6f6f6;
+  color: #404040;
   text-align: justify;
-  font-family: 'ITC';
-  font-size: 22px;
+  font-family: ITC !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 180%;
   letter-spacing: -0.132px;
 }
 
@@ -389,18 +390,18 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
 }
 
 .third_bg_lower_para2 p {
-  color: #f6f6f6;
+  color: #404040;
   text-align: justify;
-  font-family: 'ITC';
-  font-size: 22px;
+  font-family: ITC !important;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
   letter-spacing: -0.132px;
+  line-height: 180%;
 }
 
 /* -------------mobius_won_wrapper--------- */
-/* .mobius_won_wrapper {
+.mobius_won_wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -415,7 +416,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 8% auto;
   border-radius: 8px;
   border: 1px solid #ffcc47;
   background: linear-gradient(
@@ -424,8 +424,9 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     rgba(255, 205, 130, 0.1) 71.36%,
     rgba(255, 162, 0, 0.1) 101.57%
   );
-  backdrop-filter: blur(2px);
-  padding-left: 2%;
+  /* backdrop-filter: blur(2px); */
+  /* padding-left: 2%; */
+  margin: 8% auto;
 }
 
 .content_nab-show {
@@ -436,44 +437,43 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   position: absolute;
   top: -50px;
   left: 50px;
-  width: 200px;
+  width: 300px;
   height: 250px;
 }
 
 .content_text p {
-  width: 95%;
+  width: 800px;
+  /* width: 95%; */
   color: #404040;
   font-variant-numeric: lining-nums proportional-nums;
-  font-family: 'ITC';
+  font-family: ITC !important;
   font-size: 3rem;
   font-style: normal;
   font-weight: 500;
   line-height: 50px;
-  text-align: center;
+  text-align: start;
 }
 
 .winner_Img {
-  width: 380px;
+  width: 200px;
   height: 120px;
   padding-right: 5px !important;
 }
 
 .winner_img img {
   width: 80%;
-
-} */
+}
 
 /* ------------------------.android_swiper_heading-------- */
 .android_swiper_heading {
   color: #cdcdcd;
-  font-family: 'ITC';
+  font-family: ITC !important;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 107.143% */
   text-align: center;
 }
-
 
 @media only screen and (max-width: 1800px) and (min-width: 1440px) {
   /* //DONT DELETE THE COMMENTED CODE IN THIS MEDIA QUERY RANGE---------will used to improve responsiveness in future for other ranges */
@@ -634,47 +634,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     margin: 0 auto;
   } */
 
-  .third_bg_upper div h1 {
-    color: #f6f6f6;
-    text-align: center;
-    font-family: 'ITC';
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 122.061px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.4rem;
-    /* width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400; */
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  }
-
-  .Ark_logo {
-    width: 150px;
-    /* height: fit-content; */
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-    /* height: 100%; */
-  }
-
-  .mobius_logo_ {
-    width: 150px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 180px;
-    margin: 5px;
-  }
-
   /* .third_bg_lower_horizontal {
     min-height: 300px;
     max-height: fit-content;
@@ -735,7 +694,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     width: 1420px;
     max-height: fit-content;
   }
-
 
   /* .content_nab-show img {
     width: 400px;
@@ -852,49 +810,12 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     max-height: fit-content;
   }
 
-  .third_bg_upper div h1 {
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 122.061px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.4rem;
-    /* width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400; */
-    line-height: 24px;
-    letter-spacing: -0.132px;
-  }
-
-  .Ark_logo {
-    width: 150px;
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-  }
-
-  .mobius_logo_ {
-    width: 150px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 180px;
-    margin: 5px;
-  }
-
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
     width: 1200px !important;
     max-height: fit-content;
   }
-
 
   .content_nab-show img {
     width: 250px;
@@ -1011,51 +932,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     max-height: fit-content;
   }
 
-  .third_bg_upper div h1 {
-    font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 122.061px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    /* width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400; */
-    line-height: 22px;
-    letter-spacing: -0.132px;
-  }
-
-  .Ark_logo {
-    width: 130px;
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-    /* height: 100%; */
-  }
-
-  .mobius_logo_ {
-    width: 130px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 130px;
-    margin: 5px;
-  }
-
-  .third_bg_lower_para1 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  }
-
   .third_bg_right_content {
     min-height: 300px;
     max-height: fit-content;
@@ -1065,18 +941,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-  }
-
-  .third_bg_lower_para2 p {
-    color: #f6f6f6;
-    text-align: justify;
-    font-family: 'ITC';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 120%; */
-    line-height: 30px;
-    letter-spacing: -0.132px;
   }
 
   /* -------------mobius_won_wrapper--------- */
@@ -1223,51 +1087,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     margin: 0 auto;
   } */
 
-  .third_bg_upper div h1 {
-    font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50.061px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    width: 90%;
-    /* margin: 0 auto;
-    text-align: center;
-    font-weight: 400; */
-    line-height: 22px;
-    letter-spacing: -0.132px;
-  }
-
-  .Ark_logo {
-    width: 130px;
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-    /* height: 100%; */
-  }
-
-  .mobius_logo_ {
-    width: 130px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 130px;
-    margin: 2px;
-  }
-
-  .third_bg_lower_para1 p {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  }
-
   .third_bg_right_content {
     min-height: 300px;
     max-height: fit-content;
@@ -1277,14 +1096,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-  }
-
-  .third_bg_lower_para2 p {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* letter-spacing: -0.132px; */
   }
 
   /* -------------mobius_won_wrapper--------- */
@@ -1420,52 +1231,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     max-height: fit-content;
   }
 
-  .third_bg_upper div h1 {
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 45px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    width: 90%;
-    /* margin: 0 auto;
-    text-align: center;
-    font-weight: 400; */
-    line-height: 22px;
-    letter-spacing: -0.132px;
-  }
-
-  .Ark_logo {
-    width: 130px;
-    /* height: fit-content; */
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-    /* height: 100%; */
-  }
-
-  .mobius_logo_ {
-    width: 140px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 130px;
-    margin: 2px;
-  }
-
-  .third_bg_lower_para1 p {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  }
-
   .third_bg_right_content {
     min-height: 300px;
     max-height: fit-content;
@@ -1475,14 +1240,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-  }
-
-  .third_bg_lower_para2 p {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* letter-spacing: -0.132px; */
   }
 
   /* -------------mobius_won_wrapper--------- */
@@ -1524,8 +1281,122 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   .winner_img img {
     width: 90%;
   }
-  .android_swiper_heading h1{
+  .android_swiper_heading h1 {
     font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 100px) {
+  /* third_bg_contaniner--------------------------------------------------- */
+
+  .third_bg_contaniner {
+    min-height: 800px;
+    max-height: fit-content;
+    background-color: #000;
+  }
+
+  /* width resolution ------------ */
+  .third_bg_content {
+    width: 90% !important;
+    max-height: fit-content;
+  }
+
+  .third_bg_upper {
+    min-height: 400px;
+    max-height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .third_bg_upper div h1 {
+    color: #f6f6f6;
+    text-align: center;
+    font-family: ITC;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+
+  .third_bg_upper div p {
+    color: #f6f6f6;
+    text-align: center;
+    font-family: ITC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.132px;
+  }
+
+  .Ark_logo {
+    width: 180px;
+    padding: 1%;
+  }
+  .Ark_logo img {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .mobius_logo_ {
+    width: 130px;
+    padding: 1%;
+  }
+
+  .mobius_logo_ img {
+    width: 160px;
+    margin: 5px;
+  }
+
+  .third_bg_lower_horizontal {
+    min-height: 300px;
+    max-height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  .third_bg_left_content {
+    min-height: 300px;
+    max-height: fit-content;
+    width: 100%;
+    text-align: center;
+  }
+
+  .third_bg_lower_para1 p {
+    color: #f6f6f6;
+    text-align: center;
+    font-family: ITC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.132px;
+  }
+
+  .third_bg_right_content {
+    min-height: 300px;
+    max-height: fit-content;
+    width: 100%;
+  }
+
+  .third_bg_lower_para2 p {
+    color: #f6f6f6;
+    text-align: center;
+    font-family: ITC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.132px;
   }
 }
 
@@ -1654,153 +1525,51 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     /* padding: 1% 0%; */
   }
 
-  /* third_bg_contaniner--------------------------------------------------- */
+  /* -------------mobius_won_wrapper--------- */
 
-  .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
+  .mobius_won_content {
+    width: 90%;
+    min-height: 160px !important;
+    /* padding-left: 2%; */
+    /* margin: 8% auto; */
   }
 
-  /* width resolution ------------ */
-  .third_bg_content {
-    width: 90% !important;
-    max-height: fit-content;
+  .content_nab-show {
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 160px;
   }
 
-  .third_bg_upper {
-    min-height: 400px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  .third_bg_upper div h1 {
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 70px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.132px;
-  }
-
-  .Ark_logo {
+  .content_nab-show img {
+    position: absolute;
+    top: -35px;
+    left: 20px;
     width: 180px;
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-    /* height: 100%; */
+    height: 210px;
   }
 
-  .mobius_logo_ {
-    width: 130px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 160px;
-    margin: 5px;
-  }
-
-  .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-    flex-direction: column;
-  }
-
-  .third_bg_left_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
+  .content_text p {
+    width: 95%;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
     text-align: center;
+    padding-left: 2%;
   }
 
-  .third_bg_lower_para1 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.132px;
+  .winner_img {
+    width: 220px;
+    height: 70px;
   }
 
-  .third_bg_right_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
+  .winner_img img {
+    width: 90%;
   }
 
-  .third_bg_lower_para2 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 120%; */
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  
+  .android_swiper_heading h1 {
+    font-size: 32px;
   }
-    /* -------------mobius_won_wrapper--------- */
-
-    .mobius_won_content {
-      width: 90%;
-      min-height: 160px !important;
-      /* padding-left: 2%; */
-      /* margin: 8% auto; */
-    }
-  
-    .content_nab-show {
-      /* border: 2px solid red; */
-      width: 400px;
-      height: 160px;
-    }
-  
-    .content_nab-show img {
-      position: absolute;
-      top: -35px;
-      left: 20px;
-      width: 180px;
-      height: 210px;
-    }
-  
-    .content_text p {
-      width: 95%;
-      font-size: 1.2rem;
-      font-style: normal;
-      font-weight: 800;
-      line-height: 30px;
-      text-align: center;
-      padding-left: 2%;
-    }
-  
-    .winner_img {
-      width: 220px;
-      height: 70px;
-    }
-  
-    .winner_img img {
-      width: 90%;
-    }
-
-    .android_swiper_heading h1{
-      font-size: 32px;
-    }
 }
 
 @media screen and (max-width: 580px) and (min-width: 480px) {
@@ -1970,24 +1739,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     margin: 0 auto;
   }
 
-  .third_bg_upper div h1 {
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 70px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.132px;
-  }
-
   .Ark_logo {
     width: 180px;
     /* height: fit-content; */
@@ -2090,7 +1841,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
   .winner_img img {
     width: 90% !important;
   }
-  .android_swiper_heading h1{
+  .android_swiper_heading h1 {
     font-size: 32px;
   }
 }
@@ -2262,24 +2013,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     margin: 0 auto;
   }
 
-  .third_bg_upper div h1 {
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 70px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.132px;
-  }
-
   .Ark_logo {
     width: 150px;
     padding: 1%;
@@ -2380,7 +2113,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     width: 90% !important;
   }
 
-  .android_swiper_heading h1{
+  .android_swiper_heading h1 {
     font-size: 32px;
   }
 }
@@ -2557,24 +2290,6 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     margin: 0 auto;
   }
 
-  .third_bg_upper div h1 {
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 70px;
-    text-transform: capitalize;
-  }
-
-  .third_bg_upper div p {
-    font-size: 1.2rem;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.132px;
-  }
-
   .Ark_logo {
     width: 150px;
     padding: 1%;
@@ -2675,7 +2390,7 @@ background: radial-gradient(80.96% 80.37% at 55.66% 23.99%, rgba(0, 0, 0, 0.00) 
     width: 90% !important;
   }
 
-  .android_swiper_heading h1{
+  .android_swiper_heading h1 {
     font-size: 32px;
   }
 }
