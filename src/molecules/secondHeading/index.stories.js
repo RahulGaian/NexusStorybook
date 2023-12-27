@@ -28,6 +28,9 @@ export const autoInvest = () => (
 export const navigate = () => (
   <SecondHeading data={secondHeadingData.navigate} />
 );
+export const rockSolid = () => (
+  <SecondHeading data={secondHeadingData.rockSolid} />
+);
 
 export const Argstest = {
   args: {

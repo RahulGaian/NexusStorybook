@@ -21,4 +21,7 @@ export const secondHeadingData = {
   navigate: {
     text: "Navigate the market like a SwissBorg Hero",
   },
+  rockSolid: {
+    text: "Rock solid future for BORG",
+  },
 };
