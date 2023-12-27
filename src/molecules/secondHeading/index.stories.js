@@ -25,6 +25,9 @@ export const infographicTitle = () => (
 export const autoInvest = () => (
   <SecondHeading data={secondHeadingData.autoInvest} />
 );
+export const navigate = () => (
+  <SecondHeading data={secondHeadingData.navigate} />
+);
 
 export const Argstest = {
   args: {
