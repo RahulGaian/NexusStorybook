@@ -86,5 +86,16 @@ export const headnImgData = {
         btnDisplay: "flex",
         btnbgColor: "#FFA200",
         btnTxtColor: "#FFF"
+    },
+    heroes:{
+        heading: "SwissBorg Heroes",
+        para: "Conquer market cycles on your wealth management journey with SwissBorg and unlock exclusive rewards along the way",
+        imgURL: "./Images/headnImg/heroes.png",
+        bgColor: "none",
+        headParaTxtColor: "#4C4C4C",
+        btnctn: "Go to Hall of Fame",
+        btnDisplay: "flex",
+        btnbgColor: "#007CD7",
+        btnTxtColor: "#FFF"
     }
 }
