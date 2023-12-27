@@ -1,0 +1,285 @@
+@media only screen and (max-width:1166px) {
+    .cardWrapper {
+        column-gap: 1.5rem;
+        padding-top: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    
+    }
+}
+
+
+@media only screen and (max-width:1024px) {
+    
+
+    .cardWrapper {
+        padding-left: 1.5rem;
+        padding-right:1.5rem;
+    }
+    .app__casestudy {
+        width: 100%;
+        margin: 1rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .app__casestudy_image {
+        width: 45%;
+        min-height: fit-content;
+    }
+    .app__casestudy_image img {
+        width: 100%;
+        min-height: fit-content;
+
+    }
+    .app__casestudy_content {
+        width: 51%;
+        margin: .7rem;
+    }
+    .app__casestudy_content .content_heading {
+       padding: .3rem;
+       font-size: 29px;
+       line-height: 40px;
+    }
+    .app__casestudy_content .content_description {
+        margin: .4rem;
+        margin-bottom: .9rem;
+        margin-bottom: .9rem;
+      
+      
+    }
+    .app_description {
+        width: 90%;
+        margin: 2rem;
+        padding: 4rem 8rem;
+    }
+    .cardDetailContainer>h1 {
+        width: 100%;
+        font-size: 42px;
+        line-height: 50px;
+        /* or 119% */
+    }
+
+    .featureBoxHeading {
+        width: 100% !important;
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 80%;
+        height: 70px;
+        /* top: 68rem; */
+    }
+ 
+}
+
+@media screen and (max-width:780px) {
+    .featureContainer {
+        padding: 5rem 2rem 0rem 2rem;
+    }
+    
+
+    .featureBoxDescription {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .featureBoxHeading {
+        width: 100% !important;
+        margin-bottom: 2rem;
+        left: 10%;
+        width: 80%;
+        height: 70px;
+        top: 68rem;
+    }
+    .cardDetailContainer {
+        width: 90%;
+    }
+    .featureBoxHeading>h1 {
+        width: 100%;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .cardWrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .cardWrapper:nth-child(1) {
+        padding-top: 8rem;
+    }
+
+    .cardWrapper:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .cardImageContainer {
+        width: 100%;
+    }
+
+    .cardDetailContainer {
+        width: 100%;
+    }
+
+    .cardDetailContainer>h1 {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2.6rem;
+        padding-top: 2rem;
+    }
+
+    .cardDetailContainer>p {
+        width: 100%;
+        font-size:1rem;
+        line-height: 1.5rem;
+    }
+
+    .app_description {
+        width: 96%;
+        margin: 3rem auto 3rem;
+        padding: 3rem 2rem;
+        text-align: justify;
+        font-size: 22px;
+    }
+
+    .app__casestudy {
+        width: 96%;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .app__casestudy_image {
+        width: 100%;
+    }
+    
+    .app__casestudy_image img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .app__casestudy_content {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+   
+    .app__casestudy_content .content_heading {
+       padding: .3rem;
+       font-size: 29px;
+       line-height: 40px;
+    }
+    .app__casestudy_content .content_description {
+        margin: .4rem;
+        margin-bottom: .9rem;
+        margin-bottom: .9rem;
+      
+      
+    }
+    .content_button_01{
+        padding:.8rem ;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .featureContainer {
+        padding: 5rem 1rem 0rem 1rem;
+    }
+
+    .featureBoxHeading {
+        /* background-color: aqua; */
+        width: 100% !important;
+        /* margin-left: 0%; */
+        /* padding-left: 0rem !important; */
+        margin-bottom: 0rem;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        /* top: 970px; */
+    }
+  .featureBoxSubHeading{
+    text-align: center;
+    /* padding-left: 10vw !important; */
+    /* background-color: aqua; */
+  }
+    .featureBoxHeading>h1 {
+        width: 100%;
+        font-size: 46px;
+    }
+
+    .cardWrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cardWrapper:nth-child(1) {
+        padding-top: 8rem;
+    }
+
+    .cardWrapper:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .cardImageContainer {
+        width: 100%;
+    }
+
+    .cardDetailContainer {
+        width: 100%;
+    }
+
+    .cardDetailContainer>h1 {
+        width: 100%;
+        font-size: 32px;
+        padding-top: 2rem;
+        line-height: 36px;
+    }
+
+    .cardDetailContainer>p {
+        width: 100%;
+    }
+
+    .app_description {
+        width: 96%;
+        margin: 3rem auto 3rem;
+        padding: 3rem 2rem;
+
+        font-size: 20px;
+    }
+
+    .app__casestudy {
+        width: 96%;
+        margin: 5rem auto;
+    
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .app__casestudy_image {
+        width: 100%;
+    }
+    
+    .app__casestudy_image img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .app__casestudy_content {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+ .cardDetailContainer>h1{
+    font-size: 28px;
+ }
+}

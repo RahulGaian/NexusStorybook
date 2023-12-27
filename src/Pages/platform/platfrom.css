@@ -1,0 +1,21 @@
+.platformContainer{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+@font-face {
+
+    font-family: 'ITC';
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+      format("truetype");
+  
+  }
+
+
+  *{
+    font-family: 'ITC' !important;;;
+  }

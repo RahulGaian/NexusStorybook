@@ -72,4 +72,21 @@ export const mobileAndTextData = {
       mobImg: "./Images/mobileAndText/mobileimage3.png",
     },
   },
+  mobileData5: {
+    mobileText5: {
+      heading: "How to transfer your favourite cryptos with Smart Send? ",
+      description: {
+        desc1: "Tap on the coin you want to send.",
+        desc2:
+          "Find the recipient in your contact list or type in their phone number and enter the amount you want to send.",
+        desc3: "Tap on Send, and the transfer will be done in an instant.",
+      },
+      images: {
+        img1: "./Images/mobileAndText/appstore.png",
+        img2: "./Images/mobileAndText/googlestore.png",
+        img3: "./Images/mobileAndText/scanner.png",
+      },
+      mobImg: "./Images/mobileAndText/mobileimage4.png",
+    },
+  },
 };

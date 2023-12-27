@@ -54,6 +54,11 @@ const platformData = [
         imageUrl: images.Competitve,
       },
     ],
+    SeeAlso:{
+      name:"Monet",
+      desc:"Monét  is the low-code app development tool that empowers you to create stunning digital experiences. With Monét's experience modeling capabilities, you can build custom user journeys that connect with your audience and drive business growth",
+      link:"monet"
+    }
   },
   {
     id: "boltzman-bot",
@@ -107,6 +112,11 @@ const platformData = [
         imageUrl: images.CostEfficency,
       },
     ],
+    SeeAlso:{
+      name:"Pascal-Intelligence",
+      desc:"PI is designed to offer a comprehensive set of tools for achieving end-to-end data visibility for your enterprise. Starting with Data Lake build and manage tools, PI also provides analytics tools to derive insights and map those insights to actionable serving layer engagements. With our low-code approach, you can easily visualise, group, contextualise, and target your data sets, and make data-driven decisions that drive your business forward",
+      link:"pascal-intelligence"
+    }
   },
   {
     id: "monet",
@@ -121,7 +131,7 @@ const platformData = [
     },
     features: [
       {
-        heading: "Low-Code Application Developmen",
+        heading: "Low-Code Application Development",
         description:
           "Monet's low-code platform allows users to build applications visually, with drag-and-drop features and pre-built components.",
         imageUrl: images.LowCodeApp,
@@ -159,6 +169,12 @@ const platformData = [
         imageUrl: images.Flexibility,
       },
     ],
+    SeeAlso:{
+      name:"Boltzman Bot",
+      desc:" With BoB, you can create automated workflows within your organization or invite partners, vendors, and customers to collaborate on inter-organization workflows. This feature makes it easy to streamline business processes across multiple organizations, reducing manual effort and improving communication.",
+      link:"boltzman-bot"
+    }
+  
   },
   {
     id: "vinci",
@@ -212,6 +228,11 @@ const platformData = [
         imageUrl: images.RealTimeInsights,
       },
     ],
+    SeeAlso:{
+      name:"Holacracy",
+      desc:"Introducing Holacracy, our innovative low-code multi-tenant SaaS platform that offers a collaborative marketplace as a service to enable enterprises to stay ahead of the digital curve. Our platform is designed for organizations that want to leverage the power of partnership to drive innovation and transform their businesses.",
+      link:"holacracy"
+    }
   },
   {
     id: "holacracy",
@@ -265,6 +286,11 @@ const platformData = [
         imageUrl: images.CollabInnovation,
       },
     ],
+    SeeAlso:{
+      name:"Vinci",
+      desc:"Vinci is a cloud-native multi-tenant SaaS tool that provides omnichannel engagement as a service, much like a CPaaS. It leverages Metcalfe's law by enabling users to build and manage their own networks for maximum impact. Vinci offers content synthesis, support for all social media platforms, context-aware engagements, feedback loops, and real-time measurements to optimize the user's marketing strategies",
+      link:"vinci"
+    }
   }
 ];
 

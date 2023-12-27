@@ -1,0 +1,434 @@
+.caseStudyContainerCS {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background: linear-gradient(
+    108.56deg,
+    #bfeeff 0%,
+    #ffe6f7 56.93%,
+    #ffe6e6 100%
+  ); */
+  padding-bottom: 100px;
+}
+
+.bgcolorCS {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  /* background: radial-gradient(
+    400px 300px at 15% 50%,
+    rgba(67, 136, 240, 0.2) 0%,
+    rgba(217, 217, 217, 0) 100%
+  ); */
+}
+
+.caseStudyContentContainerCS {
+  /* padding-top: 20px; */
+  width: 1700px;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  /* padding-bottom: 91px; */
+  /* padding-bottom: 30px; */
+  /* gap: 20px; */
+  background: #ffffff;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.caseStudyContentContainerCS > .leftdiv {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.caseStudyContentContainerCS > .leftdiv > img {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.caseStudyContentContainerCS > .rightdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+  /* height: 450px; */
+  width: 50%;
+  padding-right: 3%;
+  /* padding-left: 1%; */
+  /* padding-top: 25px; */
+  /* padding-top: 35px; */
+  /* padding-left: 2%; */
+  /* background: #ffffff; */
+  /* gap: 30px; */
+  /* justify-content: space-around; */
+
+}
+
+.caseStudyContentContainerCS > .rightdiv > h2 {
+  margin: 0;
+  color: #000;
+  /* font-family: "DM Sans", sans-serif; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41px;
+  padding-bottom: 20px;
+}
+
+.caseStudyContentContainerCS > .rightdiv > p {
+  color: #000;
+  /* font-family: "DM Sans", sans-serif; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.caseStudyContentContainerCS > .rightdiv > button {
+  width: 253px;
+  height: 63px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #007CD7;
+  color: #007CD7;
+  /* font-family: "DM Sans", sans-serif; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin-top: 80px; */
+  margin-top: 30px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1440px) {
+  .caseStudyContentContainerCS {
+    width: 1420px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .bgcolorCS {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    /* background: radial-gradient(
+      300px 300px at 15% 50%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    ); */
+  }
+  .caseStudyContentContainerCS > .leftdiv {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .caseStudyContentContainerCS > .leftdiv > img {
+    width: 700px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  .caseStudyContentContainerCS > .rightdiv{
+    padding-left: 1%;
+    padding-right: 2%;
+  }
+  .caseStudyContentContainerCS > .rightdiv > h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > p {
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > button {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1250px) {
+  .caseStudyContentContainerCS {
+    width: 1200px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .bgcolorCS {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    /* background: radial-gradient(
+      250px 300px at 15% 50%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    ); */
+  }
+  .caseStudyContentContainerCS > .leftdiv {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .caseStudyContentContainerCS > .leftdiv > img {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .caseStudyContentContainerCS > .rightdiv > h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > p {
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > button {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .caseStudyContentContainerCS {
+    width: 950px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    gap: 0px;
+  }
+  .bgcolorCS {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(
+      250px 300px at 15% 50%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
+  .caseStudyContentContainerCS > .leftdiv {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .caseStudyContentContainerCS > .leftdiv > img {
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+  }
+  .caseStudyContentContainerCS > .rightdiv{
+    /* padding-left: 2%; */
+    padding-right: 3%;
+  }
+  .caseStudyContentContainerCS > .rightdiv > h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    line-height: normal;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > button {
+    margin-top: 10px;
+    width: 230px;
+    height: 50px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 800px) {
+  .caseStudyContentContainerCS {
+    width: 90%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    gap: 10px;
+  }
+  .bgcolorCS {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    /* background: radial-gradient(
+      250px 300px at 15% 50%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    ); */
+  }
+  .caseStudyContentContainerCS > .leftdiv {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .caseStudyContentContainerCS > .leftdiv > img {
+    width: 450px;
+    height: 350px;
+    border-radius: 8px;
+  }
+  .caseStudyContentContainerCS > .rightdiv > h2 {
+    font-size: 24px;
+    line-height: normal;
+    padding-bottom: 12px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > p {
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > button {
+    margin-top: 10px;
+    width: 188px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 6px;
+    background-color: white;
+  }
+  .caseStudyContentContainerCS > .rightdiv {
+    padding-right: 2%;
+    /* padding-left: 2%; */
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .caseStudyContentContainerCS {
+    width: 90%;
+  }
+  .bgcolorCS {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    /* background: radial-gradient(
+      250px 300px at 15% 50%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    ); */
+  }
+  .caseStudyContentContainerCS > .leftdiv {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .caseStudyContentContainerCS > .leftdiv > img {
+    width: 600px;
+    height: 250px;
+    border-radius: 8px;
+  }
+  .caseStudyContentContainerCS > .rightdiv > h2 {
+    font-size: 18px;
+    line-height: normal;
+    padding-bottom: 10px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > p {
+    font-size: 10px;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+
+  .caseStudyContentContainerCS > .rightdiv > button {
+    margin-top: 0px;
+    width: 185px;
+    height: 35px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+  .caseStudyContentContainerCS > .rightdiv {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .caseStudyContentContainerCS {
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .caseStudyContentContainerCS {
+    width: 90%;
+    flex-direction: column;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+
+  }
+  .caseStudyContentContainerCS>.leftdiv{
+    width: 100%;
+  }
+  .caseStudyContentContainerCS>.leftdiv>img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .caseStudyContentContainerCS>.rightdiv{
+    width: 100%;
+    margin-left: 6%;
+  }
+  .caseStudyContentContainerCS>.rightdiv>h2{
+    /* padding-left: 8%; */
+    font-size: 26px;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  .caseStudyContentContainerCS>.rightdiv>p{
+    font-size: 14px;
+    line-height: normal;
+    /* padding-left: 5%; */
+    margin-top: 10px;
+  }
+  .caseStudyContentContainerCS > .rightdiv > button {
+    margin-top: 0px;
+    width: 60%;
+    height: 50px;
+    font-size: 14px;
+    /* margin-left: 25%; */
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  .bgcolorCS {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    background:none
+  }
+}

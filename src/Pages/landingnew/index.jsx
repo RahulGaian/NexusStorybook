@@ -4,7 +4,7 @@ import AppSwiper from "../../components/appSwiper";
 import AndroidApps from "../../components/AndroidAppsSwiper";
 import MapComponent from "../../components/map_component/components/comp";
 import Features from "./features/Features";
-import Header from "../../molecules/Header/header";
+import Header from "../../components/Header/header";
 import Img from "../../components/Image";
 import Map3dComponent from "../../molecules/MapComponent";
 import Footer from "../../molecules/footer";
@@ -23,7 +23,7 @@ const Landingpagenew = () => {
               muted="muted"
               loop="loop"
             >
-              <source src={ process.env.PUBLIC_URL+ "/video/nexus-vid.mp4"} type="video/mp4" />
+              <source src={ process.env.PUBLIC_URL + "/video/2.mp4"} type="video/mp4" />
             </video>
             <div className="bannerContentContainer">
               <h1>Nexus Connect</h1>

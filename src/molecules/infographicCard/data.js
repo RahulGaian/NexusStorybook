@@ -55,12 +55,12 @@ export const ifgData = {
     flexDirection: "row",
     bgColor: "var(--Surface-Primary, #D8EFFF)",
   },
-  c9: {
-    imgURL: "./Images/infographicCards/maximisePotential.png",
-    head: "Maximise your potential with SwissBorg",
+  c8: {
+    imgURL: "./Images/infographicCards/autoinvest.png",
+    head: "What is Auto-Invest?",
     content:
-      "The Hero Score program is all about incentivising positive actions that help you manage your crypto portfolio with SwissBorg’s flagship products.",
+      "Auto-Invest uses Dollar Cost Averaging (DCA), a popular strategy among savvy investors, to reduce volatility by investinga fixed amount at regular intervals.",
     flexDirection: "row",
-    bgColor: ""
-  }
+    bgColor: "",
+  },
 };

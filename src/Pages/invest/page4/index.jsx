@@ -25,8 +25,9 @@ import { dynamicAccordianData } from "../../../molecules/dynamicAccordian/data";
 import MobileAndText from "../../../molecules/mobileAndText";
 import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTextData";
 import EstimateEarning from "../../../molecules/estimateEarning";
+import { estimateData } from "../../../molecules/estimateEarning/data";
 
-function Page2() {
+function Page4() {
   return (
     <section>
       <section>
@@ -37,7 +38,7 @@ function Page2() {
       </section>
       <section>
         {/* <Dynamic4Option/> */}
-        <Dynamic4Option data={dynamic4OptionData.d4Cmp1} />
+        <Dynamic4Option data={dynamic4OptionData.d4Cmp2} />
       </section>
       <section>
         <NotifyMe
@@ -48,9 +49,9 @@ function Page2() {
           showImageContainer={true}
         />
       </section>
-      {/* <section>
-        <EstimateEarning {...args}/>
-      </section> */}
+      <section>
+        <EstimateEarning data={estimateData.estimate1} />
+      </section>
       <section>
         <MoreFeatures data={moreFeaturesData.moreFeatures} />
       </section>
@@ -67,4 +68,4 @@ function Page2() {
   );
 }
 
-export default Page2;
+export default Page4;

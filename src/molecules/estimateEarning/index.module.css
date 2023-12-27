@@ -1,3 +1,9 @@
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
 .container {
   min-height: 235px;
   background-color: #fff;
@@ -9,7 +15,7 @@
 }
 
 .estimateEarningContainer {
-    width: 1700px;
+  width: 1700px;
 
   display: flex;
   padding: 40px 40.39px 40px 40px;
@@ -42,7 +48,7 @@
 
 .descPara > p {
   color: #4c4c4c;
-  font-family: ITC Avant Garde Gothic;
+  font-family: ITC;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -52,11 +58,8 @@
   /* width: 100%; */
 }
 
-
-
-.estimateButton{
-
- width: 184px;
+.estimateButton {
+  width: 200px;
   height: 35px;
   display: flex;
   padding: 8px 24px;
@@ -66,7 +69,7 @@
   background: var(--Blue, #007cd7);
   color: var(--Color, #fff);
   text-align: center;
-  font-family: ITC Avant Garde Gothic;
+  font-family: ITC;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +115,7 @@
   .descPara > p {
     /* border: 2px solid red; */
     color: #4c4c4c;
-    font-family: ITC Avant Garde Gothic;
+    font-family: ITC;
     font-size: 14.906px;
     font-style: normal;
     font-weight: 400;
@@ -155,7 +158,7 @@
     /* border: 2px solid red; */
     color: #4c4c4c;
     text-align: center;
-    font-family: ITC Avant Garde Gothic;
+    font-family: ITC;
     font-size: 13.25px;
     font-style: normal;
     font-weight: 500;
@@ -164,7 +167,7 @@
     margin-bottom: 10px;
   }
 
-  .estimateButton{
+  .estimateButton {
     width: 184px;
     height: 35px;
     /* display: flex; */
@@ -185,5 +188,3 @@
         cursor: pointer; */
   }
 }
-
-

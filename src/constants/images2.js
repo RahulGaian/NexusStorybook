@@ -3,61 +3,61 @@
 
 //suhas
 
-let shb = "/images/imagesnew/products/suhaas_banner.png"
-let sh1 = "/images/imagesnew/products/suhaas_feature1.png"
-let sh2 = "/images/imagesnew/products/suhaas_feature2.png"
-let sh3 = "/images/imagesnew/products/suhaas_feature3.png"
+let shb = "/aidtaasImages/images/imagesnew/products/suhaas_banner.png"
+let sh1 = "/aidtaasImages/images/imagesnew/products/suhaas_feature1.png"
+let sh2 = "/aidtaasImages/images/imagesnew/products/suhaas_feature2.png"
+let sh3 = "/aidtaasImages/images/imagesnew/products/suhaas_feature3.png"
 
-let sh4 = "/images/imagesnew/products/suhaas_benefits1.svg"
-let sh5 = "/images/imagesnew/products/suhaas_benefits2.svg"
-let sh6 = "/images/imagesnew/products/suhaas_benefits3.svg"
+let sh4 = "/aidtaasImages/images/imagesnew/products/suhaas_benefits1.svg"
+let sh5 = "/aidtaasImages/images/imagesnew/products/suhaas_benefits2.svg"
+let sh6 = "/aidtaasImages/images/imagesnew/products/suhaas_benefits3.svg"
 
-let sh7 = "/images/imagesnew/products/suhaas_Dashboard 1.png"
-let sh8 = "/images/imagesnew/products/zoombot_case_study.png"
+let sh7 = "/aidtaasImages/images/imagesnew/products/suhaas_Dashboard 1.png"
+let sh8 = "/aidtaasImages/images/imagesnew/products/zoombot_case_study.png"
 
 
 //dbass
-let db1 = "/images/imagesnew/products/dbaas_banner.png"
-let db2 = "/images/imagesnew/products/dbaas_features1.png"
-let db3 = "/images/imagesnew/products/dbaas_features2.png"
-let db4 = "/images/imagesnew/products/dbaas_features3.png"
-let db5 = "/images/imagesnew/products/dbaas_benefits1.svg"
-let db6 = "/images/imagesnew/products/dbaas_benefits2.svg"
-let db7 = "/images/imagesnew/products/dbaas_benefits3.svg"
-let db8 = "/images/imagesnew/products/DBaaS.png"
-let t11 = "/images/imagesnew/products/311.png"
+let db1 = "/aidtaasImages/images/imagesnew/products/dbaas_banner.png"
+let db2 = "/aidtaasImages/images/imagesnew/products/dbaas_features1.png"
+let db3 = "/aidtaasImages/images/imagesnew/products/dbaas_features2.png"
+let db4 = "/aidtaasImages/images/imagesnew/products/dbaas_features3.png"
+let db5 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg"
+let db6 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits2.svg"
+let db7 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits3.svg"
+let db8 = "/aidtaasImages/images/imagesnew/products/DBaaS.png"
+let t11 = "/aidtaasImages/images/imagesnew/products/311.png"
 
 
 //live-news
 
 
-let lv1 = "/images/imagesnew/products/live_news/1.png"
-let lv2 = "/images/imagesnew/products/live_news/2.png"
-let lv3 = "/images/imagesnew/products/live_news/3.png"
-let lv4 = "/images/imagesnew/products/live_news/Group 590.png"
-let lv5 = "/images/imagesnew/products/live_news/Group 591.png"
-let lv6 = "/images/imagesnew/products/live_news/Group 592.png"
-let lv7 = "/images/imagesnew/products/live_news/Mask_group.png"
+let lv1 = "/aidtaasImages/images/imagesnew/products/live_news/1.png"
+let lv2 = "/aidtaasImages/images/imagesnew/products/live_news/2.png"
+let lv3 = "/aidtaasImages/images/imagesnew/products/live_news/3.png"
+let lv4 = "/aidtaasImages/images/imagesnew/products/live_news/Group 590.png"
+let lv5 = "/aidtaasImages/images/imagesnew/products/live_news/Group 591.png"
+let lv6 = "/aidtaasImages/images/imagesnew/products/live_news/Group 592.png"
+let lv7 = "/aidtaasImages/images/imagesnew/products/live_news/Mask_group.png"
 
 
 //fra
 
-let f1 = "/images/imagesnew/products/fra/monitoring 1.png"
-let f2 = "/images/imagesnew/products/fra/connection 1.png"
-let f3 = "/images/imagesnew/products/fra/collab 1.png"
-let f4 = "/images/imagesnew/products/fra/Group 593.png"
-let f5 = "/images/imagesnew/products/fra/Group 594.png"
-let f6 = "/images/imagesnew/products/fra/Group 595.png"
-let f7 = "/images/imagesnew/products/fra/Mask group.png"
+let f1 = "/aidtaasImages/images/imagesnew/products/fra/monitoring 1.png"
+let f2 = "/aidtaasImages/images/imagesnew/products/fra/connection 1.png"
+let f3 = "/aidtaasImages/images/imagesnew/products/fra/collab 1.png"
+let f4 = "/aidtaasImages/images/imagesnew/products/fra/Group 593.png"
+let f5 = "/aidtaasImages/images/imagesnew/products/fra/Group 594.png"
+let f6 = "/aidtaasImages/images/imagesnew/products/fra/Group 595.png"
+let f7 = "/aidtaasImages/images/imagesnew/products/fra/Mask group.png"
 
 
 //updated images
-let webinarimage = "/images/imagesnew/updated_images/Webinar 1.png"
+let webinarimage = "/aidtaasImages/images/imagesnew/updated_images/Webinar 1.png"
 //landingpage-updated images
-let piimg = "/images/imagesnew/landingpage_images_new/Pi landing page.png"
-let monetimg = "/images/imagesnew/landingpage_images_new/Monet experience 1.png"
-let bobimg1 = "/images/imagesnew/landingpage_images_new/BoB Workflows edito4r right widget open03 1.png"
-let bobimg2 = "/images/imagesnew/landingpage_images_new/BoB Workflows editor right widget open03 4.png"
+let piimg = "/aidtaasImages/images/imagesnew/landingpage_images_new/Pi landing page.png"
+let monetimg = "/aidtaasImages/images/imagesnew/landingpage_images_new/Monet experience 1.png"
+let bobimg1 = "/aidtaasImages/images/imagesnew/landingpage_images_new/BoB Workflows edito4r right widget open03 1.png"
+let bobimg2 = "/aidtaasImages/images/imagesnew/landingpage_images_new/BoB Workflows editor right widget open03 4.png"
 // eslint-disable-next-line
 export default{
 

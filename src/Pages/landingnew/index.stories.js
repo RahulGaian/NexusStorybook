@@ -2,7 +2,7 @@ import React from 'react';
 import Landingpagenew from '.';
 
 export default {
-  title: "Pages/Landing",
+  title: "pages/landing",
   component: Landingpagenew,
 };
 
