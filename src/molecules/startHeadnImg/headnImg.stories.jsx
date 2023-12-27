@@ -20,6 +20,7 @@ export const SmartInvestment = () => (
   <HeadnImg data={headnImgData.smartInvestment} />
 );
 export const AutoInvest = () => <HeadnImg data={headnImgData.autoInvest} />;
+export const Heroes = () => <HeadnImg data={headnImgData.heroes} />;
 export const Argstest2 = {
   args: {
     data: {
