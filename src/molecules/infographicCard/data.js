@@ -71,4 +71,44 @@ export const ifgData = {
     flexDirection: "row",
     bgColor: "",
   },
+  c10: {
+    imgURL: "./Images/infographicCards/community.png",
+    head: "Community Index",
+    content:
+      "The Community Index is a unique indicator that measures the health of the SwissBorg ecosystem and determines the percentage of royalties that will be allocated to the Protect and Choose pool.",
+    flexDirection: "row",
+    bgColor: "var(--Surface-Primary, #D8EFFF)",
+  },
+  c11: {
+    imgURL: "./Images/infographicCards/simplest.png",
+    head: "The simplest crypto transfers",
+    content:
+      "Send cryptos in a snap with a phone number. Complex wallet addresses and long waiting times are now a thing of the past!",
+    flexDirection: "row",
+    bgColor: "",
+  },
+  c12: {
+    imgURL: "./Images/infographicCards/0.png",
+    head: "No gas fees or hidden fees",
+    content:
+      "Crypto transfers shouldn't cost a fortune. That is why Smart Send is 100% free! Only the amount you want to send gets deducted from your balance; no gas fees or hidden fees.",
+    flexDirection: "row",
+    bgColor: "",
+  },
+  c13: {
+    imgURL: "./Images/infographicCards/premium.png",
+    head: "How to become a Premium user",
+    content:
+      "1.Install the SwissBorg app and verify your account <br/> 2. Buy the required amount of BORG tokens with the currency of your choice (fiat or crypto) <br/> 3. Go to the Premium tab and upgrade to Premium",
+    flexDirection: "row",
+    bgColor: "",
+  },
+  c14: {
+    imgURL: "./Images/infographicCards/locking.png",
+    head: "How does locking work",
+    content:
+      "All you need to do is hold the required amount of BORG tokens for 12 months. It simply means that the money is still in your account but you can’t exchange or withdraw it for the first 12 months. After 12 months, you need to keep the BORG balance locked to stay Premium, but you will be free to exchange or withdraw your BORG tokens and go back to a standard account.",
+    flexDirection: "row-reverse",
+    bgColor: "",
+  },
 };
