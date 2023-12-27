@@ -10,10 +10,15 @@ import { getStartedData } from "../../../molecules/getStarted/data";
 import Cookies from "../../../molecules/cookies";
 import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer";
+import Blobs from "../../../molecules/blobs";
 
 function CommunityPage7() {
   return (
-    <section>
+    <section
+      style={{ width: "100vw", overflowX: "hidden", position: "relative" }}
+    >
+      <Blobs top={"-50px"} left={"-250px"}></Blobs>
+      <Blobs top={"300px"} color="yellow" left={"82%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.secure} />
       </section>

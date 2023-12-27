@@ -8,4 +8,4 @@ const Blobs = ({color="blue",radius="560px",opacity="0.3",top=0,left=0,right=0,b
   )
 }
 
-export default Blobs
+export default Blobs;

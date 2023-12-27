@@ -9,10 +9,13 @@ import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTex
 import Cookies from "../../../molecules/cookies";
 import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer";
+import Blobs from "../../../molecules/blobs";
 
 function CommunityPage6() {
   return (
-    <section>
+    <section style={{width:"100vw", overflowX: "hidden", position:"relative"}}>
+      <Blobs top={"-50px"} left={"-250px"}></Blobs>
+      <Blobs top={"300px"} color="yellow" left={"82%"}></Blobs>
       <section>
         <HeadnImg data={headnImgData.unlock} />
       </section>
@@ -24,13 +27,13 @@ function CommunityPage6() {
         <MobileAndText data={mobileAndTextData.mobileData2.mobileText2} />
       </section>
       <section className={st.cookies}>
-        <Cookies/>
+        <Cookies />
       </section>
       <section className={st.newsletter}>
-        <Newsletter/>
+        <Newsletter />
       </section>
       <section>
-        <Footer/>
+        <Footer />
       </section>
     </section>
   );
