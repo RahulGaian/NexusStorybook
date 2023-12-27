@@ -9,10 +9,13 @@ import Cookies from "../../../molecules/cookies";
 import Newsletter from "../../../molecules/newsletter";
 import Footer from "../../../molecules/footer";
 import style from "./index.module.css";
+import Blobs from "../../../molecules/blobs";
 
 function CommunityPage5() {
   return (
-    <section>
+    <section style={{width:"100vw", overflowX: "hidden", position:"relative"}}>
+      <Blobs top={"-50px"} left={"-250px"}></Blobs>
+      <Blobs top={"300px"} color="yellow" left={"82%"}></Blobs>
       <section>
         <InviteFriends />
       </section>
