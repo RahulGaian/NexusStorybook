@@ -17,14 +17,14 @@ const Landingpagenew = () => {
         <section className="Landing_top_bg">
           <div className="video-background">
           
-            <video
+            {/* <video
               playsInline="playsinline"
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
             >
               <source src={ process.env.PUBLIC_URL + "/video/2.mp4"} type="video/mp4" />
-            </video>
+            </video> */}
             <div className="bannerContentContainer">
               <h1>Nexus Connect</h1>
               <div className="bannerContentWrapper">
@@ -84,10 +84,10 @@ const Landingpagenew = () => {
 
 
         <section  id="mapcomp">
-          <Map3dComponent />
+          {/* <Map3dComponent /> */}
         </section>
 
-        {/* <div className="second_bg_Img-contaniner">
+        <div className="second_bg_img-contaniner">
           <div className="second_bg_content">
             <div className="second_bg_heading">
               <h1>NextGenTV</h1>
@@ -111,7 +111,7 @@ const Landingpagenew = () => {
               <Img src={"/Images/landing/side-view-woman.png"} alt="sideimage"/>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div className="third_bg_contaniner">
           <div className="third_bg_content">
@@ -153,13 +153,13 @@ const Landingpagenew = () => {
               <div className="third_bg_right_content">
                 <div className="mobius_logo_">
                   <Img
-                    src={"./Images/landing/Mobius-white-logo.png"}
+                    src={"./Images/landing/Mobius Logo_Black 1.png"}
                     alt="Mobius-white-logo"
                   />
-                  <Img
+                  {/* <Img
                     src={"./Images/landing/Mobius-written.png"}
                     alt="Mobius-written"
-                  />
+                  /> */}
                 </div>
 
                 <div className="third_bg_lower_para2">
@@ -176,9 +176,9 @@ const Landingpagenew = () => {
         </div>
 
      
-        <div><AppSwiper /></div>
+        {/* <div><AppSwiper /></div> */}
 
-        {/* <div className="mobius_won_wrapper">
+        <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
             <section className="content_nab-show">
               <Img
@@ -188,7 +188,7 @@ const Landingpagenew = () => {
             </section>
 
             <section className="content_text">
-              <p>Mobius Won 5 Product of the Year award at NAB Show 2023</p>
+              <p>Mobius Won 5 Product of <br />the Year award at <br /> NAB Show 2023</p>
             </section>
 
             <section className="winner_Img">
@@ -198,9 +198,9 @@ const Landingpagenew = () => {
               />
             </section>
           </div>
-        </div> */}
+        </div>
 
-        {/* <Features /> */}
+        <Features />
 
         {/* <div>
           <div className="android_swiper_heading" style={{ margin: "5%" }}>

@@ -52,16 +52,16 @@ export const caseStudy2Data = {
   },
 
   c5: {
-    imgURL: "./Images/caseStudy2/BTC_lock.png",
-    head: "Diversify risk in one tap",
+    imgURL: "./Images/caseStudy2/caseStudy2Search.png",
+    head: "What is Self Verification?",
     headColor: "#4C4C4C",
     content:
-      "95% of crypto projects fail. Putting all your bets on one token is highly risky. Instead broaden your horizons and invest across your favourite trends & themes, all with just one tap.",
+      "Using our simple verification  tool based on well-established Merkle tree cryptographic techniques you can verify the correctness of your account balance and proper inclusion of your assets in the company’s total liabilities.",
     content_text_color: "",
 
     flexDirection: "row",
     bgColor: "#FFF",
-    btn: "Tell me more",
+    btn: "Learn more",
     btn_bgColor: "#007CD7",
   },
 
