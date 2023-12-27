@@ -8,13 +8,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  background: linear-gradient(rgba(1, 176, 127, 1), rgba(25, 30, 41, 1));
+  width: 100% !important;
   padding: 90px 0px 50px 0px;
+  background: url(../../../public/Images/performanceMetrics/bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 840px;
 }
 
 .performanceContentCont {
   width: 1700px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,17 +68,20 @@
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
   .performanceContentCont {
     width: 1420px;
+    height: 724px;
   }
 }
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .performanceContentCont {
     width: 1200px;
+    height: 650px;
   }
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .performanceContentCont {
     width: 950px;
+    height: 600px;
   }
   .performanceBottomImg {
     display: flex;
@@ -90,6 +97,7 @@
 @media screen and (max-width: 980px) and (min-width: 601px) {
   .performanceContentCont {
     width: 90%;
+    height: auto;
   }
 
   .performanceTop > p:first-child {
@@ -126,6 +134,9 @@
 }
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
+  .performanceContainer {
+    padding: 30px 0;
+  }
   .performanceContentCont {
     width: 90%;
   }
