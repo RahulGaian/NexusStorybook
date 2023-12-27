@@ -29,7 +29,6 @@ function Page1() {
         <SecondHeading data={secondHeadingData.secondHeading} />
       </section>
       <section>
-        {/* <Dynamic4Option/> */}
         <Dynamic4Option data={dynamic4OptionData.d4Cmp1} />
       </section>
       <section>

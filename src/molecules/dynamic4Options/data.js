@@ -127,4 +127,38 @@ export const dynamic4OptionData = {
       btnDisplay: "flex",
     },
   ],
+  d4Cmp5: [
+    {
+      buttonLabel: "Long-term wealth",
+      imgSrc: "./Images/DynamicSlider/dc4Option5/longterm.png",
+      heading: "Long term wealth building",
+      para: "Auto-Invest reduces price volatility, leading to a smoother average buying price and potentially higher returns.",
+      flexDirection: "row",
+      btnDisplay: "flex",
+    },
+    {
+      buttonLabel: "Invest better",
+      imgSrc: "./Images/infographicCards/core.png",
+      heading: "Access 3,283 unique crypto to fiat trading pairs",
+      para: "Trade any fiat or crypto pair, even if it doesn’t exist on any exchange. EUR to BORG, or CHF to PAX Gold and more! We do all the conversions for you and find the best route and price.",
+      flexDirection: "row",
+      btnDisplay: "flex",
+    },
+    {
+      buttonLabel: "It’s stress free!",
+      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      heading: "Get a fully transparent exchange report",
+      para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
+      flexDirection: "row-reverse",
+      btnDisplay: "flex",
+    },
+    {
+      buttonLabel: "You have the power",
+      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      heading: "Get a fully transparent exchange report",
+      para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
+      flexDirection: "row-reverse",
+      btnDisplay: "flex",
+    },
+  ],
 };
