@@ -29,4 +29,19 @@ export const InvestmentData = {
       investorsName: "Total value earned by users in crypto",
     },
   ],
+  // page9
+  investmentThree: [
+    {
+      investors: "10",
+      investorsName: "weeks into Season 1",
+    },
+    {
+      investors: "13K",
+      investorsName: "Heroes participating",
+    },
+    {
+      investors: "17M+",
+      investorsName: "BORG bought by heroes in Season 1",
+    },
+  ],
 };
