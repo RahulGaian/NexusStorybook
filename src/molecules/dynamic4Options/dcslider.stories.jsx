@@ -21,3 +21,6 @@ export const Default3 = () => (
 export const Default4 = () => (
   <Dynamic4Option data={dynamic4OptionData.d4Cmp5} />
 );
+export const Default5 = () => (
+  <Dynamic4Option data={dynamic4OptionData.d4Cmp6} />
+);

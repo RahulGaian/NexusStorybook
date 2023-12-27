@@ -21,6 +21,10 @@ export const SmartInvestment = () => (
 );
 export const AutoInvest = () => <HeadnImg data={headnImgData.autoInvest} />;
 export const Heroes = () => <HeadnImg data={headnImgData.heroes} />;
+export const Borg = () => <HeadnImg data={headnImgData.borg} />;
+export const ZeroFees = () => <HeadnImg data={headnImgData.zeroFees} />;
+export const Unlock = () => <HeadnImg data={headnImgData.unlock} />;
+export const Secure = () => <HeadnImg data={headnImgData.secure} />;
 export const Argstest2 = {
   args: {
     data: {
