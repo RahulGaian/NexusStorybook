@@ -1,7 +1,7 @@
 export const accordianData = [
 
   {
-    header: "In short, what is thematic investing?",
+    header: "Macro Fiat Breakdown",
     sections: [
       {
         items: [
@@ -12,7 +12,7 @@ export const accordianData = [
     ],
   },
   {
-    header: "What is rebalancing?",
+    header: "Web3 Value Shift",
     sections: [
       {
         items: [
@@ -23,7 +23,7 @@ export const accordianData = [
     ],
   },
   {
-    header: "What is reallocation?",
+    header: "Crypto Bear Market",
     sections: [
       {
         items: [
@@ -34,7 +34,7 @@ export const accordianData = [
     ],
   },
   {
-    header: "Do I really own the tokens/coins?",
+    header: "Competitive Advantage",
     sections: [
       {
         items: [
@@ -44,27 +44,6 @@ export const accordianData = [
       },
     ],
   },
-  {
-    header: "What is the minimum investment amount?",
-    sections: [
-      {
-        items: [
-          "Thematic investing is an investment approach that focuses on capitalizing on long-term trends and specific themes, rather than traditional asset classes, to build a diversified portfolio.",
-          
-        ],
-      },
-    ],
-  },
-  {
-    header: "What is the minimum investment period?",
-    sections: [
-      {
-        items: [
-          "Thematic investing is an investment approach that focuses on capitalizing on long-term trends and specific themes, rather than traditional asset classes, to build a diversified portfolio.",
-          
-        ],
-      },
-    ],
-  },
+
  
 ];
