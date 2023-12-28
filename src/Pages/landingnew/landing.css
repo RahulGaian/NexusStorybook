@@ -6,8 +6,6 @@
 }
 .Landing_page_Container {
   width: 100%;
-  /* display: flex;
-  flex-direction: column; */
   scrollbar-width: thin;
   overflow-x: hidden;
 }
@@ -27,14 +25,12 @@
   justify-content: center;
   align-items: center;
   background: none;
-  /* opacity: 0.9; */
   background: radial-gradient(
     80.96% 80.37% at 55.66% 23.99%,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.4) 31.9%,
     rgba(0, 0, 0, 0.8) 91.59%
   );
-  /* mix-blend-mode: lighten; */
 }
 
 .video-background {
@@ -49,7 +45,6 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  /* background-color: red; */
 }
 
 .video-background video {
@@ -76,7 +71,6 @@
   align-items: center;
   /* background: url(./video/x.png); */
   z-index: 10;
-  /* border: 3px solid red; */
 }
 
 .bannerContentContainer {
@@ -103,10 +97,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 150px;
-  /* background: -webkit-linear-gradient(white, black);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 @font-face {
   font-family: "ITC";
@@ -178,9 +168,8 @@
   text-align: center;
   color: #ffffff;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 25px;
-  /* line-height: 2.3rem; */
 }
 
 #learnMoreBtn {
@@ -215,16 +204,9 @@
 }
 
 .second_bg_content {
-  /* border: 2px solid red; */
-  /* width: 55%; */
   width: 1700px;
   min-height: fit-content;
   margin: 6% 0;
-  /* padding-top: 6%;
-    padding-bottom: 6%;
-    row-gap: 1%; */
-
-  /* padding-left: 20%; */
 }
 
 .second_bg_heading h1 {
@@ -260,12 +242,10 @@
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 24px;
-  /* padding: 1%; */
   text-align: left;
 }
 
 /* third_bg_contaniner--------------------------------------------------- */
-
 .third_bg_contaniner {
   min-height: 700px;
   max-height: fit-content;
@@ -274,15 +254,13 @@
   justify-content: center;
   align-items: center;
 }
-/* width resolution ------------ */
+
 .third_bg_content {
   width: 1700px;
-  /* border: 2px solid red; */
   max-height: fit-content;
 }
 
 .third_bg_upper {
-  /* border: 2px solid blue; */
   min-height: 300px;
   max-height: fit-content;
   width: 50%;
@@ -300,7 +278,7 @@
   font-size: 40.687px;
   font-style: normal;
   font-weight: 500;
-  line-height: 122.061px;
+  line-height: 56px;
   text-transform: capitalize;
   text-transform: capitalize;
 }
@@ -315,7 +293,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 166.667% */
+  line-height: 20px;
   letter-spacing: -0.132px;
 }
 
@@ -325,6 +303,7 @@
   padding: 1%;
   margin-bottom: 2%;
 }
+
 .Ark_logo img {
   width: 100%;
 }
@@ -402,6 +381,7 @@
 
 /* -------------mobius_won_wrapper--------- */
 .mobius_won_wrapper {
+  /* border: 2px solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -409,6 +389,8 @@
 }
 
 .mobius_won_content {
+  /* border: 2px solid red; */
+
   position: relative;
   width: 1700px;
   min-height: 180px;
@@ -417,16 +399,9 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
-  border: 1px solid #ffcc47;
-  background: linear-gradient(
-    91deg,
-    rgba(5, 151, 255, 0.1) -1.56%,
-    rgba(255, 205, 130, 0.1) 71.36%,
-    rgba(255, 162, 0, 0.1) 101.57%
-  );
-  /* backdrop-filter: blur(2px); */
-  /* padding-left: 2%; */
-  margin: 8% auto;
+  border: 0.736px solid #FFCC47;
+  background: linear-gradient(91deg, rgba(5, 151, 255, 0.10) -1.56%, rgba(255, 205, 130, 0.10) 71.36%, rgba(255, 162, 0, 0.10) 101.57%);
+  margin: 6% auto;
 }
 
 .content_nab-show {
@@ -434,34 +409,39 @@
 }
 
 .content_nab-show img {
+  /* border: 2px solid red; */
+
   position: absolute;
   top: -50px;
-  left: 50px;
+  left: 60px;
   width: 300px;
   height: 250px;
 }
 
 .content_text p {
+  /* border: 2px solid red; */
+
   width: 800px;
   /* width: 95%; */
   color: #404040;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: ITC !important;
-  font-size: 3rem;
+  font-size: 34px !important;
   font-style: normal;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 35px;
   text-align: start;
 }
 
 .winner_Img {
-  width: 200px;
+  /* border: 2px solid red; */
+
+  width: 160px;
   height: 120px;
-  padding-right: 5px !important;
 }
 
 .winner_img img {
-  width: 80%;
+  width: 100%;
 }
 
 /* ------------------------.android_swiper_heading-------- */
@@ -471,12 +451,129 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 107.143% */
+  line-height: 30px;
   text-align: center;
 }
 
+/* --------fonts for desktop---------- */
+@media only screen and (max-width: 2600px) and (min-width: 901px) {
+  /* ---------------second_bg_img-contaniner--------------------------- */
+  .second_bg_heading h1 {
+    color: #f6f6f6;
+    font-family: ITC !important;
+    font-size: 47.66px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 43.191px !important;
+  }
+
+  .second_bg_para1 p {
+    color: #f6f6f6;
+    font-family: ITC !important;
+    font-size: 26.809px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 43.191px;
+  }
+
+  .second_bg_para2 p {
+    color: #f6f6f6;
+    font-family: ITC !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* -------------mobius_won_wrapper--------- */
+
+  .content_text p {
+    color: #404040;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: ITC !important;
+    font-size: 34px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: start;
+  }
+}
+
+/* --------fonts for tablet---------- */
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+  /* ---------------second_bg_img-contaniner--------------------------- */
+  .second_bg_heading h1 {
+    color: var(--Color, #fff);
+    font-family: ITC !important;
+    font-size: 32px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.041px;
+  }
+
+  .second_bg_para1 p {
+    color: var(--Color, #fff);
+    font-family: ITC !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.041px;
+  }
+
+  .second_bg_para2 p {
+    color: var(--Color, #fff);
+    text-align: justify;
+    font-family: ITC !important;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  /* -------------mobius_won_wrapper--------- */
+
+  .content_text p {
+    color: #000;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: ITC !important;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.764px;
+  }
+}
+
+/* --------fonts for mobile---------- */
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+  /* ---------------second_bg_img-contaniner--------------------------- */
+  .second_bg_heading h1 {
+    color: #f6f6f6;
+    font-family: ITC !important;
+    font-size: 32px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43.191px;
+  }
+
+  .second_bg_para1 p {
+    color: #f6f6f6;
+    font-family: ITC !important;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .second_bg_para2 p {
+    color: #f6f6f6;
+    font-family: ITC !important;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
 @media only screen and (max-width: 1800px) and (min-width: 1440px) {
-  /* //DONT DELETE THE COMMENTED CODE IN THIS MEDIA QUERY RANGE---------will used to improve responsiveness in future for other ranges */
   .Landing_top_bg {
     min-height: 900px;
     max-height: fit-content;
@@ -520,54 +617,7 @@
     line-height: 30px;
     letter-spacing: -0.36px;
     margin-bottom: 5%;
-    /* margin: 0 auto; */
   }
-  /*   
-    .bg_subheading {
-      height: fit-content;
-    } */
-
-  /* .bannerContentBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
-      color: white;
-    } */
-
-  /* #getStartedBtn {
-      width: fit-content;
-      box-sizing: border-box;
-      padding: 10px 30px 10px 30px;
-  
-      background: #ffa200;
-      border: 1px solid #ffa200;
-      border-radius: 10px;
-      text-align: center;
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 2.3rem;
-    } */
-
-  /* #learnMoreBtn {
-      color: #fff !important;
-      font-family: 'ITC';
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px;
-    } */
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
@@ -578,145 +628,34 @@
   .second_bg_content {
     width: 1420px !important;
     min-height: fit-content;
-    /* margin: 5% 0; */
-    /* padding-left: 4%; */
-  }
-
-  .second_bg_heading h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
-  }
-
-  .second_bg_para1 p {
-    /* width: 55%; */
-    font-size: 2.5rem;
-    font-weight: 500;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
   }
 
   .second_bg_para2 p {
     width: 55%;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 24px;
-    /* padding: 1% 0%; */
   }
 
   /* third_bg_contaniner--------------------------------------------------- */
-
-  /* .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-    background: #000;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
-  /* width resolution ------------ */
   .third_bg_content {
     width: 1420px;
     max-height: fit-content;
   }
 
-  /* .third_bg_upper {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
-  /* .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-  } */
-
-  /* .third_bg_left_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
-  /* .third_bg_lower_para1 p {
-    color: #f6f6f6;
-    text-align: justify;
-    font-family: 'ITC';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
-    letter-spacing: -0.132px;
-  } */
-
-  /* .third_bg_right_content {  
-    min-height: 300px;
-    max-height: fit-content;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
-
-  /* .third_bg_lower_para2 p {
-    color: #f6f6f6;
-    text-align: justify;
-    font-family: 'ITC';
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
-    letter-spacing: -0.132px;
-  } */
-
   /* -------------mobius_won_wrapper--------- */
-
   .mobius_won_content {
     width: 1420px;
     max-height: fit-content;
   }
 
-  /* .content_nab-show img {
-    width: 400px;
-    height: 300px;
-  }
-
   .content_text p {
-    width: 95%;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
+    width: 600px;
+    text-align: start;
   }
 
-  .winner_img {
-    width: 400px;
-    height: 70px;
+  .winner_Img {
+    width: 160px;
+    height: 120px;
   }
 
-  .winner_img img {
-    width: 80%;
-  } */
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1250px) {
@@ -780,64 +719,46 @@
     padding-left: 4%;
   }
 
-  .second_bg_heading h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 35px;
-    /* padding: 1% 0%; */
-  }
-  .second_bg_para1 p {
-    /* width: 55%; */
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
-  }
-
   .second_bg_para2 p {
     width: 55%;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 24px;
-    /* padding: 1% 0%; */
   }
 
   /* third_bg_contaniner--------------------------------------------------- */
-
-  /* width resolution ------------ */
   .third_bg_content {
     width: 1200px !important;
     max-height: fit-content;
   }
 
   /* -------------mobius_won_wrapper--------- */
-
   .mobius_won_content {
     width: 1200px !important;
     max-height: fit-content;
   }
 
+  .content_nab-show {
+    width: 280px;
+  }
+
   .content_nab-show img {
-    width: 250px;
+    position: absolute;
+    top: -50px;
+    left: 40px;
+    width: 280px;
     height: 250px;
   }
 
   .content_text p {
-    width: 90%;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
+    width: 520px;
+    text-align: start;
   }
 
-  .winner_img {
-    width: 300px;
-    height: 70px;
+  .winner_Img {
+    width: 160px;
+    height: 120px;
   }
 
   .winner_img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -902,31 +823,11 @@
     padding-left: 4%;
   }
 
-  .second_bg_heading h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 35px;
-    /* padding: 1% 0%; */
-  }
-  .second_bg_para1 p {
-    /* width: 55%; */
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
-  }
-
   .second_bg_para2 p {
     width: 55%;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 24px;
-    /* padding: 1% 0%; */
   }
 
   /* third_bg_contaniner--------------------------------------------------- */
-
-  /* width resolution ------------ */
   .third_bg_content {
     width: 950px !important;
     max-height: fit-content;
@@ -948,40 +849,32 @@
   .mobius_won_content {
     width: 90%;
     min-height: 160px;
-    /* padding-left: 2%; */
     margin: 8% auto;
   }
 
-  /* .content_nab-show {
-    width: 300px;
-    height: 160px;
-  } */
+  .content_nab-show {
+    width: 260px;
+  }
 
   .content_nab-show img {
     position: absolute;
     top: -40px;
     left: 20px;
-    width: 180px;
-    height: 220px;
+    width: 260px;
+    height: 230px;
   }
 
   .content_text p {
-    width: 90%;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    padding-left: 2%;
+    width: 420px;
   }
 
-  .winner_img {
-    width: 220px;
-    height: 70px;
+  .winner_Img {
+    width: 150px;
+    height: 90px;
   }
 
   .winner_img img {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -1042,50 +935,19 @@
     /* width: 55%; */
     width: 90% !important;
     min-height: fit-content;
-    margin: 1% 0;
+    margin: 4% 0;
     padding-left: 4%;
-  }
-
-  .second_bg_heading h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 30px;
-    /* padding: 1% 0%; */
-  }
-  .second_bg_para1 p {
-    /* width: 55%; */
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 25px;
-    /* padding: 1% 0%; */
   }
 
   .second_bg_para2 p {
     width: 55%;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 20px;
-    /* padding: 1% 0%; */
   }
 
   /* third_bg_contaniner--------------------------------------------------- */
-
-  /* width resolution ------------ */
   .third_bg_content {
     width: 90% !important;
     max-height: fit-content;
   }
-
-  /* .third_bg_upper {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  } */
 
   .third_bg_right_content {
     min-height: 300px;
@@ -1097,46 +959,84 @@
     flex-direction: column;
     margin: 0 auto;
   }
+}
 
+@media screen and (max-width: 980px) and (min-width: 880px) {
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
     width: 90%;
     min-height: 160px;
-    /* padding-left: 2%; */
     margin: 8% auto;
   }
 
-  /* .content_nab-show {
-    width: 300px;
-    height: 160px;
-  } */
+  .content_nab-show {
+    width: 260px;
+  }
 
   .content_nab-show img {
     position: absolute;
-    top: -40px;
+    top: -35px;
     left: 20px;
-    width: 180px;
+    width: 250px;
     height: 220px;
   }
 
   .content_text p {
-    width: 90%;
-    font-size: 1.8rem;
+    width: 340px;
+    font-family: ITC !important;
+    font-size: 24px !important;
     font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    padding-left: 2%;
+    font-weight: 500;
+    line-height: 25.764px !important;
   }
 
-  .winner_img {
-    width: 220px;
-    height: 70px;
+  .winner_Img {
+    width: 150px;
+    height: 80px;
   }
 
   .winner_img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 880px) and (min-width: 780px) {
+  /* -------------mobius_won_wrapper--------- */
+  .mobius_won_content {
     width: 90%;
+    min-height: 160px;
+    margin: 8% auto;
+  }
+
+  .content_nab-show {
+    width: 260px;
+  }
+
+  .content_nab-show img {
+    position: absolute;
+    top: -35px;
+    left: 20px;
+    width: 230px;
+    height: 210px;
+  }
+
+  .content_text p {
+    width: 300px;
+    font-family: ITC !important;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.764px !important;
+  }
+
+  .winner_Img {
+    width: 100px;
+    height: 70px;
+  }
+
+  .winner_Img img {
+    width: 90% !important;
   }
 }
 
@@ -1197,30 +1097,12 @@
     /* width: 55%; */
     width: 90% !important;
     min-height: fit-content;
-    margin: 1% 0;
+    margin: 4% 0;
     padding-left: 4%;
-  }
-
-  .second_bg_heading h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 25px;
-    /* padding: 1% 0%; */
-  }
-  .second_bg_para1 p {
-    /* width: 55%; */
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 24px;
-    /* padding: 1% 0%; */
   }
 
   .second_bg_para2 p {
     width: 55%;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 18px;
-    /* padding: 1% 0%; */
   }
 
   /* third_bg_contaniner--------------------------------------------------- */
@@ -1243,119 +1125,130 @@
   }
 
   /* -------------mobius_won_wrapper--------- */
-
   .mobius_won_content {
     width: 90%;
-    min-height: 160px;
-    /* padding-left: 2%; */
+    min-height: 140px;
     margin: 8% auto;
   }
 
   .content_nab-show {
-    width: 300px;
+    width: 240px;
   }
 
   .content_nab-show img {
     position: absolute;
-    top: -30px;
+    top: -35px;
     left: 20px;
-    width: 180px;
+    width: 210px;
     height: 200px;
   }
 
   .content_text p {
-    width: 95%;
-    font-size: 1.2rem;
+    width: 300px;
+    font-family: ITC !important;
+    font-size: 20px !important;
     font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    padding-left: 2%;
+    font-weight: 500;
+    line-height: 22.764px !important;
   }
 
-  .winner_img {
-    width: 220px;
+  .winner_Img {
+    width: 100px;
     height: 70px;
   }
 
-  .winner_img img {
-    width: 90%;
+  .winner_Img img {
+    width: 90% !important;
   }
+
   .android_swiper_heading h1 {
     font-size: 32px;
   }
 }
 
+/* ----mobile view------------ */
 @media screen and (max-width: 600px) and (min-width: 100px) {
-  /* third_bg_contaniner--------------------------------------------------- */
 
-  .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-    background-color: #000;
+  /* .mobile_view_Img {
+    display: block !important;
+    padding-top: 100px;
+    
   }
 
-  /* width resolution ------------ */
+  .mobile_view_img img {
+    width: 100%;
+    height: 250px;
+  } */
+
+  
+  /* third_bg_contaniner--------------------------------------------------- */
+  .third_bg_contaniner {
+    min-height: fit-content;
+  }
+
   .third_bg_content {
     width: 90% !important;
     max-height: fit-content;
   }
 
   .third_bg_upper {
-    min-height: 400px;
+    min-height: fit-content;
     max-height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 8% auto;
   }
 
   .third_bg_upper div h1 {
-    color: #f6f6f6;
+    color: #434343 !important;
     text-align: center;
-    font-family: ITC;
+    font-family: ITC !important;
     font-size: 38px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
     text-transform: capitalize;
+    margin-bottom: 5%;
   }
 
   .third_bg_upper div p {
-    color: #f6f6f6;
+    color: #434343 !important;
     text-align: center;
-    font-family: ITC;
-    font-size: 12px;
+    font-family: ITC !important;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 18px;
     letter-spacing: -0.132px;
+    width: 90%;
   }
 
   .Ark_logo {
-    width: 180px;
+    width: 108px !important;
+    height: 54px;
     padding: 1%;
+    margin-bottom: 5%;
   }
   .Ark_logo img {
     width: 100%;
-    /* height: 100%; */
   }
 
   .mobius_logo_ {
-    width: 130px;
+    width: 108px !important;
+    height: 54px;
     padding: 1%;
+    margin-bottom: 5%;
   }
 
   .mobius_logo_ img {
-    width: 160px;
-    margin: 5px;
+    width: 100%;
   }
 
   .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
+    min-height: fit-content;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -1365,38 +1258,51 @@
   }
 
   .third_bg_left_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    text-align: center;
+    min-height: fit-content;
+    width: 90%;
+    margin-bottom: 5%;
   }
 
   .third_bg_lower_para1 p {
-    color: #f6f6f6;
+    /* border: 2px solid black; */
+
+    color: #434343 !important;
     text-align: center;
-    font-family: ITC;
-    font-size: 12px;
+    font-family: ITC !important;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 18px;
     letter-spacing: -0.132px;
   }
 
   .third_bg_right_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
+    min-height: fit-content;
+    width: 90%;
+    margin-bottom: 5%;
   }
 
   .third_bg_lower_para2 p {
-    color: #f6f6f6;
+    color: #434343 !important;
     text-align: center;
-    font-family: ITC;
-    font-size: 12px;
+    font-family: ITC !important;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 18px;
     letter-spacing: -0.132px;
+  }
+
+  /* ----mobius won wrapper--- */
+  .content_text p {
+    color: #000;
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: ITC !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px !important;
   }
 }
 
@@ -1447,48 +1353,6 @@
     /* margin: 0 auto; */
   }
 
-  /* .bannerContentBtn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 20px;
-      color: white;
-    } */
-
-  /* #getStartedBtn {
-      width: fit-content;
-      box-sizing: border-box;
-      padding: 10px 30px 10px 30px;
-  
-      background: #ffa200;
-      border: 1px solid #ffa200;
-      border-radius: 10px;
-      text-align: center;
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 2.3rem;
-    } */
-
-  /* #learnMoreBtn {
-      color: #fff !important;
-      font-family: 'ITC';
-      font-size: 25px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      column-gap: 10px;
-    } */
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-    } */
-
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
     min-height: 300px;
@@ -1499,72 +1363,49 @@
     /* width: 55%; */
     width: 90% !important;
     min-height: fit-content;
-    margin: 1% 0;
+    margin: 3% 0;
     padding-left: 4%;
-  }
-
-  .second_bg_heading h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 30px;
-    /* padding: 1% 0%; */
-  }
-  .second_bg_para1 p {
-    /* width: 55%; */
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 25px;
-    /* padding: 1% 0%; */
   }
 
   .second_bg_para2 p {
     width: 55%;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    /* padding: 1% 0%; */
   }
 
   /* -------------mobius_won_wrapper--------- */
-
   .mobius_won_content {
     width: 90%;
-    min-height: 160px !important;
-    /* padding-left: 2%; */
-    /* margin: 8% auto; */
+    min-height: 120px;
+    margin: 6% auto;
   }
 
   .content_nab-show {
-    /* border: 2px solid red; */
-    width: 400px;
-    height: 160px;
+    width: 220px;
   }
 
   .content_nab-show img {
     position: absolute;
     top: -35px;
-    left: 20px;
-    width: 180px;
-    height: 210px;
+    left: 10px;
+    width: 150px;
+    height: 180px;
   }
 
   .content_text p {
-    width: 95%;
-    font-size: 1.2rem;
+    width: 280px;
+    font-family: ITC !important;
+    font-size: 20px !important;
     font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    padding-left: 2%;
+    font-weight: 500;
+    line-height: 22.764px !important;
   }
 
-  .winner_img {
-    width: 220px;
-    height: 70px;
+  .winner_Img {
+    width: 100px;
+    height: 60px;
   }
 
-  .winner_img img {
-    width: 90%;
+  .winner_Img img {
+    width: 80% !important;
   }
 
   .android_swiper_heading h1 {
@@ -1617,27 +1458,20 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
-    /* margin-bottom: 5%; */
     text-align: left;
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
+
   .bannerContentBtn {
     width: inherit;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
-    /* column-gap: 20px;
-      color: white; */
   }
 
   #getStartedBtn {
     display: flex;
     /* width: 325px; */
-    width: 210%;
+    width: 200%;
     height: 36px;
     padding: 30px 48px;
     flex-direction: column;
@@ -1647,41 +1481,25 @@
     text-align: center;
     color: #ffffff;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 2.3rem;
+    position: relative;
+    left: -40px;
   }
 
   #learnMoreBtn {
     margin: 5% auto !important;
-    width: 210%;
+    width: 200%;
+    position: relative;
+    left: -40px;
   }
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto !important;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 500px;
+    min-height: 360px;
     max-height: fit-content;
     background: #000;
-  }
-
-  .mobile_view_img {
-    display: block !important;
-    padding-top: 100px;
-    /* width: 100%; */
-  }
-
-  .mobile_view_img img {
-    width: 100%;
-    height: 250px;
   }
 
   .second_bg_content {
@@ -1692,119 +1510,19 @@
     padding-left: 1%;
   }
 
-  .second_bg_heading h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
-  }
-
   .second_bg_para1 p {
     width: 95%;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 43.191px;
     padding: 5% 0% !important;
   }
 
   .second_bg_para2 p {
     width: 100%;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 28px;
-    /* padding: 1% 0%; */
-  }
-
-  /* third_bg_contaniner--------------------------------------------------- */
-
-  .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-  }
-
-  /* width resolution ------------ */
-  .third_bg_content {
-    width: 90% !important;
-    max-height: fit-content;
-  }
-
-  .third_bg_upper {
-    min-height: 400px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  .Ark_logo {
-    width: 180px;
-    /* height: fit-content; */
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-    /* height: 100%; */
-  }
-
-  .mobius_logo_ {
-    width: 130px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 160px;
-    margin: 5px;
-  }
-
-  .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-    flex-direction: column;
-  }
-
-  .third_bg_left_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    text-align: center;
-  }
-
-  .third_bg_lower_para1 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  }
-
-  .third_bg_right_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-  }
-
-  .third_bg_lower_para2 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 120%; */
-    line-height: 30px;
-    letter-spacing: -0.132px;
   }
 
   /* -------------mobius_won_wrapper--------- */
-
   .mobius_won_content {
     width: 90%;
-    min-height: 160px;
+    min-height: 140px;
     max-height: fit-content;
     margin-top: 30%;
   }
@@ -1823,22 +1541,22 @@
   }
 
   .content_text p {
-    width: 300px !important;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    /* margin-top: 2%; */
+    margin: 0 auto;
+    /* width: 400px !important; */
+    /* width: 90% !important; */
     padding-top: 30px;
+    text-align: center !important;
   }
 
-  .winner_img {
-    width: 350px;
-    height: 120px !important;
+  .winner_Img {
+    position: absolute !important;
+    top: 10px !important;
+    right: 5px;
+    width: 100px !important;
+    height: 50px !important;
   }
 
-  .winner_img img {
+  .winner_Img img {
     width: 90% !important;
   }
   .android_swiper_heading h1 {
@@ -1846,7 +1564,7 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 380px) {
+@media screen and (max-width: 480px) and (min-width: 381px) {
   .Landing_top_bg {
     min-height: 800px;
     max-height: fit-content;
@@ -1891,27 +1609,20 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
-    /* margin-bottom: 5%; */
     text-align: left;
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
+
   .bannerContentBtn {
     width: inherit;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
-    /* column-gap: 20px;
-      color: white; */
   }
 
   #getStartedBtn {
     display: flex;
     /* width: 325px; */
-    width: 210%;
+    width: 200%;
     height: 36px;
     padding: 30px 35px;
     flex-direction: column;
@@ -1921,35 +1632,29 @@
     border-radius: 10px;
     text-align: center;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 2.3rem;
+    position: relative;
+    left: -40px;
   }
 
   #learnMoreBtn {
     margin: 5% auto !important;
-    width: 210%;
+    width: 200%;
+    position: relative;
+    left: -30px;
   }
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto !important;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 500px;
+    min-height: 360px;
     max-height: fit-content;
     background: #000;
   }
 
   .mobile_view_img {
     display: block !important;
-    /* width: 100%; */
     padding-top: 70px;
   }
 
@@ -1959,123 +1664,25 @@
   }
 
   .second_bg_content {
-    /* width: 55%; */
     width: 90% !important;
     min-height: fit-content;
     margin: 10% 0;
     padding-left: 1%;
   }
 
-  .second_bg_heading h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
-  }
-
   .second_bg_para1 p {
     width: 95%;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 43.191px;
     padding: 5% 0% !important;
   }
 
   .second_bg_para2 p {
     width: 100%;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 28px;
-    /* padding: 1% 0%; */
-  }
-
-  /* third_bg_contaniner--------------------------------------------------- */
-
-  .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-  }
-
-  /* width resolution ------------ */
-  .third_bg_content {
-    width: 90% !important;
-    max-height: fit-content;
-  }
-
-  .third_bg_upper {
-    min-height: 400px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  .Ark_logo {
-    width: 150px;
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-  }
-
-  .mobius_logo_ {
-    width: 130px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 160px;
-    margin: 5px;
-  }
-
-  .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-    flex-direction: column;
-  }
-
-  .third_bg_left_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    text-align: center;
-  }
-
-  .third_bg_lower_para1 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.132px;
-  }
-
-  .third_bg_right_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-  }
-
-  .third_bg_lower_para2 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 120%; */
-    line-height: 24px;
-    letter-spacing: -0.132px;
   }
 
   /* -------------mobius_won_wrapper--------- */
   .mobius_won_content {
     width: 90%;
-    min-height: 160px;
+    min-height: 120px;
     max-height: fit-content;
     margin-top: 30%;
   }
@@ -2087,32 +1694,29 @@
   .content_nab-show img {
     position: absolute;
     top: -100px;
-    left: 132px;
+    left: 130px;
     width: 150px !important;
-    height: 150px;
+    height: 140px;
     padding: 1%;
   }
 
   .content_text p {
-    width: 300px !important;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    /* margin-top: 2%; */
+    margin: 0 auto;
     padding-top: 30px;
+    text-align: center  !important;
   }
 
-  .winner_img {
-    width: 500px;
-    height: 120px !important;
+  .winner_Img {
+    position: absolute !important;
+    top: 10px !important;
+    right: 5px;
+    width: 90px !important;
+    height: 50px !important;
   }
 
-  .winner_img img {
+  .winner_Img img {
     width: 90% !important;
   }
-
   .android_swiper_heading h1 {
     font-size: 32px;
   }
@@ -2163,25 +1767,18 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
-    /* margin-bottom: 5%; */
     text-align: left;
   }
-  /* 
-    .bg_subheading {
-      height: fit-content;
-    } */
+
   .bannerContentBtn {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* column-gap: 20px;
-      color: white; */
   }
 
   #getStartedBtn {
     display: flex;
-    /* width: 325px; */
     width: 140%;
     height: 36px;
     padding: 30px 48px;
@@ -2191,35 +1788,26 @@
     gap: 6px;
 
     box-sizing: border-box;
-    /* padding: 10px 30px 10px 30px; */
-
     background: #ffa200;
     border: 1px solid #ffa200;
     border-radius: 10px;
     text-align: center;
     color: #ffffff;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.3rem;
     line-height: 2.3rem;
   }
 
   #learnMoreBtn {
     margin: 5% auto !important;
+    position: relative;
+    left: 50px;
   }
-
-  /* .nexus_rightarrow img {
-      color: white !important;
-      fill: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto !important;
-    } */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 500px;
+    min-height: 395px;
     max-height: fit-content;
     background: #000;
   }
@@ -2243,116 +1831,98 @@
     padding-left: 1%;
   }
 
-  .second_bg_heading h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 43.191px;
-    /* padding: 1% 0%; */
-  }
-
   .second_bg_para1 p {
     width: 95%;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 43.191px;
     padding: 5% 0% !important;
   }
 
   .second_bg_para2 p {
     width: 100%;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 28px;
-    /* padding: 1% 0%; */
-  }
-
-  /* third_bg_contaniner--------------------------------------------------- */
-
-  .third_bg_contaniner {
-    min-height: 800px;
-    max-height: fit-content;
-  }
-
-  /* width resolution ------------ */
-  .third_bg_content {
-    width: 90% !important;
-    max-height: fit-content;
-  }
-
-  .third_bg_upper {
-    min-height: 400px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  .Ark_logo {
-    width: 150px;
-    padding: 1%;
-  }
-  .Ark_logo img {
-    width: 100%;
-  }
-
-  .mobius_logo_ {
-    width: 130px;
-    padding: 1%;
-  }
-
-  .mobius_logo_ img {
-    width: 160px;
-    margin: 5px;
-  }
-
-  .third_bg_lower_horizontal {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 5%;
-    margin-top: 5%;
-    flex-direction: column;
-  }
-
-  .third_bg_left_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-    text-align: center;
-  }
-
-  .third_bg_lower_para1 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.132px;
-  }
-
-  .third_bg_right_content {
-    min-height: 300px;
-    max-height: fit-content;
-    width: 100%;
-  }
-
-  .third_bg_lower_para2 p {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 120%; */
-    line-height: 30px;
-    letter-spacing: -0.132px;
   }
 
   /* -------------mobius_won_wrapper--------- */
   .mobius_won_content {
     width: 90%;
-    min-height: 160px;
+    min-height: 120px;
+    max-height: fit-content;
+    margin-top: 30%;
+  }
+
+  .content_nab-show {
+    width: 300px;
+  }
+
+  /* .content_nab-show img {
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    width: 150px !important;
+    height: 140px;
+    padding: 1%;
+  } */
+
+  .content_text p {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 350px !important;
+    /* width: 90% !important; */
+    padding-top: 30px;
+  }
+
+  .winner_Img {
+    position: absolute !important;
+    top: 10px !important;
+    right: 5px;
+    width: 80px !important;
+    height: 50px !important;
+  }
+
+  .winner_Img img {
+    width: 90% !important;
+  }
+  .android_swiper_heading h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 420px) and (min-width: 380px) {
+  .content_nab-show img {
+    position: absolute;
+    top: -100px;
+    left: 90px;
+    width: 150px !important;
+    height: 140px;
+    padding: 1%;
+  }
+}
+@media screen and (max-width: 380px) and (min-width: 350px) {
+  .content_nab-show img {
+    position: absolute;
+    top: -100px;
+    left: 90px;
+    width: 150px !important;
+    height: 140px;
+    padding: 1%;
+  }
+}
+
+@media screen and (max-width: 350px) and (min-width: 320px) {
+  .content_nab-show img {
+    position: absolute;
+    top: -100px;
+    left: 75px;
+    width: 150px !important;
+    height: 140px;
+    padding: 1%;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 100px) {
+   /* -------------mobius_won_wrapper--------- */
+   .mobius_won_content {
+    width: 90%;
+    min-height: 120px;
     max-height: fit-content;
     margin-top: 30%;
   }
@@ -2364,33 +1934,38 @@
   .content_nab-show img {
     position: absolute;
     top: -100px;
-    left: 132px;
-    width: 150px !important;
-    height: 150px;
+    left: 70px;
+    width: 140px !important;
+    height: 130px;
     padding: 1%;
   }
 
   .content_text p {
-    width: 300px !important;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    text-align: center;
-    /* margin-top: 2%; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 350px !important;
+    /* width: 90% !important; */
     padding-top: 30px;
   }
 
-  .winner_img {
-    width: 500px;
-    height: 120px !important;
+  .winner_Img {
+    position: absolute !important;
+    top:15px !important;
+    right: 4px;
+    width: 80px !important;
+    height: 45px !important;
   }
 
-  .winner_img img {
-    width: 90% !important;
+  .winner_Img img {
+    width: 85% !important;
   }
 
-  .android_swiper_heading h1 {
-    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #downArrow{
+    margin-left: 30%;
   }
 }

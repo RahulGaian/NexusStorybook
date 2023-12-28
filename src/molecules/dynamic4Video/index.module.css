@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features {
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.btncontainer {
+  display: flex;
+  width: 561px;
+  height: 40px;
+  justify-content: center;
+}
+
+.btncontainer > button:focus {
+  outline: none;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: #4c4c4c;
+  background-color: transparent;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0px;
+  width: max-content;
+  height: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  font-family: ITC;
+  font-size: 14.906px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px;
+  letter-spacing: 0px;
+  transition: all 0.3s ease 0s;
+}
+
+#btnclick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: #ff9b00;
+  background-color: #ff99003f;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0px;
+  width: max-content;
+  height: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  font-family: ITC;
+  font-size: 14.906px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20.7px;
+  letter-spacing: 0px;
+  transition: all 0.3s ease 0s;
+}
+
+.slidingContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1035px;
+  height: auto;
+  padding: 25px 0;
+  overflow: hidden;
+  transition: transform 0.6s ease;
+}
+
+.leftCont {
+  width: 464px;
+  height: 464px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftCont > img {
+  width: inherit;
+  height: inherit;
+}
+
+.rightCont {
+  width: 464px;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.rightContentCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#head {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+#para {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#learnMorebtn {
+  width: auto;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--Blue, #007cd7);
+  color: var(--Blue, #007cd7);
+  text-align: center;
+  font-family: ITC;
+  font-size: 15.609px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+}
+
+.fade {
+  opacity: 0;
+  transition: all ease 0.6s;
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentContainer {
+    width: 1420px;
+  }
+  .slidingContent {
+    width: 865px;
+  }
+  .leftCont {
+    width: 388px;
+    height: 388px;
+  }
+  .rightCont {
+    width: 388px;
+    height: 388px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentContainer {
+    width: 1200px;
+  }
+  .slidingContent {
+    width: 780px;
+  }
+  .leftCont {
+    width: 350px;
+    height: 350px;
+  }
+  .rightCont {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentContainer {
+    width: 950px;
+  }
+  .slidingContent {
+    width: 780px;
+  }
+  .leftCont {
+    width: 350px;
+    height: 350px;
+  }
+  .rightCont {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contentContainer {
+    width: 90%;
+  }
+  .slidingContent {
+    width: 574px;
+  }
+  .leftCont {
+    width: 280px;
+    height: auto;
+  }
+  .rightCont {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer {
+    width: 90%;
+  }
+  .slidingContent {
+    width: 100%;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftCont {
+    width: 100%;
+    height: auto;
+  }
+  .rightCont {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .features {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .btncontainer {
+    justify-content: center;
+    white-space: nowrap;
+  }
+  #head {
+    color: #4c4c4c;
+    font-family: ITC;
+    font-size: 22.242px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.9px;
+  }
+  #learnMorebtn {
+    width: 100%;
+  }
+}

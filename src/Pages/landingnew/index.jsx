@@ -13,18 +13,16 @@ const Landingpagenew = () => {
   return (
     <>
       <div className="Landing_page_Container">
-        <Header/>
         <section className="Landing_top_bg">
           <div className="video-background">
-          
-            {/* <video
+            <video
               playsInline="playsinline"
               autoPlay="autoplay"
               muted="muted"
               loop="loop"
             >
               <source src={ process.env.PUBLIC_URL + "/video/2.mp4"} type="video/mp4" />
-            </video> */}
+            </video>
             <div className="bannerContentContainer">
               <h1>Nexus Connect</h1>
               <div className="bannerContentWrapper">
@@ -69,7 +67,7 @@ const Landingpagenew = () => {
                       </div>
                     </div>
                   </div>
-                      <div>
+                      <div id="downArrow">
                               <a href="#mapcomp" className={"mapbutton"}>
 
                               <Img style={{width:"40px",textAlign:"center",marginTop:"20px"}} src={"/Images/landing/down.svg"}></Img>
@@ -82,25 +80,22 @@ const Landingpagenew = () => {
           </div>
         </section>
 
-
-        <section  id="mapcomp">
-          {/* <Map3dComponent /> */}
-        </section>
+        <section id="mapcomp"><Map3dComponent /></section>
 
         <div className="second_bg_img-contaniner">
           <div className="second_bg_content">
             <div className="second_bg_heading">
-              <h1>NextGenTV</h1>
+              <h1>Nexus Connect </h1>
             </div>
             <div className="second_bg_para1">
               <p>Revolutionizing Television worldwide</p>
             </div>
             <div className="second_bg_para2">
               <p>
-                Welcome to NextGenTV Marketplace, the premier destination for
-                broadcasters, content creators, advertisers, and technology
+                Welcome to Nexus Connect Marketplace, the premier destination
+                for broadcasters, content creators, advertisers, and technology
                 providers to collaborate, innovate, and unlock the full
-                potential of NextGenTV. Our marketplace offers a dynamic
+                potential of Nexus Connect . Our marketplace offers a dynamic
                 ecosystem where industry players can come together, discover
                 exciting applications and services, and deliver immersive,
                 interactive, and personalized television experiences to viewers
@@ -108,7 +103,10 @@ const Landingpagenew = () => {
               </p>
             </div>
             <div className="mobile_view_Img" style={{ display: "none" }}>
-              <Img src={"/Images/landing/side-view-woman.png"} alt="sideimage"/>
+              <Img
+                src={"/Images/landing/side-view-woman.png"}
+                alt="sideimage"
+              />
             </div>
           </div>
         </div>
@@ -175,27 +173,23 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-     
-        {/* <div><AppSwiper /></div> */}
+        <div><AppSwiper /></div>
 
         <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
             <section className="content_nab-show">
-              <Img
-                src={"./Images/landing/NAB-show.png"}
-                alt="NAB"
-              />
+              <Img src={"./Images/landing/NAB-show.png"} alt="NAB" />
             </section>
 
             <section className="content_text">
-              <p>Mobius Won 5 Product of <br />the Year award at <br /> NAB Show 2023</p>
+              <p>
+                Mobius Won 5 Product of <br />
+                the Year award at  NAB Show 2023
+              </p>
             </section>
 
             <section className="winner_Img">
-              <Img
-                src={"./Images/landing/2023-winner.png"}
-                alt="winner"
-              />
+              <Img src={"./Images/landing/2023-winner.png"} alt="winner" />
             </section>
           </div>
         </div>
@@ -209,11 +203,6 @@ const Landingpagenew = () => {
           <div style={{ margin: "5%" }}>{<AndroidApps />}</div>
         </div> */}
       </div>
-
-      <section>
-        <Footer />
-      </section>
-      
     </>
   );
 };

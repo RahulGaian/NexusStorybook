@@ -8,13 +8,10 @@
 }
 
 .productContentCardWrapper {
-  /* border: 2px solid red; */
   width: 1700px;
 }
 
 .productContentCard {
-  /* border: 2px solid red; */
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -47,7 +44,7 @@
 
 .productContentCardDesc {
   width: 50%;
-  padding-left: 2rem;
+  padding-left: 8%;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -80,7 +77,8 @@
   text-align: left;
 }
 
-@media only screen and (max-width: 2600px) and (min-width: 901px) {
+/* ---fonts setting for desktop---- */
+@media only screen and (max-width: 2600px) and (min-width: 1000px) {
   .productContentCardDesc > h1 {
     color: #404040;
     font-family: ITC !important;
@@ -100,20 +98,36 @@
   }
 }
 
-@media only screen and (max-width: 900px) and (min-width: 601px) {
-}
-@media only screen and (max-width: 2000px) and (min-width: 1800px) {
-}
-*/ @media only screen and (max-width: 1800px) and (min-width: 1501px) {
-  .productContentCardWrapper {
-    /* padding: 0 5rem; */
-    width: 1420px !important;
-    /* width: 85% !important; */
+/* ---fonts setting for mobile---- */
+@media only screen and (max-width: 768px) and (min-width: 100px) {
+  .productContentCardDesc > h1 {
+    color: #000;
+    text-align: center;
+    font-family: ITC !important;
+    font-size: 22px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .productContentCardDesc > p {
+    color: #000;
+    text-align: justify;
+    font-family: ITC !important;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
   }
 }
+
+@media only screen and (max-width: 1800px) and (min-width: 1501px) {
+  .productContentCardWrapper {
+    width: 1420px !important;
+  }
+}
+
 @media only screen and (max-width: 1500px) and (min-width: 1400px) {
   .productContentCardWrapper {
-    /* padding: 0 5rem; */
     width: 1200px !important;
   }
 
@@ -130,41 +144,22 @@
   .productContentCardDesc {
     /* width: 50%; */
     padding-left: 2rem;
-    /* justify-content: center;
-    display: flex;
-    flex-direction: column; */
   }
 
   .productContentCardDesc > h1 {
-    color: #404040;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
-
     width: 80%;
     padding-bottom: 0.5rem;
     text-align: left;
   }
 
   .productContentCardDesc > p {
-    color: #404040;
-    text-align: justify;
-    font-family: ITC Avant Garde Gothic;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px; /* 166.667% */
     width: 80%;
-
     padding-top: 0.5rem;
     text-align: left;
   }
 }
 @media only screen and (max-width: 1400px) and (min-width: 1300px) {
   .productContentCardWrapper {
-    /* padding: 0 5rem; */
     width: 1200px !important;
   }
 }
@@ -187,27 +182,19 @@
   }
 
   .productContentCardDesc > h1 {
-    font-size: 2rem;
-    line-height: 40px;
+
     width: 90%;
     padding-bottom: 0.5rem;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
     width: 90%;
-
     padding-top: 0.5rem;
-    /* text-align: left; */
   }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
   .productContentCardWrapper {
-    /* padding: 0 5rem; */
     width: 950px !important;
   }
 
@@ -240,13 +227,15 @@
     text-align: left;
   }
 }
-@media screen and (max-width: 1000px) and (min-width: 800px) {
+
+/* --------tablet view-------- */
+@media screen and (max-width: 1000px) and (min-width: 769px) {
   .productContentCardWrapper {
     width: 90% !important;
   }
 
   .productContentCardImage > img {
-    width: 90%;
+    width: 80%;
     display: flex;
     min-height: 400px;
     padding: 36px 2.838px 36.001px 2px;
@@ -257,23 +246,33 @@
   }
 
   .productContentCardDesc > h1 {
-    font-size: 1.8rem;
-    line-height: 36px;
     width: 90%;
     padding-bottom: 0.5rem;
+
+    color: #000;
+    font-family: ITC !important;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32.342px;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.4rem;
+    color: #000;
+    text-align: justify;
+    font-family: ITC !important;
+    font-size: 14px !important;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 18px; 
+
     width: 90%;
     padding-top: 0.5rem;
   }
 }
 
-@media screen and (max-width: 800px) and (min-width: 680px) {
+/* ------mobile view--------- */
+@media screen and (max-width: 768px) and (min-width: 680px) {
   .productContentCardWrapper {
     width: 90% !important;
   }
@@ -300,18 +299,11 @@
 
   .productContentCardDesc > h1 {
     text-align: center !important;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
     width: 100%;
     padding-bottom: 0.5rem;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 28px;
     width: 100%;
     padding-top: 0.5rem;
     text-align: center;
@@ -345,18 +337,11 @@
 
   .productContentCardDesc > h1 {
     text-align: center !important;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
     width: 100%;
     padding-bottom: 0.5rem;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 28px;
     width: 100%;
     padding-top: 0.5rem;
     text-align: center;
@@ -390,18 +375,11 @@
 
   .productContentCardDesc > h1 {
     text-align: center !important;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
     width: 100%;
     padding-bottom: 0.5rem;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 28px;
     width: 100%;
     padding-top: 0.5rem;
     text-align: center;
@@ -409,60 +387,6 @@
 }
 
 @media screen and (max-width: 480px) and (min-width: 380px) {
-  /* .productContentCardWrapper {
-    width: 90% !important;
-  }
-
-  .productContentCardImage > img {
-    width: 100%;
-  }
-
-  .productContentCardWrapper > .productContentCard > .productContentCardImage {
-    justify-content: start;
-  }
-
-  .productContentCardWrapper
-    > .productContentCard:nth-child(even)
-    > .productContentCardImage {
-    justify-content: end;
-  }
-
-  .productContentCard:nth-child(even) {
-    flex-direction: column !important;
-  }
-
-  .productContentCard {
-    flex-direction: column !important;
-  }
-  .productContentCard:nth-child(2n) {
-    flex-direction: column !important;
-  }
-  .productContentCardImage {
-    width: 40% !important;
-  }
-  .productContentCardDesc {
-    width: 22% !important;
-    text-align: center !important;
-    padding-left: 0px !important;
-  }
-  .productContentCardDesc > h1 {
-    text-align: center !important;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
-    width: 100%;
-    padding-bottom: 0.5rem;
-  }
-  
-  .productContentCardDesc > p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 28px;
-    width: 100%;
-    padding-top: 0.5rem;
-    text-align: center;
-  } */
 
   .productContentCardWrapper {
     width: 90% !important;
@@ -490,92 +414,19 @@
 
   .productContentCardDesc > h1 {
     text-align: center !important;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
     width: 100%;
     padding-bottom: 0.5rem;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 24px;
     width: 100%;
     padding-top: 0.5rem;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 380px) and (min-width: 300px) {
-  /* .productContentCardWrapper {
-    width: 90% !important;
-  }
-
-  .productContentCardImage > img {
-    width: 100%;
-    padding: 5%;
-  }
-
-  .productContentCardDesc {
-    width: 18% !important;
-    text-align: center !important;
-    padding-left: 0px !important;
-  }
-
-  .productContentCardWrapper > .productContentCard > .productContentCardImage {
-    justify-content: start;
-  }
-
-  .productContentCardWrapper
-    > .productContentCard:nth-child(even)
-    > .productContentCardImage {
-    justify-content: end;
-  }
-
-  .productContentCard:nth-child(even) {
-    flex-direction: column !important;
-  }
-
-  .productContentCard {
-    flex-direction: column;
-  }
-  .productContentCard:nth-child(2n) {
-    flex-direction: column !important;
-  }
-  .productContentCardImage {
-    width: 40% !important;
-  }
-  .productContentCardDesc {
-    width: 20% !important;
-    text-align: center !important;
-    padding-left: 0px !important;
-  }
-  .productContentCardDesc h1 {
-    text-align: center !important;
-    font-size: 18px !important;
-    line-height: 22px !important;
-  }
-
-  .productContentCardDesc > h1 {
-    text-align: center !important;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 42px;
-    width: 100%;
-    padding-bottom: 0.5rem;
-  }
-  
-  .productContentCardDesc > p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 28px;
-    width: 100%;
-    padding-top: 0.5rem;
-    text-align: center;
-  } */
+@media screen and (max-width: 380px) and (min-width: 100px) {
+ 
 
   .productContentCardWrapper {
     width: 90% !important;
@@ -603,67 +454,14 @@
 
   .productContentCardDesc > h1 {
     text-align: center !important;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
     width: 100%;
     padding-bottom: 0.5rem;
   }
 
   .productContentCardDesc > p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 24px;
     width: 100%;
     padding-top: 0.5rem;
     text-align: center;
   }
 }
 
-/* @media screen and (max-width: 350px) {
-
-      .productContentCardWrapper {
-        width: 90% !important;
-      }
-    
-      .productContentCardImage > img {
-        width: 100%;
-      }
-    
-      .productContentCard {
-        flex-direction: column;
-      }
-      .productContentCard:nth-child(2n) {
-        flex-direction: column !important;
-      }
-    
-      .productContentCardImage {
-        width: 60% !important;
-      }
-      .productContentCardDesc {
-        width: 90% !important;
-        text-align: center !important;
-        padding-left: 0 !important;
-
-      }
-    
-      .productContentCardDesc > h1 {
-        text-align: center !important;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 42px;
-        width: 100%;
-        padding-bottom: 0.5rem;
-      }
-      
-      .productContentCardDesc > p {
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 28px;
-        width: 100%;
-        padding-top: 0.5rem;
-        text-align: center;
-      }
-} */
