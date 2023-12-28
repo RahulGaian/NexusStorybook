@@ -25,8 +25,8 @@ const Landingpagenew = () => {
             </video>
             <div className="bannerContentContainer">
               <h1>Nexus Connect</h1>
-              <div className="bannerContentWrapper">
-                <div className="bannerContent">
+              <div className="bannerContentWrapper1">
+                <div className="bannerContentland">
                   <div>
                     <h1>Shaping the Future of Television Experiences</h1>
                   </div>
@@ -41,7 +41,7 @@ const Landingpagenew = () => {
                       personalized experiences to viewers.
                     </p>
                   </div>
-                  <div className="bannerContentBtn">
+                  <div className="bannerContentBtnland">
                     <div>
                       <button
                         id="getStartedBtn"
