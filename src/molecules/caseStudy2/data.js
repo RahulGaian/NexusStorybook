@@ -33,7 +33,7 @@ export const caseStudy2Data = {
     content_text_color: "#FFA200",
 
     flexDirection: "row",
-    bgColor: "#FFF",
+    bgColor: "#FFF7EA",
     btn: "More BORG metrics",
     btn_bgColor: "#FFA200",
   },

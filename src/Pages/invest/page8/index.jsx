@@ -29,7 +29,7 @@ import { mobileAndTextData } from "../../../molecules/mobileAndText/mobileAndTex
 import CurveContainer from "../../../molecules/curveBgContainer";
 import { curveContainerData } from "../../../molecules/curveBgContainer/data";
 
-function Page6() {
+function Page8() {
   return (
     <section>
       <section>
@@ -51,7 +51,7 @@ function Page6() {
         <InfographicCard data={ifgData.c7} />
       </section>
       <section>
-        <DynamicAccordion data={dynamicAccordianData.dynamicAccordian1} />
+        <DynamicAccordion data={dynamicAccordianData.dynamicAccordian2} />
       </section>
       <section className={style.mobileAndText}>
         <MobileAndText data={mobileAndTextData.mobileData4.mobileText4} />
@@ -69,4 +69,4 @@ function Page6() {
   );
 }
 
-export default Page6;
+export default Page8;
