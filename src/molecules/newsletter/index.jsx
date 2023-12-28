@@ -6,7 +6,7 @@ function Newsletter() {
     <div className={style.newsletterContainer}>
       <div className={style.newsletterContentContainer}>
         <div className={style.newsletterTop}>
-          <img src="./Images/newsletter/addbtn.png" alt="addbtnimage" />
+          <img src="/Images/newsletter/addbtn.png" alt="addbtnimage" />
           <p>Proudly engineered in Switzerland</p>
         </div>
         <div className={style.newsletterBottom}>
@@ -22,7 +22,7 @@ function Newsletter() {
               <div className={style.newsletterLeftInputBtn}>
                 <input placeholder="Email (required)" />
                 <button className={style.newletterLeftBtn}>
-                  <img src="./Images/newsletter/arrow.png" alt="buttonimage" />
+                  <img src="/Images/newsletter/arrow.png" alt="buttonimage" />
                 </button>
               </div>
             </div>
@@ -35,23 +35,23 @@ function Newsletter() {
             <div className={style.newsletterRightSocial}>
               {/* Twitter */}
               <a href="https://twitter.com/Gaian_Solutions" target="_blank">
-                <img src="./Images/newsletter/twitter.png" alt="twitterimage" />
+                <img src="/Images/newsletter/twitter.png" alt="twitterimage" />
               </a>
               {/* Github */}
-              <img src="./Images/newsletter/github.png" alt="githubimage" />
+              <img src="/Images/newsletter/github.png" alt="githubimage" />
               {/* Youtube */}
               <a href="https://www.youtube.com/@Gaiansolutions" target="_blank">
-                <img src="./Images/newsletter/youtube.png" alt="youtubeimage" />
+                <img src="/Images/newsletter/youtube.png" alt="youtubeimage" />
               </a>
               {/* Facebook */}
-              <img src="./Images/newsletter/facebook.png" alt="facebookimage" />
+              <img src="/Images/newsletter/facebook.png" alt="facebookimage" />
               {/* Instagram */}
               <a
                 href="https://www.instagram.com/gaiansolutions/"
                 target="_blank"
               >
                 <img
-                  src="./Images/newsletter/instagram.png"
+                  src="/Images/newsletter/instagram.png"
                   alt="instagramimage"
                 />
               </a>
@@ -61,16 +61,16 @@ function Newsletter() {
                 target="_blank"
               >
                 <img
-                  src="./Images/newsletter/linkedin.png"
+                  src="/Images/newsletter/linkedin.png"
                   alt="linkedinimage"
                 />
               </a>
               {/* Telegram */}
-              <img src="./Images/newsletter/telegram.png" alt="telegramimage" />
+              <img src="/Images/newsletter/telegram.png" alt="telegramimage" />
               {/* Tiktok */}
-              <img src="./Images/newsletter/tiktok.png" alt="tiktokimage" />
+              <img src="/Images/newsletter/tiktok.png" alt="tiktokimage" />
               {/* Message */}
-              <img src="./Images/newsletter/message.png" alt="messageimage" />
+              <img src="/Images/newsletter/message.png" alt="messageimage" />
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default Newsletter;
 //     <div className={style.newsletterContainer}>
 //       <div className={style.newsletterContentContainer}>
 //         <div className={style.newsletterTop}>
-//           <img src="./Images/newsletter/addbtn.png" alt="addbtnimage" />
+//           <img src="/Images/newsletter/addbtn.png" alt="addbtnimage" />
 //           <p>Proudly engineered in Switzerland</p>
 //         </div>
 //         <div className={style.newsletterBottom}>
@@ -105,7 +105,7 @@ export default Newsletter;
 //                 <input placeholder="Email (required)" />
 //               </div>
 //               <button className={style.newletterLeftBtn}>
-//                 <img src="./Images/newsletter/arrow.png" alt="buttonimage" />
+//                 <img src="/Images/newsletter/arrow.png" alt="buttonimage" />
 //               </button>
 //             </div>
 //           </div>
@@ -117,23 +117,23 @@ export default Newsletter;
 //             <div className={style.newsletterRightSocial}>
 //               {/* Twitter */}
 //               <a href="https://twitter.com/Gaian_Solutions" target="_blank">
-//                 <img src="./Images/newsletter/twitter.png" alt="twitterimage" />
+//                 <img src="/Images/newsletter/twitter.png" alt="twitterimage" />
 //               </a>
 //               {/* Github */}
-//               <img src="./Images/newsletter/github.png" alt="githubimage" />
+//               <img src="/Images/newsletter/github.png" alt="githubimage" />
 //               {/* Youtube */}
 //               <a href="https://www.youtube.com/@Gaiansolutions" target="_blank">
-//                 <img src="./Images/newsletter/youtube.png" alt="youtubeimage" />
+//                 <img src="/Images/newsletter/youtube.png" alt="youtubeimage" />
 //               </a>
 //               {/* Facebook */}
-//               <img src="./Images/newsletter/facebook.png" alt="facebookimage" />
+//               <img src="/Images/newsletter/facebook.png" alt="facebookimage" />
 //               {/* Instagram */}
 //               <a
 //                 href="https://www.instagram.com/gaiansolutions/"
 //                 target="_blank"
 //               >
 //                 <img
-//                   src="./Images/newsletter/instagram.png"
+//                   src="/Images/newsletter/instagram.png"
 //                   alt="instagramimage"
 //                 />
 //               </a>
@@ -143,16 +143,16 @@ export default Newsletter;
 //                 target="_blank"
 //               >
 //                 <img
-//                   src="./Images/newsletter/linkedin.png"
+//                   src="/Images/newsletter/linkedin.png"
 //                   alt="linkedinimage"
 //                 />
 //               </a>
 //               {/* Telegram */}
-//               <img src="./Images/newsletter/telegram.png" alt="telegramimage" />
+//               <img src="/Images/newsletter/telegram.png" alt="telegramimage" />
 //               {/* Tiktok */}
-//               <img src="./Images/newsletter/tiktok.png" alt="tiktokimage" />
+//               <img src="/Images/newsletter/tiktok.png" alt="tiktokimage" />
 //               {/* Message */}
-//               <img src="./Images/newsletter/message.png" alt="messageimage" />
+//               <img src="/Images/newsletter/message.png" alt="messageimage" />
 //             </div>
 //           </div>
 //         </div>

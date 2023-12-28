@@ -30,7 +30,7 @@ export const Argstest2 = {
     data: {
       heading: "More than a basket of tokens",
       para: "Strengthen your investments with the most promising crypto themes.",
-      imgURL: "./Images/headnImg/basket.png",
+      imgURL: "/Images/headnImg/basket.png",
       bgColor: "linear-gradient(180deg, #004A81 0%, #007CD7 100%)",
       headParaTxtColor: "#FFF",
       btnctn: "Get Started",

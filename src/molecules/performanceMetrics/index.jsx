@@ -31,19 +31,19 @@ function PerformanceMetrics() {
         </div>
         <div className={style.performanceBottom}>
           {/* <Img
-            src="./Images/performanceMetrics/banner.png"
-            src="./Images/performanceMetrics/bannerMobile.png"
+            src="/Images/performanceMetrics/banner.png"
+            src="/Images/performanceMetrics/bannerMobile.png"
             className={style.performanceBottomImg}
           ></Img> */}
           {windowWidth < 600 ? (
             <Img
-              src="./Images/performanceMetrics/bannerMobile.png"
+              src="/Images/performanceMetrics/bannerMobile.png"
               className={style.performanceBottomImg}
               alt="Mobile Banner"
             />
           ) : (
             <Img
-              src="./Images/performanceMetrics/banner.png"
+              src="/Images/performanceMetrics/banner.png"
               className={style.performanceBottomImg}
               alt="Desktop Banner"
             />

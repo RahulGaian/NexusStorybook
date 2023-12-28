@@ -24,7 +24,7 @@ export const Card14 = () => <InfographicCard data={ifgData.c14} />;
 export const Argstest2 = {
   args: {
     data: {
-      imgURL: "./Images/infographicCards/thi1.png",
+      imgURL: "/Images/infographicCards/thi1.png",
       head: "Diversify risk in one tap",
       content:
         "95% of crypto projects fail. Putting all your bets on one token is highly risky. Instead broaden your horizons and invest across your favourite trends & themes, all with just one tap.",

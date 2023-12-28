@@ -1659,217 +1659,238 @@ function Header() {
       ],
     },
     {
-      name: "Services",
+      name: "Tokenomics",
       menuItems: [
         {
-          name: "Services",
+          name: "Tokenomics",
           list: [
             {
-              name: "Envision",
+              name: "Invest",
               subitems: {
-                name: "Envision",
+                name: "Invest",
                 items: [
                   {
-                    name: "NextGen TV",
+                    name: "Buy Cryptos",
                     content: {
-                      heading: "NextGen TV",
+                      heading: "Buy Cryptos",
                       description:
                         "Empowering NextGen TV broadcasters with Mobius low-code platform to create immersive viewing experiences. Deploy applications and services faster than ever before, creating new value and driving innovation across the industry. Stay ahead of the competition with Mobius.",
                       coverImage: images.In_the_news,
-                      url: "/solutions/NextGen-TV",
+                      url: "/invest/buy-cryptos",
                     },
                   },
                   {
-                    name: "Phygital & IOT",
+                    name: "Earn cryptos",
                     content: {
-                      heading: "Phygital & IOT",
+                      heading: "Earn cryptos",
                       description:
                         "Mobius Consulting specializes in enabling businesses to seamlessly integrate the physical and digital worlds through its Phygital & IoT service. This service combines cutting-edge technologies, innovative strategies, and domain expertise to deliver immersive and connected experiences that bridge the gap between physical and digital environments.",
                       coverImage: images.In_the_news,
-                      url: "/services/phygital-and-iot",
+                      url: "/invest/earn-cryptos",
                     },
                   },
                   {
-                    name: "AdTech",
+                    name: "Diversify with Thematics",
                     content: {
-                      heading: "AdTech",
+                      heading: "Diversify with Thematics",
                       description:
                         " Mobius Consulting specializes in delivering transformative advertising technology solutions through its AdTech service. This service empowers businesses to optimize their advertising strategies, maximize reach, and drive impactful campaigns across digital channels. ",
                       coverImage: images.In_the_news,
-                      url: "/services/adtech",
+                      url: "/invest/diversify-with-thematics",
                     },
                   },
                   {
-                    name: "Machine Learning",
+                    name: "Card Funding",
                     content: {
-                      heading: "Machine Learning",
+                      heading: "Card Funding",
                       description:
                         "The AI & ML Applications CoE harnesses the power of artificial intelligence and machine learning to deliver intelligent and data-driven solutions. Our team develops AI algorithms, trains machine learning models, and applies advanced analytics techniques to extract valuable insights from data. ",
                       coverImage: images.In_the_news,
-                      url: "/services/machine-learning",
+                      url: "/invest/card-funding",
                     },
                   },
                   {
-                    name: "Web 3.0",
+                    name: "All cryptos",
                     content: {
-                      heading: "Web 3.0",
+                      heading: "All cryptos",
                       description:
                         "Transforming digital experiences by leveraging blockchain technology to enhance security, transparency, and trust, empowering businesses to create innovative and decentralized solutions.",
                       coverImage: images.In_the_news,
-                      url: "/comingsoon",
+                      url: "/invest/all-cryptos",
+                    },
+                  },
+                  {
+                    name: "Assets Analysis",
+                    content: {
+                      heading: "Assets Analysis",
+                      description:
+                        "Transforming digital experiences by leveraging blockchain technology to enhance security, transparency, and trust, empowering businesses to create innovative and decentralized solutions.",
+                      coverImage: images.In_the_news,
+                      url: "/invest/assets-analysis",
+                    },
+                  },
+                  {
+                    name: "Portfolio Visualizer",
+                    content: {
+                      heading: "Portfolio Visualizer",
+                      description:
+                        "Transforming digital experiences by leveraging blockchain technology to enhance security, transparency, and trust, empowering businesses to create innovative and decentralized solutions.",
+                      coverImage: images.In_the_news,
+                      url: "/invest/portfolio-visualizer",
+                    },
+                  },
+                  {
+                    name: "Auto-Invest",
+                    content: {
+                      heading: "Auto-Invest",
+                      description:
+                        "Transforming digital experiences by leveraging blockchain technology to enhance security, transparency, and trust, empowering businesses to create innovative and decentralized solutions.",
+                      coverImage: images.In_the_news,
+                      url: "/invest/auto-invest",
                     },
                   },
                 ],
               },
               // url:"/overview",
               article: {
-                heading: "Envision",
+                heading: "Invest",
                 description:
                   "At Mobius Consulting, we are digital transformation architects, envisioning the future of intelligent solutions. We combine deep industry expertise with cutting-edge technologies to help businesses reimagine their digital landscape and unlock new opportunities.",
                 coverImage: images.Overview_min,
-                url: "/services/envision",
+                url: "/invest/earn-cryptos",
               },
             },
             {
-              name: "Engineer",
+              name: "Community",
               subitems: {
-                name: "Engineer",
+                name: "Community",
                 items: [
                   {
-                    name: "Platform Engineering",
+                    name: "Our Borg Token",
                     content: {
-                      heading: "Platform Engineering",
+                      heading: "Our Borg Token",
                       description:
                         "Mobius Consulting provides Platform Engineering services to help businesses design, build, and optimize scalable and resilient digital platforms.The Platform Engineering CoE at Mobius Consulting specializes in designing and building robust and scalable platforms for digital transformation initiatives.",
                       coverImage: images.In_the_news,
-                      url: "/services/platform-engineering",
+                      url: "/community/our-borg-token",
                     },
                   },
                   {
-                    name: "Cloud Engineering",
+                    name: "SwissBorg heroes",
                     content: {
-                      heading: "Cloud Engineering",
+                      heading: "SwissBorg heroes",
                       description:
-                        "Mobius Consulting provides Cloud Engineering services to help businesses accelerate their cloud adoption journey and optimize their cloud infrastructure. Our team has extensive experience in designing cloud-native architectures, migrating applications to the cloud, and optimizing cloud infrastructure for efficiency and cost-effectiveness. ",
+                        "Mobius Consulting provides Cloud Engineering community to help businesses accelerate their cloud adoption journey and optimize their cloud infrastructure. Our team has extensive experience in designing cloud-native architectures, migrating applications to the cloud, and optimizing cloud infrastructure for efficiency and cost-effectiveness. ",
                       coverImage: images.In_the_news,
-                      url: "/services/cloud-engineering",
+                      url: "/community/swissborg-heroes",
                     },
                   },
                   {
-                    name: "Data Engineering",
+                    name: "Borg Token metrics",
                     content: {
-                      heading: "Data Engineering",
+                      heading: "Borg Token metrics",
                       description:
-                        "Mobius Consulting offers Data Science & Engineering services to help businesses unlock the power of their data and derive actionable insights.The Data Engineering CoE specializes in managing and leveraging data as a strategic asset. Our team has expertise in data integration, data warehousing, and data pipeline development.",
+                        "Mobius Consulting offers Data Science & Engineering community to help businesses unlock the power of their data and derive actionable insights.The Data Engineering CoE specializes in managing and leveraging data as a strategic asset. Our team has expertise in data integration, data warehousing, and data pipeline development.",
                       coverImage: images.In_the_news,
-                      url: "/services/data-science-and-engineering",
+                      url: "/community/borg-token-metrics",
                     },
                   },
                   {
-                    name: "AI & ML",
+                    name: "Earn free crypto rewards",
                     content: {
-                      heading: "AI & ML",
+                      heading: "Earn free crypto rewards",
                       description:
                         "The AI & ML Applications CoE harnesses the power of artificial intelligence and machine learning to deliver intelligent and data-driven solutions. Our team develops AI algorithms, trains machine learning models, and applies advanced analytics techniques to extract valuable insights from data. ",
                       coverImage: images.In_the_news,
-                      url: "/comingsoon",
+                      url: "/community/earn-free-crypto-rewards",
+                    },
+                  },
+                  {
+                    name: "Send crypto now",
+                    content: {
+                      heading: "Send crypto now",
+                      description:
+                        "The AI & ML Applications CoE harnesses the power of artificial intelligence and machine learning to deliver intelligent and data-driven solutions. Our team develops AI algorithms, trains machine learning models, and applies advanced analytics techniques to extract valuable insights from data. ",
+                      coverImage: images.In_the_news,
+                      url: "/community/send-crypto-now",
+                    },
+                  },
+                  {
+                    name: "Lower your fees",
+                    content: {
+                      heading: "Lower your fees",
+                      description:
+                        "The AI & ML Applications CoE harnesses the power of artificial intelligence and machine learning to deliver intelligent and data-driven solutions. Our team develops AI algorithms, trains machine learning models, and applies advanced analytics techniques to extract valuable insights from data. ",
+                      coverImage: images.In_the_news,
+                      url: "/community/lower-your-fees",
+                    },
+                  },
+                  {
+                    name: "Swag Shop",
+                    content: {
+                      heading: "Swag Shop",
+                      description:
+                        "The AI & ML Applications CoE harnesses the power of artificial intelligence and machine learning to deliver intelligent and data-driven solutions. Our team develops AI algorithms, trains machine learning models, and applies advanced analytics techniques to extract valuable insights from data. ",
+                      coverImage: images.In_the_news,
+                      url: "/community/swag-shop",
+                    },
+                  },
+                  {
+                    name: "Secure with Swissborg",
+                    content: {
+                      heading: "Secure with Swissborg",
+                      description:
+                        "The AI & ML Applications CoE harnesses the power of artificial intelligence and machine learning to deliver intelligent and data-driven solutions. Our team develops AI algorithms, trains machine learning models, and applies advanced analytics techniques to extract valuable insights from data. ",
+                      coverImage: images.In_the_news,
+                      url: "/community/secure-with-swissborg",
                     },
                   },
                 ],
               },
 
               article: {
-                heading: "Engineer",
+                heading: "Community",
                 description:
                   "As technology innovators, we engineer deep tech solutions for the modern enterprise. Our team of experienced engineers brings together the latest technologies and best practices to design and develop robust, scalable, and secure solutions. ",
                 coverImage: images.People_min,
-                url: "/services/engineer",
+                url: "/community/engineer",
               },
             },
             {
-              name: "Execute",
+              name: "Launchpad",
               subitems: {
-                name: "Execute",
+                name: "Launchpad",
                 items: [
                   {
-                    name: "Devops",
+                    name: "Multi-assets Launchpad",
                     content: {
-                      heading: "Devops",
+                      heading: "Multi-assets Launchpad",
                       description:
                         "Our DevOps CoE is dedicated to implementing DevOps practices, enabling organizations to achieve seamless collaboration between development and operations teams. We provide expertise in infrastructure automation, continuous integration and delivery (CI/CD), configuration management, and containerization.",
                       coverImage: images.In_the_news,
-                      url: "/services/devops-and-sre",
+                      url: "/launchpad/multi-assets-launchpad",
                     },
                   },
                   {
-                    name: "SRE",
+                    name: "SwissBorg Series A",
                     content: {
-                      heading: "SRE",
+                      heading: "SwissBorg Series A",
                       description:
                         "Our SRE CoE focuses on ensuring the reliability, scalability, and performance of digital solutions. We adopt SRE principles to proactively monitor systems, identify potential issues, and implement measures to enhance system reliability.",
                       coverImage: images.In_the_news,
-                      url: "/services/devops-and-sre",
+                      url: "/launchpad/swissborg-series-a",
                     },
                   },
-                  {
-                    name: "Migrations",
-                    content: {
-                      heading: "Migrations",
-                      description:
-                        "Assisting businesses in seamlessly migrating their infrastructure to the cloud, minimizing downtime, optimizing performance, and unlocking the benefits of cloud computing.",
-                      coverImage: images.In_the_news,
-                      url: "/services/cloud-migration",
-                    },
-                  },
-                  {
-                    name: "CSM",
-                    content: {
-                      heading: "CSM",
-                      description:
-                        "Mobius Consulting's Customer Success Management (CSM) services are designed to help businesses drive customer satisfaction, retention, and long-term success. With a focus on understanding customer needs, delivering personalized experiences. ",
-                      coverImage: images.In_the_news,
-                      url: "/services/csm",
-                    },
-                  },
-                  {
-                    name: "CSE",
-                    content: {
-                      heading: "CSE",
-                      description:
-                        "Mobius Consulting's CSE (Customer Support Engineering) services are designed to deliver exceptional customer support experiences, ensuring that businesses can effectively address customer inquiries, issues, and technical challenges. ",
-                      coverImage: images.In_the_news,
-                      url: "/services/cse",
-                    },
-                  },
-                  {
-                    name: "ETL",
-                    content: {
-                      heading: "ETL",
-                      description:
-                        "Building robust and efficient ETL (Extract, Transform, Load) pipelines to seamlessly integrate and transform data, empowering businesses to derive valuable insights and make informed decisions.",
-                      coverImage: images.In_the_news,
-                      url: "/services/etl-pipelines",
-                    },
-                  },
-                  {
-                    name: "Product Design",
-                    content: {
-                      heading: "Product Design",
-                      description:
-                        "Mobius Consulting specializes in UX (User Experience) Design services to help businesses create intuitive and user-centric digital experiences. By leveraging human-centered design principles, research methodologies, and industry best practices, Mobius Consulting enables businesses to understand their users' needs, behaviors, and preferences. ",
-                      coverImage: images.In_the_news,
-                      url: "/services/ux-design",
-                    },
-                  },
+
                 ],
               },
 
               article: {
-                heading: "Execute",
+                heading: "Launchpad",
                 description:
                   "At Mobius, we are always on the lookout for talented individuals to join our team and help us shape the future of enterprise data solutions. We offer a dynamic and challenging work environment, with opportunities for growth, learning, and innovation. If you are passionate about data, technology, and making a positive impact on businesses worldwide, we invite you to explore our current job openings and take the first step towards a fulfilling career with us.",
                 coverImage: images.People_min,
-                url: "/services/execute",
+                url: "/launchpad/multi-assets-launchpad",
               },
             },
           ],

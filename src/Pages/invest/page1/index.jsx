@@ -53,7 +53,7 @@ function Page1() {
         <Newsletter />
       </section>
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

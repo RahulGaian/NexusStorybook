@@ -56,9 +56,9 @@ export const notifyMeData = {
     btn_text_color: "",
     btn_bg_color: "",
 
-    imgURL1: "./Images/notifyMe/appleStore.svg",
-    imgURL2: "./Images/notifyMe/googlePlay.svg",
-    imgURL3: "./Images/notifyMe/scanLogo.svg",
+    imgURL1: "/Images/notifyMe/appleStore.svg",
+    imgURL2: "/Images/notifyMe/googlePlay.svg",
+    imgURL3: "/Images/notifyMe/scanLogo.svg",
 
     bg_color: "#fff",
   },

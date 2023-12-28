@@ -2,7 +2,7 @@ export const dynamic4OptionData = {
   d4Cmp1: [
     {
       buttonLabel: "Best execution",
-      imgSrc: "./Images/DynamicSlider/dc4Option1/uniqueTradingPairs.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option1/uniqueTradingPairs.png",
       heading: "Buy, sell & exchange always at the best available price",
       para: "Market volatility often leads to price differences across exchanges. Our Smart Engine takes advantage of this by finding the best execution route every time, meaning you get the best price from multiple exchanges.",
       flexDirection: "row",
@@ -10,7 +10,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Unique trading pairs",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Access 3,283 unique crypto to fiat trading pairs",
       para: "Trade any fiat or crypto pair, even if it doesn’t exist on any exchange. EUR to BORG, or CHF to PAX Gold and more! We do all the conversions for you and find the best route and price.",
       flexDirection: "row",
@@ -18,7 +18,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Transparent",
-      imgSrc: "./Images/DynamicSlider/dc4Option1/uniqueTradingPairs.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option1/uniqueTradingPairs.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row",
@@ -26,7 +26,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "No hidden fees",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Enjoy zero spreads and no inflated exchange rates",
       para: "While other apps claim “zero fees” but hide them in the exchange rate or spread, we always offer the best possible price without taking a cut. Instead, we charge a small transparent fee that we reinvest into the ecosystem.",
       flexDirection: "row",
@@ -36,7 +36,7 @@ export const dynamic4OptionData = {
   d4Cmp2: [
     {
       buttonLabel: "Balance",
-      imgSrc: "./Images/DynamicSlider/dc4Option2/balance.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option2/balance.png",
       heading: "View your historical balance",
       para: "Get a quick overview of your total deposits, withdrawals, fees and profit/loss. With Portfolio Visualizer, visualise how your portfolio has grown over time.",
       flexDirection: "row",
@@ -44,7 +44,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Profit/Loss",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Access 3,283 unique crypto to fiat trading pairs",
       para: "Trade any fiat or crypto pair, even if it doesn’t exist on any exchange. EUR to BORG, or CHF to PAX Gold and more! We do all the conversions for you and find the best route and price.",
       flexDirection: "row",
@@ -52,7 +52,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Fees",
-      imgSrc: "./Images/DynamicSlider/dc4Option2/balance.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option2/balance.png",
       heading: "View your historical balance",
       para: "Get a quick overview of your total deposits, withdrawals, fees and profit/loss. With Portfolio Visualizer, visualise how your portfolio has grown over time.",
       flexDirection: "row",
@@ -60,7 +60,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Allocation",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Enjoy zero spreads and no inflated exchange rates",
       para: "While other apps claim “zero fees” but hide them in the exchange rate or spread, we always offer the best possible price without taking a cut. Instead, we charge a small transparent fee that we reinvest into the ecosystem.",
       flexDirection: "row",
@@ -70,7 +70,7 @@ export const dynamic4OptionData = {
   d4Cmp3: [
     {
       buttonLabel: "CyBorg Predictor",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "The power of AI in your pocket",
       para: "The CyBorg Predictor is a machine learning algorithm that forecasts an asset's movement over the next 24 hours, combining more historical data and technical indicators than a human could ever compute!",
       flexDirection: "row",
@@ -78,7 +78,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "SwissBorg Indicator",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Buy, sell & exchange always at the best available price",
       para: "Market volatility often leads to price differences across exchanges. Our Smart Engine takes advantage of this by finding the best execution route every time, meaning you get the best price from multiple exchanges.",
       flexDirection: "row",
@@ -86,7 +86,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Community Sentiment",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row",
@@ -94,7 +94,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Support/Resistance",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Enjoy zero spreads and no inflated exchange rates",
       para: "While other apps claim “zero fees” but hide them in the exchange rate or spread, we always offer the best possible price without taking a cut. Instead, we charge a small transparent fee that we reinvest into the ecosystem.",
       flexDirection: "row",
@@ -104,7 +104,7 @@ export const dynamic4OptionData = {
   d4Cmp4: [
     {
       buttonLabel: "Align your pace",
-      imgSrc: "./Images/DynamicSlider/dc4Option4/alignYourPace.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option4/alignYourPace.png",
       heading: "Pace yourself with best practices",
       para: "To navigate the market with confidence and resilience, experts recommend staying committed to consistent and regular investment practices rather than trying to time the market.",
       flexDirection: "row-reverse",
@@ -112,7 +112,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Earn Yield",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Access 3,283 unique crypto to fiat trading pairs",
       para: "Trade any fiat or crypto pair, even if it doesn’t exist on any exchange. EUR to BORG, or CHF to PAX Gold and more! We do all the conversions for you and find the best route and price.",
       flexDirection: "row-reverse",
@@ -120,7 +120,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Diversify portfolio",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row-reverse",
@@ -130,7 +130,7 @@ export const dynamic4OptionData = {
   d4Cmp5: [
     {
       buttonLabel: "Long-term wealth",
-      imgSrc: "./Images/DynamicSlider/dc4Option5/longterm.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option5/longterm.png",
       heading: "Long term wealth building",
       para: "Auto-Invest reduces price volatility, leading to a smoother average buying price and potentially higher returns.",
       flexDirection: "row",
@@ -138,7 +138,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Invest better",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Access 3,283 unique crypto to fiat trading pairs",
       para: "Trade any fiat or crypto pair, even if it doesn’t exist on any exchange. EUR to BORG, or CHF to PAX Gold and more! We do all the conversions for you and find the best route and price.",
       flexDirection: "row",
@@ -146,7 +146,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "It’s stress free!",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row",
@@ -154,7 +154,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "You have the power",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row",
@@ -164,7 +164,7 @@ export const dynamic4OptionData = {
   d4Cmp6: [
     {
       buttonLabel: "Hero Score",
-      imgSrc: "./Images/DynamicSlider/dc4Option6/img1.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option6/img1.png",
       heading: "Increased utilities",
       para: "Auto-Invest reduces price volatility, leading to a smoother average buying price and potentially higher returns.",
       flexDirection: "row",
@@ -172,7 +172,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Sustainable token economics",
-      imgSrc: "./Images/infographicCards/core.png",
+      imgSrc: "/Images/infographicCards/core.png",
       heading: "Access 3,283 unique crypto to fiat trading pairs",
       para: "Trade any fiat or crypto pair, even if it doesn’t exist on any exchange. EUR to BORG, or CHF to PAX Gold and more! We do all the conversions for you and find the best route and price.",
       flexDirection: "row",
@@ -180,7 +180,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Governance model",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row",
@@ -188,7 +188,7 @@ export const dynamic4OptionData = {
     },
     {
       buttonLabel: "Exchange listings",
-      imgSrc: "./Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
+      imgSrc: "/Images/DynamicSlider/dc4Option3/cyBorgPredictor.png",
       heading: "Get a fully transparent exchange report",
       para: "With the Smart Exchange Report, you will be able to review and keep track of every exchange. Review all the details at each step of your exchange.",
       flexDirection: "row",

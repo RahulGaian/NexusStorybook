@@ -9,7 +9,7 @@ const SeriesBanner = () => {
       <div className={st.contentContainer}>
         <div className={st.leftCont}>
           <div className={st.fdiv}>
-            <Img src="./Images/swissborgA/logo.png" />
+            <Img src="/Images/swissborgA/logo.png" />
             <span id={st.mainHead}>SwissBorg Series A</span>
           </div>
           <span id={st.para}>
@@ -40,7 +40,7 @@ const SeriesBanner = () => {
           </span>
         </div>
         <div className={st.rightCont}>
-          <Img src="./Images/swissborgA/train.png" />
+          <Img src="/Images/swissborgA/train.png" />
         </div>
       </div>
     </div>

@@ -29,7 +29,7 @@ function InputCredential() {
               />
               <span className={style.inputLeftHidepw}>
                 <Img
-                  src="./Images/inputCredentails/hidePw.png"
+                  src="/Images/inputCredentails/hidePw.png"
                   className={style.inputLeftHidepwImg}
                   alt="Hide Password"
                 ></Img>
@@ -38,7 +38,7 @@ function InputCredential() {
             <div className={style.inputLeftBtnCont}>
               <button className={style.inputLeftBtn} onClick={handleSubmit}>
                 <Img
-                  src="./Images/inputCredentails/arrow.png"
+                  src="/Images/inputCredentails/arrow.png"
                   alt="Submit"
                 ></Img>
               </button>
@@ -46,7 +46,7 @@ function InputCredential() {
           </div>
           <div className={style.inputRight}>
             <p>Where is my Audit Credential ID?</p>
-            <Img src="./Images/inputCredentails/info.png"></Img>
+            <Img src="/Images/inputCredentails/info.png"></Img>
           </div>
         </div>
       </div>

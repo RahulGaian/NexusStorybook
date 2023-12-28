@@ -56,7 +56,7 @@ function Page9() {
         <Newsletter />
       </section>
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

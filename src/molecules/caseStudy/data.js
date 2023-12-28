@@ -1,6 +1,6 @@
 export const caseStudyData = {
     caseStudy: {
-        imgURL: "./Images/caseStudy/caseStudy.png",
+        imgURL: "/Images/caseStudy/caseStudy.png",
         heading: "Reallocations so your investment stays up-to-date",
         para: "Reallocations update your Thematic’s tokensand their percentages (%) as the market evolves and new projects emerge. Invest with peace of mind knowing SwissBorg's team regularly checks and updates the tokens in your Thematics.",
         buttonText: "Get Started",
@@ -13,7 +13,7 @@ export const caseStudyData = {
     },
 
     caseStudy2: {
-        imgURL: "./Images/caseStudy/autopilot.png",
+        imgURL: "/Images/caseStudy/autopilot.png",
         heading: "Relax on autopilot",
         para: "As projects launch and shift, our advanced algorithms automatically update your Thematic. So you can sit back and relax, knowing that your investments are always up- to-date.",
         buttonText: "Get Started",
@@ -26,7 +26,7 @@ export const caseStudyData = {
     },
 
     caseStudy3: {
-        imgURL: "./Images/caseStudy/getPremium.png",
+        imgURL: "/Images/caseStudy/getPremium.png",
         heading: "Fees",
         para: "Our fees vary according to your Premium tier. Upgrade to any of our Premium plans to save on fees. View the table to see the fee % per transaction value (3 EUR minimum fee for all Premium levels, except for Standard and Explorer accounts, which pay 5 EUR minimum fee).",
         buttonText: "Get Premium",
@@ -40,7 +40,7 @@ export const caseStudyData = {
     },
 
     // caseStudy4: {
-    //     imgURL: "./Images/caseStudy/community1.png",
+    //     imgURL: "/Images/caseStudy/community1.png",
     //     heading: "Fees",
     //     para: "Our fees vary according to your Premium tier. Upgrade to any of our Premium plans to save on fees. View the table to see the fee % per transaction value (3 EUR minimum fee for all Premium levels, except for Standard and Explorer accounts, which pay 5 EUR minimum fee).",
     //     buttonText: "Tell me more",

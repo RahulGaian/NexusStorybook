@@ -2,7 +2,7 @@ export const headnImgData = {
   fiatCrypto: {
     heading: "Go from Fiat to Crypto in an instant!",
     para: "Connect to Binance, HitBTC, LMAX, Kraken, Bitfinex, Orca and Phoenix exchanges and get the best liquidity and rates in seconds.",
-    imgURL: "./Images/headnImg/fiatCrypto.png",
+    imgURL: "/Images/headnImg/fiatCrypto.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "",
@@ -13,7 +13,7 @@ export const headnImgData = {
   Basket: {
     heading: "More than a basket of tokens",
     para: "Strengthen your investments with the most promising crypto themes.",
-    imgURL: "./Images/headnImg/basket.png",
+    imgURL: "/Images/headnImg/basket.png",
     bgColor: "linear-gradient(180deg, #004A81 0%, #007CD7 100%)",
     headParaTxtColor: "#FFF",
     btnctn: "Get Started",
@@ -24,7 +24,7 @@ export const headnImgData = {
   appAssets: {
     heading: "SwissBorg app supported assets",
     para: "The SwissBorg app provides support for different cryptocurrencies. Watch this space for updates as we strive to bring you more listings.",
-    imgURL: "./Images/headnImg/appAsset.png",
+    imgURL: "/Images/headnImg/appAsset.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "",
@@ -35,7 +35,7 @@ export const headnImgData = {
   accountAnalysis: {
     heading: "Useful Account Analysis at the tap of a finger",
     para: "Portfolio Visualizer, a free tool, provides in-depth investment analysis and statistics in an easy-to-understand format.",
-    imgURL: "./Images/headnImg/accountAnalysis.png",
+    imgURL: "/Images/headnImg/accountAnalysis.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "",
@@ -46,7 +46,7 @@ export const headnImgData = {
   swissBorgEarn: {
     heading: "Earn crypto your way with SwissBorg Earn",
     para: "Investors aren’t one-size-fits-all, so why is your yield? Generate the right yield for you with SwissBorg Earn.",
-    imgURL: "./Images/headnImg/swissborgearn.png",
+    imgURL: "/Images/headnImg/swissborgearn.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "Notify Me",
@@ -57,7 +57,7 @@ export const headnImgData = {
   topUp: {
     heading: "Top Up and invest in seconds!",
     para: "You can now fund your account using your card and start buying cryptos. It’s fast, secure and EASY!",
-    imgURL: "./Images/headnImg/swissborgearn.png",
+    imgURL: "/Images/headnImg/swissborgearn.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "Notify Me",
@@ -68,7 +68,7 @@ export const headnImgData = {
   smartInvestment: {
     heading: "Make smart investment decisions with the help of AI",
     para: "Automated crypto asset analysis will boost your investment intelligence.",
-    imgURL: "./Images/headnImg/smartInvestment.png",
+    imgURL: "/Images/headnImg/smartInvestment.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "",
@@ -79,7 +79,7 @@ export const headnImgData = {
   autoInvest: {
     heading: "Automate your investments",
     para: "Wealth building requires patience, knowledge and discipline. What if all it took was just one good start? Say goodbye to worries! Unlock your wealth potential with Auto- Invest today.",
-    imgURL: "./Images/headnImg/autoInvest.png",
+    imgURL: "/Images/headnImg/autoInvest.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "Get Started",
@@ -90,7 +90,7 @@ export const headnImgData = {
   heroes: {
     heading: "SwissBorg Heroes",
     para: "Conquer market cycles on your wealth management journey with SwissBorg and unlock exclusive rewards along the way",
-    imgURL: "./Images/headnImg/heroes.png",
+    imgURL: "/Images/headnImg/heroes.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "Go to Hall of Fame",
@@ -101,7 +101,7 @@ export const headnImgData = {
   borg: {
     heading: "BORG is here",
     para: "With SwissBorg, you have the opportunity not only to be a user but to become a real contributor by holding BORG tokens and benefiting from the growth of the ecosystem.",
-    imgURL: "./Images/headnImg/BORG.png",
+    imgURL: "/Images/headnImg/BORG.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "Go to Hall of Fame",
@@ -112,7 +112,7 @@ export const headnImgData = {
   zeroFees: {
     heading: "Zero fees, zero time, zero borders!",
     para: "Send cryptos easily, no matter the coin or the occasion, with 0 gas fees, in an instant. The Smart Send feature works with all the crypto assets in our app and for users in over 115 countries.",
-    imgURL: "./Images/headnImg/globe.webp.png",
+    imgURL: "/Images/headnImg/globe.webp.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "",
@@ -123,7 +123,7 @@ export const headnImgData = {
   unlock: {
     heading: "Unlock unique benefits with Premium",
     para: "Boost your yield and lower your fees for just 500 BORG",
-    imgURL: "./Images/headnImg/unlock.png",
+    imgURL: "/Images/headnImg/unlock.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "How to upgrade",
@@ -134,7 +134,7 @@ export const headnImgData = {
   secure: {
     heading: "Secure with SwissBorg",
     para: "By prioritising transparency, SwissBorg enables every community member to verify that their custodied assets have been  accounted for and included in the company’s total users liabilities.",
-    imgURL: "./Images/headnImg/secure.png",
+    imgURL: "/Images/headnImg/secure.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
     btnctn: "Validate my balance",

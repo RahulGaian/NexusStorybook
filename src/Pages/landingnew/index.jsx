@@ -61,7 +61,7 @@ const Landingpagenew = () => {
                       <div>Learn More</div>{" "}
                       <div className="nexus_rightarrow">
                         <Img
-                          src={"./Images/landing/Arrow.png"}
+                          src={"/Images/landing/Arrow.png"}
                           alt="rightarrow"
                         />
                       </div>
@@ -133,7 +133,7 @@ const Landingpagenew = () => {
               <div className="third_bg_left_content">
                 <div className="Ark_logo">
                   <Img
-                    src={"./Images/landing/ARK-multicasting.png"}
+                    src={"/Images/landing/ARK-multicasting.png"}
                     alt="Ark_logo"
                   />
                 </div>
@@ -151,11 +151,11 @@ const Landingpagenew = () => {
               <div className="third_bg_right_content">
                 <div className="mobius_logo_">
                   <Img
-                    src={"./Images/landing/Mobius Logo_Black 1.png"}
+                    src={"/Images/landing/Mobius Logo_Black 1.png"}
                     alt="Mobius-white-logo"
                   />
                   {/* <Img
-                    src={"./Images/landing/Mobius-written.png"}
+                    src={"/Images/landing/Mobius-written.png"}
                     alt="Mobius-written"
                   /> */}
                 </div>
@@ -178,7 +178,7 @@ const Landingpagenew = () => {
         <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
             <section className="content_nab-show">
-              <Img src={"./Images/landing/NAB-show.png"} alt="NAB" />
+              <Img src={"/Images/landing/NAB-show.png"} alt="NAB" />
             </section>
 
             <section className="content_text">
@@ -189,7 +189,7 @@ const Landingpagenew = () => {
             </section>
 
             <section className="winner_Img">
-              <Img src={"./Images/landing/2023-winner.png"} alt="winner" />
+              <Img src={"/Images/landing/2023-winner.png"} alt="winner" />
             </section>
           </div>
         </div>

@@ -9,6 +9,9 @@ import Contact from "./Pages/contact/index";
 import SolutionPage from "./Pages/Solutions";
 import ProductsPage from "./Pages/Products";
 import PlatformPage from "./Pages/Platform";
+
+import InvestPages from "./Pages/invest";
+import CommunityPages from "./Pages/community";
 function App() {
   return (
     <Router>
@@ -31,6 +34,14 @@ function App() {
 
             <Route path="/platform/:id" element={<PlatformPage/>}>
             </Route>  
+
+              <Route path="/invest/*" element={<InvestPages/>}>
+                
+                </Route>
+                <Route path="/community/*" element={<CommunityPages/>}>
+                
+                </Route>
+            
             </Routes>
         <Footer/>
     </Router>

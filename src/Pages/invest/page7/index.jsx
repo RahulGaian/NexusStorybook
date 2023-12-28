@@ -61,7 +61,7 @@ const Page7 = () => {
       </section>
 
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

@@ -11,7 +11,7 @@ const AnalysisExcerpt = () => {
           </h1>
           <div className={st.middleContainer}>
             <div className={st.fdiv}>
-              <Img src="./Images/analysisExcerpt/img1.png" />
+              <Img src="/Images/analysisExcerpt/img1.png" />
               <div style={{ display: "flex", flexDirection: "column" }}>
                 <span id={st.cardHead}>Live BORG Analysis</span>
                 <span id={st.para}>
@@ -32,7 +32,7 @@ const AnalysisExcerpt = () => {
                   <span id={st.tspan1}>CyBorg Predictor</span>
                 </div>
                 <div className={st.ttdivd2}>
-                  <Img src="./Images/analysisExcerpt/arrowUp.png"></Img>
+                  <Img src="/Images/analysisExcerpt/arrowUp.png"></Img>
                   <div id={st.arrdiv1}>bullish</div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const AnalysisExcerpt = () => {
                   <span id={st.tspan1}>SwissBorg Indicator</span>
                 </div>
                 <div className={st.ttdivd2}>
-                  <Img src="./Images/analysisExcerpt/arrowDown.png"></Img>
+                  <Img src="/Images/analysisExcerpt/arrowDown.png"></Img>
                   <div id={st.arrdiv2}>bearish</div>
                 </div>
               </div>

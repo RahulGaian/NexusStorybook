@@ -20,7 +20,7 @@ function Cookies() {
         <div className={style.cookiesHeader}>
           <div className={style.cookiesLeftHeader}>
             <img
-              src="./Images/cookies/cookies-icon.png"
+              src="/Images/cookies/cookies-icon.png"
               alt="cookies-icon"
               className={style.cookiesLeftImage}
             />
@@ -31,7 +31,7 @@ function Cookies() {
           <div className={style.cookiesRightHeader}>
             <p>English</p>
             <img
-              src="./Images/cookies/cookies-arrow.png"
+              src="/Images/cookies/cookies-arrow.png"
               alt="cookies-icon"
               className={style.cookiesRightImage}
             />
@@ -91,7 +91,7 @@ function Cookies() {
         <div className={style.mobileCookiesHeader}>
           <div className={style.mobileCookiesLeftHeader}>
             <img
-              src="./Images/cookies/cookies-icon.png"
+              src="/Images/cookies/cookies-icon.png"
               alt="cookies-icon"
               className={style.mobileCookiesLeftImage}
             />
@@ -102,7 +102,7 @@ function Cookies() {
           <div className={style.mobileCookiesRightHeader}>
             <p>English</p>
             <img
-              src="./Images/cookies/cookies-arrow.png"
+              src="/Images/cookies/cookies-arrow.png"
               alt="cookies-icon"
               className={style.mobileCookiesRightImage}
             />

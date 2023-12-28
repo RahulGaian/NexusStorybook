@@ -14,7 +14,7 @@ export const AuditList = () => <GetStarted data={getStartedData.auditList} />;
 export const Argstest = {
   args: {
     data: {
-      imgURL: "./Images/getStarted/iconsimage.png",
+      imgURL: "/Images/getStarted/iconsimage.png",
       contenttxt:
         "Boost your earnings and lower your fees with SwissBorg Premium",
       btntext: "Get started",

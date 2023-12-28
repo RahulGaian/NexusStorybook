@@ -14,7 +14,7 @@ function PoppedupImage() {
           </p>
         </div>
         <div className={style.poppedRight}>
-          <Img src="./Images/poppedupImage/robo.png"></Img>
+          <Img src="/Images/poppedupImage/robo.png"></Img>
         </div>
       </div>
     </div>

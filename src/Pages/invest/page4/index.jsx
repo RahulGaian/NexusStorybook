@@ -69,7 +69,7 @@ function Page4() {
         <Newsletter />
       </section>
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

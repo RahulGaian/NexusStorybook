@@ -7,7 +7,7 @@ function ThreeInfographic() {
     <div className={style.infographicContainer}>
       <div className={style.infographicContentContainer}>
         <div className={style.infographicLeft}>
-          <Img src="./Images/threePointInfographic/infoImg.png"></Img>
+          <Img src="/Images/threePointInfographic/infoImg.png"></Img>
         </div>
         {/* <div className={style.infographicRightCont}> */}
         <div className={style.infographicRight}>

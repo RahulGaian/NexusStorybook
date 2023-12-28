@@ -1,6 +1,6 @@
 export const curveContainerData = {
   curveContainer1: {
-    imgURL: "./Images/curveContainer/curveContainerImage.png",
+    imgURL: "/Images/curveContainer/curveContainerImage.png",
     heading: "Invest in the internet of the future!",
     para: "Grow your wealth with Web3 Thematic.",
     buttonText: "Learn more",
@@ -11,7 +11,7 @@ export const curveContainerData = {
     wrapper_border: "80px 10px"
   },
   curveContainer2: {
-    imgURL: "./Images/curveContainer/curveContainerImage2.png",
+    imgURL: "/Images/curveContainer/curveContainerImage2.png",
     heading: "Smart Send crypto to invite your friends to the SwissBorg app!",
     para: "When they deposit EUR50 in any asset, you'll both get a free Reward Ticket!",
     buttonText: "Send now",

@@ -63,7 +63,7 @@ function Page8() {
         <Newsletter />
       </section>
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

@@ -12,7 +12,7 @@
 //         </div>
 //         <div className={style.executiveDetailsCont}>
 //           <div className={style.executiveDetails}>
-//             <Img src="./Images/executiveTeam/pic1.png"> </Img>
+//             <Img src="/Images/executiveTeam/pic1.png"> </Img>
 //             <div className={style.executiveName}>
 //               <h6>Cyrus Fazel</h6>
 //               <p>CEO, Founder</p>

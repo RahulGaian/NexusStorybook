@@ -174,27 +174,27 @@ export const Careers = () => {
                 <h1>What we Offer</h1>
                    <div className="benContainer">
                    <div id="bc1" className="bencont">
-                        <img src={require("./images/User Multiple Female Group.png")} alt="" />
+                        <img src={require("/Images/User Multiple Female Group.png")} alt="" />
                         <span>“People First” mindset</span>
                     </div>
                     <div id="bc2" className="bencont">
-                        <img src={require("./images/Group 403.png")} alt="" />
+                        <img src={require("/Images/Group 403.png")} alt="" />
                         <span>Learning for Lifetime</span>
                     </div>
                     <div id="bc3" className="bencont">
-                        <img src={require("./images/Group 404.png")} alt="" />
+                        <img src={require("/Images/Group 404.png")} alt="" />
                         <span>Innovation & Perseverance is our tradecraft</span>
                     </div>
                     <div id="bc4" className="bencont">
-                        <img src={require("./images/Group 406.png")} alt="" />
+                        <img src={require("/Images/Group 406.png")} alt="" />
                         <span>Making winners of our workforce</span>
                     </div>
                     <div id="bc5" className="bencont">
-                        <img src={require("./images/Group 407.png")} alt="" />
+                        <img src={require("/Images/Group 407.png")} alt="" />
                         <span>Value creation for all our stakeholders</span>
                     </div>
                     <div id="bc6" className="bencont">
-                        <img src={require("./images/Business To Business Plan.png")} alt="" />
+                        <img src={require("/Images/Business To Business Plan.png")} alt="" />
                         <span>Personalized career plan and development</span>
                     </div>
                 </div>

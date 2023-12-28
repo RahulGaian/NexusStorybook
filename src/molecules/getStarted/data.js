@@ -1,6 +1,6 @@
 export const getStartedData = {
   getStarted: {
-    imgURL: "./Images/getStarted/iconsimage.png",
+    imgURL: "/Images/getStarted/iconsimage.png",
     contenttxt:
       "Boost your earnings and lower your fees with SwissBorg Premium",
     btntext: "Get started",
@@ -10,7 +10,7 @@ export const getStartedData = {
     btnbgcolor: "#FFF",
   },
   swissBorg: {
-    imgURL: "./Images/getStarted/swiss.png",
+    imgURL: "/Images/getStarted/swiss.png",
     contenttxt: "See all the SwissBorg Fees",
     btntext: "See all the fees",
     bgcolor:
@@ -20,7 +20,7 @@ export const getStartedData = {
     btnbgcolor: "#007CD7",
   },
   inviteFriends: {
-    imgURL: "./Images/getStarted/inviteFriends.png",
+    imgURL: "/Images/getStarted/inviteFriends.png",
     contenttxt: "Invite your friends and earn up to €100 in BORG",
     btntext: "Learn More",
     bgcolor: "linear-gradient(270deg, #41aeff 5%, #2e7dcd 100%)",
@@ -29,7 +29,7 @@ export const getStartedData = {
     btnbgcolor: "#FFF",
   },
   readBlog: {
-    imgURL: "./Images/getStarted/blog.png",
+    imgURL: "/Images/getStarted/blog.png",
     contenttxt: "Discover the next steps of the  Rock Solid BORG roadmap",
     btntext: "Read the blog post",
     bgcolor: "linear-gradient(270deg, #41aeff 5%, #2e7dcd 100%)",
@@ -38,7 +38,7 @@ export const getStartedData = {
     btnbgcolor: "#FFF",
   },
   auditList: {
-    imgURL: "./Images/getStarted/swiss.png",
+    imgURL: "/Images/getStarted/swiss.png",
     contenttxt: "Complete audits list",
     btntext: "See more",
     bgcolor:

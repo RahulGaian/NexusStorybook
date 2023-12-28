@@ -60,7 +60,7 @@ const Page5 = () => {
       </section>
 
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

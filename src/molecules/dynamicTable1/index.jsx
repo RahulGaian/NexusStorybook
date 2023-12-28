@@ -15,7 +15,7 @@ const DynamicTable1 = () => {
         </tr>
         <tr className={style.row}>
           <td className={style.col1div}>
-            <Img src={"./Images/table1/crypt.svg"}></Img>
+            <Img src={"/Images/table1/crypt.svg"}></Img>
             <p className={style.col1}>USD Coin</p>
             <p className={style.col1middle}>USDC</p>
             <div className={style.div1}>
@@ -34,10 +34,10 @@ const DynamicTable1 = () => {
             <p className={style.col4p}>$ 267.28B</p>
           </td>
           <td>
-            <Img src={"./Images/table1/crypt2.svg"}></Img>
+            <Img src={"/Images/table1/crypt2.svg"}></Img>
           </td>
           <td>
-            <Img src={"./Images/table1/Link.svg"}></Img>
+            <Img src={"/Images/table1/Link.svg"}></Img>
           </td>
         </tr>
       </thead>

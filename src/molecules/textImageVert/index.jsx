@@ -14,7 +14,7 @@ const TextImageVert = () => {
             invested making SwissBorg Series A one of the largest crowdfundings.
           </span>
           <div className={st.imgCont}>
-            <Img src="./Images/txtnImgVert/img.png" />
+            <Img src="/Images/txtnImgVert/img.png" />
           </div>
         </div>
       </div>
