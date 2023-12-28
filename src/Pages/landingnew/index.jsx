@@ -13,7 +13,6 @@ const Landingpagenew = () => {
   return (
     <>
       <div className="Landing_page_Container">
-        <Header />
         <section className="Landing_top_bg">
           <div className="video-background">
             <video
@@ -68,18 +67,13 @@ const Landingpagenew = () => {
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <a href="#mapcomp" className={"mapbutton"}>
-                      <Img
-                        style={{
-                          width: "40px",
-                          textAlign: "center",
-                          marginTop: "20px",
-                        }}
-                        src={"/Images/landing/down.svg"}
-                      ></Img>
-                    </a>
-                  </div>
+                      <div id="downArrow">
+                              <a href="#mapcomp" className={"mapbutton"}>
+
+                              <Img style={{width:"40px",textAlign:"center",marginTop:"20px"}} src={"/Images/landing/down.svg"}></Img>
+                              </a>
+                      </div>
+                  
                 </div>
               </div>
             </div>
@@ -209,10 +203,13 @@ const Landingpagenew = () => {
           <div style={{ margin: "5%" }}>{<AndroidApps />}</div>
         </div> */}
       </div>
+<<<<<<< HEAD
 
       <section>
         <Footer />
       </section>
+=======
+>>>>>>> 2da5251f0264b92e278dfb2647c4a7a62a696720
     </>
   );
 };
