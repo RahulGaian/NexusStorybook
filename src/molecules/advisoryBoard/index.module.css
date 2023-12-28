@@ -1,0 +1,122 @@
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.advisoryContainer {
+  width: 100%;
+  display: flex;
+  padding: 60px 0px 120px 0px;
+  flex-direction: column;
+  align-items: center;
+  background: var(--Blue, #007cd7);
+}
+
+.advisoryContentCont {
+  width: 1700px;
+}
+
+.advisoryTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid white;
+  /* padding: 10% 0px; */
+  padding-bottom: 10%;
+}
+
+.advisoryTopImg {
+  width: 660px;
+  height: 456.3px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.advisoryTopContent {
+}
+
+.advisoryTopContent h1 {
+  max-width: 700px;
+  color: var(--Color, #fff);
+  font-family: ITC;
+  font-size: 41.063px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55.2px; /* 134.429% */
+}
+
+.advisoryTopContent p {
+  max-width: 700px;
+  color: var(--Color, #fff);
+  font-family: ITC;
+  font-size: 17.875px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.advisoryBottom {
+  display: flex;
+  padding-top: 10%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30%;
+}
+
+.advisoryBottomHeader h1 {
+  color: var(--Color, #fff);
+  font-family: ITC;
+  font-size: 30.234px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 41.4px; /* 136.93% */
+}
+
+.advisoryBottomContentCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+.advisoryBottomContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.advisoryBottomImg Img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.advisoryBottomName {
+  display: flex;
+  flex-direction: column;
+}
+
+.advisoryBottomName h1 {
+  max-height: 20.7px;
+  color: var(--Color, #fff);
+  font-family: ITC;
+  font-size: 15.469px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.7px; /* 133.818% */
+  margin: 0;
+}
+
+.advisoryBottomName p {
+  /* max-height: 20.7px; */
+  color: var(--Yellow, #ffa200);
+  text-align: center;
+  font-family: ITC;
+  font-size: 15.328px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.7px; /* 135.046% */
+  margin: 0;
+}

@@ -399,8 +399,13 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
-  border: 0.736px solid #FFCC47;
-  background: linear-gradient(91deg, rgba(5, 151, 255, 0.10) -1.56%, rgba(255, 205, 130, 0.10) 71.36%, rgba(255, 162, 0, 0.10) 101.57%);
+  border: 0.736px solid #ffcc47;
+  background: linear-gradient(
+    91deg,
+    rgba(5, 151, 255, 0.1) -1.56%,
+    rgba(255, 205, 130, 0.1) 71.36%,
+    rgba(255, 162, 0, 0.1) 101.57%
+  );
   margin: 6% auto;
 }
 
@@ -655,7 +660,6 @@
     width: 160px;
     height: 120px;
   }
-
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1250px) {
@@ -1168,7 +1172,6 @@
 
 /* ----mobile view------------ */
 @media screen and (max-width: 600px) and (min-width: 100px) {
-
   /* .mobile_view_Img {
     display: block !important;
     padding-top: 100px;
@@ -1180,7 +1183,6 @@
     height: 250px;
   } */
 
-  
   /* third_bg_contaniner--------------------------------------------------- */
   .third_bg_contaniner {
     min-height: fit-content;
@@ -1703,7 +1705,7 @@
   .content_text p {
     margin: 0 auto;
     padding-top: 30px;
-    text-align: center  !important;
+    text-align: center !important;
   }
 
   .winner_Img {
@@ -1919,8 +1921,8 @@
 }
 
 @media screen and (max-width: 320px) and (min-width: 100px) {
-   /* -------------mobius_won_wrapper--------- */
-   .mobius_won_content {
+  /* -------------mobius_won_wrapper--------- */
+  .mobius_won_content {
     width: 90%;
     min-height: 120px;
     max-height: fit-content;
@@ -1951,7 +1953,7 @@
 
   .winner_Img {
     position: absolute !important;
-    top:15px !important;
+    top: 15px !important;
     right: 4px;
     width: 80px !important;
     height: 45px !important;
@@ -1960,12 +1962,10 @@
   .winner_Img img {
     width: 85% !important;
   }
-
-  }
-
+}
 
 @media screen and (max-width: 600px) {
-  #downArrow{
+  #downArrow {
     margin-left: 30%;
   }
 }
