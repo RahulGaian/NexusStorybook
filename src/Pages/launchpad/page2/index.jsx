@@ -19,7 +19,7 @@ const LaunchpadPage2 = () => {
       
 
       <section>
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );

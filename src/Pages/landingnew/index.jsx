@@ -1,5 +1,5 @@
 import React from "react";
-import "./landing.css";
+import "./landing2.css";
 import AppSwiper from "../../components/appSwiper";
 import AndroidApps from "../../components/AndroidAppsSwiper";
 import MapComponent from "../../components/map_component/components/comp";
@@ -23,7 +23,7 @@ const Landingpagenew = () => {
             >
               <source src={ process.env.PUBLIC_URL + "/video/2.mp4"} type="video/mp4" />
             </video>
-            <div className="bannerContentContainer">
+            <div className="bannerContentContainer " id="abcdef">
               <h1>Nexus Connect</h1>
               <div className="bannerContentWrapper1">
                 <div className="bannerContentland">
