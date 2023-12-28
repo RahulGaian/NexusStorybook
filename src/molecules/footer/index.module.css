@@ -239,6 +239,7 @@
     padding: 60px 0px;
     gap: 20px;
     justify-content: flex-start;
+    overflow: hidden;
   }
   .firstclmn,
   .secondclmn,
