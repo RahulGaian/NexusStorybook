@@ -203,13 +203,6 @@ const Landingpagenew = () => {
           <div style={{ margin: "5%" }}>{<AndroidApps />}</div>
         </div> */}
       </div>
-<<<<<<< HEAD
-
-      <section>
-        <Footer />
-      </section>
-=======
->>>>>>> 2da5251f0264b92e278dfb2647c4a7a62a696720
     </>
   );
 };
