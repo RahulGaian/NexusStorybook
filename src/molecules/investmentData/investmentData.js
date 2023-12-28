@@ -44,4 +44,30 @@ export const InvestmentData = {
       investorsName: "BORG bought by heroes in Season 1",
     },
   ],
+  investmentFour: [
+    {
+      investors: "$1.4B",
+      investorsName: "Best valuation (2021)",
+    },
+    {
+      investors: "746K+",
+      investorsName: "Verified users",
+    },
+    {
+      investors: "$0.96B",
+      investorsName: "Users' asset value",
+    },
+    {
+      investors: "113K",
+      investorsName: "Token holders",
+    },
+    {
+      investors: "175K",
+      investorsName: "Social Followers",
+    },
+    {
+      investors: "221",
+      investorsName: "Employees",
+    },
+  ],
 };

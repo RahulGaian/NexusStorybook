@@ -121,7 +121,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 40px;
     height: 150px;
   }
@@ -132,8 +132,8 @@
     justify-content: center;
   }
   .yieldImage {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     flex-shrink: 0;
   }
   .yieldNameCont {
@@ -147,7 +147,7 @@
     max-height: 25.3px;
     color: #191e29;
     font-family: ITC;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 25.3px; /* 135.046% */
