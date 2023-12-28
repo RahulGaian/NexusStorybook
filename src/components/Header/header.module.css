@@ -166,6 +166,7 @@
   background: #FFA200;
   border-radius: 10px;
   color: #ffffff;
+  border: none;
 }
 
 #login {
@@ -281,9 +282,9 @@
     align-items: center;
     width: 10rem;
     height: 50px;
-    background: #ad00a2;
     border-radius: 10px;
     color: #ffffff;
+    border: none;
   }
 
   #contents {
@@ -302,7 +303,6 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 23px;
-    color: #3d3d3d;
     cursor: pointer;
     justify-content: flex-start;
   }
