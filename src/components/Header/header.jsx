@@ -2182,7 +2182,7 @@ function Header() {
                     handleservice();
                   }}
                 >
-                  SERVICES
+                  TOKENOMICS
                 </div>
 
                 <div className={Style.bottombar}></div>

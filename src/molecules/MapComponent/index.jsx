@@ -72,7 +72,7 @@ export function Map({setClick,clicked}) {
 
           if(counterZoom == 0){
             location_finder();
-            // splineRef.setZoom(1.3)
+            splineRef.setZoom(1.3)
 
             counterZoom++;
           
