@@ -16,3 +16,6 @@ export const Investment2 = () => (
 export const Investment3 = () => (
   <Investment data={InvestmentData.investmentThree} />
 );
+export const Investment4 = () => (
+  <Investment data={InvestmentData.investmentFour} />
+);

@@ -78,7 +78,7 @@ export const headnImgData = {
   },
   autoInvest: {
     heading: "Automate your investments",
-    para: "Wealth building requires patience, knowledge and discipline. What if all it took was just one good start? </br> Say goodbye to worries! Unlock your wealth potential with Auto- Invest today.",
+    para: "Wealth building requires patience, knowledge and discipline. What if all it took was just one good start? Say goodbye to worries! Unlock your wealth potential with Auto- Invest today.",
     imgURL: "./Images/headnImg/autoInvest.png",
     bgColor: "none",
     headParaTxtColor: "#4C4C4C",
