@@ -7,5 +7,5 @@ export default {
 };
 
 export const Solutions = () => (
-  <SolutionPageIndex   solution={solutionData[0]}/>
+  <SolutionPageIndex   solution={solutionData[8]}/>
 );

@@ -1,28 +1,39 @@
 {
-  "name": "nexus-connect-website",
+  "name": "nexus",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.92.5",
     "@react-three/fiber": "^8.15.12",
     "@splinetool/react-spline": "^2.2.6",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "html2canvas": "^1.4.1",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.9.1",
+    "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.12.0",
-    "react-leaflet": "^4.2.1",
-    "react-leaflet-markercluster": "^3.0.0-rc1",
-    "react-router-dom": "^6.19.0",
+    "react-icons": "^4.9.0",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.1.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.11.2",
+    "redux": "^4.2.1",
+    "swiper": "^9.4.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/preset-create-react-app": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-webpack5": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "eslint-plugin-storybook": "^0.6.15",
+    "prop-types": "^15.8.1",
     "react-scripts": "^5.0.1",
-    "react-simple-maps": "^3.0.0",
-    "react-three-fiber": "^6.0.13",
-    "swiper": "^9.4.1",
-    "web-vitals": "^2.1.4"
+    "storybook": "^7.6.6",
+    "webpack": "^5.89.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,6 +47,7 @@
     "extends": [
       "react-app",
       "react-app/jest",
+      "plugin:storybook/recommended",
       "plugin:storybook/recommended"
     ]
   },
@@ -50,21 +62,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@storybook/addon-essentials": "^7.6.4",
-    "@storybook/addon-interactions": "^7.6.4",
-    "@storybook/addon-links": "^7.6.4",
-    "@storybook/addon-onboarding": "^1.0.10",
-    "@storybook/blocks": "^7.6.4",
-    "@storybook/preset-create-react-app": "^7.6.4",
-    "@storybook/react": "^7.6.4",
-    "@storybook/react-webpack5": "^7.6.4",
-    "@storybook/test": "^7.6.4",
-    "eslint-plugin-storybook": "^0.6.15",
-    "prop-types": "^15.8.1",
-    "storybook": "^7.6.4",
-    "webpack": "^5.89.0"
   }
 }
