@@ -291,9 +291,10 @@
     align-items: center;
   }
   .caseStudyContentContainerCS > .leftdiv > img {
-    width: 450px;
+    width: 400px;
     height: 350px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .caseStudyContentContainerCS > .rightdiv > h2 {
     font-size: 24px;
@@ -338,14 +339,15 @@
   }
   .caseStudyContentContainerCS > .leftdiv {
     display: flex;
-    width: 50%;
+    width: 5  0%;
     justify-content: center;
     align-items: center;
   }
   .caseStudyContentContainerCS > .leftdiv > img {
-    width: 600px;
+    width: 300px;
     height: 250px;
     border-radius: 8px;
+    object-fit: cover;
   }
   .caseStudyContentContainerCS > .rightdiv > h2 {
     font-size: 18px;

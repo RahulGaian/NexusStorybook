@@ -7,7 +7,7 @@ import "../SolutionPages/SolutionPageIndex.css";
 import ProductContent from "../../components/productComponents/productContent/productContent";
 import SolutionPageBanner from "../../components/solutionPageComponents/SolutionPageBanner/SolutionPageBanner";
 import Blobs from "../../molecules/blobs";
-// import "./products.css";
+import "./products.css";
 // import CSVFILE from "./test-products - Sheet 1.csv"
 const Products = ({ datas }) => {
   // console.log(datas)
@@ -37,7 +37,7 @@ const Products = ({ datas }) => {
 
   
 
-        <section className="solutionContainer" >
+        <section className="solutionContainer productContainer" >
 
         <Blobs top={"-200px"} left={"85%"}></Blobs>
       <Blobs top={"20%"} color="yellow" left={"-200px"}></Blobs>

@@ -16,7 +16,7 @@ const SolutionPageIndex = ({ solution }) => {
  
     >
       <Blobs top={"-200px"} left={"85%"}></Blobs>
-      <Blobs top={"20%"} color="yellow" left={"-200px"}></Blobs>
+      <Blobs top={"12%"} color="yellow" left={"-200px"} radius="900px"></Blobs>
       <Blobs top={"38%"}  color="yellow" left={"85%"}></Blobs>
       <Blobs top={"50%"} color="yellow" left={"-200px"}></Blobs>
       <Blobs top={"63%"}   left={"85%"}></Blobs>
