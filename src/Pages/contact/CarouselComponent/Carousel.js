@@ -10,32 +10,32 @@ const Carousel = () => {
   const contentData = [
     {
       heading: "USA",
-      imagesrc1: "/images/contact/location pin.png",
+      imagesrc1: "/aidtaasImages/images/images/contact/location pin.png",
       description:
         "1968 S Coast Hwy, Suite 5011, Laguna Beach, California, USA 9265.",
-      imagesrc2: "/images/contact/phone.png",
+      imagesrc2: "/aidtaasImages/images/images/contact/phone.png",
       num: "+1 1800 123 1234",
-      imagesrc3: "/images/contact/envelope.png",
+      imagesrc3: "/aidtaasImages/images/images/contact/envelope.png",
       mail: "usaoffice@mobiusplatforms.com",
     },
     {
       heading: "India",
-      imagesrc1: "/images/contact/location pin.png",
+      imagesrc1: "/aidtaasImages/images/images/contact/location pin.png",
       description:
         "5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.",
-      imagesrc2: "/images/contact/phone.png",
+      imagesrc2: "/aidtaasImages/images/images/contact/phone.png",
       num: "+1 1800 123 1234",
-      imagesrc3: "/images/contact/envelope.png",
+      imagesrc3: "/aidtaasImages/images/images/contact/envelope.png",
       mail: "info@mobiusplatforms.com",
     },
     {
       heading: "Singapore",
-      imagesrc1: "/images/contact/location pin.png",
+      imagesrc1: "/aidtaasImages/images/images/contact/location pin.png",
       description:
         "11 Woodlands Close #07-13, Woodlands 11, Singapore (737853).",
-      imagesrc2: "/images/contact/phone.png",
+      imagesrc2: "/aidtaasImages/images/images/contact/phone.png",
       num: "+1 1800 123 1234",
-      imagesrc3: "/images/contact/envelope.png",
+      imagesrc3: "/aidtaasImages/images/images/contact/envelope.png",
       mail: "usaoffice@mobiusplatforms.com",
     },
   ];

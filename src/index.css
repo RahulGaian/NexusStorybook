@@ -59,3 +59,12 @@ code {
 .swiper-pagination{
   display: none;
 }
+
+html{
+  scroll-snap-type: y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+
+}

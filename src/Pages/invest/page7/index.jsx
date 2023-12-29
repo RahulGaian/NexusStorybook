@@ -18,10 +18,10 @@ import Blobs from "../../../molecules/blobs";
 const Page7 = () => {
   return (
     <section>
-           <Blobs top={"-10%"} left={"-200px"}></Blobs>
+      <Blobs top={"0%"} left={"-200px"}></Blobs>
       <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
       <Blobs top={"150%"} zIndex={1} left={"-200px"}></Blobs>
-      <Blobs top={"200%"}  zIndex={-1} color="yellow" left={"85%"}></Blobs>
+      {/* <Blobs top={"200%"}  zIndex={-1} color="yellow" left={"85%"}></Blobs> */}
       <section>
         <HeadnImg data={headnImgData.smartInvestment} />
       </section>
