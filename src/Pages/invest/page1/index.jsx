@@ -19,7 +19,7 @@ import Blobs from "../../../molecules/blobs";
 
 function Page1() {
   return (
-    <section>
+    <section >
       <Blobs top={"-10%"} left={"-200px"}></Blobs>
       <Blobs top={"60%"}  color="yellow" left={"85%"}></Blobs>
       <section>

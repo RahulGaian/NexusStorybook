@@ -44,7 +44,7 @@ function Company(props) {
           </div>
 
         </div>
-          <div className={Style.cont2}>
+          {/* <div className={Style.cont2}>
              <div className={Style.topcont1}>
              <div><h5 class={Style.head}>{data2.name}</h5></div>
             <div>
@@ -58,7 +58,7 @@ function Company(props) {
             </div>
              </div>
             
-          </div>
+          </div> */}
 
         
 

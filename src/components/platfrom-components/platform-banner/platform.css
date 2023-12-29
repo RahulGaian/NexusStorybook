@@ -48,7 +48,7 @@
   font-size: 11rem;
   line-height: 14rem;
   /* or 34% */
-  letter-spacing: -0.03em;
+  /* letter-spacing: -0.03em; */
   padding: 7rem 0rem 0rem 0rem;
   color: #005DA4;
 }

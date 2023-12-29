@@ -12,12 +12,15 @@ import Firstview from "./mobiledropdown/firstview";
 import images from "../../constants/images";
 import Services from "./menudropdown/service";
 import Img from "../Image";
+import { useLocation   } from "react-router-dom";
 // import Contact from '../../pages/contact';
 // import MobiusLogo from '../images/brand-logo.svg'
 // import Arrow from '../images/icons/loginarrow.png'
 // import Menu from "../images/icons/menu.svg"
 // import CloseOutline from "../images/icons/close-outline.svg"
 function Header() {
+  let location = useLocation();
+  console.log(location)
   const data = [
     {
       name: "solutions",
@@ -1085,7 +1088,7 @@ function Header() {
                       content: {
                         heading: "Community Engagements",
                         description:
-                          "CommunityX is the ultimate tool for community engagement, providing a comprehensive solution for live news, ImpressIO, metro integration, and traffic monitoring.",
+                        "CommunityX is the ultimate tool for community engagement, providing a comprehensive solution for live news, ImpressIO, metro integration, and traffic monitoring.",
                         url: "/products/community-engagements",
                         coverImage: images.Navbar9,
                       },
@@ -1501,161 +1504,161 @@ function Header() {
             },
           ],
         },
-        {
-          name: "Public ",
-          list: [
-            {
-              name: "NextGen TV Marketplace",
-              article: {
-                heading: "NextGen TV Marketplace",
-                description:
-                  "The NextGen TV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service. With a focus on NextGen TV technology, this marketplace invites broadcasters, IoT farm operators, smart device manufacturers, consumer electronics (CE) set manufacturers, advertisers, and application developers to collaborate and drive the evolution of television experiences in each city.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/marketplace/NextGen-TV",
-              },
-            },
-            {
-              name: "ONDC",
-              article: {
-                heading: "ONDC",
-                description:
-                  "ONDC stands for Open Network for Digital Commerce. It is an initiative by the Government of India to create an open and inclusive digital commerce ecosystem. ONDC aims to provide a level playing field for all participants in the digital commerce space, enable innovation, and promote fair competition.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-            {
-              name: "Weather Insured",
-              article: {
-                heading: "Weather Insured",
-                description:
-                  "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data. Our SaaS marketplace brings together feed providers, content providers, and API providers, offering low-code tools to build customized digital experiences. From optimizing logistics to saving lives, WeatherInsured is the go-to solution for weather-informed strategies.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/marketplace/weather-insured",
-              },
-            },
-            {
-              name: "Singapore  City Smart Nation",
-              article: {
-                heading: "Singapore City Smart Nation",
-                description:
-                  "The Smart Nation Marketplace, powered by Mobius Holacracy, revolutionizes the digital landscape of Singapore by providing a unique Marketplace as a Service.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/marketplace/singapore-smart-nation",
-              },
-            },
-          ],
-        },
-        {
-          name: "Private ",
-          list: [
-            {
-              name: "Railtech Smartcity As a Service",
-              article: {
-                heading: "Railtech Smartcity As a Service",
-                description:
-                  "The RailTel Smart City Marketplace addresses the challenges faced by cities in implementing smart city initiatives. By providing a centralized marketplace, cities can access a wide range of digital solutions, technologies, and services from qualified providers.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/marketplace/railtel-smart-city",
-              },
-            },
-            {
-              name: "Hyderabad Metro",
-              article: {
-                heading: "Hyderabad Metro",
-                description:
-                  "The Mobius Hyderabad Metro Marketplace, built on the robust foundation of Mobius DTaaS, revolutionizes the urban mobility landscape in Hyderabad. It serves as a vibrant platform for commuters, service providers, and businesses to connect, collaborate, and enhance the overall travel experience.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-            {
-              name: "Banglore Metro",
-              article: {
-                heading: "Banglore Metro",
-                description:
-                  "The Bangalore Metro Network is revolutionizing the way commuters travel and engage with the city. With the launch of the Bangalore Metro Marketplace, the network opens up new avenues for monetization through enhanced commuter engagement and advertising opportunities.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/marketplace/bangalore-metro",
-              },
-            },
-            {
-              name: "KSRTC",
-              article: {
-                heading: "KSRTC",
-                description:
-                  "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Mobius DTaaS platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/marketplace/ksrtc",
-              },
-            },
-            {
-              name: "Aventiv",
-              article: {
-                heading: "Aventiv",
-                description:
-                  "PI-Pascal Intelligence is a powerful multi-tenant, cloud-native SaaS tool that empowers enterprises to make data-driven decisions and turn data into actionable insights. It provides low-code tools for data visualization, contextualization, and targeting, along with all three layers of big data processing - ingest, process, and serve.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-          ],
-        },
-        {
-          name: "Principles that Drive our Platform",
-          list: [
-            {
-              name: "Sassifying DT",
-              article: {
-                heading: "Sassifying DT",
-                description:
-                  "Mobius DTaaS is dedicated to helping businesses achieve digital transformation at scale and speed through its suite of advanced SaaS tools. At Mobius DTaaS, we believe that digital transformation should be 'sassy' – agile, innovative, and cost-effective – and we are committed to delivering solutions that embody this philosophy.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-            {
-              name: "Phygital Transformation",
-              article: {
-                heading: "Phygital Transformation",
-                description:
-                  "At Mobius DTaaS, we believe that the digital transformation of today is phygital transformation, where the lines between the physical and digital worlds are blurred. Our platform is dedicated to helping businesses achieve true convergence between the two worlds, driving economic disruption through XaaS phygital transformation.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-            {
-              name: "Accountable Transformation",
-              article: {
-                heading: "Accountable Transformation",
-                description:
-                  "Digital Transformation (DT) initiatives are critical for businesses to remain competitive in today's fast-paced world. However, measuring the success of these initiatives can be challenging, as the metrics can vary depending on the industry, business objectives, and the nature of the transformation. This is where Mobius DTaaS comes in, providing businesses with a suite of SaaS tools that can help them achieve measurable and monetizable DT.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-            {
-              name: "Saas Factory",
-              article: {
-                heading: "Saas Factory",
-                description:
-                  "Mobius DTaaS is a SaaS factory that enables businesses to achieve rapid digital transformation at scale. By providing access to cutting-edge SaaS tools, Mobius DTaaS empowers businesses to transform their operations, reduce costs, enhance customer experiences, and gain a competitive edge in their industry.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-            {
-              name: "InterOrg DT",
-              article: {
-                heading: "InterOrg DT",
-                description:
-                  "Mobius DTaaS is a platform that enables digital transformation as a service between organizations (inter-organization) through API-to-API integrations. By providing a seamless, secure, and scalable platform for exchanging data and services, Mobius DTaaS empowers businesses to accelerate their digital transformation journeys and achieve better business outcomes.",
-                coverImage: images.PascalIntelligenceNavbar,
-                url: "/comingsoon",
-              },
-            },
-          ],
-        },
+        // {
+        //   name: "Public ",
+        //   list: [
+        //     {
+        //       name: "NextGen TV Marketplace",
+        //       article: {
+        //         heading: "NextGen TV Marketplace",
+        //         description:
+        //           "The NextGen TV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service. With a focus on NextGen TV technology, this marketplace invites broadcasters, IoT farm operators, smart device manufacturers, consumer electronics (CE) set manufacturers, advertisers, and application developers to collaborate and drive the evolution of television experiences in each city.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/marketplace/NextGen-TV",
+        //       },
+        //     },
+        //     {
+        //       name: "ONDC",
+        //       article: {
+        //         heading: "ONDC",
+        //         description:
+        //           "ONDC stands for Open Network for Digital Commerce. It is an initiative by the Government of India to create an open and inclusive digital commerce ecosystem. ONDC aims to provide a level playing field for all participants in the digital commerce space, enable innovation, and promote fair competition.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //     {
+        //       name: "Weather Insured",
+        //       article: {
+        //         heading: "Weather Insured",
+        //         description:
+        //           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data. Our SaaS marketplace brings together feed providers, content providers, and API providers, offering low-code tools to build customized digital experiences. From optimizing logistics to saving lives, WeatherInsured is the go-to solution for weather-informed strategies.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/marketplace/weather-insured",
+        //       },
+        //     },
+        //     {
+        //       name: "Singapore  City Smart Nation",
+        //       article: {
+        //         heading: "Singapore City Smart Nation",
+        //         description:
+        //           "The Smart Nation Marketplace, powered by Mobius Holacracy, revolutionizes the digital landscape of Singapore by providing a unique Marketplace as a Service.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/marketplace/singapore-smart-nation",
+        //       },
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Private ",
+        //   list: [
+        //     {
+        //       name: "Railtech Smartcity As a Service",
+        //       article: {
+        //         heading: "Railtech Smartcity As a Service",
+        //         description:
+        //           "The RailTel Smart City Marketplace addresses the challenges faced by cities in implementing smart city initiatives. By providing a centralized marketplace, cities can access a wide range of digital solutions, technologies, and services from qualified providers.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/marketplace/railtel-smart-city",
+        //       },
+        //     },
+        //     {
+        //       name: "Hyderabad Metro",
+        //       article: {
+        //         heading: "Hyderabad Metro",
+        //         description:
+        //           "The Mobius Hyderabad Metro Marketplace, built on the robust foundation of Mobius DTaaS, revolutionizes the urban mobility landscape in Hyderabad. It serves as a vibrant platform for commuters, service providers, and businesses to connect, collaborate, and enhance the overall travel experience.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //     {
+        //       name: "Banglore Metro",
+        //       article: {
+        //         heading: "Banglore Metro",
+        //         description:
+        //           "The Bangalore Metro Network is revolutionizing the way commuters travel and engage with the city. With the launch of the Bangalore Metro Marketplace, the network opens up new avenues for monetization through enhanced commuter engagement and advertising opportunities.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/marketplace/bangalore-metro",
+        //       },
+        //     },
+        //     {
+        //       name: "KSRTC",
+        //       article: {
+        //         heading: "KSRTC",
+        //         description:
+        //           "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Mobius DTaaS platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/marketplace/ksrtc",
+        //       },
+        //     },
+        //     {
+        //       name: "Aventiv",
+        //       article: {
+        //         heading: "Aventiv",
+        //         description:
+        //           "PI-Pascal Intelligence is a powerful multi-tenant, cloud-native SaaS tool that empowers enterprises to make data-driven decisions and turn data into actionable insights. It provides low-code tools for data visualization, contextualization, and targeting, along with all three layers of big data processing - ingest, process, and serve.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Principles that Drive our Platform",
+        //   list: [
+        //     {
+        //       name: "Sassifying DT",
+        //       article: {
+        //         heading: "Sassifying DT",
+        //         description:
+        //           "Mobius DTaaS is dedicated to helping businesses achieve digital transformation at scale and speed through its suite of advanced SaaS tools. At Mobius DTaaS, we believe that digital transformation should be 'sassy' – agile, innovative, and cost-effective – and we are committed to delivering solutions that embody this philosophy.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //     {
+        //       name: "Phygital Transformation",
+        //       article: {
+        //         heading: "Phygital Transformation",
+        //         description:
+        //           "At Mobius DTaaS, we believe that the digital transformation of today is phygital transformation, where the lines between the physical and digital worlds are blurred. Our platform is dedicated to helping businesses achieve true convergence between the two worlds, driving economic disruption through XaaS phygital transformation.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //     {
+        //       name: "Accountable Transformation",
+        //       article: {
+        //         heading: "Accountable Transformation",
+        //         description:
+        //           "Digital Transformation (DT) initiatives are critical for businesses to remain competitive in today's fast-paced world. However, measuring the success of these initiatives can be challenging, as the metrics can vary depending on the industry, business objectives, and the nature of the transformation. This is where Mobius DTaaS comes in, providing businesses with a suite of SaaS tools that can help them achieve measurable and monetizable DT.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //     {
+        //       name: "Saas Factory",
+        //       article: {
+        //         heading: "Saas Factory",
+        //         description:
+        //           "Mobius DTaaS is a SaaS factory that enables businesses to achieve rapid digital transformation at scale. By providing access to cutting-edge SaaS tools, Mobius DTaaS empowers businesses to transform their operations, reduce costs, enhance customer experiences, and gain a competitive edge in their industry.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //     {
+        //       name: "InterOrg DT",
+        //       article: {
+        //         heading: "InterOrg DT",
+        //         description:
+        //           "Mobius DTaaS is a platform that enables digital transformation as a service between organizations (inter-organization) through API-to-API integrations. By providing a seamless, secure, and scalable platform for exchanging data and services, Mobius DTaaS empowers businesses to accelerate their digital transformation journeys and achieve better business outcomes.",
+        //         coverImage: images.PascalIntelligenceNavbar,
+        //         url: "/comingsoon",
+        //       },
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -1914,64 +1917,64 @@ function Header() {
               name: "About",
               subitems: {
                 name: "About",
-                items: [
-                  {
-                    name: "In the News",
-                    subitems: [
-                      {
-                        name: "AI Integrations",
-                        content: {
-                          heading: "AI Integrations",
-                          description:
-                            "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
-                          coverImage: images.In_the_news,
-                          url: "/comingsoon",
-                        },
-                      },
-                      {
-                        name: "Zoom Bot Pro",
-                        content: {
-                          heading: "Zoom Bot Pro",
-                          description:
-                            "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
-                          coverImage: images.In_the_news,
-                          url: "/products/zoombot-pro",
-                        },
-                      },
-                      {
-                        name: "Platform Security",
-                        content: {
-                          heading: "Platform Security",
-                          description:
-                            "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
-                          coverImage: images.In_the_news,
-                          url: "/comingsoon",
-                        },
-                      },
-                    ],
-                    article: {
-                      heading: "In the News",
-                      description:
-                        "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
-                      coverImage: images.In_the_news,
-                      url: "/InTheNews",
-                    },
-                  },
-                  {
-                    name: "Values/Mission/Vision",
-                    subitems: {
-                      name: "",
-                      items: [],
-                    },
-                    article: {
-                      heading: "Values/Mission/Vision",
-                      description:
-                        "Making IT a profit center! Building Tomorrow's composable businesses by enabling them with low code AI enabled components.",
-                      coverImage: images.In_the_news,
-                      url: "/vision-and-mission",
-                    },
-                  },
-                ],
+                // items: [
+                //   {
+                //     name: "In the News",
+                //     subitems: [
+                //       {
+                //         name: "AI Integrations",
+                //         content: {
+                //           heading: "AI Integrations",
+                //           description:
+                //             "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
+                //           coverImage: images.In_the_news,
+                //           url: "/comingsoon",
+                //         },
+                //       },
+                //       {
+                //         name: "Zoom Bot Pro",
+                //         content: {
+                //           heading: "Zoom Bot Pro",
+                //           description:
+                //             "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
+                //           coverImage: images.In_the_news,
+                //           url: "/products/zoombot-pro",
+                //         },
+                //       },
+                //       {
+                //         name: "Platform Security",
+                //         content: {
+                //           heading: "Platform Security",
+                //           description:
+                //             "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
+                //           coverImage: images.In_the_news,
+                //           url: "/comingsoon",
+                //         },
+                //       },
+                //     ],
+                //     article: {
+                //       heading: "In the News",
+                //       description:
+                //         "At Mobius, we are committed to staying at the forefront of the industry, delivering innovative enterprise data solutions that meet the evolving needs of businesses worldwide. Our 'In the News' page highlights our latest achievements, partnerships, and thought leadership in the field of digital transformation & NoCode. Stay up to date with our latest news and discover why Mobius is a trusted name in the industry.",
+                //       coverImage: images.In_the_news,
+                //       url: "/InTheNews",
+                //     },
+                //   },
+                //   {
+                //     name: "Values/Mission/Vision",
+                //     subitems: {
+                //       name: "",
+                //       items: [],
+                //     },
+                //     article: {
+                //       heading: "Values/Mission/Vision",
+                //       description:
+                //         "Making IT a profit center! Building Tomorrow's composable businesses by enabling them with low code AI enabled components.",
+                //       coverImage: images.In_the_news,
+                //       url: "/vision-and-mission",
+                //     },
+                //   },
+                // ],
               },
               url: "/About",
               article: {
@@ -1983,43 +1986,43 @@ function Header() {
               },
             },
 
-            {
-              name: "Careers",
-              subitems: {
-                name: "Careers",
-                items: [
-                  {
-                    name: "Life @ Gaian",
-                    subitems: [],
-                    article: {
-                      heading: "Life @ Gaian",
-                      description:
-                        "At Mobius, we specialize in providing cutting-edge enterprise data solutions designed to help businesses optimize their operations, make informed decisions, and achieve their goals. Our advanced platform offers real-time insights, predictive analytics, and seamless integration, empowering you to unleash the full potential of your data. Discover why businesses worldwide trust [company name] for their data needs.",
-                      coverImage: images.Overview_min,
-                      url: "/Blogs",
-                    },
-                  },
-                  {
-                    name: "Open Positions",
-                    subitems: [],
-                    article: {
-                      heading: "Open Positions",
-                      description:
-                        "At Mobius, we specialize in providing cutting-edge enterprise data solutions designed to help businesses optimize their operations, make informed decisions, and achieve their goals. Our advanced platform offers real-time insights, predictive analytics, and seamless integration, empowering you to unleash the full potential of your data. Discover why businesses worldwide trust [company name] for their data needs.",
-                      coverImage: images.Overview_min,
-                      url: "/careeropenings",
-                    },
-                  },
-                ],
-              },
-              article: {
-                heading: "Careers",
-                description:
-                  "At Mobius, we are always on the lookout for talented individuals to join our team and help us shape the future of enterprise data solutions. We offer a dynamic and challenging work environment, with opportunities for growth, learning, and innovation. If you are passionate about data, technology, and making a positive impact on businesses worldwide, we invite you to explore our current job openings and take the first step towards a fulfilling career with us.",
-                coverImage: images.Careers_Min,
-                url: "/careers",
-              },
-            },
+            // {
+            //   name: "Careers",
+            //   subitems: {
+            //     name: "Careers",
+            //     items: [
+            //       {
+            //         name: "Life @ Gaian",
+            //         subitems: [],
+            //         article: {
+            //           heading: "Life @ Gaian",
+            //           description:
+            //             "At Mobius, we specialize in providing cutting-edge enterprise data solutions designed to help businesses optimize their operations, make informed decisions, and achieve their goals. Our advanced platform offers real-time insights, predictive analytics, and seamless integration, empowering you to unleash the full potential of your data. Discover why businesses worldwide trust [company name] for their data needs.",
+            //           coverImage: images.Overview_min,
+            //           url: "/Blogs",
+            //         },
+            //       },
+            //       {
+            //         name: "Open Positions",
+            //         subitems: [],
+            //         article: {
+            //           heading: "Open Positions",
+            //           description:
+            //             "At Mobius, we specialize in providing cutting-edge enterprise data solutions designed to help businesses optimize their operations, make informed decisions, and achieve their goals. Our advanced platform offers real-time insights, predictive analytics, and seamless integration, empowering you to unleash the full potential of your data. Discover why businesses worldwide trust [company name] for their data needs.",
+            //           coverImage: images.Overview_min,
+            //           url: "/careeropenings",
+            //         },
+            //       },
+            //     ],
+            //   },
+            //   article: {
+            //     heading: "Careers",
+            //     description:
+            //       "At Mobius, we are always on the lookout for talented individuals to join our team and help us shape the future of enterprise data solutions. We offer a dynamic and challenging work environment, with opportunities for growth, learning, and innovation. If you are passionate about data, technology, and making a positive impact on businesses worldwide, we invite you to explore our current job openings and take the first step towards a fulfilling career with us.",
+            //     coverImage: images.Careers_Min,
+            //     url: "/careers",
+            //   },
+            // },
 
             {
               name: "Contact Us",
@@ -2031,8 +2034,8 @@ function Header() {
                 heading: "Contact Us",
                 description:
                   "Got questions about our enterprise data solutions? Our team at Mobius is here to help. Whether you're interested in learning more about our platform, need technical support, or just want to say hi, we'd love to hear from you. Reach out to us via phone, email, or our online contact form, and we'll get back to you as soon as possible. Let's start a conversation about how we can help transform your business with the power of data.",
-                coverImage: "/images/contact/contact-min.jpg",
-                url: "/contactus",
+                coverImage: images.Overview_min ,
+                url: "/contact",
               },
             },
           ],
@@ -2057,15 +2060,29 @@ function Header() {
   const [isdropped, setisdropped] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
+
   useEffect(() => {
-    const handleScroll = () => {
+   const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
+      if(location.pathname != "/" ){
+        console.log("changed",location.pathname);
+            setIsScrolled(true);
+
+      }
+      else{
+
+   
+
     window.addEventListener("scroll", handleScroll);
+      }
     return () => {
+      setIsScrolled(false);
       window.removeEventListener("scroll", handleScroll);
+
     };
-  }, []);
+
+  }, [location]);
 
   const handlePlatform = () => {
     setplatform(!isplatform);
@@ -2304,104 +2321,3 @@ function Header() {
 
 export default Header;
 
-/* <div className={Style.header}>
-<div className={isScrolled? Style.navbar2:Style.navbar1} onMouseEnter={()=>{setIsOpen(false)}} >
-  <div className={Style.headercomponents}>
-    <div id={Style.contents}>
-    <div className={Style.logo} onClick={()=>{ window.location.href="/"}}><img src={images.MobiusLogo} alt='mobiuslogo'></img></div>   
-    {!isplatform?
-    <div><div className={Style.text} onClick={handlePlatform}>Platform</div>
-    <div className={Style.bottombar}></div></div>
-    :
-    <div><div className={Style.text} onClick={()=>{handlePlatform()}}>Platform</div>
-    <div className={Style.bottombar2} ><img src={images.DownArrow} alt='downarrow'/></div></div>
-    }
-
-    {!isOpen?
-    <div><div className={Style.text} onClick={()=>{handleClick()}}>Solutions</div>
-    <div className={Style.bottombar} ></div></div>
-    : 
-    <div><div className={Style.text} onClick={()=>{handleClick()}}>Solutions</div>
-    <div className={Style.bottombar2} ><img src={images.DownArrow} alt='downarrow'/></div></div> 
-    }   
-    {!isresource ?
-    <div><div className={Style.text} onClick={()=>{handleresource()}}>Resources</div>
-    <div className={Style.bottombar}></div></div>
-    :
-    <div><div className={Style.text} onClick={()=>{handleresource()}}>Resources</div>
-    <div className={Style.bottombar2} ><img src={process.env.PUBLIC_URL + "images/icons/Vector.svg"} alt='downarrow'/></div></div>
-    } 
-
-
-    {!iscompany?
-    <div><div className={Style.text} onClick={handleCompany}>Company</div>
-    <div className={Style.bottombar}></div></div>
-    :
-    <div><div className={Style.text} onClick={()=>{handleCompany()}}>Company</div>
-    <div className={Style.bottombar2} ><img src={images.DownArrow} alt='downarrow'/></div></div>
-    }
-
-    </div>
-    <div id={Style.btns}> */
-/* <div ><button id={Style.book} onClick={()=>{window.open("https://calendly.com/d/2sn-wnj-xnc/sales-discovery-call?primary_color=a513a7","");}}>Book a Demo</button></div> */
-// <div id={Style.login} onClick={handlelogin}  ><span id={Style.log}>Login</span><span ><img  src={images.Arrow} alt='vector' style={{ transform: `rotate(${rotation}deg)`,transition: 'transform 0.5s ease', }}
-// ></img></span></div>
-// </div>
-/* <div id={Style.mobilebuttons}>
-    <div><button>Contact us</button></div>
-    <div><button>Book a Demo</button></div>
-    </div> */
-/* <div id={Style.hambermenu}>
-
-
-    {!isdropped? <img src={images.Menu} onClick={()=>{setisdropped(true)}} alt='' ></img>
-    :
-    <img src={images.CloseOutline} onClick={()=>{setisdropped(false)}} alt=''></img>
-    }
-    </div> */
-//   </div>
-
-//   <div className={Style.mobileheadercomponents}>
-//     <div className={Style.mobilecontents}>
-//     <div className={Style.logo} onClick={()=>{ window.location.href="/"}}><img src={images.MobiusLogo} alt='mobiuslogo'></img></div>
-
-//     </div>
-//     <div className={Style.hambermenu}>
-//       <div>
-//       {!isdropped? <img src={images.Menu} onClick={()=>{setisdropped(true)}} alt='' ></img>
-//     :
-//     <img src={images.CloseOutline} onClick={()=>{setisdropped(false)}} alt=''></img>
-//     }
-//       </div>
-
-//     </div>
-//   </div>
-// </div>
-// {
-// isdropped && (
-// <div className={Style.mobileview}></div>   {if(isclicked){setclicked(true);setIsOpen(true)}else{setIsOpen(false)};}
-/* <Firstview  data={data}/> */
-
-/* <div id={Style.megadropdown}>
-<div> */
-
-// {isOpen && (
-// <Solutions data={data1}  setIsOpen={setIsOpen}/>
-// )}
-/* {isprod && (
-<Products data={data2} setproducts={setIsprod}/>
-)} */
-// {isplatform && (
-// <Platform  data={data3} setplatform={setplatform}/>
-// )
-// }
-/* {isservice &&(
-<Services  data={data5} setservice={setservice}/>
-)
-
-// } */
-// {iscompany && (
-// <Company  data={data4} setcompany={setcompany}/>
-// )
-// }
-// </div>

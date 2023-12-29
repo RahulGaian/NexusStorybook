@@ -10,7 +10,7 @@ import Page8 from './page8'
 import Page9 from './page9'
 import { Routes, Route, Outlet } from 'react-router-dom';const InvestPages = () => {
   return (
-    <>
+    <section style={{width:"100vw",position:"relative",overflowX:"hidden"}}>
       <Outlet />
       <Routes>
         <Route path='buy-cryptos' element={<Page1 />} />
@@ -23,7 +23,7 @@ import { Routes, Route, Outlet } from 'react-router-dom';const InvestPages = () 
         <Route path='auto-invest' element={<Page8 />} />
       </Routes>
 
-    </>
+    </section>
     )
 }
 

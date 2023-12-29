@@ -186,7 +186,7 @@
     font-size: 20px;
     line-height: 29px;
     /* or 144% */
-    letter-spacing: -0.03em;
+    /* letter-spacing: -0.03em; */
     color: #1A1A1A;
     padding: 0.8rem 0rem;
 }
@@ -248,7 +248,7 @@ font-size: 36px;
 line-height: 41px;
 /* identical to box height, or 114% */
 text-align: center;
-letter-spacing: -0.03em;
+/* letter-spacing: -0.03em; */
 color: #AD00A2;
 }
 
@@ -261,7 +261,7 @@ color: #AD00A2;
     line-height: 41px;
     /* identical to box height, or 114% */
     text-align: center;
-    letter-spacing: -0.03em;
+    /* letter-spacing: -0.03em; */
     color: #AD00A2;
 }
 
@@ -274,7 +274,7 @@ color: #AD00A2;
     line-height: 30px;
     /* or 136% */
     text-align: center;
-    letter-spacing: -0.02em;
+    /* letter-spacing: -0.02em; */
     color: #1A1A1A;
     width: 30%;
 }

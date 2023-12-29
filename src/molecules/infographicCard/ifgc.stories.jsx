@@ -20,6 +20,15 @@ export const Card11 = () => <InfographicCard data={ifgData.c11} />;
 export const Card12 = () => <InfographicCard data={ifgData.c12} />;
 export const Card13 = () => <InfographicCard data={ifgData.c13} />;
 export const Card14 = () => <InfographicCard data={ifgData.c14} />;
+export const Card15 = () => <InfographicCard data={ifgData.c15} />;
+export const Card16 = () => <InfographicCard data={ifgData.c16} />;
+export const Card17 = () => <InfographicCard data={ifgData.c17} />;
+export const Card18 = () => <InfographicCard data={ifgData.c18} />;
+export const Card19 = () => <InfographicCard data={ifgData.c19} />;
+export const Card20 = () => <InfographicCard data={ifgData.c20} />;
+export const Card21 = () => <InfographicCard data={ifgData.c21} />;
+
+
 
 export const Argstest2 = {
   args: {

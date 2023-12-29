@@ -22,7 +22,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: -0.63px;
+  /* letter-spacing: -0.63px; */
 
   text-align: center;
   height: fit-content;
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.54px;
+  /* letter-spacing: -0.54px; */
 
   height: fit-content;
   text-align: center;

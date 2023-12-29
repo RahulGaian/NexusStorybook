@@ -73,7 +73,7 @@
   z-index: 10;
 }
 
-.bannerContentContainer {
+.bannerContentContainerland {
   width: 1700px;
   display: flex;
   justify-content: center;
@@ -92,7 +92,7 @@
 #abcdef >h1{
   color: white !important;
 }
-.bannerContentContainer > h1 {
+.bannerContentContainerland > h1 {
   color: #f6f6f6;
   text-align: center;
   font-family: "ITC";
@@ -101,13 +101,13 @@
   font-weight: 500;
   line-height: 150px;
 }
-@font-face {
+/* @font-face {
   font-family: "ITC";
   font-style: normal;
   font-weight: normal;
   src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
-}
+} */
 .bannerContentWrapper1 {
   width: 100%;
   margin-top: 2rem;
@@ -587,14 +587,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 1420px;
     padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 9rem;
     font-style: normal;
     font-weight: 600;
@@ -671,14 +671,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 1200px;
     padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 9rem;
     font-style: normal;
     font-weight: 600;
@@ -775,14 +775,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 950px !important;
     padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 7rem;
     font-style: normal;
     font-weight: 600;
@@ -891,14 +891,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 950px !important;
     padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 7rem;
     font-style: normal;
     font-weight: 600;
@@ -1053,14 +1053,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 950px !important;
     padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 6rem;
     font-style: normal;
     font-weight: 600;
@@ -1317,14 +1317,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 950px !important;
     padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 6.5rem;
     font-style: normal;
     font-weight: 600;
@@ -1424,14 +1424,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 90% !important;
     padding-top: 100px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 6rem;
     font-weight: 600;
     line-height: 100px;
@@ -1575,14 +1575,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 90% !important;
     padding-top: 100px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 6rem;
     font-weight: 600;
     line-height: 80px;
@@ -1733,14 +1733,14 @@
     max-height: fit-content;
   }
 
-  .bannerContentContainer {
+  .bannerContentContainerland {
     width: 90% !important;
     padding-top: 100px;
     min-height: 900px;
     max-height: fit-content;
   }
 
-  .bannerContentContainer > h1 {
+  .bannerContentContainerland > h1 {
     font-size: 4rem;
     font-weight: 600;
     line-height: 80px;

@@ -23,7 +23,7 @@ line-height: 20px; /* 125% */
 letter-spacing: -0.48px;
 }
 
-@font-face {
+/* @font-face {
 
   font-family: 'ITC';
   font-style: normal;
@@ -31,7 +31,7 @@ letter-spacing: -0.48px;
   src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
 
-}
+} */
 
 .map{
     /* width: 1280px !important;

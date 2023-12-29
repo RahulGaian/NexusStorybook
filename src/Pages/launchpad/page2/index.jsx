@@ -14,7 +14,7 @@ const LaunchpadPage2 = () => {
       </section>
 
       <section>
-      <AccordianFaq data={accordianData.accordianFaq} />;      </section>
+      <AccordianFaq data={accordianData.accordianFaq} />   </section>
 
       
 

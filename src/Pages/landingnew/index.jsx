@@ -23,7 +23,7 @@ const Landingpagenew = () => {
             >
               <source src={ process.env.PUBLIC_URL + "/video/2.mp4"} type="video/mp4" />
             </video>
-            <div className="bannerContentContainer " id="abcdef">
+            <div className="bannerContentContainerland " id="abcdef">
               <h1>Nexus Connect</h1>
               <div className="bannerContentWrapper1">
                 <div className="bannerContentland">

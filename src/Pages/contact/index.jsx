@@ -11,8 +11,8 @@ import Blobs from "../../molecules/blobs";
 let Contact = () => {
   return (
     <div className={Style.maindivcontactspage}>
-      <Blobs left={"85%"} top={"-20%"} color="yellow"></Blobs>
-      <Blobs left={"-10%"} top={"30%"} ></Blobs>
+      <Blobs left={"85%"} top={"0%"} color="yellow"></Blobs>
+      <Blobs left={"-10%"} top={"10%"} ></Blobs>
 
 
       <section className={Style.topcont1}>
