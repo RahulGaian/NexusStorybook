@@ -1,20 +1,20 @@
 import React from "react";
 import Img from "../../../components/Image";
-import "./Features.css";
+import st from "./index.module.css";
 
 const Features = () => {
   return (
     <div>
-      <div className="parent_features">
-        <div className="productContentCardWrapper">
-          <div className="productContentCard ">
-            <div className="productContentCardImage">
+      <div className={st.parent_features}>
+        <div className={st.productContentCardWrapper}>
+          <div className={st.productContentCard }>
+            <div className={st.productContentCardImage}>
               <Img
                 src={"/Images/landing/comp-wifi.png"}
                 alt="comp-wifi img"
               />
             </div>
-            <div className="productContentCardDesc">
+            <div className={st.productContentCardDesc}>
               <h1>Discover a World of NextGenTV Experiences</h1>
               <p>
                 With NextGenTV Marketplace, viewers can explore a vast array of
@@ -26,14 +26,14 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="productContentCard ">
-            <div className="productContentCardImage">
+          <div className={st.productContentCard}>
+            <div className={st.productContentCardImage}>
               <Img
                 src={"/Images/landing/comp-tower.png"}
                 alt="comp-tower img"
               />
             </div>
-            <div className="productContentCardDesc">
+            <div className={st.productContentCardDesc}>
               <h1>Monetize Your NextGenTV Offerings</h1>
               <p>
                 At NextGenTV Marketplace, we believe in empowering content
@@ -48,14 +48,14 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="productContentCard ">
-            <div className="productContentCardImage">
+          <div className={st.productContentCard}>
+            <div className={st.productContentCardImage}>
               <Img
                 src={"/Images/landing/computer-img.png"}
                 alt="computer-img"
               />
             </div>
-            <div className="productContentCardDesc">
+            <div className={st.productContentCardDesc}>
               <h1>Drive User Engagement and Optimize Performance</h1>
               <p>
                 With NextGenTV Marketplace, viewers can explore a vast array of
