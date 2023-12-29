@@ -26,7 +26,7 @@
   padding-bottom: 10%;
 }
 
-.advisoryTopImg {
+.advisoryTopImg Img {
   width: 660px;
   height: 456.3px;
   flex-shrink: 0;
@@ -84,7 +84,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10%;
+  gap: 20px;
+  width: 320px;
 }
 
 .advisoryBottomImg Img {
@@ -96,6 +97,7 @@
 .advisoryBottomName {
   display: flex;
   flex-direction: column;
+  width: max-content;
 }
 
 .advisoryBottomName h1 {
@@ -119,4 +121,51 @@
   font-weight: 500;
   line-height: 20.7px; /* 135.046% */
   margin: 0;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .advisoryContentCont {
+    width: 1420px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .advisoryContentCont {
+    width: 1200px;
+  }
+  .advisoryTopImg Img {
+    width: 600px;
+  }
+
+  .advisoryTopContent h1 {
+    max-width: 500px;
+  }
+  .advisoryTopContent p {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .advisoryContentCont {
+    width: 950px;
+  }
+
+  .advisoryTop {
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+    /* padding: 10% 0px; */
+    padding-bottom: 10%;
+  }
+
+  .advisoryTopImg Img {
+    width: 500px;
+  }
+
+  .advisoryTopContent h1 {
+    max-width: 400px;
+  }
+  .advisoryTopContent p {
+    max-width: 400px;
+  }
 }

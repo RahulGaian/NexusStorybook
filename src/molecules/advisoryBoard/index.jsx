@@ -27,26 +27,26 @@ function AdvisoryBoard() {
           <div className={style.advisoryBottomHeader}>
             <h1>Senior Advisors to the Board</h1>
           </div>
-          {/* <div className={style.advisoryBottomContentCont}> */}
-          <div className={style.advisoryBottomContent}>
-            <div className={style.advisoryBottomImg}>
-              <Img src="./Images/advisoryBoard/emp2.png"></Img>
+          <div className={style.advisoryBottomContentCont}>
+            <div className={style.advisoryBottomContent}>
+              <div className={style.advisoryBottomImg}>
+                <Img src="./Images/advisoryBoard/emp2.png"></Img>
+              </div>
+              <div className={style.advisoryBottomName}>
+                <h1>Lorem </h1>
+                <p>View profile</p>
+              </div>
             </div>
-            <div className={style.advisoryBottomName}>
-              <h1>Lorem </h1>
-              <p>View profile</p>
+            <div className={style.advisoryBottomContent}>
+              <div className={style.advisoryBottomImg}>
+                <Img src="./Images/advisoryBoard/emp2.png"></Img>
+              </div>
+              <div className={style.advisoryBottomName}>
+                <h1>Lorem </h1>
+                <p>View profile</p>
+              </div>
             </div>
           </div>
-          <div className={style.advisoryBottomContent}>
-            <div className={style.advisoryBottomImg}>
-              <Img src="./Images/advisoryBoard/emp2.png"></Img>
-            </div>
-            <div className={style.advisoryBottomName}>
-              <h1>Lorem jhfuwqhfuhwfhwqfhqufqf</h1>
-              <p>View profile</p>
-            </div>
-          </div>
-          {/* </div> */}
         </div>
       </div>
     </div>
