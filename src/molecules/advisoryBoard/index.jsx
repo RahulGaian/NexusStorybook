@@ -30,19 +30,19 @@ function AdvisoryBoard() {
           <div className={style.advisoryBottomContentCont}>
             <div className={style.advisoryBottomContent}>
               <div className={style.advisoryBottomImg}>
-                <Img src="./Images/advisoryBoard/emp2.png"></Img>
+                <Img src="./Images/advisoryBoard/profile.webp"></Img>
               </div>
               <div className={style.advisoryBottomName}>
-                <h1>Lorem </h1>
-                <p>View profile</p>
+                <h1>Lorem Ipsum </h1>
+                <p>View profile </p>
               </div>
             </div>
             <div className={style.advisoryBottomContent}>
               <div className={style.advisoryBottomImg}>
-                <Img src="./Images/advisoryBoard/emp2.png"></Img>
+                <Img src="./Images/advisoryBoard/profile.webp"></Img>
               </div>
               <div className={style.advisoryBottomName}>
-                <h1>Lorem </h1>
+                <h1>Lorem Ipsum</h1>
                 <p>View profile</p>
               </div>
             </div>
