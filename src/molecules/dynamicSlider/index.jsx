@@ -9,34 +9,19 @@ SwiperCore.use([Pagination, Autoplay]);
 const Carousel = () => {
   const contentData = [
     {
-      heading: "USA",
-      imagesrc1: "/images/contact/location pin.png",
       description:
-        "1968 S Coast Hwy, Suite 5011, Laguna Beach, California, USA 9265.",
-      imagesrc2: "/images/contact/phone.png",
-      num: "+1 1800 123 1234",
-      imagesrc3: "/images/contact/envelope.png",
-      mail: "usaoffice@mobiusplatforms.com",
+        "“Their approach to onboarding users is unmatched - providing education and security in equal measures. But what sets SwissBorg apart is their vibrant community, always at the forefront of the latest developments in investment opportunities for cryptocurrencies. I'm proud to be a part of it.”",
+      imagesrc1: "/Images/launchpadSlider/profile.webp",
+      name: "Sébastien Borget",
+      designation: "COO & Co-Founder - The Sandbox",
     },
     {
-      heading: "India",
-      imagesrc1: "/images/contact/location pin.png",
       description:
-        "5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.",
-      imagesrc2: "/images/contact/phone.png",
-      num: "+1 1800 123 1234",
-      imagesrc3: "/images/contact/envelope.png",
-      mail: "info@mobiusplatforms.com",
-    },
-    {
-      heading: "Singapore",
-      imagesrc1: "/images/contact/location pin.png",
-      description:
-        "11 Woodlands Close #07-13, Woodlands 11, Singapore (737853).",
-      imagesrc2: "/images/contact/phone.png",
-      num: "+1 1800 123 1234",
-      imagesrc3: "/images/contact/envelope.png",
-      mail: "usaoffice@mobiusplatforms.com",
+        "“Their approach to onboarding users is unmatched - providing education and security in equal measures. But what sets SwissBorg apart is their vibrant community, always at the forefront of the latest developments in investment opportunities for cryptocurrencies. I'm proud to be a part of it.”",
+
+      imagesrc1: "/Images/launchpadSlider/profile.webp",
+      name: "Sébastien Borget",
+      designation: "COO & Co-Founder - The Sandbox",
     },
   ];
 
@@ -47,43 +32,40 @@ const Carousel = () => {
   };
 
   return (
-    <div className={Style.mapcontlocations}>
-      <div className={Style.maplocationshead}>Our Locations</div>
+    <div className={Style.wrapper}>
+      <div className={Style.head}>Supported by industry leaders</div>
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        
         pagination={{
           clickable: true,
           loop: true,
         }}
         loop
-        autoplay={{ delay: 4000 }}
+        // autoplay={{ delay: 2000 }}
         onSlideChange={handleSlideChange}
       >
         {contentData.map((content, index) => (
           <SwiperSlide key={index}>
-            <div className={Style.mapcontent1}>
-              <div className={Style.mapcontent1section1}>
-                <Img src={content.imagesrc1} />
-              </div>
-
-              <div className={Style.mapcontent1section2}>
-                <div className={Style.section2head}>{content.heading}</div>
-                <div className={Style.section2desc}>{content.description}</div>
-
-                <div className={Style.section2bottom}>
-                  <div className={Style.logo}>
-                    <Img src={content.imagesrc2} />
-                  </div>
-                  <div className={Style.num}>{content.num}</div>
+            <div className={Style.container}>
+              <div className={Style.contentContainer}>
+                <div className={Style.description}>
+                  <p>{content.description}</p>
                 </div>
 
-                <div className={Style.section2bottom}>
+                <div className={Style.mainBottomContent}>
+                  <section className={Style.bottomContent}>
                   <div className={Style.logo}>
-                    <Img src={content.imagesrc3} />
+                    <Img src={content.imagesrc1} />
                   </div>
-                  <div>{content.mail}</div>
+
+                  <div className={Style.name_designation}>
+                    <div>
+                      <h1>{content.name}</h1>
+                      <p>{content.designation}</p>
+                    </div>
+                  </div>
+                  </section>
                 </div>
               </div>
             </div>
