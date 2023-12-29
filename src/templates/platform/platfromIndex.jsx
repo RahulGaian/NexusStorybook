@@ -15,6 +15,7 @@ const PlatfromIndex = ({platform}) => {
               description:"              PI-Pascal Intelligence revolutionized marketing automation by providing clients with the tools to overcome their toughest challenges. With the help of PI-Pascal Intelligence, clients were able to take their marketing strategies to the next level."
       }
   return (
+    
     <section className='platformContainer' >
        <Blobs top={"-200px"} left={"85%"}></Blobs>
       <Blobs top={"20%"} color="yellow" left={"-200px"}></Blobs>

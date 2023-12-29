@@ -11,7 +11,7 @@ import CommunityPage7 from './page7';
 import { Routes, Route, Outlet } from 'react-router-dom';
 const CommunityPages = () => {
   return (
-    <>
+    <section style={{width:"100vw",position:"relative",overflowX:"hidden"}}>
       <Outlet />
       <Routes>
         <Route path='our-borg-token' element={<CommunityPage1 />} />
@@ -23,7 +23,7 @@ const CommunityPages = () => {
         <Route path='swag-shop' element={<CommunityPage7 />} />
       </Routes>
 
-    </>
+    </section>
     )
 }
 

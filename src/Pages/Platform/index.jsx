@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { platformData } from '../../constants/data';
-import PlatformIndex from '../../templates/platform/platfromIndex';
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { platformData } from "../../constants/data";
+import PlatformIndex from "../../templates/platform/platfromIndex";
 const PlatformPage = () => {
   let { id } = useParams();
   let [content, setContent] = useState(platformData[0]);
@@ -16,7 +16,13 @@ const PlatformPage = () => {
     }
   }, [id]);
 
-  return <PlatformIndex platform={content} />;
+  return (
+    <section
+      style={{ width: "100vw", position: "relative", overflowX: "hidden" }}
+    >
+      <PlatformIndex platform={content} />;
+    </section>
+  );
 };
 
 export default PlatformPage;

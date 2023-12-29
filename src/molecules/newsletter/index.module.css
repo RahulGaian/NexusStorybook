@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: ITC;
   src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
-}
+} */
 
 .newsletterContainer {
   width: 100%;
@@ -99,7 +99,7 @@
 
 .newletterLeftInput input {
   width: 300px;
-  height: 30px;
+  height: auto;
   display: flex;
   padding: 13.5px 10px;
   align-items: flex-start;
@@ -116,7 +116,7 @@
 
 .newsletterLeftInputBtn input {
   width: 250px;
-  height: 30px;
+  height: auto  ;
   display: flex;
   padding: 13.5px 10px;
   align-items: flex-start;
@@ -153,6 +153,7 @@
   align-items: flex-start;
   border: none;
   width: 50px;
+  height: auto;
 }
 
 .newletterLeftBtn img {

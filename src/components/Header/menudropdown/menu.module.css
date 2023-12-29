@@ -120,7 +120,7 @@
     opacity: 2;
 }
 .listitems:hover {
-    background: rgba(173, 0, 162, 0.2);
+    background: #E5F2FB;
     /* background: black !important; */
     /* background-color: red; */
     padding-right: 0.5rem;

@@ -13,11 +13,29 @@ import PlatformPage from "./Pages/Platform";
 import InvestPages from "./Pages/invest";
 import CommunityPages from "./Pages/community";
 import LaunchPadPages from "./Pages/launchpad";
+import { useLocation } from "react-router-dom";
 function App() {
+
+  function TopGap(){
+    let location =  useLocation();
+    return(
+       location.pathname === "/" ? null :
+
+
+      <section style={{height:"80px",width:"100vw"}}> 
+      
+      </section>
+    
+    )
+  }
   return (
     <Router>
       <Header />
+      <TopGap/>
+      <section style={{width:"100vw",position:"relative",overflowX:"hidden"}}>
+    
       <Routes>
+
         <Route path="/" element={<Landingpagenew />}></Route>
         <Route path="/about" element={<Overview></Overview>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
@@ -32,6 +50,7 @@ function App() {
         <Route path="/launchpad/*" element={<LaunchPadPages />}></Route>
       </Routes>
       <Footer />
+    </section>
     </Router>
   );
 }
