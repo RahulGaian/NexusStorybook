@@ -9,8 +9,8 @@ const InfographicCard = ({ data }) => {
                 <img src={data.imgURL} alt="card" />
               </div>
               <div className={st.rightCont}>
-                <span id={st.head}>{data.head}</span>
-                <span id={st.content} dangerouslySetInnerHTML={{ __html: data.content }}></span>
+                <span id={st.head} style={{color: data.textColor}}>{data.head}</span>
+                <span id={st.content} dangerouslySetInnerHTML={{ __html: data.content }}  style={{color: data.textColor}}></span>
               </div>
             </div>
           </div>
