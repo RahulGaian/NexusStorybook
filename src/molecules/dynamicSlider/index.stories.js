@@ -1,27 +1,28 @@
-import React from 'react';
-import Carousel from './index';
+import React from "react";
+import Carousel from "./index";
 
 export default {
-  title: 'components/Carousel',
+  title: "components/Carousel",
   component: Carousel,
 };
 
-const Template = (args) => <Carousel {...args} />;
+export const carouselWithDefaultData = () => <Carousel />;
 
-export const Default = Template.bind({});
-Default.args = {};
-
-export const WithCustomData = Template.bind({});
-WithCustomData.args = {
-  contentData: [
-    {
-      heading: "Custom Location 1",
-      imagesrc1: "/path/to/image1.png",
-      description: "Custom description for location 1",
-      imagesrc2: "/path/to/image2.png",
-      num: "+1 123 456 7890",
-      imagesrc3: "/path/to/image3.png",
-      mail: "custom@mail.com",
-    },
-  ],
-};
+export const carouselWithCustomData = () => (
+  <Carousel
+    contentData={[
+      {
+        description: "Custom data 1",
+        imagesrc1: "/Images/customData1.webp",
+        name: "Custom Name 1",
+        designation: "Custom Designation 1",
+      },
+      {
+        description: "Custom data 2",
+        imagesrc1: "/Images/customData2.webp",
+        name: "Custom Name 2",
+        designation: "Custom Designation 2",
+      },
+    ]}
+  />
+);

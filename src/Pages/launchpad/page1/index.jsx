@@ -1,6 +1,6 @@
 import React from "react";
 import LaunchpadBanner1 from "../../../molecules/launchpadBanner1";
-import Footer from "../../../molecules/footer";
+import ViewProject from "../../../molecules/viewProject";
 
 const LaunchpadPage1 = () => {
   return (
@@ -10,8 +10,9 @@ const LaunchpadPage1 = () => {
       </section>
 
       <section>
-        {/* <Footer /> */}
+      <ViewProject />;
       </section>
+
     </section>
   );
 };
