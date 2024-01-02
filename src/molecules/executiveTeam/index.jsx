@@ -1,36 +1,7 @@
-// import React from "react";
-// import style from "./index.module.css";
-// import Img from "../../components/Image";
-// import { executiveData } from "./executiveData";
-
-// function ExecutiveTeam() {
-//   return (
-//     <div className={style.executiveContainer}>
-//       <div className={style.executiveContentConatiner}>
-//         <div className={style.executiveHeader}>
-//           <h1>Meet the Executive Team</h1>
-//         </div>
-//         <div className={style.executiveDetailsCont}>
-//           <div className={style.executiveDetails}>
-//             <Img src="/Images/executiveTeam/pic1.png"> </Img>
-//             <div className={style.executiveName}>
-//               <h6>Cyrus Fazel</h6>
-//               <p>CEO, Founder</p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default ExecutiveTeam;
-
 import React from "react";
 import style from "./index.module.css";
 import Img from "../../components/Image";
 import { executiveData } from "./executiveData";
-import { object } from "prop-types";
 
 function ExecutiveTeam() {
   return (
@@ -54,6 +25,7 @@ function ExecutiveTeam() {
           })}
         </div>
       </div>
+      {/* Mobile View */}
       <div className={style.mobileExecutiveCont}>
         <h1>Meet the Executive Team</h1>
         <div className={style.mobileExecutiveDetailsCont}>

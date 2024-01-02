@@ -8,7 +8,7 @@ function ViewProject() {
       <div className={style.viewContentContainer}>
         <div className={style.viewContent}>
           <div className={style.viewLeft}>
-            <Img src="./Images/viewProject/swissBorg.png"></Img>
+            <Img src="/Images/viewProject/swissBorg.png"></Img>
           </div>
           <div className={style.viewCenter}>
             <div className={style.viewCenterName}>
@@ -22,7 +22,7 @@ function ViewProject() {
             </div>
           </div>
           <div className={style.viewRight}>
-            <Img src="./Images/viewProject/robo.png"></Img>
+            <Img src="/Images/viewProject/robo.png"></Img>
           </div>
         </div>
       </div>

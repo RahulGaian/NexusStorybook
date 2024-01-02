@@ -12,7 +12,7 @@
   align-items: center;
   flex-shrink: 0;
   background: linear-gradient(270deg, #41aeff 5%, #2e7dcd 100%), #007cd7;
-  height: 200px;
+  /* height: 200px; */
   margin-top: 10%;
 }
 
@@ -21,6 +21,7 @@
   justify-content: center;
   /* align-items: center; */
   width: 1700px;
+  height: 280px;
 }
 
 .poppedLeft {
@@ -53,9 +54,9 @@
 
 .poppedRight Img {
   width: 628.3px;
-  height: 569.02px;
+  height: 600px;
   position: relative;
-  top: -43.5%;
+  top: -72%;
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
@@ -81,12 +82,14 @@
 
 @media screen and (max-width: 980px) and (min-width: 601px) {
   .poppedContainer {
-    margin-top: 20%;
     margin-bottom: 20%;
-    height: 200px;
   }
   .poppedContentCont {
     width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .poppedLeft h1 {
     max-width: 300px;
@@ -112,9 +115,9 @@
 
   .poppedRight Img {
     width: 420px;
-    height: 400px;
+    height: 440px;
     position: relative;
-    top: -20%;
+    top: -10%;
   }
 }
 
@@ -129,22 +132,26 @@
 
   .poppedRight Img {
     width: 350px;
-    height: 400px;
+    height: 440px;
+    top: -20%;
   }
 }
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
   .poppedContainer {
-    height: 500px;
-    padding: 120px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     margin-top: 0;
   }
   .poppedContentCont {
     width: 90%;
+    height: 600px;
     display: flex;
     flex-direction: column;
   }
-
+  .poppedLeft {
+    display: flex;
+    gap: 50px;
+  }
   .poppedLeft h1 {
     max-width: 342px;
     color: var(--Color, #fff);
@@ -154,6 +161,7 @@
     font-weight: 500;
     line-height: 36.8px; /* 132.613% */
     margin: 0;
+    text-align: justify;
   }
 
   .poppedLeft p {
@@ -171,8 +179,6 @@
     width: 300px;
     height: 350px;
     position: relative;
-    top: 10%;
-    object-fit: contain;
-    object-position: center;
+    top: 14%;
   }
 }
