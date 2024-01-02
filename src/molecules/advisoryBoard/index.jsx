@@ -8,7 +8,7 @@ function AdvisoryBoard() {
       <div className={style.advisoryContentCont}>
         <div className={style.advisoryTop}>
           <div className={style.advisoryTopImg}>
-            <Img src="./Images/advisoryBoard/advisoryImg.png"></Img>
+            <Img src="/Images/advisoryBoard/advisoryImg.png"></Img>
           </div>
           <div className={style.advisoryTopContent}>
             <h1>A global force with a proven track record</h1>
@@ -30,7 +30,7 @@ function AdvisoryBoard() {
           <div className={style.advisoryBottomContentCont}>
             <div className={style.advisoryBottomContent}>
               <div className={style.advisoryBottomImg}>
-                <Img src="./Images/advisoryBoard/profile.webp"></Img>
+                <Img src="/Images/advisoryBoard/profile.webp"></Img>
               </div>
               <div className={style.advisoryBottomName}>
                 <h1>Lorem Ipsum </h1>
@@ -39,7 +39,7 @@ function AdvisoryBoard() {
             </div>
             <div className={style.advisoryBottomContent}>
               <div className={style.advisoryBottomImg}>
-                <Img src="./Images/advisoryBoard/profile.webp"></Img>
+                <Img src="/Images/advisoryBoard/profile.webp"></Img>
               </div>
               <div className={style.advisoryBottomName}>
                 <h1>Lorem Ipsum</h1>
