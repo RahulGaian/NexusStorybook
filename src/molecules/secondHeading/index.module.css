@@ -24,7 +24,7 @@
     /* border: 2px solid red; */
 }
 
-.headingText > p{
+.headingText >p{
   color: var(--Blue, #007cd7);
   font-size: 41.063px;
   font-style: normal;
@@ -66,12 +66,12 @@
     text-align: center;
     /* height: 200px;
       width: 600px; */
-    width: 100%;
+    width: 96%;
     margin: 0 auto;
   
   }
 
-  .headingText > p{
+  .headingText >p{
     color: #4C4C4C;
     text-align: center;
     font-family: ITC;
@@ -91,12 +91,12 @@
     text-align: center;
     /* height: 200px;
       width: 600px; */
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
   
   }
 
-  .headingText > p{
+  .headingText >p{
     color: #4c4c4c;
     text-align: center;
     font-family: ITC;

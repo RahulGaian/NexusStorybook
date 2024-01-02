@@ -12,7 +12,7 @@ const Carousel = () => {
       description:
         "“Their approach to onboarding users is unmatched - providing education and security in equal measures. But what sets SwissBorg apart is their vibrant community, always at the forefront of the latest developments in investment opportunities for cryptocurrencies. I'm proud to be a part of it.”",
       imagesrc1: "/Images/launchpadSlider/profile.webp",
-      name: "Sébastien Borget",
+      name: "Lorem ipsun",
       designation: "COO & Co-Founder - The Sandbox",
     },
     {
@@ -20,7 +20,7 @@ const Carousel = () => {
         "“Their approach to onboarding users is unmatched - providing education and security in equal measures. But what sets SwissBorg apart is their vibrant community, always at the forefront of the latest developments in investment opportunities for cryptocurrencies. I'm proud to be a part of it.”",
 
       imagesrc1: "/Images/launchpadSlider/profile.webp",
-      name: "Sébastien Borget",
+      name: "Lorem",
       designation: "COO & Co-Founder - The Sandbox",
     },
   ];
@@ -42,7 +42,7 @@ const Carousel = () => {
           loop: true,
         }}
         loop
-        autoplay={{ delay: 2000 }}
+        autoplay={{ delay: 3000 }}
         onSlideChange={handleSlideChange}
       >
         {contentData.map((content, index) => (

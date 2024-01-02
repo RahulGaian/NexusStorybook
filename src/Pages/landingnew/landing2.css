@@ -204,6 +204,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  /* object-fit: contain; */
 }
 
 .second_bg_content {
@@ -472,7 +473,7 @@
     font-size: 47.66px !important;
     font-style: normal;
     font-weight: 500 !important;
-    line-height: 43.191px !important;
+    line-height: 43.191px;
   }
 
   .second_bg_para1 p {
@@ -560,12 +561,13 @@
     font-style: normal;
     font-weight: 500;
     line-height: 43.191px;
+    margin-bottom: 5px !important;
   }
 
   .second_bg_para1 p {
     color: #f6f6f6;
     font-family: ITC !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -818,7 +820,7 @@
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 320px;
+    min-height: 280px;
     max-height: fit-content;
   }
 
@@ -830,8 +832,21 @@
     padding-left: 4%;
   }
 
-  .second_bg_para2 p {
+  .second_bg_heading h1 {
+    /* font-size: 4rem; */
+    line-height: 33.191px !important;
+  }
+  
+  .second_bg_para1 p {
     width: 55%;
+    /* font-size: 2.5rem; */
+    line-height: 23.191px !important;
+  }
+  
+  .second_bg_para2 p {
+    width: 58%;
+    font-size: 0.9rem !important;
+    line-height: 22px;
   }
 
   /* third_bg_contaniner--------------------------------------------------- */
@@ -933,13 +948,12 @@
   }
 
   /* ==========secong bg container============ */
-  .second_bg_img-contaniner {
+  /* .second_bg_img-contaniner {
     min-height: 300px;
     max-height: fit-content;
   }
 
   .second_bg_content {
-    /* width: 55%; */
     width: 90% !important;
     min-height: fit-content;
     margin: 4% 0;
@@ -948,7 +962,7 @@
 
   .second_bg_para2 p {
     width: 55%;
-  }
+  } */
 
   /* third_bg_contaniner--------------------------------------------------- */
   .third_bg_content {
@@ -969,6 +983,37 @@
 }
 
 @media screen and (max-width: 980px) and (min-width: 880px) {
+
+    /* ==========secong bg container============ */
+    .second_bg_img-contaniner {
+      min-height: 280px;
+      max-height: fit-content;
+    }
+  
+    .second_bg_content {
+      /* width: 55%; */
+      width: 950px !important;
+      min-height: fit-content;
+      margin: 1% 0;
+      padding-left: 4%;
+    }
+  
+    .second_bg_heading h1 {
+      /* font-size: 4rem; */
+      line-height: 33.191px !important;
+    }
+    
+    .second_bg_para1 p {
+      width: 55%;
+      /* font-size: 2.5rem; */
+      line-height: 23.191px !important;
+    }
+    
+    .second_bg_para2 p {
+      width: 58%;
+      font-size: 0.9rem !important;
+      line-height: 22px;
+    }
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
@@ -1009,6 +1054,38 @@
 }
 
 @media screen and (max-width: 880px) and (min-width: 780px) {
+
+      /* ==========secong bg container============ */
+      .second_bg_img-contaniner {
+        min-height: 280px;
+        max-height: fit-content;
+      }
+    
+      .second_bg_content {
+        /* width: 55%; */
+        width: 950px !important;
+        min-height: fit-content;
+        margin: 1% 0;
+        padding-left: 4%;
+      }
+    
+      .second_bg_heading h1 {
+        /* font-size: 4rem; */
+        line-height: 33.191px !important;
+      }
+      
+      .second_bg_para1 p {
+        width: 55%;
+        /* font-size: 2.5rem; */
+        line-height: 23.191px !important;
+      }
+      
+      .second_bg_para2 p {
+        width: 58%;
+        font-size: 0.9rem !important;
+        line-height: 22px;
+      }
+
   /* -------------mobius_won_wrapper--------- */
   .mobius_won_content {
     width: 90%;
@@ -1096,7 +1173,7 @@
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 300px;
+    min-height: 265px;
     max-height: fit-content;
   }
 
@@ -1105,7 +1182,7 @@
     width: 90% !important;
     min-height: fit-content;
     margin: 4% 0;
-    padding-left: 4%;
+    padding-left: 3%;
   }
 
   .second_bg_para2 p {
@@ -1216,7 +1293,7 @@
     font-weight: 500;
     line-height: 40px;
     text-transform: capitalize;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
   }
 
   .third_bg_upper div p {
@@ -1360,20 +1437,33 @@
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
-    min-height: 300px;
+    min-height: 265px;
     max-height: fit-content;
   }
 
   .second_bg_content {
-    /* width: 55%; */
     width: 90% !important;
     min-height: fit-content;
-    margin: 3% 0;
-    padding-left: 4%;
+    /* margin: 1% 0; */
+    /* padding-left: 3%; */
+  }
+
+  /* --------------- */
+  .second_bg_heading h1 {
+    font-size: 2rem !important;
+    line-height: 30.191px !important;
+  }
+  
+  .second_bg_para1 p {
+    width: 58%;
+    /* font-size: 2.5rem; */
+    line-height: 20.191px !important;
   }
 
   .second_bg_para2 p {
-    width: 55%;
+    width: 60%;
+    font-size: 12px !important;
+    line-height: 16px;
   }
 
   /* -------------mobius_won_wrapper--------- */
