@@ -107,6 +107,7 @@
   font-weight: 500;
   line-height: 20.7px; /* 136.296% */
   border: none;
+  cursor: pointer;
 }
 
 .viewCenterBtn > button:last-child {
@@ -126,6 +127,7 @@
   font-weight: 400;
   line-height: normal;
   border: none;
+  cursor: pointer;
 }
 
 .viewRight Img {
@@ -287,21 +289,28 @@
 }
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
-  /* .viewContentContainer {
+  .viewContainer {
+    padding: 60px 0px;
+  }
+  .viewContentContainer {
     width: 90%;
   }
   .viewContent {
-    width: 342px;
-    height: 500px;
+    width: 90%;
+    height: 400px;
+    gap: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
   }
   .viewLeft {
     z-index: 99;
   }
   .viewLeft Img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    /* padding-top: 40px; */
   }
 
   .viewCenter {
@@ -309,14 +318,35 @@
   }
 
   .viewRight Img {
-    width: 200px;
-    height: 260px;
+    width: 350px;
+    height: 300px;
     position: relative;
-    top: -170px;
-    left: 50%;
+    top: -270px;
+    left: -10%;
     z-index: 0;
-  } */
-  .viewContentContainer {
-    display: none;
+  }
+  .viewCenterName h1 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .viewCenterName p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .viewCenterBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 349px) and (min-width: 320px) {
+  .viewRight Img {
+    width: 320px;
+    height: 300px;
+    position: relative;
+    top: -270px;
+    left: -20%;
+    z-index: 0;
   }
 }
