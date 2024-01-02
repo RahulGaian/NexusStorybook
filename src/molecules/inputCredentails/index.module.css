@@ -40,7 +40,7 @@
 
 .inputLeftInputData {
   width: 400px;
-  height: 40px;
+  height: 67px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,7 +160,7 @@ input:focus {
     top: 58px;
   }
   .inputLeft {
-    width: 300px;
+    width: 350px;
   }
   .inputLeftInputData::placeholder {
     font-size: 14px;
@@ -204,15 +204,61 @@ input:focus {
   .inputLeftHidepw {
     right: 58%;
   }
+  .inputLeft {
+    width: 340px;
+  }
+  .inputLeftInputData {
+    width: 230px;
+  }
+  .inputLeftInputData::placeholder {
+    font-size: 12px;
+    padding-left: 5px;
+  }
 }
 @media only screen and (max-width: 699px) and (min-width: 650px) {
   .inputLeftHidepw {
     right: 55%;
   }
+  .inputLeft {
+    width: 320px;
+  }
+  .inputLeftInputData {
+    width: 200px;
+  }
+  .inputLeftInputData::placeholder {
+    font-size: 11px;
+    padding-left: 5px;
+  }
 }
 @media only screen and (max-width: 649px) and (min-width: 601px) {
   .inputLeftHidepw {
     right: 52%;
+  }
+  .inputLeft {
+    width: 320px;
+  }
+  .inputLeftInputData {
+    width: 180px;
+  }
+  .inputLeftInputData::placeholder {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 630px) and (min-width: 601px) {
+  .inputLeftHidepw {
+    right: 52%;
+  }
+  .inputLeft {
+    width: 320px;
+  }
+  .inputLeftInputData {
+    width: 180px;
+  }
+  .inputLeftInputData::placeholder {
+    font-size: 10px;
+    padding-left: 5px;
   }
 }
 
