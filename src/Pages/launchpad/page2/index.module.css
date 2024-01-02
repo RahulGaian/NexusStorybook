@@ -1,0 +1,15 @@
+.infographicBlue {
+  background: var(--Surface-Primary, #d8efff);
+}
+
+.newsletter {
+  margin-bottom: 60px;
+}
+
+.dynamic {
+  margin-top: 60px;
+}
+
+.textImage {
+  margin-top: 60px;
+}

@@ -61,13 +61,13 @@ export const InvestmentData = {
       investors: "113K",
       investorsName: "Token holders",
     },
-    {
-      investors: "175K",
-      investorsName: "Social Followers",
-    },
-    {
-      investors: "221",
-      investorsName: "Employees",
-    },
+    // {
+    //   investors: "175K",
+    //   investorsName: "Social Followers",
+    // },
+    // {
+    //   investors: "221",
+    //   investorsName: "Employees",
+    // },
   ],
 };
