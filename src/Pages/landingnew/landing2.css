@@ -89,7 +89,7 @@
   z-index: 10;
 }
 
-#abcdef >h1{
+#abcdef > h1 {
   color: white !important;
 }
 .bannerContentContainerland > h1 {
@@ -160,7 +160,7 @@
   color: white;
 }
 
-#getStartedBtn {
+#getStartedBtnLanding {
   width: fit-content;
   box-sizing: border-box;
   padding: 10px 30px 10px 30px;
@@ -175,7 +175,7 @@
   font-size: 25px;
 }
 
-#learnMoreBtn {
+#learnMoreBtnLanding {
   color: #fff !important;
   font-family: "ITC";
   font-size: 25px;
@@ -1064,7 +1064,7 @@
     font-size: 6rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 150px;
+    line-height: 100px;
   }
 
   .bannerContentWrapper1 {
@@ -1311,15 +1311,16 @@
   }
 }
 
-@media screen and (max-width: 680px) and (min-width: 580px) {
+@media screen and (max-width: 680px) and (min-width: 600px) {
   .Landing_top_bg {
     min-height: 900px;
     max-height: fit-content;
   }
 
   .bannerContentContainerland {
-    width: 950px !important;
-    padding-top: 120px;
+    width: 90% !important;
+    padding-top: 150px;
+    /* padding-left: 50px; */
     min-height: 900px;
     max-height: fit-content;
   }
@@ -1329,24 +1330,28 @@
     font-style: normal;
     font-weight: 600;
     line-height: 100px;
+    text-align: left;
   }
 
   .bannerContentWrapper1 {
     width: 100%;
     margin-top: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 620px;
   }
-
   .bannerContentland {
-    width: 70%;
+    width: 100%;
+    gap: 40px;
+    text-align: justify;
   }
 
   .bannerContentland > div > h1 {
     font-size: 30px;
     font-weight: 500;
     line-height: 36px;
+    text-align: justify;
   }
 
   .bannerContentland > div > p {
@@ -1355,8 +1360,56 @@
     line-height: 30px;
     letter-spacing: -0.36px;
     margin-bottom: 5%;
-    /* margin: 0 auto; */
+    text-align: justify;
   }
+  /* ------------------------------------------ */
+  /* button */
+
+  .bannerContentBtnland {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+  }
+
+  #getStartedBtnLanding {
+    /* width: fit-content; */
+    /* width: 500px; */
+    width: 550px;
+    /* box-sizing: border-box; */
+    padding: 10px 30px 10px 30px;
+    background: #ffa200;
+    border: 1px solid #ffa200;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #learnMoreBtnLanding {
+    color: #fff !important;
+    font-family: "ITC";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
+  }
+
+  .nexus_rightarrow img {
+    color: white !important;
+    fill: white;
+  }
+
+  /* -------------------------------- */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
@@ -1418,7 +1471,7 @@
   }
 }
 
-@media screen and (max-width: 580px) and (min-width: 480px) {
+@media screen and (max-width: 600px) and (min-width: 500px) {
   .Landing_top_bg {
     min-height: 800px;
     max-height: fit-content;
@@ -1426,7 +1479,7 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 100px;
+    padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
@@ -1444,61 +1497,81 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 800px;
   }
 
   .bannerContentland {
-    width: 70%;
+    /* width: 70%; */
+    width: 100%;
+    gap: 60px;
+    text-align: justify;
+    margin-top: 100px;
   }
 
   .bannerContentland > div > h1 {
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 500;
     line-height: 36px;
-    text-align: left;
+    text-align: justify;
   }
 
   .bannerContentland > div > p {
-    width: 130%;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     letter-spacing: -0.36px;
-    text-align: left;
+    margin-bottom: 5%;
+    text-align: justify;
   }
+
+  /* ------------------------------------------ */
+  /* button */
 
   .bannerContentBtnland {
-    width: inherit;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  #getStartedBtn {
-    display: flex;
-    /* width: 325px; */
-    width: 200%;
-    height: 36px;
-    padding: 30px 48px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    column-gap: 20px;
+    color: white;
+  }
+
+  #getStartedBtnLanding {
+    /* width: fit-content; */
+    width: 480px;
+    /* box-sizing: border-box; */
+    padding: 10px 30px 10px 30px;
+    background: #ffa200;
+    border: 1px solid #ffa200;
+    border-radius: 10px;
     text-align: center;
     color: #ffffff;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2.3rem;
-    position: relative;
-    left: -40px;
+    font-size: 25px;
   }
 
-  #learnMoreBtn {
-    margin: 5% auto !important;
-    width: 200%;
-    position: relative;
-    left: -40px;
+  #learnMoreBtnLanding {
+    color: #fff !important;
+    font-family: "ITC";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
   }
+
+  .nexus_rightarrow img {
+    color: white !important;
+    fill: white;
+    width: 20px;
+  }
+
+  /* -------------------------------- */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
@@ -1569,7 +1642,7 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-width: 381px) {
+@media screen and (max-width: 499px) and (min-width: 400px) {
   .Landing_top_bg {
     min-height: 800px;
     max-height: fit-content;
@@ -1577,15 +1650,15 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 100px;
+    padding-top: 150px;
     min-height: 900px;
     max-height: fit-content;
   }
 
   .bannerContentContainerland > h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 100px;
     text-align: left;
   }
 
@@ -1595,60 +1668,86 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 1000px;
   }
 
   .bannerContentland {
-    width: 70%;
+    width: 100%;
+    gap: 60px;
+    text-align: justify;
+    margin-top: 0px;
   }
 
   .bannerContentland > div > h1 {
-    font-size: 1.8rem;
+    font-size: 30px;
     font-weight: 500;
     line-height: 36px;
-    text-align: left;
+    text-align: justify;
   }
 
   .bannerContentland > div > p {
-    width: 130%;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     letter-spacing: -0.36px;
-    text-align: left;
+    margin-bottom: 5%;
+    text-align: justify;
   }
+
+  /* ------------------------------------------ */
+  /* button */
+
+  .bannerContentBtnland {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+  }
+
+  #getStartedBtnLanding {
+    /* width: fit-content; */
+    width: 380px;
+    /* box-sizing: border-box; */
+    padding: 10px 30px 10px 30px;
+    background: #ffa200;
+    border: 1px solid #ffa200;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  #learnMoreBtnLanding {
+    color: #fff !important;
+    font-family: "ITC";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
+  }
+
+  .nexus_rightarrow img {
+    color: white !important;
+    fill: white;
+    width: 20px;
+  }
+
+  /* -------------------------------- */
 
   .bannerContentBtnland {
     width: inherit;
     display: flex;
     justify-content: center;
     flex-direction: column;
-  }
-
-  #getStartedBtn {
-    display: flex;
-    /* width: 325px; */
-    width: 200%;
-    height: 36px;
-    padding: 30px 35px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 10px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2.3rem;
-    position: relative;
-    left: -40px;
-  }
-
-  #learnMoreBtn {
-    margin: 5% auto !important;
-    width: 200%;
-    position: relative;
-    left: -30px;
   }
 
   /* ==========secong bg container============ */
@@ -1727,7 +1826,7 @@
   }
 }
 
-@media screen and (max-width: 380px) and (min-width: 300px) {
+@media screen and (max-width: 399px) and (min-width: 350px) {
   .Landing_top_bg {
     min-height: 800px;
     max-height: fit-content;
@@ -1735,7 +1834,7 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 100px;
+    padding-top: 150px;
     min-height: 900px;
     max-height: fit-content;
   }
@@ -1743,7 +1842,7 @@
   .bannerContentContainerland > h1 {
     font-size: 4rem;
     font-weight: 600;
-    line-height: 80px;
+    line-height: 70px;
     text-align: left;
   }
 
@@ -1753,46 +1852,48 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 700px;
   }
 
   .bannerContentland {
-    width: 70%;
+    width: 100%;
+    gap: 60px;
+    text-align: justify;
+    margin-top: 30px;
   }
 
   .bannerContentland > div > h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 36px;
     text-align: left;
   }
 
   .bannerContentland > div > p {
-    width: 130%;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.36px;
     text-align: left;
   }
 
+  /* ------------------------------------------ */
+  /* button */
+
   .bannerContentBtnland {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    column-gap: 20px;
+    color: white;
   }
 
-  #getStartedBtn {
-    display: flex;
-    width: 140%;
-    height: 36px;
-    padding: 30px 48px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-
-    box-sizing: border-box;
+  #getStartedBtnLanding {
+    /* width: fit-content; */
+    width: 340px;
+    /* box-sizing: border-box; */
+    padding: 10px 30px 10px 30px;
     background: #ffa200;
     border: 1px solid #ffa200;
     border-radius: 10px;
@@ -1800,15 +1901,30 @@
     color: #ffffff;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.3rem;
-    line-height: 2.3rem;
+    font-size: 22px;
   }
 
-  #learnMoreBtn {
-    margin: 5% auto !important;
-    position: relative;
-    left: 50px;
+  #learnMoreBtnLanding {
+    color: #fff !important;
+    font-family: "ITC";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
   }
+
+  .nexus_rightarrow img {
+    color: white !important;
+    fill: white;
+    width: 20px;
+  }
+
+  /* -------------------------------- */
 
   /* ==========secong bg container============ */
   .second_bg_img-contaniner {
@@ -1891,6 +2007,107 @@
   }
 }
 
+@media screen and (max-width: 349px) and (min-width: 300px) {
+  .Landing_top_bg {
+    min-height: 800px;
+    max-height: fit-content;
+  }
+
+  .bannerContentContainerland {
+    width: 90% !important;
+    padding-top: 150px;
+    min-height: 900px;
+    max-height: fit-content;
+  }
+
+  .bannerContentContainerland > h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: left;
+  }
+
+  .bannerContentWrapper1 {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 800px;
+  }
+
+  .bannerContentland {
+    width: 100%;
+    gap: 80px;
+    text-align: justify;
+    margin-top: 0px;
+  }
+
+  .bannerContentland > div > h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  .bannerContentland > div > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    text-align: left;
+  }
+
+  /* ------------------------------------------ */
+  /* button */
+
+  .bannerContentBtnland {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+  }
+
+  #getStartedBtnLanding {
+    /* width: fit-content; */
+    width: 300px;
+    /* box-sizing: border-box; */
+    padding: 10px 30px 10px 30px;
+    background: #ffa200;
+    border: 1px solid #ffa200;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  #learnMoreBtnLanding {
+    color: #fff !important;
+    font-family: "ITC";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 20px;
+  }
+
+  .nexus_rightarrow img {
+    color: white !important;
+    fill: white;
+    width: 20px;
+  }
+
+  /* -------------------------------- */
+}
+
 @media screen and (max-width: 420px) and (min-width: 380px) {
   .content_nab-show img {
     position: absolute;
@@ -1967,8 +2184,8 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #downArrow {
     margin-left: 30%;
   }
-}
+} */
