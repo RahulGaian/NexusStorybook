@@ -227,6 +227,9 @@
 }
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
+  .cookies {
+    margin-top: 100px;
+  }
   .mobileCookiesContainer {
     width: 90%;
     display: flex !important;

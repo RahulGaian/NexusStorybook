@@ -21,7 +21,10 @@ const Landingpagenew = () => {
               muted="muted"
               loop="loop"
             >
-              <source src={ process.env.PUBLIC_URL + "/video/2.mp4"} type="video/mp4" />
+              <source
+                src={process.env.PUBLIC_URL + "/video/2.mp4"}
+                type="video/mp4"
+              />
             </video>
             <div className="bannerContentContainerland " id="abcdef">
               <h1>Nexus Connect</h1>
@@ -44,7 +47,7 @@ const Landingpagenew = () => {
                   <div className="bannerContentBtnland">
                     <div>
                       <button
-                        id="getStartedBtn"
+                        id="getStartedBtnLanding"
                         onClick={() => {
                           window.location.href = "/comingsoon";
                         }}
@@ -53,7 +56,7 @@ const Landingpagenew = () => {
                       </button>
                     </div>
                     <div
-                      id="learnMoreBtn"
+                      id="learnMoreBtnLanding"
                       onClick={() => {
                         window.location.href = "/NextGenTV_Webinar";
                       }}
@@ -67,13 +70,18 @@ const Landingpagenew = () => {
                       </div>
                     </div>
                   </div>
-                      <div id="downArrow">
-                              <a href="#mapcomp" className={"mapbutton"}>
-
-                              <Img style={{width:"40px",textAlign:"center",marginTop:"20px"}} src={"/Images/landing/down.svg"}></Img>
-                              </a>
-                      </div>
-                  
+                  <div id="downArrow">
+                    <a href="#mapcomp" className={"mapbutton"}>
+                      <Img
+                        style={{
+                          width: "40px",
+                          textAlign: "center",
+                          marginTop: "20px",
+                        }}
+                        src={"/Images/landing/down.svg"}
+                      ></Img>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -173,7 +181,9 @@ const Landingpagenew = () => {
           </div>
         </div>
 
-        <div><AppSwiper /></div>
+        <div>
+          <AppSwiper />
+        </div>
 
         <div className="mobius_won_wrapper">
           <div className="mobius_won_content">
@@ -184,7 +194,7 @@ const Landingpagenew = () => {
             <section className="content_text">
               <p>
                 Mobius Won 5 Product of <br />
-                the Year award at  NAB Show 2023
+                the Year award at NAB Show 2023
               </p>
             </section>
 
