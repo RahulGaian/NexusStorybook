@@ -1,0 +1,8 @@
+.whereToFind {
+  margin-left: 5% !important;
+}
+@media screen and (max-width: 650px) {
+  .whereToFind {
+    margin-left: 0% !important;
+  }
+}
