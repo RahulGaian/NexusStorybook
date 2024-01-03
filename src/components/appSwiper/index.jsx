@@ -176,7 +176,7 @@ let AppSwiper = ({ data }) => {
               <SingleApp2
                 image={"/aidtaasImages/images/images/solutions/dig.png"}
                 heading={"ImpressIO"}
-                content={`ImpressIO, powered by Mobius DTaaS, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.`}
+                content={`ImpressIO, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.`}
                 Route={"/products/DSaaS"}
               ></SingleApp2>
             </SwiperSlide>
@@ -185,7 +185,7 @@ let AppSwiper = ({ data }) => {
               <SingleApp2
                 image={"/aidtaasImages/images/images/solutions/suh.png"}
                 heading={"iZAK"}
-                content={`iZAK is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.`}
+                content={`iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.`}
                 Route={"/products/iZAK"}
               ></SingleApp2>
             </SwiperSlide>
@@ -218,7 +218,7 @@ let AppSwiper = ({ data }) => {
               <SingleApp2
                 image={"/aidtaasImages/images/images/solutions/2.png"}
                 heading={"ZoomBot Pro"}
-                content={`ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.`}
+                content={`ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.`}
                 Route={"/products/zoombot-pro"}
               ></SingleApp2>
             </SwiperSlide>

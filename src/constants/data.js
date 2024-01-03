@@ -298,9 +298,9 @@ const solutionData = [
   {
     id: "smart-city-as-a-service",
     banner: {
-      heading: "Empowering Cities to Innovate and Grow with Mobius DTaaS",
+      heading: "Empowering Cities to Innovate and Grow with Nexus Connect",
       description:
-        "With Smart-city-as-a-Service, you can leverage the power of Mobius DTaaS to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        "With Smart-city-as-a-Service, you can leverage the power of Nexus Connect to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
       getStartedUrl: "",
       imageUrl: images.SmartMain,
     },
@@ -413,12 +413,12 @@ const solutionData = [
       },
       {
         swpierHeading:"Suhaas",
-        swiperContent:"SUHAaaS is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperContent:"SUHAaaS is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
         swiperImage:"suh.png"
       },
       {
         swpierHeading:"Digital Signage",
-        swiperContent:"Digital Signage, powered by Mobius DTaaS, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
+        swiperContent:"Digital Signage, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
         swiperImage:"dig.png"
       },
       {
@@ -438,7 +438,7 @@ const solutionData = [
       },
       {
         swpierHeading:"ZoomBot Pro",
-        swiperContent:"ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
+        swiperContent:"ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
         swiperImage:""
       },
       {
@@ -557,12 +557,12 @@ const solutionData = [
       },
       {
         swpierHeading:"Suhaas",
-        swiperContent:"SUHAaaS is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperContent:"SUHAaaS is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
         swiperImage:"suh.png"
       },
       {
         swpierHeading:"Digital Signage",
-        swiperContent:"Digital Signage, powered by Mobius DTaaS, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
+        swiperContent:"Digital Signage, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
         swiperImage:"dig.png"
       },
       {
@@ -582,7 +582,7 @@ const solutionData = [
       },
       {
         swpierHeading:"ZoomBot Pro",
-        swiperContent:"ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
+        swiperContent:"ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
         swiperImage:""
       },
       {
@@ -690,7 +690,7 @@ const solutionData = [
     banner: {
       heading: "MoScribe: Efficient Subscription Management",
       description:
-        "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Mobius DTaaS platform - to streamline and automate subscription management processes for SaaS applications.",
+        "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Nexus Connect platform - to streamline and automate subscription management processes for SaaS applications.",
       getStartedUrl: "",
       imageUrl: images.moscribe9,
     },
@@ -841,7 +841,7 @@ const solutionData = [
         heading:
         "Unleashing Marketing Automation Success",
             description:
-        "With the implementation of MAaaS powered by Mobius DTaaS, IUP Corp successfully transformed their Marketing Automation capabilities. By streamlining lead generation and management, automating campaign execution, enhancing customer journey mapping, driving customer engagement, and leveraging advanced analytics, IUP Corp achieved remarkable results.",
+        "With the implementation of MAaaS powered by Nexus Connect, IUP Corp successfully transformed their Marketing Automation capabilities. By streamlining lead generation and management, automating campaign execution, enhancing customer journey mapping, driving customer engagement, and leveraging advanced analytics, IUP Corp achieved remarkable results.",
             downloadLink: "",
                 imageUrl: images.Maas9,
     },
@@ -875,7 +875,7 @@ const solutionData = [
       heading:
         "DGaaS: Unlocking the Power of Data Governance for Modern Enterprises",
       description:
-        "Data Governance as a Service (DGaaS) powered by Mobius DTaaS is a comprehensive solution that enables organizations to establish effective data governance practices.",
+        "Data Governance as a Service (DGaaS) powered by Nexus Connect is a comprehensive solution that enables organizations to establish effective data governance practices.",
       getStartedUrl: "",
       imageUrl: images.DGaas1,
     },
@@ -904,7 +904,7 @@ const solutionData = [
       {
         heading: "Scalable and Agile",
         description:
-          "Mobius DTaaS allows for scalability and adaptability for evolving data governance needs, ensuring long-term success.",
+          "Nexus Connect allows for scalability and adaptability for evolving data governance needs, ensuring long-term success.",
         imageUrl: images.DGaas5,
         url:"",
       },
@@ -932,10 +932,10 @@ const solutionData = [
     ],
     caseStudy: {
       heading:
-        "Enhancing Data Governance for TechCo Inc.: DGaaS Powered by Mobius DTaaS",
+        "Enhancing Data Governance for TechCo Inc.: DGaaS Powered by Nexus Connect",
       description:
         // "TechCo Inc., a leading technology company, faced significant challenges in establishing effective data governance practices across its diverse business units. The lack of a centralized data governance framework resulted in data inconsistencies, poor data quality, and compliance risks. To address these issues, TechCo Inc.",
-        "Learn how DGaaS powered by Mobius DTaaS helped a leading technology company, TechCo INC., establish effective data governance practices across its diverse business units. Understand how DGaaS helped them establish a centralized data governance framework which eliminated key concerns such as data inconsistencies, poor data quality, and compliance risks significantly.",
+        "Learn how DGaaS powered by Nexus Connect helped a leading technology company, TechCo INC., establish effective data governance practices across its diverse business units. Understand how DGaaS helped them establish a centralized data governance framework which eliminated key concerns such as data inconsistencies, poor data quality, and compliance risks significantly.",
       downloadLink: "",
       imageUrl: images.DGaas9,
     },
@@ -1391,7 +1391,7 @@ const solutionData = [
     {
       heading: "Comprehensive Analytics and Insights",
       description:
-        "Utilize Mobius DTaaS to collect and analyze viewer data, gathering insights on user behavior, map usage, and content preferences, empowering broadcasters to make data-driven decisions and optimize future offerings.",
+        "Utilize Nexus Connect to collect and analyze viewer data, gathering insights on user behavior, map usage, and content preferences, empowering broadcasters to make data-driven decisions and optimize future offerings.",
       imageUrl: images.LM8,
       url:"",
     },
@@ -1434,7 +1434,7 @@ const solutionData = [
     heading:
       "Rapid Response: Empowering First Responders with Real-time Alerts",
     description:
-      "The First Responder Alerting MISS harnesses the power of NexGen TV technology and Mobius DTaaS tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+      "The First Responder Alerting MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
     getStartedUrl: "",
     imageUrl: images.FR1,
   },
@@ -1456,21 +1456,21 @@ const solutionData = [
     {
       heading: "Enhanced Viewer Analytics",
       description:
-        "The implementation of Mobius DTaaS tools in the MISS facilitates advanced viewer analytics, providing broadcasters with valuable insights into viewer behavior, content preferences, and viewing patterns.",
+        "The implementation of Nexus Connect tools in the MISS facilitates advanced viewer analytics, providing broadcasters with valuable insights into viewer behavior, content preferences, and viewing patterns.",
       imageUrl: images.FR4,
       url:"",
     },
     {
       heading: "Personalized Viewer Experience",
       description:
-        "The MISS, integrated with Mobius DTaaS tools, offers a personalized viewer experience by utilizing data analytics and user profiling to deliver targeted content based on viewer preferences and interests.",
+        "The MISS, integrated with Nexus Connect tools, offers a personalized viewer experience by utilizing data analytics and user profiling to deliver targeted content based on viewer preferences and interests.",
       imageUrl: images.FR5,
       url:"",
     },
     {
       heading: "Data-driven Advertising",
       description:
-        "With Mobius DTaaS tools, the MISS enables data-driven advertising strategies by leveraging data analytics to deliver targeted advertisements to specific viewer segments, maximizing ad relevancy and revenue generation for broadcasters.",
+        "With Nexus Connect tools, the MISS enables data-driven advertising strategies by leveraging data analytics to deliver targeted advertisements to specific viewer segments, maximizing ad relevancy and revenue generation for broadcasters.",
       imageUrl: images.FR6,
       url:"",
     },
@@ -1493,7 +1493,7 @@ const solutionData = [
     heading:
       "Rapid Response: Empowering First Responders with Real-time Alerts",
     description:
-      "The First Responder Alerting MISS harnesses the power of NexGen TV technology and Mobius DTaaS tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+      "The First Responder Alerting MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
     downloadLink: "",
     imageUrl: images.FR9,
   },
@@ -1570,7 +1570,7 @@ const solutionData = [
     {
       heading: "Scalable and Customizable",
       description:
-        "Leveraging Mobius DTaaS and its SaaS tools, CX MISS offers highly scalable and customizable solutions that can be easily integrated with existing systems, allowing organizations to tailor CX experiences according to their unique business requirements.",
+        "Leveraging Nexus Connect and its SaaS tools, CX MISS offers highly scalable and customizable solutions that can be easily integrated with existing systems, allowing organizations to tailor CX experiences according to their unique business requirements.",
       imageUrl: images.CX7,
       url:"",
     },
@@ -1620,7 +1620,7 @@ const solutionData = [
     heading:
       "Revolutionizing Enterprise Efficiency: The Next Generation Modern Enterprise Solution Suite",
     description:
-      "The Modern Enterprise Solution Suite by Mobius offers a comprehensive set of Mobius Intelligent Solution Suites (MISS) designed to address the critical needs of today's enterprises. This suite combines the power of Mobius DTaaS and its suite of SaaS tools to deliver intelligent applications that enhance operational efficiency, optimize processes, and deliver exceptional customer experiences.",
+      "The Modern Enterprise Solution Suite by Mobius offers a comprehensive set of Mobius Intelligent Solution Suites (MISS) designed to address the critical needs of today's enterprises. This suite combines the power of Nexus Connect and its suite of SaaS tools to deliver intelligent applications that enhance operational efficiency, optimize processes, and deliver exceptional customer experiences.",
     getStartedUrl: "",
     imageUrl: images.MES1,
   },
@@ -1713,7 +1713,7 @@ const solutionData = [
     heading:
       "Unleashing the Power of Intelligent Websites: Empowering Digital Experiences with WebSite Modernization",
     description:
-      "The WebSite Modernization MISS by Mobius empowers organizations to transform their websites into intelligent and context-aware platforms. Leveraging the suite of low-code tools provided by Mobius DTaaS, this solution enables the creation of personalized and engaging website experiences.",
+      "The WebSite Modernization MISS by Mobius empowers organizations to transform their websites into intelligent and context-aware platforms. Leveraging the suite of low-code tools provided by Nexus Connect, this solution enables the creation of personalized and engaging website experiences.",
     getStartedUrl: "",
     imageUrl: images.WM1,
   },
@@ -1957,7 +1957,7 @@ const solutionData = [
   ],
   caseStudy: {
     heading:
-      "Empowering Communities: A Case Study on Citizen Engagement with Mobius DTaaS",
+      "Empowering Communities: A Case Study on Citizen Engagement with Nexus Connect",
     description:
       "CityX Municipality, like many local governments, faced challenges in effectively engaging citizens in decision-making processes and fostering public participation. Traditional methods of citizen engagement, such as town hall meetings and surveys, often resulted in limited reach, low participation rates, and a lack of inclusivity.",
     downloadLink: "",
@@ -2291,7 +2291,7 @@ const marketplaceData = [
       subheading:
         "Revolutionizing Kerala's Road Transport Experience",
       description:
-        "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Mobius DTaaS platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
+        "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Nexus Connect platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
       getStartedUrl: "",
       learnMoreUrl: "",
       imageUrl: images.k1,
@@ -2324,7 +2324,7 @@ const marketplaceData = [
       ],
     },
     description:
-      " The Mobius Marketplace for KSRTC and be part of a thriving ecosystem that revolutionizes road transport in Kerala. Collaborate with service providers, engage with passengers, and leverage the cutting-edge capabilities of Mobius DTaaS to create innovative solutions that shape the future of Kerala's transport landscape.",
+      " The Mobius Marketplace for KSRTC and be part of a thriving ecosystem that revolutionizes road transport in Kerala. Collaborate with service providers, engage with passengers, and leverage the cutting-edge capabilities of Nexus Connect to create innovative solutions that shape the future of Kerala's transport landscape.",
     casestudy: {
       heading:
         "Case Study : Revolutionizing Kerala's Road Transport Experience",
@@ -2374,7 +2374,7 @@ const marketplaceData = [
       ],
     },
     description:
-      "The Bangalore Metro Marketplace, powered by Mobius DTaaS, successfully transformed the way commuters engage with the city and provided businesses with unique opportunities for advertising and monetization. By connecting commuters and businesses through interactive MIAs and targeted advertisements, the marketplace enhanced the overall metro experience while driving brand engagement.",
+      "The Bangalore Metro Marketplace, powered by Nexus Connect, successfully transformed the way commuters engage with the city and provided businesses with unique opportunities for advertising and monetization. By connecting commuters and businesses through interactive MIAs and targeted advertisements, the marketplace enhanced the overall metro experience while driving brand engagement.",
     casestudy: {
       heading:
         "Case Study : Transforming Commuter Engagement",
@@ -2394,7 +2394,7 @@ const productsData = [
       heading:
         "ZoomBot Pro: Enhancing Meeting Productivity and Collaboration on Zoom",
       paragraph:
-        "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
+        "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
       imageUrl: images.ZoomBotBanner,
       bookDemoUrl: "",
       viewDemoUrl: "",
@@ -2452,7 +2452,7 @@ const productsData = [
     banner: {
       heading: "SUHAaaS: Software Updates and Home Automation as a Service",
       paragraph:
-        "SUHAaaS is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
+        "SUHAaaS is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
       imageUrl: images2.shb,
       bookDemoUrl: "",
       viewDemoUrl: images2.sh7,
@@ -2569,7 +2569,7 @@ const productsData = [
     banner: {
       heading: "DSaaS - Empowering the Future of Digital Signage",
       paragraph:
-        "DSaaS, powered by Mobius DTaaS, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
+        "DSaaS, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
       imageUrl: images.DsaasBanner,
       bookDemoUrl: "",
       viewDemoUrl:images.Dsaaspreview,
@@ -2627,7 +2627,7 @@ const productsData = [
     banner: {
       heading: "Revolutionizing Civic Engagement: The 311 TV App",
       paragraph:
-        "Explore how 311 TV, a groundbreaking SaaS application built on Mobius DTaaS, empowers NexGen TV broadcasters to become digital transformation agents, revolutionizing civic engagement in their local communities through state-of-the-art ATSC 3.0 broadcast technologies",
+        "Explore how 311 TV, a groundbreaking SaaS application built on Nexus Connect, empowers NexGen TV broadcasters to become digital transformation agents, revolutionizing civic engagement in their local communities through state-of-the-art ATSC 3.0 broadcast technologies",
       imageUrl: images.Banner_311,
       bookDemoUrl: "",
       viewDemoUrl: images.three_one_one,
@@ -2662,7 +2662,7 @@ const productsData = [
       {
         heading: "Streamlined Issue Resolution Processes",
         paragraph:
-          "The integration of Mobius DTaaS tools, such as PI-Pascal Intelligence and BoB-BoltzmannBot, streamlines issue resolution processes. ",
+          "The integration of Nexus Connect tools, such as PI-Pascal Intelligence and BoB-BoltzmannBot, streamlines issue resolution processes. ",
         imageUrl: images.Benefits2_311,
       },
       {
@@ -2696,19 +2696,19 @@ const productsData = [
       {
         heading: "AI-Driven Traffic Insights",
         paragraph:
-          "Live Traffic leverages the power of Pascal Intelligence, a Mobius DTaaS tool, to provide real-time traffic updates. Through advanced AI algorithms, the application analyzes data from various sources to deliver accurate and up-to-date traffic information.",
+          "Live Traffic leverages the power of Pascal Intelligence, a Nexus Connect tool, to provide real-time traffic updates. Through advanced AI algorithms, the application analyzes data from various sources to deliver accurate and up-to-date traffic information.",
         imageUrl: images.LiveTrafficFeatures1,
       },
       {
         heading: "Intelligent Route Optimization",
         paragraph:
-          "Live Traffic integrates with Monet, a Mobius DTaaS tool, to offer customizable routing options. By leveraging Mobius DTaaS capabilities, the application considers real-time traffic data, historical patterns, and user preferences to provide optimized travel routes.",
+          "Live Traffic integrates with Monet, a Nexus Connect tool, to offer customizable routing options. By leveraging Nexus Connect capabilities, the application considers real-time traffic data, historical patterns, and user preferences to provide optimized travel routes.",
         imageUrl: images.LiveTrafficFeatures2,
       },
       {
         heading: "Immersive Traffic Experience",
         paragraph:
-          "Live Traffic seamlessly integrates Mobius DTaaS tools, to deliver a truly immersive traffic experience within the NextGenTV application. HolaVerse enables seamless data exchange and collaboration between Live Traffic and NextGenTV, ensuring users have access to live traffic updates without leaving the viewing platform",
+          "Live Traffic seamlessly integrates Nexus Connect tools, to deliver a truly immersive traffic experience within the NextGenTV application. HolaVerse enables seamless data exchange and collaboration between Live Traffic and NextGenTV, ensuring users have access to live traffic updates without leaving the viewing platform",
         imageUrl: images.LiveTrafficFeatures3,
       },
     ],
@@ -4280,7 +4280,7 @@ const productsData = [
     heading:
       "OpenFEMA App: Empowering NextGenTV Broadcasters in Crisis Response",
     paragraph:
-      "The OpenFEMA App, powered by Mobius DTaaS, revolutionizes emergency management communications for NextGenTV broadcasters. This real-time, multicast delivery app enables rapid deployment during crises, connecting stakeholders and facilitating efficient coordination in times of need.",
+      "The OpenFEMA App, powered by Nexus Connect, revolutionizes emergency management communications for NextGenTV broadcasters. This real-time, multicast delivery app enables rapid deployment during crises, connecting stakeholders and facilitating efficient coordination in times of need.",
     imageUrl: images.OpenFemaBanner,
     bookDemoUrl: "",
     viewDemoUrl: images.OpenFemaPreview,
@@ -4315,7 +4315,7 @@ const productsData = [
     {
       heading: "Timely and Accurate Information Dissemination",
       paragraph:
-        "The OpenFEMA App, powered by Mobius DTaaS, enables broadcasters to deliver real-time information across multiple platforms. It ensures that affected populations receive vital updates on evacuation routes, shelter locations, and resource availability.",
+        "The OpenFEMA App, powered by Nexus Connect, enables broadcasters to deliver real-time information across multiple platforms. It ensures that affected populations receive vital updates on evacuation routes, shelter locations, and resource availability.",
       imageUrl: images.OpenFemaBenefits2,
     },
     {
@@ -4634,7 +4634,7 @@ const productsData = [
     heading:
       "Unleash the Power of Customer Data for Business Success",
     paragraph:
-      "CDP is a comprehensive Customer Data Platform (CDP) built on the innovative Mobius DTaaS. It empowers businesses to effectively manage, analyze, and utilize customer data to drive customer satisfaction and achieve business success.With its integrated Mobius Tools, CDP provides a seamless solution for comprehensive customer data management and actionable insights.",
+      "CDP is a comprehensive Customer Data Platform (CDP) built on the innovative Nexus Connect. It empowers businesses to effectively manage, analyze, and utilize customer data to drive customer satisfaction and achieve business success.With its integrated Mobius Tools, CDP provides a seamless solution for comprehensive customer data management and actionable insights.",
     imageUrl: images.CD1,
     bookDemoUrl: "",
     viewDemoUrl: images.CD2,
@@ -4669,7 +4669,7 @@ const productsData = [
     {
       heading: "Data-Driven Decision Making",
       paragraph:
-        "By leveraging the power of Mobius DTaaS, CDP provides businesses with actionable insights derived from advanced data analysis. ",
+        "By leveraging the power of Nexus Connect, CDP provides businesses with actionable insights derived from advanced data analysis. ",
       imageUrl: images.CD7,
     },
     {
@@ -4691,9 +4691,9 @@ const productsData = [
   id: "customer-relationship-management",
   banner: {
     heading:
-      "Unleash the Power of Customer Relationships with Mobius DTaaS",
+      "Unleash the Power of Customer Relationships with Nexus Connect",
     paragraph:
-      "The CRM solution built on Mobius DTaaS empowers businesses to effectively manage customer relationships, streamline processes, and enhance customer experiences. By leveraging the integrated Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - the CRM delivers a competitive and differentiated solution that drives customer satisfaction and business success.",
+      "The CRM solution built on Nexus Connect empowers businesses to effectively manage customer relationships, streamline processes, and enhance customer experiences. By leveraging the integrated Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - the CRM delivers a competitive and differentiated solution that drives customer satisfaction and business success.",
     imageUrl: images.CR1,
     bookDemoUrl: "",
     viewDemoUrl: images.CR2,
@@ -4728,7 +4728,7 @@ const productsData = [
     {
       heading: "Streamlined Processes and Operational Efficiency",
       paragraph:
-        "By leveraging the power of Mobius DTaaS, CDP provides businesses with actionable insights derived from advanced data analysis. ",
+        "By leveraging the power of Nexus Connect, CDP provides businesses with actionable insights derived from advanced data analysis. ",
       imageUrl: images.CR7,
     },
     {
@@ -4739,7 +4739,7 @@ const productsData = [
     },
   ],
   case_study: {
-    heading: "Empowering IUT Corporation with Mobius DTaaS CRM Solution",
+    heading: "Empowering IUT Corporation with Nexus Connect CRM Solution",
     paragraph:
       "IUT Corporation, a leading retail and e-commerce company, faced significant challenges in effectively managing and leveraging their customer relationships. With a vast customer base and multiple sales channels, they struggled to gain a holistic view of their customers, streamline processes, and deliver personalized experiences.",
     imageUrl: images.CR9,
@@ -4750,9 +4750,9 @@ const productsData = [
   id: "customer-success-management",
   banner: {
     heading:
-      "Empowering Businesses with Mobius DTaaS CSM Solution",
+      "Empowering Businesses with Nexus Connect CSM Solution",
     paragraph:
-      "The Customer Success Management (CSM) solution built on Mobius DTaaS is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
+      "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
     imageUrl: images.CS1,
     bookDemoUrl: "",
     viewDemoUrl: images.CR2,
@@ -4781,7 +4781,7 @@ const productsData = [
     {
       heading: " Proactive Customer Success Management",
       paragraph:
-        "By leveraging Mobius DTaaS CSM solution, businesses can proactively manage customer success. The comprehensive data insights and automation enable them to identify potential issues and intervene at the right.",
+        "By leveraging Nexus Connect CSM solution, businesses can proactively manage customer success. The comprehensive data insights and automation enable them to identify potential issues and intervene at the right.",
       imageUrl: images.CS6,
     },
     {
@@ -4798,9 +4798,9 @@ const productsData = [
     },
   ],
   case_study: {
-    heading: "Empowering Businesses with Mobius DTaaS CSM Solution",
+    heading: "Empowering Businesses with Nexus Connect CSM Solution",
     paragraph:
-      "The Customer Success Management (CSM) solution built on Mobius DTaaS is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
+      "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
     imageUrl: images.CS9,
     downloadUrl: ""
   }
@@ -4811,7 +4811,7 @@ const productsData = [
     heading:
       "Revolutionize Marketing Efficiency with Marketing Automation",
     paragraph:
-      "Unleash the power of Marketing Automation MIA powered by Mobius DTaaS to streamline and optimize your marketing processes. Harness the capabilities of Mobius Intelligent Applications (MIAs) and advanced tools to drive growth, enhance customer engagement, and make data-driven marketing decisions.",
+      "Unleash the power of Marketing Automation MIA powered by Nexus Connect to streamline and optimize your marketing processes. Harness the capabilities of Mobius Intelligent Applications (MIAs) and advanced tools to drive growth, enhance customer engagement, and make data-driven marketing decisions.",
     imageUrl: images.MA1,
     bookDemoUrl: "",
     viewDemoUrl: images.MA2,
@@ -4857,7 +4857,7 @@ const productsData = [
     },
   ],
   case_study: {
-    heading: "Empowering MarkX Corp with Marketing Automation Powered by Mobius DTaaS",
+    heading: "Empowering MarkX Corp with Marketing Automation Powered by Nexus Connect",
     paragraph:
       "MarkX Corp, a leading technology solutions provider, faced significant challenges in streamlining their marketing processes and achieving their growth targets. They struggled with manual lead generation, inefficient campaign management, and limited visibility into customer engagement.",
     imageUrl: images.MA9,
@@ -5166,7 +5166,7 @@ const productsData = [
     heading:
       "Transforming Workplace Safety Communication",
     paragraph:
-      "SafetyConnect, powered by Mobius DTaaS, revolutionizes workplace safety communication, enabling real-time incident reporting, efficient coordination, and proactive hazard prevention. Enhance employee safety and foster a culture of proactive risk management with SafetyConnect.",
+      "SafetyConnect, powered by Nexus Connect, revolutionizes workplace safety communication, enabling real-time incident reporting, efficient coordination, and proactive hazard prevention. Enhance employee safety and foster a culture of proactive risk management with SafetyConnect.",
     imageUrl: images.CIS1,
     bookDemoUrl: "",
     viewDemoUrl: images.CIS2,
@@ -5225,7 +5225,7 @@ const productsData = [
     heading:
       "Transforming Civic Engagement with NextGenTV Broadcast Technologies",
     paragraph:
-      "311 TV is a groundbreaking SaaS application powered by Mobius DTaaS, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
+      "311 TV is a groundbreaking SaaS application powered by Nexus Connect, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
     imageUrl: images.ce1,
     bookDemoUrl: "",
     viewDemoUrl: images.ce2,
@@ -5284,7 +5284,7 @@ const productsData = [
     heading:
       "Revolutionizing Citizen Engagement in the Public Sector",
     paragraph:
-      "Engage360 is a transformative citizen engagement platform built on Mobius DTaaS, empowering public sector organizations to connect, collaborate, and communicate with citizens effectively.",
+      "Engage360 is a transformative citizen engagement platform built on Nexus Connect, empowering public sector organizations to connect, collaborate, and communicate with citizens effectively.",
     imageUrl: images.CME1,
     bookDemoUrl: "",
     viewDemoUrl: images.CME2,

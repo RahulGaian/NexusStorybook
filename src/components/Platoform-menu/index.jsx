@@ -18,25 +18,25 @@
 //       name: "Phygital Transformation",
 //       image: "../public/images/home/78.png",
 //       description:
-//         "Mobius DTaaS achieves convergence between physical and digital worlds through Phygital Transformation. Its SaaS tools - Pascal Intelligence, BoltzmannBot, Monet, Vinci, and HolaVerse - empower businesses to streamline operations, enhance customer experiences, and drive phygital innovation. By combining human and machine capabilities, Mobius DTaaS transforms operations, creates new revenue streams, and unlocks new possibilities.",
+//         "Nexus Connect achieves convergence between physical and digital worlds through Phygital Transformation. Its SaaS tools - Pascal Intelligence, BoltzmannBot, Monet, Vinci, and HolaVerse - empower businesses to streamline operations, enhance customer experiences, and drive phygital innovation. By combining human and machine capabilities, Nexus Connect transforms operations, creates new revenue streams, and unlocks new possibilities.",
 //     },
 //     {
 //       name: "Accountable Transformation",
 //       image: "../public/images/home/79.png",
 //       description:
-//         "Mobius DTaaS provides businesses with a suite of SaaS tools for accountable, responsible, and monetizable digital transformation. These tools measure effectiveness, enhance digital capabilities, and enable businesses to improve customer experiences and achieve measurable outcomes such as increased revenue and reduced costs.",
+//         "Nexus Connect provides businesses with a suite of SaaS tools for accountable, responsible, and monetizable digital transformation. These tools measure effectiveness, enhance digital capabilities, and enable businesses to improve customer experiences and achieve measurable outcomes such as increased revenue and reduced costs.",
 //     },
 //     {
 //       name: "SaaS Factory",
 //       image: "../public/images/home/80.png",
 //       description:
-//         "Mobius DTaaS is a SaaS factory that enables scalable digital transformation with cutting-edge tools. With constantly improving services, Mobius DTaaS delivers flexible, cost-effective, and reliable solutions compared to traditional software deployment models.",
+//         "Nexus Connect is a SaaS factory that enables scalable digital transformation with cutting-edge tools. With constantly improving services, Nexus Connect delivers flexible, cost-effective, and reliable solutions compared to traditional software deployment models.",
 //     },
 //     {
 //       name: "Inter-org Digital Transformation",
 //       image: "../public/images/home/81.png",
 //       description:
-//         "Mobius DTaaS enables digital transformation between organizations through API integrations, streamlining operations and reducing manual interventions. Its secure platform and API-first approach provide greater agility, scalability, and efficiency, accelerating digital transformation journeys and achieving better business outcomes.",
+//         "Nexus Connect enables digital transformation between organizations through API integrations, streamlining operations and reducing manual interventions. Its secure platform and API-first approach provide greater agility, scalability, and efficiency, accelerating digital transformation journeys and achieving better business outcomes.",
 //     },
 //   ];
 

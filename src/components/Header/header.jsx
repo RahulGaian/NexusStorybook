@@ -39,7 +39,7 @@ function Header() {
                       content: {
                         heading: "Smart Cities",
                         description:
-                          "With Smart City as a Service, you can leverage the power of Mobius DTaaS to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth. ",
+                          "With Smart City as a Service, you can leverage the power of Nexus Connect to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth. ",
                         url: "/solutions/smart-city-as-a-service",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/smart.jpg",
                       },
@@ -76,7 +76,7 @@ function Header() {
                       content: {
                         heading: "5G Network Orchestration",
                         description:
-                          "Mobius DTaaS's private 5G network implementation empowers businesses to drive innovation and create value. With low-code tools, businesses can build apps for a 5G marketplace that offers connectivity as a service, enabling growth, remote monitoring, tracking, and safety. Mobius enables collaboration and value creation for stakeholders. ",
+                          "Nexus Connect's private 5G network implementation empowers businesses to drive innovation and create value. With low-code tools, businesses can build apps for a 5G marketplace that offers connectivity as a service, enabling growth, remote monitoring, tracking, and safety. Mobius enables collaboration and value creation for stakeholders. ",
                         url: "/solutions/5g-network-orchestration",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
                       },
@@ -86,7 +86,7 @@ function Header() {
                       content: {
                         heading: "Private 5G",
                         description:
-                          "Transform your business with Mobius DTaaS-powered Private 5G Network solutions. Our low-code platform enables rapid development and deployment of custom applications, and our automated network tools reduce costs and enhance efficiency. Experience the full potential of 5G technology with our smart connectivity solutions. ",
+                          "Transform your business with Nexus Connect-powered Private 5G Network solutions. Our low-code platform enables rapid development and deployment of custom applications, and our automated network tools reduce costs and enhance efficiency. Experience the full potential of 5G technology with our smart connectivity solutions. ",
                         url: "/solutions/private-5G",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
                       },
@@ -197,7 +197,7 @@ function Header() {
                       content: {
                         heading: "Aegis",
                         description:
-                          "The Aegis MISS harnesses the power of NexGen TV technology and Mobius DTaaS tools to provide real-time alerts and critical information to Aegiss in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+                          "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to Aegiss in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
                         url: "/solutions/first-responder-alerting",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
@@ -227,7 +227,7 @@ function Header() {
                       content: {
                         heading: "Mobius Enterprise Solution Suite",
                         description:
-                          "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Mobius DTaaS platform - to streamline and automate subscription management processes for SaaS applications.",
+                          "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Nexus Connect platform - to streamline and automate subscription management processes for SaaS applications.",
                         url: "/solutions/modern-enterprise-solution-suite",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
@@ -237,7 +237,7 @@ function Header() {
                       content: {
                         heading: "Website Modernisation",
                         description:
-                          "The WebSite Modernization MISS (Mobius Intelligent Solution Suite) revolutionizes the way organizations build and maintain websites by leveraging Mobius DTaaS and its suite of five low-code tools.",
+                          "The WebSite Modernization MISS (Mobius Intelligent Solution Suite) revolutionizes the way organizations build and maintain websites by leveraging Nexus Connect and its suite of five low-code tools.",
                         url: "/solutions/web-modernization",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
@@ -356,7 +356,7 @@ function Header() {
                       content: {
                         heading: "Data governance as a service",
                         description:
-                          "Data Governance as a Service (DGaaS) powered by Mobius DTaaS is a comprehensive solution that enables organizations to establish effective data governance practices. DGaaS combines five Mobius Intelligent Applications (MIAs) - Data Quality Sentinel, Master Data Nexus, Data Modeling Studio, Data Storage Hub, Data Security Fort, Meta Data Tracker, Data Warehousing & BI Center - built on the Mobius DTaaS platform.",
+                          "Data Governance as a Service (DGaaS) powered by Nexus Connect is a comprehensive solution that enables organizations to establish effective data governance practices. DGaaS combines five Mobius Intelligent Applications (MIAs) - Data Quality Sentinel, Master Data Nexus, Data Modeling Studio, Data Storage Hub, Data Security Fort, Meta Data Tracker, Data Warehousing & BI Center - built on the Nexus Connect platform.",
                         url: "/solutions/data-governance-as-a-service",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
@@ -393,7 +393,7 @@ function Header() {
                       content: {
                         heading: "Moscribe",
                         description:
-                          "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Mobius DTaaS platform - to streamline and automate subscription management processes for SaaS applications.",
+                          "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Nexus Connect platform - to streamline and automate subscription management processes for SaaS applications.",
                         url: "/solutions/moScribe",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
@@ -403,7 +403,7 @@ function Header() {
                       content: {
                         heading: "Marketing Automation",
                         description:
-                          "Marketing Automation as a Service (MAaaS) powered by Mobius DTaaS is a comprehensive solution that enables organizations to streamline and optimize their marketing processes. MAaaS combines several Mobius Intelligent Applications (MIAs), each designed to address specific marketing automation functions. ",
+                          "Marketing Automation as a Service (MAaaS) powered by Nexus Connect is a comprehensive solution that enables organizations to streamline and optimize their marketing processes. MAaaS combines several Mobius Intelligent Applications (MIAs), each designed to address specific marketing automation functions. ",
                         url: "/solutions/marketing-automation-as-a-service",
                         coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
@@ -472,7 +472,7 @@ function Header() {
                       content: {
                         heading: "Customer Data Platform",
                         description:
-                          "The Customer Data Platform (CDP) built on Mobius DTaaS is an innovative, end-to-end solution that harnesses the power of Mobius Tools to provide businesses with a competitive and differentiated way to manage, analyze, and utilize customer data effectively ",
+                          "The Customer Data Platform (CDP) built on Nexus Connect is an innovative, end-to-end solution that harnesses the power of Mobius Tools to provide businesses with a competitive and differentiated way to manage, analyze, and utilize customer data effectively ",
                         url: "/products/customer-data-platform",
                         coverImage: images.Navbar9,
                       },
@@ -495,7 +495,7 @@ function Header() {
                           content: {
                             heading: "Zoom Bot Pro",
                             description:
-                              "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications. ",
+                              "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications. ",
                             url: "/products/zoombot-pro",
                             coverImage: images.Navbar9,
                           },
@@ -514,7 +514,7 @@ function Header() {
                       content: {
                         heading: "Customer Relationship Management",
                         description:
-                          " The Customer Relationship Management (CRM) solution built on Mobius DTaaS is an advanced, comprehensive platform that leverages the power of Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - to create a competitive and differentiated CRM solution.",
+                          " The Customer Relationship Management (CRM) solution built on Nexus Connect is an advanced, comprehensive platform that leverages the power of Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - to create a competitive and differentiated CRM solution.",
                         url: "/products/customer-relationship-management",
                         coverImage: images.Navbar9,
                       },
@@ -556,7 +556,7 @@ function Header() {
                       content: {
                         heading: "Customer Success Management",
                         description:
-                          "The Customer Success Management (CSM) solution built on Mobius DTaaS is a comprehensive, data-driven platform that utilizes the power of Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - to create a competitive and differentiated CSM solution. ",
+                          "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive, data-driven platform that utilizes the power of Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - to create a competitive and differentiated CSM solution. ",
                         url: "/products/customer-success-management",
                         coverImage: images.Navbar9,
                       },
@@ -977,7 +977,7 @@ function Header() {
                           content: {
                             heading: "iZAK",
                             description:
-                              "iZAK is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace. ",
+                              "iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace. ",
                             url: "/products/iZAK",
                             coverImage: images.Navbar9,
                           },
@@ -1251,7 +1251,7 @@ function Header() {
                       content: {
                         heading: "Smart City as a Service",
                         description:
-                          "With Smart City as a Service, you can leverage the power of Mobius DTaaS to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth. ",
+                          "With Smart City as a Service, you can leverage the power of Nexus Connect to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth. ",
                         url: "/solutions/smart-city-as-a-service",
                         coverImage: images.Navbar9,
                       },
@@ -1567,7 +1567,7 @@ function Header() {
         //       article: {
         //         heading: "Hyderabad Metro",
         //         description:
-        //           "The Mobius Hyderabad Metro Marketplace, built on the robust foundation of Mobius DTaaS, revolutionizes the urban mobility landscape in Hyderabad. It serves as a vibrant platform for commuters, service providers, and businesses to connect, collaborate, and enhance the overall travel experience.",
+        //           "The Mobius Hyderabad Metro Marketplace, built on the robust foundation of Nexus Connect, revolutionizes the urban mobility landscape in Hyderabad. It serves as a vibrant platform for commuters, service providers, and businesses to connect, collaborate, and enhance the overall travel experience.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/comingsoon",
         //       },
@@ -1587,7 +1587,7 @@ function Header() {
         //       article: {
         //         heading: "KSRTC",
         //         description:
-        //           "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Mobius DTaaS platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
+        //           "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Nexus Connect platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/marketplace/ksrtc",
         //       },
@@ -1612,7 +1612,7 @@ function Header() {
         //       article: {
         //         heading: "Sassifying DT",
         //         description:
-        //           "Mobius DTaaS is dedicated to helping businesses achieve digital transformation at scale and speed through its suite of advanced SaaS tools. At Mobius DTaaS, we believe that digital transformation should be 'sassy' – agile, innovative, and cost-effective – and we are committed to delivering solutions that embody this philosophy.",
+        //           "Nexus Connect is dedicated to helping businesses achieve digital transformation at scale and speed through its suite of advanced SaaS tools. At Nexus Connect, we believe that digital transformation should be 'sassy' – agile, innovative, and cost-effective – and we are committed to delivering solutions that embody this philosophy.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/comingsoon",
         //       },
@@ -1622,7 +1622,7 @@ function Header() {
         //       article: {
         //         heading: "Phygital Transformation",
         //         description:
-        //           "At Mobius DTaaS, we believe that the digital transformation of today is phygital transformation, where the lines between the physical and digital worlds are blurred. Our platform is dedicated to helping businesses achieve true convergence between the two worlds, driving economic disruption through XaaS phygital transformation.",
+        //           "At Nexus Connect, we believe that the digital transformation of today is phygital transformation, where the lines between the physical and digital worlds are blurred. Our platform is dedicated to helping businesses achieve true convergence between the two worlds, driving economic disruption through XaaS phygital transformation.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/comingsoon",
         //       },
@@ -1632,7 +1632,7 @@ function Header() {
         //       article: {
         //         heading: "Accountable Transformation",
         //         description:
-        //           "Digital Transformation (DT) initiatives are critical for businesses to remain competitive in today's fast-paced world. However, measuring the success of these initiatives can be challenging, as the metrics can vary depending on the industry, business objectives, and the nature of the transformation. This is where Mobius DTaaS comes in, providing businesses with a suite of SaaS tools that can help them achieve measurable and monetizable DT.",
+        //           "Digital Transformation (DT) initiatives are critical for businesses to remain competitive in today's fast-paced world. However, measuring the success of these initiatives can be challenging, as the metrics can vary depending on the industry, business objectives, and the nature of the transformation. This is where Nexus Connect comes in, providing businesses with a suite of SaaS tools that can help them achieve measurable and monetizable DT.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/comingsoon",
         //       },
@@ -1642,7 +1642,7 @@ function Header() {
         //       article: {
         //         heading: "Saas Factory",
         //         description:
-        //           "Mobius DTaaS is a SaaS factory that enables businesses to achieve rapid digital transformation at scale. By providing access to cutting-edge SaaS tools, Mobius DTaaS empowers businesses to transform their operations, reduce costs, enhance customer experiences, and gain a competitive edge in their industry.",
+        //           "Nexus Connect is a SaaS factory that enables businesses to achieve rapid digital transformation at scale. By providing access to cutting-edge SaaS tools, Nexus Connect empowers businesses to transform their operations, reduce costs, enhance customer experiences, and gain a competitive edge in their industry.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/comingsoon",
         //       },
@@ -1652,7 +1652,7 @@ function Header() {
         //       article: {
         //         heading: "InterOrg DT",
         //         description:
-        //           "Mobius DTaaS is a platform that enables digital transformation as a service between organizations (inter-organization) through API-to-API integrations. By providing a seamless, secure, and scalable platform for exchanging data and services, Mobius DTaaS empowers businesses to accelerate their digital transformation journeys and achieve better business outcomes.",
+        //           "Nexus Connect is a platform that enables digital transformation as a service between organizations (inter-organization) through API-to-API integrations. By providing a seamless, secure, and scalable platform for exchanging data and services, Nexus Connect empowers businesses to accelerate their digital transformation journeys and achieve better business outcomes.",
         //         coverImage: images.PascalIntelligenceNavbar,
         //         url: "/comingsoon",
         //       },
@@ -2038,6 +2038,20 @@ function Header() {
                 url: "/contact",
               },
             },
+            {
+              name: "Come Meet Us at CES",
+              subitems: {
+                name: "",
+                items: [],
+              },
+              article: {
+                heading: "Come Meet Us at CES",
+                description:
+                  "Come meet us at CES",
+                coverImage: images.Overview_min ,
+                url: "/CES",
+              },
+            },
           ],
         },
       ],
@@ -2065,7 +2079,7 @@ function Header() {
    const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-      if(location.pathname != "/" ){
+      if(location.pathname != "/"  && location.pathname != "/CES"  && location.pathname != "/comingsoon"){
         console.log("changed",location.pathname);
             setIsScrolled(true);
 
@@ -2211,7 +2225,7 @@ function Header() {
                   </div>
                 )}
               </div>
-              <div
+              {/* <div
                 className={!isservice ? Style.marginfixer1 : Style.marginfixer}
               >
                 <div
@@ -2232,7 +2246,7 @@ function Header() {
                     <Img src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"} />
                   </div>
                 )}
-              </div>
+              </div> */}
               <div
                 className={!iscompany ? Style.marginfixer1 : Style.marginfixer}
               >

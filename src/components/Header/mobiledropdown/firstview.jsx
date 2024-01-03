@@ -54,12 +54,12 @@ return(
                 <div class={Style.rightarrow}><img src={images.RightArrow} alt="rightarrow"/></div>
             </ul>
         </div>
-        <div>     
+        {/* <div>     
             <ul className={Style.listitems} onClick={()=>{setservice(true);setData(false);setservicepage(true)}}>
-                <div className={Style.content}><li>Services</li></div>
+                <div className={Style.content}><li>TOKENOMICS</li></div>
                 <div class={Style.rightarrow}><img src={images.RightArrow} alt="rightarrow"/></div>
             </ul>
-        </div>
+        </div> */}
         <div>     
             <ul className={Style.listitems}  onClick={()=>{setcompany(true);setData(false);setcompanypage(true)}}>
                 <div className={Style.content}><li>Company</li></div>

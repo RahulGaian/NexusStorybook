@@ -12,7 +12,7 @@ import Blobs from "../../molecules/blobs/index";
 function CesPage() {
   return (
     <section>
-      <Blobs top={"140%"} color="yellow" left={"-220px"}></Blobs>
+      <Blobs top={"40%"} color="yellow" left={"-220px"}></Blobs>
       <Blobs top={"60%"} color="yellow" left={"80%"}></Blobs>
       <section>
         <CesBanner />

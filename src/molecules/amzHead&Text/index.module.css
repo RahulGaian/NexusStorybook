@@ -20,6 +20,7 @@
   min-height: fit-content;
   max-height: fit-content;
 
+
   /* border: 2px solid red; */
 }
 
@@ -31,6 +32,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
+  min-height: 150px;
+  /* background-color: red; */
 }
 
 .headingText > p {
@@ -79,7 +82,7 @@
   }
 
   .headingText > h1 {
-    color: #000;
+    /* color: #000; */
     font-family: ITC;
     font-size: 34.734px;
     font-style: normal;
@@ -89,7 +92,7 @@
   }
   
   .headingText > p {
-    color: #000;
+    /* color: #000; */
     font-family: ITC;
     font-size: 15.375px;
     font-style: normal;
@@ -108,7 +111,7 @@
   }
 
   .headingText > h1 {
-    color: #000;
+    /* color: #000; */
     font-family: ITC;
     font-size: 34.875px;
     font-style: normal;
@@ -118,7 +121,7 @@
   }
   
   .headingText > p {
-    color: #000;
+    /* color: #000; */
     font-family: ITC;
     font-size: 15.25px;
     font-style: normal;

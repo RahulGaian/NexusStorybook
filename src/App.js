@@ -14,13 +14,15 @@ import PlatformPage from "./Pages/Platform";
 import InvestPages from "./Pages/invest";
 import CommunityPages from "./Pages/community";
 import LaunchPadPages from "./Pages/launchpad";
+import Cespage from "./Pages/ces/index";
+import ComingSoon from "./molecules/comingSoon/index"
 import { useLocation } from "react-router-dom";
 function App() {
 
   function TopGap(){
     let location =  useLocation();
     return(
-       location.pathname === "/" ? null :
+       location.pathname === "/"  || location.pathname ==="/CES" || location.pathname === "/comingsoon" ? null :
 
 
       <section style={{height:"80px",width:"100vw"}}> 
@@ -49,6 +51,10 @@ function App() {
         <Route path="/invest/*" element={<InvestPages />}></Route>
         <Route path="/community/*" element={<CommunityPages />}></Route>
         <Route path="/launchpad/*" element={<LaunchPadPages />}></Route>
+        <Route path="/CES" element={<Cespage />}></Route>
+        <Route path="/comingsoon" element={<ComingSoon />}></Route>
+
+
       </Routes>
       <Footer />
     </section>

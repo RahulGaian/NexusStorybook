@@ -15,7 +15,7 @@
 
 .mainBottomContent {
 
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 1700px !important;
   display: flex;
   width: fit-content;
