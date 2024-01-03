@@ -15,7 +15,7 @@
 
 .mainBottomContent {
   border: 2px solid green;
-  width: 1700px;
+  width: 1700px !important;
   display: flex;
   width: fit-content;
   height: fit-content;
@@ -37,9 +37,10 @@
   border-radius: 8px;
   background: var(--Color, #fff);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
-  padding: 10px 2px;
+  padding: 10px 3px;
+  height: 140px;
   width: 30%;
-  margin-bottom: 2%;
+  margin-bottom: 2.5%;
 }
 
 .logo {
@@ -48,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 2px;
+  padding-left: 8px;
 }
 
 .logo img {
@@ -84,18 +85,14 @@
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
   .mainBottomContent {
     margin: 0 auto;
-    width: 1420px;
+    width: 1420px !important;
   }
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .mainBottomContent {
     margin: 0 auto;
-
-    /* text-align: center; */
-    /* display: flex;
-        justify-content: center; */
-    width: 1200px;
+    width: 1200px !important;
   }
 }
 
@@ -109,15 +106,41 @@
 /* -------for tablet view------- */
 @media only screen and (max-width: 980px) and (min-width: 601px) {
   .mainBottomContent {
-    width: 96%;
+    width: 96% !important;
     margin: 0 auto;
+  }
+
+  .bottomContent {
+    padding: 10px 2px;
+    width: 48%;
+    margin-bottom: 2%;
+  }
+
+  .name_designation h1 {
+    color: #000;
+    font-family: ITC;
+    font-size: 18.125px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.23px;
+  }
+  
+  .name_designation p {
+    color: #232F3E;
+    font-family: ITC;
+    font-size: 15.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.3px;
   }
 }
 
 /* -------for tablet view------- */
 @media only screen and (max-width: 600px) and (min-width: 100px) {
   .mainBottomContent {
-    width: 96%;
+    width: 96% !important;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -128,5 +151,31 @@
   .bottomContent {
     display: flex;
     width: 90%;
+    height: 110px;
+  }
+
+  .logo img {
+    width: 70%;
+    border-radius: 50%;
+  }
+
+  .name_designation h1 {
+    color: #000;
+    font-family: ITC;
+    font-size: 19.063px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.23px;
+  }
+  
+  .name_designation p {
+    color: #232F3E;
+    font-family: ITC;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.3px;
   }
 }
