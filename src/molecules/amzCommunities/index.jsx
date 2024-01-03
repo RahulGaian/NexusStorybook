@@ -13,7 +13,9 @@ const Communities = () => {
 
         return (
           <div key={key} className={Style.mainBottomContent}>
+
             {community.map((item, index) => (
+                
               <section key={index} className={Style.bottomContent}>
                 <div className={Style.logo}>
                   <Img src={item.imagesrc} />   
