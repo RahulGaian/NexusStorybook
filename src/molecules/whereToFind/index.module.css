@@ -1,0 +1,150 @@
+.main {
+  width: 600px;
+  min-height: 450px;
+  background: linear-gradient(
+    118deg,
+    rgba(64, 175, 255, 0.2) -8.52%,
+    rgba(41, 177, 253, 0.2) 27.6%,
+    rgba(255, 168, 0, 0.2) 63.71%,
+    rgba(251, 180, 42, 0.2) 99.82%
+  );
+}
+
+.heading {
+  color: #4c4c4c;
+  font-family: "ITC";
+  font-size: 25.922px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.subheading {
+  color: #4c4c4c;
+  font-family: "ITC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  max-width: 400px;
+}
+
+.inputs {
+  width: 400px !important;
+  /* overflow-x: hidden; */
+}
+
+.input1 {
+  display: flex;
+  /* background-color: red; */
+  /* height: 40px; */
+  /* width: 400px;
+max-width: 400px; */
+  max-width: 100% !important;
+  width: 100% !important;
+  min-height: 20.4px;
+  padding: 10px 21px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4px;
+  opacity: 0.8;
+  background: rgba(76, 76, 76, 0.2);
+  border: 0px solid beige;
+}
+* {
+  box-sizing: border-box;
+}
+
+.input1::placeholder {
+  color: #4c4c4c;
+  /* color: red; */
+  font-family: "ITC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+select {
+  color: #4c4c4c;
+  font-family: "ITC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+option {
+  color: #4c4c4c;
+  font-family: "ITC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid #4c4c4c;
+  opacity: 0.8;
+  background: rgba(76, 76, 76, 0.1);
+}
+
+.checkboxx {
+  display: flex;
+  align-items: flex-start;
+
+  justify-content: flex-start;
+}
+
+.checkdesc {
+  /* padding-top: 2px; */
+  padding-left: 5px;
+  color: #4c4c4c;
+  font-family: "ITC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  max-width: 400px;
+}
+
+.button {
+  display: flex;
+  padding: 6px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Yellow, #ffa200);
+  border: 0px solid beige;
+  color: white;
+  margin-top: 10px;
+}
+
+.internal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 612px) {
+  .main {
+    width: 100%;
+  }
+  .internal {
+    padding-left: 20px;
+  }
+  .inputs {
+    width: 100% !important;
+  }
+  .button {
+    width: 100%;
+  }
+}
