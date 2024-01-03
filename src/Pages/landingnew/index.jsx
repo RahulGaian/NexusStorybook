@@ -80,7 +80,7 @@ const Landingpagenew = () => {
           </div>
         </section>
 
-        <section id="mapcomp"><Map3dComponent /></section>
+        {/* <section id="mapcomp"><Map3dComponent /></section> */}
 
         <div className="second_bg_img-contaniner">
           <div className="second_bg_content">
