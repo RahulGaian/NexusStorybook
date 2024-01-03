@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0 2% 0;
+
+  /* border: 2px solid red; */
+}
+
+.headingContainer {
+  width: 1700px;
+  text-align: start;
+  min-height: fit-content;
+  max-height: fit-content;
+
+  /* border: 2px solid red; */
+}
+
+.headingText > h1 {
+  /* color: #4c4c4c; */
+  color: #007CD7;
+  font-family: ITC;
+  font-size: 34.313px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.headingText > p {
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* ----for desktop view---------- */
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .headingContainer {
+    margin: 0 auto;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .headingContainer {
+    margin: 0 auto;
+
+    /* text-align: center; */
+    /* display: flex;
+      justify-content: center; */
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .headingContainer {
+    margin: 0 auto;
+    width: 950px;
+  }
+}
+
+/* -------for tablet view------- */
+@media only screen and (max-width: 980px) and (min-width: 601px) {
+  .headingContainer {
+    text-align: start;
+    /* height: 200px;
+        width: 600px; */
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .headingText > h1 {
+    color: #000;
+    font-family: ITC;
+    font-size: 34.734px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+  }
+  
+  .headingText > p {
+    color: #000;
+    font-family: ITC;
+    font-size: 15.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+  }
+}
+
+/* ---for mobile view--------- */
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+  .headingContainer {
+    text-align: start;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .headingText > h1 {
+    color: #000;
+    font-family: ITC;
+    font-size: 34.875px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px; 
+    letter-spacing: -0.5px;
+  }
+  
+  .headingText > p {
+    color: #000;
+    font-family: ITC;
+    font-size: 15.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.1px;
+  }
+}

@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "ITC";
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.mainBottomContent {
+  border: 2px solid green;
+  width: 1700px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3% 0;
+  flex-wrap: wrap;
+  gap: 2%;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+.bottomContent {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+
+  border-radius: 8px;
+  background: var(--Color, #fff);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  padding: 10px 2px;
+  width: 30%;
+  margin-bottom: 2%;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.logo img {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.name_designation {
+  /* border: 2px solid green; */
+  padding-left: 5%;
+  width: 100%;
+}
+
+.name_designation h1 {
+  color: #4c4c4c;
+  font-family: ITC !important;
+  font-size: 15.469px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20.7px;
+}
+
+.name_designation p {
+  color: #8f96a1;
+  font-family: ITC !important;
+  font-size: 14.766px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.7px;
+}
+
+/* ----for desktop view---------- */
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .mainBottomContent {
+    margin: 0 auto;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .mainBottomContent {
+    margin: 0 auto;
+
+    /* text-align: center; */
+    /* display: flex;
+        justify-content: center; */
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .mainBottomContent {
+    margin: 0 auto;
+    width: 950px;
+  }
+}
+
+/* -------for tablet view------- */
+@media only screen and (max-width: 980px) and (min-width: 601px) {
+  .mainBottomContent {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
+
+/* -------for tablet view------- */
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+  .mainBottomContent {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bottomContent {
+    display: flex;
+    width: 90%;
+  }
+}
