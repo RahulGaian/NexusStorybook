@@ -13,17 +13,17 @@ const Footer = () => {
               <li className={Style.listelements}>
                 <a className={Style.navlink} href="/vision-and-mission">About</a>
               </li>
-              <li className={Style.listelements}>
+              {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/careers">Services</a>
-              </li>
-              <li className={Style.listelements}>
+              </li> */}
+              {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/About">Leadership</a>
-              </li>
-              <li className={Style.listelements}>
+              </li> */}
+              {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/comingsoon">Careers</a>
-              </li>
+              </li> */}
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/contactus">Contact</a>
+                <a className={Style.navlink} href="/contact">Contact</a>
               </li>
               {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/contactus">Terms & Conditions</a>

@@ -4,7 +4,7 @@
   width: 100%;
   border-radius: 0px 0px 10px 10px;
   background-color: #ffff;
-  /* background-color: #AD00A2; */
+  /* background-color: #FFA200; */
 }
 .maindropdown > div {
   width: 90%;
@@ -62,7 +62,7 @@
   width: 80%;
   height: 50px;
   /* height: 6vh; */
-  background: #ad00a2;
+  background: #FFA200;
   border-radius: 10px;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -80,9 +80,9 @@
   line-height: 30px;
   height: 50px;
   width: 80%;
-  border: 2px solid #ad00a2;
+  border: 2px solid #FFA200;
   border-radius: 10px;
-  color: #ad00a2;
+  color: #FFA200;
 }
 
 .listitems {
@@ -116,7 +116,7 @@
   width: 90%;
   padding-bottom: 5px;
   /* width: 80% !important; */
-  /* background-color: #AD00A2; */
+  /* background-color: #FFA200; */
   padding-left: 1rem;
 }
 .rightarrow {

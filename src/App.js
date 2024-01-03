@@ -2,7 +2,8 @@ import React from "react";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/header";
-import Footer from "./molecules/footer";
+// import Footer from "./molecules/footer";
+import Footer from "./components/footer";
 import Landingpagenew from "./Pages/landingnew";
 import Overview from "./Pages/Overview/index";
 import Contact from "./Pages/contact/index";
