@@ -16,6 +16,7 @@ import CommunityPages from "./Pages/community";
 import LaunchPadPages from "./Pages/launchpad";
 import Cespage from "./Pages/ces/index";
 import ComingSoon from "./molecules/comingSoon/index"
+import TermsAndConditions from "./molecules/Terms-and-conditions";
 import { useLocation } from "react-router-dom";
 function App() {
 
@@ -51,9 +52,9 @@ function App() {
         <Route path="/invest/*" element={<InvestPages />}></Route>
         <Route path="/community/*" element={<CommunityPages />}></Route>
         <Route path="/launchpad/*" element={<LaunchPadPages />}></Route>
-        <Route path="/CES" element={<Cespage />}></Route>
+        <Route path="/CES" element={<ComingSoon />}></Route>
         <Route path="/comingsoon" element={<ComingSoon />}></Route>
-
+        <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
 
       </Routes>
       <Footer />

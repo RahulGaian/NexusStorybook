@@ -71,4 +71,5 @@ jobs:
           username: ${{ secrets.NEXUSIOUSERNAME }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: ls -lrth /var/www/dev/ && mv /var/www/dev/build/* /var/www/dev/
+          script: rsync -avzh /var/www/dev/build/* /var/www/dev/
+          #ls -lrth /var/www/dev/ && mv /var/www/dev/build/* /var/www/dev/

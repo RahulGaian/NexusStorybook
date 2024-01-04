@@ -99,7 +99,7 @@ function ResponsiveSolutions (props){
                             <div class={Style.description}>
                                 {data3.description}
                             </div>
-                            <div class={Style.arrowfolder} onClick={()=>{changeRoute(data3.url);setpage3(false)}}><div><h6><b>Learn More</b></h6></div><div class={Style.arrow} ><Img  src={"/images/icons/Arrownew.png"}/></div></div>
+                            <div class={Style.arrowfolder} onClick={()=>{changeRoute(data3.url);setpage3(false)}}><div><h6><b>Learn More</b></h6></div><div class={Style.arrow} ><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div></div>
                             <div class={Style.imagecontainer}>
                                 <Img src={data3.coverImage} alt="finalimage"/>
                             </div>

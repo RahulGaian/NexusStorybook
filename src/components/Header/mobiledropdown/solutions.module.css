@@ -61,7 +61,11 @@ border-radius: 8px;
     line-height: 20px;
     min-height: auto;
     padding-left: 10px;
+    padding-bottom: 10px;
 
+}
+.listitems:first-child{
+    padding-top: 15px;
 }
 .rightarrow{
     width: 5%;

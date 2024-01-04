@@ -1,0 +1,113 @@
+.termshead{
+    font-family:DM Sans;
+    font-size: 43px;
+    line-height: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.termsmain{
+    padding-top: 80px;
+    width: 100%;
+ display: flex;
+ justify-content: center;
+}
+.termssecondmain{
+    padding-top: 5vh;
+    padding-bottom: 150px;
+    /* padding-left: 5%; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: justify;
+}
+.listmain{
+    list-style: disc;
+
+}
+.termscontent>h4{
+    font-family:DM Sans;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.termscontent >p{
+    font-family:DM Sans;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 200;
+    text-align: justify;
+}
+.termscontent > div > ul{
+    margin-left: 25px;
+   
+}
+.listhead{
+    font-weight: 500;
+    font-family:DM Sans;
+    font-size: 25px;
+    line-height: 35px;
+}
+.listdesc{
+    font-family:DM Sans;
+    font-size: 23px;
+    line-height: 30px;
+    font-style: normal;
+    text-align: justify;
+}
+.termsdescription{
+    font-family:DM Sans;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 200;
+    text-align: justify;
+}
+@media screen and (max-width:600px){
+    .termscontent>h4{
+
+        font-size: 25px;
+        line-height: 30px;
+
+    }
+    .termscontent >p{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: start;
+    }
+    .termscontent > div > ul{
+        text-align: start;
+    }
+    .listhead{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .listdesc{
+  
+        font-size: 18px;
+        line-height: 25px;
+       
+    }
+    .termsdescription{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: start;
+    }
+    .termssecondmain{
+        padding-top: 5vh;
+        padding-bottom: 150px;
+        padding-left: 2vw;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        text-align: start;
+    }
+    .termshead{
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: 500;
+        
+    }
+}
