@@ -57,7 +57,7 @@
   font-family: DM Sans;
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 77px;
 }
 .blogsingleheader > span:last-child {
@@ -176,7 +176,7 @@
   font-family: DM Sans;
   font-size: 32px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
   display: flex;
   justify-content: center;
@@ -552,7 +552,7 @@
     font-family: DM Sans;
     font-size: 30px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     position: absolute;
     top: 120px;
@@ -652,7 +652,7 @@
     font-family: DM Sans;
     font-size: 30px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     position: absolute;
     top: 100px;
@@ -712,7 +712,7 @@
     font-family: DM Sans;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     position: absolute;
     top: 80px;
