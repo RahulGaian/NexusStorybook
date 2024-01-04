@@ -2,10 +2,14 @@ import React, { useState, useEffect } from 'react';
 import SolutionPageIndex from '../../templates/SolutionPages/SolutionPageIndex';
 import { solutionData } from '../../constants/data';
 import { useParams } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+
 
 const SolutionPage = () => {
   let { id } = useParams();
   let [content, setContent] = useState(solutionData[0]);
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     console.log(id);
@@ -14,6 +18,9 @@ const SolutionPage = () => {
     if (data) {
       console.log(data);
       setContent(data);
+    }
+    else{
+      navigate("/comingsoon")
     }
   }, [id]);
 

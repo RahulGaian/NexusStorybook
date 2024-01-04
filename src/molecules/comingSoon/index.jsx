@@ -1,7 +1,8 @@
 import React from "react";
 import st from "./index.module.css";
-
+import { useNavigate } from "react-router-dom";
 const ComingSoon = () => {
+  let navigate = useNavigate();
   return (
     <div className={st.container}>
       <div className={st.contentContainer}>
@@ -14,7 +15,7 @@ const ComingSoon = () => {
             truly game-changing experience that will leave you speechless. The
             future is coming, and it's in our hands.
           </span>
-          <button>Go to homepage</button>
+          <button onClick={()=>{navigate("/")}}>Go to homepage</button>
         </div>
       </div>
     </div>

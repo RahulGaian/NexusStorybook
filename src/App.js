@@ -52,7 +52,7 @@ function App() {
         <Route path="/invest/*" element={<InvestPages />}></Route>
         <Route path="/community/*" element={<CommunityPages />}></Route>
         <Route path="/launchpad/*" element={<LaunchPadPages />}></Route>
-        <Route path="/CES" element={<Cespage />}></Route>
+        <Route path="/CES" element={<ComingSoon />}></Route>
         <Route path="/comingsoon" element={<ComingSoon />}></Route>
         <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
 
