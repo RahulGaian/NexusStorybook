@@ -12,7 +12,7 @@ const Communities = () => {
         const community = communitiesData[key];
 
         return (
-          <div key={key} className={Style.mainBottomContent}>
+          <div key={key} className={Style.wrapper}>
 
             {community.map((item, index) => (
                 

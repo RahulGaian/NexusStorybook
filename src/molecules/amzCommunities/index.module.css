@@ -13,7 +13,7 @@
   height: fit-content;
 }
 
-.mainBottomContent {
+.wrapper {
 
   /* border: 2px solid green; */
   width: 1700px !important;
@@ -61,7 +61,6 @@
 }
 
 .name_designation {
-  /* border: 2px solid green; */
   padding-left: 5%;
   width: 100%;
 }
@@ -86,9 +85,8 @@
   line-height: 20.7px;
 }
 
-/* ----for desktop view---------- */
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
-  .mainBottomContent {
+  .wrapper {
     margin: 0 auto;
     width: 1420px !important;
 
@@ -96,7 +94,7 @@
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
-  .mainBottomContent {
+  .wrapper {
     margin: 0 auto;
     width: 1200px !important;
 
@@ -104,7 +102,7 @@
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
-  .mainBottomContent {
+  .wrapper {
     margin: 0 auto;
     width: 950px;
   }
@@ -112,7 +110,7 @@
 
 /* -------for tablet view------- */
 @media only screen and (max-width: 980px) and (min-width: 601px) {
-  .mainBottomContent {
+  .wrapper {
     width: 96% !important;
     margin: 0 auto;
   }
@@ -144,9 +142,9 @@
   }
 }
 
-/* -------for tablet view------- */
+/* for mobile view------------ */
 @media only screen and (max-width: 600px) and (min-width: 100px) {
-  .mainBottomContent {
+  .wrapper {
     width: 96% !important;
     margin: 0 auto;
     display: flex;
@@ -164,6 +162,12 @@
   .logo img {
     width: 70%;
     border-radius: 50%;
+  }
+
+  .name_designation {
+    /* border: 2px solid green; */
+    padding-left: 2%;
+    width: 100%;
   }
 
   .name_designation h1 {
