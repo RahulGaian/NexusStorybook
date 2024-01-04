@@ -13,8 +13,8 @@
       align-items: flex-start;
       padding: 1rem 2rem;
       gap: 10px;
-      background: #ad00a2;
-      border: 1px solid #ad00a2;
+      /* background: #ad00a2;
+      border: 1px solid #ad00a2; */
       border-radius: 10px;
       text-align: center;
       color: #ffffff;
@@ -131,7 +131,7 @@
   
     .bannerContentContainer > h1 {
       font-size: 90px;
-      line-height: 80px !important;
+      line-height: 90px !important;
     }
   }
   
@@ -343,7 +343,7 @@
       padding-left: 3%;
     }
     .bannerContent > h1 {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       line-height: 2rem;
       text-align: left;
     }

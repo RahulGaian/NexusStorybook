@@ -111,7 +111,7 @@
 .benfitsDetails>p {
     width: 80%;
     min-height: 50px;
-    max-height:70px ;
+    max-height:max-content ;
     margin-left: auto;
     margin-right: auto;
     /* font-family: 'DM Sans'; */
@@ -312,6 +312,9 @@ color: #AD00A2;
     .benefitsBoxHeading, .benefitsCardsContainer, .benefitsBanner {
         width: 950px;
     }
+    .benefitsContainer{
+        padding-bottom: 10%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -320,6 +323,10 @@ color: #AD00A2;
     }
     .benefitsContainer{
         padding-bottom: 10%;
+    }
+    .benfitsDetails>h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
     }
 }
 
