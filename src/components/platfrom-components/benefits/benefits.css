@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     background: #E5F2FB;
+    padding-bottom: 2%;
 }
 
 .decoratorb-1 {
@@ -316,6 +317,9 @@ color: #AD00A2;
 @media screen and (max-width: 1000px) {
     .benefitsBoxHeading, .benefitsCardsContainer, .benefitsBanner {
         width: 90%;
+    }
+    .benefitsContainer{
+        padding-bottom: 10%;
     }
 }
 

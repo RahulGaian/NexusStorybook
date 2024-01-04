@@ -345,4 +345,7 @@
     padding-bottom: 50px;
     background: none;
   }
+  .psContentContainer > .rightcont > h1 {
+    text-align: left;
+  }
 }
