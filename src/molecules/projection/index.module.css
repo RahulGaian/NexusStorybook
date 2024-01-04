@@ -1,0 +1,128 @@
+@font-face {
+  font-family: ITC;
+  src: url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
+    format("truetype");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 1700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 36px;
+}
+
+.topCont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+#head {
+  width: max-content;
+  color: #474747;
+  font-family: "ITC";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.66px;
+  text-align: left;
+}
+
+.mainCont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.dataCont {
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  background: var(--Color, #fff);
+  box-shadow: 0px 1.223px 6.116px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentContainer {
+    width: 1420px;
+  }
+  .dataCont {
+    width: 290px;
+    height: 270px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentContainer {
+    width: 1200px;
+  }
+  .mainCont{
+    justify-content: flex-start;
+  }
+  .dataCont {
+    width: 265px;
+    height: 245px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentContainer {
+    width: 950px;
+  }
+  .mainCont {
+    gap: 12px;
+  }
+  .dataCont {
+    width: 220px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .contentContainer {
+    width: 90%;
+  }
+  .mainCont {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dataCont {
+    width: 220px;
+    height: 200px;
+  }
+  #head{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .contentContainer {
+      width: 90%;
+    }
+    .dataCont{
+        width: 250px;
+        height: 250px;
+    }
+}
