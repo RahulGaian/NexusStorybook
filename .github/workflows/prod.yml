@@ -5,7 +5,7 @@ env:
   SERVICE_CODE: mobius-marketing-website
   ARTIFACT_RETENTION_DAYS: 10
   CODE_PATH: /home/runner/work/mobius-marketing-website/mobius-marketing-website
-  DEPLOYMENT_PLATFORM: do
+  DEPLOYMENT_PLATFORM: az
   
 # Events
 on:
