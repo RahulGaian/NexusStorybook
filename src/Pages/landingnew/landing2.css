@@ -838,13 +838,13 @@
     /* font-size: 4rem; */
     line-height: 33.191px !important;
   }
-  
+
   .second_bg_para1 p {
     width: 55%;
     /* font-size: 2.5rem; */
     line-height: 23.191px !important;
   }
-  
+
   .second_bg_para2 p {
     width: 58%;
     font-size: 0.9rem !important;
@@ -985,37 +985,36 @@
 }
 
 @media screen and (max-width: 980px) and (min-width: 880px) {
+  /* ==========secong bg container============ */
+  .second_bg_img-contaniner {
+    min-height: 280px;
+    max-height: fit-content;
+  }
 
-    /* ==========secong bg container============ */
-    .second_bg_img-contaniner {
-      min-height: 280px;
-      max-height: fit-content;
-    }
-  
-    .second_bg_content {
-      /* width: 55%; */
-      width: 950px !important;
-      min-height: fit-content;
-      margin: 1% 0;
-      padding-left: 4%;
-    }
-  
-    .second_bg_heading h1 {
-      /* font-size: 4rem; */
-      line-height: 33.191px !important;
-    }
-    
-    .second_bg_para1 p {
-      width: 55%;
-      /* font-size: 2.5rem; */
-      line-height: 23.191px !important;
-    }
-    
-    .second_bg_para2 p {
-      width: 58%;
-      font-size: 0.9rem !important;
-      line-height: 22px;
-    }
+  .second_bg_content {
+    /* width: 55%; */
+    width: 950px !important;
+    min-height: fit-content;
+    margin: 1% 0;
+    padding-left: 4%;
+  }
+
+  .second_bg_heading h1 {
+    /* font-size: 4rem; */
+    line-height: 33.191px !important;
+  }
+
+  .second_bg_para1 p {
+    width: 55%;
+    /* font-size: 2.5rem; */
+    line-height: 23.191px !important;
+  }
+
+  .second_bg_para2 p {
+    width: 58%;
+    font-size: 0.9rem !important;
+    line-height: 22px;
+  }
   /* -------------mobius_won_wrapper--------- */
 
   .mobius_won_content {
@@ -1056,37 +1055,36 @@
 }
 
 @media screen and (max-width: 880px) and (min-width: 780px) {
+  /* ==========secong bg container============ */
+  .second_bg_img-contaniner {
+    min-height: 280px;
+    max-height: fit-content;
+  }
 
-      /* ==========secong bg container============ */
-      .second_bg_img-contaniner {
-        min-height: 280px;
-        max-height: fit-content;
-      }
-    
-      .second_bg_content {
-        /* width: 55%; */
-        width: 950px !important;
-        min-height: fit-content;
-        margin: 1% 0;
-        padding-left: 4%;
-      }
-    
-      .second_bg_heading h1 {
-        /* font-size: 4rem; */
-        line-height: 33.191px !important;
-      }
-      
-      .second_bg_para1 p {
-        width: 55%;
-        /* font-size: 2.5rem; */
-        line-height: 23.191px !important;
-      }
-      
-      .second_bg_para2 p {
-        width: 58%;
-        font-size: 0.9rem !important;
-        line-height: 22px;
-      }
+  .second_bg_content {
+    /* width: 55%; */
+    width: 950px !important;
+    min-height: fit-content;
+    margin: 1% 0;
+    padding-left: 4%;
+  }
+
+  .second_bg_heading h1 {
+    /* font-size: 4rem; */
+    line-height: 33.191px !important;
+  }
+
+  .second_bg_para1 p {
+    width: 55%;
+    /* font-size: 2.5rem; */
+    line-height: 23.191px !important;
+  }
+
+  .second_bg_para2 p {
+    width: 58%;
+    font-size: 0.9rem !important;
+    line-height: 22px;
+  }
 
   /* -------------mobius_won_wrapper--------- */
   .mobius_won_content {
@@ -1418,19 +1416,19 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 620px;
+    height: 600px;
   }
   .bannerContentland {
     width: 100%;
-    gap: 40px;
-    text-align: justify;
+    gap: 30px;
+    text-align: left;
   }
 
   .bannerContentland > div > h1 {
     font-size: 30px;
     font-weight: 500;
     line-height: 36px;
-    text-align: justify;
+    text-align: left;
   }
 
   .bannerContentland > div > p {
@@ -1439,7 +1437,7 @@
     line-height: 30px;
     letter-spacing: -0.36px;
     margin-bottom: 5%;
-    text-align: justify;
+    text-align: left;
   }
   /* ------------------------------------------ */
   /* button */
@@ -1486,6 +1484,7 @@
   .nexus_rightarrow img {
     color: white !important;
     fill: white;
+    width: 20px;
   }
 
   /* -------------------------------- */
@@ -1508,7 +1507,7 @@
     font-size: 2rem !important;
     line-height: 30.191px !important;
   }
-  
+
   .second_bg_para1 p {
     width: 58%;
     /* font-size: 2.5rem; */
@@ -1571,7 +1570,7 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 120px;
+    /* padding-top: 120px; */
     min-height: 900px;
     max-height: fit-content;
   }
@@ -1581,6 +1580,7 @@
     font-weight: 600;
     line-height: 100px;
     text-align: left;
+    margin: 0;
   }
 
   .bannerContentWrapper1 {
@@ -1589,22 +1589,22 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 800px;
+    height: 650px;
   }
 
   .bannerContentland {
     /* width: 70%; */
     width: 100%;
-    gap: 60px;
-    text-align: justify;
-    margin-top: 100px;
+    gap: 40px;
+    text-align: left;
+    /* margin-top: 100px; */
   }
 
   .bannerContentland > div > h1 {
     font-size: 30px;
     font-weight: 500;
     line-height: 36px;
-    text-align: justify;
+    text-align: left;
   }
 
   .bannerContentland > div > p {
@@ -1613,7 +1613,7 @@
     line-height: 30px;
     letter-spacing: -0.36px;
     margin-bottom: 5%;
-    text-align: justify;
+    text-align: left;
   }
 
   /* ------------------------------------------ */
@@ -1742,16 +1742,17 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 150px;
+    padding-top: 120px;
     min-height: 900px;
     max-height: fit-content;
   }
 
   .bannerContentContainerland > h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
     font-weight: 600;
-    line-height: 100px;
+    line-height: 80px;
     text-align: left;
+    margin: 0;
   }
 
   .bannerContentWrapper1 {
@@ -1760,13 +1761,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 1000px;
+    /* height: 1000px; */
   }
 
   .bannerContentland {
     width: 100%;
-    gap: 60px;
-    text-align: justify;
+    gap: 40px;
+    text-align: left;
     margin-top: 0px;
   }
 
@@ -1774,7 +1775,7 @@
     font-size: 30px;
     font-weight: 500;
     line-height: 36px;
-    text-align: justify;
+    text-align: left;
   }
 
   .bannerContentland > div > p {
@@ -1783,7 +1784,7 @@
     line-height: 30px;
     letter-spacing: -0.36px;
     margin-bottom: 5%;
-    text-align: justify;
+    text-align: left;
   }
 
   /* ------------------------------------------ */
@@ -1926,7 +1927,7 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 150px;
+    padding-top: 50px;
     min-height: 900px;
     max-height: fit-content;
   }
@@ -1936,22 +1937,23 @@
     font-weight: 600;
     line-height: 70px;
     text-align: left;
+    margin: 0;
   }
 
   .bannerContentWrapper1 {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 700px;
+    height: 550px;
   }
 
   .bannerContentland {
     width: 100%;
-    gap: 60px;
-    text-align: justify;
-    margin-top: 30px;
+    gap: 20px;
+    text-align: left;
+    /* margin-top: 30px; */
   }
 
   .bannerContentland > div > h1 {
@@ -2106,31 +2108,32 @@
 
   .bannerContentContainerland {
     width: 90% !important;
-    padding-top: 150px;
+    padding-top: 100px;
     min-height: 900px;
     max-height: fit-content;
   }
 
   .bannerContentContainerland > h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
     line-height: 70px;
     text-align: left;
+    margin: 0;
   }
 
   .bannerContentWrapper1 {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 800px;
+    height: 700px;
   }
 
   .bannerContentland {
     width: 100%;
-    gap: 80px;
-    text-align: justify;
+    gap: 40px;
+    text-align: left;
     margin-top: 0px;
   }
 
@@ -2196,8 +2199,8 @@
     width: 20px;
   }
 
-   /* ==========secong bg container============ */
-   .second_bg_img-contaniner {
+  /* ==========secong bg container============ */
+  .second_bg_img-contaniner {
     min-height: 395px;
     max-height: fit-content;
     background: #000;

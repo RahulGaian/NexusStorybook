@@ -12,7 +12,6 @@ const WhereToFind = () => {
           inbox
         </h1>
         <div className={style.inputs}>
-
           <input type="email" className={style.input1} placeholder="Email" />
           <br />
           <select
@@ -38,9 +37,6 @@ const WhereToFind = () => {
             Yes, I’d like to sign-up to receive updates from Amazon Alexa about
             new products and related services.
           </label>
-
-
-
         </div>
 
         <input type="button" value={"Login"} className={style.button} />
