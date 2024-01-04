@@ -72,6 +72,6 @@ jobs:
           username: ${{ secrets.NEXUSIOUSERNAME }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: rm -rf /var/www/html/ && mv /var/www/html/build/* /var/www/html/
+          script: mv /var/www/html/build/* /var/www/html/
           # ls -lrth /var/www/html/ && mv /var/www/html/build/* /var/www/html/
           # rm -rf /var/www/html/static && rm -rf /var/www/html/fonts && rm -rf /var/www/html/images && rm -rf /var/www/html/asset-manifest.json &&
