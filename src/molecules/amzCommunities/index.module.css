@@ -73,6 +73,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20.7px;
+  text-align: justify;
+  margin-bottom: 0;
 }
 
 .name_designation p {
