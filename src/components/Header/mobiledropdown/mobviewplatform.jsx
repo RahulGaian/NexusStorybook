@@ -129,7 +129,7 @@ function ResponsivePlatform (props){
                                    <div class={Style.description}>
                                        {data4.description}
                                    </div>
-                                   <div class={Style.arrowfolder}><div><h6><b>Learn More</b></h6></div><div class={Style.arrow} onClick={()=>{changeRoute(data4.url);setpage3(false)}}><Img  src={"/images/icons/Arrownew.png"}/></div></div>
+                                   <div class={Style.arrowfolder}><div><h6><b>Learn More</b></h6></div><div class={Style.arrow} onClick={()=>{changeRoute(data4.url);setpage3(false)}}><Img  src={"aidtaasImages/images/images/icons/Arrownew.png"}/></div></div>
                                    <div class={Style.imagecontainer}>
                                        <Img src={data4.coverImage} alt="finalimage"/>
                                    </div>

@@ -90,7 +90,7 @@ const Footer = () => {
                   <a className={Style.navlink} href="/platform/vinci">Vinci</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/platform/holacracy">Hola Verses</a>
+                  <a className={Style.navlink} href="/platform/holacracy">Holacracy</a>
                 </li>
               </ul>
             </nav>
