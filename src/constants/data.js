@@ -397,23 +397,23 @@ const solutionData = [
     ],
     swiperData:[
       {
-         swpierHeading:"311",
-         swiperContent:"311 citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
+         swpierHeading:"C-Link",
+         swiperContent:"C-Link citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
          swiperImage:"1.png"
       },
       {
-        swpierHeading:"Live Maps",
-        swiperContent:"A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Live Maps enriches the user experience by offering dynamic and visually appealing map features.",
+        swpierHeading:"Around",
+        swiperContent:"A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Around enriches the user experience by offering dynamic and visually appealing map features.",
         swiperImage:"2.png"
       },
       {
         swpierHeading:"First Responder",
-        swiperContent:"First Responder Alerting MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
+        swiperContent:"Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
         swiperImage:"3.png"
       },
       {
         swpierHeading:"Suhaas",
-        swiperContent:"SUHAaaS is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperContent:"iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
         swiperImage:"suh.png"
       },
       {
@@ -432,7 +432,7 @@ const solutionData = [
         swiperImage:"2.png"
       },
       {
-        swpierHeading:"Giving App",
+        swpierHeading:"AmplyFund",
         swiperContent:"Simplify and optimize fundraising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.",
         swiperImage:""
       },
@@ -442,8 +442,8 @@ const solutionData = [
         swiperImage:""
       },
       {
-        swpierHeading:"Vani HD Radio",
-        swiperContent:"Enhance the radio listening experience with our Vani HD Radio MIA, delivering high-quality audio and interactive features for immersive content.",
+        swpierHeading:"Hear. Here.",
+        swiperContent:"Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
         swiperImage:""
       },
     ]
@@ -541,23 +541,23 @@ const solutionData = [
     ],
     swiperData:[
       {
-         swpierHeading:"311",
-         swiperContent:"311 citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
+         swpierHeading:"C-Link",
+         swiperContent:"C-Link citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
          swiperImage:"1.png"
       },
       {
-        swpierHeading:"Live Maps",
-        swiperContent:"A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Live Maps enriches the user experience by offering dynamic and visually appealing map features.",
+        swpierHeading:"Around",
+        swiperContent:"A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Around enriches the user experience by offering dynamic and visually appealing map features.",
         swiperImage:"2.png"
       },
       {
         swpierHeading:"First Responder",
-        swiperContent:"First Responder Alerting MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
+        swiperContent:"Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
         swiperImage:"3.png"
       },
       {
         swpierHeading:"Suhaas",
-        swiperContent:"SUHAaaS is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. SUHAaaS reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperContent:"iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
         swiperImage:"suh.png"
       },
       {
@@ -576,7 +576,7 @@ const solutionData = [
         swiperImage:"2.png"
       },
       {
-        swpierHeading:"Giving App",
+        swpierHeading:"AmplyFund",
         swiperContent:"Simplify and optimize fundraising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.",
         swiperImage:""
       },
@@ -586,8 +586,8 @@ const solutionData = [
         swiperImage:""
       },
       {
-        swpierHeading:"Vani HD Radio",
-        swiperContent:"Enhance the radio listening experience with our Vani HD Radio MIA, delivering high-quality audio and interactive features for immersive content.",
+        swpierHeading:"Hear. Here.",
+        swiperContent:"Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
         swiperImage:""
       },
     ]
@@ -1339,16 +1339,16 @@ const solutionData = [
   id: "live-maps",
   banner: {
     heading:
-      "NextGenTV Revolution: Live Maps Unleashing Interactive Exploration",
+      "NextGenTV Revolution: Around Unleashing Interactive Exploration",
     description:
       "Deliver real-time interactive maps and location-based information to NextGenTV viewers, revolutionizing the way they explore and navigate their surroundings.",
     getStartedUrl: "",
     imageUrl: images.LM1,
   },
   problemStatement: {
-    heading: "Addressing the Implementation Challenges of Live Maps as a Service",
+    heading: "Addressing the Implementation Challenges of Around as a Service",
     description:
-      "The television broadcasting industry faces challenges in understanding the implementation complexities and user preferences when integrating live maps as a service on NextGenTV platforms. There is a need to explore the feasibility and benefits of delivering data-rich and interactive map experiences to viewers.",
+      "The television broadcasting industry faces challenges in understanding the implementation complexities and user preferences when integrating Around as a service on NextGenTV platforms. There is a need to explore the feasibility and benefits of delivering data-rich and interactive map experiences to viewers.",
     imageUrl: images.LM2,
     speakToExpertUrl: "",
   },
@@ -1370,7 +1370,7 @@ const solutionData = [
     {
       heading: "Integration with Emergency Services",
       description:
-        "Collaborate with local emergency services to integrate their data into the live maps, providing crucial information for first responders and enhancing public safety.",
+        "Collaborate with local emergency services to integrate their data into the Around, providing crucial information for first responders and enhancing public safety.",
       imageUrl: images.LM5,
       url:"",
     },
@@ -1398,7 +1398,7 @@ const solutionData = [
   ],
   caseStudy: {
     heading:
-      "Live Maps: Transforming Viewer Experiences on NextGenTV",
+      "Around: Transforming Viewer Experiences on NextGenTV",
     description:
       "In the television broadcasting industry, there is a growing demand for interactive and engaging content experiences that go beyond traditional broadcasting formats. With the emergence of NexGen TV technology, broadcasters have the opportunity to deliver data-rich content and interactive features to viewers.",
     downloadLink: "",
@@ -1434,7 +1434,7 @@ const solutionData = [
     heading:
       "Rapid Response: Empowering First Responders with Real-time Alerts",
     description:
-      "The First Responder Alerting MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+      "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
     getStartedUrl: "",
     imageUrl: images.FR1,
   },
@@ -1484,7 +1484,7 @@ const solutionData = [
     {
       heading: "Improved Public Safety",
       description:
-        "By revolutionizing emergency communication capabilities, the First Responder Alerting MISS enhances public safety through the rapid dissemination of critical information, enabling more coordinated and effective emergency responses.",
+        "By revolutionizing emergency communication capabilities, the Aegis MISS enhances public safety through the rapid dissemination of critical information, enabling more coordinated and effective emergency responses.",
       imageUrl: images.FR8,
       url:"",
     },
@@ -1493,7 +1493,7 @@ const solutionData = [
     heading:
       "Rapid Response: Empowering First Responders with Real-time Alerts",
     description:
-      "The First Responder Alerting MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+      "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
     downloadLink: "",
     imageUrl: images.FR9,
   },
@@ -2448,11 +2448,11 @@ const productsData = [
     },
   },
   {
-    id: "SUHAaas",
+    id: "iZAK",
     banner: {
-      heading: "SUHAaaS: Software Updates and Home Automation as a Service",
+      heading: "iZAK: Software Updates and Home Automation as a Service",
       paragraph:
-        "SUHAaaS is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
+        "iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
       imageUrl: images2.shb,
       bookDemoUrl: "",
       viewDemoUrl: images2.sh7,
@@ -2461,19 +2461,19 @@ const productsData = [
       {
         heading: "Efficient Software Updates Delivery",
         paragraph:
-          "SUHAaaS harnesses the power of PI-Pascal Intelligence to intelligently process and manage software update imageUrls for various CE devices from multiple manufacturers. By broadcasting these updates through the ATSC 3.0/NextGenTV spectrum, entire cities and communities can receive updates simultaneously, reducing costs and improving efficiency.",
+          "iZAK harnesses the power of PI-Pascal Intelligence to intelligently process and manage software update imageUrls for various CE devices from multiple manufacturers. By broadcasting these updates through the ATSC 3.0/NextGenTV spectrum, entire cities and communities can receive updates simultaneously, reducing costs and improving efficiency.",
         imageUrl: images2.sh1,
       },
       {
         heading: "Seamless Consumer Experience",
         paragraph:
-          "BoB-BoltzmannBot's API automation and orchestration capabilities enable SUHAaaS to deliver software updates to a dedicated gateway device within the home. This approach minimizes disruptions to consumers' services and ensures a smooth and hassle-free update experience across various CE devices.",
+          "BoB-BoltzmannBot's API automation and orchestration capabilities enable iZAK to deliver software updates to a dedicated gateway device within the home. This approach minimizes disruptions to consumers' services and ensures a smooth and hassle-free update experience across various CE devices.",
         imageUrl: images2.sh2,
       },
       {
         heading: "Intuitive User Interface",
         paragraph:
-          "Monet-The Experience Builder empowers SUHAaaS to create an engaging and user-friendly interface, allowing consumers to easily manage their devices' updates and home automation functions.",
+          "Monet-The Experience Builder empowers iZAK to create an engaging and user-friendly interface, allowing consumers to easily manage their devices' updates and home automation functions.",
         imageUrl: images2.sh3,
       },
     ],
@@ -2506,13 +2506,13 @@ const productsData = [
     },
   },
   {
-    id: "DBaaS",
+    id: "ImpressIO",
     banner: {
       heading:
-        "DBaaS: Elevating Employee Engagement: Leveraging Mobius Low Code Tools",
+        "ImpressIO: Elevating Employee Engagement: Leveraging Mobius Low Code Tools",
       paragraph:
         "In today's fast-paced business environment, it is more important than ever to keep your workforce engaged and motivated. Engaged employees are more productive, innovative, and loyal to their organizations. To achieve this, companies need to recognize, reward, and highlight their employees' achievements, issues, and activities in real-time.",
-      imageUrl: images.DbaasBanner,
+      imageUrl: images.ImpressIOBanner,
       bookDemoUrl: "",
       viewDemoUrl: images2.db8,
     },
@@ -2520,20 +2520,20 @@ const productsData = [
       {
         heading: "Flexible Data Capacity",
         paragraph:
-          "DBaaS offers scalability, allowing organizations to easily adjust their data storage capacity based on changing needs. It provides the flexibility to scale up or down without requiring manual intervention, ensuring efficient resource utilization and cost optimization.",
-        imageUrl: images.DbaasFeature1,
+          "ImpressIO offers scalability, allowing organizations to easily adjust their data storage capacity based on changing needs. It provides the flexibility to scale up or down without requiring manual intervention, ensuring efficient resource utilization and cost optimization.",
+        imageUrl: images.ImpressIOFeature1,
       },
       {
         heading: "Effortless Maintenance Management",
         paragraph:
-          "DBaaS automates routine maintenance tasks such as software updates, patches, and system optimizations. By automating these processes, organizations can minimize downtime, ensure high availability, and focus their resources on core business activities rather than infrastructure management.",
-        imageUrl: images.DbaasBenefits2,
+          "ImpressIO automates routine maintenance tasks such as software updates, patches, and system optimizations. By automating these processes, organizations can minimize downtime, ensure high availability, and focus their resources on core business activities rather than infrastructure management.",
+        imageUrl: images.ImpressIOBenefits2,
       },
       {
         heading: "Optimized Database Performance",
         paragraph:
-          "DBaaS optimizes database performance by leveraging various techniques such as query optimization, indexing, and caching. It continuously monitors the database environment, identifies performance bottlenecks, and applies optimizations to ensure fast and efficient data retrieval and processing. This leads to improved application performance and user experience.",
-        imageUrl: images.DbaasFeature3,
+          "ImpressIO optimizes database performance by leveraging various techniques such as query optimization, indexing, and caching. It continuously monitors the database environment, identifies performance bottlenecks, and applies optimizations to ensure fast and efficient data retrieval and processing. This leads to improved application performance and user experience.",
+        imageUrl: images.ImpressIOFeature3,
       },
     ],
     benefits: [
@@ -2541,19 +2541,19 @@ const productsData = [
         heading: "Enhanced Collaboration",
         paragraph:
           "Cost-effective and efficient software updates delivery, saving up to 60% in internet costs compared to traditional unicast methods",
-        imageUrl: images.DbaasBenefits1,
+        imageUrl: images.ImpressIOBenefits1,
       },
       {
         heading: "Simplified Workflow",
         paragraph:
           "With Mobius Low Code Tools, software engineers can build applications and workflows with less code.",
-        imageUrl: images.DbaasBenefits2,
+        imageUrl: images.ImpressIOBenefits2,
       },
       {
         heading: "Data-driven Insights",
         paragraph:
-          "Mobius DBaaS provides powerful data visualization tools, enabling organizations to monitor and analyze data in real-time.",
-        imageUrl: images.DbaasBenefits3,
+          "Mobius ImpressIO provides powerful data visualization tools, enabling organizations to monitor and analyze data in real-time.",
+        imageUrl: images.ImpressIOBenefits3,
       },
     ],
     case_study: {
@@ -2623,11 +2623,11 @@ const productsData = [
     },
   },
   {
-    id: "311",
+    id: "C-Link ",
     banner: {
-      heading: "Revolutionizing Civic Engagement: The 311 TV App",
+      heading: "Revolutionizing Civic Engagement: The C-Link TV App",
       paragraph:
-        "Explore how 311 TV, a groundbreaking SaaS application built on Nexus Connect, empowers NexGen TV broadcasters to become digital transformation agents, revolutionizing civic engagement in their local communities through state-of-the-art ATSC 3.0 broadcast technologies",
+        "Explore how C-Link TV, a groundbreaking SaaS application built on Nexus Connect, empowers NexGen TV broadcasters to become digital transformation agents, revolutionizing civic engagement in their local communities through state-of-the-art ATSC 3.0 broadcast technologies",
       imageUrl: images.Banner_311,
       bookDemoUrl: "",
       viewDemoUrl: images.three_one_one,
@@ -2636,19 +2636,19 @@ const productsData = [
       {
         heading: "Comprehensive Civic Issue Reporting",
         paragraph:
-          "The 311 TV app provides a comprehensive platform for citizens to report civic issues, fostering transparency and accountability. With its visually appealing map-based interface, users can easily report and track issues, ensuring efficient resolution by local governments.",
+          "The C-Link TV app provides a comprehensive platform for citizens to report civic issues, fostering transparency and accountability. With its visually appealing map-based interface, users can easily report and track issues, ensuring efficient resolution by local governments.",
         imageUrl: images.Feature1_311,
       },
       {
         heading: "Real-time Updates and Issue Monitoring",
         paragraph:
-          "Through the 311 TV app, citizens receive real-time updates on the progress of reported issues. This feature enhances communication between local governments and citizens, instilling confidence and trust in the civic resolution process.",
+          "Through the C-Link  TV app, citizens receive real-time updates on the progress of reported issues. This feature enhances communication between local governments and citizens, instilling confidence and trust in the civic resolution process.",
         imageUrl: images.Feature2_311,
       },
       {
         heading: "Social Dialogue and Community Engagement",
         paragraph:
-          "311 TV facilitates social dialogue among community members, empowering them to engage in discussions related to civic issues. This interactive platform encourages collaboration, allowing citizens to share ideas, propose solutions, and actively participate in shaping their local communities.",
+          "C-Link  TV facilitates social dialogue among community members, empowering them to engage in discussions related to civic issues. This interactive platform encourages collaboration, allowing citizens to share ideas, propose solutions, and actively participate in shaping their local communities.",
         imageUrl: images.Feature3_311,
       },
     ],
@@ -2656,7 +2656,7 @@ const productsData = [
       {
         heading: "Enhanced Civic Transparency and Accountability",
         paragraph:
-          "With the 311 TV app, local governments can improve transparency and accountability by providing citizens with a platform to report and monitor civic issues.",
+          "With the C-Link  TV app, local governments can improve transparency and accountability by providing citizens with a platform to report and monitor civic issues.",
         imageUrl: images.Benefits1_311,
       },
       {
@@ -2668,13 +2668,13 @@ const productsData = [
       {
         heading: "Empowered Community Participation",
         paragraph:
-          "311 TV empowers citizens to actively participate in civic engagement. By fostering social dialogue and community engagement, citizens feel more involved and invested in the well-being of their local communities.",
+          "C-Link   TV empowers citizens to actively participate in civic engagement. By fostering social dialogue and community engagement, citizens feel more involved and invested in the well-being of their local communities.",
         imageUrl: images.Benefits3_311,
       },
     ],
     case_study: {
       heading:
-        "Empowering Communities: The 311 TV App Revolutionizes Civic Engagement",
+        "Empowering Communities: The C-Link  TV App Revolutionizes Civic Engagement",
       paragraph:
         "The City of Metropolis faced a challenge in effectively engaging its citizens and addressing civic issues in a transparent and timely manner. Traditional communication channels were limited, causing delays in issue resolution and hindering community participation. The city needed an innovative solution to transform civic engagement and foster a stronger connection between local government and its citizens.",
       imageUrl: images.CaseStudy_311,
@@ -2803,9 +2803,9 @@ const productsData = [
     id: "fra",
     banner: {
       heading:
-        "First Responder Alerting: Enhancing Emergency Response Efficiency",
+        "Aegis: Enhancing Emergency Response Efficiency",
       paragraph:
-        "Mobius Consulting's First Responder Alerting MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
+        "Mobius Consulting's Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
       imageUrl: images.FraBanner,
       bookDemoUrl: "",
       viewDemoUrl: images.FraPreview,
@@ -2851,7 +2851,7 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Revolutionizing Emergency Response: First Responder Alerting",
+      heading: "Revolutionizing Emergency Response: Aegis",
       paragraph:
         "The City Fire Department faced the challenge of improving emergency response efficiency and coordination to better serve their community. Manual and outdated alerting systems, along with limited communication channels, hindered their ability to respond promptly to critical incidents.They needed a solution that would enhance their incident monitoring capabilities, streamline communication among first responders, and improve overall response effectiveness.",
       imageUrl: images2.f7,
@@ -2910,7 +2910,7 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Revolutionizing Emergency Response: First Responder Alerting",
+      heading: "Revolutionizing Emergency Response: Aegis",
       paragraph:
         "The City Fire Department faced the challenge of improving emergency response efficiency and coordination to better serve their community. Manual and outdated alerting systems, along with limited communication channels, hindered their ability to respond promptly to critical incidents.They needed a solution that would enhance their incident monitoring capabilities, streamline communication among first responders, and improve overall response effectiveness.",
       imageUrl: images.ResumeProcessingCaseStudy,
@@ -2969,7 +2969,7 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Revolutionizing Emergency Response: First Responder Alerting",
+      heading: "Revolutionizing Emergency Response: Aegis",
       paragraph:
         "The City Fire Department faced the challenge of improving emergency response efficiency and coordination to better serve their community. Manual and outdated alerting systems, along with limited communication channels, hindered their ability to respond promptly to critical incidents.They needed a solution that would enhance their incident monitoring capabilities, streamline communication among first responders, and improve overall response effectiveness.",
       imageUrl: images.InterviewExperienceCasestudy,
@@ -2982,7 +2982,7 @@ const productsData = [
       heading:
         "Elevate Radio Listening Experience",
       paragraph:
-        "Enhance the radio listening experience with our Vani HD Radio MIA, delivering high-quality audio and interactive features for immersive content.",
+        "Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
       imageUrl: images.VaniHDRadioBanner,
       bookDemoUrl: "",
       viewDemoUrl: images.VaniHDPreview,
@@ -3028,7 +3028,7 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Revolutionizing Radio Listening: Vani HD Radio Enhances the Broadcasting Experience",
+      heading: "Revolutionizing Radio Listening: Hear. Here. Enhances the Broadcasting Experience",
       paragraph:
         "Acoustic Waves Broadcasting, a leading player in the broadcasting industry, aimed to elevate the radio listening experience for their audience. They recognized the growing demand for high-quality audio and interactive features in radio broadcasts and sought a solution to deliver immersive content while maintaining their industry-leading position.",
       imageUrl: images.VaniHDCasestudy,
@@ -3039,9 +3039,9 @@ const productsData = [
     id: "giving-app",
     banner: {
       heading:
-        "The Giving App: Empowering Fundraising for NextGenTV Broadcasters",
+        "The AmplyFund: Empowering Fundraising for NextGenTV Broadcasters",
       paragraph:
-        "The Giving App is a next-generation TV application on the Mobius platform, enabling NextGenTV broadcasters to offer fundraising as a service to their local communities. ",
+        "The AmplyFund is a next-generation TV application on the Mobius platform, enabling NextGenTV broadcasters to offer fundraising as a service to their local communities. ",
       imageUrl: images.GivingAPPBanner,
       bookDemoUrl: "",
       viewDemoUrl: images.GivingAPPPreview,
@@ -3056,13 +3056,13 @@ const productsData = [
       {
         heading: "Customize the User Experience",
         paragraph:
-          "Tailor The Giving App's interface and features to match the broadcaster's branding and audience preferences. Increase user engagement and donation rates with a customized app that resonates with the local community.",
+          "Tailor The AmplyFund's interface and features to match the broadcaster's branding and audience preferences. Increase user engagement and donation rates with a customized app that resonates with the local community.",
         imageUrl: images.GivingAPPFeature2,
       },
       {
         heading: "Seamless Integration with Payment Gateways and CRM System",
         paragraph:
-          "Connect The Giving App with payment gateways, donation platforms, and CRM systems through third-party integrations. Streamline donation transactions, foster trust among users, and improve the overall effectiveness of the app.",
+          "Connect The AmplyFund with payment gateways, donation platforms, and CRM systems through third-party integrations. Streamline donation transactions, foster trust among users, and improve the overall effectiveness of the app.",
         imageUrl: images.GivingAPPFeature3,
       },
     ],
@@ -3087,7 +3087,7 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Empowering Charitable Giving: The Giving App Drives Fundraising Success",
+      heading: "Empowering Charitable Giving: The AmplyFund Drives Fundraising Success",
       paragraph:
         "Harmony Broadcasting Network, a reputable broadcaster in the industry, recognized the importance of supporting local communities and driving philanthropic initiatives. They aimed to create a platform that seamlessly integrated fundraising efforts with their broadcasting capabilities, empowering viewers to contribute to meaningful causes while enjoying their favorite TV programs.",
       imageUrl: images.GivingAPPCasestudy,
@@ -5225,7 +5225,7 @@ const productsData = [
     heading:
       "Transforming Civic Engagement with NextGenTV Broadcast Technologies",
     paragraph:
-      "311 TV is a groundbreaking SaaS application powered by Nexus Connect, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
+      "C-Link TV is a groundbreaking SaaS application powered by Nexus Connect, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
     imageUrl: images.ce1,
     bookDemoUrl: "",
     viewDemoUrl: images.ce2,
@@ -5234,13 +5234,13 @@ const productsData = [
     {
       heading: "Comprehensive Civic Issue Reporting",
       paragraph:
-        "311 TV provides a user-friendly platform for citizens to report civic issues, such as potholes, street lighting problems, or sanitation concerns. ",
+        "C-Link  TV provides a user-friendly platform for citizens to report civic issues, such as potholes, street lighting problems, or sanitation concerns. ",
       imageUrl: images.ce3,
     },
     {
       heading: "Real-time Issue Resolution Updates",
       paragraph:
-        "With 311 TV, citizens can receive real-time updates on the progress and resolution of reported issues. This feature enhances transparency and accountability, keeping citizens informed and engaged throughout the resolution process.",
+        "With C-Link  TV, citizens can receive real-time updates on the progress and resolution of reported issues. This feature enhances transparency and accountability, keeping citizens informed and engaged throughout the resolution process.",
       imageUrl: images.ce4,
     },
     {
@@ -5254,19 +5254,19 @@ const productsData = [
     {
       heading: "Enhanced Communication and Efficiency",
       paragraph:
-        "311 TV facilitates seamless communication between local governments and citizens, enabling efficient issue reporting and resolution.",
+        "C-Link  TV facilitates seamless communication between local governments and citizens, enabling efficient issue reporting and resolution.",
       imageUrl: images.ce6,
     },
     {
       heading: "Increased Civic Engagement and Empowerment",
       paragraph:
-        " By offering a user-friendly interface and promoting social dialogue, 311 TV encourages citizens to actively engage in civic matters.",
+        " By offering a user-friendly interface and promoting social dialogue, C-Link TV encourages citizens to actively engage in civic matters.",
       imageUrl: images.ce7,
     },
     {
       heading: "Improved Transparency and Accountability",
       paragraph:
-        "With real-time updates on issue resolution, 311 TV promotes transparency and accountability in local governance.",
+        "With real-time updates on issue resolution, C-Link TV promotes transparency and accountability in local governance.",
       imageUrl: images.ce8,
     },
   ],

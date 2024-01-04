@@ -202,8 +202,10 @@
   max-height: fit-content;
   object-fit: cover;
   display: flex;
+  background-size: cover;
   justify-content: center;
   align-items: flex-start;
+  /* background-repeat: no-repeat; */
   /* object-fit: contain; */
 }
 
