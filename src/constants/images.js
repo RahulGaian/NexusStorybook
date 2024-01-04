@@ -221,7 +221,7 @@ let Youtube = "/aidtaasImages/images/imagesnew/icons/youtube.png"
 //Swipe App
 
 let FRA = "/aidtaasImages/images/imagesnew/swiperApp/FRA.png"
-let Boston311 = "/aidtaasImages/images/imagesnew/swiperApp/311.png"
+let Boston311 = "/aidtaasImages/images/imagesnew/swiperApp/C-Link.png"
 let Suhaas = "/aidtaasImages/images/imagesnew/swiperApp/Suhaas.png"
 let DigitalSignage = "/aidtaasImages/images/imagesnew/swiperApp/DigitalSignage.png"
 let LiveMaps = "/aidtaasImages/images/imagesnew/swiperApp/LiveMaps.png"
@@ -251,22 +251,22 @@ let SuhaasBenefits3 = "/aidtaasImages/images/imagesnew/products/suhaas_benefits3
 
 let DsaasBanner = "/aidtaasImages/images/imagesnew/products/dsaas_banner.png";
 let DsaasFeature1 = "/aidtaasImages/images/imagesnew/products/dsaas_features1.png";
-let DsaasFeature2 = "/aidtaasImages/images/imagesnew/products/dbaas_features2.png";
-let DsaasFeature3 = "/aidtaasImages/images/imagesnew/products/dbaas_features3.png";
+let DsaasFeature2 = "/aidtaasImages/images/imagesnew/products/ImpressIO_features2.png";
+let DsaasFeature3 = "/aidtaasImages/images/imagesnew/products/ImpressIO_features3.png";
 let DsaasCaseStudy = "/aidtaasImages/images/imagesnew/products/zoombot_case_study.png";
-let DsaasBenefits1 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg";
-let DsaasBenefits2 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits2.svg";
-let DsaasBenefits3 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits3.svg";
+let DsaasBenefits1 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits1.svg";
+let DsaasBenefits2 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits2.svg";
+let DsaasBenefits3 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits3.svg";
 let Dsaaspreview = "/aidtaasImages/images/imagesnew/products/dsaas_preview.png";
 
-let DbaasBanner = "/aidtaasImages/images/imagesnew/products/dbaas_banner.png";
-let DbaasFeature1 = "/aidtaasImages/images/imagesnew/products/dbaas_features1.png";
-let DbaasFeature2 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits2.svg";
-let DbaasFeature3 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits3.svg";
-let DbaasCaseStudy = "/aidtaasImages/images/imagesnew/products/zoombot_case_study.png";
-let DbaasBenefits1 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg";
-let DbaasBenefits2 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits2.svg";
-let DbaasBenefits3 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits3.svg";
+let ImpressIOBanner = "/aidtaasImages/images/imagesnew/products/ImpressIO_banner.png";
+let ImpressIOFeature1 = "/aidtaasImages/images/imagesnew/products/ImpressIO_features1.png";
+let ImpressIOFeature2 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits2.svg";
+let ImpressIOFeature3 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits3.svg";
+let ImpressIOCaseStudy = "/aidtaasImages/images/imagesnew/products/zoombot_case_study.png";
+let ImpressIOBenefits1 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits1.svg";
+let ImpressIOBenefits2 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits2.svg";
+let ImpressIOBenefits3 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits3.svg";
 
 
 let Banner_311 = "/aidtaasImages/images/imagesnew/products/banner_311.png";
@@ -1434,14 +1434,14 @@ DS1,DS2,DS3,DS4,DS5,DS6,DS7,DS8,DS9,
     SuhaasBenefits2,
     SuhaasBenefits3,
 
-    DbaasBanner,
-    DbaasFeature1,
-    DbaasFeature2,
-    DbaasFeature3,
-    DbaasCaseStudy,
-    DbaasBenefits1,
-    DbaasBenefits2,
-    DbaasBenefits3,
+    ImpressIOBanner,
+    ImpressIOFeature1,
+    ImpressIOFeature2,
+    ImpressIOFeature3,
+    ImpressIOCaseStudy,
+    ImpressIOBenefits1,
+    ImpressIOBenefits2,
+    ImpressIOBenefits3,
 
     DsaasBanner,
     DsaasFeature1,

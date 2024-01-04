@@ -17,14 +17,14 @@ let sh8 = "/aidtaasImages/images/imagesnew/products/zoombot_case_study.png"
 
 
 //dbass
-let db1 = "/aidtaasImages/images/imagesnew/products/dbaas_banner.png"
-let db2 = "/aidtaasImages/images/imagesnew/products/dbaas_features1.png"
-let db3 = "/aidtaasImages/images/imagesnew/products/dbaas_features2.png"
-let db4 = "/aidtaasImages/images/imagesnew/products/dbaas_features3.png"
-let db5 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg"
-let db6 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits2.svg"
-let db7 = "/aidtaasImages/images/imagesnew/products/dbaas_benefits3.svg"
-let db8 = "/aidtaasImages/images/imagesnew/products/DBaaS.png"
+let db1 = "/aidtaasImages/images/imagesnew/products/ImpressIO_banner.png"
+let db2 = "/aidtaasImages/images/imagesnew/products/ImpressIO_features1.png"
+let db3 = "/aidtaasImages/images/imagesnew/products/ImpressIO_features2.png"
+let db4 = "/aidtaasImages/images/imagesnew/products/ImpressIO_features3.png"
+let db5 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits1.svg"
+let db6 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits2.svg"
+let db7 = "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits3.svg"
+let db8 = "/aidtaasImages/images/imagesnew/products/ImpressIO.png"
 let t11 = "/aidtaasImages/images/imagesnew/products/311.png"
 
 

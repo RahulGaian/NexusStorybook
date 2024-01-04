@@ -16,19 +16,16 @@ function StartBuilding() {
         <div className={style.startBottomCont}>
           <div className={style.startBottom}>
             <h1>Alexa</h1>
-            <div className={style.border}></div>
             <p>Connect with hundreds of millions of customers worldwide.</p>
           </div>
           <div className={style.startBottom}>
             <h1>AWS</h1>
-            <div className={style.border}></div>
             <p>
               Develop with greater flexibility, scalability, and reliablity.
             </p>
           </div>
           <div className={style.startBottom}>
             <h1>Fire TV</h1>
-            <div className={style.border}></div>
             <p>Build for over 200 million Fire TV devices worldwide.</p>
           </div>
         </div>

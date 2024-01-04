@@ -11,7 +11,7 @@ const Footer = () => {
             <h5 className={Style.header}>Company</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/vision-and-mission">About</a>
+                <a className={Style.navlink} href="/About">About</a>
               </li>
               {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/careers">Services</a>
@@ -37,16 +37,16 @@ const Footer = () => {
               <h5 className={Style.header}>Solutions</h5>
               <ul className={Style.cards1 + " md:mt-9"}>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/solutions/NextGen-TV">Telecom & 5G</a>
+                  <a className={Style.navlink} href="/solutions/NextGen-TV">NextGen TV</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/solutions/runrun">Media & Broadcasting</a>
+                  <a className={Style.navlink} href="/solutions/runrun">Run Run</a>
                 </li>
                 <li className={Style.listelements}>
                   <a className={Style.navlink} href="/solutions/smart-city-as-a-service">Smartcities & Government</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/solutions/moScribe">IT Solutions & Automation</a>
+                  <a className={Style.navlink} href="/solutions/moScribe">moScribe</a>
                 </li>
                 {/* <li className={Style.listelements}>
                   <a className={Style.navlink} href="/solutions/moScribe">HR Tech</a>
@@ -58,19 +58,19 @@ const Footer = () => {
               <h5 className={Style.header}>Product</h5>
               <ul className={Style.cards1 + " md:mt-9"}>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/SUHAaas">OpsMax</a>
+                  <a className={Style.navlink} href="/products/iZAK">iZAK</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/live-news">AI Zoom Bot</a>
+                  <a className={Style.navlink} href="/products/live-news">Live news</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/DBaas">Antara</a>
+                  <a className={Style.navlink} href="/products/ImpressIO">AntarDBaaSa</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/311">Slack Bot</a>
+                  <a className={Style.navlink} href="/products/C-Link">C-Link</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/live-traffic">Marketplace</a>
+                  <a className={Style.navlink} href="/products/live-traffic">Live Traffic</a>
                 </li>
               </ul>
             </nav>
@@ -122,7 +122,7 @@ const Footer = () => {
             </nav>
             <div className= {Style.bottomcontent }>
 
-               {/* <div className={Style.Termscontent}><a href="/terms-and-conditions">Terms and Conditions&nbsp;| &nbsp;</a></div> */}
+               <div className={Style.Termscontent}><a href="/terms-and-conditions">Terms and Conditions&nbsp;| &nbsp;</a></div>
                <div>
                All Rights Reserved. 2023 Copyright&nbsp; &nbsp;
                 
