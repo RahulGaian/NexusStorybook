@@ -222,7 +222,7 @@
   font-family: "ITC";
   font-size: 4rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 43.191px;
 
   padding: 1% 0%;
@@ -519,7 +519,7 @@
     font-family: ITC !important;
     font-size: 32px !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28.041px;
   }
 
@@ -603,7 +603,7 @@
   .bannerContentContainerland > h1 {
     font-size: 9rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 150px;
   }
 
@@ -687,7 +687,7 @@
   .bannerContentContainerland > h1 {
     font-size: 9rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 150px;
   }
 
@@ -791,7 +791,7 @@
   .bannerContentContainerland > h1 {
     font-size: 7rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 150px;
   }
 
@@ -920,7 +920,7 @@
   .bannerContentContainerland > h1 {
     font-size: 7rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 150px;
   }
 
@@ -1142,7 +1142,7 @@
   .bannerContentContainerland > h1 {
     font-size: 6rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 100px;
   }
 
@@ -1407,7 +1407,7 @@
   .bannerContentContainerland > h1 {
     font-size: 6.5rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 100px;
     text-align: left;
   }
@@ -1579,7 +1579,7 @@
 
   .bannerContentContainerland > h1 {
     font-size: 6rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 100px;
     text-align: left;
     margin: 0;
@@ -1750,6 +1750,7 @@
   }
 
   .bannerContentContainerland > h1 {
+
     font-size: 5rem;
     font-weight: 600;
     line-height: 80px;
@@ -1936,7 +1937,7 @@
 
   .bannerContentContainerland > h1 {
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 70px;
     text-align: left;
     margin: 0;
@@ -2116,6 +2117,7 @@
   }
 
   .bannerContentContainerland > h1 {
+
     font-size: 3.5rem;
     font-weight: 600;
     line-height: 70px;

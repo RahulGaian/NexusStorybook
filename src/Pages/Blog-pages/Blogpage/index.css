@@ -82,7 +82,7 @@
   color: #ffffff;
   font-size: 34px;
   line-height: 40px;
-  font-weight: 600;
+  font-weight: 500;
   width: 100%;
   height: fit-content;
 }
@@ -94,13 +94,13 @@
   color: #ffffff;
   font-size: 34px;
   line-height: 40px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .contenttop > span:last-child {
   color: #ffffff;
   font-size: 22px;
   line-height: 32px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .bottomposts {
@@ -278,20 +278,20 @@
     color: #ffffff;
     font-size: 28px;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: 500;
   }
   .contenttop > span:last-child {
     color: #ffffff;
     font-size: 20px;
     line-height: 28px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .content1 {
     color: #ffffff;
     font-size: 28px;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: 500;
     width: 100%;
     height: fit-content;
   }
@@ -342,20 +342,20 @@
     color: #ffffff;
     font-size: 28px;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: 500;
   }
   .contenttop > span:last-child {
     color: #ffffff;
     font-size: 20px;
     line-height: 28px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .content1 {
     color: #ffffff;
     font-size: 28px;
     line-height: 35px;
-    font-weight: 600;
+    font-weight: 500;
     width: 100%;
     height: fit-content;
   }

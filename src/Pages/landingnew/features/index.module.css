@@ -55,7 +55,7 @@
   font-family: ITC !important;
   font-size: 26px !important;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 44px;
 
   width: 80%;
@@ -84,7 +84,7 @@
     font-family: ITC !important;
     font-size: 26px !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 44px;
   }
   .productContentCardDesc > p {
@@ -253,7 +253,7 @@
     font-family: ITC !important;
     font-size: 18px !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 32.342px;
   }
 

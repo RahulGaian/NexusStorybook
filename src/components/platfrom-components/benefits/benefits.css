@@ -173,7 +173,7 @@
 .benefitsBannerDetails>h1 {
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 28px;
     line-height: 49px;
     /* or 134% */
@@ -198,7 +198,7 @@
     border-radius: 10px;
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 0px;
     /* identical to box height, or 0% */
@@ -244,7 +244,7 @@ align-items: center;
 .adBannerWrapper>h1{
 /* font-family: 'DM Sans'; */
 font-style: normal;
-font-weight: 700;
+font-weight: 500;
 font-size: 36px;
 line-height: 41px;
 /* identical to box height, or 114% */
@@ -257,7 +257,7 @@ color: #AD00A2;
  padding: 1.5rem 0rem;
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 41px;
     /* identical to box height, or 114% */
