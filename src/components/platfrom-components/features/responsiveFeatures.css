@@ -73,6 +73,7 @@
 @media screen and (max-width:780px) {
     .featureContainer {
         padding: 5rem 2rem 0rem 2rem;
+        margin-bottom: 5%;
     }
     
 
@@ -219,7 +220,7 @@
     }
 
     .cardWrapper:nth-child(1) {
-        padding-top: 8rem;
+        padding-top: 5rem;
     }
 
     .cardWrapper:nth-child(even) {

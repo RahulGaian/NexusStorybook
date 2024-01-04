@@ -20,7 +20,9 @@
   src: local('ITC Avant Garde CE Book') url("./fonts/ITC\ Avant\ Garde\ Gothic\ CE\ Book.otf") format("truetype");
 }
 
-
+h1{
+  max-height:fit-content !important;
+}
 
 *{
   font-family: 'ITC' !important;;

@@ -2397,7 +2397,7 @@ const productsData = [
         "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
       imageUrl: images.ZoomBotBanner,
       bookDemoUrl: "",
-      viewDemoUrl: "",
+      viewDemoUrl:images.ce2,
     },
     features: [
       {
