@@ -10,7 +10,7 @@
     
     .btn_filled {
         /* font-family: "DM Sans"; */
-         font-weight: 700;
+         font-weight: 500;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -30,7 +30,7 @@
     
         box-sizing: border-box;
     z-index: 100;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
         display: flex;
         flex-direction: column;

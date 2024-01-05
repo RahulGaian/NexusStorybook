@@ -77,7 +77,7 @@
 .featureBoxHeadingplt>h1 {
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 52px;
     line-height: 58px;
     /* identical to box height, or 85% */
@@ -107,7 +107,7 @@
 .featureBoxSubHeading>p {
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 58px;
     color: #9919AE;
@@ -240,7 +240,7 @@
 .app__casestudy_content .content_heading {
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 43px;
     color: #1A1A1A;
@@ -263,7 +263,7 @@
     border-radius: 8px;
     /* font-family: 'DM Sans'; */
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 0px;
     text-align: center;

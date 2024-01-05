@@ -19,10 +19,13 @@ const WhereToFind = () => {
             name="cars"
             className={style.input1 + " " + style.input2}
           >
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
+            <option value="countries">Country:</option>
+            <option value="india">India</option>
+            <option value="usa">Unites States of America</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="germany">Germany</option>
+            <option value="spain">Spain</option>
           </select>
         </div>
         <div className={style.checkboxx}>

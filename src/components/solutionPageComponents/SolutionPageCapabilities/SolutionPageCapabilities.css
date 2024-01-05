@@ -62,7 +62,7 @@
 .itemcontainer > div > div > h2 {
   font-family: "DM Sans", sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
@@ -141,7 +141,7 @@
   }
   .itemcontainer > div > div > h2 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 24px;
   }
   .itemcontainer > div > div > p {
@@ -173,7 +173,7 @@
 
   .itemcontainer > div > div > h2 {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 24px;
     min-height:40px;
   }
@@ -207,7 +207,7 @@
 
   .itemcontainer > div > div > h2 {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
   }
   .itemcontainer > div > div > p {
@@ -238,7 +238,7 @@
   }
   .itemcontainer > div > div > h2 {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
   }
 }

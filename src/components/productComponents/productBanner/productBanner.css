@@ -135,7 +135,7 @@
   font-family: DM Sans;
   font-size: 18px !important;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 0px;
 
   /* padding: 2rem; */
@@ -171,7 +171,7 @@
     font-family: DM Sans;
     font-size: 26px !important;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 28px !important; 
     /* letter-spacing: -0.78px; */
     padding: 0.5rem 0rem;
@@ -208,7 +208,7 @@
     font-family: DM Sans;
     font-size: 14px !important;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
   
     /* padding: 2rem; */
@@ -223,7 +223,7 @@
     font-family: DM Sans;
     font-size: 24px !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
     /* letter-spacing: -0.72px; */
     padding: 0.5rem 0rem;
@@ -262,7 +262,7 @@
     font-family: DM Sans;
     font-size: 14px !important;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0px !important;
   
     /* padding: 2rem; */
@@ -489,7 +489,7 @@
   }
   .productBannerLeftContent > h1 {
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 34px !important;
     letter-spacing: -0.72px;
   }
@@ -503,7 +503,7 @@
   } */
 
   /* .productBannerLeftButton > button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
     padding: 1.5rem;
   } */
@@ -574,7 +574,7 @@
 
   .productBannerLeftContent > h1 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.72px;
     line-height: 34px !important;
   }
@@ -587,7 +587,7 @@
   }
 
   /* .productBannerLeftButton > button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
     padding: 1.5rem;
   } */
@@ -750,7 +750,7 @@
 
   .productBannerLeftContent > h1 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.72px;
     line-height: 32px !important;
   }
@@ -879,7 +879,7 @@
     text-align: left !important;
   }
   /* .productBannerLeftButton > button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
     padding: 1.5rem;
   } */
@@ -1029,7 +1029,7 @@
     text-align: left !important;
   }
   /* .productBannerLeftButton > button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     padding: 1.2rem;
   } */
@@ -1148,7 +1148,7 @@
   /* .productBannerLeftButton > button {
     font-family: "DM Sans";
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0px;
     color: #ffffff;
     width: 12rem !important;
@@ -1174,7 +1174,7 @@
     font-family: "DM Sans";
     font-style: normal;
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.72px;
     line-height: 26px !important;
     text-align: left !important;

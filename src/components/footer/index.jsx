@@ -46,7 +46,7 @@ const Footer = () => {
                   <a className={Style.navlink} href="/solutions/smart-city-as-a-service">Smartcities & Government</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/solutions/moScribe">moScribe</a>
+                  <a className={Style.navlink} href="/solutions/moScribe">Smart Cities</a>
                 </li>
                 {/* <li className={Style.listelements}>
                   <a className={Style.navlink} href="/solutions/moScribe">HR Tech</a>
@@ -58,7 +58,7 @@ const Footer = () => {
               <h5 className={Style.header}>Product</h5>
               <ul className={Style.cards1 + " md:mt-9"}>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/iZAK">iZAK</a>
+                  <a className={Style.navlink} href="/products/iZAK">iZak</a>
                 </li>
                 <li className={Style.listelements}>
                   <a className={Style.navlink} href="/products/live-news">Live news</a>
@@ -78,10 +78,10 @@ const Footer = () => {
               <h5 className={Style.header}>Platform</h5>
               <ul className={Style.cards1 + " md:mt-9"}>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/platform/pascal-intelligence">Pascal Intelligence(PI)</a>
+                  <a className={Style.navlink} href="/platform/pascal-intelligence">Pascal Intelligence (PI)</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/platform/boltzman-bot">BoltzmanBot(BOB)</a>
+                  <a className={Style.navlink} href="/platform/boltzman-bot">Boltzmann's Bot (BOB)</a>
                 </li>
                 <li className={Style.listelements}>
                   <a className={Style.navlink} href="/platform/monet">Monet</a>
@@ -90,7 +90,7 @@ const Footer = () => {
                   <a className={Style.navlink} href="/platform/vinci">Vinci</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/platform/holacracy">Hola Verses</a>
+                  <a className={Style.navlink} href="/platform/holacracy">Holacracy</a>
                 </li>
               </ul>
             </nav>

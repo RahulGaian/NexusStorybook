@@ -119,7 +119,7 @@
 }
 .maplocationshead {
   /* border: 2px solid blue; */
-  font-weight: 700;
+  font-weight: 500;
   font-size: 30px;
   /* font-size: 0.68381875rem;
   font-size: clamp(
@@ -169,7 +169,7 @@
 }
 
 .section2head {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 25px;
   font-size: 20px;
   /* font-size: 0.45588125rem;
@@ -217,7 +217,7 @@
   .botconthead > div > h1 {
     /* width: 60%;
     color: #1c1c1c;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 50px;
     line-height: 70px;
     height: fit-content; */
