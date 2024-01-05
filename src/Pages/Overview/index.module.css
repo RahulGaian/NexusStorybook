@@ -67,6 +67,7 @@
   line-height: 74px;
   letter-spacing: -2.04px;
   width: 70%;
+  
 }
 
 .content {
@@ -214,12 +215,13 @@
   .heading {
     /* border: 2px solid red; */
     width: 100%;
-    color: #ad00a2;
+    /* color: #ad00a2; */
     font-family: DM Sans;
     font-size: 38px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    text-align: left !important;
   }
 
   .content {
@@ -489,7 +491,7 @@
   .bgmain {
     height: 1000px;
     padding-top: 120px;
-    padding-top: 5% !important;
+    padding-top: 0% !important;
   }
 
   .imagefolder {
@@ -510,7 +512,7 @@
   .bgmain {
     height: 950px;
     padding-top: 120px;
-    padding-top: 5% !important;
+    padding-top: 0% !important;
   }
 
   .imagefolder {
@@ -530,7 +532,7 @@
   .bgmain {
     height: 980px;
     padding-top: 120px;
-    padding-top: 8% !important;
+    padding-top: 0% !important;
   }
 
   .imagefolder {
@@ -554,7 +556,7 @@
   .bgmain {
     height: 950px;
     padding-top: 120px;
-    padding-top: 8% !important;
+    padding-top: 0% !important;
   }
 
   .imagefolder {
@@ -602,7 +604,8 @@
 @media screen and (max-width: 980px) {
   .bgmain {
     height: 750px;
-    padding-top: 120px;
+    /* padding-top: 200px; */
+    padding-top: 5%;
     /* border: 2px solid red; */
   }
 
@@ -732,7 +735,7 @@
   .heading {
     width: 100%;
     /* line-height: 55px; */
-    color: #ad00a2;
+    /* color: #ad00a2; */
     font-family: DM Sans;
     font-size: 38px !important;
     font-style: normal;
@@ -801,7 +804,7 @@
   .heading {
     width: 100%;
     /* line-height: 55px; */
-    color: #ad00a2;
+    /* color: #ad00a2; */
     font-family: DM Sans;
     font-size: 38px !important;
     font-style: normal;
