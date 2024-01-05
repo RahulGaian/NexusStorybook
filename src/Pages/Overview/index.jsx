@@ -8,16 +8,16 @@ import ProductExp from "../../components/ProductEndExplaner";
 import BuildWord from "../../components/BuildWorld";
 import Foudersmessage from "./Founderscomponent";
 import Lifeblog from "../careers/lifeblogpage";
-import Blobs from "../../molecules/blobs";
+// import Blobs from "../../molecules/blobs";
 let Overview = () => {
   return (
     <section className={Style.bg}>
-      <Blobs left={"85%"} top={"15%"}></Blobs>
+      {/* <Blobs left={"85%"} top={"15%"}></Blobs>
       <Blobs left={"-10%"} top={"95%"}></Blobs>
 
       <Blobs left={"85%"} top={"195%"}></Blobs>
 
-      <Blobs left={"-10%"} top={"280%"}></Blobs>
+      <Blobs left={"-10%"} top={"280%"}></Blobs> */}
 
       <div className={Style.pink_blob_1}>
         <div className={Style.pink_blob_2}>
