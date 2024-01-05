@@ -17,7 +17,9 @@ const CesBanner = () => {
         </video>
         <div className={st.contentContainer}>
           <span id={st.head}>Meet us at CES</span>
-          <span id={st.dnt}>January 9-12 | The Venetian | Las Vegas, NV</span>
+          <span id={st.dnt}>
+            January 9-12 | Booth #19744, Central Hall, LVCC | Las Vegas, NV
+          </span>
         </div>
       </div>
     </div>
