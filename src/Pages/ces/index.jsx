@@ -34,6 +34,9 @@ function CesPage() {
       <section>
         <StartBuilding />
       </section> */}
+      <br />
+      <br />
+      <br />
     </section>
   );
 }
