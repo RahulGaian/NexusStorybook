@@ -1,7 +1,7 @@
-let Img = ({src,style,className}) => {
+let Img = ({src,style,className,onClick}) => {
 
     return(
-        <img src={process.env.PUBLIC_URL + src} style={style} className={className} alt="Imagenotfound " />
+        <img src={process.env.PUBLIC_URL + src} style={style} onClick={onClick} className={className} alt="Imagenotfound " />
     )
 }
 export default Img;
