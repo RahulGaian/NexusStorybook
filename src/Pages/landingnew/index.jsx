@@ -8,7 +8,9 @@ import Header from "../../components/Header/header";
 import Img from "../../components/Image";
 import Map3dComponent from "../../molecules/MapComponent";
 import Footer from "../../molecules/footer";
-
+import  OppurtiniyCalculator from "../../molecules/OpportunityCalc/index"
+import LeafletCanvasMap from "../../molecules/leafLet";
+import Projection from "../../molecules/projection/index"
 const Landingpagenew = () => {
   return (
     <>
@@ -88,8 +90,10 @@ const Landingpagenew = () => {
           </div>
         </section>
 
-        {/* <section id="mapcomp"><Map3dComponent /></section> */}
-
+        <section id="mapcomp"><Map3dComponent /></section>
+        <section><LeafletCanvasMap></LeafletCanvasMap></section>
+        <section> <OppurtiniyCalculator></OppurtiniyCalculator></section>
+        <section><Projection></Projection></section>
         <div className="second_bg_img-contaniner">
           <div className="second_bg_content">
             <div className="second_bg_heading">

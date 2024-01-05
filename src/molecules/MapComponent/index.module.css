@@ -42,7 +42,7 @@ letter-spacing: -0.48px;
     margin-right: auto;
 
     width: 100vw !important;
-    height: 100vh !important;
+    /* height: 100vh !important; */
     transition: 1s all ease-in-out;
     z-index: 10;
 
