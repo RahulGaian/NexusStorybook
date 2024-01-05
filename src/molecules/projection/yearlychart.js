@@ -46,7 +46,7 @@ const ChartComponent3 = ({ data }) => {
   const totalData = Object.values(yearData).map((year) => year.reduce((sum, value) => sum + value, 0));
 
   useEffect(() => {
-    const chartDom = document.getElementById('main');
+    const chartDom = document.getElementById('maindiv');
     const myChart = echarts.init(chartDom);
 
     const grid = {
@@ -95,7 +95,7 @@ const ChartComponent3 = ({ data }) => {
     };
   }, [data, yearData, totalData]);
 
-  return <ChartContainer id="main" style={{ height: '100%', width: '100%' }} />;
+  return <ChartContainer id="maindiv" style={{ height: '100%', width: '100%' }} />;
 };
 
 export default ChartComponent3;
