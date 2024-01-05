@@ -91,9 +91,7 @@ const Landingpagenew = () => {
         </section>
 
         <section id="mapcomp"><Map3dComponent /></section>
-        <section><LeafletCanvasMap></LeafletCanvasMap></section>
-        <section> <OppurtiniyCalculator></OppurtiniyCalculator></section>
-        <section><Projection></Projection></section>
+    
         <div className="second_bg_img-contaniner">
           <div className="second_bg_content">
             <div className="second_bg_heading">

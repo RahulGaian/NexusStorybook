@@ -1,16 +1,16 @@
 
 > nexus@0.1.0 build-storybook
-> storybook build --output-dir /tmp/chromatic--64164-3K6cX92DyjWX
+> storybook build --output-dir /tmp/chromatic--65542-MFCzQZhdGhdO
 
 @storybook/cli v7.6.6
 
-info => Cleaning outputDir: /tmp/chromatic--64164-3K6cX92DyjWX
+info => Cleaning outputDir: /tmp/chromatic--65542-MFCzQZhdGhdO
 info => Loading presets
 info => Building manager..
 WARN unable to find package.json for react-leaflet
-info => Manager built (140 ms)
+info => Manager built (219 ms)
 info => Building preview..
-info => Copying static files: /home/gaian/Desktop/nexus connect/nexus-connect-website/node_modules/@storybook/manager/static at /tmp/chromatic--64164-3K6cX92DyjWX/sb-common-assets
+info => Copying static files: /home/gaian/Desktop/nexus connect/nexus-connect-website/node_modules/@storybook/manager/static at /tmp/chromatic--65542-MFCzQZhdGhdO/sb-common-assets
 info Using SWC compiler
 info Addon-docs: using MDX2
 info => Loading Webpack configuration from `node_modules/react-scripts`
@@ -123,8 +123,9 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 9% setup compilation
 <s> [webpack.Progress] 10% building
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
-info => Copying static files: /home/gaian/Desktop/nexus connect/nexus-connect-website/public at /tmp/chromatic--64164-3K6cX92DyjWX/
+info => Copying static files: /home/gaian/Desktop/nexus connect/nexus-connect-website/public at /tmp/chromatic--65542-MFCzQZhdGhdO/
 WARN No story files found for the specified pattern: src/**/*.mdx
+<s> [webpack.Progress] 10% building 0/1 entries 1/1 dependencies 0/1 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@storybook/preset-react-webpack/dist/loaders/react-docgen-loader.js
 <s> [webpack.Progress] 10% building 0/1 entries 1/1 dependencies 0/1 modules
 <s> [webpack.Progress] 27% building 0/1 entries 5/16 dependencies 3/4 modules
@@ -134,27 +135,31 @@ WARN No story files found for the specified pattern: src/**/*.mdx
 <s> [webpack.Progress] 13% building import loader ./node_modules/@storybook/builder-webpack5/dist/loaders/export-order-loader.js
 <s> [webpack.Progress] 13% building import loader ./node_modules/unplugin/dist/webpack/loaders/transform.js
 <s> [webpack.Progress] 13% building 0/1 entries 118/184 dependencies 4/68 modules
-<s> [webpack.Progress] 12% building 0/1 entries 199/400 dependencies 4/109 modules
+<s> [webpack.Progress] 12% building 0/1 entries 195/300 dependencies 4/105 modules
 <s> [webpack.Progress] 12% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
 <s> [webpack.Progress] 12% building import loader ./node_modules/css-loader/dist/cjs.js
 <s> [webpack.Progress] 12% building import loader ./node_modules/postcss-loader/dist/cjs.js
 <s> [webpack.Progress] 12% building 0/1 entries 388/454 dependencies 7/162 modules
-<s> [webpack.Progress] 16% building 0/1 entries 498/544 dependencies 28/233 modules
-<s> [webpack.Progress] 19% building 0/1 entries 595/699 dependencies 45/273 modules
+<s> [webpack.Progress] 13% building 0/1 entries 452/500 dependencies 12/206 modules
+<s> [webpack.Progress] 19% building 0/1 entries 586/654 dependencies 45/267 modules
+<s> [webpack.Progress] 18% building 0/1 entries 942/1100 dependencies 57/373 modules
 WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src/molecules/projection/yearlychart.js with react-docgen. Rerun Storybook with --loglevel=debug to get more info.
-<s> [webpack.Progress] 19% building 0/1 entries 1300/1399 dependencies 79/467 modules
-<s> [webpack.Progress] 24% building 0/1 entries 1541/1700 dependencies 150/588 modules
-<s> [webpack.Progress] 29% building 0/1 entries 1900/2050 dependencies 281/810 modules
-<s> [webpack.Progress] 29% building 0/1 entries 2500/2614 dependencies 346/958 modules
-<s> [webpack.Progress] 47% building 0/1 entries 2828/2925 dependencies 700/1017 modules
-<s> [webpack.Progress] 48% building 0/1 entries 2979/3100 dependencies 750/1073 modules
-<s> [webpack.Progress] 48% building 0/1 entries 3021/3483 dependencies 770/1100 modules
-<s> [webpack.Progress] 40% building 0/1 entries 3800/4048 dependencies 913/1655 modules
-<s> [webpack.Progress] 42% building 0/1 entries 4297/4400 dependencies 1095/1845 modules
-<s> [webpack.Progress] 44% building 0/1 entries 4465/4500 dependencies 1173/1858 modules
-<s> [webpack.Progress] 46% building 0/1 entries 5000/5253 dependencies 1332/1999 modules
-<s> [webpack.Progress] 45% building 0/1 entries 5835/5900 dependencies 1387/2125 modules
-<s> [webpack.Progress] 52% building 0/1 entries 6552/6700 dependencies 1713/2204 modules
+<s> [webpack.Progress] 18% building 0/1 entries 1288/1400 dependencies 75/468 modules
+<s> [webpack.Progress] 20% building 0/1 entries 1523/1600 dependencies 114/588 modules
+<s> [webpack.Progress] 21% building 0/1 entries 1547/1700 dependencies 119/590 modules
+<s> [webpack.Progress] 26% building 0/1 entries 1826/1900 dependencies 232/797 modules
+<s> [webpack.Progress] 28% building 0/1 entries 2021/2054 dependencies 300/883 modules
+<s> [webpack.Progress] 32% building 0/1 entries 2661/2785 dependencies 400/969 modules
+<s> [webpack.Progress] 46% building 0/1 entries 2906/3000 dependencies 699/1059 modules
+<s> [webpack.Progress] 49% building 0/1 entries 2978/3400 dependencies 764/1075 modules
+<s> [webpack.Progress] 41% building 0/1 entries 3449/3500 dependencies 838/1476 modules
+<s> [webpack.Progress] 42% building 0/1 entries 3700/3713 dependencies 934/1573 modules
+<s> [webpack.Progress] 48% building 0/1 entries 3942/4000 dependencies 1097/1581 modules
+<s> [webpack.Progress] 50% building 0/1 entries 4056/4300 dependencies 1168/1606 modules
+<s> [webpack.Progress] 47% building 0/1 entries 4500/4538 dependencies 1253/1850 modules
+<s> [webpack.Progress] 48% building 0/1 entries 4711/4800 dependencies 1349/1923 modules
+<s> [webpack.Progress] 47% building 0/1 entries 5498/5800 dependencies 1413/2087 modules
+<s> [webpack.Progress] 53% building 0/1 entries 6506/6635 dependencies 1736/2200 modules
 <s> [webpack.Progress] 65% building 1/1 entries 6989/6989 dependencies 2245/2245 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
@@ -263,8 +268,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/main.746aacc2.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.66e12782.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.66e12782.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.7b064bbc.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.7b064bbc.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0a59bda5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.0a59bda5.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-Overview-index-stories.ba2bf9ea.chunk.css generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-Overview-index-stories.ba2bf9ea.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-Overview-index-stories.fab5936d.iframe.bundle.js generate SourceMap
@@ -337,8 +342,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-invest-page9-index-stories.b41dd6af.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-invest-page9-index-stories.0d3b5151.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-invest-page9-index-stories.0d3b5151.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.3bea01bb.chunk.css generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.3bea01bb.chunk.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.9879b56f.chunk.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.9879b56f.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-landingnew-index-stories.e2b343a5.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-landingnew-index-stories.e2b343a5.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-launchpad-page1-index-stories.51e126d5.chunk.css generate SourceMap
@@ -353,8 +358,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-AdditionCmp-index-stories.013d1efe.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-AdditionCmp-index-stories.d5f6381c.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-AdditionCmp-index-stories.d5f6381c.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.f5b2ca37.chunk.css generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.f5b2ca37.chunk.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.36fca868.chunk.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.36fca868.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-MapComponent-index-stories.2fb6e17e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-MapComponent-index-stories.2fb6e17e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapLeafLet3d-index-stories.3b53517f.chunk.css generate SourceMap
@@ -485,8 +490,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-inviteFriends-index-stories.b5cd076f.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-inviteFriends-index-stories.014b39c7.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-inviteFriends-index-stories.014b39c7.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.80b4a962.chunk.css generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.80b4a962.chunk.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.88426472.chunk.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.88426472.chunk.css generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-knowMore-index-stories.55245b52.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-knowMore-index-stories.55245b52.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-launchPadcardsHead-index-stories.a3970e50.chunk.css generate SourceMap
@@ -724,8 +729,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-invest-page9-index-stories.b41dd6af.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-invest-page9-index-stories.0d3b5151.iframe.bundle.js attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-invest-page9-index-stories.0d3b5151.iframe.bundle.js attached SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.3bea01bb.chunk.css attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.3bea01bb.chunk.css attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.9879b56f.chunk.css attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-landingnew-index-stories.9879b56f.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-launchpad-page1-index-stories.51e126d5.chunk.css attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/Pages-launchpad-page1-index-stories.51e126d5.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Pages-launchpad-page1-index-stories.327ed837.iframe.bundle.js attach SourceMap
@@ -736,8 +741,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-AdditionCmp-index-stories.013d1efe.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-AdditionCmp-index-stories.d5f6381c.iframe.bundle.js attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-AdditionCmp-index-stories.d5f6381c.iframe.bundle.js attached SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.f5b2ca37.chunk.css attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.f5b2ca37.chunk.css attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.36fca868.chunk.css attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapComponent-index-stories.36fca868.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-MapComponent-index-stories.2fb6e17e.iframe.bundle.js attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-MapComponent-index-stories.2fb6e17e.iframe.bundle.js attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-MapLeafLet3d-index-stories.3b53517f.chunk.css attach SourceMap
@@ -864,8 +869,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-inviteFriends-index-stories.b5cd076f.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-inviteFriends-index-stories.014b39c7.iframe.bundle.js attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-inviteFriends-index-stories.014b39c7.iframe.bundle.js attached SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.80b4a962.chunk.css attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.80b4a962.chunk.css attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.88426472.chunk.css attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-knowMore-index-stories.88426472.chunk.css attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-knowMore-index-stories.55245b52.iframe.bundle.js attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin molecules-knowMore-index-stories.55245b52.iframe.bundle.js attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/molecules-launchPadcardsHead-index-stories.a3970e50.chunk.css attach SourceMap
@@ -1010,8 +1015,8 @@ WARN Failed to parse /home/gaian/Desktop/nexus connect/nexus-connect-website/src
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.eea7632d.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.eea7632d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.de233063.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.de233063.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.b885f8e5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.b885f8e5.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Pages-Overview-index-stories.e675e1d4.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Pages-Overview-index-stories.e675e1d4.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Pages-contact-index-stories.bb8b82eb.iframe.bundle.js generate SourceMap
@@ -1486,7 +1491,7 @@ WARN   6398.7e5c9b8f.iframe.bundle.js (716 KiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
 WARN   main (996 KiB)
-WARN       runtime~main.de233063.iframe.bundle.js
+WARN       runtime~main.b885f8e5.iframe.bundle.js
 WARN       9668.2a647688.iframe.bundle.js
 WARN       main.eea7632d.iframe.bundle.js
 WARN       static/css/main.087c12c6.css
@@ -1495,5 +1500,5 @@ WARN
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-info => Preview built (28 s)
-info => Output directory: /tmp/chromatic--64164-3K6cX92DyjWX
+info => Preview built (41 s)
+info => Output directory: /tmp/chromatic--65542-MFCzQZhdGhdO

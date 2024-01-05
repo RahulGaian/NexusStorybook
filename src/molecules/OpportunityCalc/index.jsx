@@ -2,10 +2,8 @@ import React from "react";
 import style from "./index.module.css";
 import Img from "../../components/Image/index";
 import { useState } from "react";
-const OpportunityCalc = () => {
-  let data = ["South Dakota", "San Diego", "New York", "Washington DC"];
+const OpportunityCalc = ({data = ["South Dakota", "San Diego", "New York", "Washington DC"],listUpdater,selectedApps,selectedAppsUpdate}) => {
   let apps = ["aegis.svg","around.svg",'amply.svg',"clink.svg","gofema.svg","impressio.svg","izak.svg","museo.svg","reee.svg","voteiq.svg"]
-  const [selectedApps, selectedAppsUpdate] = useState([]);
   const [selectedList, selectedListUpdate] = useState([]);
   return (
     <div>
@@ -24,20 +22,31 @@ const OpportunityCalc = () => {
          
               >
                 <h1 className={selectedList.includes(e) ? style.clicked1 : ""} onClick={() => {
-                  if(selectedList.includes(e)){
-                    selectedListUpdate((arr) => {
-                      return arr.filter((str) => str !== e);
-                    });
-                  }
-                  else{
+                  // if(selectedList.includes(e)){
+                  //   selectedListUpdate((arr) => {
+                  //     return arr.filter((str) => str !== e);
+                  //   });
+                  // }
+                  // else{
 
-                    selectedListUpdate((arr) => {
-                      return [...arr, e];
-                    });
-                  }
+                  //   selectedListUpdate((arr) => {
+                  //     return [...arr, e];
+                  //   });
+                  // }
                 }}>
                   {e}
                 </h1>
+                <Img
+                  className={style.clickedcl} 
+                  src={"/Icons/cross.svg"}
+                  onClick={() => {
+                    listUpdater((arr) => {
+                      return arr.filter((str) => str !== e);
+                    });
+                    console.log("clicked close")
+                  }}
+                />
+
         
               </div>
             );
