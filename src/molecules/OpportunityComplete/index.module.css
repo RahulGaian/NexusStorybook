@@ -1,0 +1,57 @@
+.map{
+    height: 60vh !important;
+    overflow: hidden;
+}
+
+.roundButton{
+    width: 300px;
+    background-color: #007CD7;
+padding: 15px;
+border-radius: 5px;
+    color:white;
+    border: 0px solid black;
+}
+.inner{
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.leaflet{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 2600px) and (min-width: 1801px) {
+    .inner {
+        margin-top: 30px;
+        width: 100%;
+      /* width: 1700px; */
+      /* width: 85%; */
+      /* display: flex !important; */
+      /* margin-left: auto;
+      margin-right: auto; */
+    }
+  }
+  
+  @media only screen and (max-width: 1800px) and (min-width: 1500px) {
+    .inner {
+      /* width: 1420px; */
+      width: 85%;
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) and (min-width: 1250px) {
+    .inner {
+      /* width: 1200px; */
+      width: 85% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px)  {
+    .inner {
+      /* width: 950px; */
+      width: 90%;
+    }
+  }

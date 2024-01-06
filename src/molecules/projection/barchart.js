@@ -41,19 +41,19 @@ const ChartComponent2 = ({ data }) => {
     useEffect(() => {
       const selectedData = data.find((entry) => entry.DMA === selectedDMA);
       const mValues = Object.keys(selectedData)
-        .filter((key) => key.startsWith('M'))
+        .filter((key) => key.startsWith('YEAR_'))
         .map((key) => selectedData[key]);
   
       setChartData(mValues);
     }, [selectedDMA, data]);
   
     const getOption = () => {
-      const xAxisData = Array.from({ length: chartData.length-1 }, (_, index) => `M${index+1}`);
+      const xAxisData = Array.from({ length: chartData.length }, (_, index) => `YEAR_${index+1}`);
       
       return {
         xAxis: {
           type: 'category',
-          boundaryGap: false,
+          boundaryGap: true,
           data: xAxisData,
         },
         yAxis: {

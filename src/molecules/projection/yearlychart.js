@@ -36,7 +36,7 @@ const ChartContainer = styled.div`
 const ChartComponent3 = ({ data }) => {
   // Extract YEAR data from the JSON
   const yearData = data.reduce((acc, dma) => {
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1; i <= 5; i++) {
       acc[`YEAR_${i}`] = acc[`YEAR_${i}`] || [];
       acc[`YEAR_${i}`].push(dma[`YEAR_${i}`] || 0);
     }
@@ -44,9 +44,9 @@ const ChartComponent3 = ({ data }) => {
   }, {});
 
   const totalData = Object.values(yearData).map((year) => year.reduce((sum, value) => sum + value, 0));
-
+  const totalData1 = totalData.reduce((sum, value) => sum + value, 0)
   useEffect(() => {
-    const chartDom = document.getElementById('main');
+    const chartDom = document.getElementById('maindiv');
     const myChart = echarts.init(chartDom);
 
     const grid = {
@@ -67,7 +67,7 @@ const ChartComponent3 = ({ data }) => {
           formatter: (params) => Math.round(params.value * 1000) / 10 + '%'
         },
         data: yearData[key].map((d, did) =>
-          totalData[did] <= 0 ? 0 : d / totalData[did]
+          totalData[did] <= 0 ? 0 : d / totalData1
         )
       };
     });
@@ -82,7 +82,8 @@ const ChartComponent3 = ({ data }) => {
       },
       xAxis: {
         type: 'category',
-        data: data.map((dma) => dma.DMA)
+        // data: data.map((dma) => dma.DMA)
+        data:["total"]
       },
       series
     };
@@ -95,7 +96,7 @@ const ChartComponent3 = ({ data }) => {
     };
   }, [data, yearData, totalData]);
 
-  return <ChartContainer id="main" style={{ height: '100%', width: '100%' }} />;
+  return <ChartContainer id="maindiv" style={{ height: '100%', width: '100%' }} />;
 };
 
 export default ChartComponent3;

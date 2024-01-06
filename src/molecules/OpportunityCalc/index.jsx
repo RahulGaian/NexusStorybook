@@ -2,11 +2,8 @@ import React from "react";
 import style from "./index.module.css";
 import Img from "../../components/Image/index";
 import { useState } from "react";
-const OpportunityCalc = () => {
-  let data = ["South Dakota", "San Diego", "New York", "Washington DC"];
-  let apps = ["aegis.svg","around.svg",'amply.svg',"clink.svg","gofema.svg","impressio.svg","izak.svg","museo.svg","reee.svg","voteiq.svg"]
-  const [selectedApps, selectedAppsUpdate] = useState([]);
-  const [selectedList, selectedListUpdate] = useState([]);
+const OpportunityCalc = ({data = ["South Dakota", "San Diego", "New York", "Washington DC"],listUpdater,selectedApps,selectedAppsUpdate}) => {
+  let apps = ["aegis","around",'amply',"clink","gofema","impressio","izak","museo","reee","voteiq"]
   return (
     <div>
       <div className={style.inner}>
@@ -16,35 +13,34 @@ const OpportunityCalc = () => {
             return (
               <div
                 className={
-                  style.blues +
-                  " " +
-                  (selectedList.includes(e) ? style.clicked : "")
+                  style.blues 
                 }
                 key={e}
          
               >
-                <h1 className={selectedList.includes(e) ? style.clicked1 : ""} onClick={() => {
-                  if(selectedList.includes(e)){
-                    selectedListUpdate((arr) => {
-                      return arr.filter((str) => str !== e);
-                    });
-                  }
-                  else{
-
-                    selectedListUpdate((arr) => {
-                      return [...arr, e];
-                    });
-                  }
-                }}>
+                <h1 onClick={() => {}}>
                   {e}
                 </h1>
+                <Img
+                  className={style.clickedcl} 
+                  src={"/Icons/cross.svg"}
+                  onClick={() => {
+                    listUpdater((arr) => {
+                      return arr.filter((str) => str !== e);
+                    });
+                    // console.log("clicked close")
+                  }}
+                />
+
         
               </div>
             );
           })}
+          {data.length==0 && <p style={{fontWeight:100,color:"grey"}}>You have not selected a DMA</p>}
         </div>
         <div className={style.secondheading}>
-        <h1 className={style.heading2}>Business opportunities recommended for you <span>    <Img src={"/Icons/ticket.svg"}></Img></span></h1>
+        <h1 className={style.heading2}>Business opportunities recommended for you 
+        <span> <Img src={"/Icons/ticket.svg"}></Img></span></h1>
       
         </div>
 
@@ -73,7 +69,7 @@ const OpportunityCalc = () => {
                 }}
          
               >
-                <Img  src={"/Icons/"+e} >
+                <Img  src={"/Icons/"+e+".svg"} >
                   {e}
                 </Img>
         

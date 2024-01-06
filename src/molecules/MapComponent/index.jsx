@@ -10,7 +10,8 @@ import HowWhoWhy from '../howWhoWhy';
 import { Suspense } from 'react';
 import { Loader } from '@react-three/drei';
 import RotatingStars from '../rotatingStars';
-
+import FullOppurtunity from '../OpportunityComplete';
+const Loading = () => <h1 style={{color:"white"}}>Loadingggg</h1>
 
 export function Map({setClick,clicked}) {
     let initialLocation ={}
@@ -18,8 +19,9 @@ export function Map({setClick,clicked}) {
     let counterZoom = 0
     let prevApp =""
     let app_names = ["Revee","GoFEMA","C-Link","HearHere","Museo","VoteIQ"]
-
+    let isMobile = window.innerWidth < 600 ?true:false;
     let splineRef ;
+    let i =0
   function onLoad(spline) {
     splineRef = spline;
 
@@ -27,74 +29,87 @@ export function Map({setClick,clicked}) {
       // setTimeout(location_finder, 4000);
    
     // console.log(arr)
-    spline.setZoom(27)
+    spline.setZoom(30)
+    if(isMobile){
+      spline.setZoom(2)
+    }
     // let rect = splineRef.findObjectByName("Revee");
     // rect.emitEvent("mouseDown","Revee")
     // spline.emitEvent("mouseDown","Revee")
+    myLoop();
+
   }
-  const location_finder = () =>{
-
+ 
       
-    for (let i of app_names){
-      try{
-        let name = i;
-        let rect = splineRef.findObjectByName(name);
-          // const handler1 = {}
-          // let proxy1 = new Proxy(rect, handler1);
-          initialLocation[rect.name] = [rect.position.x,rect.position.y,rect.position.z]
-          initialScales[rect.name] = [rect.scale.x,rect.scale.y,rect.scale.z]
-          console.log(rect.rotation.x,rect.rotation.y,rect.rotation.z)
-          console.log(rect.scale)
-          // arr.push(proxy1)
+    function myLoop() {         
+      setTimeout(function() {   
+        console.log('hello');   
+        if (i < 6) {   
+          let app = splineRef.findObjectByName(app_names[i]);
+          setTimeout(()=>{
+            try{
 
-        }
-        catch{
-          console.log("not found")
-        }
-      }
-      
-      console.log(initialLocation)
+              app.emitEventReverse("mouseDown")
+            }
+            catch{
+              console.log("something wrong with map")
+            }
+          },3000)
+          i++;             
+          try{
+
+            app.emitEvent("mouseDown")
+          }       catch{
+            console.log("something wrong with map")
+          }
+          myLoop();             
+        } 
+        else{
+          i=0;
+          myLoop();
+        }                      
+      }, 8000)
     }
+    
 
-  function onMouseDown(e) {
-    console.log('Clicked an object: ', e.target.name);
-    let name = e.target.name;
-    console.log(name)
-    if(name != prevApp && prevApp != ""){
-      let app = splineRef.findObjectByName(prevApp);
-      console.log(initialLocation[prevApp],prevApp)
-      app.emitEventReverse("mouseDown")
+  // function onMouseDown(e) {
+  //   console.log('Clicked an object: ', e.target.name);
+  //   let name = e.target.name;
+  //   console.log(name)
+  //   if(name != prevApp && prevApp != ""){
+  //     let app = splineRef.findObjectByName(prevApp);
+  //     console.log(initialLocation[prevApp],prevApp)
+  //     app.emitEventReverse("mouseDown")
 
-      console.log(app.position)
-    }
-      if(app_names.includes(name)){
-          setClick(true);
+  //     console.log(app.position)
+  //   }
+  //     if(app_names.includes(name)){
+  //         // setClick(true);
 
-          if(counterZoom == 0){
-            location_finder();
-            splineRef.setZoom(1.3)
+  //         if(counterZoom == 0){
+  //           location_finder();
+  //           // splineRef.setZoom(1.3)
 
-            counterZoom++;
+  //           counterZoom++;
           
 
-        }
+  //       }
         
         
  
-        prevApp = name
-        console.log(prevApp,"previous app")
-      }
-  }
-
+  //       prevApp = name
+  //       console.log(prevApp,"previous app")
+  //     }
+  // }
 
 
   return (
     <div className={clicked?style.map2 : style.map}>
-      <Suspense fallback={<Loader/>}>
+      <Suspense fallback={<Loading/>}>
       <Spline 
         onLoad={onLoad}
-        onMouseDown={onMouseDown}
-        onMouseUp={onMouseDown}
+        // onMouseDown={onMouseDown}
+        // onMouseUp={onMouseDown}
         className={style.mapInternal}
         // scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
         scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
@@ -107,8 +122,10 @@ export function Map({setClick,clicked}) {
   // create a function to write blow fish algorithm
 
 const Map3dComponent = () => {
+  let isMobile = window.innerWidth < 600 ?true:false;
+
     const [Click,setClick] = useState(false)
-    
+    const [showLeaflet,setShowLeaflet] = useState(false)
 
   return (
     <>
@@ -117,46 +134,20 @@ const Map3dComponent = () => {
             <h1 className={style.heading}>Impact Prediction Dashboard</h1>
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
-        <Map setClick={setClick} clicked={Click}></Map>
-        {/* <div className={Click?style.bottom:style.bottombt}>
-          <div className={style.bottomtop}>
-                <div>
-                    <h1 className={style.how}>How</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Who</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Why</h1>
-                  </div>
-          </div>
-          <div className={style.bottomb}>
+{
+  !showLeaflet && 
+        <>
+              <button className={style.buttons}style={{display:isMobile?"none":"block"}}  onClick={()=>{setShowLeaflet(true)}} >
+                  OPEN OPPORTUNITY CALCULATOR
+              </button>
 
-          <KnowMore bgColor='lightgrey'/>
-          </div>
-
-        </div> */}
-        <div className={Click?style.right:style.rightr}>
-          {/* <div>
-            <h1 className={style.how}>How</h1>
-          </div> */}
-          {/* <div className={style.bottomtop}>
-                <div>
-                    <h1 className={style.how}>How</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Who</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Why</h1>
-                  </div>
-          </div> */}
-          <HowWhoWhy></HowWhoWhy> 
-
-          <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/>
-          <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/>
-          <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/>
-
-        </div>
-
-        <RotatingStars></RotatingStars>
-
+              <Map setClick={setClick} clicked={Click}></Map>
+              <RotatingStars></RotatingStars>
+        </>
+}
+{
+  showLeaflet && <FullOppurtunity/>
+}
     </div>
 
 
@@ -166,4 +157,4 @@ const Map3dComponent = () => {
 
 
 
-export default Map3dComponent
+export default Map3dComponent;
