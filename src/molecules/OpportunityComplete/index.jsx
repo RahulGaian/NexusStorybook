@@ -17,7 +17,7 @@ const FullOppurtunity = () => {
     }, [count]);
   
   return (
-    <section>
+    <section className={style.leaflet}>
         <section className={style.map}><LeafletCanvasMap stateList={selectedStates} listUpdater={setSelectedStates}></LeafletCanvasMap></section>
         <section> <OpportunityCalc data={selectedStates} listUpdater={setSelectedStates} selectedApps={selectedApps} selectedAppsUpdate={setSelectedApps}></OpportunityCalc></section>
       {(selectedApps.length >0 && selectedStates.length >0 && count>=0 && count<4)  &&

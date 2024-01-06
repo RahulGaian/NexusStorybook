@@ -19,7 +19,7 @@ export function Map({setClick,clicked}) {
     let counterZoom = 0
     let prevApp =""
     let app_names = ["Revee","GoFEMA","C-Link","HearHere","Museo","VoteIQ"]
-
+    let isMobile = window.innerWidth < 600 ?true:false;
     let splineRef ;
     let i =0
   function onLoad(spline) {
@@ -30,6 +30,9 @@ export function Map({setClick,clicked}) {
    
     // console.log(arr)
     spline.setZoom(30)
+    if(isMobile){
+      spline.setZoom(2)
+    }
     // let rect = splineRef.findObjectByName("Revee");
     // rect.emitEvent("mouseDown","Revee")
     // spline.emitEvent("mouseDown","Revee")
@@ -44,17 +47,28 @@ export function Map({setClick,clicked}) {
         if (i < 6) {   
           let app = splineRef.findObjectByName(app_names[i]);
           setTimeout(()=>{
-            app.emitEventReverse("mouseDown")
-          },4000)
-          i++;                    
-          app.emitEvent("mouseDown")
+            try{
+
+              app.emitEventReverse("mouseDown")
+            }
+            catch{
+              console.log("something wrong with map")
+            }
+          },3000)
+          i++;             
+          try{
+
+            app.emitEvent("mouseDown")
+          }       catch{
+            console.log("something wrong with map")
+          }
           myLoop();             
         } 
         else{
           i=0;
           myLoop();
         }                      
-      }, 6000)
+      }, 8000)
     }
     
 
@@ -108,6 +122,8 @@ export function Map({setClick,clicked}) {
   // create a function to write blow fish algorithm
 
 const Map3dComponent = () => {
+  let isMobile = window.innerWidth < 600 ?true:false;
+
     const [Click,setClick] = useState(false)
     const [showLeaflet,setShowLeaflet] = useState(false)
 
@@ -119,9 +135,9 @@ const Map3dComponent = () => {
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
 {
-  !showLeaflet &&
+  !showLeaflet && 
         <>
-              <button className={style.buttons} onClick={()=>{setShowLeaflet(true)}} >
+              <button className={style.buttons}style={{display:isMobile?"none":"block"}}  onClick={()=>{setShowLeaflet(true)}} >
                   OPEN OPPORTUNITY CALCULATOR
               </button>
 

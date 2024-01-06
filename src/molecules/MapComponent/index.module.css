@@ -43,6 +43,7 @@ letter-spacing: -0.48px;
 
     width: 100vw !important;
     /* height: 100vh !important; */
+    /* height: 100vh !important; */
     transition: 1s all ease-in-out;
     z-index: 10;
 
@@ -51,11 +52,20 @@ letter-spacing: -0.48px;
 .mainDiv{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 128vh;
+    /* height: 100vh;
+     */
+    /* max-height: fit-content; */
+
+/* 
+    max-height: fit-content; */
     /* padding-top: 20px; */
     overflow: hidden;
     /* background-color: black; */
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .headDiv{
@@ -68,7 +78,7 @@ letter-spacing: -0.48px;
 }
 canvas{
     width: inherit !important ;height: inherit !important;
-    object-fit: contain !important;
+    object-fit: cover !important;
     aspect-ratio: auto 1920 / 1080 !important;
     z-index: 5;
     transition: 1s all ease-in;

@@ -32,7 +32,9 @@ const LeafletCanvasMap = ({stateList,listUpdater}) => {
     
     const map = L.map(mapContainerRef.current, {
       center: [36.1699, -95.1398],
-      zoom: isSmallLaptop?4.5:isMobile?4.3:5,
+      zoom:5
+      // zoom: isSmallLaptop?4.5:isMobile?4.3:5,
+
       // minZoom: isSmallLaptop?3:isMobile?2:5,
       // maxZoom:isSmallLaptop?3:isMobile?2:5
       

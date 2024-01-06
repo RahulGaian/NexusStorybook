@@ -17,7 +17,7 @@ const RotatingStars1 = ({ rotationSpeed = 0.0005 }) => {
 
 const RotatingStars = () => {
   return (
-    <Canvas style={{ position: 'absolute', width: '100vw',top:0, height: '100vh', background: 'black', zIndex: -1 }}>
+    <Canvas style={{ position: 'absolute', width: '100vw',top:0, height: '130vh', background: 'black', zIndex: -1 }}>
       <RotatingStars1 />
     </Canvas>
   );
