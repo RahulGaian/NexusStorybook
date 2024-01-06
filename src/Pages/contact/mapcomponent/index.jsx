@@ -16,7 +16,7 @@ function MapComponent() {
     
       L.control.zoom({ position: 'bottomright' }).addTo(map);
     const customIcon = L.icon({
-        iconUrl: '/images/contact/location pin.png', 
+        iconUrl: '/Images/location pin.png', 
         iconSize: [32, 32], 
         iconAnchor: [16, 32], 
       });
