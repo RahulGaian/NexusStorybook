@@ -6,6 +6,7 @@ import ChartComponent3 from "./yearlychart";
 import aggregateDataForDMAsAndPlatforms from "./logic";
 import { useEffect } from "react";
 import { useState } from "react";
+import { useMemo } from "react";
 const data = [
   {
     DMA: "NEW YORK",
@@ -1774,12 +1775,16 @@ const jsonData =[
 ]
 
 
-const Projection = ({selectedCities,selectedApps}) => {
+const Projection = ({selectedCities,selectedApps,count}) => {
+  let proxyAppNames ={"clink":"cLINK","gofema":"GoFEMA","amply":"AmpliFund","aegis":"Live Weather"}
   const [finalData,setFinalData] = useState([data])
   useEffect(()=>{
-   setFinalData([ aggregateDataForDMAsAndPlatforms(jsonData,["Philadelphia","Dallas-Fort Worth"],["Live Weather","cLINK"])] );
-   console.log(finalData)
-  },[selectedApps,selectedApps])
+    let selectedAppsNames = selectedApps.map(e=>{return proxyAppNames[e]})
+    // console.log(selectedAppsNames,selectedCities,finalData)
+    let data = aggregateDataForDMAsAndPlatforms(jsonData,selectedCities,selectedAppsNames)
+    // console.log(data,"finalll")
+     setFinalData([data]);
+  },[count])
 
   return (
     <div className={st.container}>
@@ -1792,7 +1797,7 @@ const Projection = ({selectedCities,selectedApps}) => {
           <div className={st.dataCont}><ChartComponent data={finalData}/></div>
           <div className={st.dataCont}><ChartComponent2 data={finalData}/></div>
           <div className={st.dataCont}><ChartComponent3 data={finalData}/></div>
-          <div className={st.dataCont}></div>
+          {/* <div className={st.dataCont}></div> */}
         </div>
       </div>
     </div>

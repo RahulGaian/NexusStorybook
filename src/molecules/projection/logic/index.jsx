@@ -1,5 +1,6 @@
 function aggregateDataForDMAsAndPlatforms(data, selectedDMAs, selectedPlatforms) {
     const aggregatedData = {};
+    // console.log(selectedDMAs,selectedPlatforms)
 
     data.forEach(entry => {
         // Check if the DMA and platform are selected

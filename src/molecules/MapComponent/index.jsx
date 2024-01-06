@@ -10,7 +10,8 @@ import HowWhoWhy from '../howWhoWhy';
 import { Suspense } from 'react';
 import { Loader } from '@react-three/drei';
 import RotatingStars from '../rotatingStars';
-
+import FullOppurtunity from '../OpportunityComplete';
+const Loading = () => <h1 style={{color:"white"}}>Loadingggg</h1>
 
 export function Map({setClick,clicked}) {
     let initialLocation ={}
@@ -88,10 +89,9 @@ export function Map({setClick,clicked}) {
   // }
 
 
-
   return (
     <div className={clicked?style.map2 : style.map}>
-      <Suspense fallback={<Loader/>}>
+      <Suspense fallback={<Loading/>}>
       <Spline 
         onLoad={onLoad}
         // onMouseDown={onMouseDown}
@@ -109,7 +109,7 @@ export function Map({setClick,clicked}) {
 
 const Map3dComponent = () => {
     const [Click,setClick] = useState(false)
-    
+    const [showLeaflet,setShowLeaflet] = useState(false)
 
   return (
     <>
@@ -118,46 +118,20 @@ const Map3dComponent = () => {
             <h1 className={style.heading}>Impact Prediction Dashboard</h1>
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
-        <Map setClick={setClick} clicked={Click}></Map>
-        {/* <div className={Click?style.bottom:style.bottombt}>
-          <div className={style.bottomtop}>
-                <div>
-                    <h1 className={style.how}>How</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Who</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Why</h1>
-                  </div>
-          </div>
-          <div className={style.bottomb}>
+{
+  !showLeaflet &&
+        <>
+              <button className={style.buttons} onClick={()=>{setShowLeaflet(true)}} >
+                  OPEN OPPORTUNITY CALCULATOR
+              </button>
 
-          <KnowMore bgColor='lightgrey'/>
-          </div>
-
-        </div> */}
-        {/* <div className={Click?style.right:style.rightr}> */}
-          {/* <div>
-            <h1 className={style.how}>How</h1>
-          </div> */}
-          {/* <div className={style.bottomtop}>
-                <div>
-                    <h1 className={style.how}>How</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Who</h1>
-                  </div>        <div>
-                    <h1 className={style.how}>Why</h1>
-                  </div>
-          </div> */}
-          {/* <HowWhoWhy></HowWhoWhy>  */}
-
-          {/* <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/> */}
-          {/* <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/> */}
-          {/* <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/> */}
-
-        {/* </div> */}
-
-        <RotatingStars></RotatingStars>
-
+              <Map setClick={setClick} clicked={Click}></Map>
+              <RotatingStars></RotatingStars>
+        </>
+}
+{
+  showLeaflet && <FullOppurtunity/>
+}
     </div>
 
 

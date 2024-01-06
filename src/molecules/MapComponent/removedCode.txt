@@ -1,0 +1,36 @@
+        {/* <div className={Click?style.bottom:style.bottombt}>
+          <div className={style.bottomtop}>
+                <div>
+                    <h1 className={style.how}>How</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Who</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Why</h1>
+                  </div>
+          </div>
+          <div className={style.bottomb}>
+
+          <KnowMore bgColor='lightgrey'/>
+          </div>
+
+        </div> */}
+        {/* <div className={Click?style.right:style.rightr}> */}
+          {/* <div>
+            <h1 className={style.how}>How</h1>
+          </div> */}
+          {/* <div className={style.bottomtop}>
+                <div>
+                    <h1 className={style.how}>How</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Who</h1>
+                  </div>        <div>
+                    <h1 className={style.how}>Why</h1>
+                  </div>
+          </div> */}
+          {/* <HowWhoWhy></HowWhoWhy>  */}
+
+          {/* <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/> */}
+          {/* <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/> */}
+          {/* <KnowMore bgColor='linear-gradient(97deg, #197CBF -0.4%, #004871 100.09%)'/> */}
+
+        {/* </div> */}

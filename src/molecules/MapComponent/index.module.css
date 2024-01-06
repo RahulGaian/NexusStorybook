@@ -140,7 +140,26 @@ canvas{
     bottom: -400px;
 }
 
+.buttons{
+    position: absolute;
+    z-index: 500 !important;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(137, 43, 226, 0.329);
+    color: white;
+    border: 0px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    transition: 0.2s background-color ease;
+    right: 5%;
+    bottom: 30px;
+}
 
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgba(137, 43, 226, 1);
+
+}
 @media screen and (max-width:1280px) {
     .right{
         right: 10px;
