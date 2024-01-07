@@ -21,7 +21,7 @@ const LeafletCanvasMap = ({stateList,listUpdater}) => {
     let greenIcon = L.icon({
       iconUrl: "Icons/map.png",
 
-      iconSize: [18, 18],
+      iconSize: [25, 25],
       // iconAnchor: [22, 94],
       shadowAnchor: [4, 62],
       popupAnchor: [-3, -76],
@@ -46,7 +46,7 @@ const LeafletCanvasMap = ({stateList,listUpdater}) => {
 
  
 
-
+    let givenLocations = ["New York","Los Angeles","Chicago","Philadelphia","Dallas-Ft. Worth"]
     data.features.map((e) => {
       let lat = e.properties.latitude.toString(); 
       let long = e.properties.longitude.toString();   
@@ -55,9 +55,12 @@ const LeafletCanvasMap = ({stateList,listUpdater}) => {
       let cityname = e.properties?.name?.toString().split(",")[0]
       layers[cityname] = L.geoJSON(e.geometry)
       // console.log(layers)
-      L.marker([e.properties.latitude, e.properties.longitude], {
-        icon: greenIcon,
-      })
+
+      if(givenLocations.includes(cityname)){
+
+        L.marker([e.properties.latitude, e.properties.longitude], {
+          icon: greenIcon,
+        })
         .addTo(map)
         .on("click", function (e) {
           let lat2 = e.latlng["lat"]
@@ -68,7 +71,8 @@ const LeafletCanvasMap = ({stateList,listUpdater}) => {
           map.addLayer(hashmap[name2][1])
           listUpdater(prevArr => [...prevArr,cityname])
         });
-
+        
+      }
 
   
     });

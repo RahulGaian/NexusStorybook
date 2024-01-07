@@ -22,7 +22,7 @@ const FullOppurtunity = () => {
         <section> <OpportunityCalc data={selectedStates} listUpdater={setSelectedStates} selectedApps={selectedApps} selectedAppsUpdate={setSelectedApps}></OpportunityCalc></section>
       {(selectedApps.length >0 && selectedStates.length >0 && count>=0 && count<4)  &&
 
-          <div className={style.inner}>
+          <div className={style.inner + " " + style.buttonss}>
              <button className={style.roundButton} onClick={()=>{  setCount(prev => prev+1) }}>Show Projections</button>
              <p> You can generate projections {3-count} times </p>
           </div>
@@ -33,11 +33,13 @@ const FullOppurtunity = () => {
 
         {
           count>=4 &&   
-          <div className={style.inner}>
+          <>
+          <div className={style.inner + " " + style.buttonss}>
           <button className={style.roundButton} onClick={()=>{  setCount(prev => prev+1) }}>Register</button>
           <p>Register to generate more projections </p>
 
              </div>
+          </>
 
         }
         
