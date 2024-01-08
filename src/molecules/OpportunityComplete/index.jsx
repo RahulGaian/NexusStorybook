@@ -6,10 +6,12 @@ import style from "./index.module.css"
 import { useState } from 'react'
 import Cookies from 'js-cookie';
 import { useEffect } from 'react'
+import AdditionCmp from '../AdditionCmp'
 const FullOppurtunity = () => {
     const [selectedStates,setSelectedStates] = useState([]);
     const [selectedApps,setSelectedApps] = useState([]);
     const initialCount = parseInt(Cookies.get('count')) || 0;
+    const [additionalData,setAdditionalData] = useState({})
     const [count,setCount] = useState(initialCount);
     // console.log(selectedApps,selectedStates)
     useEffect(() => {
@@ -28,7 +30,10 @@ const FullOppurtunity = () => {
           </div>
 }
         {(count> 0 && count < 4) &&
-        <section><Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count}></Projection></section>
+        <section>
+          <Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count} additionalDataSetter={setAdditionalData}></Projection>
+          <AdditionCmp fixed={additionalData[0]} metered={additionalData[1]} ad={additionalData[3] } subscription={additionalData[2]}></AdditionCmp>
+        </section>
         }
 
         {

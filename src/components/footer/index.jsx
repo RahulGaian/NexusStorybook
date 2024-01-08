@@ -63,6 +63,11 @@ const Footer = () => {
                   Smart Cities
                 </a>
               </li>
+              <li className={Style.listelements}>
+                <a className={Style.navlink} href="/solutions/Antara">
+                  Antara
+                </a>
+              </li>
               {/* <li className={Style.listelements}>
                   <a className={Style.navlink} href="/solutions/moScribe">HR Tech</a>
                 </li> */}
@@ -83,7 +88,7 @@ const Footer = () => {
               </li>
               <li className={Style.listelements}>
                 <a className={Style.navlink} href="/products/ImpressIO">
-                  DBaaS
+                  Impressio
                 </a>
               </li>
               <li className={Style.listelements}>

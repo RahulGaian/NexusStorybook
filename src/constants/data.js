@@ -379,9 +379,9 @@ const solutionData = [
         //url:"/marketplace/weather-insured", marketplace/weather-insured
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -687,9 +687,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -778,9 +778,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -869,9 +869,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -964,9 +964,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -980,7 +980,7 @@ const solutionData = [
     ],
   },
   {
-    id: "antara-solutions",
+    id: "Antara",
     banner: {
       heading: "Antara: A Journey to Inner Peace Experience True Happiness",
       description:
@@ -1055,9 +1055,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1149,9 +1149,103 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
+  },
+  {
+    id: "private-5G",
+    banner: {
+      heading:
+        "Next-Generation Connectivity: Unlocking Innovation with Private 5G Networks",
+      description:
+        "Private 5G MISS (Mobile Intelligent Solutions Suite) empowers organizations, such as IUT Corp, to revolutionize their connectivity infrastructure. By leveraging private 5G networks, businesses can enhance operational efficiency, enable real-time collaboration, and unlock new opportunities for innovation in industries like manufacturing.",
+      getStartedUrl: "",
+      imageUrl: images.P1,
+    },
+    problemStatement: {
+      heading:
+        "Bridging the Connectivity Gap: Empowering Industries with Private 5G Networks",
+      description:
+        "The problem lies in industries struggling to establish reliable and high-performance connectivity solutions. Existing network infrastructures often fail to meet the demands of advanced technologies, such as IoT, automation, and real-time data exchange.",
+      imageUrl: images.P2,
+      speakToExpertUrl: "",
+    },
+    capabilities: [
+      {
+        heading: "High-Speed, Low-Latency Connectivity",
+        description:
+          "Private 5G networks deliver exceptional connectivity, offering ultra-high speeds and minimal latency, enabling real-time communication, data transfer, and process optimization.",
+        imageUrl: images.P3,
+        url: "",
+      },
+      {
+        heading: "Secure and Reliable Communication",
+        description:
+          "Private 5G MISS ensures secure and reliable communication within the organization's ecosystem, safeguarding sensitive data and protecting against potential cyber threats.",
+        imageUrl: images.P4,
+        url: "",
+      },
+      {
+        heading: "Seamless IoT Integration",
+        description:
+          "With private 5G, organizations can effortlessly integrate and manage a vast array of IoT devices, enabling efficient data collection, analysis, and automation across various processes.",
+        imageUrl: images.P5,
+        url: "",
+      },
+      {
+        heading: "Advanced Automation and Robotics",
+        description:
+          "Private 5G networks enable advanced automation and robotics, facilitating the deployment of autonomous systems and enhancing productivity in industrial environments.",
+        imageUrl: images.P6,
+        url: "",
+      },
+      {
+        heading: "Edge Computing Capabilities",
+        description:
+          "Private 5G MISS supports edge computing, allowing organizations to process data closer to the source, reducing latency, improving response times, and enabling real-time decision-making.",
+        imageUrl: images.P7,
+        url: "",
+      },
+      {
+        heading: "Scalability and Flexibility",
+        description:
+          "Private 5G networks offer scalability and flexibility, allowing organizations to expand their connectivity infrastructure as their operations grow and adapt to evolving business needs.",
+        imageUrl: images.P8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Revolutionizing Connectivity: How Mobius Enabled IUT Corp to Establish a Private 5G Marketplace",
+      description:
+        "IUT Corp, a leading manufacturing company, faced the challenge of enhancing connectivity and driving innovation within their ecosystem. They recognized the need for advanced connectivity solutions, such as private 5G networks, to support their manufacturing processes, optimize operations, and enable real-time collaboration.",
+      downloadLink: "",
+      imageUrl: images.P9,
+    },
+    youMayAlsoLike: [
+      {
+        heading: "WeatherInsured",
+        description:
+          "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
+        imageUrl: images.next10,
+        url: "/marketplace/weather-insured",
+      },
+      {
+        heading: "Nexus Connect",
+        description:
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1240,9 +1334,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1331,9 +1425,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1424,9 +1518,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1517,9 +1611,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1610,9 +1704,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1703,9 +1797,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -1983,9 +2077,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -2076,9 +2170,9 @@ const solutionData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -2516,8 +2610,8 @@ const productsData = [
         "ImpressIO: Elevating Employee Engagement: Leveraging Mobius Low Code Tools",
       paragraph:
         "In today's fast-paced business environment, it is more important than ever to keep your workforce engaged and motivated. Engaged employees are more productive, innovative, and loyal to their organizations. To achieve this, companies need to recognize, reward, and highlight their employees' achievements, issues, and activities in real-time.",
-      // imageUrl: images.ImpressIOBanner,
-      imageUrl: images.DsaasBanner,
+      imageUrl: images.ImpressIOBanner,
+
       bookDemoUrl: "",
       viewDemoUrl: images2.db8,
     },
@@ -5400,9 +5494,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -5494,9 +5588,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -5587,9 +5681,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -5679,9 +5773,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -5771,9 +5865,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -5863,9 +5957,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -5956,9 +6050,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6048,9 +6142,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6140,9 +6234,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6233,9 +6327,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6325,9 +6419,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6419,9 +6513,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6511,9 +6605,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6605,9 +6699,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
@@ -6696,9 +6790,9 @@ const servicesData = [
         url: "/marketplace/weather-insured",
       },
       {
-        heading: "NextGenTV Marketplace",
+        heading: "Nexus Connect",
         description:
-          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+          "The Nexus Connect, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
         url: "/marketplace/NextGenTV",
       },
