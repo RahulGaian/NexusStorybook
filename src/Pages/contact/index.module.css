@@ -17,7 +17,6 @@
 
 * {
   font-family: "ITC" !important;
-
 }
 
 .MapMain {
@@ -36,23 +35,26 @@
   height: fit-content;
   padding-bottom: 40px;
   padding-left: 8%;
+  /* border: 2px solid red; */
 }
 #contacthead > h1 {
-  width: 50%;
-  color: #4C4C4C;
+  width: 70%;
+  color: #4c4c4c;
   font-family: ITC;
   font-size: 68px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: -2.04px;
+  /* letter-spacing: -2.04px; */
   height: fit-content;
   margin: 0;
+  text-align: left;
+  padding-bottom: 20px;
 }
 #contacthead > p {
   width: 50%;
   height: fit-content;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: ITC;
   font-size: 19px;
   font-style: normal;
@@ -79,6 +81,7 @@
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  padding-top: 30px;
 }
 .botconthead > div {
   width: 1700px;
@@ -123,7 +126,7 @@
 }
 .maplocationshead {
   /* border: 2px solid blue; */
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: ITC;
   font-size: 26px;
   font-style: normal;
@@ -173,7 +176,7 @@
   font-family: ITC;
 }
 .section2desc {
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: ITC;
   font-size: 16px;
   font-style: normal;
@@ -188,20 +191,20 @@
   color: #404040;
 }
 
-.horizontalLineMain{
+.horizontalLineMain {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.horizontalLine{
-  background: #B6B6B6;
+.horizontalLine {
+  background: #b6b6b6;
   height: 1px;
   width: 90%;
   text-align: center;
 }
 
-@media only screen and (max-width: 25600px) and (min-width: 1800px) {
+@media only screen and (max-width: 2560px) and (min-width: 1800px) {
   #contacthead {
     /* width: 1700px;
     height: fit-content;
@@ -227,7 +230,34 @@
   }
 }
 
+@media only screen and (max-width: 1800px) and (min-width: 1501px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 1420px;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+}
+/* @media only screen and (max-width: 1650px) and (min-width: 1501px) {
+  #contacthead {
+    padding-left: 5%;
+  }
+
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+} */
+
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 1200px;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+
   .topcont1 {
     padding-top: 60px;
   }
@@ -246,7 +276,22 @@
   }
 }
 
+@media only screen and (max-width: 1500px) and (min-width: 1440px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 95% !important;
+  }
+}
+
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 950px;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+
   .topcont1 {
     padding-top: 60px;
   }
@@ -276,6 +321,13 @@
 }
 
 @media screen and (max-width: 980px) and (min-width: 620px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
   .topcont1 {
     padding-top: 50px;
   }
@@ -321,6 +373,17 @@
 }
 
 @media screen and (max-width: 800px) and (min-width: 620px) {
+
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+  #contacthead > p {
+    width: 60%;
+  }
   #mapcont {
     /* border: 3px solid red !important; */
     width: 100%;
@@ -341,10 +404,19 @@
     /* padding-bottom: 10px; */
     padding-bottom: 1.5rem;
   }
-
 }
 
 @media screen and (max-width: 620px) and (min-width: 480px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+    padding-bottom: 20px;
+
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+
   .topcont1 {
     padding-top: 30px;
   }
@@ -368,6 +440,7 @@
   #contacthead > h1 {
     font-size: 1.6rem;
     white-space: nowrap;
+    line-height: 35px;
   }
 
   #contacthead > p {
@@ -424,6 +497,17 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+    padding-bottom: 20px;
+
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+  
   .topcont1 {
     padding-top: 20px;
   }
@@ -442,6 +526,7 @@
   #contacthead > h1 {
     font-size: 22px;
     white-space: nowrap;
+    line-height: 25px;
   }
 
   #contacthead > p {
@@ -497,5 +582,9 @@
     font-size: 8px;
     padding-left: 0px;
     line-height: 16px;
+  }
+
+  #contacthead > h2 {
+    margin-top: 6%;
   }
 }
