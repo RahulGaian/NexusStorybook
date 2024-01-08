@@ -6,7 +6,6 @@
 }
 
 .productContentBanner {
-  /* border: 5px solid green; */
   display: flex;
   justify-content: center;
   position: relative;
@@ -21,7 +20,7 @@
 
 .productContentBanner > img {
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 32px;
 }
 /* --------------- quick jump horizontal bar */
@@ -487,7 +486,7 @@
     margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
-  .benefitCard{
+  .benefitCard {
     min-height: 250px !important;
   }
 }
@@ -940,7 +939,6 @@
 }
 
 @media only screen and (max-width: 800px) and (min-width: 700px) {
-
   .productContentCardWrapper {
     width: 90% !important;
   }
@@ -1078,8 +1076,8 @@
 
 @media only screen and (max-width: 600px) and (min-width: 520px) {
   .productContentCard:nth-child(odd) {
-    flex-direction: column
-}
+    flex-direction: column;
+  }
 
   .productContentCardDesc {
     width: 25% !important;
@@ -1094,8 +1092,6 @@
 }
 
 @media only screen and (max-width: 620px) and (min-width: 520px) {
-
-
   .descBanner {
     flex-direction: column;
     max-height: fit-content;
@@ -1104,7 +1100,6 @@
 }
 
 @media only screen and (max-width: 620px) and (min-width: 520px) {
-
   .descBanner {
     flex-direction: column;
     max-height: fit-content;
@@ -1326,11 +1321,10 @@
 /* -------------for product and benefit container---------- */
 
 @media only screen and (max-width: 600px) and (min-width: 579px) {
-
   .productContentCardImage > img {
     width: 45%;
   }
-  
+
   .benefitsContainer-pro > h1 {
     padding-top: 2rem;
     /* text-align: center; */
@@ -1620,7 +1614,7 @@
     padding-bottom: 0.5rem;
   }
 
-  .productContentCardDesc > p { 
+  .productContentCardDesc > p {
     padding-top: 0.5rem;
     text-align: justify;
   }
