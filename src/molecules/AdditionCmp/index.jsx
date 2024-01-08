@@ -174,7 +174,7 @@ const AdditionCmp = ({
           <div className={style.title}>
             <h1>A business model with the right mix of CapEx and OpEx</h1>
           </div>
-
+    <br />
           <div className={style.mainContent}>
             <div className={style.item}>
               <p className={style.textStyling}>Fixed</p>

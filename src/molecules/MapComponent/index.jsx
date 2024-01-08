@@ -37,7 +37,7 @@ export function Map({setClick,clicked,interaction}) {
     // rect.emitEvent("mouseDown","Revee")
     // spline.emitEvent("mouseDown","Revee")
     myLoop();
-    interaction();
+    // interaction();
   }
 
   function getSplineRef(){
@@ -116,8 +116,8 @@ export function Map({setClick,clicked,interaction}) {
         // onMouseUp={onMouseDown}
         className={style.mapInternal}
         // scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
-        // scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
-        scene={"https://prod.spline.design/LHOm5YTAtcLdHjII/scene.splinecode"}
+        scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
+        // scene={"https://prod.spline.design/LHOm5YTAtcLdHjII/scene.splinecode"}
         />
         </Suspense>
     </div>

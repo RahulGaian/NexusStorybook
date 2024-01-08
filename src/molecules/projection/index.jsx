@@ -5490,7 +5490,7 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
         <div className={st.mainCont}>
           <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
           <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}> </span></div>
-          <div className={st.dataCont}><ChartComponent3 data={finalData}/><span id={st.chartLabel}>App Types</span></div>
+          <div className={st.dataCont}><ChartComponent5 data={finalData}/><span id={st.chartLabel}>App Types</span></div>
           <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Revenue</span></div>
         </div>
       </div>
