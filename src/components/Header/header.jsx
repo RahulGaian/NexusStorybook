@@ -973,12 +973,12 @@ function Header() {
                           },
                         },
                         {
-                          name: "iZAK",
+                          name: "iZak",
                           content: {
-                            heading: "iZAK",
+                            heading: "iZak",
                             description:
-                              "iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace. ",
-                            url: "/products/iZAK",
+                              "iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace. ",
+                            url: "/products/iZak",
                             coverImage: images.Navbar9,
                           },
                         },

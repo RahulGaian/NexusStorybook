@@ -58,13 +58,13 @@ const Footer = () => {
               <h5 className={Style.header}>Product</h5>
               <ul className={Style.cards1 + " md:mt-9"}>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/iZAK">iZak</a>
+                  <a className={Style.navlink} href="/products/iZak">iZak</a>
                 </li>
                 <li className={Style.listelements}>
                   <a className={Style.navlink} href="/products/live-news">Live news</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/ImpressIO">AntarDBaaSa</a>
+                  <a className={Style.navlink} href="/products/ImpressIO">DBaaS</a>
                 </li>
                 <li className={Style.listelements}>
                   <a className={Style.navlink} href="/products/C-Link">C-Link</a>
