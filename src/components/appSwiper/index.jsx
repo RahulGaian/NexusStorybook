@@ -184,9 +184,9 @@ let AppSwiper = ({ data }) => {
             <SwiperSlide className="swipercs">
               <SingleApp2
                 image={"/aidtaasImages/images/images/solutions/suh.png"}
-                heading={"iZAK"}
-                content={`iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.`}
-                Route={"/products/iZAK"}
+                heading={"iZak"}
+                content={`iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.`}
+                Route={"/products/iZak"}
               ></SingleApp2>
             </SwiperSlide>
 

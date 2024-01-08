@@ -413,7 +413,7 @@ const solutionData = [
       },
       {
         swpierHeading:"Suhaas",
-        swiperContent:"iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperContent:"iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
         swiperImage:"suh.png"
       },
       {
@@ -557,7 +557,7 @@ const solutionData = [
       },
       {
         swpierHeading:"Suhaas",
-        swiperContent:"iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZAK reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperContent:"iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
         swiperImage:"suh.png"
       },
       {
@@ -2448,11 +2448,11 @@ const productsData = [
     },
   },
   {
-    id: "iZAK",
+    id: "iZak",
     banner: {
-      heading: "iZAK: Software Updates and Home Automation as a Service",
+      heading: "iZak: Software Updates and Home Automation as a Service",
       paragraph:
-        "iZAK is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
+        "iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
       imageUrl: images2.shb,
       bookDemoUrl: "",
       viewDemoUrl: images2.sh7,
@@ -2461,19 +2461,19 @@ const productsData = [
       {
         heading: "Efficient Software Updates Delivery",
         paragraph:
-          "iZAK harnesses the power of PI-Pascal Intelligence to intelligently process and manage software update imageUrls for various CE devices from multiple manufacturers. By broadcasting these updates through the ATSC 3.0/NextGenTV spectrum, entire cities and communities can receive updates simultaneously, reducing costs and improving efficiency.",
+          "iZak harnesses the power of PI-Pascal Intelligence to intelligently process and manage software update imageUrls for various CE devices from multiple manufacturers. By broadcasting these updates through the ATSC 3.0/NextGenTV spectrum, entire cities and communities can receive updates simultaneously, reducing costs and improving efficiency.",
         imageUrl: images2.sh1,
       },
       {
         heading: "Seamless Consumer Experience",
         paragraph:
-          "BoB-BoltzmannBot's API automation and orchestration capabilities enable iZAK to deliver software updates to a dedicated gateway device within the home. This approach minimizes disruptions to consumers' services and ensures a smooth and hassle-free update experience across various CE devices.",
+          "BoB-BoltzmannBot's API automation and orchestration capabilities enable iZak to deliver software updates to a dedicated gateway device within the home. This approach minimizes disruptions to consumers' services and ensures a smooth and hassle-free update experience across various CE devices.",
         imageUrl: images2.sh2,
       },
       {
         heading: "Intuitive User Interface",
         paragraph:
-          "Monet-The Experience Builder empowers iZAK to create an engaging and user-friendly interface, allowing consumers to easily manage their devices' updates and home automation functions.",
+          "Monet-The Experience Builder empowers iZak to create an engaging and user-friendly interface, allowing consumers to easily manage their devices' updates and home automation functions.",
         imageUrl: images2.sh3,
       },
     ],

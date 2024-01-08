@@ -12,8 +12,42 @@ function aggregateDataForDMAsAndPlatforms(data, selectedDMAs, selectedPlatforms)
                     if (!aggregatedData[field]) {
                         aggregatedData[field] = 0;
                     }
-                    aggregatedData[field] += entry[field];
+                    let value = parseInt(entry[field])
+
+                    aggregatedData[field] += value;
                 }
+                if(field.startsWith("AD_")){
+                    if (!aggregatedData[field]) {
+                        aggregatedData["ad"] = 0;
+                    }
+                    let value = parseInt(entry[field])
+
+                    aggregatedData["ad"] += value;
+                }
+                if (field.startsWith("METERED_")){
+                    if (!aggregatedData[field]) {
+                        aggregatedData["metered"] = 0;
+                    }
+                    let value = parseInt(entry[field])
+
+                    aggregatedData["metered"] += value;
+                }
+                if (field.startsWith("FIXED_")){
+                    if (!aggregatedData[field]) {
+                        aggregatedData["fixed"] = 0;
+                    }
+                    let value = parseInt(entry[field])
+                    aggregatedData["fixed"] += value;
+                }
+                if (field.startsWith("Subcription_")){
+                    if (!aggregatedData[field]) {
+                        aggregatedData["subscription"] = 0;
+                    }
+                    let value = parseInt(entry[field])
+
+                    aggregatedData["subscription"] += value;
+                }
+
             }
         }
     });

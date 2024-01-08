@@ -51,6 +51,7 @@ const ChartComponent = ({ data }) => {
       const xAxisData = Array.from({ length: chartData.length }, (_, index) => `YEAR_${index + 1}`);
       
       return {
+  
         xAxis: {
           type: 'category',
           boundaryGap: false,
