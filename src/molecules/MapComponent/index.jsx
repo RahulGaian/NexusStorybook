@@ -29,10 +29,10 @@ export function Map({setClick,clicked,interaction}) {
       // setTimeout(location_finder, 4000);
    
     // console.log(arr)
-    spline.setZoom(30)
-    if(isMobile){
-      spline.setZoom(2)
-    }
+    // spline.setZoom(30)
+    // if(isMobile){
+    //   spline.setZoom(2)
+    // }
     // let rect = splineRef.findObjectByName("Revee");
     // rect.emitEvent("mouseDown","Revee")
     // spline.emitEvent("mouseDown","Revee")
@@ -116,8 +116,8 @@ export function Map({setClick,clicked,interaction}) {
         // onMouseUp={onMouseDown}
         className={style.mapInternal}
         // scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
-        scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
-        // scene={"https://prod.spline.design/LHOm5YTAtcLdHjII/scene.splinecode"}
+        // scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
+        scene={"https://prod.spline.design/LHOm5YTAtcLdHjII/scene.splinecode"}
         />
         </Suspense>
     </div>
