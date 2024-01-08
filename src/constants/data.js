@@ -2611,7 +2611,6 @@ const productsData = [
       paragraph:
         "In today's fast-paced business environment, it is more important than ever to keep your workforce engaged and motivated. Engaged employees are more productive, innovative, and loyal to their organizations. To achieve this, companies need to recognize, reward, and highlight their employees' achievements, issues, and activities in real-time.",
       imageUrl: images.ImpressIOBanner,
-
       bookDemoUrl: "",
       viewDemoUrl: images2.db8,
     },
@@ -2626,7 +2625,7 @@ const productsData = [
         heading: "Effortless Maintenance Management",
         paragraph:
           "ImpressIO automates routine maintenance tasks such as software updates, patches, and system optimizations. By automating these processes, organizations can minimize downtime, ensure high availability, and focus their resources on core business activities rather than infrastructure management.",
-        imageUrl: images.ImpressIOBenefits2,
+        imageUrl: images.ImpressIOFeature2,
       },
       {
         heading: "Optimized Database Performance",
