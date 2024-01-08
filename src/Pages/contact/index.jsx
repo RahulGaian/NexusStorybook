@@ -65,6 +65,10 @@ let Contact = () => {
               </div>
             </div>
 
+            <section className={Style.horizontalLineMain}>
+              <div className={Style.horizontalLine}></div>
+            </section>
+
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
                 <Img src={"/aidtaasImages/images/images/contact/location pin.png"} />
@@ -88,6 +92,11 @@ let Contact = () => {
                 </div>
               </div>
             </div>
+
+            <section className={Style.horizontalLineMain}>
+              <div className={Style.horizontalLine}></div>
+            </section>
+
 
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
