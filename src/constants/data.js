@@ -1,5 +1,5 @@
 import images from "./images";
-import images2 from "./images2"
+import images2 from "./images2";
 const platformData = [
   {
     id: "pascal-intelligence",
@@ -54,11 +54,11 @@ const platformData = [
         imageUrl: images.Competitve,
       },
     ],
-    SeeAlso:{
-      name:"Monet",
-      desc:"Monét  is the low-code app development tool that empowers you to create stunning digital experiences. With Monét's experience modeling capabilities, you can build custom user journeys that connect with your audience and drive business growth",
-      link:"monet"
-    }
+    SeeAlso: {
+      name: "Monet",
+      desc: "Monét  is the low-code app development tool that empowers you to create stunning digital experiences. With Monét's experience modeling capabilities, you can build custom user journeys that connect with your audience and drive business growth",
+      link: "monet",
+    },
   },
   {
     id: "boltzman-bot",
@@ -112,11 +112,11 @@ const platformData = [
         imageUrl: images.CostEfficency,
       },
     ],
-    SeeAlso:{
-      name:"Pascal-Intelligence",
-      desc:"PI is designed to offer a comprehensive set of tools for achieving end-to-end data visibility for your enterprise. Starting with Data Lake build and manage tools, PI also provides analytics tools to derive insights and map those insights to actionable serving layer engagements. With our low-code approach, you can easily visualise, group, contextualise, and target your data sets, and make data-driven decisions that drive your business forward",
-      link:"pascal-intelligence"
-    }
+    SeeAlso: {
+      name: "Pascal-Intelligence",
+      desc: "PI is designed to offer a comprehensive set of tools for achieving end-to-end data visibility for your enterprise. Starting with Data Lake build and manage tools, PI also provides analytics tools to derive insights and map those insights to actionable serving layer engagements. With our low-code approach, you can easily visualise, group, contextualise, and target your data sets, and make data-driven decisions that drive your business forward",
+      link: "pascal-intelligence",
+    },
   },
   {
     id: "monet",
@@ -169,12 +169,11 @@ const platformData = [
         imageUrl: images.Flexibility,
       },
     ],
-    SeeAlso:{
-      name:"Boltzman Bot",
-      desc:" With BoB, you can create automated workflows within your organization or invite partners, vendors, and customers to collaborate on inter-organization workflows. This feature makes it easy to streamline business processes across multiple organizations, reducing manual effort and improving communication.",
-      link:"boltzman-bot"
-    }
-  
+    SeeAlso: {
+      name: "Boltzman Bot",
+      desc: " With BoB, you can create automated workflows within your organization or invite partners, vendors, and customers to collaborate on inter-organization workflows. This feature makes it easy to streamline business processes across multiple organizations, reducing manual effort and improving communication.",
+      link: "boltzman-bot",
+    },
   },
   {
     id: "vinci",
@@ -228,11 +227,11 @@ const platformData = [
         imageUrl: images.RealTimeInsights,
       },
     ],
-    SeeAlso:{
-      name:"Holacracy",
-      desc:"Introducing Holacracy, our innovative low-code multi-tenant SaaS platform that offers a collaborative marketplace as a service to enable enterprises to stay ahead of the digital curve. Our platform is designed for organizations that want to leverage the power of partnership to drive innovation and transform their businesses.",
-      link:"holacracy"
-    }
+    SeeAlso: {
+      name: "Holacracy",
+      desc: "Introducing Holacracy, our innovative low-code multi-tenant SaaS platform that offers a collaborative marketplace as a service to enable enterprises to stay ahead of the digital curve. Our platform is designed for organizations that want to leverage the power of partnership to drive innovation and transform their businesses.",
+      link: "holacracy",
+    },
   },
   {
     id: "holacracy",
@@ -286,12 +285,12 @@ const platformData = [
         imageUrl: images.CollabInnovation,
       },
     ],
-    SeeAlso:{
-      name:"Vinci",
-      desc:"Vinci is a cloud-native multi-tenant SaaS tool that provides omnichannel engagement as a service, much like a CPaaS. It leverages Metcalfe's law by enabling users to build and manage their own networks for maximum impact. Vinci offers content synthesis, support for all social media platforms, context-aware engagements, feedback loops, and real-time measurements to optimize the user's marketing strategies",
-      link:"vinci"
-    }
-  }
+    SeeAlso: {
+      name: "Vinci",
+      desc: "Vinci is a cloud-native multi-tenant SaaS tool that provides omnichannel engagement as a service, much like a CPaaS. It leverages Metcalfe's law by enabling users to build and manage their own networks for maximum impact. Vinci offers content synthesis, support for all social media platforms, context-aware engagements, feedback loops, and real-time measurements to optimize the user's marketing strategies",
+      link: "vinci",
+    },
+  },
 ];
 
 const solutionData = [
@@ -318,7 +317,7 @@ const solutionData = [
           // "Allow cities to create and deploy smart city applications quickly and easily",
           "The low-code capabilities of the Mobius SaaS tools make it easy to create and deploy highly-scalable Smart City Applications quickly and easily.",
         imageUrl: images.sm3,
-        url:"",
+        url: "",
       },
       {
         heading: "Digital Marketplace",
@@ -326,7 +325,7 @@ const solutionData = [
           // "Access a variety of digital raw materials and collaborate with different partners",
           "Gain access to our cutting-edge, multi- tenant SaaS platform Holacracy which provides businesses with raw materials necessary for Digital Transformation.",
         imageUrl: images.sm4,
-        url:"",
+        url: "",
       },
       {
         heading: "Metered usage and Pricing",
@@ -334,7 +333,7 @@ const solutionData = [
           // "Enable micro-transactions and metered SaaS pricing, allowing cities to exchange value with other tenants",
           "ability to enable micro-transactions and metered SaaS pricing, allowing cities to exchange value with other key  stakeholders in their growth and transformation.",
         imageUrl: images.sm5,
-        url:"",
+        url: "",
       },
       {
         heading: "Built-in Analytics & Reporting",
@@ -342,7 +341,7 @@ const solutionData = [
           // "Enable cities to measure and analyze the effectiveness of their smart city applications through data-driven decisions",
           "Leverage the power of AI-powered analytics and monitoring tools to measure and analyze the effectiveness of Smart City Applications. Unlock the full potential of powerful insights and predictive analytics to implement data-driven decision making.",
         imageUrl: images.sm6,
-        url:"",
+        url: "",
       },
       {
         heading: "Powerful API Automation",
@@ -350,7 +349,7 @@ const solutionData = [
           // "Create streamlined workflows through API orchestration and automation",
           "With the help of BoB, our cutting edge API automation and business process orchestration SaaS tool create streamlined and automated workflows",
         imageUrl: images.sm7,
-        url:"",
+        url: "",
       },
       {
         heading: "Omnichannel Engagement",
@@ -358,7 +357,7 @@ const solutionData = [
           // "Deliver real-time citizen delights over any platform seamlessly",
           "Utilize Vinci's omnichannel engagement features to deliver personalized and timely messages to customers. Create interactive chatbots, email campaigns, and social media engagement strategies.",
         imageUrl: images.sm8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -375,78 +374,87 @@ const solutionData = [
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
 
         //url:"/marketplace/weather-insured", marketplace/weather-insured
-        
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-    swiperData:[
+    swiperData: [
       {
-         swpierHeading:"C-Link",
-         swiperContent:"C-Link citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
-         swiperImage:"1.png"
+        swpierHeading: "C-Link",
+        swiperContent:
+          "C-Link citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
+        swiperImage: "1.png",
       },
       {
-        swpierHeading:"Around",
-        swiperContent:"A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Around enriches the user experience by offering dynamic and visually appealing map features.",
-        swiperImage:"2.png"
+        swpierHeading: "Around",
+        swiperContent:
+          "A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Around enriches the user experience by offering dynamic and visually appealing map features.",
+        swiperImage: "2.png",
       },
       {
-        swpierHeading:"First Responder",
-        swiperContent:"Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
-        swiperImage:"3.png"
+        swpierHeading: "First Responder",
+        swiperContent:
+          "Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
+        swiperImage: "3.png",
       },
       {
-        swpierHeading:"Suhaas",
-        swiperContent:"iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
-        swiperImage:"suh.png"
+        swpierHeading: "Suhaas",
+        swiperContent:
+          "iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperImage: "suh.png",
       },
       {
-        swpierHeading:"Digital Signage",
-        swiperContent:"Digital Signage, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
-        swiperImage:"dig.png"
+        swpierHeading: "Digital Signage",
+        swiperContent:
+          "Digital Signage, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
+        swiperImage: "dig.png",
       },
       {
-        swpierHeading:"Live News",
-        swiperContent:"The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.",
-        swiperImage:""
+        swpierHeading: "Live News",
+        swiperContent:
+          "The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.",
+        swiperImage: "",
       },
       {
-        swpierHeading:"Live Traffic",
-        swiperContent:"Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. ",
-        swiperImage:"2.png"
+        swpierHeading: "Live Traffic",
+        swiperContent:
+          "Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. ",
+        swiperImage: "2.png",
       },
       {
-        swpierHeading:"AmplyFund",
-        swiperContent:"Simplify and optimize fundraising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.",
-        swiperImage:""
+        swpierHeading: "AmplyFund",
+        swiperContent:
+          "Simplify and optimize fundraising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.",
+        swiperImage: "",
       },
       {
-        swpierHeading:"ZoomBot Pro",
-        swiperContent:"ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
-        swiperImage:""
+        swpierHeading: "ZoomBot Pro",
+        swiperContent:
+          "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
+        swiperImage: "",
       },
       {
-        swpierHeading:"Hear. Here.",
-        swiperContent:"Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
-        swiperImage:""
+        swpierHeading: "Hear. Here.",
+        swiperContent:
+          "Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
+        swiperImage: "",
       },
-    ]
+    ],
   },
   {
     id: "Nexus-Connect",
@@ -469,43 +477,43 @@ const solutionData = [
         heading: "Immersive Interactive Experiences",
         description:
           "Enable viewers to engage with content through interactive elements, personalized recommendations, and enhanced user interfaces.",
-          imageUrl: images.next3,
-          url:"",
+        imageUrl: images.next3,
+        url: "",
       },
       {
         heading: "Targeted Advertising Solutions",
         description:
           "Empower advertisers to reach their target audience with precision, leveraging data-driven insights and advanced ad targeting capabilities.",
-          imageUrl: images.next4,
-          url:"",
+        imageUrl: images.next4,
+        url: "",
       },
       {
         heading: "Content Creation and Management",
         description:
           "Streamline content creation and management processes, enabling content creators to deliver compelling and engaging experiences.",
-          imageUrl: images.next5,
-          url:"",
+        imageUrl: images.next5,
+        url: "",
       },
       {
         heading: "Improved user engagement ",
         description:
           "Foster deeper viewer engagement through gamification, social integration, and real-time interactive features.",
-          imageUrl: images.next6,
-          url:"",
+        imageUrl: images.next6,
+        url: "",
       },
       {
         heading: "Seamless Cross-Platform Integration",
         description:
           "Ensure a consistent and seamless experience across various devices and platforms, allowing viewers to access content anytime, anywhere.",
-          imageUrl: images.next7,
-          url:"",
+        imageUrl: images.next7,
+        url: "",
       },
       {
         heading: "Analytics and Insights",
         description:
           "Provide robust analytics and insights into viewer behavior, content performance, and advertising effectiveness, enabling data-driven decision-making for content creators and advertisers.",
-          imageUrl: images.next8,
-          url:"",
+        imageUrl: images.next8,
+        url: "",
       },
     ],
     caseStudy: {
@@ -521,76 +529,85 @@ const solutionData = [
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "Nexus Connect",
         description:
           "The Nexus Connect,fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-      
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-    swiperData:[
+    swiperData: [
       {
-         swpierHeading:"C-Link",
-         swiperContent:"C-Link citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
-         swiperImage:"1.png"
+        swpierHeading: "C-Link",
+        swiperContent:
+          "C-Link citizen engagement app is a mobile application that allows citizens to report non-emergency issues to their local government and receive updates on the status of their requests.",
+        swiperImage: "1.png",
       },
       {
-        swpierHeading:"Around",
-        swiperContent:"A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Around enriches the user experience by offering dynamic and visually appealing map features.",
-        swiperImage:"2.png"
+        swpierHeading: "Around",
+        swiperContent:
+          "A Mobius Intelligent Application that leverages NextGenTV capabilities to provide real-time interactive maps with location-based information, including points of interest, directions, and local events. Around enriches the user experience by offering dynamic and visually appealing map features.",
+        swiperImage: "2.png",
       },
       {
-        swpierHeading:"First Responder",
-        swiperContent:"Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
-        swiperImage:"3.png"
+        swpierHeading: "First Responder",
+        swiperContent:
+          "Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
+        swiperImage: "3.png",
       },
       {
-        swpierHeading:"Suhaas",
-        swiperContent:"iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
-        swiperImage:"suh.png"
+        swpierHeading: "Suhaas",
+        swiperContent:
+          "iZak is a groundbreaking SaaS application built on the Nexus Connect Low Code Platform, utilizing its five powerful tools. iZak reimagines the way software updates and home automation are delivered to consumer electronic (CE) devices, leveraging the ATSC 3.0/NextGenTV spectrum for efficient and seamless updates.",
+        swiperImage: "suh.png",
       },
       {
-        swpierHeading:"Digital Signage",
-        swiperContent:"Digital Signage, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
-        swiperImage:"dig.png"
+        swpierHeading: "Digital Signage",
+        swiperContent:
+          "Digital Signage, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
+        swiperImage: "dig.png",
       },
       {
-        swpierHeading:"Live News",
-        swiperContent:"The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.",
-        swiperImage:""
+        swpierHeading: "Live News",
+        swiperContent:
+          "The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.",
+        swiperImage: "",
       },
       {
-        swpierHeading:"Live Traffic",
-        swiperContent:"Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. ",
-        swiperImage:"2.png"
+        swpierHeading: "Live Traffic",
+        swiperContent:
+          "Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. ",
+        swiperImage: "2.png",
       },
       {
-        swpierHeading:"AmplyFund",
-        swiperContent:"Simplify and optimize fundraising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.",
-        swiperImage:""
+        swpierHeading: "AmplyFund",
+        swiperContent:
+          "Simplify and optimize fundraising campaigns with our Fund Raising MIA, enabling organizations to raise funds efficiently and effectively.",
+        swiperImage: "",
       },
       {
-        swpierHeading:"ZoomBot Pro",
-        swiperContent:"ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
-        swiperImage:""
+        swpierHeading: "ZoomBot Pro",
+        swiperContent:
+          "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
+        swiperImage: "",
       },
       {
-        swpierHeading:"Hear. Here.",
-        swiperContent:"Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
-        swiperImage:""
+        swpierHeading: "Hear. Here.",
+        swiperContent:
+          "Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
+        swiperImage: "",
       },
-    ]
+    ],
   },
   {
     id: "runrun",
@@ -615,42 +632,42 @@ const solutionData = [
         description:
           "Run-Run incorporates AI-powered analytics and monitoring tools to provide real-time visibility into the performance and health of IT infrastructure.",
         imageUrl: images.run3,
-        url:"",
+        url: "",
       },
       {
         heading: "Continuous Integration and Delivery ",
         description:
           "Run-Run ensures seamless integration, testing, and delivery of software, enabling faster time-to-market, reducing errors, and enhancing software quality.",
         imageUrl: images.run9,
-        url:"",
+        url: "",
       },
       {
         heading: "Scalable Infrastructure Management",
         description:
           "With Run-Run, organizations can easily manage and scale their IT infrastructure through automated provisioning, configuration, and monitoring.",
         imageUrl: images.run7,
-        url:"",
+        url: "",
       },
       {
         heading: "Collaboration and Communication Tools",
         description:
           "Run-Run offers integrated collaboration and communication tools that foster seamless cooperation among development, operations, and other stakeholders.",
         imageUrl: images.run1,
-        url:"",
+        url: "",
       },
       {
         heading: "Security and Compliance Automation",
         description:
           "Run-Run ensures adherence to industry standards, regulatory requirements, and best practices, minimizing security risks and ensuring compliance throughout the software delivery lifecycle.",
         imageUrl: images.run8,
-        url:"",
+        url: "",
       },
       {
         heading: "Performance Optimization and Monitoring",
         description:
           "Run-Run empowers organizations to optimize application performance and enhance end-user experience through comprehensive performance monitoring and optimization capabilities.",
         imageUrl: images.run9,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -662,28 +679,28 @@ const solutionData = [
       imageUrl: images.run6,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "moScribe",
@@ -707,42 +724,42 @@ const solutionData = [
         description:
           "Utilize Pascal Intelligence (PI) to ingest ledger and sales CRM data, gaining actionable insights into subscription metrics, revenue analysis, and customer behavior.",
         imageUrl: images.moscribe2,
-        url:"",
+        url: "",
       },
       {
         heading: "Comprehensive Subscription Management",
         description:
           "MoScribe combines three MIAs to offer end-to-end subscription management capabilities, from analytics to onboarding, billing, and engagement.",
         imageUrl: images.moscribe3,
-        url:"",
+        url: "",
       },
       {
         heading: "Dynamic Rate Card Management",
         description:
           "Holacracy enables the creation of flexible and customizable rate cards to accommodate various pricing models and promotional offers.",
         imageUrl: images.moscribe4,
-        url:"",
+        url: "",
       },
       {
         heading: "Invoicing and Usage Transparency",
         description:
           "Monet facilitates automated invoice generation and provides interactive usage dashboards for customers to monitor their subscriptions",
         imageUrl: images.moscribe5,
-        url:"",
+        url: "",
       },
       {
         heading: "Customer Onboarding and Billing Management",
         description:
           "Utilize BoltzmannBot (BoB) to manage customer onboarding and offboarding journeys seamlessly. Automate billing workflows, including subscription activation, payment processing, and invoice generation.",
         imageUrl: images.moscribe6,
-        url:"",
+        url: "",
       },
       {
         heading: "Enhanced Engagement and Communication",
         description:
           "Vinci enables personalized and omni-channel engagements, improving customer satisfaction and loyalty.",
         imageUrl: images.moscribe7,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -753,120 +770,118 @@ const solutionData = [
       imageUrl: images.moscribe8,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "marketing-automation-as-a-service",
-        banner: {
-        heading:
-        "Marketing Automation as a Service (MAaaS)",
-            description:
+    banner: {
+      heading: "Marketing Automation as a Service (MAaaS)",
+      description:
         "Marketing Automation as a Service (MAaaS) powered by DTaaS is a comprehensive solution that enables organizations to streamline and optimize their marketing processes. MAaaS combines several Mobius Intelligent Applications (MIAs), each designed to address specific Marketing Automation functions.",
-            getStartedUrl: "",
-                imageUrl: images.Maas1,
+      getStartedUrl: "",
+      imageUrl: images.Maas1,
     },
     problemStatement: {
-        heading: "Transforming Marketing Automation",
-            description:
+      heading: "Transforming Marketing Automation",
+      description:
         "In the era of digital marketing, businesses struggle to achieve the perfect balance between efficient automation and personalized customer experiences. The problem lies in finding a comprehensive Marketing Automation solution that combines efficiency, scalability, and customization to deliver targeted and engaging marketing campaigns",
-            imageUrl: images.Maas2,
-                speakToExpertUrl: "",
+      imageUrl: images.Maas2,
+      speakToExpertUrl: "",
     },
     capabilities: [
-        {
-            heading: "Lead Generation and Management",
-            description:
-                "Utilize Pascal Intelligence (PI) to analyze customer behavior and identify potential leads. Leverage marketing analytics to target the right audience and capture qualified leads.",
-            imageUrl: images.Maas3,
-            url:"",
-        },
-        {
-            heading: "Campaign Management",
-            description:
-                "Utilize BoltzmannBot (BoB) to automate and streamline end-to-end campaign management workflows. Create personalized and targeted campaigns across multiple channels, such as email, social media, and SMS.",
-            imageUrl: images.Maas4,
-            url:"",
-        },
-        {
-            heading: "Customer Journey Mapping",
-            description:
-                "Utilize Monet's low-code app development capabilities to create customer journey maps and automation workflows.Define customer touchpoints, interactions, and triggers to guide prospects through the sales funnel.",
-            imageUrl: images.Maas5,
-            url:"",
-        },
-        {
-            heading: "Customer Engagement and Retention",
-            description:
-                "Utilize Vinci's omnichannel engagement features to deliver personalized and timely messages to customers. Create interactive chatbots, email campaigns, and social media engagement strategies.",
-            imageUrl: images.Maas6,
-            url:"",
-        },
-        {
-            heading: "Analytics and Reporting",
-            description:
-                "Utilize Pascal Intelligence (PI) to analyze marketing performance, campaign effectiveness, and ROI. Leverage advanced analytics and data visualization components to gain actionable insights.",
-            imageUrl: images.Maas7,
-            url:"",
-        },
-        {
-            heading: "Scalability and Customization",
-            description:
-                "Adapt to growing marketing needs, customize MIAs to align with specific business requirements, and leverage the low-code capabilities of Mobius tools for faster deployment and maintenance.",
-            imageUrl: images.Maas8,
-            url:"",
-        },
+      {
+        heading: "Lead Generation and Management",
+        description:
+          "Utilize Pascal Intelligence (PI) to analyze customer behavior and identify potential leads. Leverage marketing analytics to target the right audience and capture qualified leads.",
+        imageUrl: images.Maas3,
+        url: "",
+      },
+      {
+        heading: "Campaign Management",
+        description:
+          "Utilize BoltzmannBot (BoB) to automate and streamline end-to-end campaign management workflows. Create personalized and targeted campaigns across multiple channels, such as email, social media, and SMS.",
+        imageUrl: images.Maas4,
+        url: "",
+      },
+      {
+        heading: "Customer Journey Mapping",
+        description:
+          "Utilize Monet's low-code app development capabilities to create customer journey maps and automation workflows.Define customer touchpoints, interactions, and triggers to guide prospects through the sales funnel.",
+        imageUrl: images.Maas5,
+        url: "",
+      },
+      {
+        heading: "Customer Engagement and Retention",
+        description:
+          "Utilize Vinci's omnichannel engagement features to deliver personalized and timely messages to customers. Create interactive chatbots, email campaigns, and social media engagement strategies.",
+        imageUrl: images.Maas6,
+        url: "",
+      },
+      {
+        heading: "Analytics and Reporting",
+        description:
+          "Utilize Pascal Intelligence (PI) to analyze marketing performance, campaign effectiveness, and ROI. Leverage advanced analytics and data visualization components to gain actionable insights.",
+        imageUrl: images.Maas7,
+        url: "",
+      },
+      {
+        heading: "Scalability and Customization",
+        description:
+          "Adapt to growing marketing needs, customize MIAs to align with specific business requirements, and leverage the low-code capabilities of Mobius tools for faster deployment and maintenance.",
+        imageUrl: images.Maas8,
+        url: "",
+      },
     ],
-        caseStudy: {
-        heading:
-        "Unleashing Marketing Automation Success",
-            description:
+    caseStudy: {
+      heading: "Unleashing Marketing Automation Success",
+      description:
         "With the implementation of MAaaS powered by Nexus Connect, IUP Corp successfully transformed their Marketing Automation capabilities. By streamlining lead generation and management, automating campaign execution, enhancing customer journey mapping, driving customer engagement, and leveraging advanced analytics, IUP Corp achieved remarkable results.",
-            downloadLink: "",
-                imageUrl: images.Maas9,
+      downloadLink: "",
+      imageUrl: images.Maas9,
     },
     youMayAlsoLike: [
-        {
-            heading: "WeatherInsured",
-            description:
-                "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
-            imageUrl: images.next10,
-            url:"/marketplace/weather-insured",
-        },
-        {
-            heading: "NextGenTV Marketplace",
-            description:
-                "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-            imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-            heading: "Smart city",
-            description:
-                "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-            imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
+      {
+        heading: "WeatherInsured",
+        description:
+          "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
+        imageUrl: images.next10,
+        url: "/marketplace/weather-insured",
+      },
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
     ],
   },
   {
@@ -880,7 +895,8 @@ const solutionData = [
       imageUrl: images.DGaas1,
     },
     problemStatement: {
-      heading: "Bridging the Gap: Addressing Inadequate Data Governance Practices",
+      heading:
+        "Bridging the Gap: Addressing Inadequate Data Governance Practices",
       description:
         "Inadequate data governance practices within organizations lead to poor data quality, inconsistent processes, security risks, and limited insights. To overcome this, organizations must establish an efficient data governance framework that enables them to fully utilize their data while ensuring integrity, compliance, and value extraction.",
       imageUrl: images.DGaas2,
@@ -892,42 +908,42 @@ const solutionData = [
         description:
           "DGaaS covers all aspects of data governance, including data quality, master data management, data modeling, storage, security, metadata management, and business intelligence.",
         imageUrl: images.DGaas3,
-        url:"",
+        url: "",
       },
       {
         heading: "Low-Code Development",
         description:
           "Leverage the low-code capabilities of the Mobius SaaS tools to develop and customize Mobius Intelligent Apps, reducing development time and costs.",
         imageUrl: images.DGaas4,
-        url:"",
+        url: "",
       },
       {
         heading: "Scalable and Agile",
         description:
           "Nexus Connect allows for scalability and adaptability for evolving data governance needs, ensuring long-term success.",
         imageUrl: images.DGaas5,
-        url:"",
+        url: "",
       },
       {
         heading: "Enhanced Data Integrity and Compliance",
         description:
           "Implement robust data quality controls, master data management, and security measures to maintain data integrity and comply with regulations.",
         imageUrl: images.DGaas6,
-        url:"",
+        url: "",
       },
       {
         heading: "Empowered Decision-Making",
         description:
           "Leverage the power of data analytics, metadata tracking, and business intelligence to drive data-driven decision-making and gain valuable insights.",
         imageUrl: images.DGaas7,
-        url:"",
+        url: "",
       },
       {
         heading: "Master Data Management",
         description:
           "With Master Data Nexus and BoltzmannBot, DGaaS automates master data management processes, creating a single source of truth and ensuring consistency across systems and business units.",
         imageUrl: images.DGaas8,
-        url:"/platform/boltzman-bot",
+        url: "/platform/boltzman-bot",
       },
     ],
     caseStudy: {
@@ -940,34 +956,33 @@ const solutionData = [
       imageUrl: images.DGaas9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "antara-solutions",
     banner: {
-      heading:
-        "Antara: A Journey to Inner Peace Experience True Happiness",
+      heading: "Antara: A Journey to Inner Peace Experience True Happiness",
       description:
         "Antara is a platform that empowers you to unlock the power of your inner spirit towards true happiness. With a focus on the human spirit, Antara leverages advanced human-computer interaction and multimodal interfaces to provide a highly personalized and engaging user experience.",
       getStartedUrl: "",
@@ -986,1102 +1001,1096 @@ const solutionData = [
         description:
           "Antara's L2 language model is trained in ancient schools of wisdom, enabling meaningful conversations with users.",
         imageUrl: images.A3,
-        url:"",
+        url: "",
       },
       {
         heading: "Multimodal Interface and Visualizations",
         description:
           "Antara utilizes advanced human-computer interaction and multimodal interfaces to provide an immersive user experience",
         imageUrl: images.A4,
-        url:"",
+        url: "",
       },
       {
         heading: "Integration of Vedanta",
         description:
           "Vedanta offers users a comprehensive understanding of the nature of reality and the purpose of existence, providing a holistic approach to spiritual well-being.",
         imageUrl: images.A5,
-        url:"",
+        url: "",
       },
       {
         heading: "Ancient Wisdom for Modern Seekers",
         description:
           "Antara draws from ancient schools of wisdom, such as Buddhism, Vedas, Vedanta, and more, providing users with diverse perspectives on spiritual well-being.",
         imageUrl: images.A6,
-        url:"",
+        url: "",
       },
       {
         heading: "Personalized Guidance and Support",
         description:
           "Leveraging AI models and natural language processing, Antara understands and responds to user interactions, offering tailored guidance and support.",
         imageUrl: images.A7,
-        url:"",
+        url: "",
       },
       {
         heading: "Holistic User Experience",
         description:
           "Antara's low-code app development tool, Monet, combines visualizations in the form of art, music, and videos to create a captivating and immersive user experience.",
         imageUrl: images.A8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Unleashing the Power of the Human Spirit",
+      heading: "Unleashing the Power of the Human Spirit",
       description:
         "Antara engages with users as if they were spirits, tapping into Eastern philosophies of happiness, bliss, and well-being. By combining ancient wisdom with AI technology, Antara offers personalized guidance, conversations, and visualizations to elevate the human spirit's happiness index.",
       downloadLink: "",
       imageUrl: images.A9,
     },
     youMayAlsoLike: [
-        {
-        heading: "WeatherInsured",
-        description:
-          "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
-        imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
-      },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
-},
-{
-  id: "private-5G",
-  banner: {
-    heading:
-      "Next-Generation Connectivity: Unlocking Innovation with Private 5G Networks",
-    description:
-      "Private 5G MISS (Mobile Intelligent Solutions Suite) empowers organizations, such as IUT Corp, to revolutionize their connectivity infrastructure. By leveraging private 5G networks, businesses can enhance operational efficiency, enable real-time collaboration, and unlock new opportunities for innovation in industries like manufacturing.",
-    getStartedUrl: "",
-    imageUrl: images.P1,
-  },
-  problemStatement: {
-    heading: "Bridging the Connectivity Gap: Empowering Industries with Private 5G Networks",
-    description:
-      "The problem lies in industries struggling to establish reliable and high-performance connectivity solutions. Existing network infrastructures often fail to meet the demands of advanced technologies, such as IoT, automation, and real-time data exchange.",
-    imageUrl: images.P2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "High-Speed, Low-Latency Connectivity",
-      description:
-        "Private 5G networks deliver exceptional connectivity, offering ultra-high speeds and minimal latency, enabling real-time communication, data transfer, and process optimization.",
-      imageUrl: images.P3,
-      url:"",
-    },
-    {
-      heading: "Secure and Reliable Communication",
-      description:
-        "Private 5G MISS ensures secure and reliable communication within the organization's ecosystem, safeguarding sensitive data and protecting against potential cyber threats.",
-      imageUrl: images.P4,
-      url:"",
-    },
-    {
-      heading: "Seamless IoT Integration",
-      description:
-        "With private 5G, organizations can effortlessly integrate and manage a vast array of IoT devices, enabling efficient data collection, analysis, and automation across various processes.",
-      imageUrl: images.P5,
-      url:"",
-    },
-    {
-      heading: "Advanced Automation and Robotics",
-      description:
-        "Private 5G networks enable advanced automation and robotics, facilitating the deployment of autonomous systems and enhancing productivity in industrial environments.",
-      imageUrl: images.P6,
-      url:"",
-    },
-    {
-      heading: "Edge Computing Capabilities",
-      description:
-        "Private 5G MISS supports edge computing, allowing organizations to process data closer to the source, reducing latency, improving response times, and enabling real-time decision-making.",
-      imageUrl: images.P7,
-      url:"",
-    },
-    {
-      heading: "Scalability and Flexibility",
-      description:
-        "Private 5G networks offer scalability and flexibility, allowing organizations to expand their connectivity infrastructure as their operations grow and adapt to evolving business needs.",
-      imageUrl: images.P8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Revolutionizing Connectivity: How Mobius Enabled IUT Corp to Establish a Private 5G Marketplace",
-    description:
-      "IUT Corp, a leading manufacturing company, faced the challenge of enhancing connectivity and driving innovation within their ecosystem. They recognized the need for advanced connectivity solutions, such as private 5G networks, to support their manufacturing processes, optimize operations, and enable real-time collaboration.",
-    downloadLink: "",
-    imageUrl: images.P9,
-  },
-  youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "nightingale",
-  banner: {
-    heading:
-      "The Employee Experience Maestro",
-    description:
-      "Nightingale's all-in-one HR solution utilizes advanced technology and smart features to optimize HR processes, enabling organizations to effectively manage their workforce and unlock the full potential of their talent.",
-    getStartedUrl: "",
-    imageUrl: images.N1,
   },
-  problemStatement: {
-    heading: "Revitalizing Fragmented HR Workflows",
-    description:
-      "Revitalizing Fragmented HR Workflows: Many organizations struggle with disjointed HR processes and lack a unified platform to manage their talent effectively. Nightingale addresses this challenge by offering a comprehensive all-in-one HR solution that streamlines fragmented workflows, enabling organizations to optimize their HR operations and unlock the full potential of their workforce",
-    imageUrl: images.N2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "AI-Driven Talent Acquisition",
+  {
+    id: "private-5G",
+    banner: {
+      heading:
+        "Next-Generation Connectivity: Unlocking Innovation with Private 5G Networks",
       description:
-        "Nightingale utilizes AI-powered candidate sourcing, smart screening, and automated interview scheduling to streamline the talent acquisition process and attract top talent efficiently.",
-      imageUrl: images.N3,
-      url:"",
+        "Private 5G MISS (Mobile Intelligent Solutions Suite) empowers organizations, such as IUT Corp, to revolutionize their connectivity infrastructure. By leveraging private 5G networks, businesses can enhance operational efficiency, enable real-time collaboration, and unlock new opportunities for innovation in industries like manufacturing.",
+      getStartedUrl: "",
+      imageUrl: images.P1,
     },
-    {
-      heading: "Omni-Channel Employee Engagement",
+    problemStatement: {
+      heading:
+        "Bridging the Connectivity Gap: Empowering Industries with Private 5G Networks",
       description:
-        "Nightingale enables organizations to create contextualized omni-channel communication workflows, fostering stronger relationships with employees and promoting a positive work culture.",
-      imageUrl: images.N4,
-      url:"",
+        "The problem lies in industries struggling to establish reliable and high-performance connectivity solutions. Existing network infrastructures often fail to meet the demands of advanced technologies, such as IoT, automation, and real-time data exchange.",
+      imageUrl: images.P2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Comprehensive Employeem Experience Workflows",
+    capabilities: [
+      {
+        heading: "High-Speed, Low-Latency Connectivity",
+        description:
+          "Private 5G networks deliver exceptional connectivity, offering ultra-high speeds and minimal latency, enabling real-time communication, data transfer, and process optimization.",
+        imageUrl: images.P3,
+        url: "",
+      },
+      {
+        heading: "Secure and Reliable Communication",
+        description:
+          "Private 5G MISS ensures secure and reliable communication within the organization's ecosystem, safeguarding sensitive data and protecting against potential cyber threats.",
+        imageUrl: images.P4,
+        url: "",
+      },
+      {
+        heading: "Seamless IoT Integration",
+        description:
+          "With private 5G, organizations can effortlessly integrate and manage a vast array of IoT devices, enabling efficient data collection, analysis, and automation across various processes.",
+        imageUrl: images.P5,
+        url: "",
+      },
+      {
+        heading: "Advanced Automation and Robotics",
+        description:
+          "Private 5G networks enable advanced automation and robotics, facilitating the deployment of autonomous systems and enhancing productivity in industrial environments.",
+        imageUrl: images.P6,
+        url: "",
+      },
+      {
+        heading: "Edge Computing Capabilities",
+        description:
+          "Private 5G MISS supports edge computing, allowing organizations to process data closer to the source, reducing latency, improving response times, and enabling real-time decision-making.",
+        imageUrl: images.P7,
+        url: "",
+      },
+      {
+        heading: "Scalability and Flexibility",
+        description:
+          "Private 5G networks offer scalability and flexibility, allowing organizations to expand their connectivity infrastructure as their operations grow and adapt to evolving business needs.",
+        imageUrl: images.P8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Revolutionizing Connectivity: How Mobius Enabled IUT Corp to Establish a Private 5G Marketplace",
       description:
-        "Nightingale facilitates the creation of effective and efficient employee experience workflows, involving multiple stakeholders to provide a comprehensive view of the employee journey.",
-      imageUrl: images.N5,
-      url:"",
+        "IUT Corp, a leading manufacturing company, faced the challenge of enhancing connectivity and driving innovation within their ecosystem. They recognized the need for advanced connectivity solutions, such as private 5G networks, to support their manufacturing processes, optimize operations, and enable real-time collaboration.",
+      downloadLink: "",
+      imageUrl: images.P9,
     },
-    {
-      heading: "Personalized Learning & Development",
-      description:
-        "Nightingale empowers employees with personalized learning paths and training programs tailored to their individual needs and career goals. It identifies skill gaps, designs customized training.",
-      imageUrl: images.N6,
-      url:"",
-    },
-    {
-      heading: "Aligned Compensation & Benefits Management",
-      description:
-        "Nightingale allows organizations to design and manage compensation and benefits plans aligned with their goals and culture. It offers customizable compensation plans.",
-      imageUrl: images.N7,
-      url:"",
-    },
-    {
-      heading: "Employer Branding Enhancement",
-      description:
-        "Nightingale's employer branding feature helps organizations create a positive image as an employer of choice. It enables the creation of branded career sites, personalized job descriptions.",
-      imageUrl: images.N8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Nightingale Revolutionizes HR Operations for ABC Corporation",
-    description:
-      "ABC Corporation, a leading manufacturing company, was struggling with inefficient and fragmented HR processes. Their talent acquisition, employee engagement, learning & development, compensation & benefits, and employer branding workflows were disjointed, leading to reduced productivity, employee dissatisfaction, and difficulties in attracting top talent.",
-    downloadLink: "",
-    imageUrl: images.N9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",      
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "ESOPsaaS",
-  banner: {
-    heading:
-      "OpsMax: Stock Options Made Easy",
-    description:
-      "OpsMax streamlines the process of launching and managing employee stock option plans (ESOPs), making it easy and efficient for small and medium enterprises to retain top talent, foster a sense of ownership and loyalty among employees, and incentivize them to work towards the long-term growth of the company.",
-    getStartedUrl: "",
-    imageUrl: images.ME1,
   },
-  problemStatement: {
-    heading: "Overcoming ESOPs Complexity and Inefficiency",
-    description:
-      "The problem lies in the complexity and inefficiency of managing employee stock option plans (ESOPs) for enterprises. The traditional processes are often cumbersome, time-consuming, and prone to errors, leading to administrative challenges, compliance issues, and employee dissatisfaction. There is a need for a comprehensive solution that simplifies ESOPs management and ensures seamless implementation and administration.",
-    imageUrl: images.ME2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "ESOP Plan Customization",
+  {
+    id: "nightingale",
+    banner: {
+      heading: "The Employee Experience Maestro",
       description:
-        "Tailor ESOP plans to meet specific business requirements, including vesting schedules, eligibility criteria, and exercise rules.",
-      imageUrl: images.ME3,
-      url:"",
+        "Nightingale's all-in-one HR solution utilizes advanced technology and smart features to optimize HR processes, enabling organizations to effectively manage their workforce and unlock the full potential of their talent.",
+      getStartedUrl: "",
+      imageUrl: images.N1,
     },
-    {
-      heading: "Automated Grant and Exercise Tracking",
+    problemStatement: {
+      heading: "Revitalizing Fragmented HR Workflows",
       description:
-        "Automate the tracking of ESOP grants and employee exercises, ensuring accurate and up-to-date records.",
-      imageUrl: images.ME4,
-      url:"",
+        "Revitalizing Fragmented HR Workflows: Many organizations struggle with disjointed HR processes and lack a unified platform to manage their talent effectively. Nightingale addresses this challenge by offering a comprehensive all-in-one HR solution that streamlines fragmented workflows, enabling organizations to optimize their HR operations and unlock the full potential of their workforce",
+      imageUrl: images.N2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Compliance and Regulatory Support",
+    capabilities: [
+      {
+        heading: "AI-Driven Talent Acquisition",
+        description:
+          "Nightingale utilizes AI-powered candidate sourcing, smart screening, and automated interview scheduling to streamline the talent acquisition process and attract top talent efficiently.",
+        imageUrl: images.N3,
+        url: "",
+      },
+      {
+        heading: "Omni-Channel Employee Engagement",
+        description:
+          "Nightingale enables organizations to create contextualized omni-channel communication workflows, fostering stronger relationships with employees and promoting a positive work culture.",
+        imageUrl: images.N4,
+        url: "",
+      },
+      {
+        heading: "Comprehensive Employeem Experience Workflows",
+        description:
+          "Nightingale facilitates the creation of effective and efficient employee experience workflows, involving multiple stakeholders to provide a comprehensive view of the employee journey.",
+        imageUrl: images.N5,
+        url: "",
+      },
+      {
+        heading: "Personalized Learning & Development",
+        description:
+          "Nightingale empowers employees with personalized learning paths and training programs tailored to their individual needs and career goals. It identifies skill gaps, designs customized training.",
+        imageUrl: images.N6,
+        url: "",
+      },
+      {
+        heading: "Aligned Compensation & Benefits Management",
+        description:
+          "Nightingale allows organizations to design and manage compensation and benefits plans aligned with their goals and culture. It offers customizable compensation plans.",
+        imageUrl: images.N7,
+        url: "",
+      },
+      {
+        heading: "Employer Branding Enhancement",
+        description:
+          "Nightingale's employer branding feature helps organizations create a positive image as an employer of choice. It enables the creation of branded career sites, personalized job descriptions.",
+        imageUrl: images.N8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading: "Nightingale Revolutionizes HR Operations for ABC Corporation",
       description:
-        "Ensure compliance with legal and regulatory requirements related to ESOPs, such as tax regulations and reporting obligations.",
-      imageUrl: images.ME5,
-      url:"",
+        "ABC Corporation, a leading manufacturing company, was struggling with inefficient and fragmented HR processes. Their talent acquisition, employee engagement, learning & development, compensation & benefits, and employer branding workflows were disjointed, leading to reduced productivity, employee dissatisfaction, and difficulties in attracting top talent.",
+      downloadLink: "",
+      imageUrl: images.N9,
     },
-    {
-      heading: "Transparent Employee Dashboard",
-      description:
-        "Provide employees with a user-friendly dashboard to view their vested shares, exercise options, and track their equity compensation.",
-      imageUrl: images.ME6,
-      url:"",
-    },
-    {
-      heading: "Integration with HR Systems",
-      description:
-        "Seamlessly integrate with existing HR systems to streamline data flow and ensure consistency between employee records and ESOP data.",
-      imageUrl: images.ME7,
-      url:"",
-    },
-    {
-      heading: "Reporting and Analytics",
-      description:
-        "Generate comprehensive reports and analytics on ESOPs, including participant data, exercise trends, and valuation insights, to support strategic decision-making and compliance audits.",
-      imageUrl: images.ME8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "OpsMax Transforms ESOPs Management for ICM Enterprises",
-    description:
-      " ICM Enterprises, a fast-growing technology startup, recognized the importance of implementing an Employee Stock Option Plan (ESOP) to attract and retain top talent. However, they faced significant challenges in managing and administering the ESOPs efficiently. The lack of knowledge, resources, and a streamlined process hindered their ability to offer equity compensation effectively",
-    downloadLink: "",
-    imageUrl: images.ME9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "live-maps",
-  banner: {
-    heading:
-      "NextGenTV Revolution: Around Unleashing Interactive Exploration",
-    description:
-      "Deliver real-time interactive maps and location-based information to NextGenTV viewers, revolutionizing the way they explore and navigate their surroundings.",
-    getStartedUrl: "",
-    imageUrl: images.LM1,
   },
-  problemStatement: {
-    heading: "Addressing the Implementation Challenges of Around as a Service",
-    description:
-      "The television broadcasting industry faces challenges in understanding the implementation complexities and user preferences when integrating Around as a service on NextGenTV platforms. There is a need to explore the feasibility and benefits of delivering data-rich and interactive map experiences to viewers.",
-    imageUrl: images.LM2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Real-Time Updates",
+  {
+    id: "ESOPsaaS",
+    banner: {
+      heading: "OpsMax: Stock Options Made Easy",
       description:
-        "Deliver real-time information on traffic, weather, and other relevant data to NextGenTV viewers, ensuring they stay informed and connected.",
-      imageUrl: images.LM3,
-      url:"",
+        "OpsMax streamlines the process of launching and managing employee stock option plans (ESOPs), making it easy and efficient for small and medium enterprises to retain top talent, foster a sense of ownership and loyalty among employees, and incentivize them to work towards the long-term growth of the company.",
+      getStartedUrl: "",
+      imageUrl: images.ME1,
     },
-    {
-      heading: "Interactive Features",
+    problemStatement: {
+      heading: "Overcoming ESOPs Complexity and Inefficiency",
       description:
-        "Enable viewers to actively engage with the maps, allowing them to explore, interact, and obtain up-to-date data effortlessly.",
-      imageUrl: images.LM4,
-      url:"",
+        "The problem lies in the complexity and inefficiency of managing employee stock option plans (ESOPs) for enterprises. The traditional processes are often cumbersome, time-consuming, and prone to errors, leading to administrative challenges, compliance issues, and employee dissatisfaction. There is a need for a comprehensive solution that simplifies ESOPs management and ensures seamless implementation and administration.",
+      imageUrl: images.ME2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Integration with Emergency Services",
+    capabilities: [
+      {
+        heading: "ESOP Plan Customization",
+        description:
+          "Tailor ESOP plans to meet specific business requirements, including vesting schedules, eligibility criteria, and exercise rules.",
+        imageUrl: images.ME3,
+        url: "",
+      },
+      {
+        heading: "Automated Grant and Exercise Tracking",
+        description:
+          "Automate the tracking of ESOP grants and employee exercises, ensuring accurate and up-to-date records.",
+        imageUrl: images.ME4,
+        url: "",
+      },
+      {
+        heading: "Compliance and Regulatory Support",
+        description:
+          "Ensure compliance with legal and regulatory requirements related to ESOPs, such as tax regulations and reporting obligations.",
+        imageUrl: images.ME5,
+        url: "",
+      },
+      {
+        heading: "Transparent Employee Dashboard",
+        description:
+          "Provide employees with a user-friendly dashboard to view their vested shares, exercise options, and track their equity compensation.",
+        imageUrl: images.ME6,
+        url: "",
+      },
+      {
+        heading: "Integration with HR Systems",
+        description:
+          "Seamlessly integrate with existing HR systems to streamline data flow and ensure consistency between employee records and ESOP data.",
+        imageUrl: images.ME7,
+        url: "",
+      },
+      {
+        heading: "Reporting and Analytics",
+        description:
+          "Generate comprehensive reports and analytics on ESOPs, including participant data, exercise trends, and valuation insights, to support strategic decision-making and compliance audits.",
+        imageUrl: images.ME8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading: "OpsMax Transforms ESOPs Management for ICM Enterprises",
       description:
-        "Collaborate with local emergency services to integrate their data into the Around, providing crucial information for first responders and enhancing public safety.",
-      imageUrl: images.LM5,
-      url:"",
+        " ICM Enterprises, a fast-growing technology startup, recognized the importance of implementing an Employee Stock Option Plan (ESOP) to attract and retain top talent. However, they faced significant challenges in managing and administering the ESOPs efficiently. The lack of knowledge, resources, and a streamlined process hindered their ability to offer equity compensation effectively",
+      downloadLink: "",
+      imageUrl: images.ME9,
     },
-    {
-      heading: "Personalized Location-Based Content",
-      description:
-        "Leverage viewer preferences and interests to deliver tailored recommendations, local insights, and exclusive offers, enhancing the personalized experience for NextGenTV viewers.",
-      imageUrl: images.LM6,
-      url:"",
-    },
-    {
-      heading: "Business Promotion Opportunities",
-      description:
-        "Provide a platform for local businesses to promote events, offers, and promotions to a wide audience through interactive maps, driving footfall and engagement.",
-      imageUrl: images.LM7,
-      url:"",
-    },
-    {
-      heading: "Comprehensive Analytics and Insights",
-      description:
-        "Utilize Nexus Connect to collect and analyze viewer data, gathering insights on user behavior, map usage, and content preferences, empowering broadcasters to make data-driven decisions and optimize future offerings.",
-      imageUrl: images.LM8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Around: Transforming Viewer Experiences on NextGenTV",
-    description:
-      "In the television broadcasting industry, there is a growing demand for interactive and engaging content experiences that go beyond traditional broadcasting formats. With the emergence of NexGen TV technology, broadcasters have the opportunity to deliver data-rich content and interactive features to viewers.",
-    downloadLink: "",
-    imageUrl: images.LM9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "first-responder-alerting",
-  banner: {
-    heading:
-      "Rapid Response: Empowering First Responders with Real-time Alerts",
-    description:
-      "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
-    getStartedUrl: "",
-    imageUrl: images.FR1,
   },
-  problemStatement: {
-    heading: "Transforming Emergency Response Communication",
-    description:
-      "In emergency situations, traditional communication methods such as phone and radio systems can be slow and unreliable, leading to delays in response times. First responders require a more efficient and reliable means of receiving real-time alerts and information to effectively respond to emergencies.",
-    imageUrl: images.FR2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Real-time Alert Delivery",
+  {
+    id: "live-maps",
+    banner: {
+      heading:
+        "NextGenTV Revolution: Around Unleashing Interactive Exploration",
       description:
-        "The MISS enables broadcasters to quickly and seamlessly distribute real-time alerts to first responders through NexGen TV technology, ensuring they receive critical information promptly.",
-      imageUrl: images.FR3,
-      url:"",
+        "Deliver real-time interactive maps and location-based information to NextGenTV viewers, revolutionizing the way they explore and navigate their surroundings.",
+      getStartedUrl: "",
+      imageUrl: images.LM1,
     },
-    {
-      heading: "Enhanced Viewer Analytics",
+    problemStatement: {
+      heading:
+        "Addressing the Implementation Challenges of Around as a Service",
       description:
-        "The implementation of Nexus Connect tools in the MISS facilitates advanced viewer analytics, providing broadcasters with valuable insights into viewer behavior, content preferences, and viewing patterns.",
-      imageUrl: images.FR4,
-      url:"",
+        "The television broadcasting industry faces challenges in understanding the implementation complexities and user preferences when integrating Around as a service on NextGenTV platforms. There is a need to explore the feasibility and benefits of delivering data-rich and interactive map experiences to viewers.",
+      imageUrl: images.LM2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Personalized Viewer Experience",
+    capabilities: [
+      {
+        heading: "Real-Time Updates",
+        description:
+          "Deliver real-time information on traffic, weather, and other relevant data to NextGenTV viewers, ensuring they stay informed and connected.",
+        imageUrl: images.LM3,
+        url: "",
+      },
+      {
+        heading: "Interactive Features",
+        description:
+          "Enable viewers to actively engage with the maps, allowing them to explore, interact, and obtain up-to-date data effortlessly.",
+        imageUrl: images.LM4,
+        url: "",
+      },
+      {
+        heading: "Integration with Emergency Services",
+        description:
+          "Collaborate with local emergency services to integrate their data into the Around, providing crucial information for first responders and enhancing public safety.",
+        imageUrl: images.LM5,
+        url: "",
+      },
+      {
+        heading: "Personalized Location-Based Content",
+        description:
+          "Leverage viewer preferences and interests to deliver tailored recommendations, local insights, and exclusive offers, enhancing the personalized experience for NextGenTV viewers.",
+        imageUrl: images.LM6,
+        url: "",
+      },
+      {
+        heading: "Business Promotion Opportunities",
+        description:
+          "Provide a platform for local businesses to promote events, offers, and promotions to a wide audience through interactive maps, driving footfall and engagement.",
+        imageUrl: images.LM7,
+        url: "",
+      },
+      {
+        heading: "Comprehensive Analytics and Insights",
+        description:
+          "Utilize Nexus Connect to collect and analyze viewer data, gathering insights on user behavior, map usage, and content preferences, empowering broadcasters to make data-driven decisions and optimize future offerings.",
+        imageUrl: images.LM8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading: "Around: Transforming Viewer Experiences on NextGenTV",
       description:
-        "The MISS, integrated with Nexus Connect tools, offers a personalized viewer experience by utilizing data analytics and user profiling to deliver targeted content based on viewer preferences and interests.",
-      imageUrl: images.FR5,
-      url:"",
+        "In the television broadcasting industry, there is a growing demand for interactive and engaging content experiences that go beyond traditional broadcasting formats. With the emergence of NexGen TV technology, broadcasters have the opportunity to deliver data-rich content and interactive features to viewers.",
+      downloadLink: "",
+      imageUrl: images.LM9,
     },
-    {
-      heading: "Data-driven Advertising",
-      description:
-        "With Nexus Connect tools, the MISS enables data-driven advertising strategies by leveraging data analytics to deliver targeted advertisements to specific viewer segments, maximizing ad relevancy and revenue generation for broadcasters.",
-      imageUrl: images.FR6,
-      url:"",
-    },
-    {
-      heading: "IP Datacasting",
-      description:
-        "Leveraging the IP datacasting capabilities of NexGen TV, the MISS allows broadcasters to efficiently transmit vital information, such as maps, updates, and IoT traffic, directly to first responders in the field.",
-      imageUrl: images.FR7,
-      url:"",
-    },
-    {
-      heading: "Improved Public Safety",
-      description:
-        "By revolutionizing emergency communication capabilities, the Aegis MISS enhances public safety through the rapid dissemination of critical information, enabling more coordinated and effective emergency responses.",
-      imageUrl: images.FR8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Rapid Response: Empowering First Responders with Real-time Alerts",
-    description:
-      "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
-    downloadLink: "",
-    imageUrl: images.FR9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "cx",
-  banner: {
-    heading:
-      "Customer-Centricity Amplified: Unleashing the Power of CX MISS",
-    description:
-      "CX MISS (Mobius Intelligent Solution Suite) is a powerful suite of Mobius Intelligent Applications (MIAs) that revolutionizes customer experience (CX) by delivering personalized and seamless interactions across all touchpoints.",
-    getStartedUrl: "",
-    imageUrl: images.CX1,
   },
-  problemStatement: {
-    heading: "Bridging the Experience Gap: Revolutionizing Customer-Centricity",
-    description:
-      "The problem lies in organizations lacking the ability to deliver exceptional customer experiences consistently. There is a need to bridge the experience gap by implementing a comprehensive solution like CX MISS that enables organizations to optimize customer journeys, leverage omnichannel engagement, capture the voice of the customer, and provide self-service solutions",
-    imageUrl: images.CX2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Customer Journey Optimization",
+  {
+    id: "first-responder-alerting",
+    banner: {
+      heading:
+        "Rapid Response: Empowering First Responders with Real-time Alerts",
       description:
-        "CX MISS enables organizations to design, visualize, and optimize customer journeys across touchpoints, identifying pain points and enhancing overall customer satisfaction throughout the entire journey.",
-      imageUrl: images.CX3,
-      url:"",
+        "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+      getStartedUrl: "",
+      imageUrl: images.FR1,
     },
-    {
-      heading: "Omnichannel Engagement",
+    problemStatement: {
+      heading: "Transforming Emergency Response Communication",
       description:
-        "With CX MISS, organizations can engage with customers seamlessly across multiple channels, such as email, social media, SMS, chatbots, and more, delivering personalized interactions and consistent experiences.",
-      imageUrl: images.CX4,
-      url:"",
+        "In emergency situations, traditional communication methods such as phone and radio systems can be slow and unreliable, leading to delays in response times. First responders require a more efficient and reliable means of receiving real-time alerts and information to effectively respond to emergencies.",
+      imageUrl: images.FR2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Voice of the Customer",
+    capabilities: [
+      {
+        heading: "Real-time Alert Delivery",
+        description:
+          "The MISS enables broadcasters to quickly and seamlessly distribute real-time alerts to first responders through NexGen TV technology, ensuring they receive critical information promptly.",
+        imageUrl: images.FR3,
+        url: "",
+      },
+      {
+        heading: "Enhanced Viewer Analytics",
+        description:
+          "The implementation of Nexus Connect tools in the MISS facilitates advanced viewer analytics, providing broadcasters with valuable insights into viewer behavior, content preferences, and viewing patterns.",
+        imageUrl: images.FR4,
+        url: "",
+      },
+      {
+        heading: "Personalized Viewer Experience",
+        description:
+          "The MISS, integrated with Nexus Connect tools, offers a personalized viewer experience by utilizing data analytics and user profiling to deliver targeted content based on viewer preferences and interests.",
+        imageUrl: images.FR5,
+        url: "",
+      },
+      {
+        heading: "Data-driven Advertising",
+        description:
+          "With Nexus Connect tools, the MISS enables data-driven advertising strategies by leveraging data analytics to deliver targeted advertisements to specific viewer segments, maximizing ad relevancy and revenue generation for broadcasters.",
+        imageUrl: images.FR6,
+        url: "",
+      },
+      {
+        heading: "IP Datacasting",
+        description:
+          "Leveraging the IP datacasting capabilities of NexGen TV, the MISS allows broadcasters to efficiently transmit vital information, such as maps, updates, and IoT traffic, directly to first responders in the field.",
+        imageUrl: images.FR7,
+        url: "",
+      },
+      {
+        heading: "Improved Public Safety",
+        description:
+          "By revolutionizing emergency communication capabilities, the Aegis MISS enhances public safety through the rapid dissemination of critical information, enabling more coordinated and effective emergency responses.",
+        imageUrl: images.FR8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Rapid Response: Empowering First Responders with Real-time Alerts",
       description:
-        "CX MISS captures and analyzes customer feedback, sentiments, and preferences, providing valuable insights for data-driven decision-making, product/service enhancements, and personalized experiences.",
-      imageUrl: images.CX5,
-      url:"",
+        "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to first responders in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
+      downloadLink: "",
+      imageUrl: images.FR9,
     },
-    {
-      heading: "Self-Service Solutions",
-      description:
-        "CX MISS empowers customers with self-service portals, chatbots, knowledge bases, and interactive FAQs, enabling them to find answers, resolve issues, and access relevant information independently, improving convenience and reducing support costs.",
-      imageUrl: images.CX6,
-      url:"",
-    },
-    {
-      heading: "Scalable and Customizable",
-      description:
-        "Leveraging Nexus Connect and its SaaS tools, CX MISS offers highly scalable and customizable solutions that can be easily integrated with existing systems, allowing organizations to tailor CX experiences according to their unique business requirements.",
-      imageUrl: images.CX7,
-      url:"",
-    },
-    {
-      heading: "Data-Driven Decision Making",
-      description:
-        "By collecting and analyzing customer feedback and sentiments, CX MISS enables data-driven decision-making, enhancing products/services, improving operational efficiency, and delivering exceptional customer experiences.",
-      imageUrl: images.CX8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Transforming Customer Experience for IAB Corporation with CX MISS",
-    description:
-      "IAB Corporation, a leading retail and e-commerce company, faced challenges in delivering exceptional customer experiences across their various touchpoints. They struggled to optimize customer journeys, lacked consistent omnichannel engagement, and had limited insights into customer preferences and feedback.",
-    downloadLink: "",
-    imageUrl: images.CX9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "modern-enterprise-solution-suite",
-  banner: {
-    heading:
-      "Revolutionizing Enterprise Efficiency: The Next Generation Modern Enterprise Solution Suite",
-    description:
-      "The Modern Enterprise Solution Suite by Mobius offers a comprehensive set of Mobius Intelligent Solution Suites (MISS) designed to address the critical needs of today's enterprises. This suite combines the power of Nexus Connect and its suite of SaaS tools to deliver intelligent applications that enhance operational efficiency, optimize processes, and deliver exceptional customer experiences.",
-    getStartedUrl: "",
-    imageUrl: images.MES1,
   },
-  problemStatement: {
-    heading: "Streamlining Enterprise Operations",
-    description:
-      "Enterprises today face numerous challenges, including data governance complexities, inefficient data integration, lack of subscription management efficiency, and manual marketing processes. The Modern Enterprise Solution Suite provides a holistic solution to overcome these challenges by offering Data Governance as a Service, Data Orchestration as a Service, MoScribe, and Marketing Automation capabilities",
-    imageUrl: images.MES2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Data Governance",
+  {
+    id: "cx",
+    banner: {
+      heading: "Customer-Centricity Amplified: Unleashing the Power of CX MISS",
       description:
-        "Establish and maintain robust data governance practices, ensuring data quality, compliance, and security throughout the enterprise.",
-      imageUrl: images.MES3,
-      url:"",
+        "CX MISS (Mobius Intelligent Solution Suite) is a powerful suite of Mobius Intelligent Applications (MIAs) that revolutionizes customer experience (CX) by delivering personalized and seamless interactions across all touchpoints.",
+      getStartedUrl: "",
+      imageUrl: images.CX1,
     },
-    {
-      heading: "Data Orchestration",
+    problemStatement: {
+      heading:
+        "Bridging the Experience Gap: Revolutionizing Customer-Centricity",
       description:
-        "Simplify and automate data workflows, facilitating data ingestion, transformation, synchronization, and integration across the enterprise.",
-      imageUrl: images.MES4,
-      url:"",
+        "The problem lies in organizations lacking the ability to deliver exceptional customer experiences consistently. There is a need to bridge the experience gap by implementing a comprehensive solution like CX MISS that enables organizations to optimize customer journeys, leverage omnichannel engagement, capture the voice of the customer, and provide self-service solutions",
+      imageUrl: images.CX2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Subscription Management",
+    capabilities: [
+      {
+        heading: "Customer Journey Optimization",
+        description:
+          "CX MISS enables organizations to design, visualize, and optimize customer journeys across touchpoints, identifying pain points and enhancing overall customer satisfaction throughout the entire journey.",
+        imageUrl: images.CX3,
+        url: "",
+      },
+      {
+        heading: "Omnichannel Engagement",
+        description:
+          "With CX MISS, organizations can engage with customers seamlessly across multiple channels, such as email, social media, SMS, chatbots, and more, delivering personalized interactions and consistent experiences.",
+        imageUrl: images.CX4,
+        url: "",
+      },
+      {
+        heading: "Voice of the Customer",
+        description:
+          "CX MISS captures and analyzes customer feedback, sentiments, and preferences, providing valuable insights for data-driven decision-making, product/service enhancements, and personalized experiences.",
+        imageUrl: images.CX5,
+        url: "",
+      },
+      {
+        heading: "Self-Service Solutions",
+        description:
+          "CX MISS empowers customers with self-service portals, chatbots, knowledge bases, and interactive FAQs, enabling them to find answers, resolve issues, and access relevant information independently, improving convenience and reducing support costs.",
+        imageUrl: images.CX6,
+        url: "",
+      },
+      {
+        heading: "Scalable and Customizable",
+        description:
+          "Leveraging Nexus Connect and its SaaS tools, CX MISS offers highly scalable and customizable solutions that can be easily integrated with existing systems, allowing organizations to tailor CX experiences according to their unique business requirements.",
+        imageUrl: images.CX7,
+        url: "",
+      },
+      {
+        heading: "Data-Driven Decision Making",
+        description:
+          "By collecting and analyzing customer feedback and sentiments, CX MISS enables data-driven decision-making, enhancing products/services, improving operational efficiency, and delivering exceptional customer experiences.",
+        imageUrl: images.CX8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Transforming Customer Experience for IAB Corporation with CX MISS",
       description:
-        "Streamline and optimize SaaS application subscriptions, enabling efficient subscription analytics, billing management, and customer onboarding.",
-      imageUrl: images.MES5,
-      url:"",
+        "IAB Corporation, a leading retail and e-commerce company, faced challenges in delivering exceptional customer experiences across their various touchpoints. They struggled to optimize customer journeys, lacked consistent omnichannel engagement, and had limited insights into customer preferences and feedback.",
+      downloadLink: "",
+      imageUrl: images.CX9,
     },
-    {
-      heading: "Marketing Automation",
-      description:
-        "Streamline marketing processes, automate lead generation and management, campaign execution, customer journey mapping, and analytics and reporting.",
-      imageUrl: images.MES6,
-      url:"",
-    },
-    {
-      heading: "Website Modernization",
-      description:
-        "Create intelligent and context-aware websites, transforming them into key components of modern customer experience (CX) strategies",
-      imageUrl: images.MES7,
-      url:"",
-    },
-    {
-      heading: "Low-Code Development",
-      description:
-        "Leverage the low-code capabilities of Mobius SaaS tools for efficient and cost-effective development, rapid deployment, customization, and seamless integration with existing enterprise systems.",
-      imageUrl: images.MES8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Modern Enterprise Solution Suite Transformed LDP Corporation's Operations",
-    description:
-      "LDP Corporation, a leading manufacturing and supply chain company, faced significant challenges in streamlining their operations and leveraging digital technologies to drive growth. They struggled with manual data management processes, disjointed systems, inefficient marketing operations, and lack of comprehensive subscription management.",
-    downloadLink: "",
-    imageUrl: images.MES9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "web-modernization",
-  banner: {
-    heading:
-      "Unleashing the Power of Intelligent Websites: Empowering Digital Experiences with WebSite Modernization",
-    description:
-      "The WebSite Modernization MISS by Mobius empowers organizations to transform their websites into intelligent and context-aware platforms. Leveraging the suite of low-code tools provided by Nexus Connect, this solution enables the creation of personalized and engaging website experiences.",
-    getStartedUrl: "",
-    imageUrl: images.WM1,
   },
-  problemStatement: {
-    heading: "The Need for WebSite Modernization",
-    description:
-      "Organizations face the challenge of building and maintaining websites that deliver exceptional user experiences, drive engagement, and align with modern customer expectations. They struggle with static content, disjointed data, and limited personalization capabilities, hindering their ability to create impactful online interactions.",
-    imageUrl: images.WM2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "WebSite Extractor",
+  {
+    id: "modern-enterprise-solution-suite",
+    banner: {
+      heading:
+        "Revolutionizing Enterprise Efficiency: The Next Generation Modern Enterprise Solution Suite",
       description:
-        "Enable organizations to transform existing websites into intelligent Mobius components through seamless extraction, customization, and enhancement.",
-      imageUrl: images.WM3,
-      url:"",
+        "The Modern Enterprise Solution Suite by Mobius offers a comprehensive set of Mobius Intelligent Solution Suites (MISS) designed to address the critical needs of today's enterprises. This suite combines the power of Nexus Connect and its suite of SaaS tools to deliver intelligent applications that enhance operational efficiency, optimize processes, and deliver exceptional customer experiences.",
+      getStartedUrl: "",
+      imageUrl: images.MES1,
     },
-    {
-      heading: "Pascal Intelligence",
+    problemStatement: {
+      heading: "Streamlining Enterprise Operations",
       description:
-        "Capture usage and visitor analytics to gain valuable insights into website performance, user behavior, and engagement metrics, facilitating data-driven decision-making.",
-      imageUrl: images.WM4,
-      url:"",
+        "Enterprises today face numerous challenges, including data governance complexities, inefficient data integration, lack of subscription management efficiency, and manual marketing processes. The Modern Enterprise Solution Suite provides a holistic solution to overcome these challenges by offering Data Governance as a Service, Data Orchestration as a Service, MoScribe, and Marketing Automation capabilities",
+      imageUrl: images.MES2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "BoltzmannBot",
+    capabilities: [
+      {
+        heading: "Data Governance",
+        description:
+          "Establish and maintain robust data governance practices, ensuring data quality, compliance, and security throughout the enterprise.",
+        imageUrl: images.MES3,
+        url: "",
+      },
+      {
+        heading: "Data Orchestration",
+        description:
+          "Simplify and automate data workflows, facilitating data ingestion, transformation, synchronization, and integration across the enterprise.",
+        imageUrl: images.MES4,
+        url: "",
+      },
+      {
+        heading: "Subscription Management",
+        description:
+          "Streamline and optimize SaaS application subscriptions, enabling efficient subscription analytics, billing management, and customer onboarding.",
+        imageUrl: images.MES5,
+        url: "",
+      },
+      {
+        heading: "Marketing Automation",
+        description:
+          "Streamline marketing processes, automate lead generation and management, campaign execution, customer journey mapping, and analytics and reporting.",
+        imageUrl: images.MES6,
+        url: "",
+      },
+      {
+        heading: "Website Modernization",
+        description:
+          "Create intelligent and context-aware websites, transforming them into key components of modern customer experience (CX) strategies",
+        imageUrl: images.MES7,
+        url: "",
+      },
+      {
+        heading: "Low-Code Development",
+        description:
+          "Leverage the low-code capabilities of Mobius SaaS tools for efficient and cost-effective development, rapid deployment, customization, and seamless integration with existing enterprise systems.",
+        imageUrl: images.MES8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Modern Enterprise Solution Suite Transformed LDP Corporation's Operations",
       description:
-        "Integrate real-time data, automate workflows, and personalize content to enhance website functionality and deliver dynamic and relevant experiences to visitors.",
-      imageUrl: images.WM5,
-      url:"",
+        "LDP Corporation, a leading manufacturing and supply chain company, faced significant challenges in streamlining their operations and leveraging digital technologies to drive growth. They struggled with manual data management processes, disjointed systems, inefficient marketing operations, and lack of comprehensive subscription management.",
+      downloadLink: "",
+      imageUrl: images.MES9,
     },
-    {
-      heading: "Monet",
-      description:
-        "Utilize low-code app development to create interactive elements, rich visuals, and seamless user journeys, improving engagement and conversion rates.",
-      imageUrl: images.WM6,
-      url:"",
-    },
-    {
-      heading: "Vinci",
-      description:
-        "Empower organizations to deliver personalized and contextual experiences across multiple channels, such as email, social media, and chatbots, nurturing visitor relationships and driving conversion.",
-      imageUrl: images.WM7,
-      url:"",
-    },
-    {
-      heading: "Streamlined Development and Maintenance",
-      description:
-        "With low-code capabilities, organizations can efficiently build and modify website components, reducing development time and costs, while Vinci streamlines engagement management for efficient visitor relationship nurturing.",
-      imageUrl: images.WM8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Empowering Digital Experiences: Transforming Website Development with WebSite Modernization",
-    description:
-      "WebX Corporation, a leading e-commerce company, faced the challenge of delivering personalized and engaging online experiences to their customers. Their existing website lacked the ability to dynamically update content, provide real-time data integration, and deliver personalized recommendations.",
-    downloadLink: "",
-    imageUrl: images.WM9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "cloud-data-orchestration",
-  banner: {
-    heading:
-      "Seamless Cloud Data Integration: Empowering Organizations with Cloud Data Orchestration",
-    description:
-      "Cloud Data Orchestration (CDO) is a comprehensive solution that enables organizations to seamlessly integrate, automate, and optimize their data workflows in cloud-based environments. With CDO, businesses can efficiently manage their data pipelines, ensure data consistency, and leverage the power of the cloud for data-driven insights and innovation.",
-    getStartedUrl: "",
-    imageUrl: images.CDO1,
   },
-  problemStatement: {
-    heading: "Addressing the Challenges of Cloud Data Orchestration",
-    description:
-      "Organizations face the challenge of efficiently managing and orchestrating their data workflows across multiple cloud platforms. The Cloud Data Orchestration MISS addresses this problem by providing a robust solution that streamlines data integration and transformation.",
-    imageUrl: images.CDO2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Data Integration and Transformation",
+  {
+    id: "web-modernization",
+    banner: {
+      heading:
+        "Unleashing the Power of Intelligent Websites: Empowering Digital Experiences with WebSite Modernization",
       description:
-        "Seamlessly integrate data from various sources and transform data formats to ensure compatibility and consistency.",
-      imageUrl: images.CDO3,
-      url:"",
+        "The WebSite Modernization MISS by Mobius empowers organizations to transform their websites into intelligent and context-aware platforms. Leveraging the suite of low-code tools provided by Nexus Connect, this solution enables the creation of personalized and engaging website experiences.",
+      getStartedUrl: "",
+      imageUrl: images.WM1,
     },
-    {
-      heading: "Workflow Automation",
+    problemStatement: {
+      heading: "The Need for WebSite Modernization",
       description:
-        "Automate data pipelines, tasks, and processes to streamline data processing, reduce manual effort, and improve operational efficiency.",
-      imageUrl: images.CDO4,
-      url:"",
+        "Organizations face the challenge of building and maintaining websites that deliver exceptional user experiences, drive engagement, and align with modern customer expectations. They struggle with static content, disjointed data, and limited personalization capabilities, hindering their ability to create impactful online interactions.",
+      imageUrl: images.WM2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Scalability and Elasticity",
+    capabilities: [
+      {
+        heading: "WebSite Extractor",
+        description:
+          "Enable organizations to transform existing websites into intelligent Mobius components through seamless extraction, customization, and enhancement.",
+        imageUrl: images.WM3,
+        url: "",
+      },
+      {
+        heading: "Pascal Intelligence",
+        description:
+          "Capture usage and visitor analytics to gain valuable insights into website performance, user behavior, and engagement metrics, facilitating data-driven decision-making.",
+        imageUrl: images.WM4,
+        url: "",
+      },
+      {
+        heading: "BoltzmannBot",
+        description:
+          "Integrate real-time data, automate workflows, and personalize content to enhance website functionality and deliver dynamic and relevant experiences to visitors.",
+        imageUrl: images.WM5,
+        url: "",
+      },
+      {
+        heading: "Monet",
+        description:
+          "Utilize low-code app development to create interactive elements, rich visuals, and seamless user journeys, improving engagement and conversion rates.",
+        imageUrl: images.WM6,
+        url: "",
+      },
+      {
+        heading: "Vinci",
+        description:
+          "Empower organizations to deliver personalized and contextual experiences across multiple channels, such as email, social media, and chatbots, nurturing visitor relationships and driving conversion.",
+        imageUrl: images.WM7,
+        url: "",
+      },
+      {
+        heading: "Streamlined Development and Maintenance",
+        description:
+          "With low-code capabilities, organizations can efficiently build and modify website components, reducing development time and costs, while Vinci streamlines engagement management for efficient visitor relationship nurturing.",
+        imageUrl: images.WM8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Empowering Digital Experiences: Transforming Website Development with WebSite Modernization",
       description:
-        "Leverage the scalability and elasticity of the cloud to handle large volumes of data and optimize resource utilization.",
-      imageUrl: images.CDO5,
-      url:"",
+        "WebX Corporation, a leading e-commerce company, faced the challenge of delivering personalized and engaging online experiences to their customers. Their existing website lacked the ability to dynamically update content, provide real-time data integration, and deliver personalized recommendations.",
+      downloadLink: "",
+      imageUrl: images.WM9,
     },
-    {
-      heading: "Real-time Data Synchronization",
-      description:
-        "Enable real-time data synchronization and replication for hybrid and multi-cloud environments, ensuring data consistency across systems.",
-      imageUrl: images.CDO6,
-      url:"",
-    },
-    {
-      heading: "Data Governance and Security",
-      description:
-        "Implement data governance policies, security controls, and compliance measures to ensure data privacy and protection.",
-      imageUrl: images.CDO7,
-      url:"",
-    },
-    {
-      heading: "Advanced Analytics Integration",
-      description:
-        "Integrate with advanced analytics and machine learning platforms to derive valuable insights and enable data-driven decision-making.",
-      imageUrl: images.CDO8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Streamlining Cloud Data Workflows: Empowering Organization HFZ with Cloud Data Orchestration",
-    description:
-      "Organization HFZ, a leading technology services provider, faced significant challenges in managing their complex data workflows across multiple cloud platforms. Their data integration and transformation processes were manual and time-consuming, leading to delays, errors, and inefficiencies.",
-    downloadLink: "",
-    imageUrl: images.CDO9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
+      },
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
+  },
+  {
+    id: "cloud-data-orchestration",
+    banner: {
+      heading:
+        "Seamless Cloud Data Integration: Empowering Organizations with Cloud Data Orchestration",
+      description:
+        "Cloud Data Orchestration (CDO) is a comprehensive solution that enables organizations to seamlessly integrate, automate, and optimize their data workflows in cloud-based environments. With CDO, businesses can efficiently manage their data pipelines, ensure data consistency, and leverage the power of the cloud for data-driven insights and innovation.",
+      getStartedUrl: "",
+      imageUrl: images.CDO1,
+    },
+    problemStatement: {
+      heading: "Addressing the Challenges of Cloud Data Orchestration",
+      description:
+        "Organizations face the challenge of efficiently managing and orchestrating their data workflows across multiple cloud platforms. The Cloud Data Orchestration MISS addresses this problem by providing a robust solution that streamlines data integration and transformation.",
+      imageUrl: images.CDO2,
+      speakToExpertUrl: "",
+    },
+    capabilities: [
+      {
+        heading: "Data Integration and Transformation",
+        description:
+          "Seamlessly integrate data from various sources and transform data formats to ensure compatibility and consistency.",
+        imageUrl: images.CDO3,
+        url: "",
+      },
+      {
+        heading: "Workflow Automation",
+        description:
+          "Automate data pipelines, tasks, and processes to streamline data processing, reduce manual effort, and improve operational efficiency.",
+        imageUrl: images.CDO4,
+        url: "",
+      },
+      {
+        heading: "Scalability and Elasticity",
+        description:
+          "Leverage the scalability and elasticity of the cloud to handle large volumes of data and optimize resource utilization.",
+        imageUrl: images.CDO5,
+        url: "",
+      },
+      {
+        heading: "Real-time Data Synchronization",
+        description:
+          "Enable real-time data synchronization and replication for hybrid and multi-cloud environments, ensuring data consistency across systems.",
+        imageUrl: images.CDO6,
+        url: "",
+      },
+      {
+        heading: "Data Governance and Security",
+        description:
+          "Implement data governance policies, security controls, and compliance measures to ensure data privacy and protection.",
+        imageUrl: images.CDO7,
+        url: "",
+      },
+      {
+        heading: "Advanced Analytics Integration",
+        description:
+          "Integrate with advanced analytics and machine learning platforms to derive valuable insights and enable data-driven decision-making.",
+        imageUrl: images.CDO8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Streamlining Cloud Data Workflows: Empowering Organization HFZ with Cloud Data Orchestration",
+      description:
+        "Organization HFZ, a leading technology services provider, faced significant challenges in managing their complex data workflows across multiple cloud platforms. Their data integration and transformation processes were manual and time-consuming, leading to delays, errors, and inefficiencies.",
+      downloadLink: "",
+      imageUrl: images.CDO9,
+    },
+    youMayAlsoLike: [
+      {
+        heading: "WeatherInsured",
+        description:
+          "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
+        imageUrl: images.next10,
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NexGen TV Marketplace",
         description:
           "The NexGen TV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "citizen-engagement",
-  banner: {
-    heading:
-      "Engaging Citizens for a Smart Future: Empowering Communities with Citizen Engagement",
-    description:
-      // "The Citizen Engagement MISS (Mobius Intelligent Solution Suite) empowers cities and communities to actively engage their citizens in decision-making processes and public participation. By leveraging digital tools and collaboration platforms, the Citizen Engagement MISS enables governments to create inclusive and transparent governance models.",
-      "The Citizen Engagement MISS (Mobius Intelligent Solution Suite) empowers cities and communities to actively engage their citizens in decision-making processes and public participation. By leveraging digital tools and collaboration platforms, Mobius’s Citizen Engagement Solution Suite enables governments to create inclusive and transparent governance models.",
-    getStartedUrl: "",
-    imageUrl: images.CE1,
   },
-  problemStatement: {
-    heading: "Overcoming Barriers to Inclusive Governance",
-    description:
-      "Traditional governance models often face challenges in effectively engaging citizens in decision-making processes, leading to a lack of inclusivity and limited public participation. The Citizen Engagement MISS addresses this problem by providing a comprehensive solution that leverages digital platforms and collaboration tools to foster citizen engagement.",
-    imageUrl: images.CE2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Digital Collaboration Platforms",
+  {
+    id: "citizen-engagement",
+    banner: {
+      heading:
+        "Engaging Citizens for a Smart Future: Empowering Communities with Citizen Engagement",
       description:
-        "The Citizen Engagement MISS offers digital collaboration platforms that enable governments to connect and engage with citizens in a virtual environment.",
-      imageUrl: images.CE3,
-      url:"",
+        // "The Citizen Engagement MISS (Mobius Intelligent Solution Suite) empowers cities and communities to actively engage their citizens in decision-making processes and public participation. By leveraging digital tools and collaboration platforms, the Citizen Engagement MISS enables governments to create inclusive and transparent governance models.",
+        "The Citizen Engagement MISS (Mobius Intelligent Solution Suite) empowers cities and communities to actively engage their citizens in decision-making processes and public participation. By leveraging digital tools and collaboration platforms, Mobius’s Citizen Engagement Solution Suite enables governments to create inclusive and transparent governance models.",
+      getStartedUrl: "",
+      imageUrl: images.CE1,
     },
-    {
-      heading: "Inclusive Participation",
+    problemStatement: {
+      heading: "Overcoming Barriers to Inclusive Governance",
       description:
-        "Through the Citizen Engagement MISS, governments can reach a wider audience and ensure inclusivity by providing multiple channels for citizen participation, including online forums, surveys, and interactive workshops.",
-      imageUrl: images.CE4,
-      url:"",
+        "Traditional governance models often face challenges in effectively engaging citizens in decision-making processes, leading to a lack of inclusivity and limited public participation. The Citizen Engagement MISS addresses this problem by providing a comprehensive solution that leverages digital platforms and collaboration tools to foster citizen engagement.",
+      imageUrl: images.CE2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Transparent Governance",
+    capabilities: [
+      {
+        heading: "Digital Collaboration Platforms",
+        description:
+          "The Citizen Engagement MISS offers digital collaboration platforms that enable governments to connect and engage with citizens in a virtual environment.",
+        imageUrl: images.CE3,
+        url: "",
+      },
+      {
+        heading: "Inclusive Participation",
+        description:
+          "Through the Citizen Engagement MISS, governments can reach a wider audience and ensure inclusivity by providing multiple channels for citizen participation, including online forums, surveys, and interactive workshops.",
+        imageUrl: images.CE4,
+        url: "",
+      },
+      {
+        heading: "Transparent Governance",
+        description:
+          "The MISS promotes transparency by providing citizens with access to information, policies, and decision-making processes, fostering trust and accountability between governments and the community.",
+        imageUrl: images.CE5,
+        url: "",
+      },
+      {
+        heading: "Data-Driven Insights",
+        description:
+          "By leveraging data analytics and reporting tools, the Citizen Engagement MISS allows Governments to gather valuable insights from citizen feedback and input, enabling evidence-based decision-making and policy formulation.",
+        imageUrl: images.CE6,
+        url: "",
+      },
+      {
+        heading: "Empowering Citizen Voices",
+        description:
+          "The MISS empowers citizens to actively contribute to shaping their communities by providing user-friendly interfaces, interactive features, and opportunities for citizen-led initiatives and projects.",
+        imageUrl: images.CE7,
+        url: "",
+      },
+      {
+        heading: "Advanced Social Innovation and Collaboration",
+        description:
+          "The Citizen Engagement MISS facilitates collaboration between governments, citizens, and other stakeholders, fostering social innovation and collective action to address community challenges and improve the quality of life for citizens.",
+        imageUrl: images.CE8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Empowering Communities: A Case Study on Citizen Engagement with Nexus Connect",
       description:
-        "The MISS promotes transparency by providing citizens with access to information, policies, and decision-making processes, fostering trust and accountability between governments and the community.",
-      imageUrl: images.CE5,
-      url:"",
+        "CityX Municipality, like many local governments, faced challenges in effectively engaging citizens in decision-making processes and fostering public participation. Traditional methods of citizen engagement, such as town hall meetings and surveys, often resulted in limited reach, low participation rates, and a lack of inclusivity.",
+      downloadLink: "",
+      imageUrl: images.CE9,
     },
-    {
-      heading: "Data-Driven Insights",
-      description:
-        "By leveraging data analytics and reporting tools, the Citizen Engagement MISS allows Governments to gather valuable insights from citizen feedback and input, enabling evidence-based decision-making and policy formulation.",
-      imageUrl: images.CE6,
-      url:"",
-    },
-    {
-      heading: "Empowering Citizen Voices",
-      description:
-        "The MISS empowers citizens to actively contribute to shaping their communities by providing user-friendly interfaces, interactive features, and opportunities for citizen-led initiatives and projects.",
-      imageUrl: images.CE7,
-      url:"",
-    },
-    {
-      heading: "Advanced Social Innovation and Collaboration",
-      description:
-        "The Citizen Engagement MISS facilitates collaboration between governments, citizens, and other stakeholders, fostering social innovation and collective action to address community challenges and improve the quality of life for citizens.",
-      imageUrl: images.CE8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Empowering Communities: A Case Study on Citizen Engagement with Nexus Connect",
-    description:
-      "CityX Municipality, like many local governments, faced challenges in effectively engaging citizens in decision-making processes and fostering public participation. Traditional methods of citizen engagement, such as town hall meetings and surveys, often resulted in limited reach, low participation rates, and a lack of inclusivity.",
-    downloadLink: "",
-    imageUrl: images.CE9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-},
-{
-  id: "5g-network-orchestration",
-  banner: {
-    heading:
-      "Empowering Connectivity: Revolutionizing Industries with 5G Network Orchestration",
-    description:
-      "The 5G Network Orchestration mission addresses the need for efficient management and optimization of 5G networks to enable seamless connectivity and drive innovation across industries. With the power of Mobius, businesses can leverage network orchestration capabilities to streamline operations, enhance user experiences, and unlock the full potential of 5G technology.",
-    getStartedUrl: "",
-    imageUrl: images.NO1,
   },
-  problemStatement: {
-    heading: "The Need for Network Orchestration",
-    description:
-      "While 5G technology promises unparalleled connectivity and transformative capabilities, many organizations struggle to fully harness its potential. The lack of effective network orchestration leads to suboptimal performance, limited scalability, and difficulties in managing complex 5G infrastructure.",
-    imageUrl: images.NO2,
-    speakToExpertUrl: "",
-  },
-  capabilities: [
-    {
-      heading: "Intelligent Network Management",
+  {
+    id: "5g-network-orchestration",
+    banner: {
+      heading:
+        "Empowering Connectivity: Revolutionizing Industries with 5G Network Orchestration",
       description:
-        "Mobius enables intelligent network management, allowing businesses to dynamically allocate resources, optimize network performance, and ensure efficient utilization of 5G infrastructure.",
-      imageUrl: images.NO3,
-      url:"",
+        "The 5G Network Orchestration mission addresses the need for efficient management and optimization of 5G networks to enable seamless connectivity and drive innovation across industries. With the power of Mobius, businesses can leverage network orchestration capabilities to streamline operations, enhance user experiences, and unlock the full potential of 5G technology.",
+      getStartedUrl: "",
+      imageUrl: images.NO1,
     },
-    {
-      heading: "Automated Service Provisioning",
+    problemStatement: {
+      heading: "The Need for Network Orchestration",
       description:
-        "The network orchestration capabilities of Mobius automate service provisioning processes, enabling businesses to quickly deploy and scale services, reducing time-to-market and increasing operational efficiency.",
-      imageUrl: images.NO4,
-      url:"",
-
+        "While 5G technology promises unparalleled connectivity and transformative capabilities, many organizations struggle to fully harness its potential. The lack of effective network orchestration leads to suboptimal performance, limited scalability, and difficulties in managing complex 5G infrastructure.",
+      imageUrl: images.NO2,
+      speakToExpertUrl: "",
     },
-    {
-      heading: "Real-time Network Monitoring",
+    capabilities: [
+      {
+        heading: "Intelligent Network Management",
+        description:
+          "Mobius enables intelligent network management, allowing businesses to dynamically allocate resources, optimize network performance, and ensure efficient utilization of 5G infrastructure.",
+        imageUrl: images.NO3,
+        url: "",
+      },
+      {
+        heading: "Automated Service Provisioning",
+        description:
+          "The network orchestration capabilities of Mobius automate service provisioning processes, enabling businesses to quickly deploy and scale services, reducing time-to-market and increasing operational efficiency.",
+        imageUrl: images.NO4,
+        url: "",
+      },
+      {
+        heading: "Real-time Network Monitoring",
+        description:
+          "Mobius provides real-time network monitoring tools, allowing businesses to gain visibility into network performance, identify bottlenecks, and proactively address issues to ensure uninterrupted connectivity.",
+        imageUrl: images.NO5,
+        url: "",
+      },
+      {
+        heading: "Network Slicing and Virtualization",
+        description:
+          "With Mobius, businesses can leverage network slicing and virtualization techniques to create tailored network environments, enabling the coexistence of diverse services with varying requirements on a shared infrastructure.",
+        imageUrl: images.NO6,
+        url: "",
+      },
+      {
+        heading: "Multi-domain Orchestration",
+        description:
+          "Mobius supports multi-domain orchestration, allowing businesses to seamlessly manage and coordinate 5G networks across different geographical locations, enabling global connectivity and collaboration.",
+        imageUrl: images.NO7,
+        url: "",
+      },
+      {
+        heading: "Intelligent Analytics and Insights",
+        description:
+          "Mobius's analytics capabilities provide businesses with actionable insights into network performance, user behavior, and service usage, empowering them to make data-driven decisions, optimize operations, and drive innovation.",
+        imageUrl: images.NO8,
+        url: "",
+      },
+    ],
+    caseStudy: {
+      heading:
+        "Revolutionizing Connectivity: How 5G Network Orchestration Transformed Smart Manufacturing",
       description:
-        "Mobius provides real-time network monitoring tools, allowing businesses to gain visibility into network performance, identify bottlenecks, and proactively address issues to ensure uninterrupted connectivity.",
-      imageUrl: images.NO5,
-      url:"",
+        "Coromant Manufacturing Solutions, a leading player in the manufacturing industry, was seeking to harness the power of 5G technology to enhance its operations and drive innovation. However, they faced several challenges in effectively managing and optimizing their 5G network infrastructure.",
+      downloadLink: "",
+      imageUrl: images.NO9,
     },
-    {
-      heading: "Network Slicing and Virtualization",
-      description:
-        "With Mobius, businesses can leverage network slicing and virtualization techniques to create tailored network environments, enabling the coexistence of diverse services with varying requirements on a shared infrastructure.",
-      imageUrl: images.NO6,
-      url:"",
-    },
-    {
-      heading: "Multi-domain Orchestration",
-      description:
-        "Mobius supports multi-domain orchestration, allowing businesses to seamlessly manage and coordinate 5G networks across different geographical locations, enabling global connectivity and collaboration.",
-      imageUrl: images.NO7,
-      url:"",
-    },
-    {
-      heading: "Intelligent Analytics and Insights",
-      description:
-        "Mobius's analytics capabilities provide businesses with actionable insights into network performance, user behavior, and service usage, empowering them to make data-driven decisions, optimize operations, and drive innovation.",
-      imageUrl: images.NO8,
-      url:"",
-    },
-  ],
-  caseStudy: {
-    heading:
-      "Revolutionizing Connectivity: How 5G Network Orchestration Transformed Smart Manufacturing",
-    description:
-      "Coromant Manufacturing Solutions, a leading player in the manufacturing industry, was seeking to harness the power of 5G technology to enhance its operations and drive innovation. However, they faced several challenges in effectively managing and optimizing their 5G network infrastructure.",
-    downloadLink: "",
-    imageUrl: images.NO9,
-  },
-  youMayAlsoLike: [
+    youMayAlsoLike: [
       {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
       {
         heading: "NextGenTV Marketplace",
         description:
           "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
         imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
+        url: "/marketplace/NextGenTV",
       },
       {
         heading: "Smart city",
         description:
           "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
         imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
+        url: "/solutions/smart-city-as-a-service",
       },
     ],
-}
-
+  },
 ];
 
 const marketplaceData = [
@@ -2147,7 +2156,6 @@ const marketplaceData = [
       // classname: "bannerContentImageWithMultiply",
     },
     marketPlaceDescription: {
-
       heading: "Nexus Connect",
       subheading: "Collaborate,Innovate And Engage",
       description:
@@ -2176,8 +2184,7 @@ const marketplaceData = [
     description:
       "With Holacracy as the backbone, the Nexus Connect provides a secure and scalable platform for collaboration, resource sharing, and monetization. Together, we can shape the future of television and redefine the way viewers engage with content.",
     casestudy: {
-      heading:
-        "Case-study: Unlocking the full potential of Nexus Connect",
+      heading: "Case-study: Unlocking the full potential of Nexus Connect",
       description:
         "A popular Television Broadcasting Network faced a challenge in delivering immersive and personalized television experiences to viewers across the United States. Traditional broadcasting models limited interactivity and customization, hindering the evolution of television in the digital age. Learn how our intelligent suite of solutions exclusively developed for Nexus Connect are helping rapidly deploy applications and services that can help solve this problem.",
       downloadLink: "",
@@ -2188,18 +2195,18 @@ const marketplaceData = [
     id: "singapore-smart-nation",
     banner: {
       heading: "Singapore Smart Nation",
-      subheading:
-        "Empowering Digital Transformation in Singapore Smart Nation",
+      subheading: "Empowering Digital Transformation in Singapore Smart Nation",
       description:
         "The digital hub empowering businesses, government agencies, and citizens to drive innovation, collaboration, and digital transformation in Singapore's smart nation initiatives.",
       getStartedUrl: "",
       learnMoreUrl: "",
-      imageUrl: images.SingaporeSmartNationCaseStudy
+      imageUrl: images.SingaporeSmartNationCaseStudy,
       // classname: "bannerContentImageWithMultiply1",
     },
     marketPlaceDescription: {
       heading: "Singapore Smart Nation",
-      subheading: "Bridging the Gap in Digital Transformation and Collaboration",
+      subheading:
+        "Bridging the Gap in Digital Transformation and Collaboration",
       description:
         "The Smart Nation Marketplace, powered by Mobius Holacracy, revolutionizes the digital landscape of Singapore by providing a unique Marketplace as a Service. Leveraging the Singapore digital public infrastructure, Whole-of-Government (WOG) APIs, open data and content APIs, and smart IoT systems, the Marketplace facilitates collaboration and innovation across industries, creating a thriving ecosystem of digital solutions.",
       details: [
@@ -2207,7 +2214,7 @@ const marketplaceData = [
           heading: "Collaboration Hub",
           description:
             "Catalyzing Innovation and Collaboration Heading: Empowering Collaboration and Co-Creation Description: The Singapore Smart Nation Marketplace serves as a vibrant collaboration hub where technology providers, solution vendors, government agencies, and citizens come together to collaborate, co-create, and drive innovation. ",
-          imageUrl: images.SingaporeSmartNationCaseStudy 
+          imageUrl: images.SingaporeSmartNationCaseStudy,
         },
         {
           heading: "Digital Solution Repository",
@@ -2257,7 +2264,7 @@ const marketplaceData = [
           heading: "Seamless Integration and Interoperability",
           description:
             "The marketplace enables seamless integration and interoperability of different digital solutions. By adhering to open standards and APIs, cities can easily integrate various technologies and systems, ensuring a cohesive and connected smart city ecosystem.",
-          imageUrl: images.RS2 
+          imageUrl: images.RS2,
         },
         {
           heading: "Transparent and Streamlined Procurement",
@@ -2288,8 +2295,7 @@ const marketplaceData = [
     id: "ksrtc",
     banner: {
       heading: "Marketplace for KSRTC",
-      subheading:
-        "Revolutionizing Kerala's Road Transport Experience",
+      subheading: "Revolutionizing Kerala's Road Transport Experience",
       description:
         "The Mobius Marketplace for KSRTC brings a new era of digital transformation to Kerala's road transport landscape. Built on the powerful Nexus Connect platform, this marketplace enables KSRTC to connect with passengers, service providers, and other stakeholders, fostering collaboration and enhancing the overall travel experience.",
       getStartedUrl: "",
@@ -2307,7 +2313,7 @@ const marketplaceData = [
           heading: "Passenger Engagement Suite",
           description:
             "The marketplace enables seamless integration and interoperability of different digital solutions. By adhering to open standards and APIs, cities can easily integrate various technologies and systems, ensuring a cohesive and connected smart city ecosystem.",
-          imageUrl: images.k2 
+          imageUrl: images.k2,
         },
         {
           heading: "Smart Ticketing and Payment ",
@@ -2357,7 +2363,7 @@ const marketplaceData = [
           heading: "Commuter Engagement",
           description:
             "Real-time Updates and Personalized Content The Bangalore Metro Marketplace introduced Mobius Intelligent Applications (MIAs) to provide real-time updates, news, and information to commuters.",
-          imageUrl: images.BLR2 ,
+          imageUrl: images.BLR2,
         },
         {
           heading: "Targeted Advertising",
@@ -2376,15 +2382,13 @@ const marketplaceData = [
     description:
       "The Bangalore Metro Marketplace, powered by Nexus Connect, successfully transformed the way commuters engage with the city and provided businesses with unique opportunities for advertising and monetization. By connecting commuters and businesses through interactive MIAs and targeted advertisements, the marketplace enhanced the overall metro experience while driving brand engagement.",
     casestudy: {
-      heading:
-        "Case Study : Transforming Commuter Engagement",
+      heading: "Case Study : Transforming Commuter Engagement",
       description:
         "The Bangalore Metro Network sought to enhance commuter engagement and unlock new avenues for monetization through advertising opportunities. The challenge was to leverage the vast reach and connectivity of the metro network to connect businesses and advertisers with a captive audience of commuters,",
       downloadLink: "",
       imageUrl: images.BLR5,
     },
-  }
-
+  },
 ];
 
 const productsData = [
@@ -2397,7 +2401,7 @@ const productsData = [
         "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Nexus Connect Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
       imageUrl: images.ZoomBotBanner,
       bookDemoUrl: "",
-      viewDemoUrl:images.ce2,
+      viewDemoUrl: images.ce2,
     },
     features: [
       {
@@ -2512,7 +2516,8 @@ const productsData = [
         "ImpressIO: Elevating Employee Engagement: Leveraging Mobius Low Code Tools",
       paragraph:
         "In today's fast-paced business environment, it is more important than ever to keep your workforce engaged and motivated. Engaged employees are more productive, innovative, and loyal to their organizations. To achieve this, companies need to recognize, reward, and highlight their employees' achievements, issues, and activities in real-time.",
-      imageUrl: images.ImpressIOBanner,
+      // imageUrl: images.ImpressIOBanner,
+      imageUrl: images.DsaasBanner,
       bookDemoUrl: "",
       viewDemoUrl: images2.db8,
     },
@@ -2572,7 +2577,7 @@ const productsData = [
         "DSaaS, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
       imageUrl: images.DsaasBanner,
       bookDemoUrl: "",
-      viewDemoUrl:images.Dsaaspreview,
+      viewDemoUrl: images.Dsaaspreview,
     },
     features: [
       {
@@ -2802,8 +2807,7 @@ const productsData = [
   {
     id: "fra",
     banner: {
-      heading:
-        "Aegis: Enhancing Emergency Response Efficiency",
+      heading: "Aegis: Enhancing Emergency Response Efficiency",
       paragraph:
         "Mobius Consulting's Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, first responders can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
       imageUrl: images.FraBanner,
@@ -2861,8 +2865,7 @@ const productsData = [
   {
     id: "resume-processing",
     banner: {
-      heading:
-        "ResumeBot: Automated Resume Processing",
+      heading: "ResumeBot: Automated Resume Processing",
       paragraph:
         "Streamline your recruitment process with ResumeBot, an AI-powered solution that automates resume parsing, data extraction, and candidate profile creation. Save time and effort while ensuring accurate and consistent resume processing.",
       imageUrl: images.ResumeProcessingBanner,
@@ -2920,8 +2923,7 @@ const productsData = [
   {
     id: "interview-experiencing",
     banner: {
-      heading:
-        "InterviewPro: Enhancing Candidate Experience",
+      heading: "InterviewPro: Enhancing Candidate Experience",
       paragraph:
         "Elevate your candidate experience with InterviewPro, a comprehensive solution that enables seamless scheduling, virtual interviews, and real-time feedback. Improve communication, collaboration, and overall candidate satisfaction.",
       imageUrl: images.InterviewExperienceBanner,
@@ -2979,8 +2981,7 @@ const productsData = [
   {
     id: "vani-hd-radio",
     banner: {
-      heading:
-        "Elevate Radio Listening Experience",
+      heading: "Elevate Radio Listening Experience",
       paragraph:
         "Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
       imageUrl: images.VaniHDRadioBanner,
@@ -3028,7 +3029,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Revolutionizing Radio Listening: Hear. Here. Enhances the Broadcasting Experience",
+      heading:
+        "Revolutionizing Radio Listening: Hear. Here. Enhances the Broadcasting Experience",
       paragraph:
         "Acoustic Waves Broadcasting, a leading player in the broadcasting industry, aimed to elevate the radio listening experience for their audience. They recognized the growing demand for high-quality audio and interactive features in radio broadcasts and sought a solution to deliver immersive content while maintaining their industry-leading position.",
       imageUrl: images.VaniHDCasestudy,
@@ -3087,7 +3089,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Empowering Charitable Giving: The AmplyFund Drives Fundraising Success",
+      heading:
+        "Empowering Charitable Giving: The AmplyFund Drives Fundraising Success",
       paragraph:
         "Harmony Broadcasting Network, a reputable broadcaster in the industry, recognized the importance of supporting local communities and driving philanthropic initiatives. They aimed to create a platform that seamlessly integrated fundraising efforts with their broadcasting capabilities, empowering viewers to contribute to meaningful causes while enjoying their favorite TV programs.",
       imageUrl: images.GivingAPPCasestudy,
@@ -3097,8 +3100,7 @@ const productsData = [
   {
     id: "iab-ad-bundle",
     banner: {
-      heading:
-        "Maximize Ad Campaign Performance",
+      heading: "Maximize Ad Campaign Performance",
       paragraph:
         "Optimize ad campaign performance with our IAB Ad Bundle MIA, delivering targeted and engaging advertising experiences on NextGenTV platforms",
       imageUrl: images.IABAdBundleBanner,
@@ -3146,7 +3148,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "IAB Ad Bundle MIA Empowering Digital Advertising for MediaMax Broadcasting Company",
+      heading:
+        "IAB Ad Bundle MIA Empowering Digital Advertising for MediaMax Broadcasting Company",
       paragraph:
         "MediaMax Broadcasting Company, a prominent media and broadcasting company, faced the challenge of maximizing ad campaign performance and revenue generation on their NextGenTV platforms. They needed a solution that would enable them to deliver targeted and engaging advertising experiences while ensuring compliance with Interactive.",
       imageUrl: images.IABAdBundleCasestudy,
@@ -3156,8 +3159,7 @@ const productsData = [
   {
     id: "nextgentv-launcher-app",
     banner: {
-      heading:
-        "Seamless Content Access on NextGenTV",
+      heading: "Seamless Content Access on NextGenTV",
       paragraph:
         "Provide a seamless content discovery experience with our NextGenTV Launcher MIA, allowing viewers to easily access and explore available content. An MIA that serves as the user interface and launching platform for NextGenTV applications, channels, and content.",
       imageUrl: images.NextGenTvLauncherAppBanner,
@@ -3215,8 +3217,7 @@ const productsData = [
   {
     id: "offer-genius",
     banner: {
-      heading:
-        "OfferGenius: Simplifying Offer Management",
+      heading: "OfferGenius: Simplifying Offer Management",
       paragraph:
         "Simplify and streamline your offer management process with OfferGenius. From generating offer letters to managing negotiations and approvals, this solution ensures a seamless and efficient offer journey for both candidates and hiring teams.",
       imageUrl: images.OfferGeniusBanner,
@@ -3274,8 +3275,7 @@ const productsData = [
   {
     id: "onboarding",
     banner: {
-      heading:
-        "OnboardConnect: Seamless Employee Onboarding",
+      heading: "OnboardConnect: Seamless Employee Onboarding",
       paragraph:
         "Transform your onboarding process with OnboardConnect, a centralized platform that facilitates smooth employee onboarding. From document collection to task assignments and orientation programs, ensure a positive and engaging onboarding experience.",
       imageUrl: images.OnboardingBanner,
@@ -3333,8 +3333,7 @@ const productsData = [
   {
     id: "goalalign",
     banner: {
-      heading:
-        "GoalAlign: Agile Goal Setting & Tracking",
+      heading: "GoalAlign: Agile Goal Setting & Tracking",
       paragraph:
         "Drive performance and alignment with GoalAlign, a powerful goal-setting tool. Define SMART goals, track progress, provide feedback, and foster a culture of continuous improvement and accountability",
       imageUrl: images.GoalAlignBanner,
@@ -3392,8 +3391,7 @@ const productsData = [
   {
     id: "attendance-and-leaves",
     banner: {
-      heading:
-        "TimeTrack: Simplified Attendance & Leave Management",
+      heading: "TimeTrack: Simplified Attendance & Leave Management",
       paragraph:
         "Take control of attendance and leave management with TimeTrack. Automate attendance tracking, streamline leave requests and approvals, and ensure accurate and efficient management of employee time off.",
       imageUrl: images.AttendanceAndLeavesBanner,
@@ -3451,8 +3449,7 @@ const productsData = [
   {
     id: "rewards-and-recognition",
     banner: {
-      heading:
-        "RecognitionPlus: Empowering Employee Appreciation",
+      heading: "RecognitionPlus: Empowering Employee Appreciation",
       paragraph:
         "Foster a culture of recognition and appreciation with RecognitionPlus. Enable employees to give and receive recognition, track achievements, and celebrate milestones to boost employee morale and engagement.",
       imageUrl: images.RewardsAndRecognitionBanner,
@@ -3510,8 +3507,7 @@ const productsData = [
   {
     id: "employee-branding",
     banner: {
-      heading:
-        "BrandCraft: Elevating Your Employer Brand",
+      heading: "BrandCraft: Elevating Your Employer Brand",
       paragraph:
         "Enhance your employer brand with BrandCraft, a comprehensive solution for employee branding. From designing compelling career pages to managing employee testimonials, showcase your unique culture and attract top talent.",
       imageUrl: images.EmployeeBrandingBanner,
@@ -3569,8 +3565,7 @@ const productsData = [
   {
     id: "opsmax",
     banner: {
-      heading:
-        "OpsMax: Simplifying Employee Stock Option Plans (ESOPs)",
+      heading: "OpsMax: Simplifying Employee Stock Option Plans (ESOPs)",
       paragraph:
         "Launch and manage your ESOPs quickly and efficiently with OpsMax. This powerful platform simplifies the ESOPs process for small and medium enterprises, providing an intuitive interface and automated compliance checks.",
       imageUrl: images.OpsMaxBanner,
@@ -3628,8 +3623,7 @@ const productsData = [
   {
     id: "organisation-key-responsibilities",
     banner: {
-      heading:
-        "OKRAlign: Strategic Goal Alignment",
+      heading: "OKRAlign: Strategic Goal Alignment",
       paragraph:
         "Align organizational goals with individual objectives using OKRAlign. Cascade objectives, track progress, and foster transparency and alignment across teams for better performance and results.",
       imageUrl: images.OrganisationkeyResponsibilitiesBanner,
@@ -3687,8 +3681,7 @@ const productsData = [
   {
     id: "org-modelling",
     banner: {
-      heading:
-        "OrgDesigner: Agile Organizational Design",
+      heading: "OrgDesigner: Agile Organizational Design",
       paragraph:
         "Optimize your organizational structure and design with OrgDesigner. Visualize and simulate different organizational models, assess impacts, and make informed decisions for better agility and efficiency.",
       imageUrl: images.OrgModellingBanner,
@@ -3746,8 +3739,7 @@ const productsData = [
   {
     id: "leadership",
     banner: {
-      heading:
-        "LeadImpact: Empowering Effective Leadership",
+      heading: "LeadImpact: Empowering Effective Leadership",
       paragraph:
         "Develop strong leaders with LeadImpact. Provide leadership development programs, coaching, and resources to foster effective leadership behaviors and drive organizational success.",
       imageUrl: images.LeadershipBanner,
@@ -3805,8 +3797,7 @@ const productsData = [
   {
     id: "budget-planning",
     banner: {
-      heading:
-        "BudgetMaster: Streamlined Budgeting Process",
+      heading: "BudgetMaster: Streamlined Budgeting Process",
       paragraph:
         "Simplify and streamline your budget planning with BudgetMaster. Collaborate, forecast, and track budgets in real-time, ensuring financial stability and effective resource allocation",
       imageUrl: images.BudgetPlanningBanner,
@@ -3854,7 +3845,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "BudgetMaster: Revolutionizing Budget Planning at JYD Corporation",
+      heading:
+        "BudgetMaster: Revolutionizing Budget Planning at JYD Corporation",
       paragraph:
         "JYD Corporation, a leading manufacturing company, faced challenges in streamlining their budget planning process. The manual and fragmented approach to budgeting resulted in inefficiencies, delays, and a lack of visibility into budget performance. They sought a solution that would simplify and optimize their budget planning activities while ensuring accurate resource allocation and financial stability.",
       imageUrl: images.BudgetPlanningCasestudy,
@@ -3864,8 +3856,7 @@ const productsData = [
   {
     id: "performance-management",
     banner: {
-      heading:
-        "PerformancePlus: Optimizing Performance Management",
+      heading: "PerformancePlus: Optimizing Performance Management",
       paragraph:
         "Drive performance excellence with PerformancePlus. Enable continuous feedback, performance reviews, and goal tracking to enhance individual and team performance.",
       imageUrl: images.PerformanceManagementBanner,
@@ -3913,7 +3904,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Transforming Performance Management at HTG Corporation: A Case Study",
+      heading:
+        "Transforming Performance Management at HTG Corporation: A Case Study",
       paragraph:
         "HTG Corporation, a leading technology company, faced challenges in effectively managing and optimizing their performance management process. The existing system was manual, time-consuming, and lacked transparency. Managers struggled to align employee goals with organizational objectives, provide timely feedback, and track performance.",
       imageUrl: images.PerformanceManagementCasestudy,
@@ -3923,8 +3915,7 @@ const productsData = [
   {
     id: "skill-gap-analysis",
     banner: {
-      heading:
-        "SkillInsight: Unlocking Skills Potential",
+      heading: "SkillInsight: Unlocking Skills Potential",
       paragraph:
         "Identify and address skill gaps with SkillInsight. Assess employee skills, provide personalized development plans, and track skill enhancement to align talent capabilities with business needs.",
       imageUrl: images.SkillGapAnalysisBanner,
@@ -3972,7 +3963,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Closing Skill Gaps for Success: A Case Study with UTP Corporation",
+      heading:
+        "Closing Skill Gaps for Success: A Case Study with UTP Corporation",
       paragraph:
         "UTP Corporation, a leading manufacturing company, faced a significant challenge in identifying and addressing skill gaps within their workforce. The rapid advancement of technology and evolving industry demands necessitated a comprehensive skill gap analysis to ensure employees possessed the necessary competencies for success. However, the manual and fragmented process of identifying skill gaps hindered the company's ability to effectively upskill employees and meet evolving business needs.",
       imageUrl: images.SkillGapAnalysisCasestudy,
@@ -3982,8 +3974,7 @@ const productsData = [
   {
     id: "learning-plan",
     banner: {
-      heading:
-        "LearnMax: Personalised Learning Journeys",
+      heading: "LearnMax: Personalised Learning Journeys",
       paragraph:
         "Maximize learning potential with LearnMax. Create personalized learning paths, deliver engaging content, and track progress to foster a culture of continuous learning and development.",
       imageUrl: images.LearningPlanBanner,
@@ -4031,7 +4022,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Empowering Lifelong Learning: A Case Study with CFP Corporation",
+      heading:
+        "Empowering Lifelong Learning: A Case Study with CFP Corporation",
       paragraph:
         "CFP Corporation, a prominent technology company, faced a critical challenge in effectively managing and optimizing their employees' learning and development plans. With a rapidly evolving industry landscape and the need for upskilling and reskilling, CFP Corporation recognized the importance of creating personalized learning pathways for each employee.",
       imageUrl: images.LearningPlanCasestudy,
@@ -4041,8 +4033,7 @@ const productsData = [
   {
     id: "eventtrack-simplified-learning-event-management",
     banner: {
-      heading:
-        "EventTrack: Simplified Learning Event Management",
+      heading: "EventTrack: Simplified Learning Event Management",
       paragraph:
         "Manage and track learning events with EventTrack. Schedule, register, and track attendance for workshops, webinars, and training sessions, ensuring a smooth and seamless learning experience.",
       imageUrl: images.EventTrackBanner,
@@ -4090,7 +4081,8 @@ const productsData = [
       },
     ],
     case_study: {
-      heading: "Optimizing Learning Schedules: A Case Study with HVS Corporation",
+      heading:
+        "Optimizing Learning Schedules: A Case Study with HVS Corporation",
       paragraph:
         "HVS Corporation, a leading manufacturing company, faced a significant challenge in efficiently managing their employees' learning schedules. With a diverse workforce and a wide range of training programs, HVS Corporation struggled to coordinate and optimize the scheduling of learning activities. This led to conflicts, overlapping sessions, and difficulties in ensuring maximum participation and engagement.",
       imageUrl: images.EventTrackCasestudy,
@@ -4100,1247 +4092,1236 @@ const productsData = [
   {
     id: "salary-calculations",
     banner: {
-        heading:
-            "PayWise: Accurate Salary Calculation",
-        paragraph:
-            "Streamline salary calculations with PayWise. Automate payroll calculations, deductions, and reimbursements, ensuring accurate and timely salary processing for employees. The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately.",
-        imageUrl: images.SalaryCalculationsBanner,
-        bookDemoUrl: "",
-        viewDemoUrl: images.SalaryCalculationsPreview,
+      heading: "PayWise: Accurate Salary Calculation",
+      paragraph:
+        "Streamline salary calculations with PayWise. Automate payroll calculations, deductions, and reimbursements, ensuring accurate and timely salary processing for employees. The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately.",
+      imageUrl: images.SalaryCalculationsBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.SalaryCalculationsPreview,
     },
     features: [
-        {
-            heading: "Employee Data Management",
-            paragraph:
-                "The Salary Calculation MIA securely stores and manages employee data, including salary details, deductions, benefits, and tax information. It provides a centralized database that HR and payroll teams can easily access and update as needed.",
-            imageUrl: images.SalaryCalculationsFeature1,
-        },
-        {
-            heading: "Tax Calculation and Compliance",
-            paragraph:
-                "The MIA incorporates tax rules and regulations, automatically calculating employee taxes based on applicable tax rates, allowances, and deductions. It ensures compliance with tax laws and minimizes the risk of errors in tax calculations.",
-            imageUrl: images.SalaryCalculationsFeature2,
-        },
-        {
-            heading: "Flexible Salary Components",
-            paragraph:
-                "The MIA offers flexibility in defining and managing salary components. HR teams can set up custom components such as allowances, bonuses, incentives, and benefits specific to the organization's policies and compensation structure.",
-            imageUrl: images.SalaryCalculationsFeature3,
-        },
+      {
+        heading: "Employee Data Management",
+        paragraph:
+          "The Salary Calculation MIA securely stores and manages employee data, including salary details, deductions, benefits, and tax information. It provides a centralized database that HR and payroll teams can easily access and update as needed.",
+        imageUrl: images.SalaryCalculationsFeature1,
+      },
+      {
+        heading: "Tax Calculation and Compliance",
+        paragraph:
+          "The MIA incorporates tax rules and regulations, automatically calculating employee taxes based on applicable tax rates, allowances, and deductions. It ensures compliance with tax laws and minimizes the risk of errors in tax calculations.",
+        imageUrl: images.SalaryCalculationsFeature2,
+      },
+      {
+        heading: "Flexible Salary Components",
+        paragraph:
+          "The MIA offers flexibility in defining and managing salary components. HR teams can set up custom components such as allowances, bonuses, incentives, and benefits specific to the organization's policies and compensation structure.",
+        imageUrl: images.SalaryCalculationsFeature3,
+      },
     ],
     benefits: [
-        {
-            heading: "Time and Cost Savings",
-            paragraph:
-                "The Salary Calculation MIA significantly reduces the time and effort required for manual salary calculations. It automates the process, eliminating the need for manual data entry and complex calculations, saving valuable HR and payroll resources.",
-            imageUrl: images.SalaryCalculationsBenefits1,
-        },
-        {
-            heading: "Accuracy and Compliance",
-            paragraph:
-                "By automating salary calculations and tax deductions, the MIA ensures accuracy and compliance with payroll regulations. It minimizes the risk of errors, eliminates manual calculation discrepancies, and maintains accurate payroll records.",
-            imageUrl: images.SalaryCalculationsBenefits2,
-        },
-        {
-            heading: "Scalability and Adaptability",
-            paragraph:
-                "The Salary Calculation MIA is designed to accommodate changes in salary structures, tax regulations, and organizational policies. It offers scalability and adaptability, making it easy to adjust salary components, tax rates, and deductions as needed.",
-            imageUrl: images.SalaryCalculationsBenefits3,
-        },
+      {
+        heading: "Time and Cost Savings",
+        paragraph:
+          "The Salary Calculation MIA significantly reduces the time and effort required for manual salary calculations. It automates the process, eliminating the need for manual data entry and complex calculations, saving valuable HR and payroll resources.",
+        imageUrl: images.SalaryCalculationsBenefits1,
+      },
+      {
+        heading: "Accuracy and Compliance",
+        paragraph:
+          "By automating salary calculations and tax deductions, the MIA ensures accuracy and compliance with payroll regulations. It minimizes the risk of errors, eliminates manual calculation discrepancies, and maintains accurate payroll records.",
+        imageUrl: images.SalaryCalculationsBenefits2,
+      },
+      {
+        heading: "Scalability and Adaptability",
+        paragraph:
+          "The Salary Calculation MIA is designed to accommodate changes in salary structures, tax regulations, and organizational policies. It offers scalability and adaptability, making it easy to adjust salary components, tax rates, and deductions as needed.",
+        imageUrl: images.SalaryCalculationsBenefits3,
+      },
     ],
     case_study: {
-        heading: "SalaryPlus: Simplifying Salary Calculation and Payroll Management",
-        paragraph:
-            "Acme Corporation, a leading manufacturing company, faced challenges in managing their complex salary calculation and payroll processes. With a large workforce, varying pay structures, and frequent changes in tax regulations, their manual payroll management system became time-consuming, error-prone, and inefficient.",
-        imageUrl: images.SalaryCalculationsCasestudy,
-        downloadUrl: ""
-    }
-},
-{
-  id: "bonus-calculations",
-  banner: {
       heading:
-          "BonusPlus: Streamlined Bonus Management",
+        "SalaryPlus: Simplifying Salary Calculation and Payroll Management",
       paragraph:
-          "Simplify bonus calculations and distributions with BonusPlus. Configure bonus schemes, calculate performance-based incentives, and automate bonus payout processes.",
+        "Acme Corporation, a leading manufacturing company, faced challenges in managing their complex salary calculation and payroll processes. With a large workforce, varying pay structures, and frequent changes in tax regulations, their manual payroll management system became time-consuming, error-prone, and inefficient.",
+      imageUrl: images.SalaryCalculationsCasestudy,
+      downloadUrl: "",
+    },
+  },
+  {
+    id: "bonus-calculations",
+    banner: {
+      heading: "BonusPlus: Streamlined Bonus Management",
+      paragraph:
+        "Simplify bonus calculations and distributions with BonusPlus. Configure bonus schemes, calculate performance-based incentives, and automate bonus payout processes.",
       imageUrl: images.BonusCalculationsBanner,
       bookDemoUrl: "",
       viewDemoUrl: images.BonusCalculationsPreview,
-  },
-  features: [
+    },
+    features: [
       {
-          heading: "Performance Metric Tracking",
-          paragraph:
-              "The Bonus Calculations MIA allows HR teams to define performance metrics and criteria for bonus calculations. It enables the tracking of individual and team performance, including key performance indicators (KPIs) and other metrics, to determine bonus eligibility.",
-          imageUrl: images.BonusCalculationsFeature1,
+        heading: "Performance Metric Tracking",
+        paragraph:
+          "The Bonus Calculations MIA allows HR teams to define performance metrics and criteria for bonus calculations. It enables the tracking of individual and team performance, including key performance indicators (KPIs) and other metrics, to determine bonus eligibility.",
+        imageUrl: images.BonusCalculationsFeature1,
       },
       {
-          heading: "Flexible Bonus Structures",
-          paragraph:
-              "The MIA offers flexibility in defining bonus structures, allowing organizations to customize bonus plans based on specific business goals, departments, or individual performance. It supports different bonus types, such as performance-based, profit-sharing, or discretionary bonuses.",
-          imageUrl: images.BonusCalculationsFeature2,
+        heading: "Flexible Bonus Structures",
+        paragraph:
+          "The MIA offers flexibility in defining bonus structures, allowing organizations to customize bonus plans based on specific business goals, departments, or individual performance. It supports different bonus types, such as performance-based, profit-sharing, or discretionary bonuses.",
+        imageUrl: images.BonusCalculationsFeature2,
       },
       {
-          heading: "Reporting and Analytics",
-          paragraph:
-              "The MIA provides comprehensive reporting and analytics capabilities, allowing HR teams to track bonus payouts, analyze bonus trends, and gain insights into the effectiveness of bonus programs. It enables data-driven decision-making and helps organizations optimize their bonus strategies",
-          imageUrl: images.BonusCalculationsFeature3,
+        heading: "Reporting and Analytics",
+        paragraph:
+          "The MIA provides comprehensive reporting and analytics capabilities, allowing HR teams to track bonus payouts, analyze bonus trends, and gain insights into the effectiveness of bonus programs. It enables data-driven decision-making and helps organizations optimize their bonus strategies",
+        imageUrl: images.BonusCalculationsFeature3,
       },
-  ],
-  benefits: [
+    ],
+    benefits: [
       {
-          heading: "Streamlined Bonus Calculation Process",
-          paragraph:
-              "The Bonus Calculations MIA eliminates manual and time-consuming calculations, streamlining the bonus calculation process. It saves valuable HR resources and ensures consistent and accurate bonus payouts.",
-          imageUrl: images.BonusCalculationsBenefits1,
-      },
-      {
-          heading: "Motivated and Engaged Employees",
-          paragraph:
-              "By providing a fair and transparent bonus calculation process, the MIA enhances employee motivation and engagement. It recognizes and rewards high performers, driving performance and fostering a positive work culture.",
-          imageUrl: images.BonusCalculationsBenefits2,
+        heading: "Streamlined Bonus Calculation Process",
+        paragraph:
+          "The Bonus Calculations MIA eliminates manual and time-consuming calculations, streamlining the bonus calculation process. It saves valuable HR resources and ensures consistent and accurate bonus payouts.",
+        imageUrl: images.BonusCalculationsBenefits1,
       },
       {
-          heading: "Customized Bonus Plans",
-          paragraph:
-              "The MIA allows organizations to tailor bonus plans to their unique requirements. It enables the creation of customized bonus structures aligned with organizational goals, promoting desired behaviors and outcomes.",
-          imageUrl: images.BonusCalculationsBenefits3,
+        heading: "Motivated and Engaged Employees",
+        paragraph:
+          "By providing a fair and transparent bonus calculation process, the MIA enhances employee motivation and engagement. It recognizes and rewards high performers, driving performance and fostering a positive work culture.",
+        imageUrl: images.BonusCalculationsBenefits2,
       },
-  ],
-  case_study: {
-      heading: "BonusPlus: Optimizing Bonus Calculation and Incentive Management",
+      {
+        heading: "Customized Bonus Plans",
+        paragraph:
+          "The MIA allows organizations to tailor bonus plans to their unique requirements. It enables the creation of customized bonus structures aligned with organizational goals, promoting desired behaviors and outcomes.",
+        imageUrl: images.BonusCalculationsBenefits3,
+      },
+    ],
+    case_study: {
+      heading:
+        "BonusPlus: Optimizing Bonus Calculation and Incentive Management",
       paragraph:
-          "Acme Corporation, a leading manufacturing company, faced challenges in managing their complex salary calculation and payroll processes. With a large workforce, varying pay structures, and frequent changes in tax regulations, their manual payroll management system became time-consuming, error-prone, and inefficient.",
+        "Acme Corporation, a leading manufacturing company, faced challenges in managing their complex salary calculation and payroll processes. With a large workforce, varying pay structures, and frequent changes in tax regulations, their manual payroll management system became time-consuming, error-prone, and inefficient.",
       imageUrl: images.BonusCalculationsCasestudy,
-      downloadUrl: ""
-  }
-},
-{
-  id: "expense-and-reimbursements",
-  banner: {
-    heading:
-      "Effortless Expense Management",
-    paragraph:
-      "Streamline expense management with ExpenseEase. Capture and track expenses, simplify reimbursement processes, and ensure compliance with expense policies for a hassle-free experience.",
-    imageUrl: images.ExpenseAndReemburismentBanner,
-    bookDemoUrl: "",
-    viewDemoUrl: images.ExpenseAndReemburismentPreview,
+      downloadUrl: "",
+    },
   },
-  features: [
-    {
-      heading: "Expense Claim Submission",
+  {
+    id: "expense-and-reimbursements",
+    banner: {
+      heading: "Effortless Expense Management",
       paragraph:
-        "The Expense & Reimbursements MIA allows employees to submit their expense claims easily and conveniently. It provides a user-friendly interface for capturing expense details, attaching relevant receipts, and categorizing expenses according to predefined expense categories.",
-      imageUrl: images.ExpenseAndReemburismentBannerFeature1,
+        "Streamline expense management with ExpenseEase. Capture and track expenses, simplify reimbursement processes, and ensure compliance with expense policies for a hassle-free experience.",
+      imageUrl: images.ExpenseAndReemburismentBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.ExpenseAndReemburismentPreview,
     },
-    {
-      heading: "Automated Expense Reimbursements",
+    features: [
+      {
+        heading: "Expense Claim Submission",
+        paragraph:
+          "The Expense & Reimbursements MIA allows employees to submit their expense claims easily and conveniently. It provides a user-friendly interface for capturing expense details, attaching relevant receipts, and categorizing expenses according to predefined expense categories.",
+        imageUrl: images.ExpenseAndReemburismentBannerFeature1,
+      },
+      {
+        heading: "Automated Expense Reimbursements",
+        paragraph:
+          "The MIA automates the process of expense reimbursements, eliminating manual calculations and paperwork. It calculates reimbursement amounts based on approved claims and predefined reimbursement policies, ensuring accurate and timely reimbursements to employees.",
+        imageUrl: images.ExpenseAndReemburismentBannerFeature2,
+      },
+      {
+        heading: "Integration with Financial Systems",
+        paragraph:
+          "The Expense & Reimbursements MIA seamlessly integrates with financial systems, enabling direct transfer of reimbursement funds to employees' bank accounts. It eliminates the need for manual data entry, reduces errors, and ensures efficient financial management.",
+        imageUrl: images.ExpenseAndReemburismentBannerFeature3,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Streamlined Expense Management",
+        paragraph:
+          "The Expense & Reimbursements MIA simplifies and streamlines the entire expense management process, from claim submission to reimbursement. It saves time, reduces administrative burdens, and improves overall efficiency.",
+        imageUrl: images.ExpenseAndReemburismentBannerBenefits1,
+      },
+      {
+        heading: "Policy Compliance",
+        paragraph:
+          "By enforcing predefined expense policies and approval workflows, the MIA ensures compliance with organizational guidelines. It helps organizations maintain control over expenses, prevent fraudulent claims, and adhere to regulatory requirements.",
+        imageUrl: images.ExpenseAndReemburismentBannerBenefits2,
+      },
+      {
+        heading: "Cost Control and Analysis",
+        paragraph:
+          "The robust reporting and analytics capabilities of the MIA enable organizations to gain insights into expense patterns, identify areas of excessive spending, and implement cost-saving measures. It supports data-driven decision-making for better expense control.",
+        imageUrl: images.ExpenseAndReemburismentBannerBenefits3,
+      },
+    ],
+    case_study: {
+      heading: "ExpenseEase: Simplifying Expense Management and Reimbursements",
       paragraph:
-        "The MIA automates the process of expense reimbursements, eliminating manual calculations and paperwork. It calculates reimbursement amounts based on approved claims and predefined reimbursement policies, ensuring accurate and timely reimbursements to employees.",
-      imageUrl: images.ExpenseAndReemburismentBannerFeature2,
+        "GTX Corporation, a prominent manufacturing company, faced challenges in managing their expense management and reimbursement processes. With a large workforce and frequent business travel, their manual expense tracking and reimbursement system became time-consuming, prone to errors, and lacked visibility.",
+      imageUrl: images.ExpenseAndReemburismentBannerCasestudy,
+      downloadUrl: "",
     },
-    {
-      heading: "Integration with Financial Systems",
-      paragraph:
-        "The Expense & Reimbursements MIA seamlessly integrates with financial systems, enabling direct transfer of reimbursement funds to employees' bank accounts. It eliminates the need for manual data entry, reduces errors, and ensures efficient financial management.",
-      imageUrl: images.ExpenseAndReemburismentBannerFeature3,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Streamlined Expense Management",
-      paragraph:
-        "The Expense & Reimbursements MIA simplifies and streamlines the entire expense management process, from claim submission to reimbursement. It saves time, reduces administrative burdens, and improves overall efficiency.",
-      imageUrl: images.ExpenseAndReemburismentBannerBenefits1,
-    },
-    {
-      heading: "Policy Compliance",
-      paragraph:
-        "By enforcing predefined expense policies and approval workflows, the MIA ensures compliance with organizational guidelines. It helps organizations maintain control over expenses, prevent fraudulent claims, and adhere to regulatory requirements.",
-      imageUrl: images.ExpenseAndReemburismentBannerBenefits2,
-    },
-    {
-      heading: "Cost Control and Analysis",
-      paragraph:
-        "The robust reporting and analytics capabilities of the MIA enable organizations to gain insights into expense patterns, identify areas of excessive spending, and implement cost-saving measures. It supports data-driven decision-making for better expense control.",
-      imageUrl: images.ExpenseAndReemburismentBannerBenefits3,
-    },
-  ],
-  case_study: {
-    heading: "ExpenseEase: Simplifying Expense Management and Reimbursements",
-    paragraph:
-      "GTX Corporation, a prominent manufacturing company, faced challenges in managing their expense management and reimbursement processes. With a large workforce and frequent business travel, their manual expense tracking and reimbursement system became time-consuming, prone to errors, and lacked visibility.",
-    imageUrl: images.ExpenseAndReemburismentBannerCasestudy,
-    downloadUrl: ""
-  }
-},
-{
-  id: "open-fema",
-  banner: {
-    heading:
-      "OpenFEMA App: Empowering NextGenTV Broadcasters in Crisis Response",
-    paragraph:
-      "The OpenFEMA App, powered by Nexus Connect, revolutionizes emergency management communications for NextGenTV broadcasters. This real-time, multicast delivery app enables rapid deployment during crises, connecting stakeholders and facilitating efficient coordination in times of need.",
-    imageUrl: images.OpenFemaBanner,
-    bookDemoUrl: "",
-    viewDemoUrl: images.OpenFemaPreview,
   },
-  features: [
-    {
-      heading: "Accurate Real-time Information",
+  {
+    id: "open-fema",
+    banner: {
+      heading:
+        "OpenFEMA App: Empowering NextGenTV Broadcasters in Crisis Response",
       paragraph:
-        "The OpenFEMA App utilizes PI to gather and process data from multiple sources, providing up-to-date information to the public and emergency response teams. It tracks the movement of responders, ensuring efficient deployment and resource allocation during emergencies.",
-      imageUrl: images.OpenFemaFeature1,
+        "The OpenFEMA App, powered by Nexus Connect, revolutionizes emergency management communications for NextGenTV broadcasters. This real-time, multicast delivery app enables rapid deployment during crises, connecting stakeholders and facilitating efficient coordination in times of need.",
+      imageUrl: images.OpenFemaBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.OpenFemaPreview,
     },
-    {
-      heading: "Streamlined Workflow Automation",
+    features: [
+      {
+        heading: "Accurate Real-time Information",
+        paragraph:
+          "The OpenFEMA App utilizes PI to gather and process data from multiple sources, providing up-to-date information to the public and emergency response teams. It tracks the movement of responders, ensuring efficient deployment and resource allocation during emergencies.",
+        imageUrl: images.OpenFemaFeature1,
+      },
+      {
+        heading: "Streamlined Workflow Automation",
+        paragraph:
+          "BoB automates and orchestrates workflows and communications among various stakeholders, including governments, nonprofits, and communities. It simplifies status updates, alerts, and coordination, keeping everyone informed and connected during crises.",
+        imageUrl: images.OpenFemaFeature2,
+      },
+      {
+        heading: "Customizable Low-code Development",
+        paragraph:
+          "Monét's low-code tools empower broadcasters to quickly customize the OpenFEMA App for specific local needs. It enables targeted emergency information dissemination, ensuring relevant updates reach each community promptly and effectively.",
+        imageUrl: images.OpenFemaFeature3,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Emergency Response Coordination",
+        paragraph:
+          "By leveraging the OpenFEMA App, broadcasters can facilitate efficient communication and coordination among stakeholders. It improves emergency response coordination, allowing for quick deployment of resources and timely dissemination of critical information.",
+        imageUrl: images.OpenFemaBenefits1,
+      },
+      {
+        heading: "Timely and Accurate Information Dissemination",
+        paragraph:
+          "The OpenFEMA App, powered by Nexus Connect, enables broadcasters to deliver real-time information across multiple platforms. It ensures that affected populations receive vital updates on evacuation routes, shelter locations, and resource availability.",
+        imageUrl: images.OpenFemaBenefits2,
+      },
+      {
+        heading: "Seamless Collaboration and Resource Sharing",
+        paragraph:
+          "Through Holacracy's collaborative marketplace, the OpenFEMA App facilitates alliances between broadcasters and emergency management partners. It ensures a seamless flow of information and resources.",
+        imageUrl: images.OpenFemaBenefits3,
+      },
+    ],
+    case_study: {
+      heading:
+        "OpenFEMA App: Transforming Crisis Communication for Broadcasters",
       paragraph:
-        "BoB automates and orchestrates workflows and communications among various stakeholders, including governments, nonprofits, and communities. It simplifies status updates, alerts, and coordination, keeping everyone informed and connected during crises.",
-      imageUrl: images.OpenFemaFeature2,
+        "IPF Broadcasting Network faced challenges in effectively communicating emergency management information during times of crisis. They needed a solution that would enable rapid deployment of emergency communications, facilitate coordination among stakeholders, and ensure accurate and timely information dissemination.",
+      imageUrl: images.OpenFemaCasestudy,
+      downloadUrl: "",
     },
-    {
-      heading: "Customizable Low-code Development",
-      paragraph:
-        "Monét's low-code tools empower broadcasters to quickly customize the OpenFEMA App for specific local needs. It enables targeted emergency information dissemination, ensuring relevant updates reach each community promptly and effectively.",
-      imageUrl: images.OpenFemaFeature3,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Emergency Response Coordination",
-      paragraph:
-        "By leveraging the OpenFEMA App, broadcasters can facilitate efficient communication and coordination among stakeholders. It improves emergency response coordination, allowing for quick deployment of resources and timely dissemination of critical information.",
-      imageUrl: images.OpenFemaBenefits1,
-    },
-    {
-      heading: "Timely and Accurate Information Dissemination",
-      paragraph:
-        "The OpenFEMA App, powered by Nexus Connect, enables broadcasters to deliver real-time information across multiple platforms. It ensures that affected populations receive vital updates on evacuation routes, shelter locations, and resource availability.",
-      imageUrl: images.OpenFemaBenefits2,
-    },
-    {
-      heading: "Seamless Collaboration and Resource Sharing",
-      paragraph:
-        "Through Holacracy's collaborative marketplace, the OpenFEMA App facilitates alliances between broadcasters and emergency management partners. It ensures a seamless flow of information and resources.",
-      imageUrl: images.OpenFemaBenefits3,
-    },
-  ],
-  case_study: {
-    heading: "OpenFEMA App: Transforming Crisis Communication for Broadcasters",
-    paragraph:
-      "IPF Broadcasting Network faced challenges in effectively communicating emergency management information during times of crisis. They needed a solution that would enable rapid deployment of emergency communications, facilitate coordination among stakeholders, and ensure accurate and timely information dissemination.",
-    imageUrl: images.OpenFemaCasestudy,
-    downloadUrl: ""
-  }
-},
-{
-  id: "integrated-command-and-control-system",
-  banner: {
-    heading:
-      "City-wide Control Center",
-    paragraph:
-      "Empower city administrators with a centralized command and control system to monitor and manage various aspects of the city in real-time. Enhance situational awareness, streamline emergency response, and optimize city operations with a comprehensive view of data and analytics. ",
-    imageUrl: images.IntegratedCommandAndControlSystemBanner,
-    bookDemoUrl: "",
-    viewDemoUrl: images.IntegratedCommandAndControlSystemPreview,
   },
-  features: [
-    {
-      heading: "Emergency Response Optimization",
+  {
+    id: "integrated-command-and-control-system",
+    banner: {
+      heading: "City-wide Control Center",
       paragraph:
-        "Streamline emergency response operations by providing instant access to critical information, enabling efficient coordination among emergency services, and facilitating quick deployment of resources. Improve incident management and reduce response times.",
-      imageUrl: images.IntegratedCommandAndControlSystemFeature1,
+        "Empower city administrators with a centralized command and control system to monitor and manage various aspects of the city in real-time. Enhance situational awareness, streamline emergency response, and optimize city operations with a comprehensive view of data and analytics. ",
+      imageUrl: images.IntegratedCommandAndControlSystemBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.IntegratedCommandAndControlSystemPreview,
     },
-    {
-      heading: "Situational Awareness",
+    features: [
+      {
+        heading: "Emergency Response Optimization",
+        paragraph:
+          "Streamline emergency response operations by providing instant access to critical information, enabling efficient coordination among emergency services, and facilitating quick deployment of resources. Improve incident management and reduce response times.",
+        imageUrl: images.IntegratedCommandAndControlSystemFeature1,
+      },
+      {
+        heading: "Situational Awareness",
+        paragraph:
+          "Enhance situational awareness by integrating data from multiple sources. Monitor data from sensors, cameras, social media feeds, and IoT devices to visualize the city's status, detect patterns, and identify anomalies. This empowers proactive response, enables informed decision-making, and improves overall safety and security.",
+        imageUrl: images.IntegratedCommandAndControlSystemFeature2,
+      },
+      {
+        heading: "Real-time Monitoring",
+        paragraph:
+          "Effortlessly monitor and manage various aspects of the city in real-time. Gain insights into traffic flow, public transportation, emergency services, environmental conditions, and more from a centralized dashboard. Stay informed about the city's infrastructure, assets, and services at any given moment.",
+        imageUrl: images.IntegratedCommandAndControlSystemFeature3,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Operational Efficiency",
+        paragraph:
+          "CityConnect enables data-driven decision-making, optimizing city operations and resource allocation. Real-time monitoring and analytics help identify bottlenecks, streamline processes, and improve overall efficiency. ",
+        imageUrl: images.IntegratedCommandAndControlSystemBenefits1,
+      },
+      {
+        heading: "Improved City Safety and Security",
+        paragraph:
+          "With enhanced situational awareness and quick response capabilities, CityConnect significantly improves city safety and security. The integration of data from various sources allows for early detection of potential risks and the ability to respond proactively.",
+        imageUrl: images.IntegratedCommandAndControlSystemBenefits2,
+      },
+      {
+        heading: "Smart and Sustainable City Management",
+        paragraph:
+          "CityConnect promotes collaboration and integration among different city departments and stakeholders. By leveraging existing systems and technologies, the system ensures interoperability and maximizes the value of infrastructure investments.",
+        imageUrl: images.IntegratedCommandAndControlSystemBenefits3,
+      },
+    ],
+    case_study: {
+      heading: "SmartCity360: Empowering Sustainable Urban Management",
       paragraph:
-        "Enhance situational awareness by integrating data from multiple sources. Monitor data from sensors, cameras, social media feeds, and IoT devices to visualize the city's status, detect patterns, and identify anomalies. This empowers proactive response, enables informed decision-making, and improves overall safety and security.",
-      imageUrl: images.IntegratedCommandAndControlSystemFeature2,
+        "Metropolis City faced numerous challenges in managing its growing urban environment efficiently. The city administrators struggled with fragmented data sources, lack of real-time insights, and coordination issues among various departments. They needed a comprehensive solution to streamline city operations, enhance situational awareness, and optimize emergency response for a sustainable and smart city.",
+      imageUrl: images.IntegratedCommandAndControlSystemCasestudy,
+      downloadUrl: "",
     },
-    {
-      heading: "Real-time Monitoring",
-      paragraph:
-        "Effortlessly monitor and manage various aspects of the city in real-time. Gain insights into traffic flow, public transportation, emergency services, environmental conditions, and more from a centralized dashboard. Stay informed about the city's infrastructure, assets, and services at any given moment.",
-      imageUrl: images.IntegratedCommandAndControlSystemFeature3,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Operational Efficiency",
-      paragraph:
-        "CityConnect enables data-driven decision-making, optimizing city operations and resource allocation. Real-time monitoring and analytics help identify bottlenecks, streamline processes, and improve overall efficiency. ",
-      imageUrl: images.IntegratedCommandAndControlSystemBenefits1,
-    },
-    {
-      heading: "Improved City Safety and Security",
-      paragraph:
-        "With enhanced situational awareness and quick response capabilities, CityConnect significantly improves city safety and security. The integration of data from various sources allows for early detection of potential risks and the ability to respond proactively.",
-      imageUrl: images.IntegratedCommandAndControlSystemBenefits2,
-    },
-    {
-      heading: "Smart and Sustainable City Management",
-      paragraph:
-        "CityConnect promotes collaboration and integration among different city departments and stakeholders. By leveraging existing systems and technologies, the system ensures interoperability and maximizes the value of infrastructure investments.",
-      imageUrl: images.IntegratedCommandAndControlSystemBenefits3,
-    },
-  ],
-  case_study: {
-    heading: "SmartCity360: Empowering Sustainable Urban Management",
-    paragraph:
-      "Metropolis City faced numerous challenges in managing its growing urban environment efficiently. The city administrators struggled with fragmented data sources, lack of real-time insights, and coordination issues among various departments. They needed a comprehensive solution to streamline city operations, enhance situational awareness, and optimize emergency response for a sustainable and smart city.",
-    imageUrl: images.IntegratedCommandAndControlSystemCasestudy,
-    downloadUrl: ""
-  }
-},
-{
-  id: "perimeter-monitoring",
-  banner: {
-    heading:
-      "Safeguarding Urban Perimeters",
-    paragraph:
-      "Ensure the safety and security of the city by implementing a robust perimeter monitoring system. Utilize advanced technologies such as video analytics, facial recognition, and intrusion detection to identify potential threats and manage access control. ",
-    imageUrl: images.PerimeterMonitoringBanner,
-    bookDemoUrl: "",
-    viewDemoUrl: images.PerimeterMonitoringPreview,
   },
-  features: [
-    {
-      heading: "Smart Surveillance and Intrusion Detection",
+  {
+    id: "perimeter-monitoring",
+    banner: {
+      heading: "Safeguarding Urban Perimeters",
       paragraph:
-        "Deploy a network of high-resolution cameras and sensors along the city's perimeters to monitor and detect any unauthorized activities or breaches. Advanced video analytics, motion detection, and facial recognition technologies enable real-time identification of potential threats.",
-      imageUrl: images.PerimeterMonitoringFeature1,
+        "Ensure the safety and security of the city by implementing a robust perimeter monitoring system. Utilize advanced technologies such as video analytics, facial recognition, and intrusion detection to identify potential threats and manage access control. ",
+      imageUrl: images.PerimeterMonitoringBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.PerimeterMonitoringPreview,
     },
-    {
-      heading: "Real-time Alerts and Notifications",
+    features: [
+      {
+        heading: "Smart Surveillance and Intrusion Detection",
+        paragraph:
+          "Deploy a network of high-resolution cameras and sensors along the city's perimeters to monitor and detect any unauthorized activities or breaches. Advanced video analytics, motion detection, and facial recognition technologies enable real-time identification of potential threats.",
+        imageUrl: images.PerimeterMonitoringFeature1,
+      },
+      {
+        heading: "Real-time Alerts and Notifications",
+        paragraph:
+          "Receive instant alerts and notifications whenever an intrusion or suspicious behavior is detected. The system triggers automatic notifications to security personnel or law enforcement agencies, enabling swift response and effective incident management.",
+        imageUrl: images.PerimeterMonitoringFeature2,
+      },
+      {
+        heading: "Intelligent Analytics for Threat Identification",
+        paragraph:
+          "Leverage AI-driven analytics to analyze video feeds and sensor data, identifying patterns and anomalies that may indicate security risks. Advanced algorithms recognize and classify objects, track movements, and detect abnormal behaviors, enhancing situational awareness and enabling proactive threat identification.",
+        imageUrl: images.PerimeterMonitoringFeature3,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Security and Public Safety",
+        paragraph:
+          "By deploying the Perimeter Monitoring MIA, cities can strengthen their security infrastructure and proactively detect potential threats. Real-time monitoring, intrusion detection, and facial recognition technologies contribute to creating a safer environment for residents, businesses, and visitors.",
+        imageUrl: images.PerimeterMonitoringBenefits1,
+      },
+      {
+        heading: "Rapid Response and Incident Management",
+        paragraph:
+          "The real-time alerts and notifications provided by the MIA enable security personnel and law enforcement agencies to respond quickly to security breaches or suspicious activities. Efficient incident management workflows ensure timely resolution of security incidents, minimizing potential risks.",
+        imageUrl: images.PerimeterMonitoringBenefits2,
+      },
+      {
+        heading: "Comprehensive Situational Awareness",
+        paragraph:
+          "Integrating the Perimeter Monitoring MIA with the city's command center or monitoring platforms provides a holistic view of the city's security status. Consolidating data from multiple sources enhances situational awareness, enabling effective decision-making and streamlined response coordination.",
+        imageUrl: images.PerimeterMonitoringBenefits3,
+      },
+    ],
+    case_study: {
+      heading: "SecureCity360: Enhancing Perimeter Security for Urban Spaces",
       paragraph:
-        "Receive instant alerts and notifications whenever an intrusion or suspicious behavior is detected. The system triggers automatic notifications to security personnel or law enforcement agencies, enabling swift response and effective incident management.",
-      imageUrl: images.PerimeterMonitoringFeature2,
+        "The CityX Security Department faced the challenge of maintaining robust security measures to protect critical infrastructure, public spaces, and sensitive locations within their smart city. They needed an advanced solution to monitor and detect potential threats, respond promptly to security breaches, and ensure the safety and well-being of residents and visitors.",
+      imageUrl: images.PerimeterMonitoringCasestudy,
+      downloadUrl: "",
     },
-    {
-      heading: "Intelligent Analytics for Threat Identification",
-      paragraph:
-        "Leverage AI-driven analytics to analyze video feeds and sensor data, identifying patterns and anomalies that may indicate security risks. Advanced algorithms recognize and classify objects, track movements, and detect abnormal behaviors, enhancing situational awareness and enabling proactive threat identification.",
-      imageUrl: images.PerimeterMonitoringFeature3,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Security and Public Safety",
-      paragraph:
-        "By deploying the Perimeter Monitoring MIA, cities can strengthen their security infrastructure and proactively detect potential threats. Real-time monitoring, intrusion detection, and facial recognition technologies contribute to creating a safer environment for residents, businesses, and visitors.",
-      imageUrl: images.PerimeterMonitoringBenefits1,
-    },
-    {
-      heading: "Rapid Response and Incident Management",
-      paragraph:
-        "The real-time alerts and notifications provided by the MIA enable security personnel and law enforcement agencies to respond quickly to security breaches or suspicious activities. Efficient incident management workflows ensure timely resolution of security incidents, minimizing potential risks.",
-      imageUrl: images.PerimeterMonitoringBenefits2,
-    },
-    {
-      heading: "Comprehensive Situational Awareness",
-      paragraph:
-        "Integrating the Perimeter Monitoring MIA with the city's command center or monitoring platforms provides a holistic view of the city's security status. Consolidating data from multiple sources enhances situational awareness, enabling effective decision-making and streamlined response coordination.",
-      imageUrl: images.PerimeterMonitoringBenefits3,
-    },
-  ],
-  case_study: {
-    heading: "SecureCity360: Enhancing Perimeter Security for Urban Spaces",
-    paragraph:
-      "The CityX Security Department faced the challenge of maintaining robust security measures to protect critical infrastructure, public spaces, and sensitive locations within their smart city. They needed an advanced solution to monitor and detect potential threats, respond promptly to security breaches, and ensure the safety and well-being of residents and visitors.",
-    imageUrl: images.PerimeterMonitoringCasestudy,
-    downloadUrl: ""
-  }
-},
-{
-  id: "traffic-management",
-  banner: {
-    heading:
-      "Revolutionizing Urban Mobility",
-    paragraph:
-      "SmartFlow is an intelligent traffic management system that optimizes traffic flow, reduces congestion, and enhances road safety within a smart city. By leveraging real-time data, predictive analytics, and adaptive signal control, SmartFlow provides a seamless transportation experience for commuters while promoting sustainable urban mobility",
-    imageUrl: images.TrafficManagementBanner,
-    bookDemoUrl: "",
-    viewDemoUrl: images.TrafficManagementPreview,
   },
-  features: [
-    {
-      heading: "Real-time Traffic Monitoring",
+  {
+    id: "traffic-management",
+    banner: {
+      heading: "Revolutionizing Urban Mobility",
       paragraph:
-        "SmartFlow collects real-time data from traffic sensors, cameras, and connected vehicles to gain insights into traffic conditions, congestion levels, and road incidents. By monitoring traffic flow, speed, and occupancy, it identifies bottlenecks and areas that require attention.",
-      imageUrl: images.TrafficManagementFeature1,
+        "SmartFlow is an intelligent traffic management system that optimizes traffic flow, reduces congestion, and enhances road safety within a smart city. By leveraging real-time data, predictive analytics, and adaptive signal control, SmartFlow provides a seamless transportation experience for commuters while promoting sustainable urban mobility",
+      imageUrl: images.TrafficManagementBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.TrafficManagementPreview,
     },
-    {
-      heading: "Intelligent Traffic Analytics",
+    features: [
+      {
+        heading: "Real-time Traffic Monitoring",
+        paragraph:
+          "SmartFlow collects real-time data from traffic sensors, cameras, and connected vehicles to gain insights into traffic conditions, congestion levels, and road incidents. By monitoring traffic flow, speed, and occupancy, it identifies bottlenecks and areas that require attention.",
+        imageUrl: images.TrafficManagementFeature1,
+      },
+      {
+        heading: "Intelligent Traffic Analytics",
+        paragraph:
+          "Leveraging advanced analytics and machine learning algorithms, SmartFlow analyzes traffic patterns, predicts congestion, and identifies areas prone to accidents or bottlenecks. These insights enable optimized traffic signal timings, traffic flow adjustments, and the implementation of adaptive traffic management strategies.",
+        imageUrl: images.TrafficManagementFeature2,
+      },
+      {
+        heading: "Dynamic Traffic Control",
+        paragraph:
+          "SmartFlow implements adaptive traffic signal control systems that respond to real-time traffic conditions. By optimizing signal timings based on traffic demand, prioritizing emergency vehicles, and implementing dynamic lane management strategies, it improves traffic flow and reduces congestion on roadways.",
+        imageUrl: images.TrafficManagementFeature3,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Traffic Efficiency",
+        paragraph:
+          "SmartFlow's real-time monitoring and intelligent analytics allow for the identification of traffic bottlenecks and congestion-prone areas. By optimizing traffic signal timings and dynamically managing traffic flow, it improves overall traffic efficiency, reducing travel times and frustration for commuters.",
+        imageUrl: images.TrafficManagementBenefits1,
+      },
+      {
+        heading: "Improved Road Safety",
+        paragraph:
+          "With its ability to predict and identify areas prone to accidents or bottlenecks, SmartFlow enhances road safety. By implementing adaptive traffic control measures and providing real-time alerts about traffic incidents, it enables prompt responses from emergency services and ensures swift incident resolution.",
+        imageUrl: images.TrafficManagementBenefits2,
+      },
+      {
+        heading: "Seamless Mobility Experience",
+        paragraph:
+          "SmartFlow integrates various travel information channels such as dynamic message signs, mobile apps, and online platforms to provide real-time updates on traffic conditions, alternative routes, parking availability, and public transportation options.",
+        imageUrl: images.TrafficManagementBenefits3,
+      },
+    ],
+    case_study: {
+      heading: "SmartFlow: Revolutionizing Urban Mobility",
       paragraph:
-        "Leveraging advanced analytics and machine learning algorithms, SmartFlow analyzes traffic patterns, predicts congestion, and identifies areas prone to accidents or bottlenecks. These insights enable optimized traffic signal timings, traffic flow adjustments, and the implementation of adaptive traffic management strategies.",
-      imageUrl: images.TrafficManagementFeature2,
+        "The City of Metropolis faced increasing traffic congestion, long travel times, and road safety concerns due to rapid urbanization and population growth. The lack of efficient traffic management systems made it challenging for city officials to monitor and optimize traffic flow, leading to frustration among commuters and hampered economic growth.",
+      imageUrl: images.TrafficManagementCasestudy,
+      downloadUrl: "",
     },
-    {
-      heading: "Dynamic Traffic Control",
-      paragraph:
-        "SmartFlow implements adaptive traffic signal control systems that respond to real-time traffic conditions. By optimizing signal timings based on traffic demand, prioritizing emergency vehicles, and implementing dynamic lane management strategies, it improves traffic flow and reduces congestion on roadways.",
-      imageUrl: images.TrafficManagementFeature3,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Traffic Efficiency",
-      paragraph:
-        "SmartFlow's real-time monitoring and intelligent analytics allow for the identification of traffic bottlenecks and congestion-prone areas. By optimizing traffic signal timings and dynamically managing traffic flow, it improves overall traffic efficiency, reducing travel times and frustration for commuters.",
-      imageUrl: images.TrafficManagementBenefits1,
-    },
-    {
-      heading: "Improved Road Safety",
-      paragraph:
-        "With its ability to predict and identify areas prone to accidents or bottlenecks, SmartFlow enhances road safety. By implementing adaptive traffic control measures and providing real-time alerts about traffic incidents, it enables prompt responses from emergency services and ensures swift incident resolution.",
-      imageUrl: images.TrafficManagementBenefits2,
-    },
-    {
-      heading: "Seamless Mobility Experience",
-      paragraph:
-        "SmartFlow integrates various travel information channels such as dynamic message signs, mobile apps, and online platforms to provide real-time updates on traffic conditions, alternative routes, parking availability, and public transportation options.",
-      imageUrl: images.TrafficManagementBenefits3,
-    },
-  ],
-  case_study: {
-    heading: "SmartFlow: Revolutionizing Urban Mobility",
-    paragraph:
-      "The City of Metropolis faced increasing traffic congestion, long travel times, and road safety concerns due to rapid urbanization and population growth. The lack of efficient traffic management systems made it challenging for city officials to monitor and optimize traffic flow, leading to frustration among commuters and hampered economic growth.",
-    imageUrl: images.TrafficManagementCasestudy,
-    downloadUrl: ""
-  }
-},
-{
-  id: "video-surveillance-as-a-service",
-  banner: {
-    heading:
-      "Eyes on the City - Empowering Smart Security",
-    paragraph:
-      "Enhance city-wide security and public safety with a comprehensive video surveillance network. Leverage advanced camera systems, video analytics, and cloud-based storage to proactively monitor and respond to incidents, ensuring a safe and secure urban environment.",
-    imageUrl: images.VideoSurveillanceasaServiceBanner,
-    bookDemoUrl: "",
-    viewDemoUrl: images.VideoSurveillanceasaServicePreview,
   },
-  features: [
-    {
-      heading: "Intelligent Video Analytics",
+  {
+    id: "video-surveillance-as-a-service",
+    banner: {
+      heading: "Eyes on the City - Empowering Smart Security",
       paragraph:
-        "Leverage advanced algorithms to automatically detect and analyze events and behaviors in real-time. From object detection to facial recognition, gain actionable insights that improve situational awareness and enable proactive security measures.",
-      imageUrl: images.VideoSurveillanceasaServiceFeature1,
+        "Enhance city-wide security and public safety with a comprehensive video surveillance network. Leverage advanced camera systems, video analytics, and cloud-based storage to proactively monitor and respond to incidents, ensuring a safe and secure urban environment.",
+      imageUrl: images.VideoSurveillanceasaServiceBanner,
+      bookDemoUrl: "",
+      viewDemoUrl: images.VideoSurveillanceasaServicePreview,
     },
-    {
-      heading: "Cloud-Based Video Storage",
+    features: [
+      {
+        heading: "Intelligent Video Analytics",
+        paragraph:
+          "Leverage advanced algorithms to automatically detect and analyze events and behaviors in real-time. From object detection to facial recognition, gain actionable insights that improve situational awareness and enable proactive security measures.",
+        imageUrl: images.VideoSurveillanceasaServiceFeature1,
+      },
+      {
+        heading: "Cloud-Based Video Storage",
+        paragraph:
+          "Store video footage securely in the cloud, eliminating the need for on-premises infrastructure. Benefit from scalable and reliable storage that ensures easy accessibility for investigations, evidence gathering, and auditing purposes.",
+        imageUrl: images.VideoSurveillanceasaServiceFeature2,
+      },
+      {
+        heading: "Remote Monitoring and Management",
+        paragraph:
+          "Monitor live feeds and recorded footage remotely from a centralized command center or authorized devices with internet access. Enable efficient incident response, real-time alerts, and remote configuration and management of surveillance cameras and systems.",
+        imageUrl: images.VideoSurveillanceasaServiceFeature3,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Public Safety",
+        paragraph:
+          "The Video Surveillance as a Service MIA contributes to the safety of residents and visitors by providing continuous monitoring and analysis of video data. It enables quick identification and response to security incidents, reducing crime rates and improving overall public safety.",
+        imageUrl: images.VideoSurveillanceasaServiceBenefits1,
+      },
+      {
+        heading: "Proactive Incident Detection",
+        paragraph:
+          "With intelligent video analytics, potential threats and abnormal activities can be identified in real-time. This allows security personnel to take immediate action, preventing incidents before they escalate and ensuring a swift response to emergencies.",
+        imageUrl: images.VideoSurveillanceasaServiceBenefits2,
+      },
+      {
+        heading: "Scalable and Cost-Effective Solution",
+        paragraph:
+          "By leveraging cloud-based storage and remote monitoring capabilities, the VSaaS MIA offers a scalable and cost-effective solution. It eliminates the need for extensive on-premises infrastructure, reduces maintenance costs, and provides flexibility for future expansions.",
+        imageUrl: images.VideoSurveillanceasaServiceBenefits3,
+      },
+    ],
+    case_study: {
+      heading: "Enhancing City Security with Video Surveillance as a Service",
       paragraph:
-        "Store video footage securely in the cloud, eliminating the need for on-premises infrastructure. Benefit from scalable and reliable storage that ensures easy accessibility for investigations, evidence gathering, and auditing purposes.",
-      imageUrl: images.VideoSurveillanceasaServiceFeature2,
+        "SafeCity Solutions, a leading provider of urban security solutions, was approached by a major city municipality facing significant challenges in ensuring public safety and managing security incidents. The city struggled with outdated surveillance systems, limited storage capacity, and a lack of intelligent analytics capabilities.",
+      imageUrl: images.VideoSurveillanceasaServiceCasestudy,
+      downloadUrl: "",
     },
-    {
-      heading: "Remote Monitoring and Management",
-      paragraph:
-        "Monitor live feeds and recorded footage remotely from a centralized command center or authorized devices with internet access. Enable efficient incident response, real-time alerts, and remote configuration and management of surveillance cameras and systems.",
-      imageUrl: images.VideoSurveillanceasaServiceFeature3,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Public Safety",
-      paragraph:
-        "The Video Surveillance as a Service MIA contributes to the safety of residents and visitors by providing continuous monitoring and analysis of video data. It enables quick identification and response to security incidents, reducing crime rates and improving overall public safety.",
-      imageUrl: images.VideoSurveillanceasaServiceBenefits1,
-    },
-    {
-      heading: "Proactive Incident Detection",
-      paragraph:
-        "With intelligent video analytics, potential threats and abnormal activities can be identified in real-time. This allows security personnel to take immediate action, preventing incidents before they escalate and ensuring a swift response to emergencies.",
-      imageUrl: images.VideoSurveillanceasaServiceBenefits2,
-    },
-    {
-      heading: "Scalable and Cost-Effective Solution",
-      paragraph:
-        "By leveraging cloud-based storage and remote monitoring capabilities, the VSaaS MIA offers a scalable and cost-effective solution. It eliminates the need for extensive on-premises infrastructure, reduces maintenance costs, and provides flexibility for future expansions.",
-      imageUrl: images.VideoSurveillanceasaServiceBenefits3,
-    },
-  ],
-  case_study: {
-    heading: "Enhancing City Security with Video Surveillance as a Service",
-    paragraph:
-      "SafeCity Solutions, a leading provider of urban security solutions, was approached by a major city municipality facing significant challenges in ensuring public safety and managing security incidents. The city struggled with outdated surveillance systems, limited storage capacity, and a lack of intelligent analytics capabilities.",
-    imageUrl: images.VideoSurveillanceasaServiceCasestudy,
-    downloadUrl: ""
-  }
-},
-// {
-//   id: "data-science-and-engineering",
-//   banner: {
-//     heading:
-//       "Data-Powered Decision Making for Competitive Edge",
-//     paragraph:
-//       "Leveraging advanced data science techniques and robust engineering to turn data into actionable insights, empowering businesses to make informed decisions and gain a competitive edge.",
-//     imageUrl: images.DataScienceAndEngineeringBanner,
-//     bookDemoUrl: "",
-//     viewDemoUrl: images.DataScienceAndEngineeringPreview,
-//   },
-//   features: [
-//     {
-//       heading: "Data Strategy and Roadmap",
-//       paragraph:
-//         "Mobius Consulting collaborates with businesses to develop a data strategy and roadmap that aligns with their business objectives. By understanding the organization's goals, data assets, and analytical needs.",
-//       imageUrl: images.DataScienceAndEngineeringFeature1,
-//     },
-//     {
-//       heading: "Data Architecture and Engineering",
-//       paragraph:
-//         "Mobius Consulting designs and implements scalable and robust data architectures that support efficient data storage, processing, and integration. Leveraging industry-leading technologies and best practices.",
-//       imageUrl: images.DataScienceAndEngineeringFeature2,
-//     },
-//     {
-//       heading: "Data Exploration and Visualization",
-//       paragraph:
-//         "Mobius Consulting helps businesses explore and visualize their data to gain meaningful insights. Through the use of advanced analytics techniques and visualization tools.",
-//       imageUrl: images.DataScienceAndEngineeringFeature3,
-//     },
-//   ],
-//   benefits: [
-//     {
-//       heading: "Machine Learning and Predictive Analytics",
-//       paragraph:
-//         "Mobius Consulting leverages advanced machine learning algorithms and predictive analytics models to uncover patterns, trends, and insights from data. By applying techniques such as regression, classification, clustering, and anomaly detection.",
-//       imageUrl: images.DataScienceAndEngineeringBenefits1,
-//     },
-//     {
-//       heading: "Data Governance and Security",
-//       paragraph:
-//         "Mobius Consulting places a strong emphasis on data governance and security to ensure that businesses can trust and protect their data assets. By implementing data governance frameworks, defining data quality standards, and ensuring compliance with data privacy regulations.",
-//       imageUrl: images.DataScienceAndEngineeringBenefits2,
-//     },
-//     {
-//       heading: "DataOps and Automation",
-//       paragraph:
-//         "Mobius Consulting enables businesses to streamline and automate their data processes through DataOps methodologies. By implementing automated data pipelines, continuous integration and deployment (CI/CD) practices, and monitoring frameworks.",
-//       imageUrl: images.DataScienceAndEngineeringBenefits3,
-//     },
-//   ],
-//   case_study: {
-//     heading: "Enhancing City Security with Video Surveillance as a Service",
-//     paragraph:
-//       "SafeCity Solutions, a leading provider of urban security solutions, was approached by a major city municipality facing significant challenges in ensuring public safety and managing security incidents. The city struggled with outdated surveillance systems, limited storage capacity, and a lack of intelligent analytics capabilities.",
-//     imageUrl: images.DataScienceAndEngineeringCasestudy,
-//     downloadUrl: ""
-//   }
-// }
-{
-  id: "customer-data-platform",
-  banner: {
-    heading:
-      "Unleash the Power of Customer Data for Business Success",
-    paragraph:
-      "CDP is a comprehensive Customer Data Platform (CDP) built on the innovative Nexus Connect. It empowers businesses to effectively manage, analyze, and utilize customer data to drive customer satisfaction and achieve business success.With its integrated Mobius Tools, CDP provides a seamless solution for comprehensive customer data management and actionable insights.",
-    imageUrl: images.CD1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.CD2,
   },
-  features: [
-    {
-      heading: "Data Ingestion and Processing",
+  // {
+  //   id: "data-science-and-engineering",
+  //   banner: {
+  //     heading:
+  //       "Data-Powered Decision Making for Competitive Edge",
+  //     paragraph:
+  //       "Leveraging advanced data science techniques and robust engineering to turn data into actionable insights, empowering businesses to make informed decisions and gain a competitive edge.",
+  //     imageUrl: images.DataScienceAndEngineeringBanner,
+  //     bookDemoUrl: "",
+  //     viewDemoUrl: images.DataScienceAndEngineeringPreview,
+  //   },
+  //   features: [
+  //     {
+  //       heading: "Data Strategy and Roadmap",
+  //       paragraph:
+  //         "Mobius Consulting collaborates with businesses to develop a data strategy and roadmap that aligns with their business objectives. By understanding the organization's goals, data assets, and analytical needs.",
+  //       imageUrl: images.DataScienceAndEngineeringFeature1,
+  //     },
+  //     {
+  //       heading: "Data Architecture and Engineering",
+  //       paragraph:
+  //         "Mobius Consulting designs and implements scalable and robust data architectures that support efficient data storage, processing, and integration. Leveraging industry-leading technologies and best practices.",
+  //       imageUrl: images.DataScienceAndEngineeringFeature2,
+  //     },
+  //     {
+  //       heading: "Data Exploration and Visualization",
+  //       paragraph:
+  //         "Mobius Consulting helps businesses explore and visualize their data to gain meaningful insights. Through the use of advanced analytics techniques and visualization tools.",
+  //       imageUrl: images.DataScienceAndEngineeringFeature3,
+  //     },
+  //   ],
+  //   benefits: [
+  //     {
+  //       heading: "Machine Learning and Predictive Analytics",
+  //       paragraph:
+  //         "Mobius Consulting leverages advanced machine learning algorithms and predictive analytics models to uncover patterns, trends, and insights from data. By applying techniques such as regression, classification, clustering, and anomaly detection.",
+  //       imageUrl: images.DataScienceAndEngineeringBenefits1,
+  //     },
+  //     {
+  //       heading: "Data Governance and Security",
+  //       paragraph:
+  //         "Mobius Consulting places a strong emphasis on data governance and security to ensure that businesses can trust and protect their data assets. By implementing data governance frameworks, defining data quality standards, and ensuring compliance with data privacy regulations.",
+  //       imageUrl: images.DataScienceAndEngineeringBenefits2,
+  //     },
+  //     {
+  //       heading: "DataOps and Automation",
+  //       paragraph:
+  //         "Mobius Consulting enables businesses to streamline and automate their data processes through DataOps methodologies. By implementing automated data pipelines, continuous integration and deployment (CI/CD) practices, and monitoring frameworks.",
+  //       imageUrl: images.DataScienceAndEngineeringBenefits3,
+  //     },
+  //   ],
+  //   case_study: {
+  //     heading: "Enhancing City Security with Video Surveillance as a Service",
+  //     paragraph:
+  //       "SafeCity Solutions, a leading provider of urban security solutions, was approached by a major city municipality facing significant challenges in ensuring public safety and managing security incidents. The city struggled with outdated surveillance systems, limited storage capacity, and a lack of intelligent analytics capabilities.",
+  //     imageUrl: images.DataScienceAndEngineeringCasestudy,
+  //     downloadUrl: ""
+  //   }
+  // }
+  {
+    id: "customer-data-platform",
+    banner: {
+      heading: "Unleash the Power of Customer Data for Business Success",
       paragraph:
-        "CDP leverages PI's robust data ingestion and processing capabilities to collect, clean, and process customer data from various sources and formats. This feature enables businesses to create a comprehensive view of customer behavior and preferences.",
-      imageUrl: images.CD3,
+        "CDP is a comprehensive Customer Data Platform (CDP) built on the innovative Nexus Connect. It empowers businesses to effectively manage, analyze, and utilize customer data to drive customer satisfaction and achieve business success.With its integrated Mobius Tools, CDP provides a seamless solution for comprehensive customer data management and actionable insights.",
+      imageUrl: images.CD1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CD2,
     },
-    {
-      heading: "Workflow Automation and Consistency",
+    features: [
+      {
+        heading: "Data Ingestion and Processing",
+        paragraph:
+          "CDP leverages PI's robust data ingestion and processing capabilities to collect, clean, and process customer data from various sources and formats. This feature enables businesses to create a comprehensive view of customer behavior and preferences.",
+        imageUrl: images.CD3,
+      },
+      {
+        heading: "Workflow Automation and Consistency",
+        paragraph:
+          " BoB streamlines data workflows and enhances data consistency within the CDP. It automates the process of syncing customer data between different systems, ensuring up-to-date and accurate customer profiles.",
+        imageUrl: images.CD4,
+      },
+      {
+        heading: "Customizable Interfaces and Dashboards",
+        paragraph:
+          "With Monét's low-code application development capabilities, businesses can create custom interfaces and dashboards tailored to their specific needs. This feature allows for the design of intuitive and user-friendly visualizations, enabling businesses to track customer preferences.",
+        imageUrl: images.CD5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Customer Understanding",
+        paragraph:
+          "CDP enables businesses to gain a deeper understanding of their customers by consolidating data from various sources. ",
+        imageUrl: images.CD6,
+      },
+      {
+        heading: "Data-Driven Decision Making",
+        paragraph:
+          "By leveraging the power of Nexus Connect, CDP provides businesses with actionable insights derived from advanced data analysis. ",
+        imageUrl: images.CD7,
+      },
+      {
+        heading: "Scalable and Cost-Effective Solution",
+        paragraph:
+          "CDP's integration with HolaVerse's collaborative marketplace fosters partnerships with technology, content, infrastructure, and monetization providers. ",
+        imageUrl: images.CD8,
+      },
+    ],
+    case_study: {
+      heading: "Unlocking Business Success with CDP: A Case Study",
       paragraph:
-        " BoB streamlines data workflows and enhances data consistency within the CDP. It automates the process of syncing customer data between different systems, ensuring up-to-date and accurate customer profiles.",
-      imageUrl: images.CD4,
+        "PFL Retail, a leading retail company, faced significant challenges in effectively managing and utilizing their vast customer data. With data scattered across multiple systems and channels, they struggled to gain a unified view of their customers and lacked the ability to derive actionable insights.",
+      imageUrl: images.CD9,
+      downloadUrl: "",
     },
-    {
-      heading: "Customizable Interfaces and Dashboards",
-      paragraph:
-        "With Monét's low-code application development capabilities, businesses can create custom interfaces and dashboards tailored to their specific needs. This feature allows for the design of intuitive and user-friendly visualizations, enabling businesses to track customer preferences.",
-      imageUrl: images.CD5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Customer Understanding",
-      paragraph:
-        "CDP enables businesses to gain a deeper understanding of their customers by consolidating data from various sources. ",
-      imageUrl: images.CD6,
-    },
-    {
-      heading: "Data-Driven Decision Making",
-      paragraph:
-        "By leveraging the power of Nexus Connect, CDP provides businesses with actionable insights derived from advanced data analysis. ",
-      imageUrl: images.CD7,
-    },
-    {
-      heading: "Scalable and Cost-Effective Solution",
-      paragraph:
-        "CDP's integration with HolaVerse's collaborative marketplace fosters partnerships with technology, content, infrastructure, and monetization providers. ",
-      imageUrl: images.CD8,
-    },
-  ],
-  case_study: {
-    heading: "Unlocking Business Success with CDP: A Case Study",
-    paragraph:
-      "PFL Retail, a leading retail company, faced significant challenges in effectively managing and utilizing their vast customer data. With data scattered across multiple systems and channels, they struggled to gain a unified view of their customers and lacked the ability to derive actionable insights.",
-    imageUrl: images.CD9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "customer-relationship-management",
-  banner: {
-    heading:
-      "Unleash the Power of Customer Relationships with Nexus Connect",
-    paragraph:
-      "The CRM solution built on Nexus Connect empowers businesses to effectively manage customer relationships, streamline processes, and enhance customer experiences. By leveraging the integrated Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - the CRM delivers a competitive and differentiated solution that drives customer satisfaction and business success.",
-    imageUrl: images.CR1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.CR2,
   },
-  features: [
-    {
-      heading: "Comprehensive Customer Data Management",
+  {
+    id: "customer-relationship-management",
+    banner: {
+      heading: "Unleash the Power of Customer Relationships with Nexus Connect",
       paragraph:
-        "CDP leverages PI's robust data ingestion and processing capabilities to collect, clean, and process customer data from various sources and formats. This feature enables businesses to create a comprehensive view of customer behavior and preferences.",
-      imageUrl: images.CR3,
+        "The CRM solution built on Nexus Connect empowers businesses to effectively manage customer relationships, streamline processes, and enhance customer experiences. By leveraging the integrated Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - the CRM delivers a competitive and differentiated solution that drives customer satisfaction and business success.",
+      imageUrl: images.CR1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CR2,
     },
-    {
-      heading: "Workflow Automation and Efficiency",
+    features: [
+      {
+        heading: "Comprehensive Customer Data Management",
+        paragraph:
+          "CDP leverages PI's robust data ingestion and processing capabilities to collect, clean, and process customer data from various sources and formats. This feature enables businesses to create a comprehensive view of customer behavior and preferences.",
+        imageUrl: images.CR3,
+      },
+      {
+        heading: "Workflow Automation and Efficiency",
+        paragraph:
+          " BoB streamlines data workflows and enhances data consistency within the CDP. It automates the process of syncing customer data between different systems, ensuring up-to-date and accurate customer profiles..",
+        imageUrl: images.CR4,
+      },
+      {
+        heading: "Personalized Interfaces and Dashboards",
+        paragraph:
+          "With Monét's low-code application development capabilities, businesses can create custom interfaces and dashboards tailored to their specific needs. This feature allows for the design of intuitive and user-friendly visualizations, enabling businesses to track customer preferences.",
+        imageUrl: images.CR5,
+      },
+    ],
+    benefits: [
+      {
+        heading: " Customer Relationships and Engagement",
+        paragraph:
+          "CDP enables businesses to gain a deeper understanding of their customers by consolidating data from various sources. ",
+        imageUrl: images.CR6,
+      },
+      {
+        heading: "Streamlined Processes and Operational Efficiency",
+        paragraph:
+          "By leveraging the power of Nexus Connect, CDP provides businesses with actionable insights derived from advanced data analysis. ",
+        imageUrl: images.CR7,
+      },
+      {
+        heading: "Collaboration and Growth Opportunities",
+        paragraph:
+          "CDP's integration with HolaVerse's collaborative marketplace fosters partnerships with technology, content, infrastructure, and monetization providers. ",
+        imageUrl: images.CR8,
+      },
+    ],
+    case_study: {
+      heading: "Empowering IUT Corporation with Nexus Connect CRM Solution",
       paragraph:
-        " BoB streamlines data workflows and enhances data consistency within the CDP. It automates the process of syncing customer data between different systems, ensuring up-to-date and accurate customer profiles..",
-      imageUrl: images.CR4,
+        "IUT Corporation, a leading retail and e-commerce company, faced significant challenges in effectively managing and leveraging their customer relationships. With a vast customer base and multiple sales channels, they struggled to gain a holistic view of their customers, streamline processes, and deliver personalized experiences.",
+      imageUrl: images.CR9,
+      downloadUrl: "",
     },
-    {
-      heading: "Personalized Interfaces and Dashboards",
-      paragraph:
-        "With Monét's low-code application development capabilities, businesses can create custom interfaces and dashboards tailored to their specific needs. This feature allows for the design of intuitive and user-friendly visualizations, enabling businesses to track customer preferences.",
-      imageUrl: images.CR5,
-    },
-  ],
-  benefits: [
-    {
-      heading: " Customer Relationships and Engagement",
-      paragraph:
-        "CDP enables businesses to gain a deeper understanding of their customers by consolidating data from various sources. ",
-      imageUrl: images.CR6,
-    },
-    {
-      heading: "Streamlined Processes and Operational Efficiency",
-      paragraph:
-        "By leveraging the power of Nexus Connect, CDP provides businesses with actionable insights derived from advanced data analysis. ",
-      imageUrl: images.CR7,
-    },
-    {
-      heading: "Collaboration and Growth Opportunities",
-      paragraph:
-        "CDP's integration with HolaVerse's collaborative marketplace fosters partnerships with technology, content, infrastructure, and monetization providers. ",
-      imageUrl: images.CR8,
-    },
-  ],
-  case_study: {
-    heading: "Empowering IUT Corporation with Nexus Connect CRM Solution",
-    paragraph:
-      "IUT Corporation, a leading retail and e-commerce company, faced significant challenges in effectively managing and leveraging their customer relationships. With a vast customer base and multiple sales channels, they struggled to gain a holistic view of their customers, streamline processes, and deliver personalized experiences.",
-    imageUrl: images.CR9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "customer-success-management",
-  banner: {
-    heading:
-      "Empowering Businesses with Nexus Connect CSM Solution",
-    paragraph:
-      "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
-    imageUrl: images.CS1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.CR2,
   },
-  features: [
-    {
-      heading: "Customer Data Insights",
+  {
+    id: "customer-success-management",
+    banner: {
+      heading: "Empowering Businesses with Nexus Connect CSM Solution",
       paragraph:
-        "Utilizing PI, the CSM platform collects and processes customer data from various sources to provide a comprehensive view of customer health and satisfaction.",
-      imageUrl: images.CS3,
+        "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
+      imageUrl: images.CS1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CR2,
     },
-    {
-      heading: "Streamlined Workflows with BoB",
+    features: [
+      {
+        heading: "Customer Data Insights",
+        paragraph:
+          "Utilizing PI, the CSM platform collects and processes customer data from various sources to provide a comprehensive view of customer health and satisfaction.",
+        imageUrl: images.CS3,
+      },
+      {
+        heading: "Streamlined Workflows with BoB",
+        paragraph:
+          " :BoB automates CSM workflows, reducing manual labor and ensuring data consistency. It automates tasks such as onboarding emails, success check-ins, and tracking engagement metrics, allowing businesses to deliver seamless experiences",
+        imageUrl: images.CS4,
+      },
+      {
+        heading: "Customizable Dashboards with Monét",
+        paragraph:
+          "With Monét's low-code application development capabilities, businesses can create custom interfaces and dashboards tailored to their specific needs. This feature allows for the design of intuitive and user-friendly visualizations, enabling businesses to track customer preferences.",
+        imageUrl: images.CS5,
+      },
+    ],
+    benefits: [
+      {
+        heading: " Proactive Customer Success Management",
+        paragraph:
+          "By leveraging Nexus Connect CSM solution, businesses can proactively manage customer success. The comprehensive data insights and automation enable them to identify potential issues and intervene at the right.",
+        imageUrl: images.CS6,
+      },
+      {
+        heading: "Enhanced Operational Efficiency",
+        paragraph:
+          "The streamlined workflows and automation offered by BoB-BoltzmannBot eliminate manual tasks and reduce administrative burden. This leads to increased operational efficiency.",
+        imageUrl: images.CS7,
+      },
+      {
+        heading: "Improved Customer Satisfaction and Retention",
+        paragraph:
+          "The CSM solution's data-driven insights, omnichannel engagement capabilities of Vinci, and collaborative marketplace of HolaVerse enable businesses to deliver exceptional customer experiences.",
+        imageUrl: images.CS8,
+      },
+    ],
+    case_study: {
+      heading: "Empowering Businesses with Nexus Connect CSM Solution",
       paragraph:
-        " :BoB automates CSM workflows, reducing manual labor and ensuring data consistency. It automates tasks such as onboarding emails, success check-ins, and tracking engagement metrics, allowing businesses to deliver seamless experiences",
-      imageUrl: images.CS4,
+        "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
+      imageUrl: images.CS9,
+      downloadUrl: "",
     },
-    {
-      heading: "Customizable Dashboards with Monét",
-      paragraph:
-        "With Monét's low-code application development capabilities, businesses can create custom interfaces and dashboards tailored to their specific needs. This feature allows for the design of intuitive and user-friendly visualizations, enabling businesses to track customer preferences.",
-      imageUrl: images.CS5,
-    },
-  ],
-  benefits: [
-    {
-      heading: " Proactive Customer Success Management",
-      paragraph:
-        "By leveraging Nexus Connect CSM solution, businesses can proactively manage customer success. The comprehensive data insights and automation enable them to identify potential issues and intervene at the right.",
-      imageUrl: images.CS6,
-    },
-    {
-      heading: "Enhanced Operational Efficiency",
-      paragraph:
-        "The streamlined workflows and automation offered by BoB-BoltzmannBot eliminate manual tasks and reduce administrative burden. This leads to increased operational efficiency.",
-      imageUrl: images.CS7,
-    },
-    {
-      heading: "Improved Customer Satisfaction and Retention",
-      paragraph:
-        "The CSM solution's data-driven insights, omnichannel engagement capabilities of Vinci, and collaborative marketplace of HolaVerse enable businesses to deliver exceptional customer experiences.",
-      imageUrl: images.CS8,
-    },
-  ],
-  case_study: {
-    heading: "Empowering Businesses with Nexus Connect CSM Solution",
-    paragraph:
-      "The Customer Success Management (CSM) solution built on Nexus Connect is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
-    imageUrl: images.CS9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "marketing-automation",
-  banner: {
-    heading:
-      "Revolutionize Marketing Efficiency with Marketing Automation",
-    paragraph:
-      "Unleash the power of Marketing Automation MIA powered by Nexus Connect to streamline and optimize your marketing processes. Harness the capabilities of Mobius Intelligent Applications (MIAs) and advanced tools to drive growth, enhance customer engagement, and make data-driven marketing decisions.",
-    imageUrl: images.MA1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.MA2,
   },
-  features: [
-    {
-      heading: "Lead Generation and Management",
+  {
+    id: "marketing-automation",
+    banner: {
+      heading: "Revolutionize Marketing Efficiency with Marketing Automation",
       paragraph:
-        "Leverage Pascal Intelligence (PI) to analyze customer behavior, target the right audience, and automate lead scoring, nurturing, and segmentation for effective lead management.",
-      imageUrl: images.MA3,
+        "Unleash the power of Marketing Automation MIA powered by Nexus Connect to streamline and optimize your marketing processes. Harness the capabilities of Mobius Intelligent Applications (MIAs) and advanced tools to drive growth, enhance customer engagement, and make data-driven marketing decisions.",
+      imageUrl: images.MA1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.MA2,
     },
-    {
-      heading: "Campaign Management",
+    features: [
+      {
+        heading: "Lead Generation and Management",
+        paragraph:
+          "Leverage Pascal Intelligence (PI) to analyze customer behavior, target the right audience, and automate lead scoring, nurturing, and segmentation for effective lead management.",
+        imageUrl: images.MA3,
+      },
+      {
+        heading: "Campaign Management",
+        paragraph:
+          "Utilize BoltzmannBot (BoB) to automate end-to-end campaign workflows, create personalized and targeted campaigns across multiple channels, and track campaign performance with ease.",
+        imageUrl: images.MA4,
+      },
+      {
+        heading: "Customer Journey Mapping",
+        paragraph:
+          "Harness Monet's low-code app development capabilities to create customer journey maps, define touchpoints and interactions, and automate personalized interactions throughout the customer journey.",
+        imageUrl: images.MA5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Comprehensive Marketing Automation",
+        paragraph:
+          "Seamlessly address various marketing automation functions, including lead generation, campaign management, customer journey mapping, customer engagement, and analytics, all within a single solution.",
+        imageUrl: images.MA6,
+      },
+      {
+        heading: "Cost-Effective and Time-Efficient",
+        paragraph:
+          "Leverage the low-code capabilities of Mobius tools to reduce development and maintenance costs, enabling faster deployment and adaptation of MIAs, ultimately saving time and resources.",
+        imageUrl: images.MA7,
+      },
+      {
+        heading: "Enhanced Customer Engagement",
+        paragraph:
+          "Automate personalized interactions, nurture customer relationships, and improve customer retention rates through targeted campaigns, interactive chatbots,and customized engagement strategies.",
+        imageUrl: images.MA8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering MarkX Corp with Marketing Automation Powered by Nexus Connect",
       paragraph:
-        "Utilize BoltzmannBot (BoB) to automate end-to-end campaign workflows, create personalized and targeted campaigns across multiple channels, and track campaign performance with ease.",
-      imageUrl: images.MA4,
+        "MarkX Corp, a leading technology solutions provider, faced significant challenges in streamlining their marketing processes and achieving their growth targets. They struggled with manual lead generation, inefficient campaign management, and limited visibility into customer engagement.",
+      imageUrl: images.MA9,
+      downloadUrl: "",
     },
-    {
-      heading: "Customer Journey Mapping",
-      paragraph:
-        "Harness Monet's low-code app development capabilities to create customer journey maps, define touchpoints and interactions, and automate personalized interactions throughout the customer journey.",
-      imageUrl: images.MA5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Comprehensive Marketing Automation",
-      paragraph:
-        "Seamlessly address various marketing automation functions, including lead generation, campaign management, customer journey mapping, customer engagement, and analytics, all within a single solution.",
-      imageUrl: images.MA6,
-    },
-    {
-      heading: "Cost-Effective and Time-Efficient",
-      paragraph:
-        "Leverage the low-code capabilities of Mobius tools to reduce development and maintenance costs, enabling faster deployment and adaptation of MIAs, ultimately saving time and resources.",
-      imageUrl: images.MA7,
-    },
-    {
-      heading: "Enhanced Customer Engagement",
-      paragraph:
-        "Automate personalized interactions, nurture customer relationships, and improve customer retention rates through targeted campaigns, interactive chatbots,and customized engagement strategies.",
-      imageUrl: images.MA8,
-    },
-  ],
-  case_study: {
-    heading: "Empowering MarkX Corp with Marketing Automation Powered by Nexus Connect",
-    paragraph:
-      "MarkX Corp, a leading technology solutions provider, faced significant challenges in streamlining their marketing processes and achieving their growth targets. They struggled with manual lead generation, inefficient campaign management, and limited visibility into customer engagement.",
-    imageUrl: images.MA9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "recruiting",
-  banner: {
-    heading:
-      "Revolutionize Your HR Management with a Comprehensive HR Tech Solution",
-    paragraph:
-      // "Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management. From recruitment and employee engagement to learning & development, compensation & benefits, and employer branding,",
-      "From recruitment and employee engagement to learning & development, compensation and benefits to employee branding, Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management.",
-    imageUrl: images.R1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.R2,
   },
-  features: [
-    {
-      heading: "Recruiting",
+  {
+    id: "recruiting",
+    banner: {
+      heading:
+        "Revolutionize Your HR Management with a Comprehensive HR Tech Solution",
       paragraph:
-        "Simplify and optimize your talent acquisition process with Nightingale's comprehensive recruiting feature. Leverage AI-based candidate sourcing, smart screening, and automated interview scheduling to attract, evaluate, and hire top talent efficiently.",
-      imageUrl: images.R3,
+        // "Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management. From recruitment and employee engagement to learning & development, compensation & benefits, and employer branding,",
+        "From recruitment and employee engagement to learning & development, compensation and benefits to employee branding, Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management.",
+      imageUrl: images.R1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.R2,
     },
-    {
-      heading: "Employee Engagement",
+    features: [
+      {
+        heading: "Recruiting",
+        paragraph:
+          "Simplify and optimize your talent acquisition process with Nightingale's comprehensive recruiting feature. Leverage AI-based candidate sourcing, smart screening, and automated interview scheduling to attract, evaluate, and hire top talent efficiently.",
+        imageUrl: images.R3,
+      },
+      {
+        heading: "Employee Engagement",
+        paragraph:
+          "Foster a positive work culture and build strong relationships with employees using Nightingale's employee engagement function. Create omni-channel communication workflows tailored to individual needs, such as onboarding, anniversaries, and birthdays.",
+        imageUrl: images.R4,
+      },
+      {
+        heading: "Employee Experience",
+        paragraph:
+          "Gain a holistic view of the employee experience through Nightingale's employee experience workflow management. Collaborate with multiple stakeholders, including employees, managers, HR, and admin, to collect inputs and evaluate the employee journey.",
+        imageUrl: images.R5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Streamlined HR Processes",
+        paragraph:
+          "Nightingale simplifies and streamlines various HR processes, eliminating manual tasks and reducing administrative burden. ",
+        imageUrl: images.R6,
+      },
+      {
+        heading: "Enhanced Employee Engagement",
+        paragraph:
+          "With Nightingale's personalized communication and social media integration, organizations can effectively engage employees and foster a positive work culture. ",
+        imageUrl: images.R7,
+      },
+      {
+        heading: "Comprehensive and Centralized Solution",
+        paragraph:
+          "Nightingale provides an all-in-one HR solution, consolidating multiple functions and eliminating the need for multiple disparate systems.",
+        imageUrl: images.R8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Revolutionizing Talent Acquisition: Nightingale's Recruiting Solution",
       paragraph:
-        "Foster a positive work culture and build strong relationships with employees using Nightingale's employee engagement function. Create omni-channel communication workflows tailored to individual needs, such as onboarding, anniversaries, and birthdays.",
-      imageUrl: images.R4,
+        "IUT Corporation, a leading technology company, was facing challenges in their talent acquisition process. They struggled with inefficient candidate sourcing, manual screening processes, and a lack of streamlined communication between HR, hiring managers, and candidates.",
+      imageUrl: images.R9,
+      downloadUrl: "",
     },
-    {
-      heading: "Employee Experience",
-      paragraph:
-        "Gain a holistic view of the employee experience through Nightingale's employee experience workflow management. Collaborate with multiple stakeholders, including employees, managers, HR, and admin, to collect inputs and evaluate the employee journey.",
-      imageUrl: images.R5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Streamlined HR Processes",
-      paragraph:
-        "Nightingale simplifies and streamlines various HR processes, eliminating manual tasks and reducing administrative burden. ",
-      imageUrl: images.R6,
-    },
-    {
-      heading: "Enhanced Employee Engagement",
-      paragraph:
-        "With Nightingale's personalized communication and social media integration, organizations can effectively engage employees and foster a positive work culture. ",
-      imageUrl: images.R7,
-    },
-    {
-      heading: "Comprehensive and Centralized Solution",
-      paragraph:
-        "Nightingale provides an all-in-one HR solution, consolidating multiple functions and eliminating the need for multiple disparate systems.",
-      imageUrl: images.R8,
-    },
-  ],
-  case_study: {
-    heading: "Revolutionizing Talent Acquisition: Nightingale's Recruiting Solution",
-    paragraph:
-      "IUT Corporation, a leading technology company, was facing challenges in their talent acquisition process. They struggled with inefficient candidate sourcing, manual screening processes, and a lack of streamlined communication between HR, hiring managers, and candidates.",
-    imageUrl: images.R9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "employee-engagement",
-  banner: {
-    heading:
-      "SmartOffice: Intelligent Workspace Management Solution",
-    paragraph:
-      "Streamline and optimize your workspace management with SmartOffice. Gain real-time insights, automate processes, and create a productive and efficient work environment.",
-    imageUrl: images.EE1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.EE2,
   },
-  features: [
-    {
-      heading: "Space Utilization Optimization",
+  {
+    id: "employee-engagement",
+    banner: {
+      heading: "SmartOffice: Intelligent Workspace Management Solution",
       paragraph:
-        "SmartOffice utilizes sensors and occupancy data to monitor and analyze workspace usage, helping organizations optimize space allocation and utilization. ",
-      imageUrl: images.EE3,
+        "Streamline and optimize your workspace management with SmartOffice. Gain real-time insights, automate processes, and create a productive and efficient work environment.",
+      imageUrl: images.EE1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.EE2,
     },
-    {
-      heading: "Desk Booking and Reservation",
+    features: [
+      {
+        heading: "Space Utilization Optimization",
+        paragraph:
+          "SmartOffice utilizes sensors and occupancy data to monitor and analyze workspace usage, helping organizations optimize space allocation and utilization. ",
+        imageUrl: images.EE3,
+      },
+      {
+        heading: "Desk Booking and Reservation",
+        paragraph:
+          "Employees can easily book desks or meeting rooms through a user-friendly interface, ensuring a seamless and organized reservation process. SmartOffice enables efficient desk allocation, reduces conflicts, and promotes flexible and agile working practices.",
+        imageUrl: images.EE4,
+      },
+      {
+        heading: "Resource Management and Maintenance",
+        paragraph:
+          "The solution facilitates the management of office resources such as equipment, facilities, and amenities. It automates maintenance requests, tracks inventory, and schedules preventive maintenance, ensuring a smooth and well-maintained work environment.",
+        imageUrl: images.EE5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Improved Workspace Efficiency",
+        paragraph:
+          "SmartOffice optimizes workspace usage, leading to efficient space allocation, reduced costs, and improved productivity. Organizations can maximize the utilization of their facilities.",
+        imageUrl: images.EE6,
+      },
+      {
+        heading: "Enhanced Employee Experience",
+        paragraph:
+          "By providing a seamless and user-friendly desk booking system, SmartOffice empowers employees to choose their preferred workspace and facilitates a flexible and agile work environment.",
+        imageUrl: images.EE7,
+      },
+      {
+        heading: "Data-Driven Decision Making",
+        paragraph:
+          "With real-time occupancy data and workspace analytics, organizations can make informed decisions regarding office design, resource allocation, and future workspace planning.",
+        imageUrl: images.EE8,
+      },
+    ],
+    case_study: {
+      heading:
+        "EngagePro: Revolutionizing Employee Engagement at Pilots Corporation",
       paragraph:
-        "Employees can easily book desks or meeting rooms through a user-friendly interface, ensuring a seamless and organized reservation process. SmartOffice enables efficient desk allocation, reduces conflicts, and promotes flexible and agile working practices.",
-      imageUrl: images.EE4,
+        "Pilots Corporation, a leading technology company, faced a significant challenge of low employee engagement and morale. Despite having a talented workforce, the company struggled to foster a positive work culture and create a sense of belonging among employees.",
+      imageUrl: images.EE9,
+      downloadUrl: "",
     },
-    {
-      heading: "Resource Management and Maintenance",
-      paragraph:
-        "The solution facilitates the management of office resources such as equipment, facilities, and amenities. It automates maintenance requests, tracks inventory, and schedules preventive maintenance, ensuring a smooth and well-maintained work environment.",
-      imageUrl: images.EE5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Improved Workspace Efficiency",
-      paragraph:
-        "SmartOffice optimizes workspace usage, leading to efficient space allocation, reduced costs, and improved productivity. Organizations can maximize the utilization of their facilities.",
-      imageUrl: images.EE6,
-    },
-    {
-      heading: "Enhanced Employee Experience",
-      paragraph:
-        "By providing a seamless and user-friendly desk booking system, SmartOffice empowers employees to choose their preferred workspace and facilitates a flexible and agile work environment.",
-      imageUrl: images.EE7,
-    },
-    {
-      heading: "Data-Driven Decision Making",
-      paragraph:
-        "With real-time occupancy data and workspace analytics, organizations can make informed decisions regarding office design, resource allocation, and future workspace planning.",
-      imageUrl: images.EE8,
-    },
-  ],
-  case_study: {
-    heading: "EngagePro: Revolutionizing Employee Engagement at Pilots Corporation",
-    paragraph:
-      "Pilots Corporation, a leading technology company, faced a significant challenge of low employee engagement and morale. Despite having a talented workforce, the company struggled to foster a positive work culture and create a sense of belonging among employees.",
-    imageUrl: images.EE9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "orgdev-and-planning",
-  banner: {
-    heading:
-      "Empowering Financial Excellence",
-    paragraph:
-      "Drive financial excellence with FinancePro. Streamline financial operations, gain real-time insights, and optimize resource allocation to achieve organizational goals.",
-    imageUrl: images.OD1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.OD2,
   },
-  features: [
-    {
-      heading: "Integrated Financial Management",
+  {
+    id: "orgdev-and-planning",
+    banner: {
+      heading: "Empowering Financial Excellence",
       paragraph:
-        "FinancePro offers an integrated platform for comprehensive financial management. It enables organizations to centralize budgeting, forecasting, and financial reporting processes.",
-      imageUrl: images.OD3,
+        "Drive financial excellence with FinancePro. Streamline financial operations, gain real-time insights, and optimize resource allocation to achieve organizational goals.",
+      imageUrl: images.OD1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.OD2,
     },
-    {
-      heading: "Collaborative Budget Planning",
+    features: [
+      {
+        heading: "Integrated Financial Management",
+        paragraph:
+          "FinancePro offers an integrated platform for comprehensive financial management. It enables organizations to centralize budgeting, forecasting, and financial reporting processes.",
+        imageUrl: images.OD3,
+      },
+      {
+        heading: "Collaborative Budget Planning",
+        paragraph:
+          "The collaborative budget planning feature of FinancePro facilitates cross-departmental collaboration and alignment during the budgeting process.",
+        imageUrl: images.OD4,
+      },
+      {
+        heading: "Real-Time Financial Insights",
+        paragraph:
+          "FinancePro provides real-time financial insights and reporting capabilities. It offers customizable dashboards, financial KPI tracking, and interactive data visualizations, enabling organizations to monitor financial performance.",
+        imageUrl: images.OD5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Improved Financial Accuracy and Efficiency",
+        paragraph:
+          "FinancePro streamlines the budget planning process, reducing manual errors and saving time for finance teams. By automating financial workflows and providing real-time data.",
+        imageUrl: images.OD6,
+      },
+      {
+        heading: "Optimal Resource Allocation",
+        paragraph:
+          "With FinancePro, organizations gain better visibility into their financial position and can effectively allocate resources based on data-driven insights.",
+        imageUrl: images.OD7,
+      },
+      {
+        heading: "Enhanced Financial Decision-Making",
+        paragraph:
+          "The real-time financial insights provided by FinancePro empower organizations to make informed and timely financial decisions.",
+        imageUrl: images.OD8,
+      },
+    ],
+    case_study: {
+      heading: "Driving Organizational Development and Planning",
       paragraph:
-        "The collaborative budget planning feature of FinancePro facilitates cross-departmental collaboration and alignment during the budgeting process.",
-      imageUrl: images.OD4,
+        "IAB Corporation, a leading technology solutions provider, was experiencing challenges related to organizational development and planning. As the company grew rapidly, it faced difficulties in aligning its workforce, optimizing organizational structure, and fostering a culture of innovation and collaboration.",
+      imageUrl: images.OD9,
+      downloadUrl: "",
     },
-    {
-      heading: "Real-Time Financial Insights",
-      paragraph:
-        "FinancePro provides real-time financial insights and reporting capabilities. It offers customizable dashboards, financial KPI tracking, and interactive data visualizations, enabling organizations to monitor financial performance.",
-      imageUrl: images.OD5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Improved Financial Accuracy and Efficiency",
-      paragraph:
-        "FinancePro streamlines the budget planning process, reducing manual errors and saving time for finance teams. By automating financial workflows and providing real-time data.",
-      imageUrl: images.OD6,
-    },
-    {
-      heading: "Optimal Resource Allocation",
-      paragraph:
-        "With FinancePro, organizations gain better visibility into their financial position and can effectively allocate resources based on data-driven insights.",
-      imageUrl: images.OD7,
-    },
-    {
-      heading: "Enhanced Financial Decision-Making",
-      paragraph:
-        "The real-time financial insights provided by FinancePro empower organizations to make informed and timely financial decisions.",
-      imageUrl: images.OD8,
-    },
-  ],
-  case_study: {
-    heading: "Driving Organizational Development and Planning",
-    paragraph:
-      "IAB Corporation, a leading technology solutions provider, was experiencing challenges related to organizational development and planning. As the company grew rapidly, it faced difficulties in aligning its workforce, optimizing organizational structure, and fostering a culture of innovation and collaboration.",
-    imageUrl: images.OD9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "comp-and-benefits",
-  banner: {
-    heading:
-      "Streamlined Bonus Management",
-    paragraph:
-      "Simplify bonus calculations and distributions with BonusPlus. Configure bonus schemes, calculate performance-based incentives, and automate bonus payout processes.",
-    imageUrl: images.CB1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.CB2,
   },
-  features: [
-    {
-      heading: "Bonus Scheme Configuration",
+  {
+    id: "comp-and-benefits",
+    banner: {
+      heading: "Streamlined Bonus Management",
       paragraph:
-        "With BonusPlus, organizations can easily configure bonus schemes based on their specific criteria and performance metrics. The platform allows HR and finance teams to define rules, weightage, and targets for different bonus categories and ensuring accurate",
-      imageUrl: images.CB3,
+        "Simplify bonus calculations and distributions with BonusPlus. Configure bonus schemes, calculate performance-based incentives, and automate bonus payout processes.",
+      imageUrl: images.CB1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CB2,
     },
-    {
-      heading: "Performance Based Incentives",
+    features: [
+      {
+        heading: "Bonus Scheme Configuration",
+        paragraph:
+          "With BonusPlus, organizations can easily configure bonus schemes based on their specific criteria and performance metrics. The platform allows HR and finance teams to define rules, weightage, and targets for different bonus categories and ensuring accurate",
+        imageUrl: images.CB3,
+      },
+      {
+        heading: "Performance Based Incentives",
+        paragraph:
+          "BonusPlus enables the calculation of performance-based incentives, aligning bonuses with individual and team achievements. The platform integrates with performance management systems, allowing for seamless data integration and real-time performance tracking.",
+        imageUrl: images.CB4,
+      },
+      {
+        heading: "Automated Bonus Payout Processes",
+        paragraph:
+          "BonusPlus automates the entire bonus payout process, eliminating manual calculations and reducing administrative burdens. The platform ensures accurate and timely bonus disbursements by automating the calculation, validation, and distribution of bonuses.",
+        imageUrl: images.CB5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Efficiency and Accuracy",
+        paragraph:
+          "By streamlining bonus calculations and distributions, BonusPlus enhances efficiency and accuracy in the bonus management process. Manual calculations and paperwork are eliminated, reducing errors and saving valuable.",
+        imageUrl: images.CB6,
+      },
+      {
+        heading: "Fairness and Transparency",
+        paragraph:
+          "BonusPlus promotes fairness and transparency in bonus distributions. With clearly defined bonus schemes and performance-based incentives, employees understand the criteria for bonus calculations and creating a sense of fairness.",
+        imageUrl: images.CB7,
+      },
+      {
+        heading: "Motivation and Engagement",
+        paragraph:
+          "The streamlined bonus management process facilitated by BonusPlus enhances employee motivation and engagement. Employees are motivated to perform at their best, knowing that their efforts will be recognized and rewarded accurately.",
+        imageUrl: images.CB8,
+      },
+    ],
+    case_study: {
+      heading: "Integrated Compensation and Benefits Management",
       paragraph:
-        "BonusPlus enables the calculation of performance-based incentives, aligning bonuses with individual and team achievements. The platform integrates with performance management systems, allowing for seamless data integration and real-time performance tracking.",
-      imageUrl: images.CB4,
+        "Finex Corporation, a leading technology company, was facing challenges in effectively managing their compensation and benefits programs. The manual and disjointed processes for calculating salaries, administering benefits, and ensuring compliance were time-consuming, error-prone, and resulted in employee dissatisfaction.",
+      imageUrl: images.CB9,
+      downloadUrl: "",
     },
-    {
-      heading: "Automated Bonus Payout Processes",
-      paragraph:
-        "BonusPlus automates the entire bonus payout process, eliminating manual calculations and reducing administrative burdens. The platform ensures accurate and timely bonus disbursements by automating the calculation, validation, and distribution of bonuses.",
-      imageUrl: images.CB5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Efficiency and Accuracy",
-      paragraph:
-        "By streamlining bonus calculations and distributions, BonusPlus enhances efficiency and accuracy in the bonus management process. Manual calculations and paperwork are eliminated, reducing errors and saving valuable.",
-      imageUrl: images.CB6,
-    },
-    {
-      heading: "Fairness and Transparency",
-      paragraph:
-        "BonusPlus promotes fairness and transparency in bonus distributions. With clearly defined bonus schemes and performance-based incentives, employees understand the criteria for bonus calculations and creating a sense of fairness.",
-      imageUrl: images.CB7,
-    },
-    {
-      heading: "Motivation and Engagement",
-      paragraph:
-        "The streamlined bonus management process facilitated by BonusPlus enhances employee motivation and engagement. Employees are motivated to perform at their best, knowing that their efforts will be recognized and rewarded accurately.",
-      imageUrl: images.CB8,
-    },
-  ],
-  case_study: {
-    heading: "Integrated Compensation and Benefits Management",
-    paragraph:
-      "Finex Corporation, a leading technology company, was facing challenges in effectively managing their compensation and benefits programs. The manual and disjointed processes for calculating salaries, administering benefits, and ensuring compliance were time-consuming, error-prone, and resulted in employee dissatisfaction.",
-    imageUrl: images.CB9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "learning-and-development",
-  banner: {
-    heading:
-      "Empowering Continuous Learning and Development",
-    paragraph:
-      "Empower employees with LearnPro, a comprehensive learning and development solution. Create personalized learning paths, track progress, and foster a culture of continuous learning for enhanced employee growth and organizational success.",
-    imageUrl: images.LD1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.LD2,
   },
-  features: [
-    {
-      heading: "Personalized Learning Paths",
+  {
+    id: "learning-and-development",
+    banner: {
+      heading: "Empowering Continuous Learning and Development",
       paragraph:
-        "LearnPro enables HR and L&D teams to create personalized learning paths tailored to individual employee needs. This feature allows employees to access relevant learning content and resources based on their roles, skills, and career aspirations.",
-      imageUrl: images.LD3,
+        "Empower employees with LearnPro, a comprehensive learning and development solution. Create personalized learning paths, track progress, and foster a culture of continuous learning for enhanced employee growth and organizational success.",
+      imageUrl: images.LD1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.LD2,
     },
-    {
-      heading: "Progress Tracking and Analytics",
+    features: [
+      {
+        heading: "Personalized Learning Paths",
+        paragraph:
+          "LearnPro enables HR and L&D teams to create personalized learning paths tailored to individual employee needs. This feature allows employees to access relevant learning content and resources based on their roles, skills, and career aspirations.",
+        imageUrl: images.LD3,
+      },
+      {
+        heading: "Progress Tracking and Analytics",
+        paragraph:
+          "With LearnPro, organizations can track the progress of employees' learning journeys. Detailed analytics provide insights into completion rates, competency development, and overall learning effectiveness.",
+        imageUrl: images.LD4,
+      },
+      {
+        heading: "Engaging Learning Content",
+        paragraph:
+          "LearnPro offers a rich library of engaging learning content, including interactive courses, videos, assessments, and e-books. The platform supports various learning formats to cater to different learning preferences.",
+        imageUrl: images.LD5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Learning Experience",
+        paragraph:
+          "LearnPro empowers employees to take ownership of their learning and development. By offering personalized learning paths and engaging content, it creates a positive and engaging learning.",
+        imageUrl: images.LD6,
+      },
+      {
+        heading: "Improved Employee Performance",
+        paragraph:
+          "With LearnPro, organizations can align learning initiatives with business goals and individual performance objectives.",
+        imageUrl: images.LD7,
+      },
+      {
+        heading: "Increased Employee Engagement and Retention",
+        paragraph:
+          "Providing employees with opportunities for continuous learning and development through LearnPro boosts engagement and satisfaction.",
+        imageUrl: images.LD8,
+      },
+    ],
+    case_study: {
+      heading: "Driving Organizational Development and Planning",
       paragraph:
-        "With LearnPro, organizations can track the progress of employees' learning journeys. Detailed analytics provide insights into completion rates, competency development, and overall learning effectiveness.",
-      imageUrl: images.LD4,
+        "IAB Corporation, a leading technology solutions provider, was experiencing challenges related to organizational development and planning. As the company grew rapidly, it faced difficulties in aligning its workforce, optimizing organizational structure, and fostering a culture of innovation and collaboration.",
+      imageUrl: images.LD9,
+      downloadUrl: "",
     },
-    {
-      heading: "Engaging Learning Content",
-      paragraph:
-        "LearnPro offers a rich library of engaging learning content, including interactive courses, videos, assessments, and e-books. The platform supports various learning formats to cater to different learning preferences.",
-      imageUrl: images.LD5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Learning Experience",
-      paragraph:
-        "LearnPro empowers employees to take ownership of their learning and development. By offering personalized learning paths and engaging content, it creates a positive and engaging learning.",
-      imageUrl: images.LD6,
-    },
-    {
-      heading: "Improved Employee Performance",
-      paragraph:
-        "With LearnPro, organizations can align learning initiatives with business goals and individual performance objectives.",
-      imageUrl: images.LD7,
-    },
-    {
-      heading: "Increased Employee Engagement and Retention",
-      paragraph:
-        "Providing employees with opportunities for continuous learning and development through LearnPro boosts engagement and satisfaction.",
-      imageUrl: images.LD8,
-    },
-  ],
-  case_study: {
-    heading: "Driving Organizational Development and Planning",
-    paragraph:
-      "IAB Corporation, a leading technology solutions provider, was experiencing challenges related to organizational development and planning. As the company grew rapidly, it faced difficulties in aligning its workforce, optimizing organizational structure, and fostering a culture of innovation and collaboration.",
-    imageUrl: images.LD9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "citizen-safety",
-  banner: {
-    heading:
-      "Transforming Workplace Safety Communication",
-    paragraph:
-      "SafetyConnect, powered by Nexus Connect, revolutionizes workplace safety communication, enabling real-time incident reporting, efficient coordination, and proactive hazard prevention. Enhance employee safety and foster a culture of proactive risk management with SafetyConnect.",
-    imageUrl: images.CIS1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.CIS2,
   },
-  features: [
-    {
-      heading: "Real-time Incident Reporting",
+  {
+    id: "citizen-safety",
+    banner: {
+      heading: "Transforming Workplace Safety Communication",
       paragraph:
-        "SafetyConnect provides a user-friendly interface for employees to report incidents and near-misses in real-time. With instant notifications, supervisors and safety teams can quickly respond to incidents, initiate investigations, and take necessary corrective actions promptly.",
-      imageUrl: images.CIS3,
+        "SafetyConnect, powered by Nexus Connect, revolutionizes workplace safety communication, enabling real-time incident reporting, efficient coordination, and proactive hazard prevention. Enhance employee safety and foster a culture of proactive risk management with SafetyConnect.",
+      imageUrl: images.CIS1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CIS2,
     },
-    {
-      heading: "Centralized Safety Communication",
+    features: [
+      {
+        heading: "Real-time Incident Reporting",
+        paragraph:
+          "SafetyConnect provides a user-friendly interface for employees to report incidents and near-misses in real-time. With instant notifications, supervisors and safety teams can quickly respond to incidents, initiate investigations, and take necessary corrective actions promptly.",
+        imageUrl: images.CIS3,
+      },
+      {
+        heading: "Centralized Safety Communication",
+        paragraph:
+          "The platform serves as a centralized hub for safety-related communication, ensuring seamless collaboration and information sharing among employees, supervisors, and safety teams. Important safety alerts, updates, and training materials can be easily accessed and disseminated.",
+        imageUrl: images.CIS4,
+      },
+      {
+        heading: "Hazard Identification and Prevention",
+        paragraph:
+          "SafetyConnect enables employees to proactively identify and report hazards within the workplace. Through customizable checklists and hazard reporting forms, organizations can gather data on potential risks, analyze trends, and implement preventive measures to mitigate hazards before incidents occur.",
+        imageUrl: images.CIS5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Improved Incident Response",
+        paragraph:
+          "By leveraging SafetyConnect, organizations can significantly reduce incident response times. Real-time incident reporting and instant notifications enable swift action.",
+        imageUrl: images.CIS6,
+      },
+      {
+        heading: "Enhanced Safety Culture",
+        paragraph:
+          "SafetyConnect promotes a proactive safety culture within the organization. Employees feel empowered to report incidents and hazards, knowing their concerns will be addressed promptly.",
+        imageUrl: images.CIS7,
+      },
+      {
+        heading: "Proactive Risk Management",
+        paragraph:
+          "With SafetyConnect, organizations can proactively identify and address potential hazards before they escalate into serious incidents. The ability to capture and analyze data on hazards and near-misses helps organizations identify patterns.",
+        imageUrl: images.CIS8,
+      },
+    ],
+    case_study: {
+      heading: "Empowering Citizen Safety through Innovative Technology",
       paragraph:
-        "The platform serves as a centralized hub for safety-related communication, ensuring seamless collaboration and information sharing among employees, supervisors, and safety teams. Important safety alerts, updates, and training materials can be easily accessed and disseminated.",
-      imageUrl: images.CIS4,
+        "IAB City faced a significant challenge in ensuring the safety and security of its citizens. Rising crime rates, inadequate surveillance systems, and limited real-time information posed a threat to public safety. The city needed a comprehensive solution to empower citizens and enhance collaboration between law enforcement agencies and the community. ",
+      imageUrl: images.CIS9,
+      downloadUrl: "",
     },
-    {
-      heading: "Hazard Identification and Prevention",
-      paragraph:
-        "SafetyConnect enables employees to proactively identify and report hazards within the workplace. Through customizable checklists and hazard reporting forms, organizations can gather data on potential risks, analyze trends, and implement preventive measures to mitigate hazards before incidents occur.",
-      imageUrl: images.CIS5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Improved Incident Response",
-      paragraph:
-        "By leveraging SafetyConnect, organizations can significantly reduce incident response times. Real-time incident reporting and instant notifications enable swift action.",
-      imageUrl: images.CIS6,
-    },
-    {
-      heading: "Enhanced Safety Culture",
-      paragraph:
-        "SafetyConnect promotes a proactive safety culture within the organization. Employees feel empowered to report incidents and hazards, knowing their concerns will be addressed promptly.",
-      imageUrl: images.CIS7,
-    },
-    {
-      heading: "Proactive Risk Management",
-      paragraph:
-        "With SafetyConnect, organizations can proactively identify and address potential hazards before they escalate into serious incidents. The ability to capture and analyze data on hazards and near-misses helps organizations identify patterns.",
-      imageUrl: images.CIS8,
-    },
-  ],
-  case_study: {
-    heading: "Empowering Citizen Safety through Innovative Technology",
-    paragraph:
-      "IAB City faced a significant challenge in ensuring the safety and security of its citizens. Rising crime rates, inadequate surveillance systems, and limited real-time information posed a threat to public safety. The city needed a comprehensive solution to empower citizens and enhance collaboration between law enforcement agencies and the community. ",
-    imageUrl: images.CIS9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "citizen-engagement",
-  banner: {
-    heading:
-      "Transforming Civic Engagement with NextGenTV Broadcast Technologies",
-    paragraph:
-      "C-Link TV is a groundbreaking SaaS application powered by Nexus Connect, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
-    imageUrl: images.ce1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.ce2,
   },
-  features: [
-    {
-      heading: "Comprehensive Civic Issue Reporting",
+  {
+    id: "citizen-engagement",
+    banner: {
+      heading:
+        "Transforming Civic Engagement with NextGenTV Broadcast Technologies",
       paragraph:
-        "C-Link  TV provides a user-friendly platform for citizens to report civic issues, such as potholes, street lighting problems, or sanitation concerns. ",
-      imageUrl: images.ce3,
+        "C-Link TV is a groundbreaking SaaS application powered by Nexus Connect, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
+      imageUrl: images.ce1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.ce2,
     },
-    {
-      heading: "Real-time Issue Resolution Updates",
+    features: [
+      {
+        heading: "Comprehensive Civic Issue Reporting",
+        paragraph:
+          "C-Link  TV provides a user-friendly platform for citizens to report civic issues, such as potholes, street lighting problems, or sanitation concerns. ",
+        imageUrl: images.ce3,
+      },
+      {
+        heading: "Real-time Issue Resolution Updates",
+        paragraph:
+          "With C-Link  TV, citizens can receive real-time updates on the progress and resolution of reported issues. This feature enhances transparency and accountability, keeping citizens informed and engaged throughout the resolution process.",
+        imageUrl: images.ce4,
+      },
+      {
+        heading: "Social Dialogue and Community Engagement",
+        paragraph:
+          "The app fosters social dialogue and community engagement by providing a platform for citizens to discuss civic issues, share ideas, and collaborate on solutions. ",
+        imageUrl: images.ce5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Communication and Efficiency",
+        paragraph:
+          "C-Link  TV facilitates seamless communication between local governments and citizens, enabling efficient issue reporting and resolution.",
+        imageUrl: images.ce6,
+      },
+      {
+        heading: "Increased Civic Engagement and Empowerment",
+        paragraph:
+          " By offering a user-friendly interface and promoting social dialogue, C-Link TV encourages citizens to actively engage in civic matters.",
+        imageUrl: images.ce7,
+      },
+      {
+        heading: "Improved Transparency and Accountability",
+        paragraph:
+          "With real-time updates on issue resolution, C-Link TV promotes transparency and accountability in local governance.",
+        imageUrl: images.ce8,
+      },
+    ],
+    case_study: {
+      heading: "Transforming Citizen Engagement in the Public Sector",
       paragraph:
-        "With C-Link  TV, citizens can receive real-time updates on the progress and resolution of reported issues. This feature enhances transparency and accountability, keeping citizens informed and engaged throughout the resolution process.",
-      imageUrl: images.ce4,
+        "CityX Municipality faced a challenge in effectively engaging and connecting with its citizens. Traditional communication channels were limited and inefficient, leading to a lack of citizen involvement in decision-making processes, reduced trust in the government, and missed opportunities for collaboration.",
+      imageUrl: images.ce9,
+      downloadUrl: "",
     },
-    {
-      heading: "Social Dialogue and Community Engagement",
-      paragraph:
-        "The app fosters social dialogue and community engagement by providing a platform for citizens to discuss civic issues, share ideas, and collaborate on solutions. ",
-      imageUrl: images.ce5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Communication and Efficiency",
-      paragraph:
-        "C-Link  TV facilitates seamless communication between local governments and citizens, enabling efficient issue reporting and resolution.",
-      imageUrl: images.ce6,
-    },
-    {
-      heading: "Increased Civic Engagement and Empowerment",
-      paragraph:
-        " By offering a user-friendly interface and promoting social dialogue, C-Link TV encourages citizens to actively engage in civic matters.",
-      imageUrl: images.ce7,
-    },
-    {
-      heading: "Improved Transparency and Accountability",
-      paragraph:
-        "With real-time updates on issue resolution, C-Link TV promotes transparency and accountability in local governance.",
-      imageUrl: images.ce8,
-    },
-  ],
-  case_study: {
-    heading: "Transforming Citizen Engagement in the Public Sector",
-    paragraph:
-      "CityX Municipality faced a challenge in effectively engaging and connecting with its citizens. Traditional communication channels were limited and inefficient, leading to a lack of citizen involvement in decision-making processes, reduced trust in the government, and missed opportunities for collaboration.",
-    imageUrl: images.ce9,
-    downloadUrl: ""
-  }
-},
-{
-  id: "community-engagements",
-  banner: {
-    heading:
-      "Revolutionizing Citizen Engagement in the Public Sector",
-    paragraph:
-      "Engage360 is a transformative citizen engagement platform built on Nexus Connect, empowering public sector organizations to connect, collaborate, and communicate with citizens effectively.",
-    imageUrl: images.CME1,
-    bookDemoUrl: "",
-    viewDemoUrl: images.CME2,
   },
-  features: [
-    {
-      heading: "Seamless Communication Channels",
+  {
+    id: "community-engagements",
+    banner: {
+      heading: "Revolutionizing Citizen Engagement in the Public Sector",
       paragraph:
-        "Engage360 provides a suite of digital communication tools, including mobile apps, web portals, and social media integration.These channels facilitate seamless communication between the government and citizens.",
-      imageUrl: images.CME3,
+        "Engage360 is a transformative citizen engagement platform built on Nexus Connect, empowering public sector organizations to connect, collaborate, and communicate with citizens effectively.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
     },
-    {
-      heading: "Interactive Participation",
+    features: [
+      {
+        heading: "Seamless Communication Channels",
+        paragraph:
+          "Engage360 provides a suite of digital communication tools, including mobile apps, web portals, and social media integration.These channels facilitate seamless communication between the government and citizens.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Interactive Participation",
+        paragraph:
+          "Platforms With virtual town hall meetings and collaborative project management modules, Engage360 encourages citizens to actively participate in governance processes.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Robust Feedback Mechanism",
+        paragraph:
+          "Engage360 incorporates a comprehensive feedback mechanism where citizens can report issues, provide suggestions, and track the progress of their submissions.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Citizen Participation",
+        paragraph:
+          "Engage360 empowers citizens to actively engage in decision-making processes and collaborate with the government. By providing accessible communication channels and interactive participation platforms.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Improved Transparency and Trust",
+        paragraph:
+          " Through Engage360, governments can foster transparency by sharing information, soliciting feedback, and showcasing the impact of citizen input on policy decisions.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Streamlined Service Delivery",
+        paragraph:
+          "Engage360's feedback mechanism enables governments to identify and address citizen concerns efficiently. By promptly responding to issues and leveraging citizen feedback.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
       paragraph:
-        "Platforms With virtual town hall meetings and collaborative project management modules, Engage360 encourages citizens to actively participate in governance processes.",
-      imageUrl: images.CME4,
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
     },
-    {
-      heading: "Robust Feedback Mechanism",
-      paragraph:
-        "Engage360 incorporates a comprehensive feedback mechanism where citizens can report issues, provide suggestions, and track the progress of their submissions.",
-      imageUrl: images.CME5,
-    },
-  ],
-  benefits: [
-    {
-      heading: "Enhanced Citizen Participation",
-      paragraph:
-        "Engage360 empowers citizens to actively engage in decision-making processes and collaborate with the government. By providing accessible communication channels and interactive participation platforms.",
-      imageUrl: images.CME6,
-    },
-    {
-      heading: "Improved Transparency and Trust",
-      paragraph:
-        " Through Engage360, governments can foster transparency by sharing information, soliciting feedback, and showcasing the impact of citizen input on policy decisions.",
-      imageUrl: images.CME7,
-    },
-    {
-      heading: "Streamlined Service Delivery",
-      paragraph:
-        "Engage360's feedback mechanism enables governments to identify and address citizen concerns efficiently. By promptly responding to issues and leveraging citizen feedback.",
-      imageUrl: images.CME8,
-    },
-  ],
-  case_study: {
-    heading: "Empowering Community Engagement: TheCommunity Connect Case Study",
-    paragraph:
-      "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
-    imageUrl: images.CME9,
-    downloadUrl: ""
-  }
-}
-
+  },
 ];
 
-const servicesData =[
+const servicesData = [
   {
     id: "adtech",
     banner: {
@@ -5364,42 +5345,42 @@ const servicesData =[
         description:
           "Utilize data-driven insights to precisely target the right audience based on demographics, behavior, and preferences, enabling businesses to deliver personalized and relevant ads.",
         imageUrl: images.AD3,
-        url:"",
+        url: "",
       },
       {
         heading: "Real-time Campaign Optimization",
         description:
           "Monitor and analyze key metrics in real-time to optimize advertising campaigns, ensuring efficient resource allocation and maximizing campaign effectiveness.",
         imageUrl: images.AD4,
-        url:"",
+        url: "",
       },
       {
         heading: "Multi-Channel Campaign Management",
         description:
           "Coordinate and manage advertising campaigns across various digital channels, maintaining consistent messaging and brand presence while reaching the target audience across platforms.",
         imageUrl: images.AD5,
-        url:"",
+        url: "",
       },
       {
         heading: "Comprehensive Ad Performance Analysis",
         description:
           "Evaluate ad performance metrics such as click-through rates, conversion rates, and engagement to gain actionable insights, identify areas for improvement, and refine advertising strategies.",
         imageUrl: images.AD6,
-        url:"",
+        url: "",
       },
       {
         heading: "Creative Ad Development",
         description:
           "Leverage industry expertise and creative best practices to develop captivating ad creatives that engage the target audience, drive customer engagement, and increase brand recall.",
         imageUrl: images.AD7,
-        url:"",
+        url: "",
       },
       {
         heading: "Ad Spend Optimization",
         description:
           "Utilize advanced analytics and optimization techniques to maximize the return on investment by identifying the most effective channels, placements, and targeting strategies for cost-effective advertising campaigns.",
         imageUrl: images.AD8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -5411,28 +5392,28 @@ const servicesData =[
       imageUrl: images.AD9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "phygital-and-iot",
@@ -5445,7 +5426,8 @@ const servicesData =[
       imageUrl: images.PI1,
     },
     problemStatement: {
-      heading: "Overcoming Challenges in Integrating Physical and Digital Environments",
+      heading:
+        "Overcoming Challenges in Integrating Physical and Digital Environments",
       description:
         "Many businesses face challenges when it comes to integrating their physical and digital environments. The lack of seamless connections between offline and online touchpoints, limited access to real-time data, and difficulties in leveraging IoT technologies hinder the ability to deliver immersive and connected experiences.",
       imageUrl: images.PI2,
@@ -5457,42 +5439,42 @@ const servicesData =[
         description:
           "Mobius Consulting offers expertise in designing connected experiences that seamlessly merge physical and digital touchpoints. This includes interactive displays, personalized recommendations and real-time notifications.",
         imageUrl: images.PI3,
-        url:"",
+        url: "",
       },
       {
         heading: "Data-driven Insights",
         description:
           "Leveraging IoT devices and data analytics, Mobius Consulting enables businesses to gain valuable insights into customer behavior, preferences, and patterns.",
         imageUrl: images.PI4,
-        url:"",
+        url: "",
       },
       {
         heading: "Immersive Customer Engagement",
         description:
           "Through the use of innovative technologies such as augmented reality (AR), virtual reality (VR), and location-based services, Mobius Consulting helps businesses create personalized and immersive experiences that captivate customers, increase brand loyalty, and drive sales.",
         imageUrl: images.PI5,
-        url:"",
+        url: "",
       },
       {
         heading: "Operational Optimization",
         description:
           "By harnessing IoT technologies, Mobius Consulting enables businesses to monitor and control physical assets, facilities, and resources remotely. This results in streamlined processes, reduced costs and improved productivity.",
         imageUrl: images.PI6,
-        url:"",
+        url: "",
       },
       {
         heading: "New Revenue Streams",
         description:
           "Mobius Consulting assists businesses in unlocking new revenue streams by integrating digital capabilities with physical products and services. This includes opportunities for subscription-based services, data monetization and cross-selling.",
         imageUrl: images.PI7,
-        url:"",
+        url: "",
       },
       {
         heading: "Scalable and Secure Infrastructure",
         description:
           "Mobius Consulting ensures the design and implementation of scalable and secure infrastructure to support the Phygital & IoT ecosystem. This includes robust cloud architecture and data management systems.",
         imageUrl: images.PI8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -5502,31 +5484,30 @@ const servicesData =[
         "SmartTechx Retail Corporation, a leading player in the retail industry, faced the challenge of delivering seamless and immersive customer experiences that bridge the gap between their physical stores and digital platforms.",
       downloadLink: "",
       imageUrl: images.PI9,
-
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "machine-learning",
@@ -5551,42 +5532,42 @@ const servicesData =[
         description:
           "Mobius Consulting offers expertise in designing connected experiences that seamlessly merge physical and digital touchpoints. This includes interactive displays, personalized recommendations and real-time notifications.",
         imageUrl: images.ML3,
-        url:"",
+        url: "",
       },
       {
         heading: "Predictive Analytics",
         description:
           "Leveraging IoT devices and data analytics, Mobius Consulting enables businesses to gain valuable insights into customer behavior, preferences, and patterns.",
         imageUrl: images.ML4,
-        url:"",
+        url: "",
       },
       {
         heading: "Personalized Recommendations",
         description:
           "Through the use of innovative technologies such as augmented reality (AR), virtual reality (VR), and location-based services, Mobius Consulting helps businesses create personalized and immersive experiences that captivate customers, increase brand loyalty, and drive sales.",
         imageUrl: images.ML5,
-        url:"",
+        url: "",
       },
       {
         heading: "Natural Language Processing (NLP)",
         description:
           "By harnessing IoT technologies, Mobius Consulting enables businesses to monitor and control physical assets, facilities, and resources remotely. This results in streamlined processes, reduced costs and improved productivity.",
         imageUrl: images.ML6,
-        url:"",
+        url: "",
       },
       {
         heading: "Fraud Detection and Prevention",
         description:
           "Mobius Consulting assists businesses in unlocking new revenue streams by integrating digital capabilities with physical products and services. This includes opportunities for subscription-based services, data monetization and cross-selling.",
         imageUrl: images.ML7,
-        url:"",
+        url: "",
       },
       {
         heading: "Intelligent Automation",
         description:
           "Mobius Consulting ensures the design and implementation of scalable and secure infrastructure to support the Phygital & IoT ecosystem. This includes robust cloud architecture and data management systems.",
         imageUrl: images.ML8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -5598,28 +5579,28 @@ const servicesData =[
       imageUrl: images.ML9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "envision",
@@ -5644,75 +5625,74 @@ const servicesData =[
         description:
           "Our team possesses deep domain knowledge in various industries, enabling us to provide strategic guidance tailored to specific sectors such as CX, IoT, Smart City, Weather, Digital Public Infrastructure, Telco, Enterprise, and HR. ",
         imageUrl: images.E3,
-        url:"",
+        url: "",
       },
       {
         heading: "Market Insights",
         description:
           "We continuously monitor market trends, conduct research, and gather valuable insights to help our clients envision their digital transformation journey. By analyzing industry-specific challenges, customer expectations, and competitive landscapes.",
         imageUrl: images.E4,
-        url:"",
+        url: "",
       },
       {
         heading: "Thought Leadership",
         description:
           "Our team actively contributes to industry forums, publishes research papers, and delivers keynote speeches, establishing ourselves as thought leaders.We push the boundaries of what is possible in digital transformation.",
         imageUrl: images.E5,
-        url:"",
+        url: "",
       },
       {
         heading: "Collaborative Approach",
         description:
           "We adopt a collaborative approach, working closely with our clients to co-create their digital transformation vision. By actively listening to their requirements, goals, and aspirations, we develop tailored strategies that align with their business objectives.",
         imageUrl: images.E6,
-        url:"",
+        url: "",
       },
       {
         heading: "Technology Expertise",
         description:
           "In addition to our deep domain expertise, we possess strong technical capabilities in designing and implementing digital solutions. Our proficiency in emerging technologies such as AI, ML, IoT, and cloud computing enables us to craft innovative.",
         imageUrl: images.E7,
-        url:"",
+        url: "",
       },
       {
         heading: "Strategic Roadmaps",
         description:
           "We assist clients in creating comprehensive digital transformation roadmaps that outline the steps, timelines, and resources required to achieve their goals.",
         imageUrl: images.E8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Envisioning a Digital Transformation Journey for SmartX Retail",
+      heading: "Envisioning a Digital Transformation Journey for SmartX Retail",
       description:
         "SmartX Retail faced the challenge of adapting to the rapidly evolving retail landscape and changing customer expectations. They needed to find innovative ways to bridge the gap between their physical stores and online channels, enhance customer experiences, and optimize their operational processes.",
       downloadLink: "",
       imageUrl: images.E9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "engineer",
@@ -5737,75 +5717,74 @@ const servicesData =[
         description:
           "Architect and develop robust and scalable platforms that serve as the foundation for digital solutions",
         imageUrl: images.ENG3,
-        url:"platform-engineering",
+        url: "platform-engineering",
       },
       {
         heading: "Cloud Engineering",
         description:
           "Leverage cloud computing platforms to design scalable and resilient architectures for efficient and cost-effective operations.",
         imageUrl: images.ENG4,
-        url:"cloud-engineering",
+        url: "cloud-engineering",
       },
       {
         heading: "Data Engineering",
         description:
           "Unlock the value of data assets by designing and implementing robust data pipelines, warehouses, and lakes.",
         imageUrl: images.ENG5,
-        url:"data-science-and-engineering",
+        url: "data-science-and-engineering",
       },
       {
         heading: "API Automation and Orchestration",
         description:
           "Streamline workflows and integrate systems and applications through the development and management of APIs.",
         imageUrl: images.ENG6,
-        url:"",
+        url: "",
       },
       {
         heading: "Product Design",
         description:
           "Create engaging and intuitive digital experiences by combining user-centric design principles with technical expertise.",
         imageUrl: images.ENG7,
-        url:"",
+        url: "",
       },
       {
         heading: "Full Stack Development",
         description:
           "Build end-to-end solutions encompassing both front-end and back-end technologies for seamless user experiences and functionality.",
         imageUrl: images.ENG8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Digital Transformation in the IT Industry",
+      heading: "Digital Transformation in the IT Industry",
       description:
         "TechSolutions Inc., a leading IT services provider, faced a critical challenge in adapting to the rapidly evolving digital landscape. They struggled with legacy systems, disjointed processes, and the inability to keep up with customer demands for innovative solutions. As the competition grew fiercer, TechSolutions Inc.",
       downloadLink: "",
       imageUrl: images.ENG9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "cloud-engineering",
@@ -5830,75 +5809,74 @@ const servicesData =[
         description:
           "Collaborating with businesses to develop tailored cloud strategies, assessing infrastructure, and defining migration approaches for successful cloud adoption and transformation.",
         imageUrl: images.CENG3,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud Architecture and Design",
         description:
           "Designing robust and scalable cloud architectures that align with business objectives, considering factors such as scalability, security, performance,and cost optimization.",
         imageUrl: images.CENG4,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud Migration and Deployment",
         description:
           "Assisting businesses in seamless migration of applications, data, and infrastructure to the cloud using proven methodologies and tools.",
         imageUrl: images.CENG5,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud Infrastructure Management",
         description:
           "Helping businesses manage and optimize their cloud infrastructure, ensuring performance, cost efficiency, and security through best practices.",
         imageUrl: images.CENG6,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud Cost Optimization",
         description:
           "Analyzing usage patterns, identifying cost optimization opportunities, and implementing measures to achieve cost efficiencies while maintaining performance and functionality.",
         imageUrl: images.CENG7,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud Security and Compliance",
         description:
           "Implementing robust security controls, encryption mechanisms, access management, and continuous monitoring to protect data and ensure regulatory compliance in the cloud.",
         imageUrl: images.CENG8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Empowering to Scale and Innovate in the financial service",
+      heading: "Empowering to Scale and Innovate in the financial service",
       description:
         "Teckie Corporation, a leading financial services company, faced challenges in scaling their operations and adopting cloud technologies to drive innovation and agility. They needed to overcome barriers such as complex legacy infrastructure, data security concerns, and lack of expertise in cloud architecture and deployment.",
       downloadLink: "",
       imageUrl: images.CENG9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "platform-engineering",
@@ -5923,42 +5901,42 @@ const servicesData =[
         description:
           "Creating scalable, modular, and future-proof platform architectures that align with business goals and accommodate growth and emerging technologies.",
         imageUrl: images.PE3,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud-Native Development",
         description:
           "Harnessing the benefits of cloud computing to build highly scalable, resilient, and cost-efficient platforms that adapt to changing demands.",
         imageUrl: images.PE4,
-        url:"",
+        url: "",
       },
       {
         heading: "DevOps and CI/CD",
         description:
           "Integrating DevOps principles and practices to achieve faster time-to-market, improved collaboration, and continuous delivery of software updates.",
         imageUrl: images.PE5,
-        url:"devops-and-sre",
+        url: "devops-and-sre",
       },
       {
         heading: "Performance Optimization",
         description:
           "Conducting thorough performance testing, optimization, and monitoring to ensure high-performance platforms that deliver seamless user experiences.",
         imageUrl: images.PE6,
-        url:"",
+        url: "",
       },
       {
         heading: "Security and Compliance",
         description:
           "Implementing robust security measures,encryption techniques, access controls, and compliance with industry standards and regulations to protect platforms and sensitive data.",
         imageUrl: images.PE7,
-        url:"",
+        url: "",
       },
       {
         heading: "Integration and APIs",
         description:
           "Enabling seamless data exchange, collaboration, and interoperability by integrating platforms with external systems, applications, and APIs.",
         imageUrl: images.PE8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -5970,28 +5948,28 @@ const servicesData =[
       imageUrl: images.PE9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "data-science-and-engineering",
@@ -6016,75 +5994,74 @@ const servicesData =[
         description:
           "Developing a comprehensive data strategy and roadmap aligned with business objectives, identifying data assets, and defining the infrastructure and processes required for actionable insights.",
         imageUrl: images.DS3,
-        url:"",
+        url: "",
       },
       {
         heading: "Scalable Data Architecture and Engineering",
         description:
           "Designing and implementing robust data architectures, including data ingestion, data pipelines, data lakes, and warehouses, to efficiently capture, store, and integrate large volumes of data.",
         imageUrl: images.DS4,
-        url:"",
+        url: "",
       },
       {
         heading: "Data Exploration and Visualization",
         description:
           "Utilizing advanced analytics techniques and visualization tools to explore and transform raw data into interactive visualizations, dashboards, and reports that facilitate data-driven decision-making.",
         imageUrl: images.DS5,
-        url:"",
+        url: "",
       },
       {
         heading: "Machine Learning and Predictive Analytics",
         description:
           "Leveraging machine learning algorithms and predictive analytics models to uncover patterns, trends, and insights from data, enabling accurate predictions and optimization of operations.",
         imageUrl: images.DS6,
-        url:"",
+        url: "",
       },
       {
         heading: "Data Governance and Security",
         description:
           "Analyzing usage patterns, identifying cost optimization opportunities, and implementing measures to achieve cost efficiencies while maintaining performance and functionality.",
         imageUrl: images.DS7,
-        url:"",
+        url: "",
       },
       {
         heading: "DataOps and Automation",
         description:
           "Streamlining and automating data processes through DataOps methodologies, including automated data pipelines, continuous integration and deployment (CI/CD) practices, and monitoring frameworks for agile, efficient, and reliable data operations.",
         imageUrl: images.DS8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Driving Business Success through Data Science & Engineering",
+      heading: "Driving Business Success through Data Science & Engineering",
       description:
         "Finex Corporation, a prominent player in the retail and e-commerce industry, faced several challenges in effectively leveraging their data to drive business success. The company struggled with manual and time-consuming data analysis processes, lacked a scalable data infrastructure, and needed to enhance their decision-making capabilities based on data-driven insights.",
       downloadLink: "",
       imageUrl: images.DS9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "execute",
@@ -6109,14 +6086,14 @@ const servicesData =[
         description:
           "Our skilled project managers utilize industry best practices and agile methodologies to effectively plan, organize, and execute digital transformation initiatives. ",
         imageUrl: images.EX3,
-        url:"",
+        url: "",
       },
       {
         heading: "DevOps",
         description:
           "We implement DevOps practices to foster collaboration, automate processes, and drive continuous improvement across development and operations teams. ",
         imageUrl: images.EX4,
-        url:"devops-and-sre",
+        url: "devops-and-sre",
       },
       {
         heading: "Customer Support Engineering",
@@ -6129,21 +6106,21 @@ const servicesData =[
         description:
           "We have extensive experience in managing cloud migrations, guiding organizations through the complexities of transitioning their applications and infrastructure to cloud platforms.",
         imageUrl: images.EX6,
-        url:"",
+        url: "",
       },
       {
         heading: "Site Reliability Engineering (SRE)",
         description:
           "Our SRE capabilities focus on enhancing the reliability, scalability, and performance of digital systems. By proactively monitoring systems, managing incidents, and implementing capacity planning.",
         imageUrl: images.EX7,
-        url:"devops-and-sre",
+        url: "devops-and-sre",
       },
       {
         heading: "Building and Managing ETL Pipelines",
         description:
           "Our expertise in building and managing ETL pipelines enables organizations to efficiently integrate, transform, and analyze data. We design scalable pipelines, implement data quality checks, and ensure reliable data delivery",
         imageUrl: images.EX8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -6155,28 +6132,28 @@ const servicesData =[
       imageUrl: images.EX9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "ux-design",
@@ -6189,7 +6166,8 @@ const servicesData =[
       imageUrl: images.UX1,
     },
     problemStatement: {
-      heading: "Innovative Design Solutions: Redefining User Engagement with Product Design",
+      heading:
+        "Innovative Design Solutions: Redefining User Engagement with Product Design",
       description:
         "Our Product Design Services focus on creating user-centric digital experiences that captivate customers, increase user satisfaction, and drive higher engagement and conversions. We leverage human-centered design principles, research methodologies, and industry best practices to craft exceptional and impactful digital products and services.",
       imageUrl: images.UX2,
@@ -6201,75 +6179,74 @@ const servicesData =[
         description:
           "Conducting in-depth user research to gain insights into user needs, motivations, and pain points, ensuring that designs align with user expectations.",
         imageUrl: images.UX3,
-        url:"",
+        url: "",
       },
       {
         heading: "Information Architecture and Interaction Design",
         description:
           "Creating intuitive information architectures and interaction designs that enable seamless navigation and efficient task completion.",
         imageUrl: images.UX4,
-        url:"",
+        url: "",
       },
       {
         heading: "Visual Design and Branding",
         description:
           "Applying visual design principles to create visually appealing interfaces that align with brand identity and evoke desired emotional responses from users.",
         imageUrl: images.UX5,
-        url:"",
+        url: "",
       },
       {
         heading: "Prototyping and Iterative Design",
         description:
           "Rapidly prototyping and testing design concepts to gather user feedback, ensuring continuous improvement and meeting user needs.",
         imageUrl: images.UX6,
-        url:"",
+        url: "",
       },
       {
         heading: "Accessibility and Inclusive Design",
         description:
           "Incorporating accessibility guidelines to ensure digital experiences are usable by individuals with disabilities, promoting inclusivity and equal access.",
         imageUrl: images.UX7,
-        url:"",
+        url: "",
       },
       {
         heading: "Usability Testing and Evaluation",
         description:
           "Conducting usability testing sessions to evaluate the effectiveness and efficiency of digital experiences, identifying areas for improvement and optimizing designs based on user insights.",
         imageUrl: images.UX8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Empowering a Real Estate Giant with Product Design",
+      heading: "Empowering a Real Estate Giant with Product Design",
       description:
         "MarkX Real Estate, a prominent player in the real estate industry, faced challenges in delivering exceptional digital experiences to their users. Their existing digital platforms lacked intuitive design, resulting in low user engagement, decreased customer satisfaction, and missed business opportunities.",
       downloadLink: "",
       imageUrl: images.UX9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "etl-pipelines",
@@ -6294,75 +6271,74 @@ const servicesData =[
         description:
           "Seamlessly integrate structured and unstructured data from diverse sources, such as databases, files, APIs, and third-party systems, into a unified view.",
         imageUrl: images.ETL3,
-        url:"",
+        url: "",
       },
       {
         heading: "Data Transformation and Cleansing",
         description:
           "Apply data quality checks, enrichment techniques, and standardization processes to ensure accurate, consistent, and reliable data.",
         imageUrl: images.ETL4,
-        url:"",
+        url: "",
       },
       {
         heading: "ETL Pipeline Development",
         description:
           "Design and develop customized ETL pipelines with efficient workflows, data transformation rules, and data validation mechanisms.",
         imageUrl: images.ETL5,
-        url:"etl-pipelines",
+        url: "etl-pipelines",
       },
       {
         heading: "Scalable Data Processing",
         description:
           "Utilize scalable data processing technologies and frameworks to handle large volumes of data efficiently, ensuring timely processing and loading.",
         imageUrl: images.ETL6,
-        url:"",
+        url: "",
       },
       {
         heading: "Data Pipeline Monitoring and Management",
         description:
           "Implement comprehensive monitoring and management capabilities to ensure pipeline performance, data validation, error handling, and proactive issue resolution.",
         imageUrl: images.ETL7,
-        url:"",
+        url: "",
       },
       {
         heading: "Data Governance and Compliance",
         description:
           "Incorporate data governance principles to ensure data privacy, security, and compliance with regulatory requirements, maintaining data integrity and mitigating risks.",
         imageUrl: images.ETL8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Seamless Data Transformation for Actionable Intelligence",
+      heading: "Seamless Data Transformation for Actionable Intelligence",
       description:
         "MarkX Corporation, a leading retail company, faced challenges in efficiently transforming and leveraging their vast amounts of data to derive actionable intelligence. They struggled with integrating and processing data from multiple sources, ensuring data quality and consistency, and implementing an effective data transformation strategy.",
       downloadLink: "",
       imageUrl: images.ETL9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "cse",
@@ -6375,7 +6351,8 @@ const servicesData =[
       imageUrl: images.CSE1,
     },
     problemStatement: {
-      heading: "Enhancing Customer Support Capabilities to Drive Customer Satisfaction and Loyalty",
+      heading:
+        "Enhancing Customer Support Capabilities to Drive Customer Satisfaction and Loyalty",
       description:
         "Businesses face the challenge of meeting customer expectations and delivering prompt and effective technical support. They require a solution that enhances their customer support capabilities, enables efficient issue resolution, and fosters customer satisfaction and loyalty.",
       imageUrl: images.CSE2,
@@ -6387,42 +6364,42 @@ const servicesData =[
         description:
           "Seamlessly integrate structured and unstructured data from diverse sources, such as databases, files, APIs, and third-party systems, into a unified view.",
         imageUrl: images.CSE3,
-        url:"",
+        url: "",
       },
       {
         heading: "Troubleshooting and Issue Resolution",
         description:
           "Apply data quality checks, enrichment techniques, and standardization processes to ensure accurate, consistent, and reliable data.",
         imageUrl: images.CSE4,
-        url:"",
+        url: "",
       },
       {
         heading: "Escalation Management",
         description:
           "Design and develop customized ETL pipelines with efficient workflows, data transformation rules, and data validation mechanisms.",
         imageUrl: images.CSE5,
-        url:"",
+        url: "",
       },
       {
         heading: "Knowledge Base and Self-Service Tools",
         description:
           "Utilize scalable data processing technologies and frameworks to handle large volumes of data efficiently, ensuring timely processing and loading.",
         imageUrl: images.CSE6,
-        url:"",
+        url: "",
       },
       {
         heading: "Proactive Support and Maintenance",
         description:
           "Implement comprehensive monitoring and management capabilities to ensure pipeline performance, data validation, error handling, and proactive issue resolution.",
         imageUrl: images.CSE7,
-        url:"",
+        url: "",
       },
       {
         heading: "Customer Feedback and Insights",
         description:
           "Collecting and analyzing customer feedback to gain insights into the overall customer experience, identify pain points, gather feedback on product or service improvements.",
         imageUrl: images.CSE8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -6434,34 +6411,33 @@ const servicesData =[
       imageUrl: images.CSE9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "csm",
     banner: {
-      heading:
-        "Empowering Customers for Long-term Success",
+      heading: "Empowering Customers for Long-term Success",
       description:
         "SuccessConnect is a Customer Success Management (CSM) service offered by Mobius Consulting that enables businesses to collaborate closely with their customers, understand their goals, and drive their long-term success.",
       getStartedUrl: "",
@@ -6480,42 +6456,42 @@ const servicesData =[
         description:
           "Develop tailored onboarding plans and deliver comprehensive training to ensure customers quickly gain value from products or services.",
         imageUrl: images.CSM3,
-        url:"",
+        url: "",
       },
       {
         heading: "Relationship Building",
         description:
           "Nurture strong relationships through regular communication, proactive engagement, and continuous relationship building activities.",
         imageUrl: images.CSM4,
-        url:"",
+        url: "",
       },
       {
         heading: "Success Planning",
         description:
           "Collaborate with businesses to develop customer success plans, define key milestones, success metrics, and track progress to ensure customers achieve desired outcomes.",
         imageUrl: images.CSM5,
-        url:"",
+        url: "",
       },
       {
         heading: "Adoption Strategies",
         description:
           "Develop customized strategies to drive customer adoption and engagement, promoting active usage and maximizing value from offerings.",
         imageUrl: images.CSM6,
-        url:"",
+        url: "",
       },
       {
         heading: "Proactive Monitoring and Support",
         description:
           "Provide proactive monitoring, regular health checks, and timely issue resolution to ensure ongoing customer success and satisfaction.",
         imageUrl: images.CSM7,
-        url:"",
+        url: "",
       },
       {
         heading: "Customer Feedback Analysis",
         description:
           "Capture and leverage customer feedback to gain valuable insights, drive continuous improvement, and enhance the overall customer experience.",
         imageUrl: images.CSM8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -6527,28 +6503,28 @@ const servicesData =[
       imageUrl: images.CSM9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "cloud-migration",
@@ -6561,7 +6537,8 @@ const servicesData =[
       imageUrl: images.CM1,
     },
     problemStatement: {
-      heading: "Unlocking Cloud Potential: Overcoming Challenges in Cloud Migrations",
+      heading:
+        "Unlocking Cloud Potential: Overcoming Challenges in Cloud Migrations",
       description:
         "Many businesses face challenges when migrating their infrastructure and applications to the cloud. These challenges include limited knowledge of cloud technologies, compatibility issues with legacy systems, data security concerns, and complexities in managing the migration process.",
       imageUrl: images.CM2,
@@ -6573,42 +6550,42 @@ const servicesData =[
         description:
           "Conducting comprehensive assessments to evaluate the suitability of infrastructure and applications for cloud migration, and developing tailored strategies that align with business objectives.",
         imageUrl: images.CM3,
-        url:"",
+        url: "",
       },
       {
         heading: "Infrastructure Migration",
         description:
           "Seamlessly migrating infrastructure components, including servers, storage, networks, and databases, to the cloud, minimizing downtime and disruptions.",
         imageUrl: images.CM4,
-        url:"",
+        url: "",
       },
       {
         heading: "Application Migration",
         description:
           "Assisting in the migration of business-critical applications to the cloud, ensuring compatibility, availability, scalability, and performance throughout the migration process.",
         imageUrl: images.CM5,
-        url:"",
+        url: "",
       },
       {
         heading: "Data Migration",
         description:
           "Facilitating secure and efficient transfer of data from on-premises systems to the cloud, maintaining data integrity and confidentiality.",
         imageUrl: images.CM6,
-        url:"",
+        url: "",
       },
       {
         heading: "Cloud Optimization",
         description:
           "Optimizing cloud infrastructure for performance, cost, and security, including right-sizing resources, implementing auto-scaling capabilities, and establishing robust security measures.",
         imageUrl: images.CM7,
-        url:"",
+        url: "",
       },
       {
         heading: "Training and Support",
         description:
           "Providing comprehensive training and support to empower businesses with the knowledge and skills to effectively manage and operate their cloud infrastructures.",
         imageUrl: images.CM8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
@@ -6620,34 +6597,33 @@ const servicesData =[
       imageUrl: images.CM9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
   },
   {
     id: "devops-and-sre",
     banner: {
-      heading:
-        "Streamlined Software Delivery and Resilient Operations",
+      heading: "Streamlined Software Delivery and Resilient Operations",
       description:
         "Our DevOps, Site Reliability Engineering (SRE), and Infrastructure as Code (IaC) services enable businesses to accelerate software delivery, enhance system reliability, and foster continuous improvement. ",
       getStartedUrl: "",
@@ -6666,77 +6642,81 @@ const servicesData =[
         description:
           "Design and implement DevOps strategies to achieve continuous integration, delivery, and deployment (CI/CD), resulting in faster time-to-market, improved quality, and increased efficiency.",
         imageUrl: images.DE3,
-        url:"devops-and-sre",
+        url: "devops-and-sre",
       },
       {
         heading: "Infrastructure as Code (IaC)",
         description:
           "Adopt IaC principles and tools to manage infrastructure programmatically and automate provisioning, ensuring scalability, reducing manual effort, and maintaining consistency.",
         imageUrl: images.DE4,
-        url:"",
+        url: "",
       },
       {
         heading: "Continuous Integration and Delivery (CI/CD)",
         description:
           "Establish robust CI/CD pipelines with automated testing frameworks, version control systems, and deployment automation tools for faster and more reliable software releases.",
         imageUrl: images.DE5,
-        url:"",
+        url: "",
       },
       {
         heading: "Site Reliability Engineering (SRE)",
         description:
           "Implement SRE practices for proactive monitoring, effective incident management, and reliable service-level objectives (SLOs) to enhance system performance, user experience, and reduce downtime.",
         imageUrl: images.DE6,
-        url:"devops-and-sre",
+        url: "devops-and-sre",
       },
       {
         heading: "Cloud Native Architecture and Migration",
         description:
           "Guide businesses in adopting cloud-native architectures and migrating applications to cloud platforms, leveraging containerization technologies for scalability, elasticity, and resilience.",
         imageUrl: images.DE7,
-        url:"",
+        url: "",
       },
       {
         heading: "Automation and Orchestration",
         description:
           "Automate manual and repetitive tasks through scripting, configuration management, and workflow orchestration, enabling streamlined operations, reduced human error, and improved efficiency.",
         imageUrl: images.DE8,
-        url:"",
+        url: "",
       },
     ],
     caseStudy: {
-      heading:
-        "Revolutionizing Software Delivery and Operational Excellence",
+      heading: "Revolutionizing Software Delivery and Operational Excellence",
       description:
         "MarkX Corporation, a leading technology company, faced numerous challenges in their software delivery and operational processes. They struggled with slow release cycles, inconsistent infrastructure management, and frequent operational issues. Siloed teams, manual processes, and lack of automation hindered their ability to deliver high-quality software efficiently.",
       downloadLink: "",
       imageUrl: images.DE9,
     },
     youMayAlsoLike: [
-        {
+      {
         heading: "WeatherInsured",
         description:
           "WeatherInsured is a powerful weather intelligence platform that revolutionizes the way organizations harness weather data.",
         imageUrl: images.next10,
-        url:"/marketplace/weather-insured",
+        url: "/marketplace/weather-insured",
       },
-        {
-          heading: "NextGenTV Marketplace",
-          description:
-            "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
-          imageUrl: images.next11,
-        url:"/marketplace/NextGenTV",
-        },
-        {
-          heading: "Smart city",
-          description:
-            "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
-          imageUrl: images.next12,
-        url:"/solutions/smart-city-as-a-service",
-        },
-      ],
-  }
-
+      {
+        heading: "NextGenTV Marketplace",
+        description:
+          "The NextGenTV Marketplace, fueled by the power of Holacracy, transforms the television industry in the United States by providing an innovative Marketplace as a Service.",
+        imageUrl: images.next11,
+        url: "/marketplace/NextGenTV",
+      },
+      {
+        heading: "Smart city",
+        description:
+          "Unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth.",
+        imageUrl: images.next12,
+        url: "/solutions/smart-city-as-a-service",
+      },
+    ],
+  },
 ];
 
-export { platformData, solutionData, marketplaceData, productsData, servicesData };
+export {
+  platformData,
+  solutionData,
+  marketplaceData,
+  productsData,
+  servicesData,
+};
