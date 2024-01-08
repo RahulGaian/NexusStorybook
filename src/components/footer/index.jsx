@@ -63,11 +63,11 @@ const Footer = () => {
                   Smart Cities
                 </a>
               </li>
-              <li className={Style.listelements}>
+              {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/solutions/Antara">
                   Antara
                 </a>
-              </li>
+              </li> */}
               {/* <li className={Style.listelements}>
                   <a className={Style.navlink} href="/solutions/moScribe">HR Tech</a>
                 </li> */}
