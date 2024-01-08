@@ -2281,7 +2281,7 @@ function Header() {
                     );
                   }}
                 >
-                  Login
+                  Book a Demo
                 </button>
               </div>
               {/* <div id={Style.login} onClick={()=>{handlelogin()}}><span id={Style.log}>Login</span><span ><img  src={images.Arrow} alt='vector' style={{ transform: `rotate(${rotation}deg)`,transition: 'transform 0.5s ease', }} ></img></span></div>  */}
