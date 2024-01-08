@@ -71,12 +71,8 @@
 import React from "react";
 import style from "./index.module.css";
 
-const AdditionCmp = () => {
-  const fixed = 72;
-  const metered = 2;
-  const ad = 14;
-  const subscription = 16;
-  const data = 1;
+const AdditionCmp = ({fixed = 0,metered = 0,ad = 0,subscription = 0,data = 0}) => {
+
   const total = fixed + metered + ad + subscription + data;
 
   return (
@@ -94,7 +90,8 @@ const AdditionCmp = () => {
               {/* </div> */}
 
               <div className={style.digitsAndSymbol}>
-                <p className={style.numbers}>{`$${fixed}M`}</p>
+                
+                <p className={style.numbers}>{`$${fixed}`}</p>
                 <p className={style.symbol}>+</p>
               </div>
             </div>
@@ -103,34 +100,34 @@ const AdditionCmp = () => {
               <p className={style.textStyling}>Metered</p>
 
               <div className={style.digitsAndSymbol}>
-                <p className={style.numbers}>{`$${metered}M`}</p>
+                <p className={style.numbers}>{`$${metered}`}</p>
                 <p className={style.symbol}>+</p>
               </div>
             </div>
             <div className={style.item}>
               <p className={style.textStyling}>Ad Based</p>
               <div className={style.digitsAndSymbol}>
-                <p className={style.numbers}>{`$${ad}M`}</p>
+                <p className={style.numbers}>{`$${ad}`}</p>
                 <p className={style.symbol}>+</p>
               </div>
             </div>
             <div className={style.item}>
               <p className={style.textStyling}>Subscription</p>
               <div className={style.digitsAndSymbol}>
-                <p className={style.numbers}>{`$${subscription}M`}</p>
+                <p className={style.numbers}>{`$${subscription}`}</p>
                 <p className={style.symbol}>+</p>
               </div>
             </div>
             <div className={style.item}>
               <p className={style.textStyling}>Data as Currency</p>
               <div className={style.digitsAndSymbol}>
-                <p className={style.numbers}>{`$${data}M`}</p>
+                <p className={style.numbers}>{`$${data}`}</p>
                 <p className={style.symbol}>=</p>
               </div>
             </div>
             <div className={style.item}>
               <p className={style.textTotal}>Total</p>
-              <p className={style.numbersTotal}>{`$${total}M`}</p>
+              <p className={style.numbersTotal}>{`$${total}`}</p>
             </div>
           </div>
         </div>
