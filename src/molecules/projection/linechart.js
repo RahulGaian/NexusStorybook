@@ -3,32 +3,24 @@ import ReactECharts from 'echarts-for-react';
 import styled from 'styled-components';
 
 const ChartContainer = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 
-  @media screen and (max-width: 1800px) and (min-width: 1500px) {
-    width: 290px;
-    height: 270px;
+  @media screen and (max-width: 1800px) {
+    width: 300px;
+    height: 300px;
   }
-
-  @media screen and (max-width: 1500px) and (min-width: 1250px) {
-    width: 265px;
-    height: 245px;
-  }
-
-  @media screen and (max-width: 1250px) and (min-width: 980px) {
-    width: 220px;
-    height: 200px;
-  }
-
-  @media screen and (max-width: 980px) {
-    width: 220px;
-    height: 200px;
-  }
-
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1500px) {
     width: 250px;
     height: 250px;
+  }
+  @media screen and (max-width: 1250px) {
+    width: 230px;
+    height: 230px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
@@ -51,7 +43,9 @@ const ChartComponent = ({ data }) => {
       const xAxisData = Array.from({ length: chartData.length }, (_, index) => `YEAR_${index + 1}`);
       
       return {
-  
+        grid: {
+          left: 55, // Adjust the left margin as needed
+        },
         xAxis: {
           type: 'category',
           boundaryGap: false,
@@ -93,14 +87,6 @@ const ChartComponent = ({ data }) => {
   
     return (
       <ChartContainer>
-        <label htmlFor="dmaSelect" style={{display: "none"}}>Select DMA:</label>
-        <select id="dmaSelect" onChange={handleDMAChange} value={selectedDMA} style={{display: "none"}}>
-          {data.map((entry) => (
-            <option key={entry.DMA} value={entry.DMA}>
-              {entry.DMA}
-            </option>
-          ))}
-        </select>
         <ReactECharts option={getOption()} style={{ height: "100%", width: '100%'}} />
       </ChartContainer>
     );

@@ -3,6 +3,7 @@ import Img from "../../components/Image";
 import ChartComponent from "./linechart";
 import ChartComponent2 from "./barchart";
 import ChartComponent3 from "./yearlychart";
+import ChartComponent4 from "./lineSeriesdata";
 import aggregateDataForDMAsAndPlatforms from "./logic";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -5486,10 +5487,10 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
           <Img src="./Images/ArrowRight.png" />
         </div>
         <div className={st.mainCont}>
-          <div className={st.dataCont}><ChartComponent data={finalData}/></div>
-          <div className={st.dataCont}><ChartComponent2 data={finalData}/></div>
-          <div className={st.dataCont}><ChartComponent3 data={finalData}/></div>
-          {/* <div className={st.dataCont}></div> */}
+          <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
+          <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Average Devices / User</span></div>
+          <div className={st.dataCont}><ChartComponent3 data={finalData}/><span id={st.chartLabel}>Device Types</span></div>
+          <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}>iZak Revenue</span></div>
         </div>
       </div>
     </div>
