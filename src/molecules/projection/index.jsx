@@ -2,14 +2,13 @@ import st from "./index.module.css";
 import Img from "../../components/Image";
 import ChartComponent from "./linechart";
 import ChartComponent2 from "./barchart";
-import ChartComponent3 from "./yearlychart";
 import ChartComponent6 from "./yearlyChart3";
-import ChartComponent4 from "./lineSeriesdata";
+import ChartComponent3 from "./lineSeriesdata";
 import aggregateDataForDMAsAndPlatforms from "./logic";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useMemo } from "react";
-import ChartComponent5 from "./yearlyChart2";
+
 const data = [
   {
     DMA: "NEW YORK",
@@ -1476,7 +1475,7 @@ const jsonData =[
   },
   {
     "DMA": "New York",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 7726580,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1504,7 +1503,7 @@ const jsonData =[
   },
   {
     "DMA": "Los Angeles",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 5838090,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1532,7 +1531,7 @@ const jsonData =[
   },
   {
     "DMA": "Chicago",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 3624820,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1560,7 +1559,7 @@ const jsonData =[
   },
   {
     "DMA": "Philadelphia",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 3108960,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1588,7 +1587,7 @@ const jsonData =[
   },
   {
     "DMA": "Dallas-Ft. Worth",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 3041540,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1616,7 +1615,7 @@ const jsonData =[
   },
   {
     "DMA": "Atlanta",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 2679850,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1644,7 +1643,7 @@ const jsonData =[
   },
   {
     "DMA": "Houston",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 2666330,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1672,7 +1671,7 @@ const jsonData =[
   },
   {
     "DMA": "Washington-Hagerstown",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 2617350,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1700,7 +1699,7 @@ const jsonData =[
   },
   {
     "DMA": "Boston-Manchester",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 2596190,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -1728,7 +1727,7 @@ const jsonData =[
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
-    "PlatformName": "AmpliFund",
+    "PlatformName": "AmplyFund",
     "No of Households": 2593210,
     "% No of Smart Households": 0.45,
     "% Of HH's Considered": 0.001,
@@ -5470,7 +5469,7 @@ const jsonData =[
 
 
 const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) => {
-  let proxyAppNames ={"clink":"cLINK","gofema":"GoFEMA","amply":"AmpliFund","liveWeather":"Live Weather","iZak":"Izak","museo":"Museo","aegis":"Aegis","reee":"Reve(e)","voteiq":"Voteiq","around":"Around","impressio":"ImpressIO"}
+  let proxyAppNames ={"clink":"cLINK","gofema":"GoFEMA","amply":"AmplyFund","liveWeather":"Live Weather","iZak":"Izak","museo":"Museo","aegis":"Aegis","reee":"Reve(e)","voteiq":"Voteiq","around":"Around","impressio":"ImpressIO"}
   const [finalData,setFinalData] = useState([data])
   useEffect(()=>{
     let selectedAppsNames = selectedApps.map(e=>{return proxyAppNames[e]})
@@ -5489,10 +5488,10 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
           <Img src="./Images/ArrowRight.png" />
         </div>
         <div className={st.mainCont}>
-          <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
-          <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}> </span></div>
-          <div className={st.dataCont}><ChartComponent6 data={finalData}/><span id={st.chartLabel}>App Types</span></div>
-          <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Revenue</span></div>
+          <div className={st.dataCont}><ChartComponent2 data={finalData}/></div>
+          <div className={st.dataCont}><ChartComponent3 data={finalData}/></div>
+          <div className={st.dataCont}><ChartComponent6 data={finalData}/></div>
+          <div className={st.dataCont}><ChartComponent data={finalData}/></div>
         </div>
       </div>
     </div>

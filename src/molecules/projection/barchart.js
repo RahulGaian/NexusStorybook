@@ -16,8 +16,8 @@ height: 350px;
     height: 250px;
   }
   @media screen and (max-width: 1250px) {
-    width: 230px;
-    height: 230px;
+    width: 210px;
+    height: 210px;
   }
   @media screen and (max-width: 600px) {
     width: 300px;
@@ -40,15 +40,15 @@ const ChartComponent2 = ({ data }) => {
       setChartData(mValues);
     }, [selectedDMA, data]);
 
-    function formatYAxisValue(value) {
+    const formatYAxisValue = (value) => {
       if (value >= 1000000) {
-        return (value / 1000000).toFixed(1) + 'M';
+        return (value / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
       } else if (value >= 1000) {
-        return (value / 1000).toFixed(1) + 'K';
+        return (value / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
       } else {
         return value;
       }
-    }
+    };
   
     const getOption = () => {
       const xAxisData = Array.from({ length: chartData.length }, (_, index) => `YEAR_${index+1}`);
@@ -56,6 +56,15 @@ const ChartComponent2 = ({ data }) => {
       return {
         grid: {
           left: 65, // Adjust the left margin as needed
+        },
+        title: {
+          text: "Projected Market Growth",
+          bottom: 0,
+          left: "center",
+          textStyle: {
+            fontSize: 14,
+            textAlign: 'center'
+          }
         },
         xAxis: {
           type: 'category',

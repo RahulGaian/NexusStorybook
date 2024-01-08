@@ -44,9 +44,10 @@
 .mainCont {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   row-gap: 24px;
+  column-gap: 24px;
   flex-wrap: wrap;
   margin-top: 16px;
 }
@@ -90,6 +91,9 @@
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .contentContainer {
     width: 950px;
+  }
+  .mainCont{
+    column-gap: 12px;
   }
 }
 
