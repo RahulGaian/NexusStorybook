@@ -1,0 +1,48 @@
+/* ModalForm.css */
+.modalContainer {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 50px auto; /* Center the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0px;
+    z-index: 3 !important;
+    margin-top: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .modalFormStyle{
+    height: 450px;
+    top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid skyblue;
+  }
+  
+  .submitButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
