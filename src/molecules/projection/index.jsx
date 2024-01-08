@@ -8,6 +8,7 @@ import aggregateDataForDMAsAndPlatforms from "./logic";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useMemo } from "react";
+import ChartComponent5 from "./yearlyChart2";
 const data = [
   {
     DMA: "NEW YORK",

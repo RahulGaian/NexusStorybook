@@ -39,6 +39,16 @@ const ChartComponent2 = ({ data }) => {
   
       setChartData(mValues);
     }, [selectedDMA, data]);
+
+    function formatYAxisValue(value) {
+      if (value >= 1000000) {
+        return (value / 1000000).toFixed(1) + 'M';
+      } else if (value >= 1000) {
+        return (value / 1000).toFixed(1) + 'K';
+      } else {
+        return value;
+      }
+    }
   
     const getOption = () => {
       const xAxisData = Array.from({ length: chartData.length }, (_, index) => `YEAR_${index+1}`);
@@ -54,14 +64,18 @@ const ChartComponent2 = ({ data }) => {
         },
         yAxis: {
           type: 'value',
+          axisLabel: {
+            formatter: function (value) {
+              return formatYAxisValue(value);
+            },
+          },
         },
         tooltip: {
           trigger: 'axis',
           formatter: (params) => {
-            const dma = params[0].name;
-            const value = params[0].value;
-            const dmaName = dma.DMA;
-            return `${dmaName}: ${value}`;
+            const year = params[0].axisValue;
+            const value = formatYAxisValue(params[0].value);
+            return `${year} : ${value}`;
           },
         },
         series: [
