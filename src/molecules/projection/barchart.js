@@ -45,7 +45,7 @@ const ChartComponent2 = ({ data }) => {
       
       return {
         grid: {
-          left: 55, // Adjust the left margin as needed
+          left: 65, // Adjust the left margin as needed
         },
         xAxis: {
           type: 'category',
@@ -60,7 +60,7 @@ const ChartComponent2 = ({ data }) => {
           formatter: (params) => {
             const dma = params[0].name;
             const value = params[0].value;
-            const dmaName = selectedData.DMA;
+            const dmaName = dma.DMA;
             return `${dmaName}: ${value}`;
           },
         },

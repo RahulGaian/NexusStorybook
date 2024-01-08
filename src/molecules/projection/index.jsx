@@ -5477,7 +5477,7 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
     console.log(data,"finalll")
      setFinalData([data]);
      additionalDataSetter([data["fixed"],data["metered"],data["subscription"],data["ad"]])
-  },[count,selectedApps])
+  },[count])
 
   return (
     <div className={st.container}>
@@ -5487,10 +5487,10 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
           <Img src="./Images/ArrowRight.png" />
         </div>
         <div className={st.mainCont}>
-          <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
-          <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Average Devices / User</span></div>
-          <div className={st.dataCont}><ChartComponent3 data={finalData}/><span id={st.chartLabel}>Device Types</span></div>
-          <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}>iZak Revenue</span></div>
+          <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
+          <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}> </span></div>
+          <div className={st.dataCont}><ChartComponent3 data={finalData}/><span id={st.chartLabel}>App Types</span></div>
+          <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Revenue</span></div>
         </div>
       </div>
     </div>

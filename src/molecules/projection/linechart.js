@@ -44,7 +44,7 @@ const ChartComponent = ({ data }) => {
       
       return {
         grid: {
-          left: 55, // Adjust the left margin as needed
+          left:65, // Adjust the left margin as needed
         },
         xAxis: {
           type: 'category',

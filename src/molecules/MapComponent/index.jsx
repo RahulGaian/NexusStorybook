@@ -13,7 +13,7 @@ import RotatingStars from '../rotatingStars';
 import FullOppurtunity from '../OpportunityComplete';
 const Loading = () => <h1 style={{color:"white"}}>Loadingggg</h1>
 
-export function Map({setClick,clicked}) {
+export function Map({setClick,clicked,interaction}) {
     let initialLocation ={}
     let initialScales = {}
     let counterZoom = 0
@@ -37,7 +37,11 @@ export function Map({setClick,clicked}) {
     // rect.emitEvent("mouseDown","Revee")
     // spline.emitEvent("mouseDown","Revee")
     myLoop();
+    interaction();
+  }
 
+  function getSplineRef(){
+    return splineRef;
   }
  
       
@@ -112,7 +116,8 @@ export function Map({setClick,clicked}) {
         // onMouseUp={onMouseDown}
         className={style.mapInternal}
         // scene={"https://prod.spline.design/wJQ51odjcNd-V-YH/scene.splinecode"}
-        scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
+        // scene={"https://prod.spline.design/XEYOfsdHoAQvY6qI/scene.splinecode"}
+        scene={"https://prod.spline.design/LHOm5YTAtcLdHjII/scene.splinecode"}
         />
         </Suspense>
     </div>

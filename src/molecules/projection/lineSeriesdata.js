@@ -55,7 +55,7 @@ const ChartComponent4 = ({ data }) => {
 
     const option = {
       grid: {
-        left: 50, // Adjust the left margin as needed
+        left: 61, // Adjust the left margin as needed
       },
       tooltip: {
         trigger: 'axis',
