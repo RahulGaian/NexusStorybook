@@ -24,15 +24,21 @@ let Contact = () => {
             and embark on a journey towards unparalleled innovation and success.
           </p>
           <h2>Get in Touch</h2>
-        </div>
-      </section>
 
-      <section className={Style.botcont}>
-        <div className={Style.botconthead}>
+          <div className={Style.botconthead}>
           <div>
             <h1>Ready To Help, across borders !</h1>
           </div>
         </div>
+        </div>
+      </section>
+
+      <section className={Style.botcont}>
+        {/* <div className={Style.botconthead}>
+          <div>
+            <h1>Ready To Help, across borders !</h1>
+          </div>
+        </div> */}
 
         <div id={Style.mapcont}>
 
@@ -65,6 +71,10 @@ let Contact = () => {
               </div>
             </div>
 
+            <section className={Style.horizontalLineMain}>
+              <div className={Style.horizontalLine}></div>
+            </section>
+
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
                 <Img src={"/aidtaasImages/images/images/contact/location pin.png"} />
@@ -88,6 +98,11 @@ let Contact = () => {
                 </div>
               </div>
             </div>
+
+            <section className={Style.horizontalLineMain}>
+              <div className={Style.horizontalLine}></div>
+            </section>
+
 
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>

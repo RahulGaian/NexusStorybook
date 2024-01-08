@@ -8,14 +8,30 @@ import Cookies from 'js-cookie';
 import { useEffect } from 'react'
 import AdditionCmp from '../AdditionCmp'
 const FullOppurtunity = () => {
-    const [selectedStates,setSelectedStates] = useState([]);
-    const [selectedApps,setSelectedApps] = useState([]);
+    const [selectedStates,setSelectedStates] = useState( Cookies.get('states') || []);
+    const [selectedApps,setSelectedApps] = useState(Cookies.get('apps') ||[]);
+
+
+
+    if (typeof selectedApps == 'string') {
+      setSelectedApps(JSON.parse(selectedApps));
+    }
+    if (typeof selectedStates == 'string') {
+      setSelectedStates(JSON.parse(selectedStates));
+    }
     const initialCount = parseInt(Cookies.get('count')) || 0;
+    const [additionalData,setAdditionalData] = useState({})
     const [count,setCount] = useState(initialCount);
+ 
     // console.log(selectedApps,selectedStates)
     useEffect(() => {
+
       Cookies.set('count', count.toString(), { expires: 7, path: '/' });
-    }, [count]);
+      Cookies.set('states', JSON.stringify(selectedStates), { expires: 7,path: '/'  }); 
+      Cookies.set('apps', JSON.stringify(selectedApps), { expires: 7,path: '/'  }); 
+
+
+    }, [count,selectedApps,selectedStates]);
   
   return (
     <section className={style.leaflet}>
@@ -30,8 +46,8 @@ const FullOppurtunity = () => {
 }
         {(count> 0 && count < 4) &&
         <section>
-          <Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count}></Projection>
-          <AdditionCmp></AdditionCmp>
+          <Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count} additionalDataSetter={setAdditionalData}></Projection>
+          <AdditionCmp fixed={additionalData[0]} metered={additionalData[1]} ad={additionalData[3] } subscription={additionalData[2]}></AdditionCmp>
         </section>
         }
 

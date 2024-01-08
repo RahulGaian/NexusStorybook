@@ -3,32 +3,25 @@ import ReactECharts from 'echarts-for-react';
 import styled from 'styled-components';
 
 const ChartContainer = styled.div`
+width: 350px;
+height: 350px;
+
+@media screen and (max-width: 1800px) {
   width: 300px;
   height: 300px;
+}
 
-  @media screen and (max-width: 1800px) and (min-width: 1500px) {
-    width: 290px;
-    height: 270px;
-  }
-
-  @media screen and (max-width: 1500px) and (min-width: 1250px) {
-    width: 265px;
-    height: 245px;
-  }
-
-  @media screen and (max-width: 1250px) and (min-width: 980px) {
-    width: 220px;
-    height: 200px;
-  }
-
-  @media screen and (max-width: 980px) {
-    width: 220px;
-    height: 200px;
-  }
-
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1500px) {
     width: 250px;
     height: 250px;
+  }
+  @media screen and (max-width: 1250px) {
+    width: 210px;
+    height: 210px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
@@ -46,11 +39,33 @@ const ChartComponent2 = ({ data }) => {
   
       setChartData(mValues);
     }, [selectedDMA, data]);
+
+    const formatYAxisValue = (value) => {
+      if (value >= 1000000) {
+        return (value / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+      } else if (value >= 1000) {
+        return (value / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+      } else {
+        return value;
+      }
+    };
   
     const getOption = () => {
       const xAxisData = Array.from({ length: chartData.length }, (_, index) => `YEAR_${index+1}`);
       
       return {
+        grid: {
+          left: 65, // Adjust the left margin as needed
+        },
+        title: {
+          text: "Projected Market Growth",
+          bottom: 0,
+          left: "center",
+          textStyle: {
+            fontSize: 14,
+            textAlign: 'center'
+          }
+        },
         xAxis: {
           type: 'category',
           boundaryGap: true,
@@ -58,14 +73,18 @@ const ChartComponent2 = ({ data }) => {
         },
         yAxis: {
           type: 'value',
+          axisLabel: {
+            formatter: function (value) {
+              return formatYAxisValue(value);
+            },
+          },
         },
         tooltip: {
           trigger: 'axis',
           formatter: (params) => {
-            const dma = params[0].name;
-            const value = params[0].value;
-            const dmaName = selectedData.DMA;
-            return `${dmaName}: ${value}`;
+            const year = params[0].axisValue;
+            const value = formatYAxisValue(params[0].value);
+            return `${year} : ${value}`;
           },
         },
         series: [
@@ -93,14 +112,6 @@ const ChartComponent2 = ({ data }) => {
   
     return (
       <ChartContainer>
-        <label htmlFor="dmaSelect" style={{display: "none"}}>Select DMA:</label>
-        <select id="dmaSelect" onChange={handleDMAChange} value={selectedDMA} style={{display: "none"}}>
-          {data.map((entry) => (
-            <option key={entry.DMA} value={entry.DMA}>
-              {entry.DMA}
-            </option>
-          ))}
-        </select>
         <ReactECharts option={getOption()} style={{ height: '100%', width: '100%'}} />
       </ChartContainer>
     );

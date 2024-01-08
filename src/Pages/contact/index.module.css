@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  /* padding-top: 200px; */
-  padding-top: 15vh;
+  padding-top: 100px;
+  /* padding-top: 15vh; */
 }
 /* @font-face {
 
@@ -15,13 +15,11 @@
 
 } */
 
-
-*{
-  font-family: 'ITC' !important;;;
+* {
+  font-family: "ITC" !important;
 }
 
-
-.MapMain{
+.MapMain {
   height: 800px;
 }
 
@@ -31,32 +29,37 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: rgba(255, 255, 255, 0.809);  */
-  /* backdrop-filter: blur(100000px); Adjust the blur value as needed */
 }
 #contacthead {
   width: 1700px;
   height: fit-content;
   padding-bottom: 40px;
-  padding-left: 5%;
+  padding-left: 8%;
+  /* border: 2px solid red; */
 }
 #contacthead > h1 {
-  width: 50%;
-  color: #1c1c1c;
+  width: 70%;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 68px;
+  font-style: normal;
   font-weight: 500;
-  font-size: 70px;
-
-  line-height: 85px;
+  line-height: normal;
+  /* letter-spacing: -2.04px; */
   height: fit-content;
   margin: 0;
+  text-align: left;
+  padding-bottom: 20px;
 }
 #contacthead > p {
   width: 50%;
   height: fit-content;
-  color: #1a1a1a;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 19px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-
-  line-height: 30px;
+  line-height: 25px;
 }
 #contacthead > h2 {
   width: fit-content;
@@ -64,7 +67,7 @@
   color: #ffffff;
   font-weight: 500;
   font-size: 18px;
-  background-color: #FFA200;
+  background-color: #ffa200;
   border-radius: 10px;
   margin-top: 3%;
 }
@@ -78,18 +81,22 @@
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  padding-top: 30px;
 }
 .botconthead > div {
   width: 1700px;
 }
 .botconthead > div > h1 {
   width: 60%;
-  color: #1c1c1c;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 70px;
   height: fit-content;
-  padding-left: 5%;
+  padding-left: 8%;
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.17px;
 }
 #mapcont {
   width: 100%;
@@ -109,38 +116,32 @@
   margin-right: 11.42vw;
   top: -10%;
   height: 750px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid #D3D3D3;
-  border-radius: 20px;
+  border-radius: 30px;
+  border: 1px solid #d3d3d3;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(50px);
   box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.25);
-  /* opacity: 20%; */
   backdrop-filter: blur(100px);
   padding: 2%;
 }
 .maplocationshead {
   /* border: 2px solid blue; */
+  color: #4c4c4c;
+  font-family: ITC;
+  font-size: 26px;
+  font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  /* font-size: 0.68381875rem;
-  font-size: clamp(
-    0.68381875rem,
-    -0.000005480769230792326rem + 1.7647076923076925vw,
-    2.11764375rem
-  ); */
-  line-height: 40px;
-  height: 10%;
-  color: #1a1a1a;
+  line-height: normal;
 }
 .mapcontent1 {
-  /* border: 2px solid yellow; */
   height: 30%;
   position: relative;
   display: flex;
   column-gap: 20px;
+  margin-top: 3%;
 }
 .mapcontent1section1 {
   width: 10%;
-  /* background-color: #FFA200; */
 }
 
 .mapcontent1section1 Img {
@@ -165,55 +166,51 @@
   column-gap: 20px;
   width: fit-content;
   white-space: nowrap;
-
 }
 
 .section2head {
   font-weight: 500;
   line-height: 25px;
   font-size: 20px;
-  /* font-size: 0.45588125rem;
-  font-size: clamp(
-    0.45588125rem,
-    -5.769230769225864e-7rem + 1.1764692307692308vw,
-    1.4117625rem
-  ); */
   color: #1a1a1a;
+  font-family: ITC;
 }
 .section2desc {
+  color: #4c4c4c;
+  font-family: ITC;
   font-size: 16px;
-  /* font-size: 0.3647rem;
-  font-size: clamp(
-    0.3647rem,
-    -0.000006057692307659401rem + 0.941176923076923vw,
-    1.12940625rem
-  ); */
-
+  font-style: normal;
   font-weight: 400;
-  line-height: 25px;
-  color: #1a1a1a;
+  line-height: normal;
 }
-
-/* .logo{
-    width: 12%;
-    height: 12%;
-} */
 
 .section2bottom > div:last-child {
   font-size: 16px;
-  /* font-size: 0.3647rem;
-    font-size: clamp(
-      0.3647rem,
-      -0.000006057692307659401rem + 0.941176923076923vw,
-      1.12940625rem
-    ); */
-
   font-weight: 400;
   line-height: 25px;
   color: #404040;
 }
 
-@media only screen and (max-width: 25600px) and (min-width: 1800px) {
+.horizontalLineMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontalLine {
+  background: #b6b6b6;
+  height: 1px;
+  width: 90%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1800px) {
+  #contacthead {
+    /* width: 1700px;
+    height: fit-content;
+    padding-bottom: 40px; */
+    padding-left: 0%;
+  }
   .botconthead > div > h1 {
     /* width: 60%;
     color: #1c1c1c;
@@ -221,18 +218,83 @@
     font-size: 50px;
     line-height: 70px;
     height: fit-content; */
-    padding-left: 6% !important;
+    padding-left: 0% !important;
+  }
+
+  .mapcontent1 {
+    height: 30%;
+    position: relative;
+    display: flex;
+    column-gap: 20px;
+    margin-top: 3%;
   }
 }
 
+@media only screen and (max-width: 1800px) and (min-width: 1501px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 1420px;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+}
+/* @media only screen and (max-width: 1650px) and (min-width: 1501px) {
+  #contacthead {
+    padding-left: 5%;
+  }
+
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+} */
+
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 1200px;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+
+  .topcont1 {
+    padding-top: 60px;
+  }
   .mapcontent1section1 Img {
     width: 2.5rem;
     height: 2.5rem;
   }
+
+  .mapcontlocations {
+    height: 655px;
+  }
+
+  .mapcontent1 {
+    height: 27%;
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1441px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 95% !important;
+  }
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 950px;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+
+  .topcont1 {
+    padding-top: 60px;
+  }
   #contacthead > h1 {
     font-size: 50px;
     white-space: nowrap;
@@ -251,9 +313,24 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+
+  .mapcontent1 {
+    height: 28%;
+    margin-top: 8%;
+  }
 }
 
 @media screen and (max-width: 980px) and (min-width: 620px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+  .topcont1 {
+    padding-top: 50px;
+  }
   #contacthead > h1 {
     font-size: 40px;
     white-space: nowrap;
@@ -285,9 +362,28 @@
   .section2bottom > div:last-child {
     font-size: 10px;
   }
+  .mapcontlocations {
+    height: 700px;
+  }
+
+  .mapcontent1 {
+    height: 28%;
+    margin-top: 8%;
+  }
 }
 
 @media screen and (max-width: 800px) and (min-width: 620px) {
+
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+  #contacthead > p {
+    width: 60%;
+  }
   #mapcont {
     /* border: 3px solid red !important; */
     width: 100%;
@@ -296,7 +392,7 @@
     position: relative;
   }
 
-  .MapMain{
+  .MapMain {
     height: 600px;
   }
 
@@ -311,6 +407,19 @@
 }
 
 @media screen and (max-width: 620px) and (min-width: 480px) {
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+    padding-bottom: 20px;
+
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+
+  .topcont1 {
+    padding-top: 30px;
+  }
   #mapcont {
     /* border: 3px solid red !important; */
     width: 100%;
@@ -319,7 +428,7 @@
     position: relative;
   }
 
-  .MapMain{
+  .MapMain {
     height: 500px;
   }
 
@@ -331,6 +440,7 @@
   #contacthead > h1 {
     font-size: 1.6rem;
     white-space: nowrap;
+    line-height: 35px;
   }
 
   #contacthead > p {
@@ -387,6 +497,20 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  #contacthead {
+    padding-left: 0%;
+    width: 90%;
+    padding-bottom: 20px;
+
+  }
+  .botconthead > div > h1 {
+    padding-left: 0%;
+  }
+  
+  .topcont1 {
+    padding-top: 20px;
+  }
   #mapcont {
     /* border: 3px solid red !important; */
     width: 100%;
@@ -395,13 +519,14 @@
     position: relative;
   }
 
-  .MapMain{
+  .MapMain {
     height: 500px;
   }
 
   #contacthead > h1 {
     font-size: 22px;
     white-space: nowrap;
+    line-height: 25px;
   }
 
   #contacthead > p {
@@ -457,5 +582,9 @@
     font-size: 8px;
     padding-left: 0px;
     line-height: 16px;
+  }
+
+  #contacthead > h2 {
+    margin-top: 6%;
   }
 }

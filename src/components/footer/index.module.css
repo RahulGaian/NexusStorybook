@@ -76,7 +76,6 @@ ul {
   gap: 3%;
 }
 
-
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
   .footermain {
     border-top: 2px solid #d9d9d9;
@@ -94,6 +93,9 @@ ul {
   }
 }
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .navlink {
+    font-size: 15px;
+  }
   .footermain {
     border-top: 2px solid #d9d9d9;
     width: 950px;
@@ -102,6 +104,9 @@ ul {
   }
 }
 @media screen and (max-width: 980px) {
+  .navlink {
+    font-size: 15px;
+  }
   .footermain {
     border-top: 2px solid #d9d9d9;
     width: 90%;
@@ -123,6 +128,9 @@ ul {
   }
 }
 @media screen and (max-width: 620px) {
+  .navlink {
+    font-size: 15px;
+  }
   .bottomcontent {
     position: relative;
     width: 100%;
