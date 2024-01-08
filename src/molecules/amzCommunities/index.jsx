@@ -26,6 +26,7 @@ const Communities = () => {
                     <h1>{item.nameText}</h1>
                     <p>{item.texts}</p>
                   </div>
+
                 </div>
               </section>
             ))}
