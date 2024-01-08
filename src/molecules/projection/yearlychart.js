@@ -4,32 +4,24 @@ import * as echarts from 'echarts';
 import styled from 'styled-components';
 
 const ChartContainer = styled.div`
+width: 350px;
+height: 350px;
+
+@media screen and (max-width: 1800px) {
   width: 300px;
   height: 300px;
-
-  @media screen and (max-width: 1800px) and (min-width: 1500px) {
-    width: 290px;
-    height: 270px;
-  }
-
-  @media screen and (max-width: 1500px) and (min-width: 1250px) {
-    width: 265px;
-    height: 245px;
-  }
-
-  @media screen and (max-width: 1250px) and (min-width: 980px) {
-    width: 220px;
-    height: 200px;
-  }
-
-  @media screen and (max-width: 980px) {
-    width: 220px;
-    height: 200px;
-  }
-
-  @media screen and (max-width: 600px) {
+}
+  @media screen and (max-width: 1500px) {
     width: 250px;
     height: 250px;
+  }
+  @media screen and (max-width: 1250px) {
+    width: 230px;
+    height: 230px;
+  }
+  @media screen and (max-width: 600px) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
@@ -96,7 +88,7 @@ const ChartComponent3 = ({ data }) => {
     };
   }, [data, yearData, totalData]);
 
-  return <ChartContainer id="maindiv" style={{ height: '100%', width: '100%' }} />;
+  return <ChartContainer id="maindiv" />;
 };
 
 export default ChartComponent3;
