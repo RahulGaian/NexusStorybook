@@ -21,7 +21,7 @@ const WhereToFind = () => {
           >
             <option value="countries">Country:</option>
             <option value="india">India</option>
-            <option value="usa">Unites States of America</option>
+            <option value="usa">United States of America</option>
             <option value="canada">Canada</option>
             <option value="uk">United Kingdom</option>
             <option value="germany">Germany</option>

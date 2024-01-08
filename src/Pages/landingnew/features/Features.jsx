@@ -17,7 +17,7 @@ const Features = () => {
             <div className={st.productContentCardDesc}>
               <h1>Discover a World of NextGenTV Experiences</h1>
               <p>
-                With NextGenTV Marketplace, viewers can explore a vast array of
+                With Nexus Connect, viewers can explore a vast array of
                 innovative applications tailored for the NextGenTV platform.
                 From interactive content and enhanced viewing experiences to
                 personalized recommendations and immersive storytelling, our
@@ -36,7 +36,7 @@ const Features = () => {
             <div className={st.productContentCardDesc}>
               <h1>Monetize Your NextGenTV Offerings</h1>
               <p>
-                At NextGenTV Marketplace, we believe in empowering content
+                At Nexus Connect, we believe in empowering content
                 creators and application developers to monetize their offerings.
                 Our platform offers a variety of monetization models, including
                 advertising, subscriptions, and in-app purchases, giving you the
@@ -58,7 +58,7 @@ const Features = () => {
             <div className={st.productContentCardDesc}>
               <h1>Drive User Engagement and Optimize Performance</h1>
               <p>
-                With NextGenTV Marketplace, viewers can explore a vast array of
+                With Nexus Connect, viewers can explore a vast array of
                 innovative applications tailored for the NextGenTV platform.
                 From interactive content and enhanced viewing experiences to
                 personalized recommendations and immersive storytelling, our

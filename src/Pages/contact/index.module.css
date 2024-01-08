@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  /* padding-top: 200px; */
-  padding-top: 15vh;
+  padding-top: 100px;
+  /* padding-top: 15vh; */
 }
 /* @font-face {
 
@@ -15,6 +15,8 @@
 
 } */
 
+* {
+  font-family: "ITC" !important;
 * {
   font-family: "ITC" !important;
 }
@@ -227,6 +229,9 @@
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .topcont1 {
+    padding-top: 60px;
+  }
   .mapcontent1section1 Img {
     width: 2.5rem;
     height: 2.5rem;
@@ -243,6 +248,9 @@
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .topcont1 {
+    padding-top: 60px;
+  }
   #contacthead > h1 {
     font-size: 50px;
     white-space: nowrap;
@@ -269,6 +277,9 @@
 }
 
 @media screen and (max-width: 980px) and (min-width: 620px) {
+  .topcont1 {
+    padding-top: 50px;
+  }
   #contacthead > h1 {
     font-size: 40px;
     white-space: nowrap;
@@ -335,6 +346,9 @@
 }
 
 @media screen and (max-width: 620px) and (min-width: 480px) {
+  .topcont1 {
+    padding-top: 30px;
+  }
   #mapcont {
     /* border: 3px solid red !important; */
     width: 100%;
@@ -411,6 +425,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .topcont1 {
+    padding-top: 20px;
+  }
   #mapcont {
     /* border: 3px solid red !important; */
     width: 100%;

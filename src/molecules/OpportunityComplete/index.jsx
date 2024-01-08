@@ -11,6 +11,7 @@ const FullOppurtunity = () => {
     const [selectedStates,setSelectedStates] = useState([]);
     const [selectedApps,setSelectedApps] = useState([]);
     const initialCount = parseInt(Cookies.get('count')) || 0;
+    const [additionalData,setAdditionalData] = useState({})
     const [count,setCount] = useState(initialCount);
     // console.log(selectedApps,selectedStates)
     useEffect(() => {
@@ -30,8 +31,8 @@ const FullOppurtunity = () => {
 }
         {(count> 0 && count < 4) &&
         <section>
-          <Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count}></Projection>
-          <AdditionCmp></AdditionCmp>
+          <Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count} additionalDataSetter={setAdditionalData}></Projection>
+          <AdditionCmp fixed={additionalData[0]} metered={additionalData[1]} ad={additionalData[3] } subscription={additionalData[2]}></AdditionCmp>
         </section>
         }
 

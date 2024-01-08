@@ -1992,7 +1992,7 @@ const jsonData =[
     "YEAR_8": 687750.0148799999,
     "YEAR_9": 712811.64816,
     "YEAR_10": 737873.2814399998,
-    "Metered_ImpressIO": 5997932.7299999995
+    "METERED_ImpressIO": 5997932.7299999995
   },
   {
     "DMA": "Los Angeles",
@@ -2015,7 +2015,7 @@ const jsonData =[
     "YEAR_8": 556712.34672,
     "YEAR_9": 576998.96304,
     "YEAR_10": 597285.5793599999,
-    "Metered_ImpressIO": 4855140.869999999
+    "METERED_ImpressIO": 4855140.869999999
   },
   {
     "DMA": "Chicago",
@@ -2038,7 +2038,7 @@ const jsonData =[
     "YEAR_8": 342606.15678,
     "YEAR_9": 355090.73646000004,
     "YEAR_10": 367575.31614,
-    "Metered_ImpressIO": 2987900.59875
+    "METERED_ImpressIO": 2987900.59875
   },
   {
     "DMA": "Philadelphia",
@@ -2061,7 +2061,7 @@ const jsonData =[
     "YEAR_8": 288680.00373,
     "YEAR_9": 299199.51261,
     "YEAR_10": 309719.02148999996,
-    "Metered_ImpressIO": 2517605.533125
+    "METERED_ImpressIO": 2517605.533125
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -2084,7 +2084,7 @@ const jsonData =[
     "YEAR_8": 363468.03906,
     "YEAR_9": 376712.82641999994,
     "YEAR_10": 389957.61378,
-    "Metered_ImpressIO": 3169839.04125
+    "METERED_ImpressIO": 3169839.04125
   },
   {
     "DMA": "Houston",
@@ -2107,7 +2107,7 @@ const jsonData =[
     "YEAR_8": 287724.24609,
     "YEAR_9": 298208.92713,
     "YEAR_10": 308693.60817,
-    "Metered_ImpressIO": 2509270.280625
+    "METERED_ImpressIO": 2509270.280625
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -2130,7 +2130,7 @@ const jsonData =[
     "YEAR_8": 260452.19619,
     "YEAR_9": 269943.08282999997,
     "YEAR_10": 279433.96947,
-    "Metered_ImpressIO": 2271428.161875
+    "METERED_ImpressIO": 2271428.161875
   },
   {
     "DMA": "Boston-Manchester",
@@ -2153,7 +2153,7 @@ const jsonData =[
     "YEAR_8": 254478.71094,
     "YEAR_9": 263751.92358,
     "YEAR_10": 273025.13622000004,
-    "Metered_ImpressIO": 2219332.8337499998
+    "METERED_ImpressIO": 2219332.8337499998
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -2176,7 +2176,7 @@ const jsonData =[
     "YEAR_8": 307070.09901000006,
     "YEAR_9": 318259.74357,
     "YEAR_10": 329449.38813000004,
-    "Metered_ImpressIO": 2677987.288125
+    "METERED_ImpressIO": 2677987.288125
   },
   {
     "DMA": "New York",
@@ -2464,7 +2464,7 @@ const jsonData =[
     "YEAR_8": 5391029.289159882,
     "YEAR_9": 5778363.690293275,
     "YEAR_10": 6165698.091426667,
-    "Subscription_Museo": 42935505.42279263
+    "SUBSCRIPTION_Museo": 42935505.42279263
   },
   {
     "DMA": "Los Angeles",
@@ -2492,7 +2492,7 @@ const jsonData =[
     "YEAR_8": 4073382.2962748604,
     "YEAR_9": 4366046.462557077,
     "YEAR_10": 4658710.628839293,
-    "Subscription_Museo": 32441435.26032881
+    "SUBSCRIPTION_Museo": 32441435.26032881
   },
   {
     "DMA": "Chicago",
@@ -2520,7 +2520,7 @@ const jsonData =[
     "YEAR_8": 2529128.1249831785,
     "YEAR_9": 2710840.7952611456,
     "YEAR_10": 2892553.4655391145,
-    "Subscription_Museo": 20142608.860148624
+    "SUBSCRIPTION_Museo": 20142608.860148624
   },
   {
     "DMA": "Philadelphia",
@@ -2548,7 +2548,7 @@ const jsonData =[
     "YEAR_8": 2169199.6224495843,
     "YEAR_9": 2325052.1677862876,
     "YEAR_10": 2480904.713122992,
-    "Subscription_Museo": 17276048.256699
+    "SUBSCRIPTION_Museo": 17276048.256699
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -2576,7 +2576,7 @@ const jsonData =[
     "YEAR_8": 2122158.991966866,
     "YEAR_9": 2274631.764451362,
     "YEAR_10": 2427104.5369358575,
-    "Subscription_Museo": 16901404.911829125
+    "SUBSCRIPTION_Museo": 16901404.911829125
   },
   {
     "DMA": "Atlanta",
@@ -2604,7 +2604,7 @@ const jsonData =[
     "YEAR_8": 1869798.777797565,
     "YEAR_9": 2004139.986311205,
     "YEAR_10": 2138481.194824845,
-    "Subscription_Museo": 14891545.057097813
+    "SUBSCRIPTION_Museo": 14891545.057097813
   },
   {
     "DMA": "Houston",
@@ -2632,7 +2632,7 @@ const jsonData =[
     "YEAR_8": 1860365.5335951573,
     "YEAR_9": 1994028.9828539493,
     "YEAR_10": 2127692.4321127413,
-    "Subscription_Museo": 14816416.341247313
+    "SUBSCRIPTION_Museo": 14816416.341247313
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -2660,7 +2660,7 @@ const jsonData =[
     "YEAR_8": 1826190.9551163148,
     "YEAR_9": 1957399.030979955,
     "YEAR_10": 2088607.106843595,
-    "Subscription_Museo": 14544241.452019688
+    "SUBSCRIPTION_Museo": 14544241.452019688
   },
   {
     "DMA": "Boston-Manchester",
@@ -2688,7 +2688,7 @@ const jsonData =[
     "YEAR_8": 1811427.0906693505,
     "YEAR_9": 1941574.4131430066,
     "YEAR_10": 2071721.7356166625,
-    "Subscription_Museo": 14426658.343484435
+    "SUBSCRIPTION_Museo": 14426658.343484435
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -2716,7 +2716,7 @@ const jsonData =[
     "YEAR_8": 1809347.8696839088,
     "YEAR_9": 1939345.8043928128,
     "YEAR_10": 2069343.7391017168,
-    "Subscription_Museo": 14410098.907594312
+    "SUBSCRIPTION_Museo": 14410098.907594312
   },
   {
     "DMA": "New York",
@@ -3522,7 +3522,7 @@ const jsonData =[
     "YEAR_8": 211821.09160739486,
     "YEAR_9": 212250.6019905093,
     "YEAR_10": 212680.11237362365,
-    "Subscription_Around": 2003119.5858311811
+    "SUBSCRIPTION_Around": 2003119.5858311811
   },
   {
     "DMA": "Los Angeles",
@@ -3548,7 +3548,7 @@ const jsonData =[
     "YEAR_8": 160048.89572129145,
     "YEAR_9": 160373.42743811262,
     "YEAR_10": 160697.95915493387,
-    "Subscription_Around": 1513527.6439052157
+    "SUBSCRIPTION_Around": 1513527.6439052157
   },
   {
     "DMA": "Chicago",
@@ -3574,7 +3574,7 @@ const jsonData =[
     "YEAR_8": 99372.98640282209,
     "YEAR_9": 99574.48536185971,
     "YEAR_10": 99775.9843208973,
-    "Subscription_Around": 939736.3305773812
+    "SUBSCRIPTION_Around": 939736.3305773812
   },
   {
     "DMA": "Philadelphia",
@@ -3600,7 +3600,7 @@ const jsonData =[
     "YEAR_8": 85230.8914116888,
     "YEAR_9": 85403.71439426161,
     "YEAR_10": 85576.5373768344,
-    "Subscription_Around": 805999.3771585498
+    "SUBSCRIPTION_Around": 805999.3771585498
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -3626,7 +3626,7 @@ const jsonData =[
     "YEAR_8": 83382.5991535137,
     "YEAR_9": 83551.6743472809,
     "YEAR_10": 83720.7495410481,
-    "Subscription_Around": 788520.7096916062
+    "SUBSCRIPTION_Around": 788520.7096916062
   },
   {
     "DMA": "Atlanta",
@@ -3652,7 +3652,7 @@ const jsonData =[
     "YEAR_8": 73467.01287556425,
     "YEAR_9": 73615.98219966226,
     "YEAR_10": 73764.95152376025,
-    "Subscription_Around": 694752.4030152656
+    "SUBSCRIPTION_Around": 694752.4030152656
   },
   {
     "DMA": "Houston",
@@ -3678,7 +3678,7 @@ const jsonData =[
     "YEAR_8": 73096.36749836867,
     "YEAR_9": 73244.58526351306,
     "YEAR_10": 73392.80302865745,
-    "Subscription_Around": 691247.3365045406
+    "SUBSCRIPTION_Around": 691247.3365045406
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -3704,7 +3704,7 @@ const jsonData =[
     "YEAR_8": 71753.60044400176,
     "YEAR_9": 71899.09547559975,
     "YEAR_10": 72044.59050719775,
-    "Subscription_Around": 678549.2479176094
+    "SUBSCRIPTION_Around": 678549.2479176094
   },
   {
     "DMA": "Boston-Manchester",
@@ -3730,7 +3730,7 @@ const jsonData =[
     "YEAR_8": 71173.50753117196,
     "YEAR_9": 71317.82630630115,
     "YEAR_10": 71462.14508143035,
-    "Subscription_Around": 673063.507727747
+    "SUBSCRIPTION_Around": 673063.507727747
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -3756,7 +3756,7 @@ const jsonData =[
     "YEAR_8": 71091.81202643506,
     "YEAR_9": 71235.96514729786,
     "YEAR_10": 71380.11826816064,
-    "Subscription_Around": 672290.9412926906
+    "SUBSCRIPTION_Around": 672290.9412926906
   },
   {
     "DMA": "New York",
@@ -3782,7 +3782,7 @@ const jsonData =[
     "YEAR_8": 129640.50056845798,
     "YEAR_9": 130239.817382106,
     "YEAR_10": 130839.134195754,
-    "Subscription_Hear": 1218774.358508625
+    "SUBSCRIPTION_Hear": 1218774.358508625
   },
   {
     "DMA": "Los Angeles",
@@ -3808,7 +3808,7 @@ const jsonData =[
     "YEAR_8": 97954.45202970899,
     "YEAR_9": 98407.28698341301,
     "YEAR_10": 98860.121937117,
-    "Subscription_Hear": 920887.9471468126
+    "SUBSCRIPTION_Hear": 920887.9471468126
   },
   {
     "DMA": "Chicago",
@@ -3834,7 +3834,7 @@ const jsonData =[
     "YEAR_8": 60819.07898068201,
     "YEAR_9": 61100.24031887401,
     "YEAR_10": 61381.401657066,
-    "Subscription_Hear": 571771.4267126251
+    "SUBSCRIPTION_Hear": 571771.4267126251
   },
   {
     "DMA": "Philadelphia",
@@ -3860,7 +3860,7 @@ const jsonData =[
     "YEAR_8": 52163.716760496,
     "YEAR_9": 52404.865108271995,
     "YEAR_10": 52646.013456048,
-    "Subscription_Hear": 490400.763291
+    "SUBSCRIPTION_Hear": 490400.763291
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -3886,7 +3886,7 @@ const jsonData =[
     "YEAR_8": 51032.509609554014,
     "YEAR_9": 51268.428484578006,
     "YEAR_10": 51504.34735960201,
-    "Subscription_Hear": 479766.0753371251
+    "SUBSCRIPTION_Hear": 479766.0753371251
   },
   {
     "DMA": "Atlanta",
@@ -3912,7 +3912,7 @@ const jsonData =[
     "YEAR_8": 44963.890291485004,
     "YEAR_9": 45171.754464645004,
     "YEAR_10": 45379.618637805004,
-    "Subscription_Hear": 422713.86106781254
+    "SUBSCRIPTION_Hear": 422713.86106781254
   },
   {
     "DMA": "Houston",
@@ -3938,7 +3938,7 @@ const jsonData =[
     "YEAR_8": 44737.044834933,
     "YEAR_9": 44943.86032118101,
     "YEAR_10": 45150.675807429,
-    "Subscription_Hear": 420581.24491331255
+    "SUBSCRIPTION_Hear": 420581.24491331255
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -3964,7 +3964,7 @@ const jsonData =[
     "YEAR_8": 43915.233410235,
     "YEAR_9": 44118.249733395,
     "YEAR_10": 44321.26605655501,
-    "Subscription_Hear": 412855.24348968756
+    "SUBSCRIPTION_Hear": 412855.24348968756
   },
   {
     "DMA": "Boston-Manchester",
@@ -3990,7 +3990,7 @@ const jsonData =[
     "YEAR_8": 43560.200136519,
     "YEAR_9": 43761.575171583005,
     "YEAR_10": 43962.95020664701,
-    "Subscription_Hear": 409517.5099224375
+    "SUBSCRIPTION_Hear": 409517.5099224375
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -4016,7 +4016,7 @@ const jsonData =[
     "YEAR_8": 43510.20017642101,
     "YEAR_9": 43711.344065997,
     "YEAR_10": 43912.48795557301,
-    "Subscription_Hear": 409047.45103631256
+    "SUBSCRIPTION_Hear": 409047.45103631256
   },
 {
     "DMA": "New York",
@@ -4378,7 +4378,7 @@ const jsonData =[
     "YEAR_8": 40852483.47257242,
     "YEAR_9": 46270607.25502771,
     "YEAR_10": 51688731.03748301,
-    "Fixed_Izak": 272848285.0201006
+    "FIXED_Izak": 272848285.0201006
   },
   {
     "DMA": "Los Angeles",
@@ -4400,7 +4400,7 @@ const jsonData =[
     "YEAR_8": 30917629.71418752,
     "YEAR_9": 35018128.156688645,
     "YEAR_10": 39118626.599189766,
-    "Fixed_Izak": 206494722.65416178
+    "FIXED_Izak": 206494722.65416178
   },
   {
     "DMA": "Chicago",
@@ -4422,7 +4422,7 @@ const jsonData =[
     "YEAR_8": 19212676.524470013,
     "YEAR_9": 21760787.453190908,
     "YEAR_10": 24308898.3819118,
-    "Fixed_Izak": 128318902.42038938
+    "FIXED_Izak": 128318902.42038938
   },
   {
     "DMA": "Philadelphia",
@@ -4444,7 +4444,7 @@ const jsonData =[
     "YEAR_8": 16515783.510512259,
     "YEAR_9": 18706214.833598595,
     "YEAR_10": 20896646.156684935,
-    "Fixed_Izak": 110306713.90227655
+    "FIXED_Izak": 110306713.90227655
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -4466,7 +4466,7 @@ const jsonData =[
     "YEAR_8": 16148754.883021131,
     "YEAR_9": 18290508.466924567,
     "YEAR_10": 20432262.050828006,
-    "Fixed_Izak": 107855378.68219207
+    "FIXED_Izak": 107855378.68219207
   },
   {
     "DMA": "Atlanta",
@@ -4488,7 +4488,7 @@ const jsonData =[
     "YEAR_8": 14208171.819850367,
     "YEAR_9": 16092552.574670976,
     "YEAR_10": 17976933.32949158,
-    "Fixed_Izak": 94894483.38972637
+    "FIXED_Izak": 94894483.38972637
   },
   {
     "DMA": "Houston",
@@ -4510,7 +4510,7 @@ const jsonData =[
     "YEAR_8": 14167826.209242778,
     "YEAR_9": 16046856.065078322,
     "YEAR_10": 17925885.920913868,
-    "Fixed_Izak": 94625020.44092521
+    "FIXED_Izak": 94625020.44092521
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -4532,7 +4532,7 @@ const jsonData =[
     "YEAR_8": 13902585.285968179,
     "YEAR_9": 15746437.154266212,
     "YEAR_10": 17590289.022564247,
-    "Fixed_Izak": 92853511.71291336
+    "FIXED_Izak": 92853511.71291336
   },
   {
     "DMA": "Boston-Manchester",
@@ -4554,7 +4554,7 @@ const jsonData =[
     "YEAR_8": 13879537.780173004,
     "YEAR_9": 15720332.937381273,
     "YEAR_10": 17561128.09458954,
-    "Fixed_Izak": 92699580.4975828
+    "FIXED_Izak": 92699580.4975828
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -4576,7 +4576,7 @@ const jsonData =[
     "YEAR_8": 13786221.068128513,
     "YEAR_9": 15614639.952125184,
     "YEAR_10": 17443058.836121857,
-    "Fixed_Izak": 92076330.63170506
+    "FIXED_Izak": 92076330.63170506
   },
   {
     "DMA": "Phoenix-Prescott",
@@ -4598,7 +4598,7 @@ const jsonData =[
     "YEAR_8": 11405257.405532924,
     "YEAR_9": 12917897.302576892,
     "YEAR_10": 14430537.199620863,
-    "Fixed_Izak": 76174192.08802165
+    "FIXED_Izak": 76174192.08802165
   },
   {
     "DMA": "New York",
@@ -4622,7 +4622,7 @@ const jsonData =[
     "YEAR_8": 6127872.520885862,
     "YEAR_9": 6940591.0882541565,
     "YEAR_10": 7753309.655622452,
-    "Metered_Izak": 40927242.75301509
+    "METERED_Izak": 40927242.75301509
   },
   {
     "DMA": "Los Angeles",
@@ -4646,7 +4646,7 @@ const jsonData =[
     "YEAR_8": 4637644.457128128,
     "YEAR_9": 5252719.223503297,
     "YEAR_10": 5867793.989878464,
-    "Metered_Izak": 30974208.398124266
+    "METERED_Izak": 30974208.398124266
   },
   {
     "DMA": "Chicago",
@@ -4670,7 +4670,7 @@ const jsonData =[
     "YEAR_8": 2881901.4786705016,
     "YEAR_9": 3264118.1179786366,
     "YEAR_10": 3646334.757286771,
-    "Metered_Izak": 19247835.36305841
+    "METERED_Izak": 19247835.36305841
   },
   {
     "DMA": "Philadelphia",
@@ -4694,7 +4694,7 @@ const jsonData =[
     "YEAR_8": 2477367.5265768385,
     "YEAR_9": 2805932.2250397885,
     "YEAR_10": 3134496.923502739,
-    "Metered_Izak": 16546007.08534148
+    "METERED_Izak": 16546007.08534148
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -4718,7 +4718,7 @@ const jsonData =[
     "YEAR_8": 2422313.2324531698,
     "YEAR_9": 2743576.270038685,
     "YEAR_10": 3064839.3076242,
-    "Metered_Izak": 16178306.80232881
+    "METERED_Izak": 16178306.80232881
   },
   {
     "DMA": "Atlanta",
@@ -4742,7 +4742,7 @@ const jsonData =[
     "YEAR_8": 2131225.7729775547,
     "YEAR_9": 2413882.8862006464,
     "YEAR_10": 2696539.9994237376,
-    "Metered_Izak": 14234172.508458957
+    "METERED_Izak": 14234172.508458957
   },
   {
     "DMA": "Houston",
@@ -4766,7 +4766,7 @@ const jsonData =[
     "YEAR_8": 2125173.9313864163,
     "YEAR_9": 2407028.409761748,
     "YEAR_10": 2688882.8881370793,
-    "Metered_Izak": 14193753.066138782
+    "METERED_Izak": 14193753.066138782
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -4790,7 +4790,7 @@ const jsonData =[
     "YEAR_8": 2085387.7928952263,
     "YEAR_9": 2361965.573139932,
     "YEAR_10": 2638543.3533846373,
-    "Metered_Izak": 13928026.756937005
+    "METERED_Izak": 13928026.756937005
   },
   {
     "DMA": "Boston-Manchester",
@@ -4814,7 +4814,7 @@ const jsonData =[
     "YEAR_8": 2081930.6670259505,
     "YEAR_9": 2358049.940607191,
     "YEAR_10": 2634169.214188431,
-    "Metered_Izak": 13904937.07463742
+    "METERED_Izak": 13904937.07463742
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -4838,7 +4838,7 @@ const jsonData =[
     "YEAR_8": 2067933.1602192768,
     "YEAR_9": 2342195.992818778,
     "YEAR_10": 2616458.8254182786,
-    "Metered_Izak": 13811449.59475576
+    "METERED_Izak": 13811449.59475576
   },
   {
     "DMA": "Phoenix-Prescott",
@@ -4862,7 +4862,7 @@ const jsonData =[
     "YEAR_8": 1710788.6108299391,
     "YEAR_9": 1937684.5953865345,
     "YEAR_10": 2164580.5799431293,
-    "Metered_Izak": 11426128.81320325
+    "METERED_Izak": 11426128.81320325
   },
   {
     "DMA": "New York",
@@ -4889,7 +4889,7 @@ const jsonData =[
     "YEAR_8": 810749612.3490348,
     "YEAR_9": 918291815.9194013,
     "YEAR_10": 1025834019.4897678,
-    "Sub_Izak": 5403406715.999247
+    "SUBSCRIPTION_Izak": 5403406715.999247
   },
   {
     "DMA": "Los Angeles",
@@ -4916,7 +4916,7 @@ const jsonData =[
     "YEAR_8": 612595658.2296324,
     "YEAR_9": 693853652.0420202,
     "YEAR_10": 775111645.8544083,
-    "Sub_Izak": 4082769135.4417152
+    "SUBSCRIPTION_Izak": 4082769135.4417152
   },
   {
     "DMA": "Chicago",
@@ -4943,7 +4943,7 @@ const jsonData =[
     "YEAR_8": 380357068.34663135,
     "YEAR_9": 430809682.3849487,
     "YEAR_10": 481262296.42326605,
-    "Sub_Izak": 2534967524.223965
+    "SUBSCRIPTION_Izak": 2534967524.223965
   },
   {
     "DMA": "Philadelphia",
@@ -4970,7 +4970,7 @@ const jsonData =[
     "YEAR_8": 326231081.41117483,
     "YEAR_9": 369504132.4662983,
     "YEAR_10": 412777183.5214219,
-    "Sub_Izak": 2174233807.1028957
+    "SUBSCRIPTION_Izak": 2174233807.1028957
   },
   {
     "DMA": "Dallas-Ft. Worth",
@@ -4997,7 +4997,7 @@ const jsonData =[
     "YEAR_8": 319155608.84289175,
     "YEAR_9": 361490131.035707,
     "YEAR_10": 403824653.22852224,
-    "Sub_Izak": 2127077872.1360471
+    "SUBSCRIPTION_Izak": 2127077872.1360471
   },
   {
     "DMA": "Atlanta",
@@ -5024,7 +5024,7 @@ const jsonData =[
     "YEAR_8": 281200567.96078885,
     "YEAR_9": 318500528.7170116,
     "YEAR_10": 355800489.4732344,
-    "Sub_Izak": 1874118734.4632318
+    "SUBSCRIPTION_Izak": 1874118734.4632318
   },
   {
     "DMA": "Houston",
@@ -5051,7 +5051,7 @@ const jsonData =[
     "YEAR_8": 279785145.780005,
     "YEAR_9": 316897357.3002302,
     "YEAR_10": 354009568.82045543,
-    "Sub_Izak": 1864685363.6652336
+    "SUBSCRIPTION_Izak": 1864685363.6652336
   },
   {
     "DMA": "Washington-Hagerstown",
@@ -5078,7 +5078,7 @@ const jsonData =[
     "YEAR_8": 274645026.4040234,
     "YEAR_9": 311075424.75297093,
     "YEAR_10": 347505823.1019185,
-    "Sub_Izak": 1830427986.1294675
+    "SUBSCRIPTION_Izak": 1830427986.1294675
   },
   {
     "DMA": "Boston-Manchester",
@@ -5105,7 +5105,7 @@ const jsonData =[
     "YEAR_8": 272433924.81203204,
     "YEAR_9": 308571030.71421325,
     "YEAR_10": 344708136.6163946,
-    "Sub_Izak": 1815691647.0551796
+    "SUBSCRIPTION_Izak": 1815691647.0551796
   },
   {
     "DMA": "San Francisco-Oakland-San Jose",
@@ -5132,7 +5132,7 @@ const jsonData =[
     "YEAR_8": 272113186.8050784,
     "YEAR_9": 308207748.28724235,
     "YEAR_10": 344302309.76940644,
-    "Sub_Izak": 1813554022.9669876
+    "SUBSCRIPTION_Izak": 1813554022.9669876
   },
   {
     "DMA": "Phoenix-Prescott",
@@ -5159,7 +5159,7 @@ const jsonData =[
     "YEAR_8": 224441520.685883,
     "YEAR_9": 254212655.12689793,
     "YEAR_10": 283983789.5679129,
-    "Sub_Izak": 1495836447.8391945
+    "SUBSCRIPTION_Izak": 1495836447.8391945
   },
   {
     "DMA": "New York",
@@ -5466,7 +5466,7 @@ const jsonData =[
 
 
 
-const Projection = ({selectedCities,selectedApps,count}) => {
+const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) => {
   let proxyAppNames ={"clink":"cLINK","gofema":"GoFEMA","amply":"AmpliFund","liveWeather":"Live Weather","iZak":"Izak","museo":"Museo","aegis":"Aegis","reee":"Reve(e)","voteiq":"Voteiq","around":"Around","impressio":"ImpressIO"}
   const [finalData,setFinalData] = useState([data])
   useEffect(()=>{
@@ -5475,6 +5475,7 @@ const Projection = ({selectedCities,selectedApps,count}) => {
     let data = aggregateDataForDMAsAndPlatforms(jsonData,selectedCities,selectedAppsNames)
     console.log(data,"finalll")
      setFinalData([data]);
+     additionalDataSetter([data["fixed"],data["metered"],data["subscription"],data["ad"]])
   },[count,selectedApps])
 
   return (
