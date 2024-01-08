@@ -8,6 +8,7 @@ import aggregateDataForDMAsAndPlatforms from "./logic";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useMemo } from "react";
+import ChartComponent5 from "./yearlyChart2";
 const data = [
   {
     DMA: "NEW YORK",
@@ -5489,7 +5490,8 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
         <div className={st.mainCont}>
           <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
           <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Average Devices / User</span></div>
-          <div className={st.dataCont}><ChartComponent3 data={finalData}/><span id={st.chartLabel}>Device Types</span></div>
+          <div className={st.dataCont}><ChartComponent5 data={finalData}/><span id={st.chartLabel}>Device Types</span></div>
+          {/* <div className={st.dataCont}><ChartComponent3 data={finalData}/><span id={st.chartLabel}>Device Types</span></div> */}
           <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}>iZak Revenue</span></div>
         </div>
       </div>

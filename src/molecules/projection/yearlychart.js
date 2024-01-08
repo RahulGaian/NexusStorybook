@@ -4,13 +4,13 @@ import * as echarts from 'echarts';
 import styled from 'styled-components';
 
 const ChartContainer = styled.div`
-width: 350px;
-height: 350px;
+  width: 350px;
+  height: 350px;
 
-@media screen and (max-width: 1800px) {
-  width: 300px;
-  height: 300px;
-}
+  @media screen and (max-width: 1800px) {
+    width: 300px;
+    height: 300px;
+  }
   @media screen and (max-width: 1500px) {
     width: 250px;
     height: 250px;
