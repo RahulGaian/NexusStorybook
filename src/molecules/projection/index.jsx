@@ -3,6 +3,7 @@ import Img from "../../components/Image";
 import ChartComponent from "./linechart";
 import ChartComponent2 from "./barchart";
 import ChartComponent3 from "./yearlychart";
+import ChartComponent6 from "./yearlyChart3";
 import ChartComponent4 from "./lineSeriesdata";
 import aggregateDataForDMAsAndPlatforms from "./logic";
 import { useEffect } from "react";
@@ -5490,7 +5491,7 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
         <div className={st.mainCont}>
           <div className={st.dataCont}><ChartComponent2 data={finalData}/><span id={st.chartLabel}>Projected Market Growth</span></div>
           <div className={st.dataCont}><ChartComponent4 data={finalData}/><span id={st.chartLabel}> </span></div>
-          <div className={st.dataCont}><ChartComponent5 data={finalData}/><span id={st.chartLabel}>App Types</span></div>
+          <div className={st.dataCont}><ChartComponent6 data={finalData}/><span id={st.chartLabel}>App Types</span></div>
           <div className={st.dataCont}><ChartComponent data={finalData}/><span id={st.chartLabel}>Revenue</span></div>
         </div>
       </div>
