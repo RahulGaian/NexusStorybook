@@ -159,11 +159,11 @@ const formatNumber = (value) => {
 };
 
 const AdditionCmp = ({
-  fixed = 72000000,
-  metered = 2000000,
-  ad = 14000000,
-  subscription = 16000000,
-  data = 1000000,
+  fixed = 0,
+  metered = 0,
+  ad = 0,
+  subscription = 0,
+  data = 0,
 }) => {
   const total = fixed + metered + ad + subscription + data;
 

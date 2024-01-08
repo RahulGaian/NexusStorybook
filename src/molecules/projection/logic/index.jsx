@@ -8,13 +8,13 @@ function aggregateDataForDMAsAndPlatforms(data, selectedDMAs, selectedPlatforms)
             console.log('hello')
             // Sum YEAR_1, YEAR_2, M1, M2, M3, ...
             for (const field in entry) {
-                if (field.startsWith("YEAR_") || field.startsWith("M")) {
+                if (field.startsWith("YEAR_")) {
                     if (!aggregatedData[field]) {
                         aggregatedData[field] = 0;
                     }
                     let value = parseInt(entry[field])
 
-                    aggregatedData[field] += value;
+                    aggregatedData[field] += parseInt(value);
                 }
                 if(field.startsWith("AD_")){
                     if (!aggregatedData[field]) {
@@ -29,8 +29,9 @@ function aggregateDataForDMAsAndPlatforms(data, selectedDMAs, selectedPlatforms)
                         aggregatedData["metered"] = 0;
                     }
                     let value = parseInt(entry[field])
-
+                    
                     aggregatedData["metered"] += value;
+                    console.log(aggregatedData["metered"],"hello metered",value)
                 }
                 if (field.startsWith("FIXED_")){
                     if (!aggregatedData[field]) {
@@ -39,7 +40,7 @@ function aggregateDataForDMAsAndPlatforms(data, selectedDMAs, selectedPlatforms)
                     let value = parseInt(entry[field])
                     aggregatedData["fixed"] += value;
                 }
-                if (field.startsWith("Subcription_")){
+                if (field.startsWith("SUBSCRIPTION_")){
                     if (!aggregatedData[field]) {
                         aggregatedData["subscription"] = 0;
                     }

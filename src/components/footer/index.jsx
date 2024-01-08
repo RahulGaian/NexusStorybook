@@ -64,7 +64,7 @@ const Footer = () => {
                   <a className={Style.navlink} href="/products/live-news">Live news</a>
                 </li>
                 <li className={Style.listelements}>
-                  <a className={Style.navlink} href="/products/ImpressIO">DBaaS</a>
+                  <a className={Style.navlink} href="/products/Impressio">Impressio</a>
                 </li>
                 <li className={Style.listelements}>
                   <a className={Style.navlink} href="/products/C-Link">C-Link</a>
