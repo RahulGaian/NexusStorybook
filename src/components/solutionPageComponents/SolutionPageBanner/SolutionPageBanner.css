@@ -92,8 +92,9 @@
 .rightcont > img {
   width: 702px;
   height: 465px;
-  border-radius: 20px;
+  border-radius: 14px;
   object-fit: contain;
+  
 }
 /* changes made */
 #bg_headingsolution {
