@@ -43,8 +43,7 @@
   font-size: 44px;
   font-style: normal;
   font-weight: 500;
-    color: #007CD7;
-
+  color: #007cd7;
 
   /* line-height: 54px; */
   /* letter-spacing: 1.32px; */
@@ -73,8 +72,8 @@
   gap: 10px;
   flex-shrink: 0;
   border-radius: 10px;
-  border: 1px solid #FFA200;
-  background: #FFA200;
+  border: 1px solid #ffa200;
+  background: #ffa200;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
@@ -93,7 +92,9 @@
 .rightcont > img {
   width: 702px;
   height: 465px;
-  border-radius: 20px;
+  border-radius: 14px;
+  object-fit: contain;
+  
 }
 /* changes made */
 #bg_headingsolution {
@@ -184,7 +185,6 @@
   .bannerContentContainerSolution {
     width: 90%;
     min-height: 500px;
-
   }
   .bannerContentContainerSolution > .leftcont > h1 {
     font-size: 26px;
