@@ -51,7 +51,7 @@ const Landingpagenew = () => {
                       <button
                         id="getStartedBtnLanding"
                         onClick={() => {
-                          window.location.href = "/comingsoon";
+                          window.location.href = "/contact";
                         }}
                       >
                         Get Started
@@ -60,7 +60,7 @@ const Landingpagenew = () => {
                     <div
                       id="learnMoreBtnLanding"
                       onClick={() => {
-                        window.location.href = "/NextGenTV_Webinar";
+                        window.location.href = "#won";
                       }}
                     >
                       <div>Learn More</div>{" "}
@@ -187,7 +187,7 @@ const Landingpagenew = () => {
           <AppSwiper />
         </div>
 
-        <div className="mobius_won_wrapper">
+        <div className="mobius_won_wrapper" id="won">
           <div className="mobius_won_content">
             <section className="content_nab-show">
               <Img src={"/Images/landing/NAB-show.png"} alt="NAB" />
