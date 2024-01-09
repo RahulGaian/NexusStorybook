@@ -3,7 +3,7 @@ import style from "./index.module.css";
 import Img from "../../components/Image/index";
 import { useState } from "react";
 const OpportunityCalc = ({data = ["South Dakota", "San Diego", "New York", "Washington DC"],listUpdater,selectedApps,selectedAppsUpdate}) => {
-  let apps = ["aegis","around",'amply',"clink","gofema","impressio","iZak","museo","reee"]
+  let apps = ["aegis","around",'amply',"clink","gofema","iZak","museo","reee"]
   return (
     <div>
       <div className={style.inner}>
