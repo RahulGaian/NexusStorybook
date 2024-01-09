@@ -9,6 +9,9 @@ import Carousel from "./CarouselComponent/Carousel";
 import Blobs from "../../molecules/blobs";
 import ModalForm from "../Form";
 
+
+
+
 let Contact = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -38,6 +41,7 @@ let Contact = () => {
     // Handle form submission logic here
     console.log("Form submitted with data:", formData);
     console.log("Sending form data to server..."); // You can add your API call or other submission logic here
+
 
     // Close the modal after submission
     closeModal();

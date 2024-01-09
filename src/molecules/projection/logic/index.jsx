@@ -1,11 +1,11 @@
 function aggregateDataForDMAsAndPlatformsolD(data, selectedDMAs, selectedPlatforms) {
     const aggregatedData = {};
-    // console.log(selectedDMAs,selectedPlatforms)
+    // //console.log(selectedDMAs,selectedPlatforms)
 
     data.forEach(entry => {
         // Check if the DMA and platform are selected
         if (selectedDMAs.includes(entry.DMA) && selectedPlatforms.includes(entry.PlatformName)) {
-            console.log('hello')
+            //console.log('hello')
             // Sum YEAR_1, YEAR_2, M1, M2, M3, ...
             for (const field in entry) {
                 if (field.startsWith("YEAR_")) {
@@ -31,7 +31,7 @@ function aggregateDataForDMAsAndPlatformsolD(data, selectedDMAs, selectedPlatfor
                     let value = parseInt(entry[field])
                     
                     aggregatedData["metered"] += value;
-                    console.log(aggregatedData["metered"],"hello metered",value)
+                    //console.log(aggregatedData["metered"],"hello metered",value)
                 }
                 if (field.startsWith("FIXED_")){
                     if (!aggregatedData[field]) {
@@ -95,7 +95,7 @@ function aggregateDataForDMAsAndPlatforms(data, selectedDMAs, selectedPlatforms)
                     let value = parseInt(entry[field])
                     
                     aggregatedData["metered"] += value;
-                    console.log(aggregatedData["metered"],"hello metered",value)
+                    //console.log(aggregatedData["metered"],"hello metered",value)
                 }
                 if (field.startsWith("FIXED_")){
                     if (!aggregatedData[field]) {

@@ -9,7 +9,8 @@ const SeeAlso = ({name,desc,link}) => {
         <h3>See Also</h3>
         <h1>{name}</h1>
         <p>{desc}</p>
-        <Img   onClick={()=>{console.log("hello:");window.location.href="/platform/"+link}} src={"/aidtaasImages/images/images/platform/PascalIntelligence/Arrow(1).png"} alt=''/>
+        <Img   onClick={()=>{//console.log("hello:");
+        window.location.href="/platform/"+link}} src={"/aidtaasImages/images/images/platform/PascalIntelligence/Arrow(1).png"} alt=''/>
     </section>
   )
 }

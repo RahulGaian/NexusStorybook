@@ -10,10 +10,10 @@ import Blobs from "../../molecules/blobs";
 import "./products.css";
 // import CSVFILE from "./test-products - Sheet 1.csv"
 const Products = ({ datas }) => {
-  // console.log(datas)
+  // //console.log(datas)
   const banner = datas.banner;
   banner.description = banner.paragraph;
-  console.log(banner)
+  //console.log(banner)
 
   // const [data, setData]=useState([])
 

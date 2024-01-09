@@ -20,7 +20,7 @@ import { useLocation   } from "react-router-dom";
 // import CloseOutline from "../images/icons/close-outline.svg"
 function Header() {
   let location = useLocation();
-  console.log(location)
+  //console.log(location)
   const data = [
     {
       name: "solutions",
@@ -2080,7 +2080,7 @@ function Header() {
       setIsScrolled(window.scrollY > 50);
     };
       if(location.pathname != "/"  && location.pathname != "/CES"  && location.pathname != "/comingsoon"){
-        console.log("changed",location.pathname);
+        //console.log("changed",location.pathname);
             setIsScrolled(true);
 
       }

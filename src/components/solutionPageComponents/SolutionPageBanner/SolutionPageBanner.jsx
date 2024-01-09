@@ -3,7 +3,7 @@ import "./SolutionPageBanner.css";
 import { useState, useEffect } from "react";
 
 const SolutionPageBanner = ({ bannerData }) => {
-  // console.log(bannerData);
+  // //console.log(bannerData);
   const changeRoute = (Route) => {
     window.location.href = Route;
   };

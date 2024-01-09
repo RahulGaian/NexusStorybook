@@ -28,7 +28,7 @@ const OpportunityCalc = ({data = ["South Dakota", "San Diego", "New York", "Wash
                     listUpdater((arr) => {
                       return arr.filter((str) => str !== e);
                     });
-                    // console.log("clicked close")
+                    // //console.log("clicked close")
                   }}
                 />
 

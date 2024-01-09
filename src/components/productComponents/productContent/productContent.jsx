@@ -33,7 +33,7 @@ const productContent = ({ data }) => {
   
   const benefits = data.benefits;
   const cases = data.case_study;
-  // console.log(features, benefits, cases);
+  // //console.log(features, benefits, cases);
   // const { scrollToComponent } = useContext(ScrollproductContext);
   return (
     <div className="productContentContainer">

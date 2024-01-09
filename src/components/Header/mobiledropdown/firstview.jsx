@@ -11,7 +11,7 @@ import ResponsiveServices from "./mobileviewservice";
 // import Button from "../../buttons";
 // import Contact from "../../../pages/contact";
 function Firstview(data){
-    // console.log(data.data[3])
+    // //console.log(data.data[3])
 
  const [issolutions,setsolutions]=useState(false);
  const [isproducts,setproducts]=useState(false)

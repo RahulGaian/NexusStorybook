@@ -9,13 +9,13 @@ import images from "../../../constants/images";
 function Platform(props) {
   const data = props.data;
   const setplatform = props.setplatform;
-  console.log(data);
+  //console.log(data);
   const [data3, setdata3] = useState([]);
-  // console.log(data3)
+  // //console.log(data3)
   const [isdata3, setisdata3] = useState(false);
   // const [visible, setvisible] = useState(true)
 
-  // console.log(data[0].menuItems[0].list[0].article.coverImage)
+  // //console.log(data[0].menuItems[0].list[0].article.coverImage)
   const changeRoute = (Route) => {
     window.location.href = Route;
   };
