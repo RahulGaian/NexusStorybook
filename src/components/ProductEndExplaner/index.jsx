@@ -16,7 +16,7 @@ let ProductExp = ({ heading, content, btn }) => {
             <Button
               text={btn}
               filled={true}
-              url={"/platform/pascal-intelligence"}
+              url={"/contact"}
               className="buttonbottom"
              
             ></Button>
