@@ -38,7 +38,7 @@ let Contact = () => {
     e.preventDefault();
     // Handle form submission logic here
     console.log("Form submitted with data:", formData);
-    // You can add your API call or other submission logic here
+    console.log("Sending form data to server...");    // You can add your API call or other submission logic here
 
     // Close the modal after submission
     closeModal();
