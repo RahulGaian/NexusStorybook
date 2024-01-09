@@ -8,7 +8,7 @@ import images from "../../../constants/images";
 function Company(props) {
   const data = props.data;
   const setcompany=props.setcompany;
-  // console.log(data)
+  // //console.log(data)
   // const [visible, setvisible] = useState(true)
   const [datavisible, setdatavisible] = useState(false)
 

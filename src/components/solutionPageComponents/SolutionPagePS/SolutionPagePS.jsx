@@ -1,7 +1,7 @@
 import "./SolutionPagePS.css";
 
 const SolutionPagePS = ({ problemData }) => {
-  // console.log(problemData);
+  // //console.log(problemData);
   return (
     <div className="psContainer" id="statement">
       <div className="bgimgPS">

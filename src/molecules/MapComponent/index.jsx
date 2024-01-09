@@ -28,7 +28,7 @@ export function Map({setClick,clicked,interaction}) {
 
       // setTimeout(location_finder, 4000);
    
-    // console.log(arr)
+    // //console.log(arr)
     spline.setZoom(30)
     if(isMobile){
       spline.setZoom(2)
@@ -47,7 +47,7 @@ export function Map({setClick,clicked,interaction}) {
       
     function myLoop() {         
       setTimeout(function() {   
-        console.log('hello');   
+        //console.log('hello');   
         if (i < 6) {   
           let app = splineRef.findObjectByName(app_names[i]);
           setTimeout(()=>{
@@ -56,7 +56,7 @@ export function Map({setClick,clicked,interaction}) {
               app.emitEventReverse("mouseDown")
             }
             catch{
-              console.log("something wrong with map")
+              //console.log("something wrong with map")
             }
           },3000)
           i++;             
@@ -64,7 +64,7 @@ export function Map({setClick,clicked,interaction}) {
 
             app.emitEvent("mouseDown")
           }       catch{
-            console.log("something wrong with map")
+            //console.log("something wrong with map")
           }
           myLoop();             
         } 
@@ -77,15 +77,15 @@ export function Map({setClick,clicked,interaction}) {
     
 
   // function onMouseDown(e) {
-  //   console.log('Clicked an object: ', e.target.name);
+  //   //console.log('Clicked an object: ', e.target.name);
   //   let name = e.target.name;
-  //   console.log(name)
+  //   //console.log(name)
   //   if(name != prevApp && prevApp != ""){
   //     let app = splineRef.findObjectByName(prevApp);
-  //     console.log(initialLocation[prevApp],prevApp)
+  //     //console.log(initialLocation[prevApp],prevApp)
   //     app.emitEventReverse("mouseDown")
 
-  //     console.log(app.position)
+  //     //console.log(app.position)
   //   }
   //     if(app_names.includes(name)){
   //         // setClick(true);
@@ -102,7 +102,7 @@ export function Map({setClick,clicked,interaction}) {
         
  
   //       prevApp = name
-  //       console.log(prevApp,"previous app")
+  //       //console.log(prevApp,"previous app")
   //     }
   // }
 
@@ -139,16 +139,16 @@ const Map3dComponent = () => {
 {
   !showLeaflet && 
         <>
-                <div className={Click?style.mainDiv2:style.headDiv}>
+        <div className={Click?style.mainDiv2:style.headDiv}>
             <h1 className={style.heading}>Impact Prediction Dashboard</h1>
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
-              <button className={style.buttons}style={{display:isMobile?"none":"block"}}  onClick={()=>{setShowLeaflet(true)}} >
-                  OPEN OPPORTUNITY CALCULATOR
-              </button>
+          <button className={style.buttons}  onClick={()=>{setShowLeaflet(true)}} >
+              OPEN OPPORTUNITY CALCULATOR
+          </button>
 
-              <Map setClick={setClick} clicked={Click}></Map>
-              <RotatingStars></RotatingStars>
+          <Map setClick={setClick} clicked={Click}></Map>
+          <RotatingStars></RotatingStars>
         </>
 }
 {

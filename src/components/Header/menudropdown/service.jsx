@@ -14,7 +14,7 @@ function Services(props) {
 
   const [cont3,setcont3]=useState(false)
   const [data2, setdata2] = useState(data[0].menuItems[0].list[0].subitems)
-  console.log(data2)
+  //console.log(data2)
   const changeRoute = (Route) => {
     window.location.href = Route;
 

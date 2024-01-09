@@ -14,8 +14,8 @@
   /* margin-top: 5%; */
 }
 
-.buttonbottom{
-  background:"#007CD7" ;
+.buttonbottom {
+  background: "#007CD7";
 }
 
 .pre-con {
@@ -39,12 +39,12 @@
   /* align-items: center; */
   /* justify-content: space-around; */
   border-radius: 30px;
-opacity: 0.9;
-background: #E5F2FB;
-backdrop-filter: blur(72px);
+  opacity: 0.9;
+  background: #e5f2fb;
+  backdrop-filter: blur(72px);
 }
 .pre-con > div {
-    /* border: 2px solid black; */
+  /* border: 2px solid black; */
 
   width: 60%;
   height: 80%;
@@ -57,7 +57,7 @@ backdrop-filter: blur(72px);
 
 .pre-heading {
   /* border: 2px solid red; */
-  color: #007CD7;
+  color: #007cd7;
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -67,25 +67,23 @@ backdrop-filter: blur(72px);
   /* font-family: "DM Sans"; */
   /* margin-bottom: 1.9rem; */
   padding: 0 3%;
-
 }
 
 .pre-content {
-    /* border: 3px solid green; */
+  /* border: 3px solid green; */
 
-    color: #1A1A1A;
-    text-align: center;
-    /* font-family: "DM Sans"; */
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    /* letter-spacing: -0.44px; */
-    padding: 0 3%;
+  color: #1a1a1a;
+  text-align: center;
+  /* font-family: "DM Sans"; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* letter-spacing: -0.44px; */
+  padding: 0 3%;
 }
 
 @media only screen and (max-width: 2600px) and (min-width: 900px) {
-    
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
@@ -121,7 +119,7 @@ backdrop-filter: blur(72px);
 }
 
 @media only screen and (max-width: 980px) and (min-width: 768px) {
-  .pre{
+  .pre {
     margin-bottom: 57px;
   }
   .pre-con {
@@ -134,7 +132,7 @@ backdrop-filter: blur(72px);
   }
 }
 @media only screen and (max-width: 768px) {
-  .pre{
+  .pre {
     margin-bottom: 56px;
   }
   .pre-con > div {
@@ -157,7 +155,7 @@ backdrop-filter: blur(72px);
     /* text-align: start; */
     height: fit-content;
   }
-  .buttonbottom{
+  .buttonbottom {
     font-size: 18px;
   }
 }
@@ -176,13 +174,13 @@ backdrop-filter: blur(72px);
     text-align: center;
     line-height: normal;
   }
-  .pre{
+  .pre {
     margin-bottom: 40px;
     background: none;
   }
   .pre-con {
-    background: #C8C3F6;
+    /* background: #C8C3F6; */
     min-height: 255px !important;
     border-radius: 10px;
-}
+  }
 }

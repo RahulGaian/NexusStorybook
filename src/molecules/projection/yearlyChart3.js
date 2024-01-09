@@ -73,7 +73,7 @@ const ChartComponent6 = ({data}) => {
         data: presentApps,
         width: "100%",
         textStyle: {
-          fontSize: 10,
+          fontSize: 7
         }
       },
       grid: {

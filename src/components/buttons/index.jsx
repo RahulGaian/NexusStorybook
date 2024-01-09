@@ -3,7 +3,7 @@ import  Style  from "./index.module.css"
 
 
 const Button = ({text,style,filled,className="",href,url}) => {
-    // console.log(href)
+    // //console.log(href)
     const changeRoute=(Route)=>{
         window.location.href = Route;
     }

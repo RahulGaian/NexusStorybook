@@ -223,7 +223,7 @@
 //     // renderPlatformMenu();
 //     animationAccordian();
 //     toggleInterval = false;
-//     // //console.log( document.getElementsByClassName('display-icons'));
+//     // ////console.log( document.getElementsByClassName('display-icons'));
 //     var elements = document.getElementsByClassName("display-icons");
 //     for (var i = 0; i < elements.length; i++) {
 //       elements[i].classList.add('display-icon');

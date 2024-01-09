@@ -7,7 +7,7 @@ const Dynamic4Option = ({ data }) => {
 
   const calculateMarginLeft = () => {
     const buttonCount = data.length;
-    console.log(buttonCount);
+    //console.log(buttonCount);
     if (buttonCount === 3) {
       return "80px";
     } else if (buttonCount === 4) {

@@ -9,7 +9,7 @@ import SolutionPageLike from "../../components/solutionPageComponents/SolutionPa
 import SolutionPageSecurity from "../../components/solutionPageComponents/SolutionPageSecurity/SolutionPageSecurity";
 import Blobs from "../../molecules/blobs";
 const SolutionPageIndex = ({ solution }) => {
-  // console.log(solution);
+  // //console.log(solution);
   return (
     <section
       className="solutionContainer"

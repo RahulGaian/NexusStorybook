@@ -9,7 +9,7 @@ import SolutionPageCaseStudy from '../../components/solutionPageComponents/Solut
 import "./platfrom.css"
 
 const PlatfromIndex = ({platform}) => {
-  console.log(platform)
+  //console.log(platform)
   let caseStudy = {imageUrl:"/aidtaasImages/images/imagesnew/Nightingale/N9.png",
               heading:"Case Study: Revolutionizing Marketing Automation with PI-Pascal Intelligence",
               description:"              PI-Pascal Intelligence revolutionized marketing automation by providing clients with the tools to overcome their toughest challenges. With the help of PI-Pascal Intelligence, clients were able to take their marketing strategies to the next level."
