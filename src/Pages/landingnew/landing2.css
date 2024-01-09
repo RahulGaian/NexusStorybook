@@ -193,6 +193,9 @@
   column-gap: 10px;
 }
 
+#learnMoreBtnLanding:hover{
+  cursor: pointer;
+}
 .nexus_rightarrow img {
   color: white !important;
   fill: white;

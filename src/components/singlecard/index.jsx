@@ -22,8 +22,8 @@ let SingleApp2 = ({image,heading,content,Route}) => {
                   </p>
               </div>
               <div className={style.contentbtns}>
-                   <div className={style.prev} onClick={()=>{changeRoute(Route)}}><span><Img className={style.images} src="aidtaasImages/images/images/icons/preview.svg" alt="Preview Icon" /></span><span className={style.names}>Preview</span></div>
-                   <div className={style.prev} onClick={()=>{changeRoute(Route)}}><span><Img className={style.images} src="aidtaasImages/images/images/solutions/External.svg" alt="Preview Icon" /></span><span className={style.names}>Details</span> </div>
+                   <div className={style.prev} onClick={()=>{changeRoute(Route)}}><span><Img className={style.images} src="/aidtaasImages/images/images/icons/preview.svg" alt="Preview Icon" /></span><span className={style.names}>Preview</span></div>
+                   <div className={style.prev} onClick={()=>{changeRoute(Route)}}><span><Img className={style.images} src="/aidtaasImages/images/images/solutions/External.svg" alt="Preview Icon" /></span><span className={style.names}>Details</span> </div>
               </div>
           </div>     
         </article>
