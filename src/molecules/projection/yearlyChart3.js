@@ -74,7 +74,7 @@ const ChartComponent6 = ({data}) => {
           left: 65,
         },
         title: {
-          text: "Yearly Projection",
+          text: "App Revenue",
           bottom: 0,
           left: "center",
           textStyle: {
