@@ -25,10 +25,11 @@ const ChartContainer = styled.div`
     height: 300px;
   }
 `;
-const ChartComponent6 = ({data}) => {
+const ChartComponent3 = ({data}) => {
     let chartRef = useRef();
   
-  const [presentApps,setPresentApps] = useState([])
+  // const [presentApps,setPresentApps] = useState([])
+  let presentApps = []
   const [option,setOption] = useState({})
   useEffect(()=>{
     const getOption = () => {
@@ -56,8 +57,8 @@ const ChartComponent6 = ({data}) => {
             },
             data: app_data,
           });
-          // presentApps.push(i);
-          setPresentApps(prev => [...prev,i])
+          presentApps.push(i);
+          // setPresentApps(prev => [...prev,i])
         }
       }
   
@@ -139,4 +140,4 @@ const ChartComponent6 = ({data}) => {
   );
 };
 
-export default ChartComponent6;
+export default ChartComponent3;
