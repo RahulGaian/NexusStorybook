@@ -1,7 +1,7 @@
 import "./SolutionPageCapabilities.css";
 
 const SolutionPageCapabilities = ({ capabilitiesData }) => {
-  //   console.log(capabilitiesData);
+  //   //console.log(capabilitiesData);
   return (
     <div className="capcontainer" id="capabilities">
       <div className="capContentContainer bgbackCap">

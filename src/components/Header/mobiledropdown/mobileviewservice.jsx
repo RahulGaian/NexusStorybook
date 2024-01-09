@@ -10,8 +10,8 @@ function ResponsiveServices (props){
     
     const data=props.data
     const setData=props.setData
-    console.log(data)
-    // console.log(data.menus[0].items[0].name)
+    //console.log(data)
+    // //console.log(data.menus[0].items[0].name)
     const [data2, setdata2] = useState([]);
     const[data3,setdata3]=useState([]);
     const servicepage =props.servicepage

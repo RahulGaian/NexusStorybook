@@ -11,11 +11,11 @@ const PlatformPage = () => {
 
 
   useEffect(() => {
-    console.log(id);
+    //console.log(id);
     let data = platformData.find((item) => item.id === id);
 
     if (data) {
-      console.log(data);
+      //console.log(data);
       setContent(data);
     }
     else{

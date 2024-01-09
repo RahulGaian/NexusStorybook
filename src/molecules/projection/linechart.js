@@ -25,7 +25,7 @@ const ChartContainer = styled.div`
 `;
 
 const ChartComponent = ({ data }) => {
-  console.log(data.selectedCities);
+  //console.log(data.selectedCities);
     const [selectedDMA, setSelectedDMA] = useState(data[0].DMA);
     const [chartData, setChartData] = useState([]);
   

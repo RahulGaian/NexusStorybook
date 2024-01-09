@@ -11,7 +11,7 @@ function InputCredential() {
   };
 
   const handleSubmit = () => {
-    console.log("Entered Credential:", credential);
+    //console.log("Entered Credential:", credential);
     setCredential("");
   };
   return (

@@ -23,7 +23,7 @@ const FullOppurtunity = () => {
     const [additionalData,setAdditionalData] = useState({})
     const [count,setCount] = useState(initialCount);
  
-    // console.log(selectedApps,selectedStates)
+    // //console.log(selectedApps,selectedStates)
     useEffect(() => {
 
       Cookies.set('count', count.toString(), { expires: 7, path: '/' });

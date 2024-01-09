@@ -25,7 +25,7 @@ app.post('/submit-form', (req, res) => {
   try {
     existingData = JSON.parse(fs.readFileSync('data.json'));
   } catch (error) {
-    console.error('Error reading data.json:', error);
+    //console.error('Error reading data.json:', error);
   }
 
   // Add new form data
@@ -38,5 +38,5 @@ app.post('/submit-form', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  //console.log(`Server is running on http://localhost:${PORT}`);
 });

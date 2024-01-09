@@ -10,11 +10,11 @@ const ProductsPage = () => {
 
 
   useEffect(() => {
-    console.log(id);
+    //console.log(id);
     let data = productsData.find((item) => item.id === id);
 
     if (data) {
-      console.log(data);
+      //console.log(data);
       setContent(data);
 
     }

@@ -12,11 +12,11 @@ const SolutionPage = () => {
 
 
   useEffect(() => {
-    console.log(id);
+    //console.log(id);
     let data = solutionData.find((item) => item.id === id);
 
     if (data) {
-      console.log(data);
+      //console.log(data);
       setContent(data);
     }
     else{

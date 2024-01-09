@@ -19,7 +19,7 @@ function ResponsiveCompany(props) {
   const [data2, setdata2] = useState();
   const [data3, setdata3] = useState([]);
   const [data4, setdata4] = useState();
-  // console.log(data3)
+  // //console.log(data3)
   // const[companypage,setcompanypage]=useState(true);
   const [page2, setpage2] = useState(false);
   const [page3, setpage3] = useState(false);

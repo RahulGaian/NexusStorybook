@@ -14,7 +14,7 @@ function ResponsivePlatform (props){
    const platformpage=props.platformpage
    const setplatformpage=props.setplatformpage
     const [data2,setdata2]=useState()
-    // console.log(data2)
+    // //console.log(data2)
     const [data4,setdata4]=useState([]);
     // const[page1,setpage1]=useState(true);
     const[page2,setpage2]=useState(false);
@@ -63,7 +63,8 @@ function ResponsivePlatform (props){
               <ul className={Style.listitems} 
                        >
                       <div className={Style.content}><li>Public Marketplaces</li></div>
-                      <div className={Style.rightarrow} onClick={()=>{setdata2(data.menuItems[1]);console.log(data.menuItems[1]);setpage2(true);setplatformpage(false)}}><img src={images.RightArrow} alt="rightarrow"/></div>
+                      <div className={Style.rightarrow} onClick={()=>{setdata2(data.menuItems[1]);//console.log(data.menuItems[1]);
+                      setpage2(true);setplatformpage(false)}}><img src={images.RightArrow} alt="rightarrow"/></div>
                   </ul>
                   <ul className={Style.listitems  +" " + Style3.listitems}
                        >
