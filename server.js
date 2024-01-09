@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 // Enable CORS with specific options
 app.use(
   cors({
-    origin: 'http://localhost:3001', // Allow requests from this origin
+    origin: 'http://localhost:3000', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Allow credentials (cookies, headers, etc.)
   })
