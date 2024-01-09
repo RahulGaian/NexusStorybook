@@ -101,6 +101,7 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
             onChange={handleInputChange}
 
           >
+            <option value="Desinger">Select</option>
             <option value="Desinger">Desinger</option>
             <option value="Engineer">Engineer</option>
             <option value="Sales">Sales</option>

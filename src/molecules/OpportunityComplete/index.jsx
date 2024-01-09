@@ -7,7 +7,9 @@ import { useState } from 'react'
 import Cookies from 'js-cookie';
 import { useEffect } from 'react'
 import AdditionCmp from '../AdditionCmp'
+import { useNavigate } from 'react-router-dom'
 const FullOppurtunity = () => {
+  let navigate = useNavigate();
     const [selectedStates,setSelectedStates] = useState( Cookies.get('states') || []);
     const [selectedApps,setSelectedApps] = useState(Cookies.get('apps') ||[]);
 
@@ -37,13 +39,24 @@ const FullOppurtunity = () => {
     <section className={style.leaflet}>
         <section className={style.map}><LeafletCanvasMap stateList={selectedStates} listUpdater={setSelectedStates}></LeafletCanvasMap></section>
         <section> <OpportunityCalc data={selectedStates} listUpdater={setSelectedStates} selectedApps={selectedApps} selectedAppsUpdate={setSelectedApps}></OpportunityCalc></section>
-      {(selectedApps.length >0 && selectedStates.length >0 && count>=0 && count<4)  &&
+      {(selectedApps.length >0 && selectedStates.length >0 && count>=0 && count<3)  &&
 
           <div className={style.inner + " " + style.buttonss}>
              <button className={style.roundButton} onClick={()=>{  setCount(prev => prev+1) }}>Show Projections</button>
              <p> You can generate projections {3-count} times </p>
           </div>
 }
+{
+          count>=3 &&   
+          <>
+          <div className={style.inner + " " + style.buttonss}>
+          <button className={style.roundButton} onClick={()=>{navigate('/contact')}}>Register</button>
+          <p>Register to generate more projections </p>
+
+             </div>
+          </>
+
+        }
         {(count> 0 && count < 4) &&
         <section>
           <Projection selectedApps={selectedApps} selectedCities={selectedStates} count={count} additionalDataSetter={setAdditionalData}></Projection>
@@ -51,17 +64,7 @@ const FullOppurtunity = () => {
         </section>
         }
 
-        {
-          count>=4 &&   
-          <>
-          <div className={style.inner + " " + style.buttonss}>
-          <button className={style.roundButton} onClick={()=>{  setCount(prev => prev+1) }}>Register</button>
-          <p>Register to generate more projections </p>
 
-             </div>
-          </>
-
-        }
         
     </section>
   )
