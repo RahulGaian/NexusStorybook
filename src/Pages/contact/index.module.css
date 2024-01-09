@@ -5,7 +5,7 @@
   padding-top: 100px;
   /* padding-top: 15vh; */
 }
-/* @font-face {
+@font-face {
 
   font-family: 'ITC';
   font-style: normal;
@@ -13,7 +13,7 @@
   src:  url("../../../public/fonts/ITC\ Avant\ Garde\ Gothic\ Medium.otf")
     format("truetype");
 
-} */
+}
 
 * {
   font-family: "ITC" !important;
@@ -218,18 +218,9 @@
 
 @media only screen and (max-width: 2560px) and (min-width: 1800px) {
   #contacthead {
-    /* width: 1700px;
-    height: fit-content;
-    padding-bottom: 40px; */
     padding-left: 0%;
   }
   .botconthead > div > h1 {
-    /* width: 60%;
-    color: #1c1c1c;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 70px;
-    height: fit-content; */
     padding-left: 0% !important;
   }
 
@@ -251,15 +242,7 @@
     padding-left: 0%;
   }
 }
-/* @media only screen and (max-width: 1650px) and (min-width: 1501px) {
-  #contacthead {
-    padding-left: 5%;
-  }
 
-  .botconthead > div > h1 {
-    padding-left: 0%;
-  }
-} */
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   #contacthead {
@@ -351,7 +334,6 @@
   #contacthead > p {
     font-size: 18px;
     line-height: 28px;
-    /* margin-bottom: 2rem; */
   }
 
   .botconthead > div > h1 {
