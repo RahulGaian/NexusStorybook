@@ -177,7 +177,7 @@ let AppSwiper = ({ data }) => {
                 image={"/aidtaasImages/images/images/solutions/dig.png"}
                 heading={"ImpressIO"}
                 content={`ImpressIO, powered by Nexus Connect, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.`}
-                Route={"/products/DSaaS"}
+                Route={"/products/ImpressIO"}
               ></SingleApp2>
             </SwiperSlide>
 

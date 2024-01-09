@@ -81,7 +81,10 @@ const LeafletCanvasMap = ({ stateList, listUpdater }) => {
             let cityname = hashmap[name2][0].split(",")[0];
             // //console.log(cityname)
             map.addLayer(hashmap[name2][1]);
+          if(!stateList.includes(cityname)){
+
             listUpdater((prevArr) => [...prevArr, cityname]);
+          }
           });
       }
     });
