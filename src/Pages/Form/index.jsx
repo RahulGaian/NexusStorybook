@@ -7,10 +7,11 @@ const ModalForm = ({ isOpen, closeModal, handleSubmit, handleInputChange, formDa
   return (
     <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="Example Modal" className={st.modalFormStyle}>
       <div className={st.modalContainer}>
-        {/* <h2> please Form</h2> */}
+        <h2> Great Oppurnities Awaits You</h2>
         <form onSubmit={handleSubmit}>
           <label>
-            Name:
+            Full Name:
+            {/* <p className={st.texts}>Name:</p> */}
             <input
               type="text"
               name="name"
@@ -22,6 +23,7 @@ const ModalForm = ({ isOpen, closeModal, handleSubmit, handleInputChange, formDa
           <br />
           <label>
             Email:
+          {/* <p className={st.texts}>Email:</p> */}
             <input
               type="email"
               name="email"
@@ -33,6 +35,7 @@ const ModalForm = ({ isOpen, closeModal, handleSubmit, handleInputChange, formDa
           <br />
           <label>
             Phone Number:
+          {/* <p className={st.texts}>Phone Number:</p> */}
             <input
               type="tel"
               name="phoneNumber"
@@ -43,7 +46,7 @@ const ModalForm = ({ isOpen, closeModal, handleSubmit, handleInputChange, formDa
           </label>
           <br />
           <button type="submit" className={st.submitButton}>
-            Submit
+            Apply Now
           </button>
         </form>
       </div>
