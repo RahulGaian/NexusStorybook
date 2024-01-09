@@ -1036,7 +1036,7 @@ const Projection = ({selectedCities,selectedApps,count,additionalDataSetter}) =>
     <div className={st.container}>
       <div className={st.contentContainer}>
         <div className={st.topCont}>
-          <span id={st.head}>Projection over the next 5 years</span>
+          <span id={st.head}>Projection over the next 10 years</span>
           <Img src="./Images/ArrowRight.png" />
         </div>
         <div className={st.mainCont}>

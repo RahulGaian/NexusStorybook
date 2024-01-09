@@ -143,7 +143,7 @@ const Map3dComponent = () => {
             <h1 className={style.heading}>Impact Prediction Dashboard</h1>
             <p className={style.subHeading}>Scaling Deep, Social Entrepreneurship & Bricolage innovation</p>
         </div>
-          <button className={style.buttons}style={{display:isMobile?"none":"block"}}  onClick={()=>{setShowLeaflet(true)}} >
+          <button className={style.buttons}  onClick={()=>{setShowLeaflet(true)}} >
               OPEN OPPORTUNITY CALCULATOR
           </button>
 

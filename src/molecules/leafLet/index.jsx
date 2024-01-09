@@ -36,9 +36,7 @@ const LeafletCanvasMap = ({ stateList, listUpdater }) => {
       // maxZoom:isSmallLaptop?3:isMobile?2:5
     });
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "© OpenStreetMap contributors",
-    }).addTo(map);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{ attributionControl:false }).addTo(map);
 
     let givenLocations = [
       "New York",
