@@ -93,7 +93,7 @@ const jsonData =[
     "FIXED_cLINK": 550859.168925
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "cLINK",
     "DMA Annual City Budget": 6938786440,
     "Percentage Allocated to 311 communication": 0.00085,
@@ -507,7 +507,7 @@ const jsonData =[
     "FIXED_cLINK": 96144.18769106427
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "cLINK",
     "DMA Annual City Budget": 964330135,
     "Percentage Allocated to 311 communication": 0.00085,
@@ -1312,7 +1312,7 @@ const jsonData =[
     "FIXED_cLINK": 17776.51816805482
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "cLINK",
     "DMA Annual City Budget": 629668295,
     "Percentage Allocated to 311 communication": 0.00085,
@@ -1772,7 +1772,7 @@ const jsonData =[
     "FIXED_cLINK": 70156.59226875
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "cLINK",
     "DMA Annual City Budget": 1000263532,
     "Percentage Allocated to 311 communication": 0.00085,
@@ -2347,7 +2347,7 @@ const jsonData =[
     "FIXED_cLINK": 98940.64026820863
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "cLINK",
     "DMA Annual City Budget": 721449000,
     "Percentage Allocated to 311 communication": 0.00085,
@@ -2531,7 +2531,7 @@ const jsonData =[
     "FIXED_cLINK": 18675.14751441232
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "cLINK",
     "DMA Annual City Budget": 2002900000,
     "Percentage Allocated to 311 communication": 0.00085,
@@ -3612,7 +3612,7 @@ const jsonData =[
     "FIXED_GoFEMA": 145330.6599881992
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "GoFEMA",
     "DMA Annual City Budget": 338082524,
     "% of funds used for communication": 0.025,
@@ -4029,7 +4029,7 @@ const jsonData =[
     "FIXED_GoFEMA": 437967.24573418545
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "GoFEMA",
     "DMA Annual City Budget": 138380970.3,
     "% of funds used for communication": 0.025,
@@ -4834,7 +4834,7 @@ const jsonData =[
     "FIXED_GoFEMA": 290661.3199763984
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "GoFEMA",
     "DMA Annual City Budget": 148171616.8,
     "% of funds used for communication": 0.025,
@@ -5294,7 +5294,7 @@ const jsonData =[
     "FIXED_GoFEMA": 686847.5643040391
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "GoFEMA",
     "DMA Annual City Budget": 52051312.67,
     "% of funds used for communication": 0.025,
@@ -5869,7 +5869,7 @@ const jsonData =[
     "FIXED_GoFEMA": 194258.09372378903
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "GoFEMA",
     "DMA Annual City Budget": 138380970.3,
     "% of funds used for communication": 0.025,
@@ -6053,7 +6053,7 @@ const jsonData =[
     "FIXED_GoFEMA": 68227.07964229099
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "GoFEMA",
     "DMA Annual City Budget": 676165047.7,
     "% of funds used for communication": 0.025,
@@ -7154,7 +7154,7 @@ const jsonData =[
     "FIXED_AmplyFund": 3887560.1700000004
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "AmplyFund",
     "No of Households": 3041540,
     "% No of Smart Households": 0.45,
@@ -7658,7 +7658,7 @@ const jsonData =[
     "FIXED_AmplyFund": 1617315.8624999998
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "AmplyFund",
     "No of Households": 1289510,
     "% No of Smart Households": 0.45,
@@ -8638,7 +8638,7 @@ const jsonData =[
     "FIXED_AmplyFund": 738245.7956249999
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "AmplyFund",
     "No of Households": 588650,
     "% No of Smart Households": 0.45,
@@ -9198,7 +9198,7 @@ const jsonData =[
     "FIXED_AmplyFund": 542927.4581250001
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "AmplyFund",
     "No of Households": 429130,
     "% No of Smart Households": 0.45,
@@ -9898,7 +9898,7 @@ const jsonData =[
     "FIXED_AmplyFund": 383809.28625
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "AmplyFund",
     "No of Households": 305320,
     "% No of Smart Households": 0.45,
@@ -10122,7 +10122,7 @@ const jsonData =[
     "FIXED_AmplyFund": 353998.85625000007
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "AmplyFund",
     "No of Households": 282090,
     "% No of Smart Households": 0.45,
@@ -11414,7 +11414,7 @@ const jsonData =[
     "FIXED_LiveWeather": 145330.66003942624
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Live Weather",
     "Average Fund": 8452063.1,
     "% of funds used": 0.01,
@@ -11638,7 +11638,7 @@ const jsonData =[
     "METERED_ImpressIO": 2517605.533125
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "ImpressIO",
     "Grand Total": 44114,
     "% Capture for Nexus": 0.01,
@@ -11857,7 +11857,7 @@ const jsonData =[
     "AD_ImpressIO": 1283978.8218937498
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "ImpressIO",
     "Grand Total": 44114,
     "% Capture for Nexus": 0.01,
@@ -12125,7 +12125,7 @@ const jsonData =[
     "SUBSCRIPTION_Museo": 17276048.256699
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Museo",
     "No of Households": 3041540,
     "% No of Smart Households": 0.45,
@@ -12629,7 +12629,7 @@ const jsonData =[
     "SUBSCRIPTION_Museo": 7187239.724928748
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Museo",
     "No of Households": 1289510,
     "% No of Smart Households": 0.45,
@@ -13609,7 +13609,7 @@ const jsonData =[
     "SUBSCRIPTION_Museo": 3280713.2064331872
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Museo",
     "No of Households": 588650,
     "% No of Smart Households": 0.45,
@@ -14169,7 +14169,7 @@ const jsonData =[
     "SUBSCRIPTION_Museo": 2412732.036621938
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Museo",
     "No of Households": 429130,
     "% No of Smart Households": 0.45,
@@ -14869,7 +14869,7 @@ const jsonData =[
     "SUBSCRIPTION_Museo": 1705621.8966828743
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Museo",
     "No of Households": 305320,
     "% No of Smart Households": 0.45,
@@ -15093,7 +15093,7 @@ const jsonData =[
     "SUBSCRIPTION_Museo": 1573146.4095618748
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Museo",
     "No of Households": 282090,
     "% No of Smart Households": 0.45,
@@ -16393,7 +16393,7 @@ const jsonData =[
     "FIXED_Aegis": 7961167.5
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 1072261852,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -16825,7 +16825,7 @@ const jsonData =[
     "FIXED_Aegis": 1565578.696721325
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 240610298,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -17665,7 +17665,7 @@ const jsonData =[
     "FIXED_Aegis": 257812.298804775
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 176500000,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -18145,7 +18145,7 @@ const jsonData =[
     "FIXED_Aegis": 454580.8270574999
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 206418650,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -18745,7 +18745,7 @@ const jsonData =[
     "FIXED_Aegis": 919388.48414985
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 313900000,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -18937,7 +18937,7 @@ const jsonData =[
     "FIXED_Aegis": 377169.06759675004
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 125290000,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -20073,7 +20073,7 @@ const jsonData =[
     "METERED_Aegis": 1194175.1249999998
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 1072261852,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -20541,7 +20541,7 @@ const jsonData =[
     "METERED_Aegis": 234836.80450819887
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 240610298,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -21451,7 +21451,7 @@ const jsonData =[
     "METERED_Aegis": 38671.844820716244
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 176500000,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -21971,7 +21971,7 @@ const jsonData =[
     "METERED_Aegis": 68187.12405862499
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 206418650,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -22621,7 +22621,7 @@ const jsonData =[
     "METERED_Aegis": 137908.27262247753
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 313900000,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -22829,7 +22829,7 @@ const jsonData =[
     "METERED_Aegis": 56575.36013951249
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Aegis",
     "DMA Annual City Budget": 125290000,
     "% DMA Annual Police Budget for communication": 0.05,
@@ -24060,7 +24060,7 @@ const jsonData =[
     "AD_Around": 1558493.1063985333
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Around",
     "No of Households": 3041540,
     "% No of Smart Households": 0.45,
@@ -24564,7 +24564,7 @@ const jsonData =[
     "AD_Around": 648369.5460269231
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Around",
     "No of Households": 1289510,
     "% No of Smart Households": 0.45,
@@ -25544,7 +25544,7 @@ const jsonData =[
     "AD_Around": 295957.0869636889
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Around",
     "No of Households": 588650,
     "% No of Smart Households": 0.45,
@@ -26104,7 +26104,7 @@ const jsonData =[
     "AD_Around": 217655.46094744836
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Around",
     "No of Households": 429130,
     "% No of Smart Households": 0.45,
@@ -26804,7 +26804,7 @@ const jsonData =[
     "AD_Around": 153866.20415764945
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Around",
     "No of Households": 305320,
     "% No of Smart Households": 0.45,
@@ -27028,7 +27028,7 @@ const jsonData =[
     "AD_Around": 141915.43101919122
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Around",
     "No of Households": 282090,
     "% No of Smart Households": 0.45,
@@ -28420,7 +28420,7 @@ const jsonData =[
     "SUBSCRIPTION_Around": 805999.3771585498
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Around",
     "No of Households": 3041540,
     "% No of Smart Households": 0.45,
@@ -28888,7 +28888,7 @@ const jsonData =[
     "SUBSCRIPTION_Around": 335314.57285293745
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Around",
     "No of Households": 1289510,
     "% No of Smart Households": 0.45,
@@ -29798,7 +29798,7 @@ const jsonData =[
     "SUBSCRIPTION_Around": 153058.89180968443
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Around",
     "No of Households": 588650,
     "% No of Smart Households": 0.45,
@@ -30318,7 +30318,7 @@ const jsonData =[
     "SUBSCRIPTION_Around": 112563.96658962186
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Around",
     "No of Households": 429130,
     "% No of Smart Households": 0.45,
@@ -30968,7 +30968,7 @@ const jsonData =[
     "SUBSCRIPTION_Around": 79574.34281079377
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Around",
     "No of Households": 305320,
     "% No of Smart Households": 0.45,
@@ -31176,7 +31176,7 @@ const jsonData =[
     "SUBSCRIPTION_Around": 73393.81133034376
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Around",
     "No of Households": 282090,
     "% No of Smart Households": 0.45,
@@ -32476,7 +32476,7 @@ const jsonData =[
     "SUBSCRIPTION_Hear": 490400.763291
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Hear,here",
     "No of Households": 3041540,
     "% No of Smart Households": 0.45,
@@ -32944,7 +32944,7 @@ const jsonData =[
     "SUBSCRIPTION_Hear": 204018.17560875003
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Hear,here",
     "No of Households": 1289510,
     "% No of Smart Households": 0.45,
@@ -33854,7 +33854,7 @@ const jsonData =[
     "SUBSCRIPTION_Hear": 93126.86771118751
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Hear,here",
     "No of Households": 588650,
     "% No of Smart Households": 0.45,
@@ -34374,7 +34374,7 @@ const jsonData =[
     "SUBSCRIPTION_Hear": 68488.2106599375
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Hear,here",
     "No of Households": 429130,
     "% No of Smart Households": 0.45,
@@ -35024,7 +35024,7 @@ const jsonData =[
     "SUBSCRIPTION_Hear": 48416.065270875
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Hear,here",
     "No of Households": 305320,
     "% No of Smart Households": 0.45,
@@ -35232,7 +35232,7 @@ const jsonData =[
     "SUBSCRIPTION_Hear": 44655.594181875
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Hear,here",
     "No of Households": 282090,
     "% No of Smart Households": 0.45,
@@ -36538,7 +36538,7 @@ const jsonData =[
     "AD_Reve": 14271979.146806162
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 6843465,
     "Assuming 5 Devices": 5,
@@ -36830,7 +36830,7 @@ const jsonData =[
     "FIXED_Izak": 110306713.90227655
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Izak",
     "Total Smart Devices": 7285114.017,
     "Rate Card ( in $ per GB)": 0.02,
@@ -37226,7 +37226,7 @@ const jsonData =[
     "FIXED_Izak": 45873335.99214737
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Izak",
     "Total Smart Devices": 3101259.121,
     "Rate Card ( in $ per GB)": 0.02,
@@ -37996,7 +37996,7 @@ const jsonData =[
     "FIXED_Izak": 21498890.580388166
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Izak",
     "Total Smart Devices": 1459002.839,
     "Rate Card ( in $ per GB)": 0.02,
@@ -38436,7 +38436,7 @@ const jsonData =[
     "FIXED_Izak": 15709796.639184207
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Izak",
     "Total Smart Devices": 1036069.954,
     "Rate Card ( in $ per GB)": 0.02,
@@ -38986,7 +38986,7 @@ const jsonData =[
     "FIXED_Izak": 11341246.983001528
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Izak",
     "Total Smart Devices": 757188.4939,
     "Rate Card ( in $ per GB)": 0.02,
@@ -39162,7 +39162,7 @@ const jsonData =[
     "FIXED_Izak": 10693083.447554901
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Izak",
     "Total Smart Devices": 712861.0057,
     "Rate Card ( in $ per GB)": 0.02,
@@ -40204,7 +40204,7 @@ const jsonData =[
     "METERED_Izak": 16546007.08534148
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Izak",
     "Total Smart Devices": 7285114.017,
     "Rate Card ( in $ per GB)": 0.02,
@@ -40636,7 +40636,7 @@ const jsonData =[
     "METERED_Izak": 6881000.398822105
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Izak",
     "Total Smart Devices": 3101259.121,
     "Rate Card ( in $ per GB)": 0.02,
@@ -41476,7 +41476,7 @@ const jsonData =[
     "METERED_Izak": 3224833.5870582247
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Izak",
     "Total Smart Devices": 1459002.839,
     "Rate Card ( in $ per GB)": 0.02,
@@ -41956,7 +41956,7 @@ const jsonData =[
     "METERED_Izak": 2356469.495877631
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Izak",
     "Total Smart Devices": 1036069.954,
     "Rate Card ( in $ per GB)": 0.02,
@@ -42556,7 +42556,7 @@ const jsonData =[
     "METERED_Izak": 1701187.0474502293
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Izak",
     "Total Smart Devices": 757188.4939,
     "Rate Card ( in $ per GB)": 0.02,
@@ -42748,7 +42748,7 @@ const jsonData =[
     "METERED_Izak": 1603962.5171332352
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Izak",
     "Total Smart Devices": 712861.0057,
     "Rate Card ( in $ per GB)": 0.02,
@@ -43888,7 +43888,7 @@ const jsonData =[
     "SUBSCRIPTION_Izak": 2174233807.1028957
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Izak",
     "Total Households": 1387789.234,
     "Total Smart Devices": 7285114.017,
@@ -44374,7 +44374,7 @@ const jsonData =[
     "SUBSCRIPTION_Izak": 904530321.0068253
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Izak",
     "Total Households": 588388.274,
     "Total Smart Devices": 3101259.121,
@@ -45319,7 +45319,7 @@ const jsonData =[
     "SUBSCRIPTION_Izak": 412943063.82190585
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Izak",
     "Total Households": 268637.3894,
     "Total Smart Devices": 1459002.839,
@@ -45859,7 +45859,7 @@ const jsonData =[
     "SUBSCRIPTION_Izak": 303679887.38882047
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Izak",
     "Total Households": 195810.9974,
     "Total Smart Devices": 1036069.954,
@@ -46534,7 +46534,7 @@ const jsonData =[
     "SUBSCRIPTION_Izak": 214703458.17666525
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Izak",
     "Total Households": 139336.8283,
     "Total Smart Devices": 757188.4939,
@@ -46750,7 +46750,7 @@ const jsonData =[
     "SUBSCRIPTION_Izak": 198051553.2136777
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Izak",
     "Total Households": 128748.7925,
     "Total Smart Devices": 712861.0057,
@@ -48019,7 +48019,7 @@ const jsonData =[
     "AD_Izak": 564291710.6683698
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Izak",
     "Total Households": 1387789.234,
     "Total Smart Devices": 7285114.017,
@@ -48505,7 +48505,7 @@ const jsonData =[
     "AD_Izak": 234672417.70983002
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Izak",
     "Total Households": 588388.274,
     "Total Smart Devices": 3101259.121,
@@ -49450,7 +49450,7 @@ const jsonData =[
     "AD_Izak": 109981027.57214823
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Izak",
     "Total Households": 268637.3894,
     "Total Smart Devices": 1459002.839,
@@ -49990,7 +49990,7 @@ const jsonData =[
     "AD_Izak": 80365987.76418188
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Izak",
     "Total Households": 195810.9974,
     "Total Smart Devices": 1036069.954,
@@ -50665,7 +50665,7 @@ const jsonData =[
     "AD_Izak": 58017970.3913593
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Izak",
     "Total Households": 139336.8283,
     "Total Smart Devices": 757188.4939,
@@ -50881,7 +50881,7 @@ const jsonData =[
     "AD_Izak": 54702185.7281151
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Izak",
     "Total Households": 128748.7925,
     "Total Smart Devices": 712861.0057,
@@ -52178,7 +52178,7 @@ const jsonData =[
     "AD_Reve": 14271979.146806162
   },
   {
-    "DMA": "Dallas-Fort Worth",
+    "DMA": "Dallas-Ft. Worth",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 6843465,
     "Assuming 5 Devices": 5,
@@ -52790,7 +52790,7 @@ const jsonData =[
     "AD_Reve": 5937476.785960287
   },
   {
-    "DMA": "Raleigh-Durham-Fayetteville",
+    "DMA": "Raleigh-Durham (Fayetteville)",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 2901397.5,
     "Assuming 5 Devices": 5,
@@ -53980,7 +53980,7 @@ const jsonData =[
     "AD_Reve": 2710241.9357221993
   },
   {
-    "DMA": "Mobile-Pensacola-Fort Walton Beach",
+    "DMA": "AL-Pensacola (Ft. Walton Beach)",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 1324462.5,
     "Assuming 5 Devices": 5,
@@ -54660,7 +54660,7 @@ const jsonData =[
     "AD_Reve": 1993190.8502366603
   },
   {
-    "DMA": "Portland-Auburn",
+    "DMA": "Portland",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 965542.5,
     "Assuming 5 Devices": 5,
@@ -55510,7 +55510,7 @@ const jsonData =[
     "AD_Reve": 1409037.5171506496
   },
   {
-    "DMA": "Greenville-New Bern-Washington",
+    "DMA": "Washington",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 686970,
     "Assuming 5 Devices": 5,
@@ -55782,7 +55782,7 @@ const jsonData =[
     "AD_Reve": 1299597.7099933173
   },
   {
-    "DMA": "Tyler-Longview-Lufkin-Nacogdoches",
+    "DMA": "Tyler-Longview(Lufkin & Nacogdoches)",
     "PlatformName": "Reve(e)",
     "Total Smart Devices": 634702.5,
     "Assuming 5 Devices": 5,
