@@ -2,7 +2,7 @@ import "./index.css";
 import Button from "../buttons";
 let ProductExp = ({ heading, content, btn }) => {
   return (
-    <section className="pre">
+    <section className="pre" id="products">
       <div className="pre-con">
         <div>
           <div>
