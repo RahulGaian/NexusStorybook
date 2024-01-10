@@ -10,7 +10,7 @@ import "./responsiveBenefits.css"
 // import ProductExp from '../../ProductEndExplaner'
 const Benefits = ({ benefitsData }) => {
   return (
-    <div>
+    <div id='ben'>
       <section className='benefitsContainer '>
         {/* <div className='decoratorb-1'></div>
         <div className='decoratorb-2'></div> */}
