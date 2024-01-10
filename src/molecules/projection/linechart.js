@@ -3,16 +3,16 @@ import ReactECharts from 'echarts-for-react';
 import styled from 'styled-components';
 
 const ChartContainer = styled.div`
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
 
   @media screen and (max-width: 1800px) {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
   }
   @media screen and (max-width: 1500px) {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
   }
   @media screen and (max-width: 1250px) {
     width: 210px;
