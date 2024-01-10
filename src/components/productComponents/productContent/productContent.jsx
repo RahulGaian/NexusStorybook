@@ -79,6 +79,7 @@ const productContent = ({ data }) => {
                 </div>
                 <img src={data.banner.viewDemoUrl} alt="mid_image" />
               </div>
+              
               <Features featureData={features} />
               <br />
               <Benefits benefitsData={benefits}></Benefits>

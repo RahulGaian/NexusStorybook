@@ -3,7 +3,7 @@ import "./SolutionPageCaseStudy.css";
 const SolutionPageCaseStudy = ({ caseStudyData }) => {
     // //console.log(caseStudyData);
     return (
-      <div className="caseStudyContainerCS">
+      <div className="caseStudyContainerCS" id="desc">
         <div className="bgcolorCS">
           <div className="caseStudyContentContainerCS">
             <div className="leftdiv">

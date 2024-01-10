@@ -12,7 +12,7 @@ import "./responsiveFeatures.css"
 const Features = ({ incld, heading, subheading, description, featureData, appDescription, casestudy }) => {
    let caseStudyMp = casestudy;
    return (
-      <div className='featureContainer'>
+      <div className='featureContainer' id='feat'>
          {/* <div className='decorator-1'></div> */}
          {/* <div className='decorator-2'></div> */}
          {/* <div className='decorator-3'></div> */}
