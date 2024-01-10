@@ -358,9 +358,9 @@ let ImpressIOCaseStudy =
 let ImpressIOBenefits1 =
   "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg";
 let ImpressIOBenefits2 =
-  "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg";
+  "/aidtaasImages/images/imagesnew/products/dbaas_benefits2.svg";
 let ImpressIOBenefits3 =
-  "/aidtaasImages/images/imagesnew/products/dbaas_benefits1.svg";
+  "/aidtaasImages/images/imagesnew/products/dbaas_benefits3.svg";
 
 let Banner_311 = "/aidtaasImages/images/imagesnew/products/banner_311.png";
 let Feature1_311 = "/aidtaasImages/images/imagesnew/products/features1_311.png";

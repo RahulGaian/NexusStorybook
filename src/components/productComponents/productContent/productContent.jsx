@@ -30,7 +30,7 @@ const productContent = ({ data }) => {
   };
 
   const features = data.features;
-  
+
   const benefits = data.benefits;
   const cases = data.case_study;
   // //console.log(features, benefits, cases);
@@ -41,7 +41,7 @@ const productContent = ({ data }) => {
         <div id="bg_pink_color_2">
           <div id="bg_pink_color_1">
             <div id="bg_blue_color_2">
-            <div className="productContentBanner">
+              <div className="productContentBanner">
                 <div className="productContentSubBanner">
                   <span className="global_paragraph">
                     {" "}
@@ -84,7 +84,9 @@ const productContent = ({ data }) => {
               <Benefits benefitsData={benefits}></Benefits>
               <br />
               <br />
-              <SolutionPageCaseStudy caseStudyData={cases}></SolutionPageCaseStudy>   
+              <SolutionPageCaseStudy
+                caseStudyData={cases}
+              ></SolutionPageCaseStudy>
               <AppSwiper />
 
               <ProductExp
