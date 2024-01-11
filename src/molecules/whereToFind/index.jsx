@@ -5,11 +5,11 @@ const WhereToFind = () => {
     <div className={style.main}>
       <div className={style.internal}>
         <h1 className={style.heading}>
-          Sign up to receive exclusive CES insights
+          Sign up to receive exclusive NexusConnect Insights
         </h1>
         <h1 className={style.subheading}>
-          Get updates on the future of ambient computing and AI directly in your
-          inbox
+          Get updates on the bleeding edge of broadcast technology, digital
+          transformation and bricolage directly in your inbox
         </h1>
         <div className={style.inputs}>
           <input type="email" className={style.input1} placeholder="Email" />
@@ -37,7 +37,7 @@ const WhereToFind = () => {
             value="Bike"
           />
           <label for="check" className={style.checkdesc}>
-            Yes, I’d like to sign-up to receive updates from Amazon Alexa about
+            Yes, I’d like to sign-up to receive updates from NexusConnect about
             new products and related services.
           </label>
         </div>

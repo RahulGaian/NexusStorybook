@@ -25,7 +25,7 @@ function CesPage() {
           <WhereToFind />
         </div>
       </section>
-      {/* <section>
+      <section>
         <HeadAndText data={secondHeadingData.secondHeading2} />
       </section>
       <section>
@@ -33,7 +33,7 @@ function CesPage() {
       </section>
       <section>
         <StartBuilding />
-      </section> */}
+      </section>
       <br />
       <br />
       <br />

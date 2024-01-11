@@ -3,33 +3,34 @@ export const communitiesData = {
   community1: [
     {
       imagesrc: "/Images/amzCommunities/Ring_1.png.png",
-      nameText: "Alexa",
-      texts: "Join our community & build intuitive experiences.",
+      nameText: "NexusConnect",
+      texts:
+        "The Marketplace for all things NextGen. Build and deploy apps over the Broadcast Internet.",
     },
     {
       imagesrc: "/Images/amzCommunities/Ads1.png.png",
-      nameText: "Ads",
-      texts: "Learn how builders design to delight customers.",
+      nameText: "Museo",
+      texts: "The Art Marketplace",
     },
     {
       imagesrc: "/Images/amzCommunities/AWS_1.png.png",
-      nameText: "AWS",
-      texts: "Connect on LI and learn what's new with AWS.",
+      nameText: "First Responder Alerting",
+      texts: "Some product text, hopefully not boring",
     },
     {
       imagesrc: "/Images/amzCommunities/SmartVehicles.png.png",
-      nameText: "Automative",
-      texts: "Connect with automakers to see Alexa on the go.",
+      nameText: "National Weather",
+      texts: "Some product text, hopefully not boring......",
     },
     {
       imagesrc: "/Images/amzCommunities/FireTV_2.png.png",
-      nameText: "Fire TV",
-      texts: "Whatever you're into, it's on Fire TV. Join us.",
+      nameText: "Non Emergency Services",
+      texts: "Some product text, hopefully not boring......",
     },
     {
       imagesrc: "/Images/amzCommunities/Ring_1.png.png",
-      nameText: "Ring",
-      texts: "Never miss a moment. @Ring to share your stories.",
+      nameText: "Phygital",
+      texts: "Some product text, hopefully not boring......",
     },
   ],
 };

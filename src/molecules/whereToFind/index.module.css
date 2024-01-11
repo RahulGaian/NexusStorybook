@@ -10,6 +10,12 @@
   );
 }
 
+.internal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .heading {
   color: #4c4c4c;
   font-family: "ITC";
