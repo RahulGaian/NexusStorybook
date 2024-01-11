@@ -20,13 +20,15 @@ function MapComponent() {
         iconSize: [32, 32], 
         iconAnchor: [16, 32], 
       });
-      L.marker([36.7783, -119.4179], { icon: customIcon }).addTo(map)
+
+    // Lat long for US :-  33.52795416562918, -117.76981372884481
+      L.marker([33.52795416562918, -117.76981372884481], { icon: customIcon }).addTo(map)
         .bindPopup('Laguna Beach, California');
   
         L.marker([17.441738, 78.361590], { icon: customIcon }).addTo(map)
         .bindPopup('Hyderabad');
-  
-        L.marker([1.3521,103.8198], { icon: customIcon }).addTo(map)
+   // Lat long Singapore :- 1.4353657128311017, 103.80325607558518
+        L.marker([1.4353657128311017, 103.80325607558518], { icon: customIcon }).addTo(map)
         .bindPopup('Singapore');
 
         // Repeat the map marker focus in a loop
@@ -41,7 +43,7 @@ function MapComponent() {
         setInterval(() => {
           map.setView([locations[index].lat, locations[index].lng], 10);
           index = (index + 1) % locations.length;
-        }, 2000); // Change view every 2 seconds
+        }, 5000); // Change view every 5 seconds
 
     // 
   
