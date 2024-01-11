@@ -28,7 +28,7 @@
 }
 
 .Joinus {
-  color: #007CD7 !important;
+  color: #007cd7 !important;
   font-family: DM Sans;
   font-size: 64px !important;
   font-style: normal;
@@ -50,7 +50,7 @@
 
 .openingsbutton {
   margin-top: 30px;
-  background-color: #FFA200;
+  background-color: #ffa200;
   color: #ffffff;
   font-size: 22px;
   font-weight: 500;
@@ -223,11 +223,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    background-color: #ad00a2;
-
+    /* background-color: #ad00a2; */
     padding: 10px 20px;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     height: 48px !important;
     letter-spacing: 0.02em;
     cursor: pointer;
@@ -239,6 +238,6 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 0px; 
+    line-height: 0px;
   }
 }

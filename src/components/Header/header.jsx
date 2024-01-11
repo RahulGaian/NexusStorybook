@@ -12,7 +12,7 @@ import Firstview from "./mobiledropdown/firstview";
 import images from "../../constants/images";
 import Services from "./menudropdown/service";
 import Img from "../Image";
-import { useLocation   } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 // import Contact from '../../pages/contact';
 // import MobiusLogo from '../images/brand-logo.svg'
 // import Arrow from '../images/icons/loginarrow.png'
@@ -41,7 +41,8 @@ function Header() {
                         description:
                           "With Smart City as a Service, you can leverage the power of Nexus Connect to unlock the full potential of your city's infrastructure and resources, creating a thriving ecosystem that drives innovation and growth. ",
                         url: "/solutions/smart-city-as-a-service",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/smart.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/smart.jpg",
                       },
                     },
                     {
@@ -51,7 +52,8 @@ function Header() {
                         description:
                           "By facilitating real-time communication and data-driven decision-making, Mobius Citizen Engagement Services empower local governments and NexGen TV broadcasters to drive positive change and foster thriving communities.",
                         url: "/solutions/citizen-engagement",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/citizen.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/citizen.jpg",
                       },
                     },
                   ],
@@ -78,7 +80,8 @@ function Header() {
                         description:
                           "Nexus Connect's private 5G network implementation empowers businesses to drive innovation and create value. With low-code tools, businesses can build apps for a 5G marketplace that offers connectivity as a service, enabling growth, remote monitoring, tracking, and safety. Mobius enables collaboration and value creation for stakeholders. ",
                         url: "/solutions/5g-network-orchestration",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
                       },
                     },
                     {
@@ -88,7 +91,8 @@ function Header() {
                         description:
                           "Transform your business with Nexus Connect-powered Private 5G Network solutions. Our low-code platform enables rapid development and deployment of custom applications, and our automated network tools reduce costs and enhance efficiency. Experience the full potential of 5G technology with our smart connectivity solutions. ",
                         url: "/solutions/private-5G",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
                       },
                     },
                     {
@@ -98,7 +102,8 @@ function Header() {
                         description:
                           "Mobius 5G Marketplace Solution is a collaborative ecosystem that enables businesses to leverage 5G technology and smart infrastructure for innovation and growth. ",
                         url: "/comingsoon",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/5g.jpg",
                       },
                     },
                   ],
@@ -125,7 +130,8 @@ function Header() {
                         description:
                           "Empowering NextGen TV broadcasters with Mobius' low-code platform to create immersive viewing experiences. Deploy applications and services faster than ever before, creating new value and driving innovation across the industry. Stay ahead of the competition with Mobius. ",
                         url: "/solutions/NextGen-TV",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/1.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/1.jpg",
                       },
                     },
                     {
@@ -135,7 +141,8 @@ function Header() {
                         description:
                           "Our OTT Platform Solution provides a scalable, personalized, and comprehensive video streaming infrastructure that allows content owners to monetize their content efficiently while providing viewers with an immersive viewing experience.",
                         url: "/comingsoon",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/ott.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/ott.jpg",
                       },
                     },
                   ],
@@ -162,7 +169,8 @@ function Header() {
                         description:
                           "Antara is a platform that empowers you to unlock the power of your inner spirit towards true happiness. With a focus on the human spirit, Antara leverages advanced human-computer interaction and multimodal interfaces to provide a highly personalized and engaging user experience. With the integration of Vedanta as an additional school of wisdom, Antara offers users a deep understanding of the nature of reality and the purpose of existence",
                         url: "/solutions/antara-solutions",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                   ],
@@ -189,7 +197,8 @@ function Header() {
                         description:
                           "OpsMax is a powerful platform that enables small and medium enterprises, including startups, to launch and manage their employee stock option plans (ESOPs) quickly and efficiently. The platform simplifies the ESOPs process with an intuitive interface that walks the company through the process step by step, making it easy to understand and manage.",
                         url: "/solutions/ESOPsaaS",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                     {
@@ -199,7 +208,8 @@ function Header() {
                         description:
                           "The Aegis MISS harnesses the power of NexGen TV technology and Nexus Connect tools to provide real-time alerts and critical information to Aegiss in emergency situations. This innovative solution enhances communication efficiency, enables rapid response, and improves overall emergency management capabilities.",
                         url: "/solutions/first-responder-alerting",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                     {
@@ -209,7 +219,8 @@ function Header() {
                         description:
                           "The Around service  proved to be a valuable tool for emergency responders. The mapping software company worked with local emergency services to integrate their data into the Around, allowing Aegiss to quickly and easily access important information about accidents and emergencies.",
                         url: "/solutions/live-maps",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                     {
@@ -219,7 +230,8 @@ function Header() {
                         description:
                           "CX MISS (Mobius Intelligent Solution Suite) is a powerful suite of Mobius Intelligent Applications (MIA's) designed to transform customer experience (CX) and drive customer-centricity across all touchpoints.",
                         url: "/solutions/cx",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                     {
@@ -229,7 +241,8 @@ function Header() {
                         description:
                           "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Nexus Connect platform - to streamline and automate subscription management processes for SaaS applications.",
                         url: "/solutions/modern-enterprise-solution-suite",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                     {
@@ -239,7 +252,8 @@ function Header() {
                         description:
                           "The WebSite Modernization MISS (Mobius Intelligent Solution Suite) revolutionizes the way organizations build and maintain websites by leveraging Nexus Connect and its suite of five low-code tools.",
                         url: "/solutions/web-modernization",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                     {
@@ -249,7 +263,8 @@ function Header() {
                         description:
                           "Cloud Data Orchestration (CDO) refers to the management and coordination of data workflows and processes in cloud-based environments. It involves the seamless integration, movement, and transformation of data across different cloud platforms and services.",
                         url: "/solutions/cloud-data-orchestration",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/health.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/health.jpg",
                       },
                     },
                   ],
@@ -281,7 +296,8 @@ function Header() {
                         description:
                           "All-in-one HR solution that streamlines talent acquisition, employee engagement, learning & development, compensation & benefits, and employer branding workflows.",
                         url: "/products/recruiting",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/recruiting.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/recruiting.jpg",
                       },
                     },
                     {
@@ -291,7 +307,8 @@ function Header() {
                         description:
                           "Mobius offer an AI-driven HR Tech solution designed to elevate employee experience by streamlining HR processes and providing personalized employee engagement. With innovative features such as sentiment analysis, personalized career pathing, and rewards and recognition programs, our solutions empowers organizations to attract, retain, and engage top talent. Employee Delight is the all-in-one solution for organizations looking to create a positive and engaging work culture. ",
                         url: "/products/employee-engagement",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/employeeDel.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/employeeDel.jpg",
                       },
                     },
                     {
@@ -301,7 +318,8 @@ function Header() {
                         description:
                           "Visualize, optimize, and transform your organization with ease using our intuitive platform. Boost productivity, drive innovation, and stay ahead of the competition with Modulus. ",
                         url: "/products/orgdev-and-planning",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/employeeDel.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/employeeDel.jpg",
                       },
                     },
                     {
@@ -311,7 +329,8 @@ function Header() {
                         description:
                           " Quickly launch a range of training programs, create customized learning paths, and track employee progress, all in one place. Enhance employee engagement, satisfaction, and retention. ",
                         url: "/products/learning-and-development",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/learningDevelopment.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/learningDevelopment.jpg",
                       },
                     },
                     {
@@ -321,7 +340,8 @@ function Header() {
                         description:
                           "Comp & Benefits offer a groundbreaking HR Tech solution that revolutionizes employee compensation and benefits management. Our AI-based platform provides end-to-end solutions to help organizations streamline and optimize their compensation and benefits programs. With our solution, organizations can create personalized compensation plans, design and manage benefits programs, and gain powerful insights into compensation data, all in real-time. Say goodbye to outdated compensation and benefits management practices and embrace the future with Mobius. ",
                         url: "/products/comp-and-benifits",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/companyBenefits.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/companyBenefits.jpg",
                       },
                     },
                   ],
@@ -332,7 +352,8 @@ function Header() {
                 description:
                   "Mobius Networks offers groundbreaking NoCode solutions for the HR and People Tech industry, empowering organizations to optimize talent acquisition, management, and development through the power of digital transformation. Our intuitive platform enables the seamless creation and deployment of custom applications, streamlining crucial processes such as recruitment, onboarding, performance evaluation, and employee engagement.",
                 url: "/solutions/nightingale",
-                coverImage: "/aidtaasImages/images/imagesnew/navbar/companyBenefits.jpg",
+                coverImage:
+                  "/aidtaasImages/images/imagesnew/navbar/companyBenefits.jpg",
               },
             },
             {
@@ -348,7 +369,8 @@ function Header() {
                         description:
                           "Mobius automated DevOps empowers your IT operations with the latest in automated DevOps. With tools for monitoring, app development, engagement, and collaboration, it helps modern enterprises deliver high-quality IT services and unlock new opportunities.",
                         url: "/solutions/runrun",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
                     },
                     {
@@ -358,7 +380,8 @@ function Header() {
                         description:
                           "Data Governance as a Service (DGaaS) powered by Nexus Connect is a comprehensive solution that enables organizations to establish effective data governance practices. DGaaS combines five Mobius Intelligent Applications (MIAs) - Data Quality Sentinel, Master Data Nexus, Data Modeling Studio, Data Storage Hub, Data Security Fort, Meta Data Tracker, Data Warehousing & BI Center - built on the Nexus Connect platform.",
                         url: "/solutions/data-governance-as-a-service",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
                     },
                     {
@@ -368,7 +391,8 @@ function Header() {
                         description:
                           " Mobius automated DevOps empowers your IT operations with the latest in automated DevOps. With tools for monitoring, app development, engagement, and collaboration, it helps modern enterprises deliver high-quality IT services and unlock new opportunities. ",
                         url: "/comingsoon",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
                     },
                   ],
@@ -395,7 +419,8 @@ function Header() {
                         description:
                           "MoScribe is a powerful Subscription Management as a Service solution, offered as a Mobius Solution Suite. It combines three Mobius Intelligent Applications (MIAs) - powered by the Nexus Connect platform - to streamline and automate subscription management processes for SaaS applications.",
                         url: "/solutions/moScribe",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
                     },
                     {
@@ -405,7 +430,8 @@ function Header() {
                         description:
                           "Marketing Automation as a Service (MAaaS) powered by Nexus Connect is a comprehensive solution that enables organizations to streamline and optimize their marketing processes. MAaaS combines several Mobius Intelligent Applications (MIAs), each designed to address specific marketing automation functions. ",
                         url: "/solutions/marketing-automation-as-a-service",
-                        coverImage: "/aidtaasImages/images/imagesnew/navbar/It.jpg",
+                        coverImage:
+                          "/aidtaasImages/images/imagesnew/navbar/It.jpg",
                       },
                     },
                   ],
@@ -1020,7 +1046,7 @@ function Header() {
                             heading: "ImpressIO As a Service",
                             description:
                               " DSaaS offers an unparalleled multi-user, multi-org interactive signage presentation platform that revolutionizes the traditional signage industry, unlocking significant business opportunities and establishing itself as the ideal choice for smart network operators. ",
-                            url: "/products/DSaaS",
+                            url: "/products/ImpressIO",
                             coverImage: images.Navbar9,
                           },
                         },
@@ -1088,7 +1114,7 @@ function Header() {
                       content: {
                         heading: "Community Engagements",
                         description:
-                        "CommunityX is the ultimate tool for community engagement, providing a comprehensive solution for live news, ImpressIO, metro integration, and traffic monitoring.",
+                          "CommunityX is the ultimate tool for community engagement, providing a comprehensive solution for live news, ImpressIO, metro integration, and traffic monitoring.",
                         url: "/products/community-engagements",
                         coverImage: images.Navbar9,
                       },
@@ -1884,7 +1910,6 @@ function Header() {
                       url: "/launchpad/swissborg-series-a",
                     },
                   },
-
                 ],
               },
 
@@ -2034,7 +2059,7 @@ function Header() {
                 heading: "Contact Us",
                 description:
                   "Got questions about our enterprise data solutions? Our team at Mobius is here to help. Whether you're interested in learning more about our platform, need technical support, or just want to say hi, we'd love to hear from you. Reach out to us via phone, email, or our online contact form, and we'll get back to you as soon as possible. Let's start a conversation about how we can help transform your business with the power of data.",
-                coverImage: images.Overview_min ,
+                coverImage: images.Overview_min,
                 url: "/contact",
               },
             },
@@ -2046,9 +2071,8 @@ function Header() {
               },
               article: {
                 heading: "Come Meet Us at CES",
-                description:
-                  "Come meet us at CES",
-                coverImage: images.Overview_min ,
+                description: "Come meet us at CES",
+                coverImage: images.Overview_min,
                 url: "/CES",
               },
             },
@@ -2074,28 +2098,24 @@ function Header() {
   const [isdropped, setisdropped] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-
   useEffect(() => {
-   const handleScroll = () => {
+    const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-      if(location.pathname != "/"  && location.pathname != "/CES"  && location.pathname != "/comingsoon"){
-        //console.log("changed",location.pathname);
-            setIsScrolled(true);
-
-      }
-      else{
-
-   
-
-    window.addEventListener("scroll", handleScroll);
-      }
+    if (
+      location.pathname != "/" &&
+      location.pathname != "/CES" &&
+      location.pathname != "/comingsoon"
+    ) {
+      //console.log("changed",location.pathname);
+      setIsScrolled(true);
+    } else {
+      window.addEventListener("scroll", handleScroll);
+    }
     return () => {
       setIsScrolled(false);
       window.removeEventListener("scroll", handleScroll);
-
     };
-
   }, [location]);
 
   const handlePlatform = () => {
@@ -2179,7 +2199,9 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"}
+                    />
                   </div>
                 )}
               </div>
@@ -2199,7 +2221,9 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"}
+                    />
                   </div>
                 )}
               </div>
@@ -2221,7 +2245,9 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"}
+                    />
                   </div>
                 )}
               </div>
@@ -2265,7 +2291,9 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/aidtaasImages/images/imagesnew/icons/Vector.svg"}
+                    />
                   </div>
                 )}
               </div>
@@ -2306,7 +2334,9 @@ function Header() {
                       setisdropped(true);
                     }}
                   >
-                    <Img src={"/aidtaasImages/images/imagesnew/icons/menu.svg"} />
+                    <Img
+                      src={"/aidtaasImages/images/imagesnew/icons/menu.svg"}
+                    />
                   </div>
                 ) : (
                   <div
@@ -2314,7 +2344,11 @@ function Header() {
                       setisdropped(false);
                     }}
                   >
-                    <Img src={"/aidtaasImages/images/imagesnew/icons/close-outline.svg"} />
+                    <Img
+                      src={
+                        "/aidtaasImages/images/imagesnew/icons/close-outline.svg"
+                      }
+                    />
                   </div>
                 )}
               </div>
@@ -2334,4 +2368,3 @@ function Header() {
 }
 
 export default Header;
-
