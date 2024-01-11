@@ -16,7 +16,7 @@ const CesBanner = () => {
           />
         </video>
         <div className={st.contentContainer}>
-          <span id={st.head}>Meet us at CES</span>
+          <span id={st.head}>Meet us at CES 2024</span>
           <span id={st.dnt}>
             January 9-12 | Booth #19744, Central Hall, LVCC | Las Vegas, NV
           </span>
