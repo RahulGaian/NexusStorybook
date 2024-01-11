@@ -55,15 +55,41 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
     <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="Example Modal" className={st.modalFormStyle}>
       <div className={st.modalContainer}>
     
-        <h2 className={st.h11}> Great Opportunities Await You     <Img src={"/Icons/x2.svg"} className={st.svgg} onClick={closeModal}></Img></h2>
+        <h2 className={st.h11}> Get in Touch 
+            <Img src={"/Icons/x2.svg"} className={st.svgg} onClick={closeModal}></Img>
+        </h2>
+        <h2 style={{fontSize:"16px"}}>
+        Our team would love to hear from you.
+        </h2>
         <br />
         <form onSubmit={onSubmit} className={st.form}>
-          <label>
-            Full Name:
+        <div className={st.first}>
+        <label>
+            First Name*
             <input
               type="text"
-              name="name"
-              value={formData.name}
+              name="firstname"
+              onChange={handleInputChange}
+              className={st.inputField}
+            />
+          </label>
+          <label>
+            Last Name*
+            <input
+              type="text"
+              name="lastname"
+              onChange={handleInputChange}
+              className={st.inputField}
+            />
+          </label>
+        </div>
+      
+          <br />
+          <label>
+            Job Title*
+            <input
+              type="text"
+              name="job"
               onChange={handleInputChange}
               className={st.inputField}
             />
@@ -71,11 +97,21 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
           <br />
           <br />
           <label>
-            Email:
+            Company name*
+            <input
+              type="text"
+              name="company"
+              onChange={handleInputChange}
+              className={st.inputField}
+            />
+          </label>
+          <br />
+          <br />
+            <label>
+           Business Email*
             <input
               type="email"
               name="email"
-              value={formData.email}
               onChange={handleInputChange}
               className={st.inputField}
             />
@@ -83,17 +119,16 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
           <br />
           <br />
           <label>
-            Phone Number:
+            Phone Number
             <input
               type="tel"
               name="phoneNumber"
-              value={formData.phoneNumber}
               onChange={handleInputChange}
               className={st.inputField}
             />
           </label>
           <br /><br />
-          <label > Profession</label>
+          {/* <label > Profession</label>
           <select
             name="profession"
             value={formData.profession}
@@ -109,9 +144,9 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
             <option value="Product">Product</option>
             <option value="Support">Support</option>
             <option value="Other">Other</option>
-          </select>
+          </select> */}
           <br />
-          <br />
+          {/* <br /> */}
           <button type="submit" className={st.submitButton}>
             Apply Now
           </button>

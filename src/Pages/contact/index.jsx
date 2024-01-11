@@ -15,7 +15,8 @@ import ModalForm from "../Form";
 let Contact = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [formData, setFormData] = useState({
-    name: "",
+    firstName: "",
+    lastName:"",
     email: "",
     phoneNumber: "",
   });
@@ -71,7 +72,7 @@ let Contact = () => {
           />
           <div className={Style.botconthead}>
             <div>
-              <h1>Ready To Help, across borders !</h1>
+              <h1>Ready To Help, across borders!</h1>
             </div>
           </div>
         </div>
@@ -113,7 +114,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/envelope.png"}
                     />
                   </div>
-                  <div>usaoffice@mobiusplatforms.com</div>
+                  <div>info@nexusconnects.ai</div>
                 </div>
               </div>
             </div>
@@ -131,7 +132,7 @@ let Contact = () => {
               <div className={Style.mapcontent1section2}>
                 <div className={Style.section2head}>India</div>
                 <div className={Style.section2desc}>
-                  5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.
+                  5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad, India, 50032 
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
@@ -147,7 +148,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/envelope.png"}
                     />
                   </div>
-                  <div>indiaoffice@mobiusplatforms.com</div>
+                  <div>info@nexusconnects.ai</div>
                 </div>
               </div>
             </div>
@@ -165,7 +166,7 @@ let Contact = () => {
               <div className={Style.mapcontent1section2}>
                 <div className={Style.section2head}>Singapore</div>
                 <div className={Style.section2desc}>
-                  11 Woodlands Close #07-13, Woodlands 11, Singapore(737853)
+                  11 Woodlands Close #07-13, Woodlands 11, Singapore, 737853
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
@@ -181,7 +182,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/envelope.png"}
                     />
                   </div>
-                  <div>indiaoffice@mobiusplatforms.com</div>
+                  <div>info@nexusconnects.ai</div>
                 </div>
               </div>
             </div>
