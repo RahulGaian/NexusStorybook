@@ -57,7 +57,7 @@ function ResponsivePlatform (props){
                   
               </div>
               <div id={Style.hrline}><hr></hr></div>
-              <div className={Style3.botcont}>
+              {/* <div className={Style3.botcont}>
               <div><h5 className={Style.head}>Marketplaces</h5></div>
               <div>
               <ul className={Style.listitems} 
@@ -72,7 +72,6 @@ function ResponsivePlatform (props){
                       <div className={Style.rightarrow} onClick={()=>{setdata2(data.menuItems[2]);setpage2(true);setplatformpage(false)}}><img src={images.RightArrow} alt="rightarrow"/></div>
                   </ul>
               </div>
-              {/* <br /> */}
              <div id={Style.hrline}><hr></hr></div>
                <div>
                <ul className={Style.listitems  +" " + Style3.listitems1} 
@@ -81,7 +80,7 @@ function ResponsivePlatform (props){
                       <div className={Style.rightarrow} onClick={()=>{setdata2(data.menuItems[3]);setpage2(true);setplatformpage(false)}}><img src={images.RightArrow} alt="rightarrow"/></div>
                   </ul>
                </div>
-              </div>
+              </div> */}
               </div>
               
 

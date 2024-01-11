@@ -69,7 +69,12 @@ return(
       </div>
       <div className={Style.hrline}><hr></hr></div>
       <div id={Style.bottomcontent}>
-        <div id={Style.book}><button >Book a Demo</button></div>
+        <div id={Style.book}     onClick={() => {
+                    window.open(
+                      "https://calendly.com/d/2sn-wnj-xnc/sales-discovery-call?primary_color=a513a7",
+                      ""
+                    );
+                  }}><button >Book a Demo</button></div>
         {/* <div id={Style.login}><button >Login</button></div> */}
       </div>
     </div>)}
