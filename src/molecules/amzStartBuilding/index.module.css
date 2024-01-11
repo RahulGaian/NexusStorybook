@@ -88,12 +88,6 @@
   letter-spacing: -0.1px;
 }
 
-.line {
-  height: 2px;
-  border-top: 1px solid #1f1b1b;
-  background: var(--Color, #fff);
-}
-
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
   .startContentCont {
     width: 1420px;
