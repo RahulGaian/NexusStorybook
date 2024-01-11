@@ -9,12 +9,12 @@ SwiperCore.use([Pagination, Autoplay]);
 const Carousel = () => {
   const contentData = [
     {
-      heading: "USA",
+      heading: "United States",
       imagesrc1: "/aidtaasImages/images/images/contact/location pin.png",
       description:
         "1968 S Coast Hwy, Suite 5011, Laguna Beach, California, USA 9265.",
       imagesrc2: "/aidtaasImages/images/images/contact/phone.png",
-      num: "+1 1800 123 1234",
+      num: "+1 (415) 624 7431",
       imagesrc3: "/aidtaasImages/images/images/contact/envelope.png",
       mail: "usaoffice@mobiusplatforms.com",
     },
@@ -24,9 +24,9 @@ const Carousel = () => {
       description:
         "5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.",
       imagesrc2: "/aidtaasImages/images/images/contact/phone.png",
-      num: "+1 1800 123 1234",
+      num: "+91 (402) 980 0716",
       imagesrc3: "/aidtaasImages/images/images/contact/envelope.png",
-      mail: "info@mobiusplatforms.com",
+      mail: "indiaoffice@mobiusplatforms.com",
     },
     {
       heading: "Singapore",
@@ -34,9 +34,9 @@ const Carousel = () => {
       description:
         "11 Woodlands Close #07-13, Woodlands 11, Singapore (737853).",
       imagesrc2: "/aidtaasImages/images/images/contact/phone.png",
-      num: "+1 1800 123 1234",
+      num: "+65 6587 4666",
       imagesrc3: "/aidtaasImages/images/images/contact/envelope.png",
-      mail: "usaoffice@mobiusplatforms.com",
+      mail: "indiaoffice@mobiusplatforms.com",
     },
   ];
 

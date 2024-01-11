@@ -61,28 +61,30 @@
 }
 
 .name_designation {
-  padding-left: 5%;
+  padding-left: 2%;
   width: 100%;
 }
 
 .name_designation h1 {
-  color: #4c4c4c;
-  font-family: ITC !important;
-  font-size: 15.469px;
+  color: #4C4C4C;
+  font-family: ITC;
+  font-size: 18.906px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 20.7px;
-  text-align: justify;
-  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.23px;
 }
 
 .name_designation p {
-  color: #8f96a1;
-  font-family: ITC !important;
-  font-size: 14.766px;
+  color: #4C4C4C;
+  font-family: ITC;
+  font-size: 15.25px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20.7px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  min-height: 60px;
+  /* border: 2px solid green; */
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {
@@ -122,22 +124,22 @@
   }
 
   .name_designation h1 {
-    color: #000;
+    color: #4C4C4C;
     font-family: ITC;
-    font-size: 18.125px;
+    font-size: 18.906px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     letter-spacing: -0.23px;
   }
   
   .name_designation p {
-    color: #232F3E;
+    color: #4C4C4C;
     font-family: ITC;
     font-size: 15.25px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
     letter-spacing: -0.3px;
   }
 }
@@ -151,12 +153,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 4%;
   }
 
   .bottomContent {
     display: flex;
-    width: 90%;
-    height: 110px;
+    width: 94%;
+    height: 120px;
   }
 
   .logo img {
@@ -171,22 +174,24 @@
   }
 
   .name_designation h1 {
-    color: #000;
+    color: #4C4C4C;
     font-family: ITC;
-    font-size: 19.063px;
+    font-size: 16.906px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     letter-spacing: -0.23px;
+    margin: 0;
+    text-align: justify;
   }
   
   .name_designation p {
-    color: #232F3E;
+    color: #4C4C4C;
     font-family: ITC;
-    font-size: 15.75px;
+    font-size: 15.25px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
     letter-spacing: -0.3px;
   }
 }
