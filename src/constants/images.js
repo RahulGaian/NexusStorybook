@@ -332,17 +332,17 @@ let DsaasBanner = "/aidtaasImages/images/imagesnew/products/dsaas_banner.png";
 let DsaasFeature1 =
   "/aidtaasImages/images/imagesnew/products/dsaas_features1.png";
 let DsaasFeature2 =
-  "/aidtaasImages/images/imagesnew/products/ImpressIO_features2.png";
+  "/aidtaasImages/images/imagesnew/products/dsaas_features2.png";
 let DsaasFeature3 =
-  "/aidtaasImages/images/imagesnew/products/ImpressIO_features3.png";
+  "/aidtaasImages/images/imagesnew/products/dsaas_features3.png";
 let DsaasCaseStudy =
   "/aidtaasImages/images/imagesnew/products/zoombot_case_study.png";
 let DsaasBenefits1 =
-  "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits1.svg";
+  "/aidtaasImages/images/imagesnew/products/dsaas_benefits1.svg";
 let DsaasBenefits2 =
-  "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits2.svg";
+  "/aidtaasImages/images/imagesnew/products/dsaas_benefits2.svg";
 let DsaasBenefits3 =
-  "/aidtaasImages/images/imagesnew/products/ImpressIO_benefits3.svg";
+  "/aidtaasImages/images/imagesnew/products/dsaas_benefits3.svg";
 let Dsaaspreview = "/aidtaasImages/images/imagesnew/products/dsaas_preview.png";
 
 let ImpressIOBanner =
