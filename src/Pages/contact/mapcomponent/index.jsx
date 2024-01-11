@@ -28,6 +28,22 @@ function MapComponent() {
   
         L.marker([1.3521,103.8198], { icon: customIcon }).addTo(map)
         .bindPopup('Singapore');
+
+        // Repeat the map marker focus in a loop
+    
+        const locations = [
+                              { lat: 36.7783, lng: -119.4179, popup: 'Laguna Beach, California' },
+                              { lat: 17.441738, lng: 78.361590, popup: 'Hyderabad' },
+                              { lat: 1.3521, lng: 103.8198, popup: 'Singapore' },
+                            ];
+
+           let index = 0;
+        setInterval(() => {
+          map.setView([locations[index].lat, locations[index].lng], 10);
+          index = (index + 1) % locations.length;
+        }, 2000); // Change view every 2 seconds
+
+    // 
   
     return () => {
       map.remove();
