@@ -34,9 +34,9 @@ function MapComponent() {
         // Repeat the map marker focus in a loop
     
         const locations = [
-                              { lat: 36.7783, lng: -119.4179, popup: 'Laguna Beach, California' },
+                              { lat: 33.52795416562918, lng: -117.76981372884481, popup: 'Laguna Beach, California' },
                               { lat: 17.441738, lng: 78.361590, popup: 'Hyderabad' },
-                              { lat: 1.3521, lng: 103.8198, popup: 'Singapore' },
+                              { lat: 1.4353657128311017, lng: 103.80325607558518, popup: 'Singapore' },
                             ];
 
            let index = 0;
