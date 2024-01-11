@@ -8,25 +8,23 @@ function StartBuilding() {
         <div className={style.startTop}>
           <h1>Start building</h1>
           <p>
-            With nearly a billion Alexa devices in the hands of customers, now
-            is the time to bring your idea to the world.
+            With dozens of Intelligent apps in the hands of customers, now is
+            the time to leapfrog the value of your business.
           </p>
         </div>
 
         <div className={style.startBottomCont}>
           <div className={style.startBottom}>
-            <h1>Alexa</h1>
+            <h1>Aegis</h1>
             <p>Connect with hundreds of millions of customers worldwide.</p>
           </div>
           <div className={style.startBottom}>
-            <h1>AWS</h1>
-            <p>
-              Develop with greater flexibility, scalability, and reliablity.
-            </p>
+            <h1>iZak</h1>
+            <p>Connect with hundreds of millions of customers worldwide.</p>
           </div>
           <div className={style.startBottom}>
-            <h1>Fire TV</h1>
-            <p>Build for over 200 million Fire TV devices worldwide.</p>
+            <h1>Museo</h1>
+            <p>Connect with hundreds of millions of customers worldwide.</p>
           </div>
         </div>
       </div>
