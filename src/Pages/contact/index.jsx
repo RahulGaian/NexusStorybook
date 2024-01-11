@@ -38,12 +38,10 @@ let Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log("Form submitted with data:", formData);
-    console.log("Sending form data to server..."); // You can add your API call or other submission logic here
+    console.log("Sending form data to server...");
 
 
-    // Close the modal after submission
     closeModal();
   };
 
@@ -96,7 +94,7 @@ let Contact = () => {
                 />
               </div>
               <div className={Style.mapcontent1section2}>
-                <div className={Style.section2head}>USA</div>
+                <div className={Style.section2head}>United States</div>
                 <div className={Style.section2desc}>
                   1968 S Coast Hwy, Suite 5011, Laguna Beach, CA 92651, United
                   States
@@ -107,7 +105,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/phone.png"}
                     />
                   </div>
-                  <div className={Style.num}>+1 1800 123 1234</div>
+                  <div className={Style.num}>+1 (415) 624 7431</div>
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo.envelope}>
@@ -141,7 +139,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/phone.png"}
                     />
                   </div>
-                  <div className={Style.num}>+1 1800 123 1234</div>
+                  <div className={Style.num}>+91 (402) 980 0716</div>
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo.envelope}>
@@ -149,7 +147,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/envelope.png"}
                     />
                   </div>
-                  <div>info@mobiusplatforms.com</div>
+                  <div>indiaoffice@mobiusplatforms.com</div>
                 </div>
               </div>
             </div>
@@ -175,7 +173,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/phone.png"}
                     />
                   </div>
-                  <div className={Style.num}>+1 1800 123 1234</div>
+                  <div className={Style.num}>+65 6587 4666</div>
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo.envelope}>
@@ -183,7 +181,7 @@ let Contact = () => {
                       src={"/aidtaasImages/images/images/contact/envelope.png"}
                     />
                   </div>
-                  <div>usaoffice@mobiusplatforms.com</div>
+                  <div>indiaoffice@mobiusplatforms.com</div>
                 </div>
               </div>
             </div>
