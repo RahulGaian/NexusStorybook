@@ -139,6 +139,35 @@ option {
   padding: 20px;
   padding-left: 50px;
 }
+.inputField {
+  height: 40px;
+  width: 100% !important;
+  background-color: #E1E1E1;
+  opacity: 65%;
+  border-radius: 10px;
+  color: #000;
+}
+
+.submitButton {
+  height: 50px;
+  width: 40%;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: #FFA200 !important;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 2%;
+  white-space: nowrap;
+}
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.redBorder{
+  border: 1px solid red;
+}
 
 @media screen and (max-width: 612px) {
   .main {
@@ -190,37 +219,11 @@ option {
   /* overflow-x: hidden; */
 }
 
-.input1 {
-  display: flex;
-  /* background-color: red; */
-  /* height: 40px; */
-  /* width: 400px;
-max-width: 400px; */
-  max-width: 100% !important;
-  width: 100% !important;
-  min-height: 20.4px;
-  padding: 10px 21px;
-  flex-direction: column;
-  align-items: flex-start;
-  align-self: stretch;
-  border-radius: 4px;
-  opacity: 0.8;
-  background: rgba(76, 76, 76, 0.2);
-  border: 0px solid beige;
-}
+
 * {
   box-sizing: border-box;
 }
 
-.input1::placeholder {
-  color: #4c4c4c;
-  /* color: red; */
-  font-family: "ITC";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
 
 select {
   color: #4c4c4c;
