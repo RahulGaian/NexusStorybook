@@ -42,12 +42,12 @@ function CesPage() {
           <WhereToFind />
         </div>
       </section>
-      <section>
+      {/* <section>
         <HeadAndText data={secondHeadingData.secondHeading2} />
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <Communities data={communitiesData.community1} />
-      </section>
+      </section> */}
       <section>
         <StartBuilding />
       </section>
