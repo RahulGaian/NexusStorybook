@@ -40,11 +40,11 @@ const Footer = () => {
           <nav>
             <h5 className={Style.header}>Solutions</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
-              <li className={Style.listelements}>
+              {/* <li className={Style.listelements}>
                 <a className={Style.navlink} href="/solutions/NextGen-TV">
                   NextGen TV
                 </a>
-              </li>
+              </li> */}
               <li className={Style.listelements}>
                 <a className={Style.navlink} href="/solutions/runrun">
                   Run Run

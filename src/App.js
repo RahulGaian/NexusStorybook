@@ -38,7 +38,9 @@ function App() {
           <Route path="/" element={<Landingpagenew />}></Route>
           <Route path="/about" element={<Overview></Overview>}></Route>
           <Route path="/contact" element={<Contact></Contact>}></Route>
-          <Route path="/meetup" element={<Cespage></Cespage>}></Route>
+          <Route path="/meetup" element={<Contact></Contact>}></Route>
+          <Route path="/meetups" element={<Contact></Contact>}></Route>
+
 
           <Route path="/solutions/:id" element={<SolutionPage />}></Route>
 
