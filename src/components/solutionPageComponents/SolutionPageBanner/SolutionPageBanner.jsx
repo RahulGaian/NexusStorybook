@@ -21,7 +21,10 @@ const SolutionPageBanner = ({ bannerData }) => {
           <p>{bannerData.description}</p>
           <button
             onClick={() => {
-              changeRoute(getstartedroute);
+              window.open(
+                "https://calendly.com/d/2sn-wnj-xnc/sales-discovery-call?primary_color=a513a7",
+                ""
+              );
             }}
           >
             Book a demo
