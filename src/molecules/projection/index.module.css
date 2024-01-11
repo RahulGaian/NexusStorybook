@@ -27,6 +27,7 @@
   align-items: center;
   width: 100%;
   gap: 10px;
+  margin-left: 0px;
 }
 
 #head {
@@ -44,7 +45,7 @@
 .mainCont {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
   row-gap: 24px;
   column-gap: 24px;
@@ -80,11 +81,17 @@
   .contentContainer {
     width: 1420px;
   }
+  .topCont{
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .contentContainer {
     width: 1200px;
+  }
+  .topCont{
+    margin-left: 0px;
   }
 }
 
@@ -94,6 +101,9 @@
   }
   .mainCont{
     column-gap: 12px;
+  }
+  .topCont{
+    margin-left: 25px;
   }
 }
 
@@ -109,10 +119,22 @@
   #head {
     text-align: center;
   }
+  .topCont{
+    width: 100%;
+    margin-left: 5%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .contentContainer {
     width: 90%;
+  }
+  .topCont{
+    margin-left: 0;
+    width: fit-content;
+  }
+  #head{
+    font-size: 18px;
+    width: inherit;
   }
 }
