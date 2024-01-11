@@ -92,8 +92,8 @@ const Landingpagenew = () => {
                       <button
                         id="getStartedBtnLanding"
                         onClick={() => {
-                          // window.location.href = "/contact";
-                          openModal();
+                          window.location.href = "/contact";
+                          // openModal();
                         }}
                       >
                         Get Started
