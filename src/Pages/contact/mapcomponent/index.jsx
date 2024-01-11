@@ -21,13 +21,13 @@ function MapComponent() {
         iconAnchor: [16, 32], 
       });
       L.marker([36.7783, -119.4179], { icon: customIcon }).addTo(map)
-        .bindPopup('Custom marker location');
+        .bindPopup('Laguna Beach, California');
   
         L.marker([17.441738, 78.361590], { icon: customIcon }).addTo(map)
-        .bindPopup('Custom marker location');
+        .bindPopup('Hyderabad');
   
         L.marker([1.3521,103.8198], { icon: customIcon }).addTo(map)
-        .bindPopup('Custom marker location');
+        .bindPopup('Singapore');
   
     return () => {
       map.remove();
