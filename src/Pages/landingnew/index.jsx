@@ -5,15 +5,56 @@ import AndroidApps from "../../components/AndroidAppsSwiper";
 import MapComponent from "../../components/map_component/components/comp";
 import Features from "./features/Features";
 import Header from "../../components/Header/header";
+import { useState } from "react";
 import Img from "../../components/Image";
 import Map3dComponent from "../../molecules/MapComponent";
 import Footer from "../../molecules/footer";
 import  OppurtiniyCalculator from "../../molecules/OpportunityCalc/index"
 import LeafletCanvasMap from "../../molecules/leafLet";
 import Projection from "../../molecules/projection/index"
+import ModalForm from "../Form";
 const Landingpagenew = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName:"",
+    email: "",
+    phoneNumber: "",
+  });
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted with data:", formData);
+    console.log("Sending form data to server...");
+
+
+    closeModal();
+  };
+
   return (
-    <>
+    <>                            <ModalForm
+    isOpen={modalIsOpen}
+    closeModal={closeModal}
+    handleSubmit={handleSubmit}
+    handleInputChange={handleInputChange}
+    formData={formData}
+  />
       <div className="Landing_page_Container">
         <section className="Landing_top_bg">
           <div className="video-background">
@@ -52,6 +93,7 @@ const Landingpagenew = () => {
                         id="getStartedBtnLanding"
                         onClick={() => {
                           window.location.href = "/contact";
+                          // openModal();
                         }}
                       >
                         Get Started
@@ -63,6 +105,7 @@ const Landingpagenew = () => {
                         window.location.href = "#won";
                       }}
                     >
+   
                       <div>Learn More</div>{" "}
                       <div className="nexus_rightarrow">
                         <Img
