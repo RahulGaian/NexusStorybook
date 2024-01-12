@@ -20,13 +20,14 @@ function MapComponent() {
         iconSize: [32, 32], 
         iconAnchor: [16, 32], 
       });
-      L.marker([36.7783, -119.4179], { icon: customIcon }).addTo(map)
+      // L.marker([36.7783, -119.4179], { icon: customIcon }).addTo(map)
+      L.marker([33.528298, -117.769084], { icon: customIcon }).addTo(map)
         .bindPopup('Custom marker location');
   
         L.marker([17.441738, 78.361590], { icon: customIcon }).addTo(map)
         .bindPopup('Custom marker location');
   
-        L.marker([1.3521,103.8198], { icon: customIcon }).addTo(map)
+        L.marker([1.4353125966423768,103.80328359896781], { icon: customIcon }).addTo(map)
         .bindPopup('Custom marker location');
   
     return () => {
