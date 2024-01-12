@@ -1,7 +1,5 @@
-
 import React from "react";
 import Modal from "react-modal";
-import axios from 'axios';
 import Img from "../../components/Image";
 import st from "./index.module.css";
 import {initializeApp} from 'firebase/app';
@@ -34,9 +32,6 @@ const db = getDatabase();
 const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
   const submitForm = async (data) => {
     try {
-      // await axios.post('http://localhost:5000/submit-form', data);
-      // //console.log('Form data submitted successfully!');
-      //console.log(data,"from dbb")
       push(ref(db, 'nexusConnect/' ), {
         data
       });
@@ -128,25 +123,7 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
             />
           </label>
           <br /><br />
-          {/* <label > Profession</label>
-          <select
-            name="profession"
-            value={formData.profession}
-            className={st.inputField}
-            onChange={handleInputChange}
-
-          >
-            <option value="Desinger">Select</option>
-            <option value="Desinger">Desinger</option>
-            <option value="Engineer">Engineer</option>
-            <option value="Sales">Sales</option>
-            <option value="Marketing">Marketing</option>
-            <option value="Product">Product</option>
-            <option value="Support">Support</option>
-            <option value="Other">Other</option>
-          </select> */}
           <br />
-          {/* <br /> */}
           <button type="submit" className={st.submitButton}>
             Apply Now
           </button>
@@ -157,4 +134,3 @@ const ModalForm = ({ isOpen, closeModal, handleInputChange, formData }) => {
 };
 
 export default ModalForm;
-
