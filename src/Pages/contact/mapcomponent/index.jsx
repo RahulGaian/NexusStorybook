@@ -34,22 +34,21 @@ function MapComponent() {
         // Repeat the map marker focus in a loop
     
         const locations = [
-                              { lat: 33.52795416562918, lng: -117.76981372884481, popup: 'Laguna Beach, California' },
-                              { lat: 17.441738, lng: 78.361590, popup: 'Hyderabad' },
-                              { lat: 1.4353657128311017, lng: 103.80325607558518, popup: 'Singapore' },
-                            ];
-
-           let index = 0;
-        setInterval(() => {
+          { lat: 33.52795416562918, lng: -117.76981372884481, popup: 'Laguna Beach, California' },
+          { lat: 17.441738, lng: 78.361590, popup: 'Hyderabad' },
+          { lat: 1.4353657128311017, lng: 103.80325607558518, popup: 'Singapore' },
+        ];
+        let index = 0;
+        const intervalId = setInterval(() => {
           map.setView([locations[index].lat, locations[index].lng], 10);
           index = (index + 1) % locations.length;
         }, 5000); // Change view every 5 seconds
-
-    // 
-  
-    return () => {
-      map.remove();
-    };
+      
+        // Clear the interval when the component unmounts
+        return () => {
+          map.remove();
+          clearInterval(intervalId);
+        };
   }, []);
 
   return <div id="map-container" style={{ width: '100%', height: '100%',zIndex:0 }}></div>;
