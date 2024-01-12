@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import L from 'leaflet';
 // import 'leaflet/dist/leaflet.css';
 import Style from "./index.module.css";
@@ -9,10 +9,13 @@ import Carousel from "./CarouselComponent/Carousel";
 import Blobs from "../../molecules/blobs";
 import ModalForm from "../Form";
 
-
+import { useLocation } from "react-router-dom";
 
 
 let Contact = () => {
+let location = useLocation();
+  console.log(location)
+
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [formData, setFormData] = useState({
     firstName: "",
@@ -45,7 +48,15 @@ let Contact = () => {
 
     closeModal();
   };
+useEffect(()=>{
 
+    if(location.hash ==="#openform"){
+    setTimeout(()=>{
+      openModal();
+
+},500)
+    }
+  },[])
   return (
     <div className={Style.maindivcontactspage}>
       <Blobs left={"85%"} top={"0%"} color="yellow"></Blobs>

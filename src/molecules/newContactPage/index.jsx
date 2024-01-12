@@ -5,6 +5,7 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, push } from "firebase/database";
+import { useState } from "react";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAJbrOdU3If9S8TWjMNemJ6cY3PWdRvmoE",
@@ -20,7 +21,9 @@ initializeApp(firebaseConfig);
 
 const db = getDatabase();
 
-const FormComponent = ({ handleInputChange, formData }) => {
+const FormComponent = () => {
+
+  const [sent,setSent] = useState(false)
   const submitForm = async (data) => {
     try {
       push(ref(db, "nexusConnect/"), {
@@ -34,15 +37,48 @@ const FormComponent = ({ handleInputChange, formData }) => {
   const onSubmit = (e) => {
     e.preventDefault();
     submitForm(formData);
+    setSent(true)
   };
 
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName:"",
+    email: "",
+    phoneNumber: "",
+  });
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted with data:", formData);
+    console.log("Sending form data to server...");
+
+
+    closeModal();
+  };
   return (
     <div className={st.contentContainer}>
     <div className={st.mainCont}>
       <div className={st.imgCont}>
         <Img src="./Images/Object.png"></Img>
       </div>
-      <div className={st.modalContainer}>
+      {!sent?   <div className={st.modalContainer}>
         <h2 className={st.h11}>Get in Touch</h2>
         <h2 style={{ fontSize: "16px" }}>
           Our team would love to hear from you.
@@ -110,7 +146,7 @@ const FormComponent = ({ handleInputChange, formData }) => {
               id={st.phinpt}
               placeholder="Enter phone number"
               defaultCountry="US"
-              value={formData.phoneNumber}
+              // value={formData.phoneNumber}
               onChange={(value) =>
                 handleInputChange({ target: { name: "phoneNumber", value } })
               }
@@ -127,8 +163,10 @@ const FormComponent = ({ handleInputChange, formData }) => {
             Send message
           </button>
         </form>
-      </div>
+      </div>:<h1 className={st.h111}>Our Team will contact you shortly</h1>}
+   
     </div>
+    
     </div>
   );
 };

@@ -24,10 +24,12 @@ const Landingpagenew = () => {
 
   const openModal = () => {
     setModalIsOpen(true);
+    document.body.style.overflow = "hidden"
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
+    document.body.style.overflow = "initial"
   };
 
   const handleInputChange = (e) => {
@@ -92,7 +94,7 @@ const Landingpagenew = () => {
                       <button
                         id="getStartedBtnLanding"
                         onClick={() => {
-                          window.location.href = "/contact";
+                          window.location.href = "/getInTouch";
                           // openModal();
                         }}
                       >

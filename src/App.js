@@ -18,6 +18,7 @@ import Cespage from "./Pages/ces/index";
 import ComingSoon from "./molecules/comingSoon/index";
 import TermsAndConditions from "./molecules/Terms-and-conditions";
 import { useLocation } from "react-router-dom";
+import FormComponent from "./molecules/newContactPage";
 function App() {
   function TopGap() {
     let location = useLocation();
@@ -52,6 +53,7 @@ function App() {
           <Route path="/community/*" element={<CommunityPages />}></Route>
           <Route path="/launchpad/*" element={<LaunchPadPages />}></Route>
           <Route path="/CES" element={<Cespage />}></Route>
+          <Route path="/getInTouch" element={<FormComponent/>}></Route>
           <Route
             path="/terms-and-conditions"
             element={<TermsAndConditions />}

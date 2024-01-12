@@ -15,8 +15,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid black;
-  margin-top: 150px;
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .imgCont {
@@ -152,6 +153,10 @@ label {
   padding-bottom: 12px;
 }
 
+.h111{
+  color: black !important;
+}
+
 .submitButton:hover {
   background-color: #45a049;
 }
@@ -192,6 +197,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
   }
   .modalContainer {
     width: 100%;
@@ -207,6 +213,8 @@ label {
     width: max-content;
     padding: 20px;
   }
+
+
 }
 
 @media screen and (max-width: 600px) {
