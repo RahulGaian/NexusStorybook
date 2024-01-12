@@ -24,6 +24,7 @@ const Communities = () => {
                 <div className={Style.name_designation}>
                   <div>
                     <h1>{item.nameText}</h1>
+                    
                     <p>{item.texts}</p>
                   </div>
 

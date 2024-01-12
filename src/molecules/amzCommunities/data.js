@@ -20,17 +20,17 @@ export const communitiesData = {
     {
       imagesrc: "/Images/amzCommunities/SmartVehicles.png.png",
       nameText: "National Weather",
-      texts: "Some product text, hopefully not boring......",
+      texts: "Some product text, hopefully not boring....",
     },
     {
       imagesrc: "/Images/amzCommunities/FireTV_2.png.png",
       nameText: "Non Emergency Services",
-      texts: "Some product text, hopefully not boring......",
+      texts: "Some product text, hopefully not boring....",
     },
     {
       imagesrc: "/Images/amzCommunities/Ring_1.png.png",
       nameText: "Phygital",
-      texts: "Some product text, hopefully not boring......",
+      texts: "Some product text, hopefully not boring....",
     },
   ],
 };
