@@ -53,7 +53,7 @@ label {
 #phinpt {
   color: #474747;
   font-size: 14px;
-  height: inherit;
+/*   height: inherit; */
   border: none;
 }
 

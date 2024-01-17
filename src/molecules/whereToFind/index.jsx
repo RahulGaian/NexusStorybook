@@ -115,7 +115,7 @@ const WhereToFind = () => {
             <input
               type="email"
               name="email"
-              placeholder="Email"
+              placeholder="Business Email"
               value={formData.email}
               onChange={handleInputChange}
               className={style.input1 + " " + (!emailEntered?style.redBorder:"")}
@@ -134,7 +134,7 @@ const WhereToFind = () => {
             />
           </label>
           <br />
-          <label className={style.subheading} > Profession</label>
+{/*           <label className={style.subheading} > Profession</label>
           <select
             name="profession"
             value={formData.profession}
@@ -151,7 +151,7 @@ const WhereToFind = () => {
             <option value="Support">Support</option>
             <option value="Other">Other</option>
           </select>
-          <br />
+          <br /> */}
   
           <button type="submit" className={style.submitButton}>
             Apply Now
