@@ -9,6 +9,7 @@ import images from "../../../constants/images"
 function Products(props){
     const data=props.data;
     const setproducts=props.setproducts;
+    const [url,setUrl] = useState("");
     const [data2, setdata2] = useState([data[0].menus[0].items[0].subitems[0]]);
     const[data3,setdata3]=useState([]);
     const[data4,setdata4]=useState([]);
@@ -49,7 +50,7 @@ function Products(props){
                 <div> <h5 className={Style1.head}>{data2[0].name}</h5></div>
                    <div>
                        { data2[0].items.map((item)=>(
-                           <ul className={Style1.listitems} onMouseEnter={()=>{setdata3(item.content);setdata4(item.subitems);setisdata3(true) }}  >
+                           <ul className={Style1.listitems} onMouseEnter={()=>{setdata3(item.content);setdata4(item.subitems);setisdata3(true);setUrl(item.content.url) }}  >
                                <div className={Style1.content} onClick={()=>{changeRoute(item.content.url)}}><li>{item.name}</li></div>
                                <div class={Style1.rightarrow} onClick={()=>{setdata4(item.subitems);}}><Img src={images.RightArrow} alt="rightarrow"/></div>
                            </ul>
@@ -69,8 +70,8 @@ function Products(props){
    <div className={Style1.description}>
        {data3.description}
    </div>
-   <div className={Style1.arrowfolder} onMouseEnter={() => {  if (data4.length > 0) { setisdata4(true); } else {setisdata4(false);} }} ><div><h6><b>Learn More</b></h6></div>
-   <div className={Style1.arrow}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
+   <div className={Style1.arrowfolder} onMouseEnter={() => {  if (data4.length > 0) { setisdata4(true); } else {setisdata4(false);} }} onClick={()=>{changeRoute(url)}}><div><h6><b>Learn More</b></h6></div>
+   <div className={Style1.arrow} onClick={()=>{changeRoute(url)}}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
    </div>
   {isdata4&&(
    <div className={Style.displaydata3} >
@@ -101,8 +102,8 @@ function Products(props){
    <div className={Style1.description}>
    {data[0].menus[0].items[0].article.description}
    </div>
-   <div className={Style1.arrowfolder} onMouseEnter={() => {  if (data4.length > 0) { setisdata4(true); } else {setisdata4(false);} }} ><div><h6><b>Learn More</b></h6></div>
-   <div className={Style1.arrow}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
+   <div className={Style1.arrowfolder} onMouseEnter={() => {  if (data4.length > 0) { setisdata4(true); } else {setisdata4(false);} }} onClick={()=>{  changeRoute(url)}} ><div><h6><b>Learn More</b></h6></div>
+   <div className={Style1.arrow} onClick={()=>{changeRoute(url)}}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
    </div>
   {isdata4&&(
    <div className={Style.displaydata3} >

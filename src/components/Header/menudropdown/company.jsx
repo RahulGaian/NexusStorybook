@@ -11,6 +11,7 @@ function Company(props) {
   // //console.log(data)
   // const [visible, setvisible] = useState(true)
   const [datavisible, setdatavisible] = useState(false)
+  const [url,setUrl] = useState("");
 
   const [data4, setdata4] = useState([]);
   const [data3, setdata3] = useState([]);
@@ -34,6 +35,7 @@ function Company(props) {
                 setdata2(item.subitems)
                 setdata4(item.article);
                 setcont3(true);
+                setUrl(item.article.url)
               }}  >
                 <div className={Style.content} onClick={() => {changeRoute(item.article.url)}} ><li>{item.name}</li></div>
                 <div className={Style.rightarrow} ><Img src={images.RightArrow} alt="rightarrow" /></div>
@@ -71,7 +73,7 @@ function Company(props) {
 <div className={Style.description}>
   {data4.description}
 </div>
-<div className={Style.arrowfolder} onMouseEnter={() => {  if (data4.length > 0) { setdatavisible(true); } else {setdatavisible(false);} }}><div>
+<div className={Style.arrowfolder} onClick={()=>{changeRoute(url)}} onMouseEnter={() => {  if (data4.length > 0) { setdatavisible(true); } else {setdatavisible(false);} }}><div>
   <h6><b>Learn More</b></h6>
   </div>
   <div className={Style.arrow}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
@@ -105,7 +107,7 @@ function Company(props) {
 <div className={Style.description}>
   {data[0].menuItems[0].list[0].article.description}
 </div>
-<div className={Style.arrowfolder} onMouseEnter={() => {  if (data4.length > 0) { setdatavisible(true); } else {setdatavisible(false);} }}><div>
+<div className={Style.arrowfolder} onClick={()=>{changeRoute(url)}} onMouseEnter={() => {  if (data4.length > 0) { setdatavisible(true); } else {setdatavisible(false);} }}><div>
   <h6><b>Learn More</b></h6>
   </div>
   <div className={Style.arrow}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>

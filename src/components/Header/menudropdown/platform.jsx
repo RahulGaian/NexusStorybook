@@ -13,6 +13,8 @@ function Platform(props) {
   const [data3, setdata3] = useState([]);
   // //console.log(data3)
   const [isdata3, setisdata3] = useState(false);
+  const [url,setUrl] = useState("");
+
   // const [visible, setvisible] = useState(true)
 
   // //console.log(data[0].menuItems[0].list[0].article.coverImage)
@@ -39,6 +41,7 @@ function Platform(props) {
                     onMouseEnter={() => {
                       setisdata3(true);
                       setdata3(item.article);
+                      setUrl(item.article.url)
                     }}
                   >
                     <div
@@ -46,6 +49,7 @@ function Platform(props) {
                       onClick={() => {
                         changeRoute(item.article.url);
                       }}
+
                     >
                       <li>{item.name}</li>
                     </div>
@@ -168,13 +172,13 @@ function Platform(props) {
                 </div>
 
                 <div className={Style.description}>{data3.description}</div>
-                <div className={Style.arrowfolder}>
+                <div className={Style.arrowfolder} onClick={()=>{changeRoute(url)}}>
                   <div>
                     <h6>
                       <b>Learn More</b>
                     </h6>
                   </div>
-                  <div className={Style.arrow}>
+                  <div className={Style.arrow} onClick={()=>{changeRoute(url)}}>
                     <Img src={"/aidtaasImages/images/images/icons/Arrownew.png"} />
                   </div>
                 </div>
@@ -202,7 +206,7 @@ function Platform(props) {
                       <b>Learn More</b>
                     </h6>
                   </div>
-                  <div className={Style.arrow}>
+                  <div className={Style.arrow} onClick={()=>{changeRoute(url)}} >
                     <Img src="/aidtaasImages/images/images/icons/Arrownew.png" />
                   </div>
                 </div>

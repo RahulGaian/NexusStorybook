@@ -190,8 +190,14 @@
     color: #1A1A1A;
     font-size: 18px;
     line-height: 25px;
-    min-height: 150px;
-    max-height: fit-content;
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: scroll;
+    /* scrollbar-width: thin; */
+}
+
+.description::-webkit-scrollbar{
+    width: 10px;
 }
 .arrowfolder {
     display: flex;

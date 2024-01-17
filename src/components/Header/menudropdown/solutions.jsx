@@ -12,6 +12,8 @@ function Solutions(props){
     const [data2, setdata2] = useState([data[0].menus[1].items[0].subitems[0]]);
     const [data3,setdata3]=useState([]);
     const [isdata3,setisdata3]=useState(false);
+    const [url,setUrl] = useState("");
+
     const changeRoute=(Route)=>{
         window.location.href = Route;
     }
@@ -79,6 +81,7 @@ function Solutions(props){
                 { data2[0].items.map((item)=>(
                         <ul class={Style.listitems} onMouseEnter={()=>{setdata3(item.content);
                             // setisdata3(true) 
+                            setUrl(item.content.url)
                         }}  ><div className={Style.content} onClick={()=>{changeRoute(item.content.url)}}><li>{item.name}</li></div>
                         <div class={Style.rightarrow}><Img src={images.RightArrow} alt="rightarrow"/></div></ul>
                     ) )}
@@ -96,8 +99,8 @@ function Solutions(props){
                             <div class={Style.description}>
                             {data3.description}
                             </div>
-                            <div class={Style.arrowfolder}><div><h6><b>Learn More</b></h6></div>
-                            <div className={Style.arrow}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
+                            <div class={Style.arrowfolder} onClick={()=>{changeRoute(url)}}><div><h6><b>Learn More</b></h6></div>
+                            <div className={Style.arrow} onClick={()=>{changeRoute(url)}}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
                             </div>
                             <div class={Style.imagecontainer}>
                             <Img src={data3.coverImage} alt="finalimage"/>
@@ -120,8 +123,8 @@ function Solutions(props){
                             <div class={Style.description}>
                             {data[0].menus[1].items[0].article.description}
                             </div>
-                            <div class={Style.arrowfolder}><div><h6><b>Learn More</b></h6></div>
-                            <div className={Style.arrow}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
+                            <div class={Style.arrowfolder} onClick={()=>{changeRoute(url)}}><div><h6><b>Learn More</b></h6></div>
+                            <div className={Style.arrow} onClick={()=>{changeRoute(url)}}><Img  src={"/aidtaasImages/images/images/icons/Arrownew.png"}/></div>
                             </div>
                             <div class={Style.imagecontainer}>
                             <Img src={data[0].menus[1].items[0].article.coverImage} />

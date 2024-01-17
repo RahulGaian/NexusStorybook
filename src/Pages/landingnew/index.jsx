@@ -13,6 +13,7 @@ import  OppurtiniyCalculator from "../../molecules/OpportunityCalc/index"
 import LeafletCanvasMap from "../../molecules/leafLet";
 import Projection from "../../molecules/projection/index"
 import ModalForm from "../Form";
+import { Suspense } from "react";
 const Landingpagenew = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -135,7 +136,7 @@ const Landingpagenew = () => {
           </div>
         </section>
 
-        <section id="mapcomp"><Map3dComponent /></section>
+            <section id="mapcomp"><Map3dComponent /></section>
     
         <div className="second_bg_img-contaniner">
           <div className="second_bg_content">
